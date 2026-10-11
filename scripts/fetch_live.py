@@ -121,7 +121,9 @@ def main():
         try:
             q = quote(sym, name, kind)
             if q:
-                indices.append(q); times.append(q["time"])
+                indices.append(q)
+                if sym != "BTC-USD":  # crypto trades 24/7; stamp prices with the stock market's time
+                    times.append(q["time"])
         except Exception as e:
             print("quote failed:", sym, e)
     for sym in watch_syms:
