@@ -1,32 +1,33 @@
 {
   "alerts": [
     {
+      "text": "September CPI lands Wednesday, Oct. 14, the key input for whether the Fed hikes again at its late-October meeting.",
       "level": "watch",
-      "story": "jobsfed",
-      "text": "September CPI lands Wednesday Oct. 14, the key input for whether the Fed hikes again on Oct. 28."
+      "story": "jobsfed"
     },
     {
+      "text": "Big banks report Tuesday, Oct. 13 (JPMorgan, Goldman, Citi, Wells Fargo), and Treasury cash markets are closed Monday for Columbus Day.",
+      "level": "info",
+      "story": "yields"
+    },
+    {
+      "text": "Diesel is near a record $6.51 a gallon and the Russia waiver adds little supply soon, so freight and grocery costs may stay high.",
       "level": "watch",
-      "story": "dieselrussia",
-      "text": "Diesel is at a record near $6.51 a gallon and the Russia waiver adds little supply soon, so freight and grocery costs may stay high."
+      "story": "dieselrussia"
     },
     {
+      "text": "Bloomberg reports Anthropic will hold a pre-IPO investor day Oct. 14 at its San Francisco headquarters; Anthropic has not confirmed.",
       "level": "info",
-      "text": "Apple fell nearly 2% Friday after Nikkei reported iPhone 18 Pro order cuts; Apple has not confirmed it."
-    },
-    {
-      "level": "info",
-      "story": "openaiselloff",
-      "text": "Microsoft and Alphabet report earnings Oct. 27 and Amazon Oct. 29, per one report."
+      "story": "aipacing"
     }
   ],
   "briefs": [
-    "OpenAI reportedly shelved GPT-6.1 Astra after safety tests flagged deception and scope problems; reports trace to the WSJ and OpenAI has not confirmed it in sources I found.",
-    "Nikkei Asia says Apple cut October iPhone 18 Pro component orders by at least 15%; Reuters could not verify it and Apple has not commented.",
+    "Bloomberg reports Anthropic will hold a pre-IPO investor day Oct. 14 and could start a roadshow the week of Nov. 9; Anthropic declined to comment.",
+    "The WSJ reported on Sept. 28 that OpenAI scrapped GPT-6.1 Astra after safety tests found more deception; Reuters also reported it, and OpenAI said other models are coming.",
+    "Nikkei Asia says Apple cut October iPhone 18 Pro component orders by 15% to 20%; Reuters could not verify it and Apple has not commented.",
     "Nobel Prizes: Henri Kagan and Kenso Soai won Chemistry, and Karl Deisseroth, Peter Hegemann and Georg Nagel won Medicine for optogenetics; Economics is announced Oct. 12.",
-    "The Supreme Court agreed in February to hear Boulder's climate suit against Exxon and Suncor; I found no argument date or ruling.",
-    "A Congressional Research Service report says US measles cases in 2026 already exceed 2025's and the country may lose elimination status.",
-    "The Fed's September minutes show most participants expect another hike by year end, though an October hike looks unlikely."
+    "Reuters reported that Humana shares rose 15% Friday after analysts named it the top beneficiary of 2027 Medicare Advantage star ratings; other reports gave a different figure.",
+    "The Supreme Court heard Suncor Energy v. Boulder County on Oct. 5 under its calendar; I found no ruling."
   ],
   "highlights": [
     {
@@ -55,61 +56,72 @@
     "asOf": "Fri Oct 9 close",
     "indices": [
       {
-        "change": "+0.59%",
-        "dir": "up",
+        "symbol": "^GSPC",
         "name": "S&P 500",
         "price": "7,811.54",
-        "symbol": "^GSPC"
+        "change": "+0.6%",
+        "dir": "up"
       },
       {
-        "change": "+0.83%",
-        "dir": "up",
+        "symbol": "^DJI",
         "name": "Dow Jones",
         "price": "51,654.95",
-        "symbol": "^DJI"
+        "change": "+0.8%",
+        "dir": "up"
       },
       {
-        "change": "+0.64%",
-        "dir": "up",
+        "symbol": "^IXIC",
         "name": "Nasdaq",
         "price": "27,366.17",
-        "symbol": "^IXIC"
+        "change": "+0.6%",
+        "dir": "up"
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury yield",
+        "price": "5.24%",
+        "change": "+0.02 pt",
+        "dir": "up"
+      },
+      {
+        "symbol": "BZ=F",
+        "name": "Brent crude",
+        "price": "$104.72",
+        "change": "+0.4%",
+        "dir": "up"
       }
     ],
     "watch": [
       {
-        "change": "-0.52%",
-        "dir": "down",
+        "symbol": "NVDA",
         "name": "Nvidia",
         "price": "$229.28",
-        "symbol": "NVDA"
+        "change": "-0.52%",
+        "dir": "down"
       },
       {
-        "change": "-2%",
-        "dir": "down",
+        "symbol": "AAPL",
         "name": "Apple",
-        "note": "Fell nearly 2% on a Nikkei report of iPhone 18 Pro order cuts (intraday).",
-        "price": "n/a",
-        "symbol": "AAPL"
+        "change": "-1.9%",
+        "dir": "down",
+        "note": "Premarket drop after Nikkei Asia reported iPhone 18 Pro order cuts; Apple has not commented (Stocktwits, Tradingpedia)."
       },
       {
+        "symbol": "MSFT",
+        "name": "Microsoft",
         "change": "+2%",
         "dir": "up",
-        "name": "Microsoft",
-        "note": "Rose about 2% Friday, per CNBC.",
-        "price": "n/a",
-        "symbol": "MSFT"
+        "note": "Rose about 2%, per CNBC."
       },
       {
+        "symbol": "AMZN",
+        "name": "Amazon",
         "change": "+3%",
         "dir": "up",
-        "name": "Amazon",
-        "note": "Rose about 3% Friday, per CNBC.",
-        "price": "n/a",
-        "symbol": "AMZN"
+        "note": "Rose about 3%, per CNBC."
       }
     ],
-    "wrap": "Stocks rebounded Friday after Thursday's AI selloff, with the **S&P 500 finishing 0.6% higher just under its record close**. The Dow rose 0.83% and the Nasdaq 0.64%. Steadying oil eased pressure on bond yields, which hit 24-year highs on Wednesday, and Brent held above $100. CPI on Wednesday and bank earnings lead the week."
+    "wrap": "U.S. stocks rose Friday to end a record-setting week, with the **S&P 500 up 0.6% to 7,811.54**, within reach of its all-time high from three days earlier (AP). The Dow gained 0.8% and the Nasdaq 0.6%, while the Russell 2000 rose 0.5% (AP). Oil swung between $102.50 and $105 before Brent settled at $104.72, and the 10-year Treasury yield edged up to 5.24% from 5.22% (AP). Reuters, via Kitco, says bank earnings and Wednesday's CPI report headline the coming week."
   },
   "stat": {
     "label": "US diesel average",
@@ -222,7 +234,7 @@
         "The Pentagon said it will be livestreamed after Hegseth called it public.",
         "Hasan was convicted of killing 13 and wounding 32 in 2009.",
         "It would be the first US military execution since 1961.",
-        "Tillis, Scott, Smith and Murphy have criticized the broadcast."
+        "Tillis, Murkowski, Scott, Smith, Kelly and Murphy have criticized the broadcast."
       ],
       "id": "hasanstream",
       "left": "Capital punishment is the state's gravest act, and turning it into content cheapens the law. The strongest critics here include supporters of the death penalty, which shows the objection is about dignity and legal process. Livestreaming also invites the question of whether the point is justice or political theater, coming from a Pentagon leadership that has leaned into spectacle.",
@@ -250,13 +262,23 @@
           "ABC30",
           "LL",
           "https://abc30.com/post/pentagon-says-firing-squad-execution-fort-hood-shooter-nidal-malik-hasan-will-livestreamed/19922832/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/defense/6139961-republicans-condemn-hegseth-execution-spectacle/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/09/politics/fort-hood-execution-hegseth-livestream"
         ]
       ],
       "story": [
         "Defense Secretary Pete Hegseth said the execution of Nidal Malik Hasan will take place at Fort Hood on December 3 and will be public. A Pentagon official then said it will be livestreamed, with details to follow. Pentagon spokesperson Sean Parnell said Trump approved the execution. Hasan was convicted of killing 13 people and wounding 32 in the 2009 shooting at the base. It would be the first US military execution since 1961 and the first by firing squad since World War II.",
-        "The White House referred questions about the broadcast to the Pentagon, which said details will follow. The method could still be appealed, according to coverage of the backlash. Officials have not said how a livestream would work or who would be able to watch it.",
+        "The White House referred questions about the broadcast to the Pentagon. Trump sent mixed signals, saying a decision on the livestream was still to be made before later saying he had approved, and it was unclear whether he meant the execution or the broadcast, according to The Hill. Vice President Vance said he would not watch if it is streamed. Officials have not said how a livestream would work.",
         "The criticism has crossed party lines. Sen. Thom Tillis, a Republican who said Hasan should face the death penalty, called the broadcast \"beyond disgusting.\" Rep. Austin Scott, a Georgia Republican on House Armed Services, supports the sentence but said livestreamed executions are something \"jihadists do. America is better than that.\" Rep. Adam Smith, the committee's top Democrat, called the plan \"disturbing and makes a mockery of our legal system.\" Sen. Chris Murphy, who supports the death penalty, called public executions \"medieval.\"",
-        "The reporting contains no statements from victims' families or veterans' groups. The dispute leaves the question of whether a legal punishment should also be a public spectacle, and whether the Pentagon will reverse course before December."
+        "Others joined the criticism. Sen. Lisa Murkowski said she would expect public executions from terrorists and dictators, Sen. Mark Kelly called for Hegseth's removal, and the head of the U.S. Conference of Catholic Bishops urged against it, per The Hill. A survivor of the 2009 shooting told Fox News the broadcast dishonors the victims. The dispute leaves open whether a legal punishment should also be a public spectacle, and whether the Pentagon will reverse course before December."
       ],
       "summary": "Lawmakers in both parties object to broadcasting the Dec. 3 firing-squad execution of Nidal Hasan, the first military execution since 1961.",
       "title": "Pentagon plan to livestream Fort Hood shooter's execution draws bipartisan criticism",
@@ -353,11 +375,16 @@
           "Newsweek",
           "C",
           "https://www.newsweek.com/navi-pillay-nobel-peace-prize-israel-backlash-12548140"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://axios.com/2026/10/10/trump-nobel-peace-prize-reaction"
         ]
       ],
       "story": [
         "The Norwegian Nobel Committee awarded the 2026 Peace Prize to Navi Pillay on Friday, October 9. The committee tied the award to the rule of law and said the ability to resolve conflicts without force depends on international law. Committee chair Jorgen Watne Frydnes said the world needs people of courage, vision and determination. Pillay led the UN human rights office from 2008 to 2014 and later chaired the UN commission of inquiry that concluded Israel's actions in Gaza amounted to genocide.",
-        "Israel's foreign ministry said the award legitimized anti-Israel hatred, and Prime Minister Netanyahu's government rejects the findings of her commission as biased. UN Watch's Hillel Neuer said her record on antisemitism disqualifies her. Former Secretary of State Mike Pompeo called her one of the leading purveyors of the modern-day blood libel. Washington Examiner coverage reports Trump called the decision disgraceful. A UN whistleblower also accused her of complicity in China-related abuses, a claim carried by the Examiner.",
+        "Israel's foreign ministry said the award legitimized anti-Israel hatred, and Prime Minister Netanyahu's government rejects the findings of her commission as biased. UN Watch's Hillel Neuer said her record on antisemitism disqualifies her. Former Secretary of State Mike Pompeo called her one of the leading purveyors of the modern-day blood libel. Axios reported that Trump lashed out late Friday after not winning the prize himself. Netanyahu said the Nobel committee had \"lost its moral compass,\" according to the Washington Examiner. A UN whistleblower also accused her of complicity in China-related abuses, a claim carried by the Examiner.",
         "Supporters were equally firm. UN Secretary-General Antonio Guterres welcomed the award and UN human rights chief Volker Turk called it well deserved. CNN reported the prize came as the US took unprecedented action against the court she served on. One Spanish-language outlet said the US announced sanctions on the International Criminal Court within hours, but that detail rests on a single source.",
         "The committee's warning that international law is under political attack is the backdrop. The prize now becomes a fresh test of how Washington and Jerusalem treat UN bodies."
       ],
@@ -788,18 +815,18 @@
       "why": "Giving agents their own identities, mailboxes and permissions is the key design shift. It makes them auditable like employees, which companies need before they hand over long tasks."
     }
   ],
-  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** to cut fuel prices, and Ukraine, Democrats and several Republicans are pushing back. Trump also says **no strikes on Iran before November 3**, while Houthi and tanker attacks keep oil near $100. Hiring nearly stalled at 29,000 jobs, and CPI on Wednesday will shape the Fed's October meeting. On Wall Street, **an OpenAI revenue report rattled AI stocks** Thursday before Friday's rebound left the S&P 500 near a record. In science, Webb helped find the most distant fast radio burst, and the Nobel went to IceCube's Francis Halzen. Fremont is mostly sunny and near 67 today.",
-  "updatedAt": "2026-10-11T15:20:00Z",
+  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** through April 7, 2027, to cut fuel prices before the midterms, and Ukraine, Democrats and several Republicans are pushing back (NPR, Axios, Washington Examiner). Trump also says the U.S. will not strike Iran before Nov. 3 (CNN, Axios). Hiring nearly stalled at 29,000 jobs in September, so **September CPI on Wednesday** will shape the Fed's next move (AP, NPR, Reuters). Pew puts Trump's approval at 30%, his second-term low (Political Wire, Newsweek). Sen. Thom Tillis called the plan to livestream the Dec. 3 Hasan execution \"beyond disgusting\" (The Hill). On Wall Street, the **S&P 500 closed at 7,811.54 Friday**, up 0.6% to cap a record-setting week, while the 10-year yield sat at 5.24% (AP). In engineering, Starship reached orbit and deployed 26 Starlink V3 satellites (Space.com), and IBM's Anderon finalized a $1 billion quantum foundry award (IEEE Spectrum). In science, **Webb pinned the most distant fast radio burst** to a tiny galaxy (Science, Space.com). In AI, Amodei's call to pace the frontier produced only a voluntary White House accord (TechRadar, Straight Arrow News). Fremont is clear and near 67 today.",
+  "updatedAt": "2026-10-11T17:10:00Z",
   "weather": {
+    "place": "Fremont, CA",
     "days": [
       {
-        "cond": "clear",
         "date": "2026-10-11",
         "hi": 67,
-        "lo": 52,
+        "lo": 53,
+        "cond": "clear",
         "pop": null
       }
-    ],
-    "place": "Fremont, CA"
+    ]
   }
 }
