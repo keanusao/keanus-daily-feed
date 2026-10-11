@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Keanu's twice-daily news briefing: both sides of politics, markets, engineering, science, AI and Fremont weather.">
 <meta name="theme-color" content="#07080f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Daily Feed">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>Keanu's Daily Feed</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -337,6 +343,40 @@ a.tk:hover{border-color:var(--cyan)}
 .wl-form input{flex:1;min-width:140px;max-width:260px;background:var(--bg2);border:1px solid var(--line);color:var(--ink);padding:6px 10px;font-family:var(--mono);font-size:.85rem;text-transform:uppercase}
 .wl-note{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin:6px 0 0}
 
+/* Edition picker + archive banner */
+.edpick{background:var(--surface);border:1px solid var(--line);color:var(--ink);font-family:var(--mono);font-size:.76rem;padding:3px 6px;max-width:220px}
+.edpick:focus{border-color:var(--cyan);outline:none}
+.archive-banner{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:14px;padding:10px 14px;border:1px solid var(--volt);background:rgba(242,255,90,.06);font-family:var(--mono);font-size:.82rem}
+.archive-banner b{color:var(--volt)}
+
+/* New since last visit */
+.newb{font-family:var(--mono);font-size:.64rem;font-weight:600;color:var(--on-accent);background:var(--volt);padding:0 6px;letter-spacing:.06em;text-transform:uppercase}
+.since{margin-top:18px;padding:12px 16px;background:rgba(16,19,42,.9);border:1px solid var(--line);border-left:3px solid var(--volt)}
+.since h2{margin:0 0 6px;font-family:var(--head);font-size:1rem;letter-spacing:.06em;text-transform:uppercase}
+.since h2 span{color:var(--volt)}
+.since ul{margin:0;padding-left:1.1em;display:grid;gap:4px}
+.since li::marker{content:"+ ";color:var(--volt)}
+.since li button{all:unset;cursor:pointer}
+.since li button:hover{color:var(--cyan)}
+
+/* Your day */
+.cal{margin-top:14px;background:rgba(16,19,42,.88);border:1px solid var(--line);padding:14px 16px}
+.cal-list{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px}
+.cal-list li{display:grid;grid-template-columns:90px 1fr;gap:10px;font-size:.97rem}
+.cal-list .ct{font-family:var(--mono);font-size:.82rem;color:var(--cyan);padding-top:2px}
+.cal-list .cl{color:var(--muted)}
+
+/* Tune + listen */
+.tune{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;font-family:var(--mono);font-size:.74rem;color:var(--muted)}
+.tune button{background:transparent;border:1px solid var(--line);color:var(--ink);padding:3px 9px;cursor:pointer;font-family:var(--mono);font-size:.74rem}
+.tune button:hover{border-color:var(--cyan);color:var(--cyan)}
+.tune button[aria-pressed="true"]{border-color:var(--cyan);color:var(--cyan);box-shadow:0 0 8px rgba(34,228,255,.35)}
+.tune button.less[aria-pressed="true"]{border-color:var(--mag);color:var(--mag);box-shadow:0 0 8px rgba(255,46,136,.35)}
+.listen{margin-left:auto;background:transparent;border:1px solid var(--cyan);color:var(--cyan);font-family:var(--mono);font-size:.72rem;padding:2px 9px;cursor:pointer;text-transform:none;letter-spacing:0}
+.listen:hover{background:var(--cyan);color:var(--on-accent)}
+#player{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:35;display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:calc(100% - 24px);padding:8px 12px;background:var(--surface2);border:1px solid var(--cyan);box-shadow:0 0 22px rgba(34,228,255,.3)}
+#player .pt{font-family:var(--mono);font-size:.78rem;color:var(--cyan);max-width:46ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+
 /* Sources tab */
 .spectrum{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
 @media (max-width:720px){.spectrum{grid-template-columns:1fr 1fr}}
@@ -380,7 +420,10 @@ footer{margin-top:40px;text-align:center;font-family:var(--mono);font-size:.75re
       <span><span class="dot" id="dot"></span><span id="edlabel">Loading edition…</span></span>
       <span id="nextEd"></span>
       <span class="readbar"><span id="readtxt">0 read</span><span class="track"><span class="fill" id="readfill"></span></span></span>
+      <label class="vh" for="edpick">Choose an edition</label>
+      <select id="edpick" class="edpick" hidden></select>
       <span class="tools">
+        <button class="tbtn" type="button" id="notify-btn" hidden title="Get a notification when a new edition arrives">Alerts</button>
         <button class="tbtn" type="button" id="font-dn" aria-label="Smaller text">A−</button>
         <button class="tbtn" type="button" id="font-up" aria-label="Larger text">A+</button>
         <button class="tbtn" type="button" id="help-btn" aria-label="Keyboard shortcuts">?</button>
@@ -539,32 +582,33 @@ document.getElementById("seal").innerHTML=`<polygon points="50,4 90,27 90,73 50,
 let ED = {
   "alerts": [
     {
+      "text": "September CPI lands Wednesday, Oct. 14, the key input for whether the Fed hikes again at its late-October meeting.",
       "level": "watch",
-      "story": "jobsfed",
-      "text": "September CPI lands Wednesday Oct. 14, the key input for whether the Fed hikes again on Oct. 28."
+      "story": "jobsfed"
     },
     {
+      "text": "Big banks report Tuesday, Oct. 13 (JPMorgan, Goldman, Citi, Wells Fargo), and Treasury cash markets are closed Monday for Columbus Day.",
+      "level": "info",
+      "story": "yields"
+    },
+    {
+      "text": "Diesel is near a record $6.51 a gallon and the Russia waiver adds little supply soon, so freight and grocery costs may stay high.",
       "level": "watch",
-      "story": "dieselrussia",
-      "text": "Diesel is at a record near $6.51 a gallon and the Russia waiver adds little supply soon, so freight and grocery costs may stay high."
+      "story": "dieselrussia"
     },
     {
+      "text": "Bloomberg reports Anthropic will hold a pre-IPO investor day Oct. 14 at its San Francisco headquarters; Anthropic has not confirmed.",
       "level": "info",
-      "text": "Apple fell nearly 2% Friday after Nikkei reported iPhone 18 Pro order cuts; Apple has not confirmed it."
-    },
-    {
-      "level": "info",
-      "story": "openaiselloff",
-      "text": "Microsoft and Alphabet report earnings Oct. 27 and Amazon Oct. 29, per one report."
+      "story": "aipacing"
     }
   ],
   "briefs": [
-    "OpenAI reportedly shelved GPT-6.1 Astra after safety tests flagged deception and scope problems; reports trace to the WSJ and OpenAI has not confirmed it in sources I found.",
-    "Nikkei Asia says Apple cut October iPhone 18 Pro component orders by at least 15%; Reuters could not verify it and Apple has not commented.",
+    "Bloomberg reports Anthropic will hold a pre-IPO investor day Oct. 14 and could start a roadshow the week of Nov. 9; Anthropic declined to comment.",
+    "The WSJ reported on Sept. 28 that OpenAI scrapped GPT-6.1 Astra after safety tests found more deception; Reuters also reported it, and OpenAI said other models are coming.",
+    "Nikkei Asia says Apple cut October iPhone 18 Pro component orders by 15% to 20%; Reuters could not verify it and Apple has not commented.",
     "Nobel Prizes: Henri Kagan and Kenso Soai won Chemistry, and Karl Deisseroth, Peter Hegemann and Georg Nagel won Medicine for optogenetics; Economics is announced Oct. 12.",
-    "The Supreme Court agreed in February to hear Boulder's climate suit against Exxon and Suncor; I found no argument date or ruling.",
-    "A Congressional Research Service report says US measles cases in 2026 already exceed 2025's and the country may lose elimination status.",
-    "The Fed's September minutes show most participants expect another hike by year end, though an October hike looks unlikely."
+    "Reuters reported that Humana shares rose 15% Friday after analysts named it the top beneficiary of 2027 Medicare Advantage star ratings; other reports gave a different figure.",
+    "The Supreme Court heard Suncor Energy v. Boulder County on Oct. 5 under its calendar; I found no ruling."
   ],
   "highlights": [
     {
@@ -593,61 +637,72 @@ let ED = {
     "asOf": "Fri Oct 9 close",
     "indices": [
       {
-        "change": "+0.59%",
-        "dir": "up",
+        "symbol": "^GSPC",
         "name": "S&P 500",
         "price": "7,811.54",
-        "symbol": "^GSPC"
+        "change": "+0.6%",
+        "dir": "up"
       },
       {
-        "change": "+0.83%",
-        "dir": "up",
+        "symbol": "^DJI",
         "name": "Dow Jones",
         "price": "51,654.95",
-        "symbol": "^DJI"
+        "change": "+0.8%",
+        "dir": "up"
       },
       {
-        "change": "+0.64%",
-        "dir": "up",
+        "symbol": "^IXIC",
         "name": "Nasdaq",
         "price": "27,366.17",
-        "symbol": "^IXIC"
+        "change": "+0.6%",
+        "dir": "up"
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury yield",
+        "price": "5.24%",
+        "change": "+0.02 pt",
+        "dir": "up"
+      },
+      {
+        "symbol": "BZ=F",
+        "name": "Brent crude",
+        "price": "$104.72",
+        "change": "+0.4%",
+        "dir": "up"
       }
     ],
     "watch": [
       {
-        "change": "-0.52%",
-        "dir": "down",
+        "symbol": "NVDA",
         "name": "Nvidia",
         "price": "$229.28",
-        "symbol": "NVDA"
+        "change": "-0.52%",
+        "dir": "down"
       },
       {
-        "change": "-2%",
-        "dir": "down",
+        "symbol": "AAPL",
         "name": "Apple",
-        "note": "Fell nearly 2% on a Nikkei report of iPhone 18 Pro order cuts (intraday).",
-        "price": "n/a",
-        "symbol": "AAPL"
+        "change": "-1.9%",
+        "dir": "down",
+        "note": "Premarket drop after Nikkei Asia reported iPhone 18 Pro order cuts; Apple has not commented (Stocktwits, Tradingpedia)."
       },
       {
+        "symbol": "MSFT",
+        "name": "Microsoft",
         "change": "+2%",
         "dir": "up",
-        "name": "Microsoft",
-        "note": "Rose about 2% Friday, per CNBC.",
-        "price": "n/a",
-        "symbol": "MSFT"
+        "note": "Rose about 2%, per CNBC."
       },
       {
+        "symbol": "AMZN",
+        "name": "Amazon",
         "change": "+3%",
         "dir": "up",
-        "name": "Amazon",
-        "note": "Rose about 3% Friday, per CNBC.",
-        "price": "n/a",
-        "symbol": "AMZN"
+        "note": "Rose about 3%, per CNBC."
       }
     ],
-    "wrap": "Stocks rebounded Friday after Thursday's AI selloff, with the **S&P 500 finishing 0.6% higher just under its record close**. The Dow rose 0.83% and the Nasdaq 0.64%. Steadying oil eased pressure on bond yields, which hit 24-year highs on Wednesday, and Brent held above $100. CPI on Wednesday and bank earnings lead the week."
+    "wrap": "U.S. stocks rose Friday to end a record-setting week, with the **S&P 500 up 0.6% to 7,811.54**, within reach of its all-time high from three days earlier (AP). The Dow gained 0.8% and the Nasdaq 0.6%, while the Russell 2000 rose 0.5% (AP). Oil swung between $102.50 and $105 before Brent settled at $104.72, and the 10-year Treasury yield edged up to 5.24% from 5.22% (AP). Reuters, via Kitco, says bank earnings and Wednesday's CPI report headline the coming week."
   },
   "stat": {
     "label": "US diesel average",
@@ -760,7 +815,7 @@ let ED = {
         "The Pentagon said it will be livestreamed after Hegseth called it public.",
         "Hasan was convicted of killing 13 and wounding 32 in 2009.",
         "It would be the first US military execution since 1961.",
-        "Tillis, Scott, Smith and Murphy have criticized the broadcast."
+        "Tillis, Murkowski, Scott, Smith, Kelly and Murphy have criticized the broadcast."
       ],
       "id": "hasanstream",
       "left": "Capital punishment is the state's gravest act, and turning it into content cheapens the law. The strongest critics here include supporters of the death penalty, which shows the objection is about dignity and legal process. Livestreaming also invites the question of whether the point is justice or political theater, coming from a Pentagon leadership that has leaned into spectacle.",
@@ -788,13 +843,23 @@ let ED = {
           "ABC30",
           "LL",
           "https://abc30.com/post/pentagon-says-firing-squad-execution-fort-hood-shooter-nidal-malik-hasan-will-livestreamed/19922832/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/defense/6139961-republicans-condemn-hegseth-execution-spectacle/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/09/politics/fort-hood-execution-hegseth-livestream"
         ]
       ],
       "story": [
         "Defense Secretary Pete Hegseth said the execution of Nidal Malik Hasan will take place at Fort Hood on December 3 and will be public. A Pentagon official then said it will be livestreamed, with details to follow. Pentagon spokesperson Sean Parnell said Trump approved the execution. Hasan was convicted of killing 13 people and wounding 32 in the 2009 shooting at the base. It would be the first US military execution since 1961 and the first by firing squad since World War II.",
-        "The White House referred questions about the broadcast to the Pentagon, which said details will follow. The method could still be appealed, according to coverage of the backlash. Officials have not said how a livestream would work or who would be able to watch it.",
+        "The White House referred questions about the broadcast to the Pentagon. Trump sent mixed signals, saying a decision on the livestream was still to be made before later saying he had approved, and it was unclear whether he meant the execution or the broadcast, according to The Hill. Vice President Vance said he would not watch if it is streamed. Officials have not said how a livestream would work.",
         "The criticism has crossed party lines. Sen. Thom Tillis, a Republican who said Hasan should face the death penalty, called the broadcast \"beyond disgusting.\" Rep. Austin Scott, a Georgia Republican on House Armed Services, supports the sentence but said livestreamed executions are something \"jihadists do. America is better than that.\" Rep. Adam Smith, the committee's top Democrat, called the plan \"disturbing and makes a mockery of our legal system.\" Sen. Chris Murphy, who supports the death penalty, called public executions \"medieval.\"",
-        "The reporting contains no statements from victims' families or veterans' groups. The dispute leaves the question of whether a legal punishment should also be a public spectacle, and whether the Pentagon will reverse course before December."
+        "Others joined the criticism. Sen. Lisa Murkowski said she would expect public executions from terrorists and dictators, Sen. Mark Kelly called for Hegseth's removal, and the head of the U.S. Conference of Catholic Bishops urged against it, per The Hill. A survivor of the 2009 shooting told Fox News the broadcast dishonors the victims. The dispute leaves open whether a legal punishment should also be a public spectacle, and whether the Pentagon will reverse course before December."
       ],
       "summary": "Lawmakers in both parties object to broadcasting the Dec. 3 firing-squad execution of Nidal Hasan, the first military execution since 1961.",
       "title": "Pentagon plan to livestream Fort Hood shooter's execution draws bipartisan criticism",
@@ -891,11 +956,16 @@ let ED = {
           "Newsweek",
           "C",
           "https://www.newsweek.com/navi-pillay-nobel-peace-prize-israel-backlash-12548140"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://axios.com/2026/10/10/trump-nobel-peace-prize-reaction"
         ]
       ],
       "story": [
         "The Norwegian Nobel Committee awarded the 2026 Peace Prize to Navi Pillay on Friday, October 9. The committee tied the award to the rule of law and said the ability to resolve conflicts without force depends on international law. Committee chair Jorgen Watne Frydnes said the world needs people of courage, vision and determination. Pillay led the UN human rights office from 2008 to 2014 and later chaired the UN commission of inquiry that concluded Israel's actions in Gaza amounted to genocide.",
-        "Israel's foreign ministry said the award legitimized anti-Israel hatred, and Prime Minister Netanyahu's government rejects the findings of her commission as biased. UN Watch's Hillel Neuer said her record on antisemitism disqualifies her. Former Secretary of State Mike Pompeo called her one of the leading purveyors of the modern-day blood libel. Washington Examiner coverage reports Trump called the decision disgraceful. A UN whistleblower also accused her of complicity in China-related abuses, a claim carried by the Examiner.",
+        "Israel's foreign ministry said the award legitimized anti-Israel hatred, and Prime Minister Netanyahu's government rejects the findings of her commission as biased. UN Watch's Hillel Neuer said her record on antisemitism disqualifies her. Former Secretary of State Mike Pompeo called her one of the leading purveyors of the modern-day blood libel. Axios reported that Trump lashed out late Friday after not winning the prize himself. Netanyahu said the Nobel committee had \"lost its moral compass,\" according to the Washington Examiner. A UN whistleblower also accused her of complicity in China-related abuses, a claim carried by the Examiner.",
         "Supporters were equally firm. UN Secretary-General Antonio Guterres welcomed the award and UN human rights chief Volker Turk called it well deserved. CNN reported the prize came as the US took unprecedented action against the court she served on. One Spanish-language outlet said the US announced sanctions on the International Criminal Court within hours, but that detail rests on a single source.",
         "The committee's warning that international law is under political attack is the backdrop. The prize now becomes a fresh test of how Washington and Jerusalem treat UN bodies."
       ],
@@ -1326,19 +1396,19 @@ let ED = {
       "why": "Giving agents their own identities, mailboxes and permissions is the key design shift. It makes them auditable like employees, which companies need before they hand over long tasks."
     }
   ],
-  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** to cut fuel prices, and Ukraine, Democrats and several Republicans are pushing back. Trump also says **no strikes on Iran before November 3**, while Houthi and tanker attacks keep oil near $100. Hiring nearly stalled at 29,000 jobs, and CPI on Wednesday will shape the Fed's October meeting. On Wall Street, **an OpenAI revenue report rattled AI stocks** Thursday before Friday's rebound left the S&P 500 near a record. In science, Webb helped find the most distant fast radio burst, and the Nobel went to IceCube's Francis Halzen. Fremont is mostly sunny and near 67 today.",
-  "updatedAt": "2026-10-11T15:20:00Z",
+  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** through April 7, 2027, to cut fuel prices before the midterms, and Ukraine, Democrats and several Republicans are pushing back (NPR, Axios, Washington Examiner). Trump also says the U.S. will not strike Iran before Nov. 3 (CNN, Axios). Hiring nearly stalled at 29,000 jobs in September, so **September CPI on Wednesday** will shape the Fed's next move (AP, NPR, Reuters). Pew puts Trump's approval at 30%, his second-term low (Political Wire, Newsweek). Sen. Thom Tillis called the plan to livestream the Dec. 3 Hasan execution \"beyond disgusting\" (The Hill). On Wall Street, the **S&P 500 closed at 7,811.54 Friday**, up 0.6% to cap a record-setting week, while the 10-year yield sat at 5.24% (AP). In engineering, Starship reached orbit and deployed 26 Starlink V3 satellites (Space.com), and IBM's Anderon finalized a $1 billion quantum foundry award (IEEE Spectrum). In science, **Webb pinned the most distant fast radio burst** to a tiny galaxy (Science, Space.com). In AI, Amodei's call to pace the frontier produced only a voluntary White House accord (TechRadar, Straight Arrow News). Fremont is clear and near 67 today.",
+  "updatedAt": "2026-10-11T17:10:00Z",
   "weather": {
+    "place": "Fremont, CA",
     "days": [
       {
-        "cond": "clear",
         "date": "2026-10-11",
         "hi": 67,
-        "lo": 52,
+        "lo": 53,
+        "cond": "clear",
         "pop": null
       }
-    ],
-    "place": "Fremont, CA"
+    ]
   }
 };
 
@@ -1450,8 +1520,10 @@ async function loadWeather(){
       current:j.current?{temp:j.current.temperature_2m, feels:j.current.apparent_temperature, hum:j.current.relative_humidity_2m, wind:j.current.wind_speed_10m, kind:wmo(j.current.weather_code)}:null,
       days:d.time.map((t,i)=>({date:t, hi:d.temperature_2m_max[i], lo:d.temperature_2m_min[i], kind:wmo(d.weather_code[i]), pop:d.precipitation_probability_max?d.precipitation_probability_max[i]:null}))};
   }catch(e){
-    const w=ED.weather;
-    wx = w ? {live:false, place:w.place||DEFAULT_CITY.name, fetchedAt:null, current:w.current||null,
+    const w=(LIVE&&LIVE.weather&&Array.isArray(LIVE.weather.days)&&LIVE.weather.days.length>=(ED.weather?ED.weather.days.length:0))?LIVE.weather:ED.weather;
+    const wc=w&&w.current;
+    wx = w ? {live:false, place:w.place||DEFAULT_CITY.name, fetchedAt:null, tz:w.tz,
+               current:wc&&wc.temp!=null?{temp:wc.temp,feels:wc.feels??wc.temp,hum:wc.hum??0,wind:wc.wind??0,kind:WX_LABEL[wc.kind]?wc.kind:(WX_LABEL[wc.cond]?wc.cond:"cloudy")}:null,
                days:w.days.map(x=>({date:x.date, hi:x.hi, lo:x.lo, kind:WX_LABEL[x.cond]?x.cond:(WX_LABEL[x.kind]?x.kind:"cloudy"), pop:x.pop==null?null:x.pop, note:x.note}))}
            : {live:false, place:city.name, days:[], error:true};
   }
@@ -1509,7 +1581,7 @@ function renderWeather(){
   })));
   box.append(wx.live
     ? el("p",{class:"wx-note"},"Live from Open-Meteo · refreshed ",el("span",{id:"wx-age",text:fmtAgo(Date.now()-wx.fetchedAt)})," · °F")
-    : el("p",{class:"wx-note",text:`Forecast saved with this edition${wx.place!==city.name?" for "+wx.place:""}. This viewer blocks live weather, location and city search; they work when you open the downloaded file in a browser.`}));
+    : el("p",{class:"wx-note",text:`${wx.place} forecast from Open-Meteo, saved with this edition. Live weather, your location and city search work on the website version (keanusao.github.io/keanus-daily-feed).`}));
 }
 async function searchCity(q){
   q=(q||"").trim(); if(!q) return;
@@ -1643,6 +1715,14 @@ function briefingList(){
 
 function renderFront(v){
   v.append(el("section",{class:"wx",id:"wx","aria-label":"Weather"}));
+  v.append(el("section",{class:"cal",id:"cal","aria-label":"Your day",hidden:""}));
+  const fresh=ED.stories.filter(s=>NEWKEYS.has(s.key));
+  if(fresh.length && !VIEWING){
+    const ago=lastVisit?fmtAgo(Date.now()-lastVisit).replace(" ago",""):"";
+    v.append(el("section",{class:"since","aria-label":"New since your last visit"},
+      el("h2",{},`New since your last visit${ago?" ("+ago+" ago)":""} · `,el("span",{text:`${fresh.length} ${fresh.length===1?"story":"stories"}`})),
+      el("ul",{},fresh.map(s=>el("li",{},el("button",{type:"button",onclick:()=>go(s.section,s.id)},el("span",{class:"sec-tag",text:secName(s.section)+" "}),s.title))))));
+  }
   const lead=(ED.highlights[0]&&ED.highlights[0].s)||ED.stories[0];
   if(lead){
     v.append(el("section",{class:"lead"},
@@ -1657,7 +1737,8 @@ function renderFront(v){
   }
   const n=ED.stories.length, secs=new Set(ED.stories.map(s=>s.section)).size, up=new Date(ED.updatedAt);
   v.append(el("section",{class:"letter"},
-    el("div",{class:"bar"},el("i"),el("i"),el("i"),el("span",{text:"Incoming transmission // for Keanu"})),
+    el("div",{class:"bar"},el("i"),el("i"),el("i"),el("span",{text:"Incoming transmission // for Keanu"}),
+      TTS?el("button",{class:"listen",type:"button",onclick:()=>speak("your briefing",briefingParts()),text:"▶ Listen"}):null),
     el("div",{class:"inner"},
       el("p",{class:"salute",text:greeting()}),
       ED.summary?el("p",{class:"body"},richSummary(ED.summary)):null,
@@ -1670,7 +1751,7 @@ function renderFront(v){
     v.append(el("h3",{class:"label",text:"Highlights"}));
     v.append(el("div",{class:"gallery"},rest.map((h,i)=>el("button",{class:"card"+(isRead(h.s)?" is-read":""),type:"button",onclick:()=>go(h.s.section,h.s.id)},
       el("div",{class:"pw",html:plate(motifFor(h.s),h.s.id,"Illustration: "+h.s.title)},el("span",{class:"num",text:String(i+2).padStart(2,"0")})),
-      el("div",{class:"tx"},el("span",{class:"sec-tag",text:secName(h.s.section)+(isRead(h.s)?" · read":"")}),el("span",{class:"t",text:h.text}),viaText(h.s)?el("span",{class:"via",text:viaText(h.s)}):null)))));
+      el("div",{class:"tx"},el("span",{class:"sec-tag"},secName(h.s.section)+(isRead(h.s)?" · read":"")," ",NEWKEYS.has(h.s.key)?el("span",{class:"newb",text:"New"}):null),el("span",{class:"t",text:h.text}),viaText(h.s)?el("span",{class:"via",text:viaText(h.s)}):null)))));
   }
 
   const hlIds=new Set(ED.highlights.map(h=>h.story));
@@ -1679,7 +1760,7 @@ function renderFront(v){
     v.append(el("h3",{class:"label",text:"More summaries"}));
     v.append(el("div",{class:"quick"},more.map(s=>el("button",{class:"qs"+(isRead(s)?" is-read":""),type:"button",onclick:()=>go(s.section,s.id)},
       el("div",{class:"ic",html:plate(motifFor(s),s.id,"")}),
-      el("div",{class:"tx"},el("span",{class:"sec-tag",text:secName(s.section)+(isRead(s)?" · read":"")}),el("span",{class:"ti",text:s.title}),el("span",{class:"su",text:s.summary}))))));
+      el("div",{class:"tx"},el("span",{class:"sec-tag"},secName(s.section)+(isRead(s)?" · read":"")," ",NEWKEYS.has(s.key)?el("span",{class:"newb",text:"New"}):null),el("span",{class:"ti",text:s.title}),el("span",{class:"su",text:s.summary}))))));
   }
 
   v.append(el("h3",{class:"label",text:"Readouts"}));
@@ -1709,7 +1790,7 @@ function renderFront(v){
     el("h3",{class:"label",text:"Unconfirmed reports"}),
     el("p",{class:"note",text:"Only one source has reported these so far. Treat them as unconfirmed."}),
     el("ul",{},ED.briefs.map(t=>el("li",{text:t})))));
-  renderWeather();
+  renderWeather(); renderCal();
 }
 
 function hl(text){
@@ -1727,13 +1808,22 @@ function toggleSave(s){
   else { const {key,...snap}=s; saved[s.key]={...snap, key:s.key, savedAt:Date.now(), edition:ED.updatedAt}; toast("Saved. Find it in the Saved tab."); }
   LS.set("kc-saved",saved); renderTabs();
 }
+function tuneRow(s){
+  const st=prefState(s);
+  const row=el("div",{class:"tune"},el("span",{text:"Tune your feed:"}));
+  const more=el("button",{type:"button",class:"more","aria-pressed":String(st===1),text:"+ More like this"});
+  const less=el("button",{type:"button",class:"less","aria-pressed":String(st===-1),text:"− Less like this"});
+  const sync=()=>{ const v=prefState(s); more.setAttribute("aria-pressed",String(v===1)); less.setAttribute("aria-pressed",String(v===-1)); };
+  more.onclick=()=>{ tune(s,1); sync(); }; less.onclick=()=>{ tune(s,-1); sync(); };
+  row.append(more,less); return row;
+}
 function storyCard(s, first){
   const art=el("article",{class:"story"+(first?" first":"")+(isRead(s)?" is-read":""),id:"story-"+s.id,"data-key":s.key});
   const saveBtn=el("button",{class:"ibtn",type:"button","aria-pressed":String(isSaved(s)),title:"Save (s)",text:isSaved(s)?"★ Saved":"☆ Save"});
   const readBtn=el("button",{class:"ibtn",type:"button","aria-pressed":String(isRead(s)),title:"Mark read (r)",text:isRead(s)?"✓ Read":"Mark read"});
   saveBtn.onclick=()=>{ toggleSave(s); const on=isSaved(s); saveBtn.setAttribute("aria-pressed",String(on)); saveBtn.textContent=on?"★ Saved":"☆ Save"; if(tab==="saved") renderView(); };
   readBtn.onclick=()=>{ const on=!isRead(s); markRead(s,on); readBtn.setAttribute("aria-pressed",String(on)); readBtn.textContent=on?"✓ Read":"Mark read"; art.classList.toggle("is-read",on); };
-  const eb=el("div",{class:"eyebrow"},el("span",{text:secName(s.section)}),s.when?el("span",{text:"· "+s.when}):null,s.flag?el("span",{class:"flag",text:"· "+s.flag}):null,s.savedAt?el("span",{text:"· saved "+new Date(s.savedAt).toLocaleDateString("en-US",{month:"short",day:"numeric"})}):null);
+  const eb=el("div",{class:"eyebrow"},el("span",{text:secName(s.section)}),NEWKEYS.has(s.key)&&!VIEWING?el("span",{class:"newb",text:"New"}):null,s.when?el("span",{text:"· "+s.when}):null,s.flag?el("span",{class:"flag",text:"· "+s.flag}):null,s.savedAt?el("span",{text:"· saved "+new Date(s.savedAt).toLocaleDateString("en-US",{month:"short",day:"numeric"})}):null);
   const sides=el("div",{class:"sides"});
   if(s.left) sides.append(el("div",{class:"side l"},el("h5",{text:"The left's case"}),el("p",{text:s.left})));
   if(s.right) sides.append(el("div",{class:"side r"},el("h5",{text:"The right's case"}),el("p",{text:s.right})));
@@ -1765,11 +1855,12 @@ function storyCard(s, first){
   det.addEventListener("toggle",()=>{ if(det.open && !isRead(s)){ markRead(s,true); readBtn.setAttribute("aria-pressed","true"); readBtn.textContent="✓ Read"; art.classList.add("is-read"); } });
   art.append(plateBox(s),
     el("div",{class:"content"},
-      el("div",{class:"rowtop"},eb,el("div",{class:"acts"},saveBtn,readBtn)),
+      el("div",{class:"rowtop"},eb,el("div",{class:"acts"},saveBtn,readBtn,
+        TTS?el("button",{class:"ibtn",type:"button",title:"Read this story aloud",onclick:()=>speak(s.title,storyParts(s)),text:"▶ Listen"}):null)),
       el("h3",{},hl(s.title)),
       el("p",{class:"tldr"},el("b",{text:"In short"}),hl(s.summary)),
       s.story[0]?el("p",{class:"lede"},hl(s.story[0])):null,
-      srcLine(s), det));
+      srcLine(s), det, tuneRow(s)));
   return art;
 }
 function renderSection(v,sec){
@@ -1809,7 +1900,7 @@ function tickTile(t, sym, removable){
 function renderStocks(v,sec){
   v.append(el("div",{class:"sec-head"},el("div",{class:"emb",html:plate(sec.motif,sec.id,sec.name+" emblem")}),el("div",{},el("h2",{text:sec.name}),el("p",{text:sec.blurb}))));
   const M=ED.markets;
-  if(M&&(M.wrap||M.asOf)) v.append(el("div",{class:"mkt-wrap"},M.wrap?el("p",{},richSummary(M.wrap)):null,el("p",{class:"mkt-asof",text:`Prices as of ${M.asOf||"the last close"} · from this edition, not live`})));
+  if(M&&(M.wrap||M.asOf)) v.append(el("div",{class:"mkt-wrap"},M.wrap?el("p",{},richSummary(M.wrap)):null,el("p",{class:"mkt-asof",text:M.live?`Prices as of ${M.asOf} · refreshed hourly from Yahoo Finance`:`Prices as of ${M.asOf||"the last close"} · from this edition`})));
   if(M&&M.indices.length){
     v.append(el("h3",{class:"label",text:"Major indexes"}));
     v.append(el("div",{class:"board"},M.indices.map(t=>tickTile(t))));
@@ -1849,6 +1940,12 @@ function renderSources(v){
 }
 function renderView(){
   const v=document.getElementById("view"); v.innerHTML=""; current=-1;
+  if(VIEWING){
+    const up=new Date(ED.updatedAt);
+    v.append(el("div",{class:"archive-banner",role:"status"},
+      el("span",{},el("b",{text:"Past edition: "}),`${ED.label}, ${up.toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}`),
+      el("button",{class:"tbtn",type:"button",onclick:()=>openArchive(""),text:"Back to latest"})));
+  }
   if(query) return renderSearch(v);
   const sec=SECTIONS.find(s=>s.id===tab)||SECTIONS[0];
   if(sec.id==="front") renderFront(v); else if(sec.id==="sources") renderSources(v); else if(sec.id==="saved") renderSaved(v); else if(sec.id==="stocks") renderStocks(v,sec); else renderSection(v,sec);
@@ -1984,8 +2081,182 @@ window.addEventListener("scroll",()=>{ const h=document.documentElement.scrollHe
   raf=requestAnimationFrame(frame);
 })();
 
+/* ================= Features: live data, archive, since-last-visit, listen, alerts, calendar, tuning ================= */
+let LATEST=null, VIEWING=null, LIVE=null, CAL=null, ARCHIVE=[], NEWKEYS=new Set(), gotRemote=false;
+let prefs=LS.get("kc-prefs",{likes:[],dislikes:[]});
+const seenPrev=LS.get("kc-seen",{}), lastVisit=LS.get("kc-lastvisit",0);
+LS.set("kc-lastvisit",Date.now());
+
+function computeNew(){
+  NEWKEYS=new Set(Object.keys(seenPrev).length ? ED.stories.filter(s=>!seenPrev[s.key]).map(s=>s.key) : []);
+  const now=Date.now(), seen=LS.get("kc-seen",{});
+  ED.stories.forEach(s=>{ if(!seen[s.key]) seen[s.key]=now; });
+  for(const k in seen) if(seen[k]<now-21*864e5) delete seen[k];
+  LS.set("kc-seen",seen);
+}
+// Hourly quotes from data/live.json replace the edition's searched numbers; the edition keeps its written wrap-up.
+function mergeLive(){
+  if(!LIVE||!LIVE.markets||!ED) return;
+  const m=normalize({stories:[],markets:{...LIVE.markets, wrap:(ED.markets&&ED.markets.wrap)||""}}).markets;
+  ED.markets={...m, asOf:LIVE.markets.asOf, live:true};
+}
+function setLatest(next){
+  if(LATEST && next.updatedAt===LATEST.updatedAt) return false;
+  const announce=gotRemote && LATEST; gotRemote=true; LATEST=next;
+  if(VIEWING){ toast("A new edition is out. Pick Latest edition to read it."); return true; }
+  const hadWeather=!!(ED&&ED.weather);
+  ED=next; mergeLive(); computeNew(); renderAll(); renderPicker();
+  if(!wx || !wx.live || (!hadWeather && ED.weather)) loadWeather();
+  if(announce){ toast("New edition loaded"); notifyEdition(next); }
+  return true;
+}
+
+/* Website data files */
+async function loadEdition(){
+  try{
+    const r=await fetch("data/edition.json?ts="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw 0;
+    const next=normalize(await r.json());
+    if(!next.stories.length) return;
+    if(!SITE){ SITE=true; document.getElementById("notify-btn").hidden=!("Notification" in window); }
+    if(!gotRemote) gotRemote=true, LATEST=null;
+    setLatest(next);
+    try{ const w=await fetch("data/watchlist.json?ts="+Date.now(),{cache:"no-store"}); if(w.ok){ const j=await w.json(); if(Array.isArray(j.symbols)&&!LS.get("kc-watch-edited",false)){ watch=j.symbols.filter(x=>typeof x==="string").slice(0,20); if(tab==="stocks") renderView(); } } }catch(e){}
+    loadLive(); loadArchiveList();
+  }catch(e){ /* not running as the website: keep the embedded or stored edition */ }
+}
+async function loadLive(){
+  try{
+    const r=await fetch("data/live.json?ts="+Date.now(),{cache:"no-store"});
+    if(!r.ok) return;
+    LIVE=await r.json();
+    if(!VIEWING){ mergeLive(); if(tab==="stocks"||!loadLive.done) renderView(); }
+    loadLive.done=true;
+  }catch(e){}
+}
+
+/* Past editions */
+async function loadArchiveList(){
+  try{
+    if(DB){ const s=await DB.doc("meta/archive").get(); ARCHIVE=((s.exists&&s.data().editions)||[]).map(e=>({...e,src:"db"})); }
+    else { const r=await fetch("data/archive/index.json?ts="+Date.now(),{cache:"no-store"}); if(!r.ok) return; ARCHIVE=((await r.json()).editions||[]).map(e=>({...e,id:e.file,src:"file"})); }
+    renderPicker();
+  }catch(e){}
+}
+function renderPicker(){
+  const sel=document.getElementById("edpick"); if(!sel) return;
+  const past=ARCHIVE.filter(a=>!LATEST||a.updatedAt!==LATEST.updatedAt).slice(0,30);
+  sel.hidden=!past.length;
+  sel.innerHTML="";
+  sel.append(el("option",{value:"",text:"Latest edition"}));
+  past.forEach(a=>{ const d=new Date(a.updatedAt); sel.append(el("option",{value:a.id,text:`${a.label||"Edition"} · ${d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})}`})); });
+  sel.value=VIEWING||"";
+}
+async function openArchive(id){
+  if(!id){ VIEWING=null; ED=LATEST||ED; mergeLive(); renderAll(); renderPicker(); return; }
+  const e=ARCHIVE.find(a=>a.id===id); if(!e) return;
+  try{
+    let data=null;
+    if(e.src==="db"){ const s=await DB.doc("archive/"+id).get(); data=s.exists?s.data():null; }
+    else { const r=await fetch("data/archive/"+encodeURIComponent(id),{cache:"no-store"}); data=r.ok?await r.json():null; }
+    if(!data) throw 0;
+    VIEWING=id; ED=normalize(data); renderAll(); renderPicker(); window.scrollTo({top:0});
+  }catch(err){ toast("Couldn't open that edition."); VIEWING=null; renderPicker(); }
+}
+document.getElementById("edpick").addEventListener("change",e=>openArchive(e.target.value));
+
+/* Read aloud */
+const TTS = "speechSynthesis" in window ? window.speechSynthesis : null;
+let ttsRate=LS.get("kc-rate",1), ttsPaused=false;
+const plain=t=>String(t||"").replace(/\*\*/g,"");
+function speak(title, parts){
+  if(!TTS){ toast("This browser can't read aloud."); return; }
+  TTS.cancel(); ttsPaused=false;
+  const chunks=parts.filter(Boolean).flatMap(p=>plain(p).match(/[^.!?]+[.!?]+["')\]]*|[^.!?]+$/g)||[]).map(s=>s.trim()).filter(Boolean);
+  let i=0; showPlayer(title);
+  const next=()=>{ if(i>=chunks.length){ hidePlayer(); return; }
+    const u=new SpeechSynthesisUtterance(chunks[i++]); u.rate=ttsRate; u.lang="en-US";
+    u.onend=next; u.onerror=ev=>{ if(ev.error!=="interrupted"&&ev.error!=="canceled") hidePlayer(); };
+    TTS.speak(u); };
+  next();
+}
+function briefingParts(){
+  const parts=[greeting(), ED.summary];
+  const al=[...ED.alerts,...computedAlerts()].slice(0,5).map(a=>a.text);
+  if(al.length) parts.push("Priority items.", ...al);
+  ED.highlights.filter(h=>h.s).forEach(h=>parts.push(h.s.title+".", h.s.story[0]||h.s.summary));
+  return parts;
+}
+const storyParts=s=>[s.title+".", s.summary, ...s.story, s.why, s.next?"What to watch. "+s.next:""];
+function showPlayer(title){
+  let p=document.getElementById("player");
+  if(!p){
+    p=el("div",{id:"player",role:"region","aria-label":"Read aloud"},
+      el("span",{class:"pt",id:"player-t"}),
+      el("button",{class:"tbtn",type:"button",id:"player-pp",onclick:()=>{ if(!TTS) return; if(ttsPaused){ TTS.resume(); ttsPaused=false; } else { TTS.pause(); ttsPaused=true; } document.getElementById("player-pp").textContent=ttsPaused?"Resume":"Pause"; },text:"Pause"}),
+      el("button",{class:"tbtn",type:"button",id:"player-rate",onclick:()=>{ const r=[1,1.25,1.5,0.9]; ttsRate=r[(r.indexOf(ttsRate)+1)%r.length]||1; LS.set("kc-rate",ttsRate); document.getElementById("player-rate").textContent=ttsRate+"×"; },text:ttsRate+"×"}),
+      el("button",{class:"tbtn",type:"button",onclick:()=>{ TTS&&TTS.cancel(); hidePlayer(); },text:"Stop"}));
+    document.body.append(p);
+  }
+  document.getElementById("player-t").textContent="Reading: "+title;
+  document.getElementById("player-pp").textContent="Pause";
+  p.hidden=false;
+}
+function hidePlayer(){ const p=document.getElementById("player"); if(p) p.hidden=true; }
+addEventListener("pagehide",()=>TTS&&TTS.cancel());
+
+/* Phone notifications (website only) */
+async function enableAlerts(){
+  if(!("Notification" in window)){ toast("This browser doesn't support notifications."); return; }
+  const p=await Notification.requestPermission();
+  LS.set("kc-notify",p==="granted");
+  toast(p==="granted"?"Done. You'll get a notification when a new edition arrives while the feed is open or in the background.":"Notifications are blocked. Allow them in your browser's site settings.");
+  document.getElementById("notify-btn").textContent=p==="granted"?"Alerts on":"Alerts";
+}
+async function notifyEdition(ed){
+  if(!LS.get("kc-notify",false) || !("Notification" in window) || Notification.permission!=="granted") return;
+  const hi=ed.alerts.filter(a=>a.level==="high");
+  const body=hi.length?hi[0].text:(ed.highlights[0]?ed.highlights[0].text:"A new edition is ready.");
+  const opts={body, icon:"icons/icon-192.png", badge:"icons/icon-192.png", tag:"kdf-edition"};
+  try{ const reg=navigator.serviceWorker&&await navigator.serviceWorker.getRegistration(); if(reg) reg.showNotification(ed.label+(hi.length?" · Priority":""),opts); else new Notification(ed.label,opts); }catch(e){}
+}
+document.getElementById("notify-btn").onclick=enableAlerts;
+if(LS.get("kc-notify",false)) document.getElementById("notify-btn").textContent="Alerts on";
+if("serviceWorker" in navigator && /github\.io$/.test(location.hostname)) navigator.serviceWorker.register("sw.js").catch(()=>{});
+
+/* Your day (private Claude page only: calendar events written by the agent) */
+function renderCal(){
+  const box=document.getElementById("cal"); if(!box) return;
+  box.innerHTML="";
+  if(!CAL||!Array.isArray(CAL.events)){ box.hidden=true; return; }
+  box.hidden=false;
+  const today=localIso("America/Los_Angeles");
+  box.append(el("div",{class:"wx-head"},el("h2",{},"Your day · ",el("span",{text:CAL.date===today?"today":new Date(CAL.date+"T12:00:00").toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"})}))));
+  if(!CAL.events.length){ box.append(el("p",{class:"wx-note",text:"Nothing on your calendar today."})); return; }
+  box.append(el("ul",{class:"cal-list"},CAL.events.map(ev=>el("li",{},el("span",{class:"ct",text:ev.time||"All day"}),el("span",{},el("b",{text:ev.title||"Busy"}),ev.location?el("span",{class:"cl",text:" · "+ev.location}):null)))));
+  box.append(el("p",{class:"wx-note",text:"From your Google Calendar. Shown only on your private Claude page, never on the public website."}));
+}
+
+/* Tune the feed */
+function prefState(s){ return prefs.likes.some(x=>x.key===s.key)?1:prefs.dislikes.some(x=>x.key===s.key)?-1:0; }
+function tune(s, dir){
+  const list=dir>0?prefs.likes:prefs.dislikes, other=dir>0?prefs.dislikes:prefs.likes;
+  const oi=other.findIndex(x=>x.key===s.key); if(oi>=0) other.splice(oi,1);
+  const i=list.findIndex(x=>x.key===s.key);
+  if(i>=0){ list.splice(i,1); toast("Preference removed."); }
+  else {
+    list.unshift({key:s.key,title:s.title,section:s.section,motif:motifFor(s),when:s.when||"",t:Date.now()}); list.splice(40);
+    toast(DB ? (dir>0?"Got it. Future editions will include more like this.":"Got it. Future editions will include less like this.")
+             : "Saved on this device. To send it to the news agent, tap it in the Claude app version of the feed.");
+  }
+  LS.set("kc-prefs",prefs);
+  if(DB) DB.doc("settings/prefs").set({likes:prefs.likes,dislikes:prefs.dislikes,updatedAt:new Date().toISOString()}).catch(()=>toast("Couldn't sync that preference."));
+}
+
 /* ================= Boot ================= */
 ED = normalize(ED);
+LATEST = ED;
+computeNew();
 applyScale();
 const h0=(location.hash||"").slice(1);
 if(SECTIONS.some(s=>s.id===h0)) tab=h0;
@@ -1993,28 +2264,8 @@ renderAll();
 setInterval(tick,1000);
 loadWeather();
 setInterval(loadWeather,30*60*1000);
-
-/* Website mode: pull the newest edition (data/edition.json) on every load, then every 10 minutes and when the tab comes back. */
-async function loadEdition(manual){
-  try{
-    const r=await fetch("data/edition.json?ts="+Date.now(),{cache:"no-store"});
-    if(!r.ok) throw 0;
-    const next=normalize(await r.json());
-    if(!next.stories.length) return;
-    const isNew = next.updatedAt!==ED.updatedAt;
-    SITE=true;
-    if(isNew || manual){
-      const hadWeather=!!ED.weather;
-      ED=next; renderAll();
-      if(!wx || !wx.live || (!hadWeather && ED.weather)) loadWeather();
-      if(isNew && loadEdition.loaded) toast("New edition loaded");
-    }
-    loadEdition.loaded=true;
-    try{ const w=await fetch("data/watchlist.json?ts="+Date.now(),{cache:"no-store"}); if(w.ok){ const j=await w.json(); if(Array.isArray(j.symbols)&&!LS.get("kc-watch-edited",false)){ watch=j.symbols.filter(x=>typeof x==="string").slice(0,20); if(tab==="stocks") renderView(); } } }catch(e){}
-  }catch(e){ /* not running as the website: keep the embedded or stored edition */ }
-}
 loadEdition();
-setInterval(loadEdition,10*60*1000);
+setInterval(()=>{ loadEdition(); },10*60*1000);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden) loadEdition(); });
 
 if(window.claude && window.claude.use){
@@ -2028,14 +2279,17 @@ if(window.claude && window.claude.use){
       else if(!snap.metadata.fromCache) saveWatch(watch);
       if(tab==="stocks"&&!query&&!document.activeElement.closest?.(".wl-form")) renderView();
     }, ()=>{});
+    db.doc("settings/prefs").onSnapshot(snap=>{
+      if(snap.exists){ const d=snap.data(); prefs={likes:Array.isArray(d.likes)?d.likes:[],dislikes:Array.isArray(d.dislikes)?d.dislikes:[]}; LS.set("kc-prefs",prefs); }
+      else if(!snap.metadata.fromCache && (prefs.likes.length||prefs.dislikes.length)) db.doc("settings/prefs").set({...prefs,updatedAt:new Date().toISOString()}).catch(()=>{});
+    }, ()=>{});
+    db.doc("private/today").onSnapshot(snap=>{ CAL=snap.exists?snap.data():null; renderCal(); }, ()=>{});
     db.doc("editions/latest").onSnapshot(snap=>{
       if(!snap.exists) return;
       const next=normalize(snap.data());
-      if(!next.stories.length) return;
-      const hadWeather=!!ED.weather;
-      ED=next; renderAll();
-      if(!wx || !wx.live || (!hadWeather && ED.weather)) loadWeather();
+      if(next.stories.length) setLatest(next);
     }, ()=>{});
+    loadArchiveList();
   }).catch(()=>{});
 }
 </script>
