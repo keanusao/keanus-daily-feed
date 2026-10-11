@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-11T17:24:39Z",
+  "updatedAt": "2026-10-11T17:50:35Z",
   "label": "Morning edition",
-  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** through April 7, 2027, and Ukraine, Democrats and several Republicans are pushing back (NBC News, Axios, Washington Examiner). Trump also told Ukraine to get a new leader and claimed an energy ceasefire that Kyiv says it learned of from his post (Fox News, Axios, CNN). He says the U.S. will not strike Iran before the Nov. 3 midterms, yet a Houthi missile killed 12 at Riyadh's airport and he is weighing joining Saudi strikes (Fox News, NPR, CNN). Pew puts his approval at 30%, near his career low (The Hill, CNN). Hiring stalled at 29,000 jobs in September, so **September CPI on Wednesday, Oct. 14** matters for the Fed (CNBC, NPR, Fox Business). On Wall Street the S&P 500 closed Friday at 7,811.54, up 0.6%, after OpenAI's revenue restatement sank AI stocks Thursday (CNBC, Bloomberg). The 10-year yield hit its **highest level since 2002** this week, and big banks report Tuesday (CNBC, Bloomberg). In science, **Francis Halzen won the physics Nobel** for IceCube (Nature, NPR, Science), and Webb helped find the most distant fast radio burst (NASA, Space.com). In engineering, Starship reached orbit with 26 Starlink V3 satellites (Space.com). In AI, Google launched a **universal Gemini agent for work** that can run Claude models (CNBC, TechCrunch). Fremont is cloudy near 70 today.",
+  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** through April 7, 2027, and Ukraine, Democrats and several Republicans are pushing back (NBC News, Axios, Washington Examiner). He also claimed an energy ceasefire that Kyiv says it learned of from his post (Axios, NBC News). Closer to home, **California's billionaire tax, Prop. 40**, leads narrowly in polls, but Props. 41 and 42 could cancel it (CalMatters, KQED, Fox Business). Pew has Trump's approval at 30%, and a Houthi missile killed at least 12 at Riyadh's airport while he says he will not hit Iran before Nov. 3 (The Hill, CNN, Fox News). Hiring slowed to 29,000 jobs, so **September CPI on Wednesday, Oct. 14** matters for the Fed (CNBC, NPR, Fox Business). The S&P 500 closed Friday at 7,811.54 after OpenAI's revenue restatement sank AI stocks Thursday (CNBC, Bloomberg). **Francis Halzen won the physics Nobel** for IceCube (Nature, NPR), and Google launched a Gemini agent for work that can run Claude models (CNBC, TechCrunch). Fremont is cloudy near 70 today.",
   "alerts": [
     {
       "text": "Big banks report Tuesday and September CPI lands Wednesday, Oct. 14, so expect volatility in your watchlist.",
       "level": "watch",
-      "story": "yields"
+      "story": "openaiselloff"
     },
     {
-      "text": "Trump is weighing U.S. strikes on the Houthis after the Riyadh airport attack, which could widen the Iran war.",
+      "text": "California's billionaire tax is on your Nov. 3 ballot, and Props. 41 and 42 could void it; early voting is already open in Alameda County.",
+      "level": "watch",
+      "story": "prop40"
+    },
+    {
+      "text": "Trump says the U.S. may join Saudi strikes on the Houthis after the Riyadh airport attack, which could widen the Iran war.",
       "level": "watch",
       "story": "iranwar"
-    },
-    {
-      "text": "MSFT, TSLA and AMZN each rose more than 2% Friday, and I found no confirmed catalyst for any of them.",
-      "level": "info",
-      "story": "openaiselloff"
     }
   ],
   "highlights": [
@@ -25,12 +25,12 @@
       "text": "Trump eases Russian diesel sanctions through April 2027, and Republicans join Democrats and Zelensky in objecting."
     },
     {
-      "story": "jobsfed",
-      "text": "Hiring slowed to 29,000 jobs, putting Wednesday's CPI report in focus for the Fed."
+      "story": "prop40",
+      "text": "California's billionaire tax leads narrowly in polls, but two rival measures could void it."
     },
     {
-      "story": "openaiselloff",
-      "text": "OpenAI's lower revenue figure hit AI stocks Thursday before Wall Street rebounded Friday."
+      "story": "jobsfed",
+      "text": "Hiring slowed to 29,000 jobs, putting Wednesday's CPI report in focus for the Fed."
     },
     {
       "story": "halzen",
@@ -48,55 +48,213 @@
   },
   "markets": {
     "asOf": "Fri Oct 9, 5:29 PM ET",
-    "wrap": "Wall Street closed Friday with **gains across the major indexes**, capping a winning week: the S&P 500 rose 0.59%, the Dow 0.83% and the Nasdaq 0.64% (CNBC). The AI trade rebounded after Thursday's selloff over OpenAI's revenue figure, when Nvidia fell about 3% and Oracle nearly 6% (CNBC, Bloomberg). Long-term yields hit **their highest levels since 2002** this week, with the 10-year at 5.24% on Friday (CNBC, Bloomberg). Banks report Tuesday and September CPI comes Wednesday (CNBC).",
     "indices": [
       {
         "symbol": "^GSPC",
         "name": "S&P 500",
         "price": "7,811.54",
+        "raw": 7811.54,
         "change": "+0.59%",
         "dir": "up",
-        "time": 1791581396
+        "time": 1791581396,
+        "spark": [
+          7591.7,
+          7656.98,
+          7619.98,
+          7585.73,
+          7551.81,
+          7637.76,
+          7650.5,
+          7764.7,
+          7764.64,
+          7706.03,
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54
+        ]
       },
       {
         "symbol": "^DJI",
         "name": "Dow Jones",
         "price": "51,654.95",
+        "raw": 51654.95,
         "change": "+0.83%",
         "dir": "up",
-        "time": 1791578270
+        "time": 1791578270,
+        "spark": [
+          52064.1,
+          52573.29,
+          52421.2,
+          52093.11,
+          51461.9,
+          51778.04,
+          51682.64,
+          52048.83,
+          51863.69,
+          51511.59,
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95
+        ]
       },
       {
         "symbol": "^IXIC",
         "name": "Nasdaq",
         "price": "27,366.17",
+        "raw": 27366.17,
         "change": "+0.64%",
         "dir": "up",
-        "time": 1791580559
+        "time": 1791580559,
+        "spark": [
+          26081.72,
+          26333.04,
+          26186.41,
+          25981.57,
+          25978.43,
+          26418.3,
+          26522.54,
+          27122.09,
+          27244.28,
+          26936.04,
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17
+        ]
       },
       {
         "symbol": "^TNX",
         "name": "10-yr Treasury",
         "price": "5.24%",
+        "raw": 5.244,
         "change": "+0.25%",
         "dir": "up",
-        "time": 1791572395
+        "time": 1791572395,
+        "spark": [
+          4.84,
+          4.94,
+          4.97,
+          4.96,
+          5.0,
+          5.01,
+          4.95,
+          5.0,
+          4.96,
+          4.97,
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24
+        ]
       },
       {
         "symbol": "CL=F",
         "name": "WTI crude",
         "price": "$91.85",
+        "raw": 91.85,
         "change": "+0.39%",
         "dir": "up",
-        "time": 1791579598
+        "time": 1791579598,
+        "spark": [
+          100.05,
+          101.39,
+          105.83,
+          102.43,
+          101.91,
+          100.3,
+          95.78,
+          94.59,
+          92.16,
+          94.61,
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85
+        ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$83,845",
-        "change": "+1.13%",
+        "price": "$84,072",
+        "raw": 84072.32,
+        "change": "+1.40%",
         "dir": "up",
-        "time": 1791739085
+        "time": 1791740243,
+        "spark": [
+          77173.8,
+          77270.47,
+          76838.16,
+          78163.38,
+          75612.51,
+          76150.32,
+          76403.77,
+          80901.46,
+          81233.68,
+          81142.61,
+          86602.91,
+          86172.28,
+          84383.01,
+          84379.06,
+          84034.92,
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          84072.32
+        ]
       }
     ],
     "watch": [
@@ -104,63 +262,246 @@
         "symbol": "NVDA",
         "name": "NVIDIA Corporation",
         "price": "$229.28",
+        "raw": 229.28,
         "change": "-0.52%",
         "dir": "down",
-        "time": 1791576000
+        "time": 1791576000,
+        "spark": [
+          218.36,
+          218.29,
+          210.96,
+          212.17,
+          213.9,
+          219.34,
+          222.27,
+          227.38,
+          228.87,
+          225.51,
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28
+        ]
       },
       {
         "symbol": "AAPL",
         "name": "Apple Inc.",
         "price": "$336.64",
+        "raw": 336.64,
         "change": "-1.11%",
         "dir": "down",
-        "time": 1791576000
+        "time": 1791576000,
+        "spark": [
+          326.57,
+          332.27,
+          333.08,
+          331.34,
+          332.41,
+          337.0,
+          336.13,
+          338.98,
+          339.75,
+          337.02,
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64
+        ]
       },
       {
         "symbol": "MSFT",
         "name": "Microsoft Corporation",
         "price": "$535.07",
+        "raw": 535.07,
         "change": "+2.38%",
         "dir": "up",
         "time": 1791576001,
-        "note": "Up about 2% Friday per CNBC live coverage. No confirmed catalyst in my searches."
+        "spark": [
+          492.44,
+          495.63,
+          505.41,
+          497.12,
+          490.3,
+          497.75,
+          493.78,
+          501.61,
+          498.0,
+          500.59,
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07
+        ],
+        "note": "Tech led Friday's rebound (CNBC); I found no company-specific catalyst."
       },
       {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
         "price": "$351.66",
+        "raw": 351.66,
         "change": "+0.97%",
         "dir": "up",
-        "time": 1791576000
+        "time": 1791576000,
+        "spark": [
+          332.6,
+          338.5,
+          349.39,
+          344.98,
+          342.87,
+          347.33,
+          349.54,
+          354.97,
+          351.16,
+          337.83,
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66
+        ]
       },
       {
         "symbol": "TSLA",
         "name": "Tesla, Inc.",
         "price": "$382.70",
+        "raw": 382.7,
         "change": "+2.05%",
         "dir": "up",
         "time": 1791576000,
-        "note": "No same-day catalyst found. CNBC reported Q3 deliveries on Oct. 2."
+        "spark": [
+          363.56,
+          365.44,
+          358.97,
+          356.58,
+          358.08,
+          366.2,
+          364.27,
+          375.3,
+          378.9,
+          380.12,
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7
+        ],
+        "note": "No confirmed Friday catalyst found."
       },
       {
         "symbol": "AMZN",
         "name": "Amazon.com, Inc.",
         "price": "$262.43",
+        "raw": 262.43,
         "change": "+3.29%",
         "dir": "up",
         "time": 1791576001,
-        "note": "Largest watchlist gain Friday. No confirmed catalyst in my searches."
+        "spark": [
+          251.89,
+          256.78,
+          253.54,
+          248.42,
+          245.96,
+          251.19,
+          253.71,
+          258.45,
+          254.98,
+          249.27,
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43
+        ],
+        "note": "Tech led Friday's rebound (CNBC); I found no company-specific catalyst."
       }
-    ]
+    ],
+    "wrap": "Wall Street closed Friday with **gains across the major indexes**, capping a winning week: the S&P 500 rose 0.59%, the Dow 0.83% and the Nasdaq 0.64% (CNBC). The AI trade rebounded after Thursday's selloff over OpenAI's revenue figure, when Nvidia fell about 3% and Oracle nearly 6% (CNBC, Bloomberg). The 10-year Treasury yield ended at 5.24% after touching its **highest level since 2002** this week (CNBC, Bloomberg). Big banks start earnings Tuesday and September CPI is due Wednesday (Reuters via Kitco, CNBC)."
   },
+  "earnings": [
+    {
+      "symbol": "TSLA",
+      "date": "2026-10-21",
+      "when": "after close"
+    },
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": ""
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 58.6,
-      "feels": 56.9,
-      "hum": 70,
-      "wind": 3.5,
+      "temp": 59.7,
+      "feels": 57.9,
+      "hum": 66,
+      "wind": 3.2,
       "cond": "clear"
     },
     "days": [
@@ -181,7 +522,7 @@
       {
         "date": "2026-10-12",
         "hi": 69,
-        "lo": 52,
+        "lo": 51,
         "cond": "cloudy",
         "pop": 1
       },
@@ -194,24 +535,84 @@
       },
       {
         "date": "2026-10-14",
-        "hi": 83,
-        "lo": 58,
+        "hi": 82,
+        "lo": 57,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-15",
         "hi": 88,
-        "lo": 62,
+        "lo": 61,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-16",
-        "hi": 92,
+        "hi": 91,
         "lo": 65,
         "cond": "clear",
         "pop": 0
+      }
+    ]
+  },
+  "recap": {
+    "week": "Oct 5-11",
+    "summary": "The week was dominated by energy and rates. The 10-year yield hit its **highest level since 2002**, and the Fed's September hike left investors watching inflation (CNBC, Bloomberg). Hiring slowed to 29,000 jobs in September and unemployment rose to 4.2% (CNBC, NPR, Fox Business). OpenAI's lower revenue figure hit AI stocks Thursday, yet the S&P 500 still finished the week higher (CNBC). Trump's diesel deal with Putin and a deadly Houthi attack in Riyadh pushed foreign policy into the midterm campaign (NBC News, CNN, Fox News). The Nobel Prizes brought **Halzen's physics award** for IceCube (Nature, NPR).",
+    "top": [
+      {
+        "text": "Trump eased sanctions on Russian diesel, drawing bipartisan criticism.",
+        "story": "dieselrussia"
+      },
+      {
+        "text": "Hiring slowed to 29,000 jobs in September as unemployment rose to 4.2%.",
+        "story": "jobsfed"
+      },
+      {
+        "text": "OpenAI's revenue restatement sank AI stocks before Friday's rebound.",
+        "story": "openaiselloff"
+      },
+      {
+        "text": "A Houthi missile killed at least 12 at Riyadh's airport.",
+        "story": "iranwar"
+      },
+      {
+        "text": "Francis Halzen won the Nobel Prize in Physics for IceCube.",
+        "story": "halzen"
+      }
+    ],
+    "ahead": [
+      {
+        "date": "Mon Oct 12",
+        "text": "Columbus Day: the U.S. cash Treasury market is closed, equities trade (CMC Markets)."
+      },
+      {
+        "date": "Tue Oct 13",
+        "text": "JPMorgan and other big banks report third-quarter earnings."
+      },
+      {
+        "date": "Wed Oct 14",
+        "text": "September CPI report, one of the last big inflation readings before the Fed meets."
+      },
+      {
+        "date": "Wed Oct 21",
+        "text": "Tesla earnings after the close."
+      },
+      {
+        "date": "Tue-Wed Oct 27-28",
+        "text": "Fed meeting, where another rate hike is under discussion."
+      },
+      {
+        "date": "Wed Oct 28",
+        "text": "Alphabet and Microsoft earnings after the close."
+      },
+      {
+        "date": "Thu Oct 29",
+        "text": "Amazon earnings."
+      },
+      {
+        "date": "Tue Nov 3",
+        "text": "Midterm elections, with Prop. 40 on California ballots."
       }
     ]
   },
@@ -224,15 +625,15 @@
       "title": "Trump eases sanctions on Russian diesel, and Republicans join Democrats in pushing back",
       "summary": "A Treasury license through April 7, 2027 lets Russian diesel into the U.S. market, and critics in both parties say it rewards Putin.",
       "story": [
-        "President Trump announced Friday, Oct. 9, that Russia will ship more than 300,000 tons of diesel right away, then 500,000 tons in November and 1 million tons after that. Treasury issued a temporary general license authorizing Russian-origin diesel sales and imports through April 7, 2027 (NBC News, Axios, CNBC). The White House says the goal is lower fuel prices for truckers and farmers before the Nov. 3 midterms. On Saturday Trump said Ukraine should get a new leader, and on Sunday he claimed Russia and Ukraine agreed to an energy ceasefire (Fox News, Axios, CNN).",
+        "President Trump announced Friday, Oct. 9, that Russia will ship more than 300,000 tons of diesel right away, then 500,000 tons in November and a larger third tranche after that (Axios and Fox Business reported 1 million tons, AP reported 3 million). Treasury issued a temporary general license authorizing Russian-origin diesel sales and imports through April 7, 2027 (NBC News, Axios, CNBC). The White House says the goal is lower fuel prices for truckers and farmers before the Nov. 3 midterms. On Saturday Trump said Ukraine should get a new leader, and on Sunday he claimed Russia and Ukraine agreed to an energy ceasefire (Fox News, Axios, CNN).",
         "Diesel prices have climbed during the U.S.-Iran war, and Ukraine has been striking Russian refineries. An unnamed U.S. official told Axios that Trump cut the deal after Zelensky ignored half a dozen U.S. requests to stop those strikes. The deal arrives weeks after Trump signed a bipartisan Russia sanctions law. CNBC reported it is accused of contradicting that law, and Democrats such as Sen. Richard Blumenthal, who co-sponsored it, say the license undercuts it.",
         "Zelensky told Axios the deal was \"not fair and not honest\" and that it gives Putin money to keep fighting. Schumer called it a \"deal with the devil\" (The Hill). Republicans split too. Rep. Brian Fitzpatrick plans to force a House vote to block Russian oil purchases, Rep. Don Bacon backs him, and Mike Pence called the move a betrayal. Sen. John Kennedy and Michigan Senate candidate Mike Rogers said they oppose importing Russian oil, and Sen. Lisa Murkowski also criticized it (Washington Examiner, Axios).",
         "The practical test is volume. Trump's schedule is large on paper, but delivery depends on Russian refineries that Ukraine has been hitting. Kyiv says it learned of the energy ceasefire from Trump's post, and the Kremlin had not confirmed it (Axios, CNN). If Moscow does not follow through, the political cost of the deal could land before the benefit at the pump."
       ],
-      "flag": "Kremlin has not confirmed the energy ceasefire. The license text was not reviewed; its scope comes from press reports of the Treasury statement.",
+      "flag": "Kremlin has not confirmed the energy ceasefire. The license text was not reviewed; its scope comes from press reports of the Treasury statement. Outlets disagree on the third tranche: 1 million tons (Axios, Fox Business) or 3 million tons (AP).",
       "facts": [
         "Treasury's general license covers Russian-origin diesel through April 7, 2027 (NBC News).",
-        "Trump's post promised 300,000+ tons now, 500,000 tons in November and 1 million tons after (Fox Business, Axios).",
+        "Trump's post promised 300,000+ tons now and 500,000 tons in November, then a larger third tranche whose size differs by outlet (Axios, AP).",
         "Zelensky told Axios the deal was \"not fair and not honest\" (Axios).",
         "Rep. Brian Fitzpatrick plans to force a House vote to block Russian oil purchases (Axios).",
         "Trump said Sunday that Russia and Ukraine agreed to an energy ceasefire, and Zelensky said it was \"news for me\" (NBC News, Axios)."
@@ -265,8 +666,14 @@
           "Fox News",
           "R",
           "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.stlpr.org/npr/2026-10-09/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
         ]
-      ]
+      ],
+      "thread": "russia-diesel"
     },
     {
       "id": "midterms",
@@ -278,16 +685,17 @@
       "story": [
         "Pew Research Center found Trump's approval at 30 percent and disapproval at 68 percent in a survey of 5,062 adults taken Sept. 28 to Oct. 4, with a margin of error of 1.6 points (The Hill, CNN poll tracker). That sits close to the 29 percent low of his career, recorded after Jan. 6. Only 35 percent said they are confident in his decisions on foreign policy and on the economy, and 41 percent said so on immigration (The Hill).",
         "Other polls point the same way. Reuters/Ipsos had him at 32 percent, a record low for that pollster, and Democrats led the generic ballot (The Hill). An NBC News poll of registered voters put his approval at 41 percent, a second-term low, and found 55 percent believe his policies have hurt the economy (NBC News). Pollsters use different populations, which explains part of the spread.",
-        "Republicans hold the Senate 53-47, so Democrats need a net gain of four seats. Newsweek's tracker calls control a toss-up, with prediction markets near even odds. An early-October batch of polls showed Ohio, Iowa and Kansas within the margin of error, and Texas, where Democrat James Talarico faces Republican Ken Paxton, has drawn attention (Newsweek, a less established outlet for the batch). Treat single-state numbers with care.",
+        "Republicans hold the Senate 53-47, so Democrats need a net gain of four seats. Newsweek's tracker calls control a toss-up, with prediction markets near even odds. An early-October batch of polls showed Ohio, Iowa and Kansas within the margin of error, and Texas, where Democrat James Talarico faces Republican Ken Paxton, has drawn attention (Newsweek, a less established outlet for the batch). Treat single-state numbers with care. Conservative outlets see the same weak environment: a Washington Examiner columnist wrote that polls show a GOP reckoning, and a Fox News opinion piece said Democrats are within reach of the Senate but should not celebrate yet (Washington Examiner, Fox News).",
         "Midterm polls and election results often differ, and approval is only one input. Candidate quality, turnout and local issues matter, and fuel prices and the Russian diesel fight give both parties fresh material in the final weeks."
       ],
       "flag": "Texas, Ohio, Iowa and Kansas polling comes from a Newsweek-cited batch from a less established outlet and was not independently confirmed.",
       "facts": [
-        "Pew: 30% approve, 68% disapprove, fielded Sept. 28 to Oct. 4 (The Hill, CNN).",
-        "Pew sample was 5,062 adults, margin of error 1.6 points (CNN poll tracker).",
+        "Pew: 30% approve, 68% disapprove, fielded Sept. 28 to Oct. 4 (The Hill).",
+        "Pew sample was 5,062 adults, margin of error 1.6 points.",
         "Reuters/Ipsos has Trump at 32%, a record low for that pollster (The Hill).",
         "NBC News found 55% of voters say his policies have hurt the economy (NBC News).",
-        "Republicans hold the Senate 53-47, and Democrats need a net gain of four seats (Newsweek)."
+        "Republicans hold the Senate 53-47, and Democrats need a net gain of four seats (Newsweek).",
+        "Pew's generic ballot has Democrats ahead 44% to 36% among registered voters (Pew via press reports)."
       ],
       "left": "A president at 30 percent is a warning that voters feel prices and the war in their own lives. Democrats argue that tariffs, high fuel costs, a stalling job market and the Iran war explain the slide, and that the Russian diesel deal looks like election-year improvisation. They point to NBC's finding that most voters think his policies hurt the economy and say the Senate map is wider than anyone expected.",
       "right": "Conservatives note that approval is not a ballot and that Senate races turn on candidates. Republicans hold structural advantages in several states, and many polls undercounted Trump voters in past cycles. They argue that cooling inflation, border enforcement and tax policy will matter when voters decide, and that Democrats still lack a unified economic message. The risk, thoughtful conservatives admit, is that a depressed base stays home.",
@@ -299,11 +707,6 @@
           "https://thehill.com/homenews/administration/6138566-trump-approval-rating-pew-research/"
         ],
         [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/polling/approval/trump-polls"
-        ],
-        [
           "NBC News",
           "LL",
           "https://www.nbcnews.com/politics/2026-election/poll-voters-say-trump-hurt-economy-competitive-midterm-election-looms-rcna597868"
@@ -312,52 +715,75 @@
           "Newsweek",
           "C",
           "https://newsweek.com/us-midterm-election-odds-tracker-democrats-republicans-senate-11886339"
-        ]
-      ]
-    },
-    {
-      "id": "hasanstream",
-      "section": "politics",
-      "motif": "gavel",
-      "when": "Execution plan",
-      "title": "Pentagon plan to livestream Fort Hood shooter's execution draws bipartisan criticism",
-      "summary": "Senators of both parties object to broadcasting Nidal Hasan's Dec. 3 firing squad execution.",
-      "story": [
-        "The Pentagon confirmed it will livestream the firing squad execution of Nidal Hasan, the Fort Hood shooter. It is set for the afternoon of Dec. 3 at Fort Hood (NPR, Fox News, The Hill). Sen. Thom Tillis, a North Carolina Republican, wrote on X that he agrees Hasan should face the death penalty but called making it public and streaming it \"beyond disgusting\" (The Hill).",
-        "Sen. Lisa Murkowski urged the Pentagon to reverse course. Sen. Chris Murphy called the plan medieval, and Sen. Jack Reed said it would be a gift to terrorist recruiters (The Hill). A leading Catholic bishop also urged the Pentagon not to stream it. Sen. Jon Ossoff criticized Defense Secretary Pete Hegseth's plan too (The Hill).",
-        "Not every voice opposed it on the merits. A Fort Hood survivor shot seven times, speaking to Fox News, said a livestream dishonors the victims, which means the objection reaches victims' families as well as politicians. Trump sent mixed signals on whether it will stream, and Vice President Vance said he would not watch (The Hill). The White House referred questions to the Pentagon.",
-        "Legal experts say Hasan could delay the execution by years with a federal habeas corpus appeal, so the date may not hold."
-      ],
-      "facts": [
-        "Hasan's firing squad execution is scheduled for the afternoon of Dec. 3 at Fort Hood (The Hill, NPR).",
-        "Tillis called the livestream \"beyond disgusting\" while backing the death penalty (The Hill).",
-        "Murkowski urged the Pentagon to reverse its decision (The Hill).",
-        "Vance said he would not watch the livestream, and Trump sent mixed signals (The Hill).",
-        "Legal experts say a habeas appeal could delay the execution by years (The Hill)."
-      ],
-      "left": "Democrats argue that a government broadcasting a killing is a step toward spectacle punishment, whatever the crime. Sen. Murphy compared it to terrorist videos, and Sen. Reed said it hands extremists a recruiting tool. Civil liberties advocates add that state killing should not become entertainment, and that victims' families deserve a say in how it is handled.",
-      "right": "Some conservatives defend publicity as accountability and deterrence. Hasan is a convicted terrorist who murdered soldiers, and supporters say the public has a stake in seeing justice done. Others on the right, including Tillis and Murkowski, argue that a dignified process matters more than visibility, and that dignity is what separates the U.S. from regimes that stage public executions.",
-      "next": "Watch for a Pentagon decision on the stream and any habeas filing from Hasan's lawyers before Dec. 3.",
-      "src": [
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/09/nx-s1-5996529/firing-squad-livestream-execution-fort-hood-shooter"
         ],
         [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/senate/6138373-thom-tillis-pentagon-live-firing-squad-execution-nidal-hasal-criticism/"
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/opinion/columnists/4737394/republican-2026-elections-reckoning-polls/"
         ],
         [
           "Fox News",
           "R",
-          "https://www.foxnews.com/politics/pentagon-confirms-fort-hood-terrorists-firing-squad-execution-livestreamed-details-follow"
+          "https://www.foxnews.com/opinion/democrats-within-striking-distance-senate-shouldnt-celebrate-yet"
+        ]
+      ],
+      "thread": "midterms-2026"
+    },
+    {
+      "id": "prop40",
+      "section": "local",
+      "motif": "ballot",
+      "thread": "california-billionaire-tax",
+      "when": "Ballot fight",
+      "title": "California's billionaire tax is narrowly ahead, but two rival measures could cancel it",
+      "summary": "Prop. 40 leads in recent polls, Newsom opposes it, and Props. 41 and 42 would void it if they get more votes.",
+      "story": [
+        "California voters will decide Prop. 40 on Nov. 3, a one-time 5 percent tax on about 200 billionaires. A September PPIC survey found 52 percent of likely voters in favor, and an Institute of Governmental Studies poll reported by KQED put support at 48 percent against 41 percent opposed (CalMatters, KQED). Supporters, led by SEIU-United Healthcare Workers West, say it would raise about $100 billion for health care, food aid and schools. Early voting began Oct. 5 in Alameda County (SF Chronicle, KQED voter guides).",
+        "The measure has an unusual escape hatch. Props. 41 and 42, placed on the ballot in response, would require audits of new special taxes and bar new taxes on personal property. If either gets more votes than Prop. 40, the billionaire tax does not take effect. CalMatters notes the wealth tax could therefore fail even with majority support. PPIC found majorities for both countermeasures too (51 percent and 54 percent).",
+        "Gov. Gavin Newsom opposes Prop. 40 and wants a national billionaire tax instead, arguing one state cannot make it work (Fox Business, CalMatters). The Legislative Analyst's Office estimate of tens of billions of dollars is well below backers' $100 billion figure, according to the Washington Examiner. Opponents have raised far more money than supporters; CalMatters reported more than $187 million against, while other outlets gave different totals. Bernie Sanders campaigned for the measure in San Francisco (SF Chronicle). The IGS poll found 70 percent of Democrats in favor and 80 percent of Republicans opposed, with many voters still unfamiliar with the measures (KQED).",
+        "For Fremont voters the same ballot carries local races: Council Member Kathy Kimberlin faces Vipin Sharma in District 3, and District 4 is open (SF Chronicle voter guide)."
+      ],
+      "flag": "Opposition totals and the PPIC opposition figure (42% or 46%) differ between outlets. Revenue estimates are disputed.",
+      "facts": [
+        "Prop. 40 is a one-time 5% tax on about 200 billionaires (CalMatters).",
+        "PPIC found 52% of likely voters in favor; IGS found 48% to 41% (CalMatters, KQED).",
+        "If Prop. 41 or 42 gets more votes than Prop. 40, the billionaire tax is void (CalMatters).",
+        "Newsom opposes Prop. 40 and calls for a national tax instead (Fox Business, CalMatters).",
+        "The election is Tuesday, Nov. 3 (CalMatters)."
+      ],
+      "left": "Supporters say the very wealthy have gained most from California's economy and pay too little relative to ordinary households. A one-time levy on roughly 200 people could fund health care, food assistance and schools as federal cuts land. They note that 70 percent of Democrats back it, and argue the rival measures were written by opponents to smother it.",
+      "right": "Critics say a wealth tax drives out the people who pay a large share of the state's income tax, and that California has a record of making temporary taxes permanent. Economists such as Art Laffer warn of an exodus, and the Legislative Analyst's estimate is far below the $100 billion backers cite. Even Newsom says a single-state tax will not work, which they take as proof that the idea is flawed.",
+      "next": "Watch for new polls and campaign finance reports before the Nov. 3 election, and whether Props. 41 or 42 outpoll Prop. 40.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
         ],
         [
-          "The Hill",
+          "CalMatters",
           "C",
-          "https://thehill.com/homenews/senate/6139911-murkowski-nidal-hasan-execution-livestream/"
+          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12099825/california-billionaires-tax-has-a-slim-lead-in-new-poll-but-still-a-lot-of-work-to-do"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://sfchronicle.com/politics/article/bernie-sanders-prop-40-billionaire-tax-22458467.php"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/gavin-newsom-says-hes-burdened-facts-california-billionaire-wealth-tax-proposal"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/state/4626276/california-billionaire-tax-proposal-voters-newsom-national/"
         ]
       ]
     },
@@ -370,11 +796,11 @@
       "summary": "Indirect Iran talks continue, while a deadly Houthi missile strike in Saudi Arabia raises the chance of wider U.S. involvement.",
       "story": [
         "Trump said Oct. 9 that the U.S. will not attack Iran before the Nov. 3 midterms and that his team is having productive discussions with Tehran (Al-Monitor, Fox News). Fox News reported Sunday that both Trump and Iran say the midterms are not a factor in the talks. Indirect negotiations are mediated by Qatar, and the U.S. naval blockade stays in place, with new sanctions on Iranian oil-shipping networks.",
-        "Iran has floated a seven-day plan for reopening Hormuz, with U.S. steps first and shipping resuming on day six. Tehran also demands an end to hostilities, release of frozen assets and relief on oil exports. It says it will not give up enrichment or its uranium stockpile (Al-Monitor).",
+        "Iran has floated a seven-day plan for reopening Hormuz, with U.S. steps first and shipping resuming on day six. Tehran also demands an end to hostilities, release of frozen assets and relief on oil exports. It says it will not give up enrichment or its uranium stockpile (Al-Monitor). CNN and AP reported a further strike on Sunday that hit Terminal 4 and started a fire, with no injury count given.",
         "On Saturday, Yemen's Houthis hit Riyadh's international airport with a missile. Saudi authorities say at least 12 people died and 309 were hurt, and Secretary of State Marco Rubio confirmed an American was among the dead (NPR, CNN, NBC News). Trump told reporters the U.S. may join Saudi strikes on the Houthis: \"We may. We're going to look at it.\" CNN reported he rejected two Saudi appeals for such strikes last month.",
         "The Houthi attacks add a second front to a conflict that has pushed fuel prices up. Washington now faces pressure to defend Saudi Arabia while it tries to keep the Iran talks alive."
       ],
-      "flag": "Iran's proposal details come from one outlet (Al-Monitor) and were not independently confirmed.",
+      "flag": "Iran's proposal details come from one outlet (Al-Monitor) and were not independently confirmed. Death toll rose from 3 (Thursday's attacks, Saudi nationals) to at least 12 (Saturday's strike); counts may change.",
       "facts": [
         "Trump said the U.S. will not attack Iran before the Nov. 3 midterms (Al-Monitor, Fox News).",
         "At least 12 people were killed and 309 hurt in the Houthi strike on Riyadh airport, Saudi authorities say (NPR, CNN).",
@@ -402,62 +828,22 @@
           "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl"
         ],
         [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/world/middle-east/riyadh-airport-attacked-rcna602662"
-        ],
-        [
           "Al-Monitor",
           "C",
           "https://www.al-monitor.com/originals/2026/10/trump-says-no-iran-strikes-midterms-amid-productive-talks"
-        ]
-      ]
-    },
-    {
-      "id": "pillaynobel",
-      "section": "world",
-      "motif": "scroll",
-      "when": "Nobel Peace",
-      "title": "Navi Pillay wins the Nobel Peace Prize and Israel condemns the choice",
-      "summary": "The former UN human rights chief won for promoting international law, and Israel and the Trump administration reacted angrily.",
-      "story": [
-        "The Norwegian Nobel Committee awarded the 2026 Peace Prize on Oct. 9 to Navanethem \"Navi\" Pillay, the South African jurist and former UN human rights chief. It cited her work to promote peace and international law (CNN, ABC News). Her career includes defending Nelson Mandela and anti-apartheid activists and helping ensure that war crimes and genocide are prosecuted.",
-        "Israel's reaction centered on a UN commission she chaired. In September 2025 it concluded that Israeli leaders' statements and the military's actions showed an intent to destroy Palestinians in Gaza (CNN). Israel's Foreign Ministry called the award a \"grotesque weaponization\" of the prize, and Prime Minister Netanyahu said the committee had \"lost its moral compass\" (The Hill). Israel rejects the genocide accusation.",
-        "Trump criticized the committee and described Pillay as \"an unabashed hater of America and Israel\" (The Hill, Fox News). Hours after the announcement the U.S. imposed further sanctions on the International Criminal Court, where Pillay once served (CNN). UN Secretary-General Guterres and South African President Ramaphosa praised her.",
-        "The prize adds to a split over international courts, with Washington and Jerusalem rejecting institutions that Europe and much of the Global South defend."
-      ],
-      "facts": [
-        "Pillay won the 2026 Nobel Peace Prize on Oct. 9 (CNN, ABC News).",
-        "The committee cited her efforts to promote peace and international law (ABC News).",
-        "Israel's Foreign Ministry called the award a \"grotesque weaponization\" of the prize (The Hill).",
-        "The U.S. imposed new ICC sanctions hours after the announcement (CNN).",
-        "Guterres and Ramaphosa praised the award (CNN)."
-      ],
-      "left": "Supporters say the committee honored a lifetime defending human rights and the rule of law, from apartheid South Africa to Gaza. They argue that attacks on Pillay are attacks on the idea that powerful states answer to law, and that the U.S. sanctions on the ICC prove the point. Many see the prize as validation of the UN inquiry's work.",
-      "right": "Critics, including the Israeli government and many conservatives, argue that the committee picked a figure whose Gaza commission applied the genocide label to a country defending itself against Hamas after Oct. 7. They say it politicizes the prize and rewards international bodies that are not accountable to voters. Some on the right add that the ICC pursues democracies while harsher regimes escape scrutiny.",
-      "next": "Watch for ICC and UN responses to the new U.S. sanctions.",
-      "src": [
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/10/09/world/navi-pillay-nobel-peace-prize-2026-message-impact-intl"
         ],
         [
-          "ABC News",
-          "LL",
-          "https://abcnews.com/US/nobel-peace-prize-navanethem-pillay-efforts-promote-peace/story?id=137088187"
-        ],
-        [
-          "The Hill",
+          "The Hill (AP)",
           "C",
-          "https://thehill.com/policy/international/6139090-israel-condemns-navi-pillay-nobel/"
+          "https://thehill.com/homenews/ap/ap-international/ap-missile-attack-on-airport-in-saudi-arabias-capital-kills-12-people-and-injures-over-300/"
         ],
         [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/world/nobel-peace-prize-awarded-un-jurist-accused-israel-committing-genocide-gaza"
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
         ]
-      ]
+      ],
+      "thread": "iran-war"
     },
     {
       "id": "jobsfed",
@@ -516,12 +902,12 @@
       "section": "stocks",
       "motif": "chart",
       "when": "AI trade",
-      "title": "OpenAI revenue figure sinks AI stocks, then Wall Street rebounds",
+      "title": "OpenAI revenue figure sinks AI stocks, then Wall Street rebounds as yields hit 24-year highs",
       "summary": "OpenAI said it hit about $50 billion in annualized revenue, not $68 billion, and chip and cloud stocks dropped before recovering Friday.",
       "story": [
         "On Thursday, Oct. 8, Nvidia fell about 3 percent, Oracle nearly 6 percent and CoreWeave nearly 8 percent after OpenAI told investors it reached roughly $50 billion in annualized revenue at the end of September (CNBC). A figure of $68 billion had been widely reported a month earlier. AMD and Broadcom fell 4 percent, and the Nasdaq dropped more than 1 percent, its worst day since mid-August (CNBC).",
         "A person familiar with the matter told CNBC the $68 billion number included gross revenue from OpenAI's partners, which makes comparison with Anthropic easier. The Financial Times first revealed the gap. Bloomberg reported that the two companies calculate revenue differently, which clouds valuations. Sam Altman has confirmed OpenAI will not IPO this year, while the company seeks a valuation above $850 billion (CNBC).",
-        "Stocks rebounded Friday after Bloomberg reported that OpenAI expects annualized revenue of at least $70 billion by year-end, driven by its enterprise business. The S&P 500 gained 0.59 percent to 7,811.54, the Dow 0.83 percent to 51,654.95 and the Nasdaq 0.64 percent to 27,366.17. Analyst Adam Crisafulli of Vital Knowledge warned the AI complex is unlikely to stage a sharp V-shaped recovery, while Gil Luria of D.A. Davidson said tripling revenue in a year is not a worry.",
+        "Stocks rebounded Friday after Bloomberg reported that OpenAI expects annualized revenue of at least $70 billion by year-end, driven by its enterprise business. The S&P 500 gained 0.59 percent to 7,811.54, the Dow 0.83 percent to 51,654.95 and the Nasdaq 0.64 percent to 27,366.17. Analyst Adam Crisafulli of Vital Knowledge warned the AI complex is unlikely to stage a sharp V-shaped recovery, while Gil Luria of D.A. Davidson said tripling revenue in a year is not a worry. Long-term Treasury yields also hit their highest levels since 2002 this week, with the 10-year at 5.24 percent on Friday, and the S&P 500 bank index fell about 7.5 percent over the past month on those yields (CNBC, Bloomberg, Reuters).",
         "The episode shows how much index performance now rests on a few AI names and on private-company disclosures."
       ],
       "facts": [
@@ -550,59 +936,9 @@
           "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html"
         ],
         [
-          "Bloomberg",
+          "Kitco (Reuters)",
           "C",
-          "https://bloomberg.com/news/articles/2026-10-09/anthropic-and-openai-s-revenue-calculations-confuse-investors"
-        ]
-      ]
-    },
-    {
-      "id": "yields",
-      "section": "stocks",
-      "motif": "wave",
-      "when": "Bond market",
-      "title": "Treasury yields hit 24-year highs while stocks hold near records",
-      "summary": "The 10-year yield closed the week at 5.24 percent after touching a 2002-era peak, and big banks report Tuesday.",
-      "story": [
-        "The 10-year Treasury yield reached its highest level since 2002 this week, peaking around 5.35 percent on Wednesday by CNBC's count (Bloomberg cited 5.34 percent). The 30-year yield also hit a level not seen since 2002 (CNBC, Bloomberg). Fox Business reported the move is raising mortgage and loan costs. By Friday the 10-year sat near 5.24 percent.",
-        "On Oct. 6 the S&P 500 pulled back from a record as traders worried about yields. A solid 10-year auction on Oct. 7 eased fears about demand and pushed yields off their highs (CNBC). Reporting points to the Iran war, rising federal deficits, tighter monetary policy and heavy corporate debt issuance as drivers (CNBC, Bloomberg).",
-        "The week ahead is busy. Citigroup, Goldman Sachs, Wells Fargo and JPMorgan report Tuesday, Oct. 13, and Morgan Stanley, Bank of America and BlackRock follow Wednesday. Banks are expected to post earnings growth near 10 percent, according to FactSet (CNBC). September CPI also lands Wednesday.",
-        "Crude oil closed at $91.85 and Bitcoin at $83,845, and the S&P 500 finished Friday at 7,811.54 (live.json)."
-      ],
-      "facts": [
-        "The 10-year yield hit its highest since 2002 this week (CNBC, Bloomberg).",
-        "The 10-year yield was near 5.24% on Friday (CNBC; live.json shows 5.24%).",
-        "Citigroup, Goldman, Wells Fargo and JPMorgan report Tuesday, Oct. 13 (CNBC).",
-        "FactSet expects banks to post roughly 10% earnings growth (CNBC).",
-        "WTI crude closed at $91.85 (live.json)."
-      ],
-      "why": "High long-term yields raise mortgage rates and the discount rate on growth stocks, which is why this week's wobble hit tech. A hot CPI could push yields higher again, while a soft print would help the rate-sensitive names in Keanu's list.",
-      "next": "Watch bank earnings Tuesday, Oct. 13, and September CPI Wednesday, Oct. 14.",
-      "src": [
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
-        ],
-        [
-          "Bloomberg",
-          "C",
-          "https://www.bloomberg.com/news/articles/2026-10-05/treasuries-slump-pushes-long-end-yields-to-fresh-24-year-highs"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
-        ],
-        [
-          "Fox Business",
-          "R",
-          "https://www.foxbusiness.com/economy/bond-yields-hovering-near-multi-year-highs-what-means-your-wallet"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/09/earnings-season-kicks-into-high-gear-as-big-banks-report-next-week.html"
+          "https://www.kitco.com/news/off-the-wire/2026-10-09/wall-st-week-ahead-bank-earnings-cpi-headline-busy-markets-week-sp-500"
         ]
       ]
     },
@@ -811,60 +1147,12 @@
           "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
         ]
       ]
-    },
-    {
-      "id": "aipacing",
-      "section": "ai",
-      "motif": "shield",
-      "when": "AI policy",
-      "title": "AI leaders call to pace the frontier while Trump backs a voluntary safety accord",
-      "summary": "After Anthropic's Amodei urged slowing frontier AI, the White House produced a two-page accord that Speaker Johnson called voluntary.",
-      "story": [
-        "In mid-September Anthropic CEO Dario Amodei published \"We Must Pace the Frontier,\" calling for third-party evaluators with employee-level access, common safety standards among democracies and eventually coordination with authoritarian states (CNBC, TechCrunch). OpenAI's Sam Altman said he agreed that labs should \"pace the frontier\" but that pacing does not mean stopping.",
-        "Trump first pushed back, criticizing Amodei and the slowdown idea (CNBC). On Sept. 29 he hosted tech leaders at the White House to sign a two-page \"White House Accord on Super Intelligence: Joint Commitment on Frontier Responsibilities,\" which he called \"morally binding.\" Speaker Mike Johnson described it as principles that are \"voluntary on behalf of the industry.\" It encourages signers to work with an independent external auditor (CNBC).",
-        "Critics say the text is thin. Open questions include how auditors are funded, what access they get and how reporting works, and Amodei said rules are \"still under discussion\" (CNBC, TechCrunch). A Hill op-ed argues Congress must \"forcefully say no to Big AI,\" and CNBC's Oct. 11 piece looks at the quiet safety gatekeepers now stepping into the spotlight.",
-        "Zuckerberg and Nvidia's Jensen Huang lean toward self-regulation, so industry is not unified."
-      ],
-      "facts": [
-        "Amodei's essay called for third-party evaluators and common safety standards (CNBC, TechCrunch).",
-        "Altman said labs should pace the frontier, but pacing is not stopping (TechCrunch).",
-        "Trump and tech leaders signed a two-page accord on Sept. 29 (CNBC).",
-        "Speaker Johnson called the principles voluntary for industry (CNBC).",
-        "The accord encourages independent external evaluators (CNBC)."
-      ],
-      "left": "Progressives argue voluntary pledges are not oversight. Without binding audits, liability rules or an enforcement body, companies grade their own homework while racing each other. They want Congress to require independent evaluation and incident reporting, and they see the accord as a photo opportunity that avoids law.",
-      "right": "Conservatives split. Some see the accord as the right model: let companies carry responsibility, avoid heavy rules that favor incumbents and keep ahead of China. Others want liability for harms. Both camps worry that any slowdown hands an edge to Beijing, which Amodei himself called the toughest dilemma for his plan.",
-      "why": "This is a first test of whether frontier labs and government can agree on checks before capabilities outrun them. The independent-auditor idea is concrete, but without funding or authority it may stay symbolic.",
-      "next": "Watch for details on auditor funding and any bill introduced in Congress.",
-      "src": [
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html"
-        ],
-        [
-          "TechCrunch",
-          "C",
-          "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/opinion/technology/6129748-anthropic-ai-ipo-liability-debate/"
-        ]
-      ]
     }
   ],
   "briefs": [
-    "Putin relayed an Iran war proposal to Trump, the Kremlin says (CNBC).",
     "OpenAI defended its decision to fire researchers, saying the decisions were not about raising safety concerns (CNBC).",
-    "NPR found more than 1,000 reports of optic nerve damage linked to GLP-1 drugs in FDA data, which is voluntary and unverified, and the FDA is running its own study (NPR).",
-    "The CDC is changing how it counts measles deaths and expects a standard definition in two to three months (NPR).",
-    "A Bloomberg opinion column says always-on AI agents are a fast-growing security risk for websites (Bloomberg)."
+    "Putin relayed an Iran war proposal to Trump, the Kremlin says (CNBC).",
+    "NPR found more than 1,000 reports of optic nerve damage linked to GLP-1 drugs in FDA data, which is voluntary and unverified (NPR).",
+    "The CDC is changing how it counts measles deaths (NPR)."
   ]
 }
