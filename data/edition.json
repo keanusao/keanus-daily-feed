@@ -1,0 +1,805 @@
+{
+  "alerts": [
+    {
+      "level": "watch",
+      "story": "jobsfed",
+      "text": "September CPI lands Wednesday Oct. 14, the key input for whether the Fed hikes again on Oct. 28."
+    },
+    {
+      "level": "watch",
+      "story": "dieselrussia",
+      "text": "Diesel is at a record near $6.51 a gallon and the Russia waiver adds little supply soon, so freight and grocery costs may stay high."
+    },
+    {
+      "level": "info",
+      "text": "Apple fell nearly 2% Friday after Nikkei reported iPhone 18 Pro order cuts; Apple has not confirmed it."
+    },
+    {
+      "level": "info",
+      "story": "openaiselloff",
+      "text": "Microsoft and Alphabet report earnings Oct. 27 and Amazon Oct. 29, per one report."
+    }
+  ],
+  "briefs": [
+    "OpenAI reportedly shelved GPT-6.1 Astra after safety tests flagged deception and scope problems; reports trace to the WSJ and OpenAI has not confirmed it in sources I found.",
+    "Nikkei Asia says Apple cut October iPhone 18 Pro component orders by at least 15%; Reuters could not verify it and Apple has not commented.",
+    "Nobel Prizes: Henri Kagan and Kenso Soai won Chemistry, and Karl Deisseroth, Peter Hegemann and Georg Nagel won Medicine for optogenetics; Economics is announced Oct. 12.",
+    "The Supreme Court agreed in February to hear Boulder's climate suit against Exxon and Suncor; I found no argument date or ruling.",
+    "A Congressional Research Service report says US measles cases in 2026 already exceed 2025's and the country may lose elimination status.",
+    "The Fed's September minutes show most participants expect another hike by year end, though an October hike looks unlikely."
+  ],
+  "highlights": [
+    {
+      "story": "dieselrussia",
+      "text": "Trump suspended limits on Russian diesel through April 2027, and Ukraine and some Republicans object."
+    },
+    {
+      "story": "iranwar",
+      "text": "Trump says no Iran strikes before Nov. 3, keeps the blockade, and Gulf attacks continue."
+    },
+    {
+      "story": "openaiselloff",
+      "text": "A lower OpenAI revenue figure sank AI stocks Thursday, then Wall Street rebounded Friday."
+    },
+    {
+      "story": "webbfrb",
+      "text": "Webb pinned the most distant fast radio burst to a tiny galaxy, doubling the record."
+    },
+    {
+      "story": "aipacing",
+      "text": "Amodei urged slowing frontier AI while the White House won only a voluntary pact."
+    }
+  ],
+  "label": "Morning edition",
+  "markets": {
+    "asOf": "Fri Oct 9 close",
+    "indices": [
+      {
+        "change": "+0.59%",
+        "dir": "up",
+        "name": "S&P 500",
+        "price": "7,811.54",
+        "symbol": "^GSPC"
+      },
+      {
+        "change": "+0.83%",
+        "dir": "up",
+        "name": "Dow Jones",
+        "price": "51,654.95",
+        "symbol": "^DJI"
+      },
+      {
+        "change": "+0.64%",
+        "dir": "up",
+        "name": "Nasdaq",
+        "price": "27,366.17",
+        "symbol": "^IXIC"
+      }
+    ],
+    "watch": [
+      {
+        "change": "-0.52%",
+        "dir": "down",
+        "name": "Nvidia",
+        "price": "$229.28",
+        "symbol": "NVDA"
+      },
+      {
+        "change": "-2%",
+        "dir": "down",
+        "name": "Apple",
+        "note": "Fell nearly 2% on a Nikkei report of iPhone 18 Pro order cuts (intraday).",
+        "price": "n/a",
+        "symbol": "AAPL"
+      },
+      {
+        "change": "+2%",
+        "dir": "up",
+        "name": "Microsoft",
+        "note": "Rose about 2% Friday, per CNBC.",
+        "price": "n/a",
+        "symbol": "MSFT"
+      },
+      {
+        "change": "+3%",
+        "dir": "up",
+        "name": "Amazon",
+        "note": "Rose about 3% Friday, per CNBC.",
+        "price": "n/a",
+        "symbol": "AMZN"
+      }
+    ],
+    "wrap": "Stocks rebounded Friday after Thursday's AI selloff, with the **S&P 500 finishing 0.6% higher just under its record close**. The Dow rose 0.83% and the Nasdaq 0.64%. Steadying oil eased pressure on bond yields, which hit 24-year highs on Wednesday, and Brent held above $100. CPI on Wednesday and bank earnings lead the week."
+  },
+  "stat": {
+    "label": "US diesel average",
+    "note": "AAA record near Sept. 21; the Russia deal may add only 5-6% to supply by year end.",
+    "value": "$6.51/gal"
+  },
+  "stories": [
+    {
+      "facts": [
+        "Announced Friday, Oct 9: 300,000 tons now, 500,000 tons in November, 1 million tons after.",
+        "The Treasury license runs to 12:01 a.m. EDT on April 7, 2027.",
+        "US diesel hit a record $6.51 a gallon around Sept 21, per AAA.",
+        "Russia has banned diesel exports since July; IEA says its output is down about 30%.",
+        "Trump signed the Graham Russia sanctions law less than a month before the waiver.",
+        "One estimate says the deal adds only 5-6% to supply by year end."
+      ],
+      "flag": "The White House has not said who is paying for the diesel, and analysts doubt Russia can deliver the promised volumes.",
+      "id": "dieselrussia",
+      "left": "This is a transactional favor to Putin. Congress passed a bipartisan sanctions law weeks ago, and the president is waiving it to chase a lower pump price before an election. Money flowing to Russian refiners funds the war that Ukraine is fighting, and pressing Kyiv to stop hitting refineries while calling for its president to be replaced rewards the aggressor. Even on its own terms the gain looks small, since analysts expect a few percent more supply.",
+      "motif": "barrel",
+      "next": "Watch for Fitzpatrick's bill and any Senate move on the Graham sanctions law, plus the first diesel shipments in November.",
+      "right": "The administration's case is that Americans are paying record prices for diesel, and a deal that adds supply helps truckers, farmers and every shopper who buys freighted goods. Supporters point out that Ukraine's refinery strikes are themselves tightening the global diesel market. The hawkish case against the deal is also a conservative one. Pence, Fitzpatrick, Bacon and other Republicans argue that it betrays the Graham sanctions law and hands Moscow revenue, and that affordability should not come at Ukraine's expense.",
+      "section": "politics",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/09/trump-putin-diesel-agreement-ukraine-war"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/energy/4762388/republican-backlash-trump-diesel-deal-russia/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president"
+        ]
+      ],
+      "story": [
+        "On Friday, October 9, Trump announced on Truth Social that Russia will supply more than 300,000 tons of diesel immediately, another 500,000 tons in November and 1 million tons after that. The Treasury's sanctions office issued a general license that lets Russian-origin diesel be sold and delivered until 12:01 a.m. EDT on April 7, 2027. AP noted it is the first diesel license longer than the standard 30 days since the Ukraine war began. Trump said, \"Lower prices for Americans, especially our Great Farmers, Ranchers, and Truckers, is my Greatest Priority.\"",
+        "The deal follows a record run in fuel prices. US diesel passed $6 a gallon for the first time in mid-September, and AAA put the national average at $6.51 around September 21. Russia has banned diesel exports since July, and the IEA says its diesel output has fallen about 30 percent. Ukraine has been hitting Russian refineries. A US official told Axios that Zelensky ignored half a dozen American requests to stop. The deal also sits awkwardly beside a Russia sanctions law named for the late Sen. Lindsey Graham, which Trump signed less than a month earlier.",
+        "Zelensky called it a weak decision and said it gives Moscow more money for the war. On Saturday Trump said Ukraine should get a new leader who can make a deal. Democrats called it selling out Ukraine. Republican critics include former Vice President Mike Pence, who urged Trump to rescind it, and Rep. Brian Fitzpatrick, who said he will introduce a bill to block purchases of Russian oil. Rep. Don Bacon backs that effort. Sens. John Kennedy and Lisa Murkowski also criticized the plan, according to one report. Press secretary Katie Zacharia defended the deal as putting Americans first.",
+        "Analysts doubt it will move prices much. One estimate puts the added supply at about 5 to 6 percent between now and year end, and a former State Department official questioned whether Putin can deliver the volumes at all. The White House has not said who would pay for the fuel. The political stakes are clear: diesel costs flow into food and freight prices, and the election is November 3."
+      ],
+      "summary": "Trump suspended limits on Russian diesel through April 2027 to cut fuel prices before the midterms, and critics in both parties say it undercuts Ukraine.",
+      "title": "Trump eases sanctions on Russian diesel and a Republican backlash follows",
+      "when": "Russia diesel deal"
+    },
+    {
+      "facts": [
+        "Pew survey ran Sept 28 to Oct 4; Trump approval is 30%, a second-term low.",
+        "About two-thirds of Trump's 2024 voters approve, down from 95% at the start of his term.",
+        "63% of registered voters say Trump will be a factor in their congressional vote.",
+        "A tracker updated Oct 3 shows Democrats up 49.3% to 41.9% on the generic ballot.",
+        "The midterm election is November 3."
+      ],
+      "id": "midterms",
+      "left": "The numbers show a president losing his own coalition. When a third of his own 2024 voters have turned and twice as many voters say they are casting a ballot against him as for him, the midterms become a referendum. Prices, a stalled job market and an open-ended war are the kinds of daily-life pressures that move voters, and they are not abstractions. Democrats read this as a chance to check the White House through Congress.",
+      "motif": "ballot",
+      "next": "Election Day is November 3. Watch the next Pew and Emerson Senate polls in Georgia, Maine and North Carolina.",
+      "right": "Midterm penalties for the president's party are a historical pattern, and approval polls measure mood more than turnout. Conservatives point to 2020, when polls had Collins trailing and she won by 9, as proof that surveys can miss the quiet Republican vote. They also argue that fuel and food prices are tied to an Iran war and a global supply shock, and that the administration's actions on diesel and the blockade are aimed at lowering costs. The campaign, they say, has weeks left.",
+      "section": "politics",
+      "src": [
+        [
+          "Newsweek",
+          "C",
+          "https://www.newsweek.com/trump-approval-hits-new-low-compared-with-biden-before-midterms-12544183"
+        ],
+        [
+          "RealClearPolling",
+          "C",
+          "https://www.realclearpolling.com/stories/analysis/betting-markets-now-favor-democrats-to-win-senate-in-26"
+        ],
+        [
+          "Silver Bulletin",
+          "C",
+          "https://www.natesilver.net/p/midterm-polls-have-good-news-great"
+        ],
+        [
+          "Decision Desk HQ",
+          "C",
+          "https://decisiondeskhq.substack.com/p/ohio-battleground-2026-polls-senate-governor"
+        ]
+      ],
+      "story": [
+        "Pew Research's latest survey, taken September 28 to October 4 among roughly 5,000 adults including 3,917 registered voters, puts Trump's approval at 30 percent. That is the lowest of his second term. About two-thirds of his 2024 voters still approve, down from 95 percent at the start of his term, with some of the sharpest declines among Hispanic and younger voters. Pew's October 2022 survey had Biden at 38 percent, so Trump is about 8 points lower at the same point in the cycle.",
+        "The poll also measures how much the president matters to the vote. Sixty-three percent of registered voters say Trump will be a factor in their vote for Congress, and more than twice as many say they are voting against him as for him. Earlier Pew readings this year showed a steady slide, from 47 percent in late January and early February to 34 percent in the spring. The election is on November 3.",
+        "The generic ballot points the same way. A tracker updated October 3 shows Democrats at 49.3 percent to Republicans at 41.9 percent, while Decision Desk HQ's average has Democrats ahead 44 to 40. In the Senate, RealClearPolling reports Roy Cooper leading Michael Whatley by 8.5 points in North Carolina and Susan Collins trailing Graham Platner by 6.5 in Maine. An Emerson poll has Jon Ossoff ahead in Georgia. Betting markets have moved to favor Democrats for the Senate, according to RealClearPolling.",
+        "Polls this far out carry limits. RealClearPolling notes that in 2020 Sara Gideon led Collins by similar margins and Collins won by 9 points. A Texas poll cited by one blog showed Republicans ahead 48 to 43 on a generic Senate ballot. Fuel prices, the Iran war and a weak jobs report are the pressures campaigns are now trying to manage."
+      ],
+      "summary": "A Pew poll puts Trump's approval at a second-term low of 30 percent, and Democrats lead the generic ballot ahead of November 3.",
+      "title": "Trump's approval falls to 30 percent in Pew as the midterms near",
+      "when": "Midterm campaign"
+    },
+    {
+      "facts": [
+        "Execution scheduled for Dec. 3 at Fort Hood.",
+        "The Pentagon said it will be livestreamed after Hegseth called it public.",
+        "Hasan was convicted of killing 13 and wounding 32 in 2009.",
+        "It would be the first US military execution since 1961.",
+        "Tillis, Scott, Smith and Murphy have criticized the broadcast."
+      ],
+      "id": "hasanstream",
+      "left": "Capital punishment is the state's gravest act, and turning it into content cheapens the law. The strongest critics here include supporters of the death penalty, which shows the objection is about dignity and legal process. Livestreaming also invites the question of whether the point is justice or political theater, coming from a Pentagon leadership that has leaned into spectacle.",
+      "motif": "gavel",
+      "next": "Watch for the Pentagon's details on the livestream and any legal challenge before the Dec. 3 date.",
+      "right": "Many conservatives back this sentence strongly, and the victims waited 17 years for it. The administration has not offered a detailed rationale for the broadcast in the coverage reviewed. Republican critics such as Tillis and Scott still support the death penalty for Hasan and argue that America should not copy methods associated with terrorists. The right's case is that justice should be carried out firmly and with restraint.",
+      "section": "politics",
+      "src": [
+        [
+          "Associated Press via Hawaii News Now",
+          "C",
+          "https://www.hawaiinewsnow.com/2026/10/08/pentagon-says-firing-squad-execution-fort-hood-shooter-nidal-malik-hasan-will-be-livestreamed/"
+        ],
+        [
+          "Roll Call",
+          "C",
+          "https://rollcall.com/2026/10/09/plan-for-public-military-execution-sparks-bipartisan-backlash/"
+        ],
+        [
+          "WJLA / Scripps",
+          "C",
+          "https://wjla.com/news/nation-world/beyond-disgusting-gop-republican-sen-thom-tillis-slams-democrat-sen-chris-murphy-bipartisan-backlash-defense-secretary-hegseth-plan-to-livestream-fort-hood-shooters-nidal-hasan-firing-squad-execution-december-3-death-penalty-president-trump"
+        ],
+        [
+          "ABC30",
+          "LL",
+          "https://abc30.com/post/pentagon-says-firing-squad-execution-fort-hood-shooter-nidal-malik-hasan-will-livestreamed/19922832/"
+        ]
+      ],
+      "story": [
+        "Defense Secretary Pete Hegseth said the execution of Nidal Malik Hasan will take place at Fort Hood on December 3 and will be public. A Pentagon official then said it will be livestreamed, with details to follow. Pentagon spokesperson Sean Parnell said Trump approved the execution. Hasan was convicted of killing 13 people and wounding 32 in the 2009 shooting at the base. It would be the first US military execution since 1961 and the first by firing squad since World War II.",
+        "The White House referred questions about the broadcast to the Pentagon, which said details will follow. The method could still be appealed, according to coverage of the backlash. Officials have not said how a livestream would work or who would be able to watch it.",
+        "The criticism has crossed party lines. Sen. Thom Tillis, a Republican who said Hasan should face the death penalty, called the broadcast \"beyond disgusting.\" Rep. Austin Scott, a Georgia Republican on House Armed Services, supports the sentence but said livestreamed executions are something \"jihadists do. America is better than that.\" Rep. Adam Smith, the committee's top Democrat, called the plan \"disturbing and makes a mockery of our legal system.\" Sen. Chris Murphy, who supports the death penalty, called public executions \"medieval.\"",
+        "The reporting contains no statements from victims' families or veterans' groups. The dispute leaves the question of whether a legal punishment should also be a public spectacle, and whether the Pentagon will reverse course before December."
+      ],
+      "summary": "Lawmakers in both parties object to broadcasting the Dec. 3 firing-squad execution of Nidal Hasan, the first military execution since 1961.",
+      "title": "Pentagon plan to livestream Fort Hood shooter's execution draws bipartisan criticism",
+      "when": "Military justice"
+    },
+    {
+      "facts": [
+        "Trump pledged no attack on Iran before the Nov. 3 midterms; the blockade stays.",
+        "The WSJ reported Trump rejected a seven-day ceasefire proposal.",
+        "Riyadh airport was attacked twice Thursday; three Saudi citizens were killed.",
+        "CENTCOM says it has redirected 130 ships since the blockade began.",
+        "Brent crude has held around $100."
+      ],
+      "id": "iranwar",
+      "left": "Delaying strikes until after the election, while saying the election is not a factor, invites the obvious reading that political timing is steering war decisions. After more than seven months the administration still lacks a clear political objective, and the costs are landing on Americans through fuel prices and on civilians across the Gulf. A seven-day ceasefire offer deserved more serious testing.",
+      "motif": "swords",
+      "next": "Watch Hormuz tanker traffic and Gulf attacks ahead of November 3, and any Qatar-mediated talks.",
+      "right": "The blockade keeps pressure on Tehran while diplomacy continues, and the president has been consistent that Iran will not get a nuclear weapon. Treasury Secretary Bessent says economic pressure is delivering results. Tehran, in this view, is asking for sanctions relief and an end to the blockade first and a promise to talk later, which rewards stalling. A pause that holds the blockade costs little and keeps options open.",
+      "section": "world",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://foxnews.com/live-news/iran-war-news-saudi-arabia-houthis-trump-october-11"
+        ],
+        [
+          "The American Conservative",
+          "LR",
+          "https://www.theamericanconservative.com/iran-war-day-224-trump-says-u-s-wont-attack-iran-before-midterms/"
+        ],
+        [
+          "Al Jazeera",
+          "LL",
+          "https://www.aljazeera.com/amp/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html"
+        ],
+        [
+          "Straight Arrow News",
+          "C",
+          "https://san.com/cc/trump-says-war-will-end-after-midterms-as-iranian-president-says-we-will-never-surrender/"
+        ]
+      ],
+      "story": [
+        "In a social media post, Trump said the US \"will not be attacking Iran at any time prior to the Midterm Elections to be held in the United States on November 3rd.\" He said his team is having productive discussions with Iran and that the blockade of Iranian ports will remain in full force. The Wall Street Journal reported he declined a Tehran proposal for a seven-day ceasefire and expects to resume bombing after the election. Fox News ran a headline saying both Trump and Iran say the midterms are not a factor in the talks.",
+        "Iran's earlier offer, reported by Fox, would have reopened the Strait of Hormuz within seven days in exchange for lifting the blockade and waiving oil sanctions, with a ceasefire that includes Lebanon. Trump's side said Tehran wanted concessions up front and offered only a promise to negotiate. Iranian President Masoud Pezeshkian has said Iran is open to nuclear limits and inspections but that the US must show it does not intend to topple the government. CENTCOM said it has redirected 130 ships since the blockade began.",
+        "The fighting is spreading. Saudi authorities said Riyadh's King Khalid International Airport was attacked twice on Thursday, killing three Saudi citizens, and Houthi strikes on Saudi airports and infrastructure are part of a wider escalation. Saudi Arabia and Yemen's government have launched a campaign to drive the Houthis from the Bab el-Mandeb strait. Iran has stepped up attacks on tankers in Hormuz. In early September both sides hit tankers in the biggest wave of shipping attacks of the war, and Brent has since held around $100.",
+        "The pause creates a roughly three-week window with the blockade still in place. Hormuz flows fell as low as about 2 million barrels a day in September from 8 to 9 million before fighting resumed on August 30, per Rystad Energy, which keeps fuel prices high."
+      ],
+      "summary": "Trump pledged not to attack Iran before November 3, keeps the blockade in force, and Houthi and tanker attacks continue.",
+      "title": "Trump says no Iran strikes before the midterms as Hormuz talks stay stuck",
+      "when": "Iran war"
+    },
+    {
+      "facts": [
+        "Announced Friday, Oct. 9 by the Norwegian Nobel Committee.",
+        "Pillay led the UN human rights office from 2008 to 2014.",
+        "She chaired the UN inquiry that found genocide in Gaza; Israel rejects its findings.",
+        "Guterres and Volker Turk praised the choice; UN Watch and Pompeo condemned it.",
+        "The prize is worth about $1.2 million."
+      ],
+      "flag": "The report of new US sanctions on the court within hours comes from a single Spanish-language source.",
+      "id": "pillaynobel",
+      "left": "The committee honored a lifetime of work on war crimes, apartheid-era law and accountability, and the prize says international courts matter when governments attack them. Critics who treat a finding against Israel as disqualifying are asserting that some governments are immune from scrutiny. Praise from the UN's leaders reflects a view that rights law only works if it applies to everyone.",
+      "motif": "scales",
+      "next": "The Nobel ceremony in Oslo is on December 10; watch for further US action on international courts.",
+      "right": "Critics argue that the commission Pillay led was one-sided from the start and singled Israel out while giving little attention to Hamas's October 7 attacks. UN Watch and Pompeo say her record on antisemitism makes the honor deeply offensive. Conservatives also note that the UN bodies she worked in have been accused of tolerating abusers, and that the Peace Prize has increasingly rewarded activism over peacemaking.",
+      "section": "world",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/09/world/navi-pillay-nobel-peace-prize-2026-message-impact-intl"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/who-navi-pillay-nobel-peace-prize-winners-un-record-renews-fierce-antisemitism-accusations"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/world/4762037/un-whistleblower-nobel-winner-complicit-uyghur-genocide/"
+        ],
+        [
+          "Newsweek",
+          "C",
+          "https://www.newsweek.com/navi-pillay-nobel-peace-prize-israel-backlash-12548140"
+        ]
+      ],
+      "story": [
+        "The Norwegian Nobel Committee awarded the 2026 Peace Prize to Navi Pillay on Friday, October 9. The committee tied the award to the rule of law and said the ability to resolve conflicts without force depends on international law. Committee chair Jorgen Watne Frydnes said the world needs people of courage, vision and determination. Pillay led the UN human rights office from 2008 to 2014 and later chaired the UN commission of inquiry that concluded Israel's actions in Gaza amounted to genocide.",
+        "Israel's foreign ministry said the award legitimized anti-Israel hatred, and Prime Minister Netanyahu's government rejects the findings of her commission as biased. UN Watch's Hillel Neuer said her record on antisemitism disqualifies her. Former Secretary of State Mike Pompeo called her one of the leading purveyors of the modern-day blood libel. Washington Examiner coverage reports Trump called the decision disgraceful. A UN whistleblower also accused her of complicity in China-related abuses, a claim carried by the Examiner.",
+        "Supporters were equally firm. UN Secretary-General Antonio Guterres welcomed the award and UN human rights chief Volker Turk called it well deserved. CNN reported the prize came as the US took unprecedented action against the court she served on. One Spanish-language outlet said the US announced sanctions on the International Criminal Court within hours, but that detail rests on a single source.",
+        "The committee's warning that international law is under political attack is the backdrop. The prize now becomes a fresh test of how Washington and Jerusalem treat UN bodies."
+      ],
+      "summary": "The Nobel committee honored the former UN human rights chief for work on international law, and Israel and some conservatives sharply objected.",
+      "title": "Navi Pillay wins the Nobel Peace Prize and Israel condemns the choice",
+      "when": "Nobel Peace Prize"
+    },
+    {
+      "facts": [
+        "September payrolls: +29,000; July and August were revised down by 60,000 combined.",
+        "Health care added only 17,000 jobs.",
+        "Average hourly earnings are up about 3% from a year ago.",
+        "The Fed raised rates 25 basis points in September to 3.75-4.00%.",
+        "September CPI is due Wednesday, Oct. 14; the Fed meets Oct. 27-28.",
+        "Michigan sentiment fell to 46.3; current conditions hit a record low of 44.7."
+      ],
+      "id": "jobsfed",
+      "left": "A labor market adding 29,000 jobs with wages growing 3 percent is a warning, and raising rates into it risks turning a slowdown into job losses. The inflation squeezing households comes from a war-driven energy shock that higher interest rates cannot fix. Workers, especially new entrants and those outside health care, are bearing the cost of a policy mix that ignores supply-side causes.",
+      "motif": "coins",
+      "next": "September CPI on Wednesday, Oct. 14, then the Fed decision on Oct. 28.",
+      "right": "Low layoffs show the labor market is cooling without cracking, and inflation expectations of 4.7 percent show why the Fed cannot relax. Holding rates steady after one hike would risk entrenching price rises when energy costs are already high. Conservatives also argue that more domestic energy supply and deregulation are the lasting fixes for fuel costs, and that the central bank should avoid being pushed by short-term political pressure.",
+      "section": "economy",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.hppr.org/npr-news/2026-10-02/the-u-s-added-only-29-000-jobs-in-september-as-job-market-lacks-spark"
+        ],
+        [
+          "Asia Economy",
+          "C",
+          "https://view.asiae.co.kr/en/article/2026100804564226796"
+        ],
+        [
+          "247 Wall St.",
+          "C",
+          "https://247wallst.com/investing/2026/10/03/the-fed-may-now-skip-october-rate-hike-but-december-is-still-very-much-in-play/"
+        ],
+        [
+          "Advisor Perspectives",
+          "C",
+          "https://www.advisorperspectives.com/dshort/updates/2026/10/09/consumer-sentiment-falls-again-in-october"
+        ]
+      ],
+      "story": [
+        "Employers added 29,000 jobs in September, well below forecasts, according to NPR's report of the Labor Department data. Job gains for July and August were revised down by a combined 60,000, which pushed July into negative territory. Financial services and government shed workers, and even health care added only 17,000. Average hourly earnings rose about 3 percent from a year earlier, a slower pace than the prior month and likely below inflation.",
+        "Wells Fargo economist Sarah House said the good news is that layoffs are not rising, but hiring is hard for new entrants because turnover is low. The Fed raised its benchmark rate by a quarter point in September to a range of 3.75 to 4.00 percent, with all 12 voting members in favor. The minutes did not signal a hike at the October 27-28 meeting, though most participants thought one more increase would likely be appropriate by year end.",
+        "Markets lean toward a pause in October. One snapshot put the odds of an October hike at about 16.5 percent, and a JPMorgan economist said it would take a very strong CPI to make the meeting live. Goldman Sachs has moved its own hike forecast to December. September CPI comes out Wednesday, October 14, and producer prices follow a day later. Citi said a reading of 0.2 percent or below would give the clearest case to hold.",
+        "Households are strained. The University of Michigan's preliminary October sentiment index fell to 46.3 from 48.1, below the 47.6 to 47.8 economists expected. Current conditions hit a record low of 44.7, and one-year inflation expectations rose to 4.7 percent. Record diesel and an oil-driven energy shock are the main complaints behind the numbers."
+      ],
+      "summary": "September payrolls rose just 29,000, consumer sentiment sank to 46.3, and September inflation data on Wednesday will shape the Fed's October 27-28 meeting.",
+      "title": "Hiring nearly stalls at 29,000 jobs while the Fed weighs another hike",
+      "when": "Jobs and the Fed"
+    },
+    {
+      "facts": [
+        "Oct. 8: Nasdaq fell 1.25% to 27,193.34; Oracle fell 5.5%; Nvidia fell 2.9%.",
+        "OpenAI's run-rate was reported at about $50 billion versus $68 billion circulated earlier.",
+        "Oct. 9: S&P 500 closed at 7,811.54 (+0.6%); record close is from Tuesday.",
+        "Oct. 9: Dow 51,654.95 (+0.83%); Nasdaq 27,366.17 (+0.64%).",
+        "Nvidia closed at $229.28 on Friday, down 0.52%.",
+        "S&P 500 Q3 earnings are expected to be up more than 30%, per LSEG."
+      ],
+      "id": "openaiselloff",
+      "motif": "chart",
+      "next": "Citigroup and Wells Fargo report Tuesday, CPI is Wednesday, and Microsoft and Alphabet report Oct. 27.",
+      "section": "stocks",
+      "src": [
+        [
+          "Wealth Professional",
+          "C",
+          "https://www.wealthprofessional.ca/investments/equity-markets/ai-selloff-drags-nasdaq-down-125-as-tsx-holds-its-ground/393743"
+        ],
+        [
+          "OfficeChai",
+          "C",
+          "https://officechai.com/ai/oracle-drops-5-nvidia-microsoft-also-fall-after-report-that-openais-revenue-is-lower-than-initially-reported/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html"
+        ],
+        [
+          "Epoch Times",
+          "LR",
+          "https://www.theepochtimes.com/business/wall-street-review-sp-500-closes-near-all-time-high-6101881"
+        ],
+        [
+          "Reuters via Kitco",
+          "C",
+          "https://www.kitco.com/news/off-the-wire/2026-10-09/wall-st-week-ahead-bank-earnings-cpi-headline-busy-markets-week-sp-500"
+        ]
+      ],
+      "story": [
+        "On Thursday, October 8, the Nasdaq Composite fell 1.25 percent to 27,193.34, its worst session since mid-August. The S&P 500 lost 0.47 percent. The trigger was a Financial Times report, confirmed by Reuters, that OpenAI's annualized revenue was roughly $50 billion at the end of September, about $20 billion below figures given to investors. A source told CNBC the $68 billion number circulating in late September included gross revenue from partners.",
+        "The hit landed hardest on companies tied to OpenAI's spending. Oracle fell 5.5 percent, Intel 5.3 percent and CoreWeave nearly 8 percent. Nvidia dropped 2.9 percent and chipmakers as a group lost 3.4 percent. OpenAI agreed to buy $300 billion of computing power from Oracle over five years starting in 2027. One analyst noted the report does not say OpenAI's revenue shrank, and $50 billion would still be about double where it ended 2025.",
+        "Stocks recovered Friday. The S&P 500 rose 0.6 percent to 7,811.54, just under its all-time closing high from Tuesday. The Dow added 423.31 points, or 0.83 percent, to 51,654.95 and the Nasdaq gained 0.64 percent to 27,366.17. For the week the S&P is up 1.2 percent, the Dow 0.9 percent and the Nasdaq 0.6 percent. Nvidia closed Friday at $229.28, down 0.52 percent. Microsoft rose about 2 percent and Amazon about 3 percent, per CNBC.",
+        "This week brings bank earnings and the CPI report. Reuters says S&P 500 earnings are expected to have jumped by more than 30 percent in the third quarter, and JPMorgan is expected to post $5.90 a share. Equity markets are open Monday for Columbus Day, while the cash Treasury market is closed."
+      ],
+      "summary": "A report that OpenAI's run-rate is about $50 billion hit Oracle and chips on Thursday, but stocks bounced Friday and the S&P 500 sits near its record.",
+      "title": "OpenAI revenue figure sinks AI stocks, then Wall Street rebounds toward records",
+      "when": "AI stocks",
+      "why": "The AI trade now depends on the revenue of a few labs. A cut to OpenAI's apparent run-rate rattled stocks of suppliers with large contracts, and the quick rebound shows investors still believe in earnings. Bank earnings and CPI will test that this week."
+    },
+    {
+      "facts": [
+        "10-year yield touched 5.35-5.36% on Oct. 7, the highest since 2002.",
+        "30-year yield reached 5.73%, a 24-year high.",
+        "The 10-year fell to near 5.28% after a strong auction.",
+        "WTI fell 1.4% to near $90 on Oct. 7; Brent held above $100 on Friday.",
+        "The Treasury cash market is closed Monday for Columbus Day."
+      ],
+      "id": "yields",
+      "motif": "coins",
+      "next": "September CPI on Wednesday, Oct. 14, and Fed decision on Oct. 28.",
+      "section": "stocks",
+      "src": [
+        [
+          "Business Today",
+          "C",
+          "https://www.businesstoday.com.my/2026/10/07/us-stocks-down-as-bond-yields-climb-to-24-year-high/"
+        ],
+        [
+          "Hargreaves Lansdown",
+          "C",
+          "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-fall-as-bond-yields-hit-highest-since-2002"
+        ],
+        [
+          "BabyPips",
+          "C",
+          "https://www.babypips.com/news/financial-forex-market-recap-2026-10-07"
+        ],
+        [
+          "Trading Economics",
+          "C",
+          "https://tradingeconomics.com/united-states/government-bond-yield/news/589143"
+        ]
+      ],
+      "story": [
+        "The 10-year Treasury yield touched 5.36 percent on Wednesday, October 7, its highest since 2002, then eased to about 5.28 percent after a strong 10-year auction. The 30-year yield reached 5.73 percent, also a 24-year high. The S&P 500 and Nasdaq had closed at records the day before and slipped about 0.2 percent on Wednesday, while the Dow fell 0.7 percent.",
+        "Yields had already been rising. The 10-year was at 5.23 percent on October 2 and 5.27 percent on October 6, when oil dipped below $100 and the 30-year was 5.63 percent. WTI crude fell 1.4 percent to near $90 on Wednesday after an EIA crude draw. Coverage points to inflation worries, heavy government debt and Middle East supply fears as drivers.",
+        "On Friday, steadying oil prices eased pressure on bond yields after the weaker consumer sentiment reading, according to Epoch Times. Brent held above $100. Higher yields raise mortgage and corporate borrowing costs and compete with stocks for money, which is why Saxo said investors would watch how the surge affects bank dealmaking and funding costs this week.",
+        "The bond market is closed Monday for Columbus Day. September CPI on Wednesday is the next major test, with the Fed meeting October 27-28."
+      ],
+      "summary": "The 10-year yield touched 5.36 percent and the 30-year 5.73 percent this week, the highest since 2002, yet equities stayed resilient.",
+      "title": "Treasury yields hit 24-year highs while stocks hold near records",
+      "when": "Bond market",
+      "why": "Long-term yields set mortgage rates and the discount rate for stock valuations. A 5 percent-plus 10-year yield with stocks at records means equity prices rely on strong earnings, so any inflation surprise would matter."
+    },
+    {
+      "facts": [
+        "Commerce finalized up to $1 billion on Sept. 16; IBM is matching with $1 billion.",
+        "Anderon is in Albany, NY, with a 300 mm quantum wafer line.",
+        "Commerce takes a minority, non-controlling equity stake.",
+        "First wafers are already running through the facility.",
+        "IBM targets a fault-tolerant quantum computer by 2029."
+      ],
+      "id": "anderon",
+      "motif": "chip",
+      "next": "Watch for the first outside customers and measured qubit quality from Anderon wafers.",
+      "section": "engineering",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/anderon-quantum-fab"
+        ],
+        [
+          "GovConWire",
+          "C",
+          "https://www.govconwire.com/articles/anderon-ibm-finalized-1b-chips-quantum-foundry-award"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/05/21/quantum-stocks--us-taking-equity-stakes.html"
+        ],
+        [
+          "The Quantum Insider",
+          "C",
+          "https://thequantuminsider.com/2026/05/21/ibm-and-u-s-department-of-commerce-announce-proposed-1-billion-chips-award-to-fund-purpose-built-quantum-foundry/"
+        ]
+      ],
+      "story": [
+        "IEEE Spectrum reports that the US Commerce Department finalized a CHIPS and Science Act R&D award of up to $1 billion for Anderon, the quantum foundry IBM set up this year. The announcement is dated September 16. IBM is matching it with $1 billion in cash. Anderon is based in Albany, New York, and builds on IBM's work at Albany NanoTech, where it has made quantum wafers for more than five years.",
+        "Anderon runs a 300-millimeter line, the same wafer size used for leading conventional chips. GovConWire reports that Commerce takes a minority, non-controlling equity stake as a condition of the funding and that the first quantum wafers are already moving through the facility. IBM says moving its wafer research to the Albany 300-millimeter line from 2021 roughly doubled its chip-development speed and raised physical complexity tenfold.",
+        "The facility is meant to work as an open foundry, offering fabrication to outside quantum hardware developers. Spectrum describes an automated line built to cut process variation through repeatable patterning, deposition and oxidation, with in-line testing to catch drift. The article cautions that customers will still need to measure the actual qubit-performance gains. A CNBC report in May said quantum stocks jumped on the broader plan for $2 billion in incentives and equity stakes.",
+        "IBM is targeting the world's first commercial large-scale fault-tolerant quantum computer by 2029. A foundry that makes qubits like chips is a bet that yield and uniformity, not just physics, now limit the field."
+      ],
+      "summary": "Commerce finalized up to $1 billion in CHIPS funding for Anderon, a 300-millimeter quantum wafer foundry with first wafers already running.",
+      "title": "IBM's Anderon finalizes a $1 billion federal award to build quantum chips in Albany",
+      "when": "Quantum chips",
+      "why": "Quantum hardware has been hand-built in small batches. A 300 mm foundry could make qubits more uniform and cheaper to test, which is the same shift that scaled classical chips. It also shows Washington taking equity stakes in strategic tech."
+    },
+    {
+      "facts": [
+        "Launch: Monday, Sept. 28, from Starbase, Texas.",
+        "One ship engine failed during ascent; the team continued to orbit.",
+        "26 Starlink V3 satellites were deployed.",
+        "The planned ten-hour, six-orbit mission was cut to about three hours.",
+        "The booster made a simulated landing in the Gulf rather than a tower catch."
+      ],
+      "id": "starship14",
+      "motif": "rocket",
+      "next": "Watch for SpaceX's next flight date and whether it attempts a tower catch and a full-length orbital mission.",
+      "section": "engineering",
+      "src": [
+        [
+          "NPR (WUNC)",
+          "LL",
+          "https://www.wunc.org/national/2026-09-28/spacexs-starship-launches-on-first-orbital-mission-from-texas"
+        ],
+        [
+          "Interesting Engineering",
+          "C",
+          "https://interestingengineering.com/space/worlds-most-powerful-rocket-reaches-orbit-deploys-26-starlink-v3-satellites"
+        ],
+        [
+          "KeepTrack",
+          "C",
+          "https://keeptrack.space/x-report/spacex-brief-2026-09-29"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-05/musk-is-a-trillionaire-again-as-spacex-claws-back-post-ipo-slump"
+        ]
+      ],
+      "story": [
+        "SpaceX's Starship launched from Starbase, Texas, on Monday, September 28, on its first orbital mission. One engine on the ship failed during ascent, and about 22 minutes into the flight the team decided it was safe to continue to orbit. The ship then deployed 26 next-generation Starlink V3 satellites, the first time Starship had reached orbit or released Starlink satellites.",
+        "The flight plan called for about ten hours and six orbits, but mission managers shortened it to roughly three hours, after which the ship returned to Earth. The booster simulated a landing offshore in the Gulf of Mexico rather than being caught by the launch tower. Reports agree on the core facts, though some post-deployment details come from secondary sources quoting Musk.",
+        "Starship is the largest and most powerful rocket flown. Starlink V3 satellites are meant to add far more capacity per launch than earlier versions, which is the commercial case behind the vehicle. SpaceX shares trade publicly under SPCX, and Bloomberg reported on October 5 that Musk's fortune again passed $1 trillion as SpaceX recovered from a post-IPO slump."
+      ],
+      "summary": "Flight 14 reached orbit on September 28 and released 26 Starlink V3 satellites, but an engine failed and the mission was cut short.",
+      "title": "Starship reaches orbit for the first time and deploys 26 Starlink satellites",
+      "when": "Starship orbit",
+      "why": "Reaching orbit and deploying payloads is the step that turns Starship from a test article into a launch vehicle. Repeated launches of heavy V3 satellites would raise Starlink capacity, and the shortened flight shows the ship still has reliability work left."
+    },
+    {
+      "facts": [
+        "Announced Oct. 6, 2026; Halzen is the sole recipient listed on the Nobel site.",
+        "Halzen works at the University of Wisconsin-Madison.",
+        "IceCube uses a cubic kilometer of South Pole ice.",
+        "A 2018 detection traced a neutrino to a supermassive black hole.",
+        "A 2023 study linked cosmic neutrinos to NGC 1068.",
+        "The prize is SEK 12 million; the ceremony is Dec. 10."
+      ],
+      "id": "halzen",
+      "motif": "atom",
+      "next": "The Nobel ceremony is December 10 in Stockholm; the Economics prize is announced October 12.",
+      "section": "science",
+      "src": [
+        [
+          "Science",
+          "C",
+          "https://www.science.org/content/article/architect-south-pole-observatory-wins-physics-nobel"
+        ],
+        [
+          "Nobel Prize",
+          "C",
+          "https://nobelprize.org/prizes/physics/2026/press-release/"
+        ],
+        [
+          "Quanta Magazine",
+          "C",
+          "https://www.quantamagazine.org/a-new-map-of-the-universe-painted-with-cosmic-neutrinos-20230629/"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/science/alien-neutrinos-reveal-new-frontier-astronomy-antarcticas-icecube-2D11624193"
+        ]
+      ],
+      "story": [
+        "The Royal Swedish Academy of Sciences announced the 2026 Nobel Prize in Physics on October 6, awarding it to Francis Halzen of the University of Wisconsin-Madison for the discovery of high-energy neutrinos from astrophysical sources. The Nobel site lists him as the sole recipient. The prize is SEK 12 million, about $1.2 million, and the ceremony is in Stockholm on December 10.",
+        "Halzen was born in Belgium. In 1988 he realized that the clear ice at the South Pole could detect cosmic neutrinos. IceCube is a cubic kilometer of ice instrumented with light sensors. A neutrino that creates a muon in the ice leaves a streak of light that shows its direction. Science explains the aim was astronomy: cosmic rays are charged and bend in magnetic fields, so neutrinos are the better messengers for finding their sources.",
+        "IceCube's results back the idea. A 2018 detection let researchers trace a neutrino to a supermassive black hole, and a 2023 Science study linked a large share of cosmic neutrinos to the active galaxy NGC 1068. Quanta described the result as a new map of the universe painted with neutrinos."
+      ],
+      "summary": "The prize recognizes the architect of the South Pole detector that opened neutrino astronomy.",
+      "title": "Francis Halzen wins the Nobel Prize in Physics for the IceCube neutrino observatory",
+      "when": "Physics Nobel",
+      "why": "Neutrinos pass through matter nearly unaltered, so they reveal the cores of objects light cannot escape. The prize marks neutrino astronomy as a mature field and supports its next-generation detectors."
+    },
+    {
+      "facts": [
+        "Published in Science on Oct. 8, 2026.",
+        "FRB 20240304B was detected by MeerKAT on March 4, 2024.",
+        "Webb measured a redshift of 2.148, about 3 billion years after the Big Bang.",
+        "It more than doubles the previous FRB distance record.",
+        "The host is a low-mass, clumpy, star-forming galaxy."
+      ],
+      "id": "webbfrb",
+      "motif": "planet",
+      "next": "Watch for more distant FRB localizations from MeerKAT and Webb follow-ups.",
+      "section": "science",
+      "src": [
+        [
+          "Science",
+          "C",
+          "https://www.science.org/doi/10.1126/science.adz2675"
+        ],
+        [
+          "NASA Science",
+          "C",
+          "https://science.nasa.gov/missions/webb/webb-measures-distance-to-farthest-fast-radio-burst-suggesting-origin/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/galaxies/james-webb-space-telescope-helps-detect-the-most-distant-fast-radio-burst-ever-seen-and-scientists-are-surprised-by-its-source"
+        ],
+        [
+          "Live Science",
+          "C",
+          "https://www.livescience.com/space/astronomy/james-webb-telescope-pinpoints-the-most-distant-fast-radio-burst-ever-seen-more-than-doubling-the-previous-record"
+        ],
+        [
+          "University of Manchester",
+          "C",
+          "https://www.manchester.ac.uk/about/news/uk-astronomers-help-reveal-host-galaxy-of-most-distant-fast-radio-burst/"
+        ]
+      ],
+      "story": [
+        "A study in Science, published October 8 and led by Manisha Caleb of the University of Sydney, reports that FRB 20240304B is the most distant fast radio burst yet localized. South Africa's MeerKAT telescope, working with the MeerTRAP team led by Ben Stappers, first detected the millisecond-long burst on March 4, 2024. Its precise position made follow-up possible, but ground-based telescopes found nothing there.",
+        "NASA's Webb telescope found the host. Its NIRCam detected the galaxy and NIRSpec measured a redshift of 2.148, from oxygen and nitrogen lines. That places the burst when the universe was about 3 billion years old, roughly a quarter of its present age, and the light has traveled more than 10 billion years. NASA says it more than doubles the previous record.",
+        "The host was a surprise. It is a low-mass, clumpy, star-forming galaxy, much less massive than typical FRB hosts. Manchester's release says that suggests little delay between when galaxies form stars and when they can produce FRBs. The paper also says the burst's heavy scattering implies a population of FRBs that current surveys cannot detect."
+      ],
+      "summary": "FRB 20240304B came from a small, young galaxy at redshift 2.148, more than doubling the previous distance record.",
+      "title": "Webb and MeerKAT trace the most distant fast radio burst ever seen to a tiny galaxy",
+      "when": "Fast radio bursts",
+      "why": "Fast radio bursts can weigh the gas between galaxies, which helps map matter we cannot see. Finding one this far back also tells astronomers what makes them, since small young galaxies can host them quickly."
+    },
+    {
+      "facts": [
+        "Amodei's essay \"We Must Pace the Frontier\" was reported Sept. 12.",
+        "More than 1,000 lab employees signed a petition to pace the frontier.",
+        "A White House meeting on Sept. 29 produced a voluntary safety accord.",
+        "The accord covers risk reviews, auditing and third-party evaluations, with no enforcement.",
+        "Sen. Mark Warner wants mandatory testing and incident reporting."
+      ],
+      "id": "aipacing",
+      "left": "A voluntary, unenforceable pledge is a weak answer when the labs themselves say loss of control and cyber and bio misuse are real risks. Sanders wants a pause and Warner wants mandatory testing, and both are right that safety rules are only credible if a regulator can enforce them. Companies should not grade their own homework.",
+      "motif": "automaton",
+      "next": "Watch for Senate action on mandatory testing and which labs publish their audit commitments.",
+      "right": "A voluntary accord with outside auditors lets the government set expectations without a licensing regime that could slow American builders. Conservatives are wary of rules written by the largest labs that also happen to raise barriers for rivals. The administration's approach keeps the option of stricter rules while the technology is still changing quickly, and it avoids freezing today's assumptions into law.",
+      "section": "ai",
+      "src": [
+        [
+          "TechRadar",
+          "C",
+          "https://www.techradar.com/ai-platforms-assistants/anthropic-ceo-calls-for-pacing-ai-frontier-model-development-and-warns-in-6-12-months-such-a-swarm-of-agents-could-be-capable-of-taking-over-the-entire-internet"
+        ],
+        [
+          "Straight Arrow News",
+          "C",
+          "https://san.com/cc/ai-leaders-back-call-to-slow-pace-of-frontier-model-development/"
+        ],
+        [
+          "Straight Arrow News",
+          "C",
+          "https://san.com/cc/ai-leaders-agree-to-safety-reviews-in-voluntary-deal-trump-calls-morally-binding/"
+        ],
+        [
+          "NBC Bay Area",
+          "LL",
+          "https://www.nbcbayarea.com/news/national-international/anthropic-ceo-calls-for-slowing-ai-race/"
+        ],
+        [
+          "AI Business",
+          "C",
+          "https://aibusiness.com/responsible-ai/white-house-tech-leaders-reach-accord-on-ai-guardrails"
+        ]
+      ],
+      "story": [
+        "On September 12, Anthropic CEO Dario Amodei published an essay, \"We Must Pace the Frontier,\" saying \"We must slow the pace at which we improve the capabilities of AI models.\" He named loss of control, misuse in cyberattacks and bioterrorism, and economic disruption as risks. He proposed ongoing access for third-party evaluators inside frontier labs, which Anthropic would do itself, and urged governments to require other leading companies to match it. TechRadar also reported his warning that agent swarms could be capable of taking over the entire internet within 6 to 12 months.",
+        "Support came quickly. OpenAI's Sam Altman wrote, \"I agree with Dario that we need to pace the frontier,\" and Elon Musk signaled support. More than 1,000 employees at leading labs signed a petition asking the government to help deliberately pace the frontier. Sen. Bernie Sanders called the statements a start but not enough and wants a full pause.",
+        "On September 29, AI executives met at the White House and signed a voluntary agreement to adopt safety policies including risk reviews, auditing and third-party evaluations. The one-page document leaves out details and enforcement, and Trump called it \"morally binding.\" Sen. Mark Warner wants the Senate to require safety testing and incident reporting for the most advanced systems. Reports note Anthropic remains barred from Pentagon work after a contract dispute.",
+        "The gap between statements and law is the story. Voluntary pledges can move fast, but nothing in the accord says what happens when a lab breaks it."
+      ],
+      "summary": "Anthropic's Amodei urged slowing frontier AI, and the White House secured a one-page voluntary agreement without enforcement.",
+      "title": "AI leaders call to pace the frontier while Trump backs a voluntary safety pact",
+      "when": "AI policy",
+      "why": "If the leading labs agree to slow down only voluntarily, the pace depends on competition and trust. Mandatory third-party access, as Amodei proposes, would be a real change in how frontier models are checked."
+    },
+    {
+      "facts": [
+        "Announced Oct. 8 at Google's Gemini at Work event.",
+        "Works across Google Workspace, Slack and Microsoft 365.",
+        "Each agent gets its own Workspace account.",
+        "It can route to Claude and open-weight models.",
+        "Private preview; early customers are On, Shopify and PayPal."
+      ],
+      "id": "geminiagent",
+      "motif": "gear",
+      "next": "Watch for general availability dates and security reviews of agent identities.",
+      "section": "ai",
+      "src": [
+        [
+          "Constellation Research",
+          "C",
+          "https://constellationr.com/insights/news/google-cloud-launches-gemini-agent-work-across-enterprise-systems"
+        ],
+        [
+          "CIO",
+          "C",
+          "https://cio.com/article/4232839/google-wants-to-be-the-gatekeeper-for-enterprise-ai-agents-2.html"
+        ],
+        [
+          "AI Weekly",
+          "C",
+          "https://aiweekly.co/alerts/google-cloud-unveils-universal-gemini-agent-with-its-own-gmail-calendar-and"
+        ],
+        [
+          "Let's Data Science",
+          "C",
+          "https://letsdatascience.com/news/google-launches-unified-gemini-enterprise-agent-3927f884"
+        ]
+      ],
+      "story": [
+        "At its Gemini at Work event on October 8, Google Cloud introduced a single cloud-based agent that runs tasks from the Gemini Enterprise app and works across Google Workspace, Slack and Microsoft 365. It can answer questions, create content, write and run code, and complete knowledge-work tasks. CEO Thomas Kurian's framing was that users give it \"objectives, not instructions.\"",
+        "The agent keeps working for hours or days and orchestrates sub-agents. Each agent gets its own Workspace account with a Gmail address, calendar and Drive storage. It can route to Anthropic's Claude as well as Google's own and open-weight models, with cost controls and enterprise policy governance. Google also described identity and permission management, secure sandboxing and network gateways.",
+        "Availability starts as a private preview for enterprise customers, and broader availability has no date. Early customers named are On, Shopify and PayPal. Analysts read the launch as a bid to control the enterprise agent layer, not just another assistant. These details come from trade and secondary coverage, not a Google blog post I could read directly."
+      ],
+      "summary": "Announced October 8, the cloud agent runs multi-day tasks across Google, Slack and Microsoft 365, starting in private preview.",
+      "title": "Google launches a universal Gemini agent for enterprise work",
+      "when": "Enterprise agents",
+      "why": "Giving agents their own identities, mailboxes and permissions is the key design shift. It makes them auditable like employees, which companies need before they hand over long tasks."
+    }
+  ],
+  "summary": "Keanu, the lead story is that **Trump eased sanctions on Russian diesel** to cut fuel prices, and Ukraine, Democrats and several Republicans are pushing back. Trump also says **no strikes on Iran before November 3**, while Houthi and tanker attacks keep oil near $100. Hiring nearly stalled at 29,000 jobs, and CPI on Wednesday will shape the Fed's October meeting. On Wall Street, **an OpenAI revenue report rattled AI stocks** Thursday before Friday's rebound left the S&P 500 near a record. In science, Webb helped find the most distant fast radio burst, and the Nobel went to IceCube's Francis Halzen. Fremont is mostly sunny and near 67 today.",
+  "updatedAt": "2026-10-11T15:20:00Z",
+  "weather": {
+    "days": [
+      {
+        "cond": "clear",
+        "date": "2026-10-11",
+        "hi": 67,
+        "lo": 52,
+        "pop": null
+      }
+    ],
+    "place": "Fremont, CA"
+  }
+}
