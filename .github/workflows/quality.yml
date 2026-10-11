@@ -1,0 +1,50 @@
+name: Edition checks
+
+# Checks every new edition (structure + source links) and, every two hours, that editions are arriving on time.
+# On failure it opens (or updates) a GitHub issue labeled feed-check, which GitHub emails to the repo owner.
+# When checks pass again it closes that issue.
+on:
+  push:
+    branches: [main]
+    paths: ["data/edition.json", "scripts/validate_edition.py"]
+  schedule:
+    - cron: "41 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate edition
+        id: validate
+        continue-on-error: true
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python scripts/validate_edition.py
+          else
+            python scripts/validate_edition.py --links
+          fi
+      - name: Report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create feed-check --color d73a4a --description "Automated edition checks" 2>/dev/null || true
+          open=$(gh issue list --label feed-check --state open --json number --jq '.[0].number')
+          if [ "${{ steps.validate.outcome }}" = "failure" ]; then
+            body="$(cat check-report.md)
+
+          Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            if [ -n "$open" ]; then gh issue comment "$open" --body "$body"
+            else gh issue create --title "Keanu's Daily Feed: edition check failed" --label feed-check --body "$body"; fi
+            exit 1
+          elif [ -n "$open" ]; then
+            gh issue close "$open" --comment "Checks pass again. $(head -1 check-report.md)"
+          fi

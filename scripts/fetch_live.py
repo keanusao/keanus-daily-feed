@@ -7,7 +7,7 @@ import json
 import os
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -43,21 +43,54 @@ def fmt(value, kind):
 
 
 def quote(symbol, name, kind):
-    url = "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(symbol) + "?range=1d&interval=1d"
-    meta = get_json(url)["chart"]["result"][0]["meta"]
+    base = "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(symbol)
+    meta = get_json(base + "?range=1d&interval=1d")["chart"]["result"][0]["meta"]
     price = meta.get("regularMarketPrice")
     prev = meta.get("chartPreviousClose") or meta.get("previousClose")
     if price is None:
         return None
     change = (price - prev) / prev * 100 if prev else 0.0
+    spark = []
+    try:  # one month of daily closes for the sparkline
+        hist = get_json(base + "?range=1mo&interval=1d")["chart"]["result"][0]
+        spark = [round(c, 2) for c in hist["indicators"]["quote"][0]["close"] if c is not None]
+    except Exception as e:
+        print("spark failed:", symbol, e)
     return {
         "symbol": symbol,
         "name": name or meta.get("shortName") or symbol,
         "price": fmt(price, kind),
+        "raw": round(price, 4),
         "change": f"{change:+.2f}%",
         "dir": "up" if change > 0.005 else "down" if change < -0.005 else "flat",
         "time": meta.get("regularMarketTime"),
+        "spark": spark,
     }
+
+
+def earnings(symbols, days=45):
+    """Upcoming earnings dates for the watchlist from Nasdaq's public earnings calendar."""
+    wanted, found = {s.upper() for s in symbols}, {}
+    today = datetime.now(ZoneInfo("America/New_York")).date()
+    for i in range(days):
+        d = today + timedelta(days=i)
+        if d.weekday() >= 5 or len(found) == len(wanted):
+            continue
+        try:
+            req = urllib.request.Request(f"https://api.nasdaq.com/api/calendar/earnings?date={d.isoformat()}",
+                                         headers={**UA, "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                rows = (json.load(r).get("data") or {}).get("rows") or []
+        except Exception as e:
+            print("earnings fetch failed:", d, e)
+            continue
+        for row in rows:
+            sym = (row.get("symbol") or "").upper()
+            if sym in wanted and sym not in found:
+                t = (row.get("time") or "").replace("time-", "")
+                found[sym] = {"symbol": sym, "date": d.isoformat(),
+                              "when": {"pre-market": "before open", "after-hours": "after close"}.get(t, "")}
+    return sorted(found.values(), key=lambda x: x["date"])
 
 
 WMO = [
@@ -139,6 +172,23 @@ def main():
         out["markets"] = {"asOf": et.strftime("%a %b %-d, %-I:%M %p ET"), "indices": indices, "watch": watch}
     elif "markets" in old:
         out["markets"] = old["markets"]
+
+    # Earnings dates change rarely; refresh at most every 20 hours.
+    prev_e = old.get("earnings") or {}
+    checked = prev_e.get("checkedAt")
+    stale = True
+    if checked:
+        age = datetime.now(timezone.utc) - datetime.fromisoformat(checked.replace("Z", "+00:00"))
+        stale = age.total_seconds() > 20 * 3600 or set(prev_e.get("symbols", [])) != set(watch_syms)
+    if stale:
+        try:
+            out["earnings"] = {"checkedAt": out["updatedAt"], "symbols": watch_syms, "upcoming": earnings(watch_syms)}
+        except Exception as e:
+            print("earnings failed:", e)
+            if prev_e:
+                out["earnings"] = prev_e
+    else:
+        out["earnings"] = prev_e
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
