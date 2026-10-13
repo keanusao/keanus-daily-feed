@@ -1,23 +1,16 @@
 {
-  "updatedAt": "2026-10-13T06:34:15Z",
+  "updatedAt": "2026-10-13T07:30:59Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 54.2,
-      "feels": 52.4,
-      "hum": 81,
-      "wind": 3.3,
+      "temp": 54.1,
+      "feels": 52.7,
+      "hum": 84,
+      "wind": 3.1,
       "cond": "clear"
     },
     "days": [
-      {
-        "date": "2026-10-11",
-        "hi": 68,
-        "lo": 49,
-        "cond": "cloudy",
-        "pop": 0
-      },
       {
         "date": "2026-10-12",
         "hi": 69,
@@ -27,8 +20,8 @@
       },
       {
         "date": "2026-10-13",
-        "hi": 73,
-        "lo": 52,
+        "hi": 74,
+        "lo": 49,
         "cond": "fog",
         "pop": 0
       },
@@ -59,11 +52,18 @@
         "lo": 66,
         "cond": "clear",
         "pop": 0
+      },
+      {
+        "date": "2026-10-18",
+        "hi": 70,
+        "lo": 58,
+        "cond": "partly",
+        "pop": 0
       }
     ]
   },
   "markets": {
-    "asOf": "Tue Oct 13, 2:24 AM ET",
+    "asOf": "Tue Oct 13, 3:20 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -196,11 +196,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$92.57",
-        "raw": 92.57,
-        "change": "-1.25%",
+        "price": "$92.33",
+        "raw": 92.33,
+        "change": "-1.50%",
         "dir": "down",
-        "time": 1791872653,
+        "time": 1791876056,
         "spark": [
           101.39,
           105.83,
@@ -223,17 +223,17 @@
           91.49,
           91.85,
           93.74,
-          92.57
+          92.33
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$83,594",
-        "raw": 83594.32,
-        "change": "+2.25%",
+        "price": "$83,702",
+        "raw": 83702.09,
+        "change": "+2.38%",
         "dir": "up",
-        "time": 1791873254,
+        "time": 1791876654,
         "spark": [
           76838.16,
           78163.38,
@@ -264,7 +264,8 @@
           82546.32,
           82912.23,
           83679.47,
-          83594.32
+          81762.56,
+          83702.09
         ]
       }
     ],
