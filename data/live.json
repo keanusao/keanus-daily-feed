@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-13T11:27:57Z",
+  "updatedAt": "2026-10-13T12:34:35Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 50.7,
-      "feels": 48.9,
-      "hum": 79,
-      "wind": 0.9,
+      "temp": 49.4,
+      "feels": 46.6,
+      "hum": 78,
+      "wind": 2.5,
       "cond": "clear"
     },
     "days": [
@@ -20,9 +20,9 @@
       },
       {
         "date": "2026-10-13",
-        "hi": 76,
-        "lo": 50,
-        "cond": "partly",
+        "hi": 73,
+        "lo": 49,
+        "cond": "clear",
         "pop": 0
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "date": "2026-10-15",
-        "hi": 87,
+        "hi": 88,
         "lo": 61,
         "cond": "clear",
         "pop": 0
@@ -42,28 +42,28 @@
       {
         "date": "2026-10-16",
         "hi": 91,
-        "lo": 66,
+        "lo": 65,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-17",
-        "hi": 87,
+        "hi": 85,
         "lo": 66,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-18",
-        "hi": 70,
-        "lo": 58,
-        "cond": "partly",
+        "hi": 69,
+        "lo": 57,
+        "cond": "clear",
         "pop": 0
       }
     ]
   },
   "markets": {
-    "asOf": "Tue Oct 13, 7:17 AM ET",
+    "asOf": "Tue Oct 13, 8:24 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -72,7 +72,7 @@
         "raw": 7807.24,
         "change": "-0.06%",
         "dir": "down",
-        "time": 1791835200,
+        "time": 1791837301,
         "spark": [
           7619.98,
           7585.73,
@@ -166,8 +166,8 @@
         "name": "10-yr Treasury",
         "price": "5.24%",
         "raw": 5.24,
-        "change": "-0.08%",
-        "dir": "down",
+        "change": "+0.00%",
+        "dir": "flat",
         "time": 1791831593,
         "spark": [
           4.96,
@@ -196,11 +196,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$91.90",
-        "raw": 91.9,
-        "change": "-1.96%",
+        "price": "$92.35",
+        "raw": 92.35,
+        "change": "-1.48%",
         "dir": "down",
-        "time": 1791890277,
+        "time": 1791894273,
         "spark": [
           101.39,
           105.83,
@@ -223,17 +223,17 @@
           91.49,
           91.85,
           93.74,
-          91.9
+          92.35
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$83,403",
-        "raw": 83403.15,
-        "change": "+2.02%",
+        "price": "$83,217",
+        "raw": 83217.44,
+        "change": "+1.79%",
         "dir": "up",
-        "time": 1791890875,
+        "time": 1791894870,
         "spark": [
           76838.16,
           78163.38,
@@ -265,7 +265,7 @@
           82912.23,
           83679.47,
           81762.56,
-          83403.15
+          83217.44
         ]
       }
     ],
