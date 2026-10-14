@@ -1,0 +1,1322 @@
+{
+  "updatedAt": "2026-10-14T23:19:19Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **the Nasdaq fell 1.88% on AI-debt fears** Wednesday, and the S&P 500 lost 1.11% to 7,718.94 (CNBC, Bloomberg). Dell dropped about 11% after a Barclays downgrade, and CoreWeave sank roughly 15% as its bonds neared a 14.8% yield (CNBC). September CPI of 3.7% lifted **odds of a Fed hike on Oct. 27-28** to roughly 35% to 49% (CNBC, CNN). In California, **the Justice Department gave Los Angeles and the state 48 hours** to act on alleged noncitizen voters, and UCLA lawyers plan to seek an injunction (CNN, SF Chronicle, Fox News). In Washington, **a bipartisan Senate letter calls Trump's Russian diesel deal a betrayal**, while the White House defends it (NPR, CNBC, Fox News). CNN reports a judge limited prosecutors' access to Rep. Ilhan Omar's records after Monday's search. Abroad, Brent sits at $106.33 as Houthi-Saudi fighting continues (CNBC, Fox News). **NASA finished stacking Artemis III's boosters**, and Starship's Flight 15 could come as soon as Oct. 19 (NASA, Space.com). Anthropic met investors on its IPO, which Reuters says now looks like a November listing (CNBC, Bloomberg). Fremont hits 92 on Friday.",
+  "alerts": [
+    {
+      "text": "The Justice Department gave Los Angeles County and California 48 hours to act on alleged noncitizen voters, and a court fight is likely.",
+      "level": "high",
+      "story": "dojcalifornia"
+    },
+    {
+      "text": "Tesla reports earnings Oct. 21 after the close, and the stock fell 2.15% today to $367.16.",
+      "level": "watch"
+    },
+    {
+      "text": "AI hardware stocks sold off hard, with Nvidia down 3.16% and CoreWeave bonds yielding about 14.8%.",
+      "level": "watch",
+      "story": "aiselloff"
+    },
+    {
+      "text": "The Fed meets Oct. 27-28, and hike odds roughly doubled after today's CPI.",
+      "level": "info",
+      "story": "fedhikeodds"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "aiselloff",
+      "text": "Dell, CoreWeave and AI hardware stocks slide, and the Nasdaq falls 1.9%."
+    },
+    {
+      "story": "dojcalifornia",
+      "text": "DOJ gives Los Angeles and California 48 hours on alleged noncitizen voters."
+    },
+    {
+      "story": "dieselrussia",
+      "text": "Bipartisan senators demand Trump rescind the Russian diesel license."
+    },
+    {
+      "story": "fedhikeodds",
+      "text": "Hot CPI lifts odds of a Fed hike on Oct. 27-28."
+    },
+    {
+      "story": "artemis3stack",
+      "text": "NASA finishes Artemis III booster stacking and moves to the core stage."
+    }
+  ],
+  "stat": {
+    "label": "CoreWeave 2032 bond yield",
+    "value": "14.8%",
+    "note": "CNBC reports the 9.625% notes due 2032 trade near distress levels."
+  },
+  "markets": {
+    "asOf": "Wed Oct 14, 6:23 PM ET",
+    "wrap": "The Nasdaq fell 1.88% and the S&P 500 lost 1.11%, while the Dow slipped just 0.09% (live data). **AI infrastructure stocks led the decline**: Dell fell about 11% after Barclays cut it to hold, and CoreWeave sank about 15% as its bonds neared a 14.8% yield (CNBC, Bloomberg). Hot September inflation of 3.7% pushed the 10-year yield above 5.3% early before it closed at 5.19% (CNBC). **Hike odds for the Oct. 27-28 Fed meeting** roughly doubled (CNBC, CNN). Brent crude rose to $106.33 on Houthi-Saudi fighting (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,718.94",
+        "raw": 7718.94,
+        "change": "-1.11%",
+        "dir": "down",
+        "time": 1792010168,
+        "spark": [
+          7585.73,
+          7551.81,
+          7637.76,
+          7650.5,
+          7764.7,
+          7764.64,
+          7706.03,
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "51,621.48",
+        "raw": 51621.48,
+        "change": "-0.09%",
+        "dir": "down",
+        "time": 1792010177,
+        "spark": [
+          52093.11,
+          51461.9,
+          51778.04,
+          51682.64,
+          52048.83,
+          51863.69,
+          51511.59,
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,692.87",
+        "raw": 26692.87,
+        "change": "-1.88%",
+        "dir": "down",
+        "time": 1792012559,
+        "spark": [
+          25981.57,
+          25978.43,
+          26418.3,
+          26522.54,
+          27122.09,
+          27244.28,
+          26936.04,
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.19%",
+        "raw": 5.19,
+        "change": "-0.52%",
+        "dir": "down",
+        "time": 1792004394,
+        "spark": [
+          4.96,
+          5.0,
+          5.01,
+          4.95,
+          5.0,
+          4.96,
+          4.97,
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$95.06",
+        "raw": 95.06,
+        "change": "-0.03%",
+        "dir": "down",
+        "time": 1792016621,
+        "spark": [
+          101.39,
+          105.83,
+          102.43,
+          101.91,
+          100.3,
+          95.78,
+          94.59,
+          92.16,
+          94.61,
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.06
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$81,534",
+        "raw": 81533.54,
+        "change": "-1.88%",
+        "dir": "down",
+        "time": 1792017281,
+        "spark": [
+          78163.38,
+          75612.51,
+          76150.32,
+          76403.77,
+          80901.46,
+          81233.68,
+          81142.61,
+          86602.91,
+          86172.28,
+          84383.01,
+          84379.06,
+          84034.92,
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81533.54
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$221.30",
+        "raw": 221.3,
+        "change": "-3.16%",
+        "dir": "down",
+        "time": 1792008000,
+        "spark": [
+          212.17,
+          213.9,
+          219.34,
+          222.27,
+          227.38,
+          228.87,
+          225.51,
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3
+        ],
+        "note": "Fell with AI hardware names after the Dell downgrade and CoreWeave bond rout (CNBC)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$342.96",
+        "raw": 342.96,
+        "change": "+0.50%",
+        "dir": "up",
+        "time": 1792008001,
+        "spark": [
+          331.34,
+          332.41,
+          337.0,
+          336.13,
+          338.98,
+          339.75,
+          337.02,
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$533.69",
+        "raw": 533.69,
+        "change": "-1.80%",
+        "dir": "down",
+        "time": 1792008001,
+        "spark": [
+          497.12,
+          490.3,
+          497.75,
+          493.78,
+          501.61,
+          498.0,
+          500.59,
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$347.64",
+        "raw": 347.64,
+        "change": "-1.74%",
+        "dir": "down",
+        "time": 1792008001,
+        "spark": [
+          344.98,
+          342.87,
+          347.33,
+          349.54,
+          354.97,
+          351.16,
+          337.83,
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$367.16",
+        "raw": 367.16,
+        "change": "-2.15%",
+        "dir": "down",
+        "time": 1792008001,
+        "spark": [
+          356.58,
+          358.08,
+          366.2,
+          364.27,
+          375.3,
+          378.9,
+          380.12,
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16
+        ],
+        "note": "Fell with the Nasdaq; I found no company-specific catalyst in coverage. Reports Oct. 21 after close."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$254.08",
+        "raw": 254.08,
+        "change": "-1.74%",
+        "dir": "down",
+        "time": 1792008001,
+        "spark": [
+          248.42,
+          245.96,
+          251.19,
+          253.71,
+          258.45,
+          254.98,
+          249.27,
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "TSLA",
+      "date": "2026-10-21",
+      "when": "after close"
+    },
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": ""
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 78.2,
+      "feels": 71.2,
+      "hum": 18,
+      "wind": 7.3,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-10-13",
+        "hi": 77,
+        "lo": 48,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-14",
+        "hi": 78,
+        "lo": 48,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-15",
+        "hi": 83,
+        "lo": 51,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-16",
+        "hi": 92,
+        "lo": 52,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-17",
+        "hi": 88,
+        "lo": 67,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-18",
+        "hi": 74,
+        "lo": 57,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-19",
+        "hi": 66,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 2
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "dieselrussia",
+      "section": "politics",
+      "motif": "barrel",
+      "thread": "russia-diesel",
+      "when": "Senate revolt",
+      "title": "Bipartisan senators demand Trump rescind the Russian diesel license as the White House defends it",
+      "summary": "A letter from Republicans and Democrats calls the deal a gift to Moscow, while analysts doubt it will lower U.S. diesel prices.",
+      "story": [
+        "Senators from both parties pressed Trump this week to rescind the Treasury license that lets Russia sell diesel to the United States and world markets. NPR, CNBC and The Hill report that a bipartisan letter calls the deal \"a gift to our adversary and a betrayal of our allies.\" Republican signers include Thom Tillis, who led the GOP side, plus Susan Collins and Lisa Murkowski. Fox News and the Washington Examiner say the senators want Trump to withdraw from the agreement, rescind General License No. 135 and use the new Graham sanctions law instead. Trump announced the deal after a call with Putin.",
+        "The senators argue the administration skipped the consultation and explanation that a 2022 law requires, and that revenue would finance Russia's war. Trump says the diesel is for the world market and that critics \"can't be serious,\" according to the Washington Examiner. The White House says the deal will help lower prices for farmers, truckers and families. Analysts quoted by the Washington Examiner and Fox News are doubtful. Andy Lipow said the deal will have very little impact on U.S. diesel prices, and Dan Brouillette said it just moves barrels from one customer to another.",
+        "The politics cut across party lines. Chuck Schumer called it a deal with the devil, and Mike Pence called it a betrayal of the legacy of the late Senator Lindsey Graham, The Hill reports. Rep. Don Bacon called Trump's Russia policy a failure, and Rep. Brian Fitzpatrick said he will introduce a bill to block purchases of Russian oil. On the other side, Rep. Thomas Massie backed the deal, and Sen. John Kennedy said he backed Trump's decision but not buying from Putin. Axios frames it as a gamble on pump prices three weeks before the midterms.",
+        "The fight matters because it splits the GOP on its most reliable foreign-policy ground, and because gasoline already drove September inflation to 3.7%. Reported volumes vary widely, from a Canadian Press figure of more than 300,000 tons immediately to outlet estimates of 2.2 to 4.8 million metric tons, so the price effect is hard to judge."
+      ],
+      "flag": "Reports differ on the diesel volumes and on exactly which senators signed. An Oct. 18 sanctions deadline appeared in earlier coverage, but I could not re-confirm it today.",
+      "facts": [
+        "A bipartisan group of senators wants General License No. 135 rescinded (Fox News, NPR).",
+        "The senators say the administration did not consult Congress as a 2022 law requires (Canadian Press, Fox News).",
+        "Analysts say the deal will do little for U.S. diesel prices (Washington Examiner, Fox News).",
+        "Rep. Thomas Massie backs the deal, while Rep. Don Bacon and Rep. Brian Fitzpatrick oppose it (Washington Examiner, Fox News).",
+        "Reported diesel volumes range from 300,000 tons to 4.8 million metric tons depending on the outlet."
+      ],
+      "left": "Democrats and the Republican dissenters say the license hands Putin revenue for a war of attrition while doing little for drivers. They point out that Congress passed a sanctions law this year and that Trump ignored the consultation duty written into an older statute. In their view the deal is a political stunt timed to the midterms that rewards an aggressor, undermines Ukraine and weakens leverage over Russia's trading partners.",
+      "right": "Trump's defenders say the world market is short on diesel and that more supply helps farmers and truckers who are paying for the Iran war's price shock. They see sanctions relief as a bargaining chip tied to the energy ceasefire, and Massie argues the move is pragmatic. Conservative hawks such as Tillis, Collins and Pence answer that this rewards Moscow and violates the spirit of the sanctions law, and Kennedy's line shows even supporters are uneasy about buying from Putin.",
+      "next": "Watch whether the White House answers the senators' letter and whether Fitzpatrick's bill gets a vote. The Treasury license and the Graham sanctions law remain the legal flashpoints.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/white-house/4763551/trump-criticism-republican-opponents-russian-diesel-deal/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/14/trump-putin-diesel-deal-midterms-russia"
+        ]
+      ]
+    },
+    {
+      "id": "omarprobe",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Omar probe",
+      "title": "Judge limited Justice Department access to Rep. Ilhan Omar's records as the pre-election search draws fire",
+      "summary": "CNN reports a judge restricted how prosecutors may review Omar's documents, while Democrats and Republicans still split on the timing of Monday's search.",
+      "story": [
+        "Homeland Security Investigations agents searched Rep. Ilhan Omar's Washington home on Monday under a judicially authorized warrant, and the Justice Department calls it an ongoing criminal investigation. On Wednesday, CNN reported exclusively that a judge limited how the Justice Department can access Omar's records because she is a member of Congress. NBC News and NPR report that the department has released no charges and few details. Omar says she will not be silenced and calls the search an attempt to target political enemies. No charges have been announced.",
+        "The reported scope differs by outlet. Sources told Fox News Digital that the probe concerns immigration paperwork filled out by Omar's late father when she was a child. A New York Times report, which I could only see secondhand, says the warrant listed false statements, immigration-paperwork fraud and a general conspiracy charge. Vice President JD Vance has accused Omar of immigration fraud, which she denies, and he said the administration will not interfere with the Justice Department's work. Trump said he had nothing to do with the search, though the crowd at an Ohio rally chanted \"deport,\" Fox News reports.",
+        "The timing is the main fight. Democratic leaders Hakeem Jeffries, Katherine Clark and Pete Aguilar called the search deeply disturbing, and Rep. Don Beyer called it insanely corrupt, The Hill reports. The department has an unwritten norm against overt action near elections, and former official Mary McCord said she saw no reason in the reporting to make an exception. Fox News counters with former prosecutors who say the so-called 60-day rule is a custom, not a formal ban. A watchdog group also filed a Hatch Act complaint, The Hill says, and Omar has used the search to raise campaign money, the Washington Examiner reports.",
+        "Election Day is Nov. 3, so any charge, leak or court filing before then will be read through the midterms."
+      ],
+      "flag": "The immigration-paperwork angle comes from unnamed sources cited by Fox News Digital, and the warrant's listed offenses come from a New York Times report that I could only see secondhand.",
+      "facts": [
+        "HSI agents searched Omar's Washington home on Monday, Oct. 12 (NPR, NBC News, CNN).",
+        "The Justice Department says the warrant was judicially authorized and the probe is ongoing (NPR).",
+        "A judge limited the department's access to Omar's records, CNN reports.",
+        "No charges have been announced, and Omar denies wrongdoing (NPR).",
+        "The Justice Department's pre-election restraint is an unwritten norm, not a legal ban (Fox News, The Hill)."
+      ],
+      "left": "Democrats argue that raiding a sitting member of Congress three weeks before Election Day breaks the spirit of Justice Department practice and looks like retaliation against a Trump critic. They note the judge has already narrowed access to her records and that Vance's earlier public accusations make the case look political. They want an inspector general review and promise investigations if they win the House.",
+      "right": "Republicans say a judge approved the warrant, so this is ordinary law enforcement, not a campaign tactic. They argue that a public official accused of immigration fraud should face the same scrutiny as anyone else and that the department's 60-day custom was never binding. Representatives such as Randy Fine say that if paperwork was falsified, denaturalization is a legitimate remedy, while Vance says the administration will stay out of the investigation.",
+      "next": "Watch for charges, unsealed warrant details or a House Democratic response before the Nov. 3 election.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/politics/judge-limited-justice-department-access-rep-ilhan-omar-records-immigration-fraud"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6143543-democrats-condemn-omar-investigation-timing/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/democrats-dirty-hands-complaints-omar-raid-weeks-before-election-ex-prosecutor-says"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/house/4763092/ilhan-omar-raid-washington-home-investigation-doj/"
+        ]
+      ]
+    },
+    {
+      "id": "cookfed",
+      "section": "politics",
+      "motif": "scales",
+      "when": "Fed independence",
+      "title": "Trump sets a closed-door White House hearing on Fed Governor Lisa Cook for Nov. 5",
+      "summary": "A three-member committee of Trump appointees will weigh whether to recommend removing Cook, and her lawyers doubt the process is fair.",
+      "story": [
+        "Trump has created a committee of his own appointees to investigate Federal Reserve Governor Lisa Cook and will hold a closed-door hearing at the White House on Nov. 5, according to States Newsroom reporting. The committee will look for evidence that Cook made false statements in obtaining a mortgage. One member is Labor Secretary Keith Sonderling, who is also acting director of the Office of Government Ethics. CNBC reports that her lawyer doubts the committee's fairness and that Trump calls her an \"automatic no vote.\"",
+        "Trump's memo says Cook \"shall\" attend, and a transcript will be published even though the hearing is not public. She may submit a written statement, and the committee will write a report on whether there is cause to remove her. Analysts told States Newsroom that the new process appears aimed at the procedural problems raised by a June Supreme Court ruling that initially blocked the administration from removing her.",
+        "Cook's attorneys said they have grave doubts that the hearing is a legitimate one that would conform to the law. The dispute lands as Fed Chair Kevin Warsh leads rate hikes against 3.7% inflation, so any change in the board's makeup could matter for the rate path.",
+        "I found only two outlets covering the committee's setup in detail, so the legal arguments are still thin."
+      ],
+      "flag": "Only two outlets in my search covered this in detail. The \"automatic no vote\" phrase appears in CNBC's headline, and I did not see the full article.",
+      "facts": [
+        "The hearing is set for Nov. 5 at the White House and will be closed (States Newsroom).",
+        "The committee has three members, including Labor Secretary Keith Sonderling (States Newsroom).",
+        "Cook may submit a written statement before the committee reports (States Newsroom).",
+        "Her lawyers doubt the hearing is legitimate or fair (CNBC, States Newsroom).",
+        "A June Supreme Court ruling had initially blocked her removal (States Newsroom)."
+      ],
+      "left": "Critics say a hearing run by the president's own appointees, inside the White House, is a pretext for removing a governor the president dislikes. They argue Fed independence is the point of the for-cause protection and that undermining it while inflation is 3.7% will raise borrowing costs and spook bond markets. They want a neutral, public process with real rules of evidence.",
+      "right": "Supporters say the law allows removal for cause, and false statements on a mortgage application are a serious allegation that deserves an answer. They argue a committee, a written statement and a published transcript respond to the Supreme Court's procedural objections. In this view a Fed governor should not be exempt from scrutiny because of the office she holds.",
+      "next": "The hearing is Nov. 5, two days after the midterms. Watch for a court challenge before then.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/amp/2026/10/14/lisa-cook-trump-committee-hearing.html"
+        ],
+        [
+          "Louisiana Illuminator (States Newsroom)",
+          "C",
+          "https://lailluminator.com/2026/10/09/repub/trump-cook-fed/"
+        ]
+      ]
+    },
+    {
+      "id": "alaskarally",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Campaign trail",
+      "title": "Trump's Alaska rally for Sen. Dan Sullivan puts a tight race and falling approval in focus",
+      "summary": "Trump spoke about 90 minutes in Wasilla, pardoned two diesel mechanics and touted a gas pipeline while a CNN poll of polls has his approval at 33%.",
+      "story": [
+        "Trump headlined a rally in Wasilla, Alaska, on Tuesday for Sen. Dan Sullivan, whose race against former Rep. Mary Peltola is tight, NPR and The Hill report. He spoke for about 90 minutes and pardoned two Anchorage diesel mechanics convicted of Clean Air Act violations, Fox News reports. He credited Sullivan with a $54 billion natural gas export deal and said an 800-mile pipeline has every federal permit. The Hill adds that Trump said Taiwan agreed to buy 30% of the pipeline's gas over 20 years, which I could not confirm independently.",
+        "The race is a close call. Sabato's Crystal Ball moved it from toss-up to leans Democratic, while the Cook Political Report keeps it a toss-up, according to NPR's reporting. Decision Desk HQ's average had Peltola up 3.4 points on Tuesday. The rally is part of a swing that included Arizona and Montana, where The Hill says Trump drew criticism for saying leakers should be shot.",
+        "Nationally, CNN's poll of polls has Trump's approval at 33%, and September's 3.7% inflation gives Democrats a message. Republicans still argue Trump is the party's best turnout tool, The Hill reports, even with polls at record lows.",
+        "The next tests are early voting and the Senate debates already underway in Georgia, Maine and Iowa."
+      ],
+      "facts": [
+        "Trump rallied for Sen. Dan Sullivan in Wasilla on Tuesday, Oct. 13 (NPR, The Hill).",
+        "He pardoned two Anchorage diesel mechanics onstage (Fox News).",
+        "Sabato's Crystal Ball rates the race leans Democratic, and the Cook Political Report says toss-up (NPR).",
+        "CNN's poll of polls has Trump's approval at 33%.",
+        "The Taiwan gas-purchase claim comes from Trump's own remarks (The Hill)."
+      ],
+      "flag": "The Taiwan 30% purchase claim and the pipeline-permit claim are Trump's statements and were not independently verified.",
+      "left": "Democrats say a president at 33% approval is a liability, and that rally pardons for people convicted of pollution crimes show whom the administration works for. They argue inflation, gas prices and the Iran war are the real midterm issues, and they note that the Sullivan race is competitive in a state Republicans usually win comfortably.",
+      "right": "Republicans say Trump remains their best turnout engine, and that a pipeline with every federal permit and a multibillion-dollar export deal are tangible energy wins for Alaska. They argue the pardons correct what they see as Biden-era overreach against small business owners, and that polls have understated their candidates before.",
+      "next": "Early voting is under way in several states, and Election Day is Tuesday, Nov. 3.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/14/nx-s1-6000359/trump-takes-campaign-tour-to-alaska-as-rallies-for-gop-candidates-continue"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/13/politics/live-news/trump-alaska-rally-midterms"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6144742-live-updates-trump-alaska-zacharia-briefing-midterm-election-debates/amp/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/president-trump-signs-pardons-alaska-diesel-mechanics-onstage-rally-touting-major-energy-deals"
+        ]
+      ]
+    },
+    {
+      "id": "dojcalifornia",
+      "section": "local",
+      "motif": "ballot",
+      "when": "Voter rolls",
+      "title": "Justice Department gives Los Angeles County and California 48 hours to act on alleged noncitizen voters",
+      "summary": "The DOJ demands officials review a list and set aside ballots, and a UCLA voting-rights group plans to seek an injunction.",
+      "story": [
+        "The Justice Department sent letters to Los Angeles County Registrar Dean Logan and California Secretary of State Shirley Weber demanding a review of alleged noncitizen voters on Los Angeles rolls within 48 hours, CNN and the San Francisco Chronicle report. The letters said that otherwise the United States will \"have no choice but to seek emergency relief.\" The department also wants officials to refuse ballots from those voters and segregate them until citizenship is confirmed. It sent a password-protected thumb drive of names it calls likely noncitizens, and a spokesperson told Fox News that thousands have been identified statewide.",
+        "Logan's office said it does not intend to open the drive, citing privacy and security rules, and that the letter does not say how many people are involved, CNN reports. Counties began mailing ballots on Oct. 5, which makes the demand hard to meet. The UCLA Voting Rights Project plans to seek a preliminary injunction, and a temporary restraining order if the administration does not back down. Attorney General Rob Bonta said the state is ready for all scenarios, including seizure of ballots.",
+        "The department has sued 30 states for unredacted voter data and has lost every case where a judge has ruled so far, including in California, CNN says. It is also suing the Orange County registrar and fighting the state over an audit that is before the 9th Circuit. Fox News and the Washington Examiner cite a DHS comparison suggesting up to 190,832 possible noncitizens registered in California, which DHS itself describes as preliminary potential matches. Noncitizen voting in federal elections is already illegal and rare, as The Hill and others note.",
+        "The dispute is a direct preview of how contested California's November count could become."
+      ],
+      "flag": "The DHS figure of up to 190,832 is a preliminary list of potential matches, and DHS asked states to verify identities first. Another report says a later review found fewer matches, and I could not confirm the final number.",
+      "facts": [
+        "DOJ gave Los Angeles County and the state 48 hours to respond (CNN, SF Chronicle).",
+        "The letters threaten emergency court relief if officials do not act (CNN).",
+        "L.A. County says it will not open the thumb drive, citing privacy rules (CNN).",
+        "Ballots began mailing Oct. 5 (CNN).",
+        "DOJ has lost every voter-data case decided so far, including in California (CNN)."
+      ],
+      "left": "Voting-rights advocates say the demand is a pressure tactic that asks officials to disenfranchise voters on an unverified list a few weeks before the election. They note that courts have rejected the department's voter-data suits, that the deadline is unworkable once ballots are in the mail, and that noncitizen voting is already a crime that is rarely found. They see an attempt to cast doubt on California's results in advance.",
+      "right": "Supporters of the effort say states have a legal duty to keep ineligible people off the rolls, and that California's resistance to audits is the real obstacle. They point to DHS data suggesting tens of thousands of possible noncitizen registrants and to the first federal voter-fraud charges in Los Angeles. In their view the department is asking for a basic check before ballots are counted, not a purge.",
+      "next": "Watch for a UCLA Voting Rights Project filing and any DOJ lawsuit after the 48-hour window. Election Day is Nov. 3.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/politics/justice-department-threats-california-election-officials"
+        ],
+        [
+          "San Francisco Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/doj-california-ballots-22476975.php"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/state-watch/6149368-voting-rights-group-warns-doj-citizenship-usb-drive/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/doj-threatens-emergency-legal-action-california-suspected-noncitizen-voters"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/justice/4766027/doj-california-list-noncitizen-voters-mail-in-ballots/"
+        ]
+      ]
+    },
+    {
+      "id": "prop40money",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Prop. 40 money",
+      "title": "Opponents of California's billionaire tax have raised more than $205 million, led by Sergey Brin",
+      "summary": "Backers of Props. 40 to 42 face a lopsided money gap even as PPIC polling shows Prop. 40 narrowly ahead.",
+      "story": [
+        "Opponents of California's Prop. 40 billionaire tax have raised more than $205 million, according to campaign finance records cited by CalMatters. Google co-founder Sergey Brin has put in more than $138 million against the measure, including the two countermeasures, Props. 41 and 42. The San Francisco Chronicle reported on Oct. 6 that the main opposition committee raised about $140 million in the last two months and that $45 million came in one week. The Chronicle also projects about $88 million in TV and digital ads through Election Day.",
+        "Supporters are far behind. SEIU-UHW is the main backer and has put in more than $31 million, CalMatters reports. The latest independent poll I found is from the Public Policy Institute of California, taken Sept. 4-10. It had Prop. 40 at 52% yes and 46% no among likely voters, a statistical tie. Prop. 41 drew 51% and Prop. 42 drew 54%. A UC Berkeley Citrin Center and Politico poll of registered voters found 45% in favor and 43% opposed.",
+        "The ballot math is the twist. If competing measures both pass, the one with the most yes votes becomes law, so Prop. 40 could win a majority and still be voided. Gov. Gavin Newsom opposes Prop. 40 and says the fight belongs at the federal level, Fox Business reports.",
+        "The poll figures are about five weeks old, so the race may have moved."
+      ],
+      "flag": "The PPIC and Berkeley polls are several weeks old, and I found no newer Prop. 40 poll.",
+      "facts": [
+        "Opponents have raised more than $205 million (CalMatters).",
+        "Sergey Brin has given more than $138 million, including to the countermeasures (CalMatters).",
+        "SEIU-UHW has given more than $31 million in support (CalMatters).",
+        "PPIC had Prop. 40 at 52% yes, 46% no; Prop. 41 at 51%; Prop. 42 at 54%.",
+        "If competing measures both pass, the one with more yes votes becomes law (CalMatters)."
+      ],
+      "left": "Supporters say a one-time 5% tax on billionaires would fund health care that is being cut at the federal level, and that the money gap shows how much the wealthy fear a vote. They argue voters understand that countermeasures funded by the opposition are designed to cancel the tax even if a majority backs it. The unions behind it note that Newsom wants a national tax but offers no path to one.",
+      "right": "Opponents say a wealth tax drives founders and capital out of California and shrinks the tax base that funds state services. They quote Newsom's own warning that billionaires are moving money and businesses out of state, and say Props. 41 and 42 protect all taxpayers from a precedent. The Washington Examiner and Fox Business argue the proposal reflects one-party governance that overreaches.",
+      "next": "Ballots are in the mail now. The election is Nov. 3, and a new PPIC poll could land before then.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/tax-propositions-ballot-measures/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
+        ],
+        [
+          "San Francisco Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/billionaire-tax-spending-22463286.php"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/newsom-says-california-wealth-tax-really-damaging-billionaires-move-money-businesses-out-of-state"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/finance-and-economy/4614719/california-billionaire-tax-qualifies-ballot/"
+        ]
+      ]
+    },
+    {
+      "id": "iranoil",
+      "section": "world",
+      "motif": "barrel",
+      "thread": "iran-war",
+      "when": "Gulf fighting",
+      "title": "Houthi-Saudi fighting and tanker attacks keep Brent above $106 while Trump holds off on Iran strikes",
+      "summary": "Saudi Arabia extended the Riyadh airport closure through Oct. 17, and Iran has stepped up attacks near Hormuz.",
+      "story": [
+        "Oil rose again on Wednesday as fighting between Saudi Arabia and Iran-backed Houthi forces intensified, CNBC reports. December Brent was up 0.61% to $106.33. Fox News's live coverage says Saudi Arabia intercepted another Houthi missile, Iran's Revolutionary Guards claimed a commercial ship hit a mine, and Saudi aviation authorities extended the shutdown of King Khalid International Airport through Oct. 17. CNBC says a Saudi-led coalition reportedly struck Houthi energy terminals and fuel stores in Yemen.",
+        "Shipping through Hormuz remains well below normal. Kpler data cited by CNBC show about 9.5 million barrels a day left the strait in the week ended Tuesday, around 30% below pre-war levels, and nine tankers came under attack in the past week. Fox News says Trump is holding off on new strikes on Iran during the midterm campaign, and he told the Alaska rally the war will end very soon. NBC News earlier reported, citing unnamed sources, that his team was weighing renewed strikes in the coming weeks.",
+        "CNN notes the price shock has become a midterm problem, because September inflation reached 3.7% with gasoline up 34.2% from a year ago.",
+        "In our market data, WTI closed at $95.06 on Wednesday."
+      ],
+      "flag": "Iran denies directing the Houthis, and sources do not resolve who controls the attacks. The NBC report on renewed strikes cites unnamed sources.",
+      "facts": [
+        "December Brent rose 0.61% to $106.33 (CNBC).",
+        "Riyadh's King Khalid airport is closed through Oct. 17 (Fox News).",
+        "Hormuz flows are about 30% below pre-war levels, per Kpler data cited by CNBC.",
+        "Nine tankers were attacked in and around Hormuz in the past week (CNBC).",
+        "Trump is holding off on new Iran strikes during the campaign (Fox News)."
+      ],
+      "left": "Critics say the war is now a direct cost to households and that Trump's decision to pause strikes only until the midterms shows politics, not strategy, is steering it. They argue the administration has no diplomatic plan while gasoline is up 34% from a year ago, and Congress should demand a clear authorization and an exit path.",
+      "right": "Supporters say Trump has rejected requests to escalate in Yemen because he wants a deal, and that Iran's attacks on shipping and Saudi infrastructure are the real driver of prices. They argue a firm stance and the new carrier buildup keep pressure on Tehran, and that oil will fall once Hormuz reopens.",
+      "next": "Watch the Oct. 17 airport reopening date, Hormuz tanker traffic and whether Trump revives strikes after Nov. 3.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/amp/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/us-iran-war-donald-trump-oil-nuclear-sites-hormuz-strait-october-14"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+        ]
+      ]
+    },
+    {
+      "id": "zelenskyyintel",
+      "section": "world",
+      "motif": "shield",
+      "when": "Ukraine",
+      "title": "Zelenskyy says Russia hit a power plant hours after Trump's energy ceasefire and repeats the intelligence warning",
+      "summary": "NPR's interview has Zelenskyy saying Washington threatened to cut intelligence over refinery strikes, which a U.S. official denied to Axios.",
+      "story": [
+        "Ukrainian President Volodymyr Zelenskyy told NPR the Trump administration warned it could cut off intelligence sharing unless Ukraine stops long-range drone strikes on Russian oil refineries. The White House did not say whether the threat was repeated. Axios reported earlier that Trump envoys Steve Witkoff and Jared Kushner raised it during eight hours of talks in Miami on Friday, Oct. 9, according to a Ukrainian official, and a U.S. official denied that any threat was made.",
+        "On Trump's announced energy ceasefire, Zelenskyy said he will comply if Russia does. NPR says that two hours after the announcement, Russia targeted a Ukrainian power plant, and strikes have continued. Fox News reported that Trump announced both sides agreed to halt attacks on each other's energy infrastructure, and that Trump also said it was time for Ukraine to get a new president after the clash over the diesel deal.",
+        "Zelenskyy also disputed Trump's claim that Ukraine caused the diesel price spike. He said lifting sanctions on Russian diesel will not lower fuel prices and pointed to the Iran war as the cause.",
+        "Neither side has formally confirmed a ceasefire in practice, and the U.S.-Ukraine rift is widening."
+      ],
+      "flag": "The intelligence threat rests on Ukrainian accounts, and a U.S. official denied it to Axios.",
+      "facts": [
+        "Zelenskyy told NPR the U.S. threatened to curtail intelligence sharing (NPR).",
+        "A U.S. official denied the threat to Axios, per search coverage of the Axios report.",
+        "Russia targeted a Ukrainian power plant about two hours after the ceasefire announcement (NPR).",
+        "Trump said it was time for Ukraine to get a new president (Fox News).",
+        "Zelenskyy says easing Russian diesel sanctions will not lower prices (NPR)."
+      ],
+      "left": "Critics say the administration is pressuring the victim of an invasion while easing sanctions on the aggressor, and that threatening intelligence during a war undermines the case for any American security guarantee. They see the diesel license and the refinery warning as parts of one policy that helps Moscow's economy.",
+      "right": "Defenders say refinery strikes raise world fuel prices and risk wider escalation while the U.S. is already stretched by the Iran war. They argue an energy-infrastructure ceasefire is a reasonable step toward talks, and that Washington, which supplies the intelligence and ammunition, has the right to set limits on how its help is used.",
+      "next": "Watch whether Russia and Ukraine both honor the energy halt and whether the White House addresses the intelligence report.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-announces-immediate-energy-ceasefire-between-russia-ukraine"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/09/politics/trump-putin-russian-diesel"
+        ]
+      ]
+    },
+    {
+      "id": "fedhikeodds",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed odds",
+      "title": "Hot September CPI lifts odds of a Fed hike on Oct. 27-28 as gasoline drives inflation to 3.7%",
+      "summary": "Core prices also beat forecasts, and traders raised bets on a hike at the next meeting and on at least one more by year-end.",
+      "story": [
+        "Consumer prices rose 0.6% in September and 3.7% from a year earlier, up from 3.4% in August and above the 3.6% economists expected, CNBC and Fox Business report. Core prices, which exclude food and energy, rose 0.3% on the month and 2.6% on the year, versus forecasts of 0.2% and 2.5%. The energy index jumped 5.2% and gasoline rose 9.1%, about half the headline gain. Gasoline is up 34.2% from a year ago, and AAA put the national average at $4.33 a gallon on release day, according to search coverage.",
+        "The Fed raised rates on Sept. 16 for the first time since 2023, leaving the target at 3.75% to 4.00%. After the report, CME FedWatch odds of a quarter-point hike at the Oct. 27-28 meeting rose from about 22% to somewhere between 35% and 49%, depending on when CNBC and CNN captured them. CNBC also reported better than 90% odds of at least one more hike before year-end. The 10-year yield spiked above 5.3% before closing the day at 5.19% in our market data.",
+        "The White House struck a different tone. Trump adviser Kevin Hassett said he sees a bunch of good news in the report despite the rise, The Hill reports. NPR notes that higher inflation will also lift Social Security benefits. CNN links the price jump to the Iran war and says it is bad news for Republicans before the midterms.",
+        "This was the last major inflation snapshot before the Nov. 3 election."
+      ],
+      "flag": "Hike odds vary by snapshot time. I could not find a December odds figure after the report.",
+      "facts": [
+        "Headline CPI rose 0.6% in September and 3.7% from a year earlier (CNBC, Fox Business).",
+        "Core CPI rose 0.3% on the month and 2.6% on the year (CNBC).",
+        "Gasoline rose 9.1% on the month and 34.2% on the year (CNBC).",
+        "The fed funds target is 3.75% to 4.00% after the Sept. 16 hike (Fox Business).",
+        "Odds of an October hike roughly doubled to 35%-49% (CNBC, CNN)."
+      ],
+      "left": "Economists on the left say the inflation spike is an energy shock from the Iran war, not a demand problem, and that more rate hikes would add pain for borrowers without lowering the price of oil. They worry about mortgage costs and layoffs and argue the Fed should look through a supply shock. They also note the president's attack on a Fed governor adds risk.",
+      "right": "Conservatives say the Fed was right to hike because core inflation at 2.6% and a 3.7% headline show prices are stubborn, and that government spending and tariffs are part of the story. Others in the party blame the war and want Trump's energy policy to bring pump prices down, as Hassett argues. Both groups agree that a credible Fed matters more than short-term politics.",
+      "next": "The Fed meets Oct. 27-28. Thursday's economic reports will shape the odds.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-september-2026"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/10/14/economy/us-cpi-inflation-september"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6148546-hassett-september-cpi-energy-prices"
+        ]
+      ]
+    },
+    {
+      "id": "aiselloff",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "AI debt fears",
+      "title": "Dell, CoreWeave and AI hardware stocks slide, dragging the Nasdaq down 1.9%",
+      "summary": "A Barclays downgrade hit Dell and CoreWeave bonds neared a 14.8% yield as investors questioned how AI buildouts are financed.",
+      "story": [
+        "The Nasdaq Composite fell 1.88% to 26,692.87 on Wednesday and the S&P 500 lost 1.11% to 7,718.94, with AI infrastructure names leading the decline, CNBC reports. The Dow slipped 0.09% to 51,621.48. Dell dropped about 11% after Barclays cut Dell, Hewlett Packard Enterprise and NetApp to hold from buy. CoreWeave fell roughly 15.5%, and Nebius and Iren fell as much as 10%.",
+        "Barclays said it has not seen a meaningful AI inflection in enterprise spending at those companies. Its analysts wrote, \"We believe the strong enterprise revenues are more of a function of memory costs than a move to enterprise AI at this time.\" They also noted that only about a quarter of enterprise AI spending goes to hardware. Dell was up more than 300% this year before the drop, HPE about 160% and NetApp had doubled, so expectations were high. CNBC says Oracle and Super Micro also slid.",
+        "CoreWeave's problem is its debt. CNBC reports the yield on its 9.625% notes due 2032 is about 14.8%, and its 9.75% notes due 2031 yield about 14.9%. Bloomberg says the bonds fell to levels that typically signal distress. Investor Chamath Palihapitiya flagged the 2032 yield on X and Elon Musk replied \"yikes.\" CEO Mike Intrator told staff in an internal memo that the market is acting irrationally and that the company's backlog more than supports its debt.",
+        "Traders bought just shy of 200,000 CoreWeave puts versus 106,000 calls, CNBC reports. Among our watchlist, Nvidia fell 3.16%."
+      ],
+      "flag": "Sources vary on CoreWeave's drop (15% to 16%) because they captured different moments in the session.",
+      "facts": [
+        "The Nasdaq fell 1.88% to 26,692.87 and the S&P 500 fell 1.11% to 7,718.94 (CNBC, live data).",
+        "Dell fell about 11% after Barclays cut it to hold (CNBC).",
+        "CoreWeave fell roughly 15.5%, and its 2032 notes yield about 14.8% (CNBC).",
+        "CoreWeave's credit rating is B+ at S&P, which is below investment grade (CNBC).",
+        "Nvidia fell 3.16% to $221.30."
+      ],
+      "why": "This is the first clear test of whether lenders will keep funding AI capacity at hyperscaler-like spending levels without hyperscaler balance sheets. A 15% yield on CoreWeave's bonds prices real default risk and raises financing costs for data centers across the industry.",
+      "next": "Watch Thursday's economic data, CoreWeave's bonds and whether other neoclouds issue debt. Tesla reports Oct. 21 after the close.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-14/coreweave-s-ceo-blames-rout-on-market-acting-irrationally"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "stocks",
+      "motif": "rocket",
+      "when": "IPO watch",
+      "title": "Anthropic meets investors as its IPO slips toward a November listing",
+      "summary": "CNBC says the company will share third-quarter financials Wednesday, and Reuters reports a November listing without a confirmed date.",
+      "story": [
+        "Anthropic planned to share its third-quarter financials with prospective investors on Wednesday at its San Francisco headquarters, CNBC reports. Bloomberg earlier reported that the company would hold a pre-IPO investor day on Oct. 14. According to Reuters via CNBC, the company will list in November, though people familiar with the plans could not confirm a date.",
+        "The schedule has moved. In early September, Reuters said marketing could start in mid-October at the earliest, with a listing days before the Nov. 3 U.S. midterms. Reuters reported on Sept. 28 about a prospectus showing a sweeping AI vision and surging costs. Investors have floated a valuation near $2 trillion, which is not a set price, and no price range has been reported. A $15 billion revolving credit facility was also cited as a factor in the timing.",
+        "CNBC quoted an analyst on Oct. 7 calling it the most ridiculous IPO of the year, a reminder that valuation is contested. Today's AI-debt selloff is the backdrop: investors are testing how much to pay for AI revenue growth when financing is getting more expensive.",
+        "As a disclosure, Anthropic makes the Claude models, and this coverage relies only on the outlets cited."
+      ],
+      "flag": "The listing date and price range have not been confirmed.",
+      "facts": [
+        "Anthropic planned a Q3 financials meeting with investors on Oct. 14 (CNBC).",
+        "Reuters reports a November listing, with the date unconfirmed (CNBC).",
+        "Marketing had been expected to start in mid-October (Reuters via CNBC).",
+        "Investors have floated a valuation near $2 trillion; no price range is public.",
+        "A prospectus was reported on Sept. 28 (Reuters via CNBC)."
+      ],
+      "why": "A $2 trillion debut would be among the largest listings ever and a referendum on AI revenue multiples. Its timing around a volatile AI credit market and the midterms will set the tone for OpenAI and other AI listings.",
+      "next": "Watch for a public prospectus, a price range and a roadshow launch in late October or early November.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-01/anthropic-is-said-to-plan-pre-ipo-investor-day-as-listing-nears"
+        ],
+        [
+          "CNBC (Reuters)",
+          "C",
+          "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html"
+        ],
+        [
+          "CNBC (Reuters)",
+          "C",
+          "https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"
+        ]
+      ]
+    },
+    {
+      "id": "starshiporbit",
+      "section": "engineering",
+      "motif": "rocket",
+      "when": "Starship",
+      "title": "Starship reached orbit on Flight 14, and Flight 15 could fly as soon as Oct. 19",
+      "summary": "One Raptor 3 engine shut down early, but the ship compensated, and Florida's Pad 39A is nearly ready.",
+      "story": [
+        "SpaceX's Starship reached orbit for the first time on Flight 14 on Sept. 28 from Starbase, Texas, according to Space.com's live coverage. The Ship upper stage deployed 26 Starlink V3 satellites. One Raptor 3 engine shut down unexpectedly early, but the ship compensated and completed its burn before the orbital insertion burn went ahead, Space.com reports.",
+        "SpaceX then brought Ship 41 back sooner than planned rather than spend another 7.5 hours in orbit, and it splashed down in the northern Pacific. Neither stage was caught. The Super Heavy booster splashed down in the Gulf of Mexico. Musk has said SpaceX may try to catch the ship on Flight 15 if Flight 14 went well, but he has also said a tower catch needs FAA approval.",
+        "Provisional planning documents point to Oct. 19 for Flight 15 and Oct. 30 for Flight 16 at the earliest, though Space.com says the dates may be aspirational and SpaceX has announced nothing. SpaceX's Scheiman said on Oct. 1 that the company plans at least one more test flight from Starbase before flying from Kennedy Space Center, so the first Florida launch could come as soon as Flight 16. Pad 39A's new tower is nearly complete.",
+        "NASA has picked the Starship upper stage as the first crewed lunar lander for Artemis, which makes these flight tests part of the Moon schedule."
+      ],
+      "flag": "Launch dates come from provisional planning documents and are not official.",
+      "facts": [
+        "Flight 14 launched Sept. 28 and reached orbit for the first time (Space.com).",
+        "The ship deployed 26 Starlink V3 satellites (Space.com).",
+        "One Raptor 3 engine shut down early, and the ship compensated (Space.com).",
+        "No catch of either stage was attempted on Flight 14 (Space.com).",
+        "Flight 15 is provisionally no earlier than Oct. 19 and Flight 16 no earlier than Oct. 30."
+      ],
+      "why": "Reaching orbit shows the vehicle can deliver payload at scale, and the engine-out recovery shows margin in the design. Reuse and ship catch are what turn Starship into a cheap launcher and a lunar lander.",
+      "next": "Watch for an official Flight 15 date, an FAA decision on a catch attempt and a Pad 39A readiness update.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/news/live/spacex-starship-flight-14-live-updates-sept-28-2026-starship-first-orbital-launch-attempt"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/starship-just-reached-orbit-for-the-1st-time-whats-next-for-the-spacex-megarocket"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/things-are-going-super-well-at-39a-spacex-gearing-up-to-launch-starship-from-florida-for-1st-time"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/15/spacex-will-try-to-put-starship-in-orbit-for-the-first-time-on-september-28/"
+        ]
+      ]
+    },
+    {
+      "id": "artemis3stack",
+      "section": "engineering",
+      "motif": "satellite",
+      "when": "Artemis III",
+      "title": "NASA finishes Artemis III booster stacking and moves to the core stage",
+      "summary": "All four RS-25 engines are installed on the SLS core stage, and a tanking test and launch rehearsal at Pad 39B are planned in coming months.",
+      "story": [
+        "NASA says engineers finished stacking the twin solid rocket boosters for Artemis III in High Bay 3 of the Vehicle Assembly Building at Kennedy Space Center, completing the nose-cone step on Sept. 30. The status update was posted Oct. 13. The final motor segments are on the mobile launcher, and all four RS-25 engines are installed on the SLS core stage.",
+        "Next, the core stage will be integrated with the boosters to complete the rocket's short-stack configuration in the coming weeks. NASA plans a tanking test at Launch Pad 39B in the coming months, during which the crew will also run a launch-day rehearsal. The spacer and both adapters are on track to ship to Kennedy early next year. Space.com reports NASA is targeting mid-to-late 2027 for the astronaut launch.",
+        "NASA will hold an Artemis briefing at 2 p.m. EDT on Friday, Oct. 23, at Kennedy to discuss plans to return astronauts to the lunar surface by 2028. Artemis II astronaut Christina Koch becomes acting deputy chief engineer on Nov. 1.",
+        "NASA also released more than 800 GB of Artemis II lunar science data on Oct. 7."
+      ],
+      "facts": [
+        "Booster stacking was completed Sept. 30 (NASA).",
+        "All four RS-25 engines are installed on the core stage (NASA).",
+        "A tanking test and launch rehearsal at Pad 39B are planned (NASA).",
+        "NASA targets mid-to-late 2027 for Artemis III (Space.com).",
+        "An Artemis update briefing is set for Oct. 23 at 2 p.m. EDT (NASA)."
+      ],
+      "why": "Stacking milestones are the schedule's best indicator. The tanking test is the next hard checkpoint, because it exercises the ground systems and cryogenic loading that caused delays on earlier SLS missions.",
+      "next": "Watch the Oct. 23 briefing for a firm Artemis III date and for how Starship's lander progress fits the schedule.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/full-steam-ahead-nasa-ramps-up-prep-for-artemis-iii-astronaut-launch-in-2027"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/"
+        ]
+      ]
+    },
+    {
+      "id": "organoidmice",
+      "section": "science",
+      "motif": "dna",
+      "when": "Brain organoids",
+      "title": "Human brain organoids grow to fill the emptied cortex of engineered mice",
+      "summary": "A Stanford-led Nature study reports grafts expanded about 4.7-fold and formed connections, though they stay immature.",
+      "story": [
+        "Researchers led from Stanford transplanted human cortical organoids into mice engineered to lack most of their cerebral cortex and hippocampus, and Nature published the study in its Oct. 8 issue. Coverage in The Transmitter and Inside Precision Medicine says the grafts expanded about 4.7-fold by the third month and occupied nearly 92% of the available cortical space. The authors call the approach xenocortication, and the mice are called apallial mice.",
+        "The grafts developed a diverse set of human cortical cell types and formed long-range connections with the mouse nervous system, according to the Science Media Centre. They organized into neural circuits that integrated with the host brain. The team showed proof-of-concept uses, including modeling neuropsychiatric disease and hypoxic injury.",
+        "Outside experts caution that the tissue stays immature. It lacks canonical cortical layering, complete areal organization and an interneuron mix equivalent to the mature human cortex. They also say it cannot yet be claimed that the human neurons are necessary or sufficient to drive specific animal behaviors.",
+        "I read press coverage and the issue listing, not the paper itself."
+      ],
+      "flag": "Coverage dates the study to mid-September online, and the Nature issue is dated Oct. 8. I relied on press summaries, not the paper.",
+      "facts": [
+        "Grafts grew about 4.7-fold by month three (The Transmitter).",
+        "They filled nearly 92% of the available cortical space (The Transmitter).",
+        "The mice were engineered to lack most of the cortex and hippocampus (Inside Precision Medicine).",
+        "Experts say the tissue stays immature and lacks cortical layering (Science Media Centre).",
+        "Proof-of-concept uses include modeling neuropsychiatric disease (Inside Precision Medicine)."
+      ],
+      "why": "It gives researchers a living model of human cortex that standing in a dish cannot offer, which could speed work on neuropsychiatric disease. It also revives ethical questions about how human a transplanted brain should become.",
+      "next": "Watch for independent replication and for ethics guidance on behavioral testing of human grafts in animals.",
+      "src": [
+        [
+          "The Transmitter",
+          "C",
+          "https://thetransmitter.org/spectrum/human-brain-organoids-flourish-in-emptied-mouse-cortex/"
+        ],
+        [
+          "Inside Precision Medicine",
+          "C",
+          "https://www.insideprecisionmedicine.com/topics/translational-research/human-cortical-organoids-expand-across-a-cortex-depleted-mouse-brain/"
+        ],
+        [
+          "Science Media Centre",
+          "C",
+          "https://sciencemediacentre.es/en/human-brain-organoids-form-neuronal-networks-mice"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/nature/volumes/658/issues/8135"
+        ]
+      ]
+    },
+    {
+      "id": "methanetest",
+      "section": "science",
+      "motif": "satellite",
+      "when": "Methane from space",
+      "title": "A large blind test finds methane-detecting satellites largely deliver, led by purpose-built instruments",
+      "summary": "Nature reports a year-long blind test of many satellites, building on earlier Stanford trials that found strong detection with no false positives.",
+      "story": [
+        "Nature published a news report this month on a large blind test of methane-detecting satellites, saying it lends credibility to emissions data. The test ran for a year and covered a dozen satellites, and many detected and quantified releases accurately. Instruments built specifically for methane performed best, Nature says.",
+        "The work builds on earlier Stanford-led trials. In a first single-blind test in Arizona, five analysis teams correctly identified 71% of emissions while five satellites passed overhead, and three-quarters of quantified estimates fell within 50% of the metered value, according to a paper in PubMed Central. A follow-up covering nine satellites across 51 days and 82 controlled releases reported no false positives.",
+        "A Stanford seminar describes a year-long field experiment blind-testing 11 major satellite detection instruments with 15 analysis teams, so the exact number of instruments differs by description. Such tests matter because oil and gas operators and regulators rely on satellite data to find leaks.",
+        "I did not see the underlying paper, so the figures above come from Nature's summary and the earlier studies."
+      ],
+      "flag": "Nature's summary says twelve satellites, while a Stanford seminar describes 11 instruments, so the count is uncertain.",
+      "facts": [
+        "Nature reports a year-long blind test of a dozen methane-sensing satellites.",
+        "Purpose-built methane instruments performed best (Nature).",
+        "An earlier Arizona test found 71% of releases, with three-quarters of estimates within 50% (PubMed Central).",
+        "A nine-satellite follow-up over 51 days reported no false positives.",
+        "Stanford describes a year-long blind test of 11 instruments with 15 teams."
+      ],
+      "why": "Methane is a potent warming gas, and satellites can survey sites no inspector can reach. Blind tests tell regulators which instruments are accurate enough to enforce emissions rules.",
+      "next": "Watch for the underlying paper and for regulators citing these results in enforcement and reporting rules.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://nature.com/articles/d41586-026-03075-2"
+        ],
+        [
+          "PubMed Central",
+          "C",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9992358/"
+        ],
+        [
+          "Stanford Events",
+          "C",
+          "https://events.stanford.edu/event/ese-seminar-adam-brandt-detecting-greenhouse-gas-emissions-from-space-large-scale-blind-testing-of-methane-detection-satellites"
+        ]
+      ]
+    },
+    {
+      "id": "gemini4argon",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Two weeks on",
+      "title": "Gemini 4 Argon stays limited to cyber defenders and cloud customers while Google chases personal agents",
+      "summary": "Google says Argon leads on software engineering and ties on cybersecurity, but independent rankings put it behind two Claude models.",
+      "story": [
+        "Google unveiled Gemini 4 Argon on Sept. 30 and is limiting access at first to select cybersecurity defenders and enterprise cloud customers, CNBC reports. Google has not announced a public release date and says it is taking part in a voluntary U.S. government safety-testing process. Google says the model sets a record in real-world software engineering, ties for first in cybersecurity and leads a benchmark across finance, legal and other professional tasks.",
+        "Independent evidence is more mixed. CNBC notes that the Artificial Analysis Intelligence Index places Gemini 4 behind only Claude Opus 5.5 and Claude Sonnet 5.5. Third-party sites such as eesel.ai list strong scores on DeepSWE and Vibe Code Bench but weaker results than GPT-6 Astra on FrontierSWE v2 and Terminal-Bench, and they are unverified against Google's own pages. Bloomberg reported that some Google employees questioned the model's real-world coding performance, which Google disputed.",
+        "Introductory pricing is $2 per million input tokens and $10 per million output, and Google says rates will eventually double. The market reaction was mixed, with Alphabet up in premarket trading on Oct. 1 in one CNBC account and a CNBC video saying shares slid as the launch disappointed the Street. JPMorgan analysts said Google needs a breakout personal agent.",
+        "Alphabet fell 1.74% on Wednesday to $347.64 as part of the broad selloff."
+      ],
+      "flag": "Benchmark tables come mostly from third-party sites. Reports conflict on Alphabet's reaction to the launch.",
+      "facts": [
+        "Gemini 4 Argon launched Sept. 30 with restricted access (CNBC).",
+        "Introductory pricing is $2 per million input tokens and $10 per million output (CNBC).",
+        "Artificial Analysis ranks it behind Claude Opus 5.5 and Sonnet 5.5 (CNBC).",
+        "Bloomberg reported employees questioned its coding performance, and Google disputed that.",
+        "Google has announced no public release date (CNBC)."
+      ],
+      "why": "Frontier labs are now competing on trusted-access rollouts and agents, not only raw benchmarks. A restricted launch with government testing shows how cybersecurity risk is shaping release plans.",
+      "next": "Watch for a general release date and for whether Argon powers Google's paid Spark agent.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/09/30/google-gemini-4"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Trump said at an Arizona rally that leakers should be shot, which drew criticism, The Hill reports.",
+    "A federal judge granted a preliminary injunction that keeps blocking the White House ban on CNN, MS NOW and Politico, ABC News reports.",
+    "Fannie Mae sharply raised its 2027 mortgage rate forecast, CNBC reports.",
+    "OpenAI launched Dots on Sept. 29, a personal agent on GPT-6 Astra that starts at the $100-a-month Pro plan and asks approval for significant actions, TechCrunch and CNBC report.",
+    "Nature's news team asks whether GLP-1 obesity drugs can heal the brain by treating addiction and depression.",
+    "Trump said Taiwan agreed to buy 30% of the gas from the Alaska pipeline over 20 years, The Hill reports."
+  ]
+}
