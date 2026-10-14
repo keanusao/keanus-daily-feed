@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-14T02:35:11Z",
+  "updatedAt": "2026-10-14T03:35:49Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 62.5,
-      "feels": 59.1,
-      "hum": 61,
-      "wind": 7.3,
+      "temp": 60.6,
+      "feels": 58.6,
+      "hum": 62,
+      "wind": 3.1,
       "cond": "clear"
     },
     "days": [
@@ -22,21 +22,21 @@
         "date": "2026-10-13",
         "hi": 77,
         "lo": 48,
-        "cond": "partly",
+        "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-10-14",
         "hi": 78,
-        "lo": 53,
+        "lo": 52,
         "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-10-15",
-        "hi": 88,
-        "lo": 48,
-        "cond": "partly",
+        "hi": 86,
+        "lo": 47,
+        "cond": "clear",
         "pop": 0
       },
       {
@@ -63,14 +63,14 @@
     ]
   },
   "markets": {
-    "asOf": "Tue Oct 13, 10:25 PM ET",
+    "asOf": "Tue Oct 13, 11:25 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
         "name": "S&P 500",
         "price": "7,805.45",
         "raw": 7805.45,
-        "change": "-0.08%",
+        "change": "-0.02%",
         "dir": "down",
         "time": 1791923582,
         "spark": [
@@ -103,9 +103,9 @@
         "name": "Dow Jones",
         "price": "51,670.10",
         "raw": 51670.1,
-        "change": "+0.03%",
-        "dir": "up",
-        "time": 1791924115,
+        "change": "-0.35%",
+        "dir": "down",
+        "time": 1791921600,
         "spark": [
           52421.2,
           52093.11,
@@ -200,11 +200,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$94.82",
-        "raw": 94.82,
-        "change": "+0.72%",
+        "price": "$94.91",
+        "raw": 94.91,
+        "change": "+0.82%",
         "dir": "up",
-        "time": 1791944706,
+        "time": 1791948344,
         "spark": [
           101.39,
           105.83,
@@ -228,17 +228,17 @@
           91.85,
           93.74,
           94.14,
-          94.82
+          94.91
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$83,160",
-        "raw": 83159.59,
-        "change": "+0.08%",
+        "price": "$83,870",
+        "raw": 83870.46,
+        "change": "+0.94%",
         "dir": "up",
-        "time": 1791945307,
+        "time": 1791948949,
         "spark": [
           78163.38,
           75612.51,
@@ -269,7 +269,7 @@
           82912.23,
           83679.47,
           81762.56,
-          83159.59
+          83870.46
         ]
       }
     ],
