@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-15T01:35:49Z",
+  "updatedAt": "2026-10-15T02:35:29Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 69.4,
-      "feels": 65.2,
-      "hum": 42,
-      "wind": 7.1,
+      "temp": 66.4,
+      "feels": 63.4,
+      "hum": 48,
+      "wind": 4.7,
       "cond": "clear"
     },
     "days": [
       {
         "date": "2026-10-13",
         "hi": 77,
-        "lo": 48,
+        "lo": 49,
         "cond": "clear",
         "pop": 0
       },
@@ -28,28 +28,28 @@
       {
         "date": "2026-10-15",
         "hi": 83,
-        "lo": 52,
+        "lo": 53,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-16",
         "hi": 92,
-        "lo": 52,
+        "lo": 53,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-17",
         "hi": 88,
-        "lo": 66,
+        "lo": 67,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-18",
         "hi": 73,
-        "lo": 57,
+        "lo": 58,
         "cond": "cloudy",
         "pop": 0
       },
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Wed Oct 14, 9:25 PM ET",
+    "asOf": "Wed Oct 14, 10:25 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$94.07",
-        "raw": 94.07,
-        "change": "-1.07%",
+        "price": "$93.94",
+        "raw": 93.94,
+        "change": "-1.21%",
         "dir": "down",
-        "time": 1792027543,
+        "time": 1792031129,
         "spark": [
           101.39,
           105.83,
@@ -229,17 +229,18 @@
           91.85,
           93.74,
           94.14,
-          94.07
+          95.09,
+          93.94
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,656",
-        "raw": 81656.25,
-        "change": "+0.10%",
-        "dir": "up",
-        "time": 1792028148,
+        "price": "$80,999",
+        "raw": 80998.59,
+        "change": "-0.70%",
+        "dir": "down",
+        "time": 1792031726,
         "spark": [
           75612.51,
           76150.32,
@@ -270,7 +271,7 @@
           83679.47,
           81762.56,
           83095.12,
-          81656.25
+          80998.59
         ]
       }
     ],
