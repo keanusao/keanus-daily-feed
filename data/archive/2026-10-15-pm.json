@@ -1,0 +1,1319 @@
+{
+  "updatedAt": "2026-10-15T23:17:37Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **Wall Street rotated out of AI stocks on Thursday**, with the Dow up 556 points to 52,177.69 and the Nasdaq nearly flat (CNBC). TSMC posted a record profit, up 68.7%, which argues demand for AI chips is real (CNBC, Bloomberg). Anthropic told investors it is profitable on **$16.8 billion in third-quarter revenue**, though growth is slowing (Bloomberg, CNBC, Axios). Inflation stayed hot, with **producer prices up 1.3% in September** and retail sales up 0.8% (CNBC), so Fed hike odds remain in play (Axios, Fox Business). In Washington, five House Republicans and 17 Democrats want Trump to cancel his Russian diesel license, and Fitzpatrick plans a discharge petition (The Hill, Axios). A Trump-appointed judge blocked the White House ban on CNN, MS NOW and Politico, and the Justice Department is appealing (CNN, NPR, Fox News). Ukraine resumed refinery strikes after Trump's energy truce failed, and Kyiv says Starlink limits are hurting its military (NPR, NBC News, CNN). Closer to home, **California's billionaire tax faces two rival measures** that could cancel it, with PPIC showing Prop. 40 ahead 52% to 46% (KQED, CalMatters). State workers still plan to strike Oct. 21 (CalMatters, KQED). In space news, Dragon docked at the station with the **final roll-out solar arrays** (NASA, Space.com).",
+  "alerts": [
+    {
+      "text": "SEIU Local 1000's one-day state worker strike is still set for Oct. 21, so expect possible DMV and EDD delays.",
+      "level": "high",
+      "story": "seiuupdate"
+    },
+    {
+      "text": "Tesla reports earnings Oct. 21 after the close, and Nvidia and Tesla both fell on Thursday.",
+      "level": "watch",
+      "story": "rotation"
+    },
+    {
+      "text": "California's billionaire tax (Prop. 40) could be canceled by Prop. 41 or 42 even if it wins a majority on Nov. 3.",
+      "level": "watch",
+      "story": "prop40"
+    },
+    {
+      "text": "The Fed meets Oct. 27-28, and hot PPI and CPI readings keep hike odds in play.",
+      "level": "info",
+      "story": "hotdata"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "rotation",
+      "text": "Dow jumps 556 points as investors rotate out of AI stocks; Nasdaq barely moves."
+    },
+    {
+      "story": "dieselhouse",
+      "text": "Five House Republicans join 17 Democrats against Trump's Russian diesel license."
+    },
+    {
+      "story": "hotdata",
+      "text": "Producer prices jump 1.3% in September and retail sales rise 0.8%, keeping Fed hike odds alive."
+    },
+    {
+      "story": "prop40",
+      "text": "California's billionaire tax could be canceled by two rival measures even if it wins."
+    },
+    {
+      "story": "anthropicprofit",
+      "text": "Anthropic tells IPO investors it is profitable on $16.8 billion in quarterly revenue."
+    }
+  ],
+  "stat": {
+    "label": "TSMC Q3 net profit",
+    "value": "NT$763.1B",
+    "note": "Up 68.7% from a year ago and a sixth straight record quarter (CNBC)"
+  },
+  "markets": {
+    "asOf": "Thu Oct 15, 6:25 PM ET",
+    "wrap": "The **Dow rose 1.08% to 52,177.69 and the S&P 500 gained 0.33%** on Thursday, while the Nasdaq added just 0.08% (CNBC). CNBC tied the rotation to worries about AI spending, and the S&P 500 is still headed for a losing week. TSMC's record profit helped chip sentiment (CNBC), but Asian chip stocks sold off on AI funding fears (CNBC). Anthropic's reported $16.8 billion quarter drew mixed analyst reaction (Bloomberg). The 10-year Treasury yield fell to 5.09% and WTI crude sat near $96 (live.json).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,744.06",
+        "raw": 7744.06,
+        "change": "+0.33%",
+        "dir": "up",
+        "time": 1792096433,
+        "spark": [
+          7551.81,
+          7637.76,
+          7650.5,
+          7764.7,
+          7764.64,
+          7706.03,
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,177.69",
+        "raw": 52177.69,
+        "change": "+1.08%",
+        "dir": "up",
+        "time": 1792096445,
+        "spark": [
+          51461.9,
+          51778.04,
+          51682.64,
+          52048.83,
+          51863.69,
+          51511.59,
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,713.03",
+        "raw": 26713.025,
+        "change": "+0.08%",
+        "dir": "up",
+        "time": 1792098959,
+        "spark": [
+          25978.43,
+          26418.3,
+          26522.54,
+          27122.09,
+          27244.28,
+          26936.04,
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.09%",
+        "raw": 5.089,
+        "change": "-1.95%",
+        "dir": "down",
+        "time": 1792090795,
+        "spark": [
+          5.0,
+          5.01,
+          4.95,
+          5.0,
+          4.96,
+          4.97,
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$96.08",
+        "raw": 96.08,
+        "change": "-0.44%",
+        "dir": "down",
+        "time": 1792103100,
+        "spark": [
+          105.83,
+          102.43,
+          101.91,
+          100.3,
+          95.78,
+          94.59,
+          92.16,
+          94.61,
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          96.08
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$82,403",
+        "raw": 82402.64,
+        "change": "+1.02%",
+        "dir": "up",
+        "time": 1792103701,
+        "spark": [
+          75612.51,
+          76150.32,
+          76403.77,
+          80901.46,
+          81233.68,
+          81142.61,
+          86602.91,
+          86172.28,
+          84383.01,
+          84379.06,
+          84034.92,
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82402.64
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$217.23",
+        "raw": 217.23,
+        "change": "-1.84%",
+        "dir": "down",
+        "time": 1792094400,
+        "spark": [
+          213.9,
+          219.34,
+          222.27,
+          227.38,
+          228.87,
+          225.51,
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$342.00",
+        "raw": 342.0,
+        "change": "-0.28%",
+        "dir": "down",
+        "time": 1792094401,
+        "spark": [
+          332.41,
+          337.0,
+          336.13,
+          338.98,
+          339.75,
+          337.02,
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$539.44",
+        "raw": 539.44,
+        "change": "+1.08%",
+        "dir": "up",
+        "time": 1792094401,
+        "spark": [
+          490.3,
+          497.75,
+          493.78,
+          501.61,
+          498.0,
+          500.59,
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$349.22",
+        "raw": 349.22,
+        "change": "+0.45%",
+        "dir": "up",
+        "time": 1792094401,
+        "spark": [
+          342.87,
+          347.33,
+          349.54,
+          354.97,
+          351.16,
+          337.83,
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$362.44",
+        "raw": 362.44,
+        "change": "-1.29%",
+        "dir": "down",
+        "time": 1792094400,
+        "spark": [
+          358.08,
+          366.2,
+          364.27,
+          375.3,
+          378.9,
+          380.12,
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$254.76",
+        "raw": 254.76,
+        "change": "+0.27%",
+        "dir": "up",
+        "time": 1792094401,
+        "spark": [
+          245.96,
+          251.19,
+          253.71,
+          258.45,
+          254.98,
+          249.27,
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "TSLA",
+      "date": "2026-10-21",
+      "when": "after close"
+    },
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": ""
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 85.3,
+      "feels": 82.0,
+      "hum": 23,
+      "wind": 3.6,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-10-14",
+        "hi": 79,
+        "lo": 48,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-15",
+        "hi": 86,
+        "lo": 48,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-16",
+        "hi": 93,
+        "lo": 55,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-17",
+        "hi": 89,
+        "lo": 56,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-18",
+        "hi": 74,
+        "lo": 58,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-19",
+        "hi": 67,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-20",
+        "hi": 68,
+        "lo": 57,
+        "cond": "drizzle",
+        "pop": 43
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "dieselhouse",
+      "section": "politics",
+      "motif": "capitol",
+      "when": "House revolt",
+      "title": "House Republicans join Democrats against Trump's Russian diesel license as a discharge petition looms",
+      "summary": "Five House Republicans and 17 Democrats urged Trump to cancel the Treasury waiver, while Fitzpatrick says he will force a vote on a ban.",
+      "story": [
+        "Five House Republicans and 17 Democrats have asked President Trump to cancel his Russian diesel deal and revoke the Treasury waiver that allows the fuel into the U.S., The Hill reported. The Republicans are Don Bacon, Brian Fitzpatrick, Michael McCaul, Dan Newhouse and Joe Wilson. The letter asks Trump to explain how the license squares with an existing ban on Russian energy imports. It follows a letter from twelve senators, six from each party, that Axios, NPR and Fox News covered earlier this week.",
+        "Fitzpatrick has announced the Ronald Reagan Peace Through Strength Act to block U.S. purchases of Russian oil and says he will force a vote through a discharge petition, which needs 218 signatures to bypass House leadership, Axios and The Hill reported. Bacon told Axios he has already agreed to sign. The Treasury license runs into April 2027, and reports differ on the exact date and on how much diesel is involved.",
+        "The White House says adding diesel to global markets will lower prices. Critics in both parties call the deal a gift to Moscow and say Congress was not consulted. The Hill also reports that Bacon warned Trump's agenda is in trouble unless he reverses course on Ukraine. This is the latest sign that the split over Russia policy runs through the Republican caucus, not just across the aisle."
+      ],
+      "facts": [
+        "Five House Republicans and 17 Democrats signed the letter (The Hill).",
+        "Twelve senators, six Republicans and six Democrats, wrote a separate letter calling the deal a betrayal (Axios, NPR, Fox News).",
+        "Fitzpatrick plans a discharge petition for his Russian oil ban (Axios, The Hill).",
+        "A discharge petition needs 218 signatures (The Hill).",
+        "The White House says the extra diesel will lower prices (The Hill, NPR)."
+      ],
+      "next": "Watch whether Fitzpatrick files the petition and how many signatures it draws, and whether Treasury changes the license.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6151776-house-republicans-letter-trump-russia-diesel-deal/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/13/trump-russian-diesel-deal-betrayal-bipartisan-letter"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/10/fitzpatrick-trump-russia-diesel-discharge-petition"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+        ]
+      ],
+      "thread": "russia-diesel",
+      "left": "The deal rewards a country that is still bombing Ukraine's grid, and it sidesteps a law Congress passed in 2022. Presidents should not be able to grant sanctions relief by license when lawmakers of both parties object. If the goal is lower diesel prices, there are ways to do that without handing Moscow revenue.",
+      "right": "Conservatives who back the deal argue that high diesel prices hurt American truckers and farmers, and that a president may use waivers to ease an energy shock. Critics on the right, such as Fitzpatrick and Bacon, say the opposite: peace through strength means tightening sanctions, and a license that finances Russia undercuts the Reagan tradition. Both camps agree Congress deserves an explanation."
+    },
+    {
+      "id": "pressban",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Court ruling",
+      "title": "Judge blocks Trump's White House ban on CNN, MS NOW and Politico, and the Justice Department appeals",
+      "summary": "A Trump-appointed judge found the ban likely violates the First Amendment, and the White House says it will appeal.",
+      "story": [
+        "Judge Timothy Kelly, a Trump appointee, issued a longer-term ruling that bars the White House from keeping CNN, MS NOW and Politico out while their lawsuit proceeds, CNN, NPR and NBC News reported. Kelly found the ban likely violates the First Amendment because Trump's own statements show he acted over coverage he dislikes. The Justice Department told the court Wednesday it will appeal, and Fox News and the Washington Examiner reported that a White House official called the ruling misguided.",
+        "Trump announced the ban on Sept. 18. Kelly first blocked it on Sept. 24 with a temporary restraining order, which he later extended. The administration argued that press access is a privilege, not a right, and cited national security. Kelly rejected the national security claim, noting the government offered no information, even under seal, to support it, CNN reported.",
+        "The injunction has limits. It does not require access to the Oval Office or Air Force One, and CNN reports the White House still kept CNN off Air Force One, citing the separate Associated Press litigation. Press advocates say the fight is far from over. A separate 2025 ruling by Judge Trevor McFadden, also a Trump appointee, found the AP ban was viewpoint discrimination, per Fox News."
+      ],
+      "facts": [
+        "Judge Timothy Kelly issued the ruling (CNN, NPR, NBC News).",
+        "Trump announced the ban on Sept. 18 (Washington Examiner).",
+        "Kelly rejected the national security rationale for lack of evidence (CNN).",
+        "The Justice Department filed notice of appeal Wednesday (NBC News, Fox News).",
+        "The order does not cover the Oval Office or Air Force One (CNN, NPR)."
+      ],
+      "next": "Watch for an appeals court stay request and whether the White House keeps limiting reporters' access to the plane.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/13/politics/judge-gives-cnn-white-house-access-media-ban"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/14/nx-s1-6001398/white-house-media-ban"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://nbcnews.com/politics/trump-administration/prewrite-not-pub-judge-extends-order-blocking-trump-white-house-media-rcna602264"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/media/white-house-confirms-appeal-trump-appointed-judge-extends-ruling-restoring-cnn-msnbc-politico-access"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/justice/4759575/federal-judge-extends-halt-white-house-press-ban/"
+        ]
+      ],
+      "left": "A president may dislike coverage, but the First Amendment bars the government from punishing outlets for it. A Trump-appointed judge reached this conclusion using Trump's own words. If one administration can ban reporters it dislikes, every administration can.",
+      "right": "The Justice Department argues that access to the White House is a privilege the president controls, and it says the outlets published classified or false material. A Washington Examiner opinion piece argues the better answer is for the White House to ignore the outlets' questions instead of staging a legal fight it may lose. Conservatives also note that the earlier AP case showed courts will treat these bans skeptically."
+    },
+    {
+      "id": "midtermsgop",
+      "section": "politics",
+      "motif": "ballot",
+      "when": "Midterms",
+      "title": "Republicans scale back battleground spending as polls favor Democrats",
+      "summary": "National GOP groups are cutting spending in some races, and polls show Democrats ahead by 3 to 9 points depending on the survey.",
+      "story": [
+        "National Republican groups have cut spending in several battleground races with less than three weeks to go, The Hill reported. Party leaders publicly downplay bad polls. Sen. Tim Scott, who chairs the Senate GOP's campaign arm, says races in Minnesota, Michigan and New Hampshire are within the margin of error. Fox News analyst Brit Hume said on Special Report that Republicans could lose close races and some that were not thought to be close, though he said he was not predicting it.",
+        "The polls give the party reasons for concern. An AP-NORC survey puts Trump's approval at 36% with 64% disapproving, and registered voters preferred Democrats to control the House by 9 points and the Senate by 8, The Hill reported. A NewsNation-DDHQ poll taken Oct. 5-9 had Democrats ahead 49% to 42% on the generic ballot. An AARP poll of competitive districts found a narrower 49% to 46% Democratic edge.",
+        "Fox News says its power rankings now project Democrats to take the House, while the Senate stays in play. Republicans face an unpopular war with Iran, Trump's low approval and cost-of-living worries, The Hill reports. GOP operative Rick Tyler told The Hill it is going to be a bad night for Republicans, and he flagged tight races in Alaska, Michigan, Iowa and Ohio."
+      ],
+      "facts": [
+        "AP-NORC has Trump's approval at 36% (The Hill).",
+        "Registered voters favor Democrats for the House by 9 points and the Senate by 8 (AP-NORC via The Hill).",
+        "NewsNation-DDHQ poll Oct. 5-9: Democrats 49%, Republicans 42% (The Hill).",
+        "AARP poll of battleground districts: Democrats 49%, Republicans 46% (The Hill).",
+        "Election Day is Nov. 3."
+      ],
+      "next": "Watch for early-vote data and any new polls in Alaska, Michigan, Iowa and Ohio before Nov. 3.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/newsletters/morning-report/6149917-gop-battleground-ambitions-midterms-polling-trump-administration-russia-ukraine/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6151939-gop-midterm-washout-risk/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6151451-ap-norc-midterm-poll/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6143963-democrats-lead-congressional-ballot-ddhq/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play"
+        ]
+      ],
+      "thread": "midterms-2026",
+      "left": "Voters are reacting to a war most of them oppose and to prices that keep rising. Democrats lead because they are the only check on an administration that has acted without Congress on Iran and Russia. The retreat in GOP spending suggests party strategists see the same thing.",
+      "right": "Republicans argue that generic-ballot leads often shrink once voters focus on individual candidates and that midterm polls overstated Democrats in the past. They say Democrats blocked the data center electricity bill and offer no plan on inflation. Tim Scott's point is that several key Senate races remain inside the margin of error, and turnout, not polls, decides them."
+    },
+    {
+      "id": "prop40",
+      "section": "local",
+      "motif": "scales",
+      "when": "Nov. 3 ballot",
+      "title": "California's billionaire tax faces two rival measures that could cancel it",
+      "summary": "A PPIC poll has Prop. 40 ahead 52% to 46%, but Props. 41 and 42 poll better and the higher vote total wins.",
+      "story": [
+        "A PPIC poll found 52% of likely voters back Proposition 40, the one-time 5% tax on the assets of about 200 California billionaires, and 46% oppose it, KQED and CalMatters reported. The same poll had Prop. 41 ahead 51% to 44% and Prop. 42 ahead 54% to 43%. If Prop. 40 and either rival pass, the one with the most votes becomes law, so a majority for the billionaire tax may not be enough, CalMatters explained.",
+        "Prop. 42 would ban retroactive taxes like Prop. 40 and any new taxes on personal property. CalMatters reports its backer is Google co-founder Sergey Brin, and that Gov. Newsom has endorsed it, which runs against his own party and some unions. A San Francisco Chronicle list of Newsom's votes appears to conflict on Prop. 42, so his exact position is worth checking. Newsom has also proposed a federal billionaire tax.",
+        "Fox Business has reported that Brin, Larry Page and other wealthy residents moved assets or homes out of state, and that Brin committed at least $45 million to a group fighting the measure. Mark Cuban wrote that startup founders would leave. Nvidia's Jensen Huang told Bloomberg he is not worried about paying, per Fox Business. Backers call the tax minor and say it would fund health care."
+      ],
+      "facts": [
+        "Prop. 40 is a one-time 5% tax on about 200 billionaires (CalMatters).",
+        "PPIC: Prop. 40 52-46, Prop. 41 51-44, Prop. 42 54-43 (KQED, CalMatters).",
+        "If Prop. 40 and a rival both pass, the higher vote total prevails (CalMatters).",
+        "CalMatters reports Newsom endorsed Prop. 42.",
+        "Fox Business reports Brin committed at least $45 million to the opposition."
+      ],
+      "next": "Election Day is Nov. 3. Watch for new polls on Props. 40, 41 and 42 and for more spending from both sides.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12099825/california-billionaires-tax-has-a-slim-lead-in-new-poll-but-still-a-lot-of-work-to-do"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/money/billionaires-make-strategic-moves-california-ahead-proposed-wealth-tax"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/google-co-founder-rips-california-billionaire-tax-i-fled-socialism"
+        ]
+      ],
+      "thread": "california-billionaire-tax",
+      "left": "A tiny group holds enormous wealth, and a one-time levy would raise tens of billions for health care at a moment when federal cuts are landing. Supporters say the exit stories are exaggerated and that rival measures were funded by the very people the tax targets. They also object to Newsom lining up with billionaire donors.",
+      "right": "Conservatives and many business leaders say a wealth tax drives out founders, investors and the income tax base California depends on. Brin's group argues Prop. 42 would stop retroactive and asset taxes for good, so voters are not asked again. Critics say a tax that reaches unrealized stock gains and founder voting power is hard to administer and invites court fights."
+    },
+    {
+      "id": "seiuupdate",
+      "section": "local",
+      "motif": "scroll",
+      "when": "State strike",
+      "title": "State worker union still plans a one-day strike Oct. 21 as mediation looms",
+      "summary": "SEIU Local 1000's walkout, authorized by 96% of voters, is still on, and no deal has been reported.",
+      "story": [
+        "SEIU Local 1000, California's largest state worker union, still plans a one-day statewide strike on Oct. 21, and CalMatters and KQED have reported no deal or cancellation. Members authorized the walkout with 96% in favor. The union's contract expired June 30. The union wants better pay, more affordable health coverage and more flexibility to work from home.",
+        "In late September the state's labor board sided with the union and concluded that CalHR refused to meet and confer in good faith, CalMatters reported. The state says it is open to negotiation, and the Public Employment Relations Board has appointed a mediator. Newsom vetoed a union-backed bill that would have let departments set their own telework rules.",
+        "The union's president says delays could hit the DMV and the state's unemployment and disability insurance offices. CalMatters says the union has never held a statewide walkout in the 44-year history of the labor groups that became Local 1000. It is also Newsom's final stretch in office, which affects how both sides weigh a settlement."
+      ],
+      "facts": [
+        "The strike is set for Oct. 21 (CalMatters, KQED).",
+        "96% of voting members authorized it (CalMatters).",
+        "The contract expired June 30 (CalMatters).",
+        "The state labor board found CalHR failed to bargain in good faith (CalMatters).",
+        "A mediator has been appointed (CalMatters)."
+      ],
+      "next": "Watch for a mediated deal before Oct. 21 and service notices from the DMV and EDD.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/seiu-local-1000-strike-authorization/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12103583/californias-largest-public-sector-union-set-to-strike-later-this-month"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/09/newsom-veto-telework-bill/"
+        ]
+      ],
+      "blindspot": "Covered by center and left-leaning California outlets. Searches of right-leaning outlets found no coverage of this strike.",
+      "left": "The state broke promises on pay and telework, and its own labor board found it bargained in bad faith. Wages and health costs have lagged inflation, and crowding workers into aging offices punishes people on modest salaries.",
+      "right": "Conservative critics say public-sector unions help elect the officials across the table, so they hold unusual leverage. A walkout that slows the DMV and benefits offices hurts the Californians those agencies serve, and taxpayers can reasonably expect state staff to be on site."
+    },
+    {
+      "id": "ukrainetruce",
+      "section": "world",
+      "motif": "swords",
+      "when": "Truce collapses",
+      "title": "Ukraine resumes refinery strikes as Trump's energy truce falls apart and Starlink limits bite",
+      "summary": "Zelensky says Kyiv is done pausing, a drone started a fire at the Ryazan refinery, and Trump denies cutting off intelligence.",
+      "story": [
+        "Ukraine has resumed attacks on Russian oil refineries after a brief truce, and a drone strike started a fire at a refinery in Ryazan on Thursday, NPR and the Washington Examiner reported. Zelensky told the Financial Times, We're done, after Russia kept hitting Ukraine's energy grid following Trump's surprise energy ceasefire announcement on Sunday. Zelensky says Ukraine paused strikes for three days, NBC News and CNN reported.",
+        "The rift has widened over Starlink and intelligence. Ukraine says U.S.-controlled limits on Starlink disrupted military communications and air defenses, and Musk said any limits are decided by the U.S. military and ultimately the president, CNN and The Hill reported. Zelensky says U.S. officials warned they would block intelligence if Kyiv did not stop the refinery strikes. Trump denies withholding critical information, the Washington Examiner reported.",
+        "Trump has argued that Ukraine's refinery campaign raises U.S. diesel prices and said Ukraine needs a new president, Fox News reported. Putin warned of consequences if the strikes continue, and the Kremlin said it was too early for systemic conclusions, per NPR. Coverage from NBC and NPR describes Russia as continuing its bombardment, so the sources disagree on who broke the truce."
+      ],
+      "facts": [
+        "Trump announced the energy ceasefire on Sunday (The Hill, Fox News).",
+        "Ukraine paused refinery strikes for three days (CNN, NBC News).",
+        "A drone strike started a fire at the Ryazan refinery Thursday (NPR).",
+        "Musk says Starlink limits are decided by the U.S. military and ultimately the president (CNN).",
+        "Trump denies stopping intelligence sharing (Washington Examiner)."
+      ],
+      "next": "Watch for Starlink speed restoration, Russian retaliation on Ukraine's grid and any U.S. response in Congress.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/ukraine/ukraine-resumes-strikes-russian-oil-refineries-trump-starlink-intel-rcna603648"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/europe/zelensky-trump-russia-fuel-deal-latam-intl"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6149942-ukraine-attacks-russia-energy-infrastructure-trump-ceasefire/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/world/4766769/ukraine-attacks-russian-oil-refineries/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president"
+        ]
+      ],
+      "thread": "ukraine-us-rift",
+      "left": "Trump announced a truce Russia never accepted, then pressured the victim to stop hitting Russian fuel while easing sanctions on that fuel. Throttling Starlink and threatening intelligence cuts leaves Ukraine exposed to air strikes. Allies are right to ask whether Washington is still on Kyiv's side.",
+      "right": "Supporters of the president argue that U.S. consumers should not pay record diesel prices for a war the U.S. does not control, and that the energy truce was a real attempt to end strikes on civilian energy. They add that the U.S. supplies the intelligence and communications Ukraine relies on, so it is entitled to set conditions. Hawks on the right dispute that approach and want Moscow squeezed instead."
+    },
+    {
+      "id": "irannov",
+      "section": "world",
+      "motif": "ship",
+      "when": "Iran war",
+      "title": "U.S. weighs a 'mother of all bombs' for Iran as Trump's pre-midterm pause holds",
+      "summary": "CNN reported military options include the GBU-43/B, while Trump says no attack before the midterms and Iran vows retaliation.",
+      "story": [
+        "CNN reported that the U.S. military has drawn up options for renewed Iran strikes that could include the GBU-43/B, nicknamed the mother of all bombs, citing U.S. officials, and CNBC noted it has not independently confirmed the report. Trump said on Oct. 8 on Truth Social that the U.S. would not attack Iran before the midterm elections, citing productive discussions with Tehran, and that the naval blockade stays in place, CNBC and The Hill reported.",
+        "Iran is preparing for the period after Nov. 3. The Wall Street Journal reported that Tehran is strengthening defenses around nuclear sites and has told regional officials it would answer new U.S. strikes with retaliation across the Middle East, CNBC reported. The Revolutionary Guard chief said Iran is counting the moments until it can sink American warships. CNBC also reported attacks on Saudi Aramco facilities this week.",
+        "Oil markets largely shrugged off Trump's pledge, NBC News reported. An AP-NORC poll found 7 in 10 Americans disapprove of Trump's handling of the war. Fox News has reported that the White House warned Iran of an easy way or a hard way, which shows the administration is keeping both threats and talks alive."
+      ],
+      "facts": [
+        "CNN reported the options include the GBU-43/B; CNBC has not confirmed it (CNBC).",
+        "Trump pledged on Oct. 8 not to attack Iran before the midterms (CNBC, The Hill).",
+        "The U.S. naval blockade remains in place (CNBC).",
+        "The WSJ reported Iran is fortifying nuclear sites (CNBC).",
+        "7 in 10 disapprove of Trump's handling of the war (AP-NORC via CNBC)."
+      ],
+      "next": "Watch for Hormuz incidents, any talks with Tehran and oil prices; Trump's pledge covers the period before Nov. 3.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/08/iran-war-trump-midterm-election.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6136781-trump-vows-no-iran-attack/"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/us-iran-war-vance-talks-tehran-nuclear-program-10-07-26"
+        ]
+      ],
+      "thread": "iran-war",
+      "flag": "The 'mother of all bombs' option is a CNN report citing officials; CNBC has not independently confirmed it.",
+      "left": "A war that most Americans oppose is being timed around an election, and Congress has had little say. Pausing strikes until after the vote while preparing bigger ones shows politics driving military decisions, and heavier weapons raise the risk of a wider regional war.",
+      "right": "Supporters argue that the blockade and the threat of force are what bring Iran to the table, and that denying Tehran a nuclear weapon is the aim. They say a pause during talks is sensible diplomacy and that Iran's attacks on shipping and Gulf facilities justify keeping every military option open."
+    },
+    {
+      "id": "hotdata",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Inflation",
+      "title": "Hot producer prices and strong retail sales keep the Fed's next move in doubt",
+      "summary": "Producer prices rose 1.3% in September and retail sales rose 0.8%, as traders weigh an October or December rate hike.",
+      "story": [
+        "Producer prices rose 1.3% in September, the biggest monthly jump since 2022 and more than double the 0.6% economists expected, CNBC reported. The annual rate is 6.3%, and core PPI rose 0.7%. Retail sales rose 0.8% against a 0.4% forecast, but excluding autos and gas stations the gain was only about 0.25%, which suggests high fuel prices are squeezing other spending, CNBC reported. Initial jobless claims were 199,000.",
+        "The day before, CPI rose 0.6% for the month and 3.7% from a year earlier, with energy up 5.2% on the month and 20.4% on the year, Fox Business and CNBC reported. The Fed raised rates 12-0 in September to 3.75%-4%, its first hike since 2023. After CPI, CME FedWatch odds of a hike at the Oct. 27-28 meeting rose, though outlets cite figures from about 31% to 54% depending on the hour.",
+        "Fed officials are split. New York Fed President John Williams said he sees no reason to expect more hikes in 2027, and Gov. Christopher Waller said higher Treasury yields are already restraining activity, CNBC reported. Fox Business notes that a December hike is the base case for some forecasters. Axios calls it a too-hot-for-comfort economy, with Chair Kevin Warsh under pressure."
+      ],
+      "facts": [
+        "PPI rose 1.3% in September versus 0.6% expected (CNBC).",
+        "PPI is up 6.3% from a year ago (CNBC).",
+        "Retail sales rose 0.8% versus 0.4% expected (CNBC).",
+        "CPI is 3.7% annually, with energy up 20.4% (Fox Business).",
+        "The Fed hiked to 3.75%-4% in September, its first increase since 2023 (CNBC, Fox Business)."
+      ],
+      "next": "Watch the Oct. 27-28 Fed meeting, with a December move seen as the more likely hike.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/15/fed-inflation-ppi-warsh"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-september-2026"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/op-eds/4741193/fed-rate-hike-worst-possible-moment/"
+        ]
+      ],
+      "left": "The inflation is driven by energy costs from a war and by trade policy, and rate hikes do little to fix a supply shock while they raise borrowing costs for families. Households are already cutting back outside gas and cars. The Fed should weigh the risk of tipping a weakening labor market over.",
+      "right": "Producer prices at a 6.3% annual rate show inflation is spreading through the supply chain, and conservatives argue the Fed was right to hike and should stay firm until it breaks. A Washington Examiner op-ed argued the September hike came at a bad moment, but the broader case is that credibility matters more than timing."
+    },
+    {
+      "id": "rotation",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Market close",
+      "title": "Dow jumps 556 points as investors rotate out of AI stocks and into the rest of the market",
+      "summary": "The Dow rose 1.08% and the S&P 500 0.33% on Thursday, while the Nasdaq barely moved after Anthropic's results.",
+      "story": [
+        "The Dow Jones Industrial Average rose 556.21 points, or 1.08%, to 52,177.69 on Thursday, CNBC reported. The S&P 500 gained 0.33% to 7,744.06 and the Nasdaq edged up 0.08% to 26,713.03. CNBC tied the move to investors rotating away from AI names over worries about spending on artificial intelligence. The S&P 500 is still on track for a losing week, and the Nasdaq is down more than 2% in the period.",
+        "Anthropic's reported third-quarter revenue of $16.8 billion added to the debate. CNBC said some traders worry the top-line growth may not justify the gains in chipmakers, and Bloomberg ran analyst views that the results may help Anthropic's IPO but not the AI trade. Asian chip stocks fell sharply on Thursday on AI funding worries, CNBC reported, with SK Hynix and Samsung down.",
+        "Among the stocks you follow, Nvidia fell 1.84% to $217.23, Tesla dropped 1.29% to $362.44 and Microsoft rose 1.08% to $539.44, per live.json. The 10-year Treasury yield fell to 5.09%, down 1.95% on the day, after topping 5% earlier in the week. WTI crude sat near $96."
+      ],
+      "facts": [
+        "Dow closed at 52,177.69, up 1.08% (CNBC).",
+        "S&P 500 closed at 7,744.06, up 0.33% (CNBC).",
+        "Nasdaq closed at 26,713.03, up 0.08% (CNBC).",
+        "The 10-year yield was 5.09% (live.json).",
+        "Nvidia fell 1.84% and Microsoft rose 1.08% (live.json)."
+      ],
+      "next": "Tesla reports Oct. 21 after the close, and the Fed meets Oct. 27-28.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say"
+        ]
+      ],
+      "why": "A broadening market is healthier than one carried by a few AI names, but the move came as AI funding worries hit chipmakers. If yields stay above 5%, richly priced AI stocks stay under pressure while cheaper sectors attract money."
+    },
+    {
+      "id": "tsmcrecord",
+      "section": "stocks",
+      "motif": "chip",
+      "when": "Earnings",
+      "title": "TSMC posts a sixth straight record profit as AI demand outruns its capacity",
+      "summary": "Third-quarter net profit rose 68.7% to NT$763.1 billion, beating estimates, with 2-nanometer chips ramping.",
+      "story": [
+        "TSMC reported third-quarter net profit of NT$763.1 billion, up 68.7% from a year earlier and a record for the sixth straight quarter, CNBC reported. Revenue was NT$1.49 trillion against NT$1.47 trillion expected, and net income beat the NT$746.34 billion forecast. The operating margin of 58.7% topped the upper end of the company's 58% guidance. Bloomberg put net income at $23.6 billion and sales up 51% to about $47 billion.",
+        "TSMC makes the advanced chips for Nvidia, Apple and others, so its results are a read on whether AI spending is real. The company said the fourth quarter should be supported by strong demand for advanced processes, including the ramp of its 2-nanometer technology, CNBC reported.",
+        "An analyst at SemiAnalysis told CNBC demand for advanced chips continues to outpace production capacity. The report landed on the same day Asian chip stocks sold off on AI funding worries, which shows the market is separating the chip makers with orders in hand from the companies borrowing to buy chips."
+      ],
+      "facts": [
+        "Q3 net profit was NT$763.1 billion, up 68.7% (CNBC).",
+        "Revenue was NT$1.49 trillion versus NT$1.47 trillion expected (CNBC).",
+        "Operating margin was 58.7% (CNBC).",
+        "Bloomberg reports sales rose 51% to about $47 billion.",
+        "TSMC expects strong demand into Q4 as 2-nanometer ramps (CNBC)."
+      ],
+      "next": "Watch Nvidia's Nov. 18 earnings for confirmation that chip demand remains ahead of supply.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/videos/2026-10-15/tsmc-s-third-quarter-profit-beats-expectations-video"
+        ]
+      ],
+      "why": "TSMC sits at the center of the AI supply chain, so strong orders argue against an AI bust even as financing worries shake smaller players. It also keeps pricing power over the chips Nvidia and Apple depend on."
+    },
+    {
+      "id": "epic",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "Chip R&D",
+      "title": "Applied Materials opens a $5 billion Silicon Valley chip research center",
+      "summary": "The Sunnyvale EPIC center aims to cut years from the road between a lab discovery and a chip in production.",
+      "story": [
+        "Applied Materials opened its EPIC research center in Sunnyvale on Oct. 12, IEEE Spectrum reported. The facility, now planned at about $5 billion, is meant to shorten by several years the time from early-stage discoveries to commercial chips. The company says AI is speeding up materials discovery and equipment design. Bloomberg interviewed Applied's CEO on Oct. 13 about doubling revenue thanks to AI.",
+        "The project was announced in 2023 at about $4 billion. In 2024 the Commerce Department rejected the company's request for CHIPS Act money, Bloomberg reported. Customers including TSMC, Samsung, Micron and Broadcom have agreed to set up space inside the lab, according to the coverage.",
+        "IEEE Spectrum notes a broader gap: a GAO report found that only about 5% of the $11 billion CHIPS Act research fund has been allocated, while private money flows into chip research labs. The Bay Area gains a research site at a time when manufacturing is expanding faster than R&D."
+      ],
+      "facts": [
+        "The EPIC center opened Oct. 12 in Sunnyvale (IEEE Spectrum).",
+        "Planned investment is about $5 billion, up from $4 billion in 2023 (Bloomberg, IEEE Spectrum).",
+        "Commerce rejected CHIPS Act funding for it in 2024 (Bloomberg).",
+        "GAO found about 5% of the $11 billion CHIPS research fund allocated (IEEE Spectrum).",
+        "Customers can embed teams inside the lab (IEEE Spectrum)."
+      ],
+      "next": "Watch which chipmakers move teams into the lab and how Applied describes the first joint projects.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/applied-materials-epic-center"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/semiconductor-research"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/chips-act-impact-semiconductor-manufacturing"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2024-08-01/applied-materials-denied-us-chips-grant-for-4-billion-project-in-silicon-valley"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/videos/2026-10-13/applied-materials-ceo-on-doubling-revenue-thanks-to-ai-video"
+        ]
+      ],
+      "why": "New chips depend on new materials and tools, and the slow step is moving a discovery to the factory floor. A shared lab near the Bay Area talent pool tries to shrink that step, which matters for AI chips and for local employers."
+    },
+    {
+      "id": "tensordyne",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "Inference chips",
+      "title": "Tensordyne claims logarithmic math can run AI inference on one-fifth the power of Nvidia racks",
+      "summary": "IEEE Spectrum reports the Napier rack's efficiency claims come from simulation, with hardware due late 2026 or 2027.",
+      "story": [
+        "Tensordyne says its Napier rack-scale system can run large language models about four times as fast on one-fifth the power of a 72-GPU Nvidia GB300 system, IEEE Spectrum reported. The figures come from simulations, and real systems will not exist to back them up until the end of the year. A pod holds 72 Napier chips, 8 Intel Xeon CPUs and 64 terabytes of solid-state storage in a quarter of a standard rack.",
+        "The trick is a logarithmic number format. By storing numbers as exponents, the chip can add where a conventional design would multiply, and adders are smaller and cheaper in power than multipliers. A four-pod rack serving a 2-trillion-parameter model is claimed to reach 1,300 tokens per second per user at 120 kW, with one pod handling prefill and three handling decode.",
+        "Tensordyne says a comparable nine-rack Nvidia Rubin and Groq 3 system would draw about 1.5 megawatts. IEEE Spectrum's broader coverage argues the inference boom is forcing a rethink of chips and memory, with Nvidia's Groq 3 LPU and SRAM-heavy designs also competing on speed. The claims are the company's own and independent measurements are not yet available."
+      ],
+      "facts": [
+        "Tensordyne claims 4x the speed at one-fifth the power of a 72-GPU GB300 system (IEEE Spectrum).",
+        "The numbers come from simulation (IEEE Spectrum).",
+        "The chip uses a logarithmic number format (IEEE Spectrum).",
+        "A four-pod rack is claimed to draw 120 kW (IEEE Spectrum).",
+        "Reports differ on whether hardware arrives at the end of 2026 or in 2027 (IEEE Spectrum)."
+      ],
+      "next": "Watch for first hardware and independent benchmarks against GB300 and Rubin.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/tensordyne-inference-claim"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/inference-hardware-revolution"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/nvidia-groq-3"
+        ]
+      ],
+      "flag": "Efficiency figures are company claims from simulation; reports differ on whether hardware ships at the end of 2026 or in 2027.",
+      "why": "Power is the limit on AI data centers, and local grids and electricity bills are the fallout. A chip that does the same inference for a fraction of the power would matter, but simulated numbers often shrink on real silicon."
+    },
+    {
+      "id": "crs35",
+      "section": "science",
+      "motif": "rocket",
+      "when": "Space station",
+      "title": "SpaceX Dragon docks at the space station with the last roll-out solar arrays",
+      "summary": "Dragon arrived at 10:27 a.m. EDT with more than 6,300 pounds of supplies and science for Expedition 75.",
+      "story": [
+        "SpaceX's Dragon cargo spacecraft docked to the International Space Station's Harmony module at 10:27 a.m. EDT on Thursday, NASA and Space.com reported. That was ahead of the planned 11 a.m. arrival and about 51 hours after a Falcon 9 launched from Cape Canaveral on Oct. 13 at 6:33 a.m. EDT. The mission is NASA's 35th SpaceX commercial resupply flight.",
+        "Dragon carries more than 6,300 pounds of food, supplies and research equipment for the Expedition 75 crew, plus the final set of ISS Roll-Out Solar Arrays, NASA reported. The arrays will be installed later this fall. They unroll like a carpet and are meant to replace aging power wings on the station.",
+        "Dragon will stay until mid-November, then return research and cargo and splash down off California, per NASA. The flight follows Crew-13's record seven hour and 50 minute trip to the station on Oct. 1."
+      ],
+      "facts": [
+        "Dragon docked at 10:27 a.m. EDT Thursday (NASA, Space.com).",
+        "The Falcon 9 launched Oct. 13 from Cape Canaveral (NASA).",
+        "The cargo weighs more than 6,300 pounds (NASA, Space.com).",
+        "It includes the final ISS Roll-Out Solar Arrays (NASA).",
+        "Dragon returns in mid-November with a splashdown off California (NASA)."
+      ],
+      "next": "Watch for the solar array installation this fall and Dragon's return in mid-November.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/blogs/spacestation/2026/10/15/spacex-dragon-docks-with-science-supplies-and-roll-out-solar-arrays/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-iss-cargo-mission-docking"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/"
+        ]
+      ],
+      "why": "The station's power and supply chain keep research running, and the new arrays extend its life. Commercial cargo flights have become routine, which frees NASA to plan Artemis."
+    },
+    {
+      "id": "amazonface",
+      "section": "science",
+      "motif": "planet",
+      "when": "Climate science",
+      "title": "AmazonFACE will test how a tropical rainforest responds to extra CO2",
+      "summary": "Nature reports the decade-long experiment will raise CO2 around forest plots to about 620 ppm, a first for the tropics.",
+      "story": [
+        "Nature reports that AmazonFACE, a huge experiment near Manaus, is about to begin releasing extra carbon dioxide around plots of rainforest. The goal is to test the fertilization effect, the idea that more CO2 fuels plant growth and pulls more carbon from the air. The design uses rings of towers and a target of about 620 parts per million, and the experiment will run for roughly a decade.",
+        "All earlier forest experiments of this kind were run in temperate regions, Nature notes, so this is the first in a tropical forest. The Amazon matters because it stores a large share of the carbon held in land vegetation, and climate models disagree on whether it will keep absorbing CO2.",
+        "A 2019 Nature Geoscience study simulated the experiment with 14 ecosystem models and found that scarce phosphorus in Amazon soils cuts the projected CO2-driven biomass growth by about 50%. A 2026 Nature Communications paper used open-top chambers, which raised CO2 by about 300 ppm, and found that understory roots changed how they acquire phosphorus."
+      ],
+      "facts": [
+        "AmazonFACE is about to start near Manaus (Nature).",
+        "The target is about 620 ppm CO2 (Nature).",
+        "It is the first such experiment in a tropical forest (Nature).",
+        "A 2019 modeling study found phosphorus limits could halve the CO2 growth boost (Nature Geoscience).",
+        "A 2026 chamber study found roots adapt phosphorus uptake under extra CO2 (Nature Communications)."
+      ],
+      "next": "Watch for first-year data, which will take time given the decade-long design.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03255-0"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-02909-3"
+        ],
+        [
+          "Nature Geoscience",
+          "C",
+          "https://www.nature.com/articles/s41561-019-0404-9"
+        ],
+        [
+          "Nature Communications",
+          "C",
+          "https://www.nature.com/articles/s41467-026-72098-0"
+        ]
+      ],
+      "why": "Climate projections assume tropical forests will keep taking up carbon. If phosphorus limits that, forests would offset less warming than models expect, which changes emissions targets."
+    },
+    {
+      "id": "anthropicprofit",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "IPO prep",
+      "title": "Anthropic tells IPO investors it is profitable, with $16.8 billion in third-quarter revenue",
+      "summary": "Reports say revenue rose nearly 50% from the second quarter, with positive cash flow and an 85% adjusted gross margin.",
+      "story": [
+        "Anthropic told prospective investors its third-quarter revenue hit $16.8 billion, according to people familiar with the matter cited by Bloomberg, CNBC and Axios. CNBC puts the second quarter at about $11.6 billion and the first at $4.7 billion, and Axios calls the jump nearly 50% from the prior quarter. Bloomberg reports the company was profitable on an adjusted basis.",
+        "The Financial Times reportedly said Anthropic was cash-flow positive, earning $1.70 for every dollar spent on computing power, and Bloomberg cites an adjusted gross margin of 85%. CNBC says the IPO is reportedly slated for November, and Bloomberg says valuation talk reaches up to $2 trillion, with marketing possibly starting in early November.",
+        "Analysts were split. A DA Davidson analyst said the revenue was not what anyone wanted to see, Bloomberg reported, and a Bloomberg opinion column called it a sharp slowdown from earlier triple-digit growth. Axios notes large training costs and stock-based compensation remain. Separately, Anthropic has asked the D.C. Circuit to rehear its challenge to the Pentagon's supply-chain-risk designation, CNBC reported."
+      ],
+      "facts": [
+        "Q3 revenue was $16.8 billion per people familiar (Bloomberg, CNBC, Axios).",
+        "Q2 revenue was about $11.6 billion and Q1 $4.7 billion (CNBC).",
+        "Bloomberg reports an adjusted profit and an 85% adjusted gross margin.",
+        "The IPO is reportedly slated for November (CNBC).",
+        "Valuation talk reaches up to $2 trillion (Bloomberg)."
+      ],
+      "next": "Watch for a public S-1 filing and IPO marketing in early November.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say"
+        ]
+      ],
+      "flag": "All figures come from people familiar with the matter, not a company filing.",
+      "why": "A profitable frontier lab would answer the biggest worry about AI spending, which is whether revenue can catch up to compute costs. The slowing growth rate is what is worrying markets."
+    },
+    {
+      "id": "metamuse",
+      "section": "ai",
+      "motif": "mouse",
+      "when": "Open models",
+      "title": "Meta ships Muse Wonder frontier models, then an 816-billion-parameter open-weight model that runs on Macs",
+      "summary": "Meta's own benchmarks match rivals, and Apple helped run its open model across Mac Studios.",
+      "story": [
+        "Meta released Muse Wonder and Muse Wonder Full on Oct. 12, calling them its first frontier models, TechCrunch, Axios and Bloomberg reported. Meta's model card says they score comparably to Fable 5.1 and GPT-6 Astra, and higher on MemoryBench. The API costs $4 per million input tokens and $20 per million output tokens. Wonder Full is limited to Muse Code subscribers.",
+        "On Oct. 15 Meta released Muse Spark Open, an 816-billion-parameter open-weight model with a license allowing commercial use, TechCrunch reported. Axios reports Meta and Apple showed it running locally on two or four connected Mac Studios with M5 Ultra chips using Apple's MLX framework, and Meta does not see users' prompts when it runs locally. TechCrunch, citing Engadget, says it needs at least 1 terabyte of RAM.",
+        "The benchmark claims are Meta's own, and independent testing has not confirmed them, according to Bloomberg and Axios. The release tests whether Meta's rebuilt AI team, 14 months into a push, can compete, and whether users will pay for it."
+      ],
+      "facts": [
+        "Muse Wonder launched Oct. 12 (TechCrunch, Axios).",
+        "Meta claims scores comparable to Fable 5.1 and GPT-6 Astra (TechCrunch).",
+        "API pricing is $4 and $20 per million tokens (TechCrunch).",
+        "Muse Spark Open has 816 billion parameters and an open-weight license (TechCrunch).",
+        "It needs at least 1 TB of RAM to run locally (TechCrunch)."
+      ],
+      "next": "Watch for independent benchmark results and developer adoption of the open-weight model.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/15/apple-and-meta-bury-the-hatchet-for-ai"
+        ]
+      ],
+      "flag": "Benchmark comparisons are Meta's own and not independently verified.",
+      "why": "A top-tier open-weight model that runs locally on Apple hardware gives developers and companies an option outside the big labs' APIs. The hardware needed is still a multi-machine rig, not a laptop."
+    }
+  ],
+  "briefs": [
+    "Anthropic asked the D.C. Circuit to rehear its challenge to the Pentagon's supply-chain-risk designation after a 2-1 ruling upheld it, CNBC reported.",
+    "Trump named conservative commentator Katie Zacharia as White House press secretary, and she kept her first briefing under 15 minutes, NBC News reported.",
+    "Trump announced a $54 billion Alaska LNG investment from South Korea, NBC News reported.",
+    "A new Quanta Magazine piece looks at a group of galaxies that may have lost their dark matter in a collision, which would trouble alternative gravity theories.",
+    "The FDA and CDC warned that some compounded glutathione shots and IVs may be linked to illnesses, NBC News reported."
+  ]
+}
