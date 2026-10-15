@@ -1,6 +1,6 @@
 name: Edition checks
 
-# Checks every new edition (structure + source links) and, every two hours, that editions are arriving on time.
+# Checks every new edition (structure + source links) and, every two hours, re-checks it and that editions are arriving on time.
 # On failure it opens (or updates) a GitHub issue labeled feed-check, which GitHub emails to the repo owner.
 # When checks pass again it closes that issue.
 on:
@@ -19,19 +19,15 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      # Links are checked on every run, so a scheduled run only closes the issue if the links really work.
       - name: Validate edition
         id: validate
         continue-on-error: true
-        run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            python scripts/validate_edition.py
-          else
-            python scripts/validate_edition.py --links
-          fi
+        run: python scripts/validate_edition.py --links
       - name: Report
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

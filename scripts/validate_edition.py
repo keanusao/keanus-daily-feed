@@ -5,13 +5,14 @@ Usage:
   python scripts/validate_edition.py --links    # also check every source link
 
 Writes a Markdown report to check-report.md and exits 1 if any check fails.
-Broken links (404/410/unreachable) fail the check; sites that block bots (401/403/429/5xx)
-are listed as "couldn't verify" but don't fail it.
+Broken links (404/410/unreachable on three tries over ~10 minutes) fail the check; sites that
+block bots (401/403/429/5xx) are listed as "couldn't verify" but don't fail it.
 """
 import concurrent.futures
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -21,6 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECTIONS = {"politics", "world", "economy", "stocks", "engineering", "science", "ai", "health", "local"}
 LEANS = {"L", "LL", "C", "LR", "R"}
 STALE_HOURS = 15.5
+RETRY_WAITS = (120, 480)  # seconds before each re-check of a link that looked broken
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
@@ -98,19 +100,34 @@ def probe(url):
     return url, "unreachable"
 
 
+def is_broken(status):
+    return status in (404, 410) or (isinstance(status, str) and "unreachable" in status)
+
+
 def check_links(d):
     urls = {}
     for s in d.get("stories") or []:
         for x in s.get("src") or []:
             if isinstance(x, list) and len(x) == 3:
                 urls.setdefault(x[2], []).append(f"{s.get('id')} ({x[0]})")
-    broken, blocked = [], []
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-        for url, status in pool.map(probe, urls):
-            if status in (404, 410) or (isinstance(status, str) and "unreachable" in status):
-                broken.append(f"{status}: {url} — used by {', '.join(urls[url])}")
-            elif isinstance(status, int) and status >= 400:
-                blocked.append(f"{status}: {url}")
+        results = dict(pool.map(probe, urls))
+        # Brand-new articles often 404 for a few minutes after a site publishes them, and news CDNs
+        # sometimes 404 datacenter IPs. Re-check those after a pause before calling them broken.
+        retry = [u for u, st in results.items() if is_broken(st)]
+        for wait in RETRY_WAITS:
+            if not retry:
+                break
+            print(f"Re-checking {len(retry)} link(s) in {wait}s…", flush=True)
+            time.sleep(wait)
+            results.update(pool.map(probe, retry))
+            retry = [u for u in retry if is_broken(results[u])]
+    broken, blocked = [], []
+    for url, status in results.items():
+        if is_broken(status):
+            broken.append(f"{status}: {url} — used by {', '.join(urls[url])}")
+        elif isinstance(status, int) and status >= 400:
+            blocked.append(f"{status}: {url}")
     return broken, blocked, len(urls)
 
 
