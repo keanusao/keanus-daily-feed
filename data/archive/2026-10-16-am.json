@@ -1,0 +1,1315 @@
+{
+  "updatedAt": "2026-10-16T13:21:58Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **a CoreWeave debt scare** hit AI and chip stocks this week, and 20 big names lost more than $1 trillion, though the Dow still rose 1.08% to 52,177.69 on Thursday (CNBC, Bloomberg). September inflation came in at **3.7%, with gasoline up 9.1% in a month**, and traders now see roughly even odds of another Fed hike on Oct. 28 (CNBC, Axios, Fox Business). Trump says he won't use nukes or ground troops in Iran, while CNN reports plans that include the MOAB (CNBC, CNN, Fox News). A Fox News poll has his approval at **a record-low 36%**, and Democrats lead the House ballot 54% to 45% (Fox News, CNN, NPR). Trump also said Ukraine needs a new president, and senators want him to cancel the Russian diesel deal (Fox News, ITV). Ukraine resumed refinery strikes as Russia launched more than 850 drones (NPR, NBC News). Closer to home, **California state workers plan a strike Oct. 21** (CalMatters, KQED), and ex-Oakland mayor Sheng Thao's bribery trial heard its first witness (SF Chronicle, KQED). In tech, **OpenAI says LLMs helped design its Jalape\u00f1o chip** in under 20 months (IEEE Spectrum), and Google's Gemini 4 Argon is out to cyber partners first (CNBC, TechCrunch). NASA says Artemis II's heat shield did far better than Artemis I's (NASA, Space.com). Tesla reports Oct. 21 after the close.",
+  "alerts": [
+    {
+      "text": "SEIU Local 1000 plans a one-day state worker strike on Oct. 21, so expect possible DMV and EDD delays.",
+      "level": "watch",
+      "story": "seiustrike"
+    },
+    {
+      "text": "Tesla reports earnings Oct. 21 after the close, with AI-stock nerves running high.",
+      "level": "watch",
+      "story": "coreweave"
+    },
+    {
+      "text": "Fed meets Oct. 27-28, and traders now price about even odds of a hike after hot CPI.",
+      "level": "info",
+      "story": "fedhike"
+    },
+    {
+      "text": "Diesel is $6.30 a gallon and the Trump-Russia fuel deal faces bipartisan pushback.",
+      "level": "info",
+      "story": "dieseltrump"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "coreweave",
+      "text": "CoreWeave's debt scare drags chip stocks; 20 AI names lose over $1 trillion this week."
+    },
+    {
+      "story": "cpi",
+      "text": "September inflation hits 3.7% as gasoline jumps 9.1% in a month."
+    },
+    {
+      "story": "iranpause",
+      "text": "Trump rules out nukes and ground troops as MOAB plans surface."
+    },
+    {
+      "story": "midtermsfox",
+      "text": "Fox poll has Trump at a record-low 36%; Senate is a coin flip."
+    },
+    {
+      "story": "jalapeno",
+      "text": "OpenAI says LLMs helped design its Jalape\u00f1o chip in under 20 months."
+    }
+  ],
+  "stat": {
+    "label": "Trump approval, Fox News poll",
+    "value": "36%",
+    "note": "Lowest in any Fox News poll across both terms (Fox News)"
+  },
+  "markets": {
+    "asOf": "Fri Oct 16, 8:34 AM ET",
+    "wrap": "The week belonged to AI credit worries. **CoreWeave's debt stress** pushed its swaps to distress levels and dragged Nvidia, AMD and Dell, with 20 large AI and chip stocks down more than $1 trillion and the semiconductor ETF off 7.4% for the week (CNBC, Bloomberg). Money rotated into the rest of the market, lifting the Dow 1.08% to 52,177.69 on the latest quotes. Bank earnings were mixed, with JPMorgan missing, Goldman beating, and Bank of America down about 4% premarket on a $1.2 billion Treasury penalty (CNBC). **Hot CPI** keeps rate-hike odds alive, and the 10-year yield sits at 5.11% (CNBC, Axios).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,744.06",
+        "raw": 7744.06,
+        "change": "+0.33%",
+        "dir": "up",
+        "time": 1792096433,
+        "spark": [
+          7551.81,
+          7637.76,
+          7650.5,
+          7764.7,
+          7764.64,
+          7706.03,
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,177.69",
+        "raw": 52177.69,
+        "change": "+1.08%",
+        "dir": "up",
+        "time": 1792096445,
+        "spark": [
+          51461.9,
+          51778.04,
+          51682.64,
+          52048.83,
+          51863.69,
+          51511.59,
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,713.03",
+        "raw": 26713.025,
+        "change": "+0.08%",
+        "dir": "up",
+        "time": 1792098959,
+        "spark": [
+          25978.43,
+          26418.3,
+          26522.54,
+          27122.09,
+          27244.28,
+          26936.04,
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.11%",
+        "raw": 5.106,
+        "change": "+0.33%",
+        "dir": "up",
+        "time": 1792153785,
+        "spark": [
+          5.01,
+          4.95,
+          5.0,
+          4.96,
+          4.97,
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.11
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$95.65",
+        "raw": 95.65,
+        "change": "-0.88%",
+        "dir": "down",
+        "time": 1792154090,
+        "spark": [
+          102.43,
+          101.91,
+          100.3,
+          95.78,
+          94.59,
+          92.16,
+          94.61,
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          95.63
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$82,157",
+        "raw": 82156.93,
+        "change": "+0.03%",
+        "dir": "up",
+        "time": 1792154688,
+        "spark": [
+          76150.32,
+          76403.77,
+          80901.46,
+          81233.68,
+          81142.61,
+          86602.91,
+          86172.28,
+          84383.01,
+          84379.06,
+          84034.92,
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          82156.93
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$217.23",
+        "raw": 217.23,
+        "change": "-1.84%",
+        "dir": "down",
+        "time": 1792094400,
+        "spark": [
+          213.9,
+          219.34,
+          222.27,
+          227.38,
+          228.87,
+          225.51,
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$342.00",
+        "raw": 342.0,
+        "change": "-0.28%",
+        "dir": "down",
+        "time": 1792094401,
+        "spark": [
+          332.41,
+          337.0,
+          336.13,
+          338.98,
+          339.75,
+          337.02,
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$539.44",
+        "raw": 539.44,
+        "change": "+1.08%",
+        "dir": "up",
+        "time": 1792094401,
+        "spark": [
+          490.3,
+          497.75,
+          493.78,
+          501.61,
+          498.0,
+          500.59,
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$349.22",
+        "raw": 349.22,
+        "change": "+0.45%",
+        "dir": "up",
+        "time": 1792094401,
+        "spark": [
+          342.87,
+          347.33,
+          349.54,
+          354.97,
+          351.16,
+          337.83,
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$362.44",
+        "raw": 362.44,
+        "change": "-1.29%",
+        "dir": "down",
+        "time": 1792094400,
+        "spark": [
+          358.08,
+          366.2,
+          364.27,
+          375.3,
+          378.9,
+          380.12,
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$254.76",
+        "raw": 254.76,
+        "change": "+0.27%",
+        "dir": "up",
+        "time": 1792094401,
+        "spark": [
+          245.96,
+          251.19,
+          253.71,
+          258.45,
+          254.98,
+          249.27,
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "TSLA",
+      "date": "2026-10-21",
+      "when": "after close"
+    },
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": ""
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 59.6,
+      "feels": 55.4,
+      "hum": 43,
+      "wind": 2.9,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-10-15",
+        "hi": 87,
+        "lo": 48,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-16",
+        "hi": 88,
+        "lo": 55,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-17",
+        "hi": 89,
+        "lo": 54,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-18",
+        "hi": 74,
+        "lo": 57,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-19",
+        "hi": 66,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 3
+      },
+      {
+        "date": "2026-10-20",
+        "hi": 69,
+        "lo": 57,
+        "cond": "cloudy",
+        "pop": 28
+      },
+      {
+        "date": "2026-10-21",
+        "hi": 70,
+        "lo": 59,
+        "cond": "drizzle",
+        "pop": 28
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "midtermsfox",
+      "section": "politics",
+      "motif": "ballot",
+      "when": "Polls tighten",
+      "title": "Fox poll puts Trump at a record-low 36% as Democrats lead the generic ballot",
+      "summary": "Trump's approval hit 36% in a Fox News poll, and Senate control now looks like a coin flip with 18 days to go.",
+      "story": [
+        "Fox News reported on Oct. 14 that Trump's job approval stands at 36%, his lowest in any Fox News poll across both terms. Among Republicans it is 76%. The same poll has Democrats ahead on the House ballot, 54% to 45%. Fox's own power rankings call Senate control a coin flip, with Alaska, Iowa, Maine and Ohio as the toss-ups.",
+        "Republicans hold the Senate 53-47, so Democrats need a net gain of four seats. CNN polls show Ohio, where Democrat Sherrod Brown leads Sen. Jon Husted by 6 points among likely voters, and Iowa, where Republican Ashley Hinson leads Democrat Josh Turek 45% to 43%, both in play. NPR's poll average puts Trump at 37%, tied for the lowest pre-midterm approval in half a century.",
+        "Republicans see paths to defy history. Fox lists new GOP-drawn districts worth about a dozen seats in Florida and Texas, mostly in the House, and says Republican groups have outspent Democratic counterparts by more than $83 million in ten key Senate races since early September. National Review says the Senate is breaking closer. The Washington Examiner's columnists describe a reckoning in the polls.",
+        "Voters in the Fox survey rank corruption (60% extremely concerned), inflation (58%) and gas prices (50%) as top worries, and the Democratic Party's own favorability is also underwater. Election day is Nov. 3."
+      ],
+      "facts": [
+        "Trump's approval is 36% in the Fox News poll, a record low for that pollster.",
+        "Democrats lead the House ballot 54% to 45% in the same poll.",
+        "Republicans hold the Senate 53-47; Democrats need four net seats.",
+        "CNN polls show Brown up 6 in Ohio and Hinson up 2 in Iowa.",
+        "Election day is Nov. 3."
+      ],
+      "next": "Early voting and the final round of Senate polls before Nov. 3.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/fox-news-poll-cost-living-concerns-weigh-gop-midterms"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/2026/10/the-senate-is-breaking-closer/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/opinion/columnists/4737394/republican-2026-elections-reckoning-polls/"
+        ]
+      ],
+      "thread": "midterms-2026",
+      "left": "Democrats read the numbers as a verdict on cost of living. Gas is up 34% in a year and diesel is above $6, and voters tie that to a war the president chose. They argue the map is widening because Republicans in Ohio and Iowa are now defending seats Trump won by double digits, and that GOP spending cuts in battlegrounds show donors agree.",
+      "right": "Conservatives say midterms punish the party in power and that polls have underrated Republicans before. They point to a roughly $83 million spending edge, friendlier district lines in Florida and Texas, and unfavorable Democratic ratings. They argue a coin-flip Senate is a long way from a wave, and that falling energy prices after the Iran war ends could still move undecided voters."
+    },
+    {
+      "id": "dieseltrump",
+      "section": "politics",
+      "motif": "barrel",
+      "when": "Diesel deal",
+      "title": "Trump says Ukraine needs a 'new president' as senators push him to scrap the Russian diesel deal",
+      "summary": "Trump blamed Zelenskyy for U.S. diesel prices while a bipartisan Senate group urged him to cancel the Russian fuel arrangement.",
+      "story": [
+        "Fox News and ITV reported that Trump said on Oct. 10 that it is time for Ukraine to get a new president. He suggested Volodymyr Zelenskyy has not done enough to end the war and blamed him for high U.S. diesel prices. The remarks followed Zelenskyy's criticism of a U.S.-Russia diesel deal, which he called a weak decision by strong partners.",
+        "Under the arrangement, reported by ITV, Russia would supply more than 300,000 tons of diesel immediately and 500,000 tons more in November. Reporting notes it conflicts with a sweeping Russia sanctions law Trump signed last month. Fox News says a bipartisan group of senators has urged him to scrap the deal, and CNN reports Zelenskyy said Ukraine was done with the truce.",
+        "A former NATO commander told Fox News the deal could fuel Putin's war. Reporting also says Trump sought to blame record diesel prices on Ukraine instead of the U.S.-led war in Iran, which has lifted world energy prices. AAA puts diesel at $6.30 a gallon, about 68% above its pre-war level, according to CNBC.",
+        "The deal is a political bind for Trump with 18 days until the midterms. Cheaper fuel helps at the pump, but critics in both parties call it a gift to Moscow."
+      ],
+      "facts": [
+        "Trump said Oct. 10 that Ukraine should get a new president.",
+        "The deal covers more than 300,000 tons of Russian diesel now and 500,000 tons in November.",
+        "AAA puts diesel at $6.30 a gallon, about 68% above its pre-war level (CNBC).",
+        "A bipartisan Senate group has urged Trump to scrap the deal (Fox News).",
+        "The deal conflicts with a Russia sanctions law signed last month, per reporting."
+      ],
+      "next": "Whether Rep. Fitzpatrick's discharge petition gathers signatures, and whether the November tranche goes ahead.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president"
+        ],
+        [
+          "Fox News (ex-NATO commander)",
+          "R",
+          "https://www.foxnews.com/world/trump-russia-deal-could-fuel-putins-war-ex-nato-commander-warns-zelenskyy-says-nyet"
+        ],
+        [
+          "ITV News",
+          "C",
+          "https://www.itv.com/news/2026-10-10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/europe/zelensky-trump-russia-fuel-deal-latam-intl"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        ]
+      ],
+      "thread": "russia-diesel",
+      "left": "Democrats say the deal rewards Russia while it bombs Ukraine, and that lifting sanctions to cut a pump price shows the administration has no plan for energy costs caused by its own war. They note Congress passed the sanctions law with bipartisan votes and that the president is undercutting it. Telling an ally to replace its elected leader, they add, is a gift to Putin.",
+      "right": "Administration allies say lower fuel costs help American families now and that Europe still buys Russian energy. Fox's own coverage shows some conservatives disagree: hawks and a former NATO commander warn it funds the war. Defenders argue Zelenskyy is pressing for escalation against refineries that affects global fuel prices, and that a president can reasonably weigh U.S. consumer costs first."
+    },
+    {
+      "id": "iranpause",
+      "section": "politics",
+      "motif": "swords",
+      "when": "Iran strike plans",
+      "title": "Trump rules out nukes and ground troops for Iran as the Pentagon looks at a 'mother of all bombs'",
+      "summary": "Trump said he won't use nuclear weapons or send troops to Iran, while reports describe plans using the MOAB against nuclear and energy sites.",
+      "story": [
+        "Trump said in an Oct. 15 Newsmax interview that he will not use nuclear weapons against Iran and does not see putting troops on the ground, CNBC reported. He did not confirm or deny CNN's report that military plans call for the 'mother of all bombs,' a large non-nuclear weapon, against Iranian energy infrastructure and nuclear sites, including Pickaxe Mountain.",
+        "CNN's sources doubt the MOAB can penetrate deep enough to destroy the suspected facility at Pickaxe. CNN also reports many officials and outside analysts believe only a major ground operation could decisively defeat Iran, though no one in the administration is arguing for it. Fox News's live coverage says Trump has vowed not to carry out more strikes before the Nov. 3 election.",
+        "Hawkish commentary has been critical. Washington Examiner op-eds argue that repeated threats and canceled strikes cost credibility, while others there say his unpredictability creates leverage and has produced the first movement on Hormuz access in months.",
+        "CNN notes the plans could allow strikes, a declaration of victory and a quick exit. Oil sits near $96 a barrel, per live.json, so any resumption would hit prices Americans already feel."
+      ],
+      "facts": [
+        "Trump said Oct. 15 that he will not use nuclear weapons against Iran (CNBC).",
+        "He said he does not see sending ground troops (CNBC).",
+        "CNN reports plans that include the MOAB against nuclear and energy sites.",
+        "CNN's sources doubt the MOAB can reach deep sites like Pickaxe Mountain.",
+        "Trump said Oct. 8 he would not order strikes before Nov. 3, per CNN."
+      ],
+      "next": "Whether the pre-election pause holds through Nov. 3, and Trump's decision on the Houthis.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/15/politics/us-considering-mother-of-all-bombs-iran"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://foxnews.com/live-news/iran-war-trump-strait-hormuz-oil-prices-midterms-october-16"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/op-eds/4683590/trump-iran-policy-empty-threats-hormuz/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/op-eds/4690756/trump-strait-of-hormuz-iran-diplomacy-oman-threat/"
+        ]
+      ],
+      "thread": "iran-war",
+      "left": "Critics say the war was never authorized by a clear public case, and that talk of the biggest conventional bomb while promising a pause until after the election is political timing. They point to $6.30 diesel and 3.7% inflation as the cost, and argue Congress should vote on any expansion rather than learn it from leaked plans.",
+      "right": "Hawks say pressure works and that Trump has kept ground troops and nukes off the table while holding the option of force. Others on the right worry the pause and canceled strikes signal weakness to Tehran, and want a decisive campaign against the nuclear sites. Both camps agree Iran must not get a weapon, and differ on how fast to act."
+    },
+    {
+      "id": "seiustrike",
+      "section": "local",
+      "motif": "scales",
+      "when": "Strike Oct. 21",
+      "title": "California's largest state worker union still plans a one-day strike Oct. 21",
+      "summary": "SEIU Local 1000 members voted 96% to strike over pay, health costs and Newsom's four-day office mandate; the state offers mediation.",
+      "story": [
+        "CalMatters and KQED report that SEIU Local 1000, California's largest state worker union, has set a one-day statewide strike for Oct. 21. The union says 96% of members who voted backed it. The union wants higher pay, more affordable health coverage and more remote work, and says the state can afford it, citing a $20 billion rise in general fund spending over two years.",
+        "In late September the Public Employment Relations Board sided with the union, finding that CalHR refused to meet and confer in good faith. The state says it is open to talks and prepared to move to mediation. A central dispute is Gov. Newsom's four-day office requirement, and he vetoed a bill that would have let departments set their own telework rules.",
+        "The union's president warned that services at the DMV and at unemployment and disability insurance offices could be delayed. CalMatters notes an authorization vote does not guarantee a strike; the union came close to striking in 2016 before a last-minute deal.",
+        "Newsom is in his final months in office, and the union's president said administrations change but its demands do not. We found no report of a deal as of today."
+      ],
+      "facts": [
+        "Strike date is Oct. 21, 2026.",
+        "96% of voting members authorized it (union figure).",
+        "PERB found CalHR refused to bargain in good faith in late September.",
+        "Key dispute: Newsom's four-day return-to-office mandate.",
+        "The state says it is ready for mediation."
+      ],
+      "next": "Mediation news before Oct. 21, and any service warnings from DMV and EDD.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/seiu-local-1000-strike-authorization/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12103583/californias-largest-public-sector-union-set-to-strike-later-this-month"
+        ]
+      ],
+      "blindspot": "Found only left-leaning and center coverage; no right-leaning outlet covering this.",
+      "left": "Labor advocates say state workers have gone without raises that match inflation, that health premiums are eating pay, and that a labor board has already found the state bargained in bad faith. They see the return-to-office order as a cost shifted onto workers, in a state that also claims climate and commuting goals.",
+      "right": "Fiscal conservatives say California is running pressure on its budget and that public-sector pay, pensions and benefits already crowd out other spending. They note state workers have job security private workers lack, and see the telework fight as a reasonable management call. Service delays at the DMV, they argue, fall on the public."
+    },
+    {
+      "id": "thaotrial",
+      "section": "local",
+      "motif": "gavel",
+      "when": "Oakland trial",
+      "title": "First witness testifies in the federal bribery trial of ex-Oakland mayor Sheng Thao",
+      "summary": "Thao's former chief of staff testified for about five hours as the prosecution opened its case in federal court.",
+      "story": [
+        "The San Francisco Chronicle and KQED report that Leigh Hanson, Sheng Thao's friend and former chief of staff, was the first prosecution witness in the federal corruption trial in Oakland, testifying on Thursday, Oct. 15 for roughly five hours. Thao and three co-defendants pleaded not guilty to fraud and bribery charges.",
+        "Hanson said a journalist had contacted Thao's team about alleged misconduct on a 2023 Vietnam trip, and that Thao was incredibly upset, especially at Andy Duong, who attended the trip. On cross-examination, defense lawyers sought to show Thao showed no preference for the modular-housing firm Evolutionary Homes. Hanson said Thao met at least five companies offering modular housing.",
+        "Prosecutors are expected to rely on Mario Juarez, a co-owner of Evolutionary Homes who pleaded guilty to bribery. The defense argues the government's case rests on Juarez's account, which they say he fabricated in retaliation. Thao's lawyer says she repeatedly rebuked his requests and knew of no bribery scheme.",
+        "The Chronicle reports prosecutors released a list of 68 witnesses who could testify, so the trial is likely to run for some time."
+      ],
+      "facts": [
+        "Hanson was the first prosecution witness, on Oct. 15.",
+        "Four defendants, including Thao, pleaded not guilty.",
+        "Mario Juarez pleaded guilty and is expected to testify.",
+        "Defense says Juarez fabricated his account.",
+        "The government listed 68 possible witnesses."
+      ],
+      "next": "More prosecution witnesses, likely including Juarez.",
+      "src": [
+        [
+          "San Francisco Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/sheng-thao-oakland-trial-duongs-live-updates-22476449.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12104365/politics-as-profit-or-pure-fiction-bribery-trial-of-ex-oakland-mayor-kicks-off"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12104531/former-thao-staffer-says-office-was-asked-about-alleged-child-sex-trafficking-on-vietnam-trip"
+        ]
+      ],
+      "blindspot": "Covered by center-left Bay Area outlets; no right-leaning coverage found.",
+      "left": "Progressives see the trial as a test of whether pay-to-play can be prosecuted at the local level, and want it to restore trust in Oakland's reform-minded leadership. Many caution that a mayor is presumed innocent, and that the case leans on a cooperating witness who took a plea deal.",
+      "right": "Conservatives point to Oakland as a case study in one-party city government, with years of scandal and little accountability, and say the facts should be judged in court. They stress that Juarez has a reason to cooperate and that jurors should weigh his credibility carefully."
+    },
+    {
+      "id": "ukrainenato",
+      "section": "world",
+      "motif": "ship",
+      "when": "Refinery strikes",
+      "title": "Ukraine resumes refinery strikes as Russia launches 850 drones and NATO warns Moscow",
+      "summary": "After the energy truce collapsed, Ukraine hit a refinery in Ryazan and Russia launched more than 850 drones overnight.",
+      "story": [
+        "NPR and NBC News report that Ukraine resumed strikes on Russian oil refineries on Oct. 15 after a brief truce that Moscow spurned. Drones hit a refinery in Russia's Ryazan region. Zelenskyy said between midnight and Thursday morning Russia launched more than 850 drones at Ukraine, and three people were killed in Kirovohrad region.",
+        "Kyiv also says it was denied usual Western intelligence on Russian ballistic missile strikes and that limits were placed on its use of Starlink terminals. Trump has said the U.S. has not stopped sharing intelligence, according to CNN and NBC News. Zelenskyy said Ukraine was done with the truce after Trump announced that Putin had agreed to supply diesel to markets.",
+        "On the NATO side, Gen. Alexus Grynkewich laid out a 'block, blunt and break' approach at the Warsaw Security Forum, saying the response could extend to enabling infrastructure, Fox News reported. Putin warned on Oct. 1 that Russia could use all weapons to protect Kaliningrad, and NATO denounced the nuclear rhetoric (CNN, NBC).",
+        "Germany's foreign intelligence chief warned Moscow is stepping up a shadow war against European democracies."
+      ],
+      "facts": [
+        "Ukraine hit a refinery in Russia's Ryazan region Oct. 15.",
+        "Russia launched more than 850 drones overnight, per Zelenskyy.",
+        "Kyiv says Starlink limits and reduced intelligence sharing hurt it.",
+        "Trump says the U.S. has not stopped sharing intelligence.",
+        "Putin warned on Oct. 1 of 'all weapons' to defend Kaliningrad."
+      ],
+      "next": "Whether Washington restores intelligence sharing and Starlink access, and the next diesel tranche in November.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/ukraine/ukraine-resumes-strikes-russian-oil-refineries-trump-starlink-intel-rcna603648"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/europe/zelensky-trump-russia-fuel-deal-latam-intl"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/nato-warns-russia-we-break-forces-destroy-anything-everything-you-attack"
+        ]
+      ],
+      "thread": "ukraine-us-rift",
+      "left": "Progressives say Washington is pressuring the victim instead of the aggressor. Cutting off Starlink and intelligence while easing Russian fuel sales rewards Putin's drone campaign, they argue, and European allies are left to fill the gap.",
+      "right": "Conservatives split. Hawks say Ukraine's refinery strikes are effective and that the NATO commander's posture shows deterrence is the point. Others say Kyiv's strikes drive up global fuel prices and that America should push both sides toward talks, as a Fox interview with a NATO envoy suggested."
+    },
+    {
+      "id": "houthis",
+      "section": "world",
+      "motif": "globe",
+      "when": "Saudi front",
+      "title": "Trump weighs joining Saudi Arabia against the Houthis after a deadly Riyadh airport attack",
+      "summary": "Trump says he will 'make a decision' on joining Saudi strikes on the Houthis while U.S. commanders warn of added risk.",
+      "story": [
+        "CNBC, NBC News and NPR report that after a deadly attack on Riyadh's airport, Trump said the U.S. is evaluating joining Saudi Arabia's fight against the Iran-backed Houthis. He said 'We may,' 'We're gonna look at it,' and 'we'll make a decision. We move very quickly.' No decision had been announced in the reports we found, which run through about Oct. 14.",
+        "In September, Crown Prince Mohammed bin Salman urged Trump to strike the Houthis and Trump declined, according to Axios and CNN. NBC reported an order to begin strikes was canceled hours later. Some U.S. military leaders warned that striking the Houthis could add risk to forces engaged with Iran.",
+        "The Houthis are trying to choke tanker traffic through the Bab el Mandeb, as Iran has done at Hormuz. CNBC reports transits through both chokepoints have fallen sharply. NBC reports U.S. weapons and defenses are struggling to stop the attacks.",
+        "CNN calls this the wild card in Trump's effort to lower prices before the midterms: Iran gets a vote too."
+      ],
+      "facts": [
+        "Trump said the U.S. will decide whether to join Saudi strikes.",
+        "The Riyadh airport attack was deadly, per NPR and NBC.",
+        "The Houthis target tankers near Bab el Mandeb.",
+        "U.S. military leaders are reportedly divided.",
+        "Oil and diesel prices have risen with the attacks (CNBC)."
+      ],
+      "next": "Trump's decision on the Houthis and any new Red Sea attacks.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+        ]
+      ],
+      "blindspot": "Right-leaning outlets covered the broader Iran war but we found none on this specific decision.",
+      "left": "Progressives warn that joining a Saudi war would widen a conflict Congress never authorized and put U.S. forces in more danger, all to protect oil routes. They argue the Iran war is the root cause of both the shipping crisis and high prices.",
+      "right": "Hawks say Iran's proxies keep attacking an American partner and that a decisive response restores deterrence and shipping lanes, protecting prices. Restraint-minded conservatives counter that the U.S. should let regional partners lead, as officials have said is the stated aim."
+    },
+    {
+      "id": "cpi",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Hot CPI",
+      "title": "September inflation hits 3.7% as gasoline jumps 9.1% in a month",
+      "summary": "Consumer prices rose 0.6% in September, and the annual rate climbed to 3.7% from 3.4%, driven by energy.",
+      "story": [
+        "CNBC, Axios and Fox Business report that September CPI rose 0.6% from August and 3.7% from a year earlier, up from 3.4%. Both beat forecasts; a Dow Jones estimate had been 3.6%. Core CPI, which strips out food and energy, rose 2.6% from a year earlier, up from 2.4%.",
+        "Gasoline rose 9.1% in the month and made up about half the monthly gain, and it is up 34.2% over a year, Fox Business reports. Energy prices rose 5.2% in September. Airline fares are up 22.4% over the year on jet fuel. AAA puts diesel at $6.30 a gallon, about 68% above its pre-war level, per CNBC.",
+        "Axios says the Iran war is the main cause, with tariffs and AI-related demand adding pressure. It notes the administration eased tax-exempt diesel restrictions and lifted some sanctions on Russian fuel to boost supply. Fitch's Olu Sonola warned energy costs are starting to spread into broader services prices.",
+        "Axios and CNBC say the data make another Fed rate hike more likely. Producer prices rose 1.3% in September, and retail sales rose 0.8%, we reported yesterday."
+      ],
+      "facts": [
+        "CPI rose 0.6% in September and 3.7% year over year.",
+        "Core CPI rose 2.6% year over year.",
+        "Gasoline rose 9.1% in September and is up 34.2% in a year.",
+        "Energy prices rose 5.2% in the month.",
+        "Diesel averages $6.30 a gallon (AAA via CNBC)."
+      ],
+      "next": "October CPI in mid-November, and the Fed meeting Oct. 27-28.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/14/cpi-september-inflation-trump"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-september-2026"
+        ]
+      ],
+      "left": "Democrats say the number is a war tax. Energy drove most of the increase, and the administration's pledge that prices would 'come tumbling down' has not held. They also point to tariffs and say the Fed's rate hikes add pain for borrowers while they do nothing for the supply shock.",
+      "right": "Conservatives note core inflation is 2.6%, far below headline, and argue the energy spike is tied to a war that should end soon. They support the diesel and fuel supply steps as practical relief, and many urge the Fed to stay disciplined so energy costs do not become entrenched."
+    },
+    {
+      "id": "fedhike",
+      "section": "economy",
+      "motif": "chart",
+      "when": "Fed odds",
+      "title": "Traders price a roughly even chance of another Fed hike on Oct. 28",
+      "summary": "After hot CPI, futures put the chance of an Oct. 28 quarter-point hike near 44% to 54%, depending on the source.",
+      "story": [
+        "CNBC reports that after the September CPI report, estimates of an October rate hike jumped, with CME FedWatch readings from 44% to 53.7%, up from about 22% a day earlier. The Fed already raised rates on Sept. 16. Traders see better than a 95% chance of at least one hike before year-end and roughly a 40% chance of rates a half point higher.",
+        "The September meeting minutes showed Fed officials expected one more hike this year and none in 2027, CNBC reported Oct. 7. Governor Christopher Waller said higher Treasury yields are already restraining activity, which could reduce the urgency. New York Fed president John Williams said one more increase might be ahead.",
+        "CNBC notes the odds may still be suppressed by a view that the Fed will avoid hiking right before an election. Chair Kevin Warsh is holding his cards close, CNBC's Daily Open says. Live.json shows the 10-year Treasury yield at 5.11%.",
+        "Trump has pressured Warsh over rates, CNBC reported in September."
+      ],
+      "facts": [
+        "The Fed hiked on Sept. 16.",
+        "Next meeting: Oct. 27-28.",
+        "Odds of an October hike range from 44% to 54% by source (CNBC).",
+        "Odds of at least one hike by year-end exceed 95%.",
+        "The 10-year yield is 5.11%."
+      ],
+      "next": "The Fed decision on Oct. 28 and Warsh's press conference.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
+        ],
+        [
+          "CNBC (minutes)",
+          "C",
+          "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/14/inflation-warning-sign-cpi"
+        ]
+      ],
+      "left": "Progressives worry hikes will slow hiring and raise borrowing costs for households already hit by a supply shock the Fed cannot fix. They say energy, not wages, is behind inflation, and that tightening risks a recession.",
+      "right": "Conservatives favor price stability and say the Fed must not let an energy shock turn into broad inflation. Many are uneasy about the president pressuring the chair, and prefer the Fed act on data, even right before an election."
+    },
+    {
+      "id": "coreweave",
+      "section": "stocks",
+      "motif": "chip",
+      "when": "AI credit scare",
+      "title": "CoreWeave's debt scare drags chip stocks as AI names lose over $1 trillion this week",
+      "summary": "Credit stress at CoreWeave hit Nvidia, AMD and Dell, and 20 big AI and chip stocks have lost more than $1 trillion this week.",
+      "story": [
+        "CNBC reports CoreWeave's five-year credit default swap spread topped 1,140 basis points, a distress level, and swaps imply a default probability above 60% over five years. Its 9.75% bond due 2031 hit a 15.78% yield. CoreWeave carries more than $51 billion in debt and obligations. Bloomberg reports its stock wipeout exposes a divide between AI fear and greed.",
+        "Thursday, Nvidia fell 1.84%, AMD 1.5%, Intel about 2.8% and Dell 6.8%, after Dell fell roughly 11% Wednesday, CNBC reports. Twenty of the largest AI and chip stocks lost more than $1 trillion this week. The semiconductor ETF was down 7.4% week to date heading into Friday. Nvidia is CoreWeave's second-largest shareholder.",
+        "Cathie Wood told Bloomberg CoreWeave will overcome debt fears on AI demand. CNBC's read is that demand itself is not in dispute; the question is whether cash flows arrive to service the debt as borrowing costs rise.",
+        "Live.json shows Nvidia at $217.23, down 1.84%, and the Dow up 1.08% as money rotated elsewhere."
+      ],
+      "facts": [
+        "CoreWeave's 5-year CDS hit 1,140+ basis points.",
+        "Its 2031 bond yield reached 15.78%.",
+        "Nvidia fell 1.84% and Dell 6.8% Thursday.",
+        "20 large AI and chip stocks lost over $1 trillion this week (CNBC).",
+        "The semiconductor ETF is down 7.4% for the week."
+      ],
+      "next": "Friday's open, Tesla earnings Oct. 21, and CoreWeave's financing news.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-16/coreweave-stock-wipeout-exposes-divide-between-ai-fear-and-greed"
+        ],
+        [
+          "CNBC (Asia rout)",
+          "C",
+          "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
+        ],
+        [
+          "Bloomberg (Wood)",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-16/ark-s-wood-says-coreweave-will-overcome-debt-fears-on-ai-demand"
+        ]
+      ],
+      "why": "AI infrastructure is financed with debt, so rising rates and credit spreads can hit the whole chain from neoclouds to chipmakers. Your Nvidia and Dell-adjacent exposure should be read through that lens."
+    },
+    {
+      "id": "jalapeno",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "LLM chip design",
+      "title": "OpenAI says LLMs helped design its Jalape\u00f1o inference chip in under 20 months",
+      "summary": "IEEE Spectrum reports OpenAI used its own models on the front end of Jalape\u00f1o, built with Broadcom.",
+      "story": [
+        "IEEE Spectrum reports OpenAI and Broadcom's Jalape\u00f1o inference chip went from first architecture concept to first silicon in under 20 months, with OpenAI's models used in the front end of the design flow. Broadcom handled physical design from the gates onward, per a secondary summary. The front end ran on XLS, an open-source high-level synthesis toolchain that began at Google.",
+        "On DeepSeek's multi-head latent attention kernel, performance climbed from 0.31% of the theoretical ceiling to 88.94% in roughly 40 hours, Spectrum reports. UC San Diego's Andrew Kahng called the speed likely best in class today. The project started with help from models like o3.",
+        "OpenAI's benchmarks suggest up to 3.6x lower end-to-end latency than Nvidia's GB300, but Spectrum notes whether that holds in production remains to be seen, and final performance measurements were still under way.",
+        "The Decoder and BetaNews also covered the announcement."
+      ],
+      "facts": [
+        "Concept to first silicon took under 20 months.",
+        "OpenAI's work focused on the front end; Broadcom did physical design.",
+        "A kernel went from 0.31% to 88.94% of the ceiling in about 40 hours.",
+        "OpenAI claims up to 3.6x lower latency than Nvidia's GB300.",
+        "Production performance is not yet confirmed."
+      ],
+      "next": "Production benchmarks and whether other labs publish similar chip-design timelines.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/llms-for-chip-design"
+        ],
+        [
+          "The Decoder",
+          "C",
+          "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/"
+        ],
+        [
+          "BetaNews",
+          "C",
+          "https://betanews.com/article/openai-and-broadcom-unveil-jalapeno-inference-chip-for-llms"
+        ]
+      ],
+      "why": "If LLMs can cut chip schedules this much, custom silicon becomes viable for more labs, which pressures Nvidia's pricing and shifts where AI profits land. The latency claim is the number to check."
+    },
+    {
+      "id": "rfchip",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "AI-made RF chips",
+      "title": "Princeton researchers use AI to design radio chips that look like QR codes and beat human layouts",
+      "summary": "IEEE Spectrum describes AI-generated millimeter-wave circuits that matched or beat expert designs in fabricated prototypes.",
+      "story": [
+        "IEEE Spectrum reports that Princeton researchers used machine learning to design radio-frequency integrated circuits. RF design has been a hand-tuned craft learned over years, unlike digital chips, whose flow is largely standardized. Engineers specify targets such as frequency, bandwidth, gain or efficiency, and the AI generates the layout.",
+        "Coverage of the work says the team used reinforcement learning, inverse design and diffusion models. The fabricated millimeter-wave prototypes matched or in some cases outperformed designs from experienced engineers, per secondary coverage. Some layouts look arbitrary, with one amplifier resembling a QR code more than a symmetric circuit.",
+        "The article argues future progress needs large shared chip-design datasets and open ecosystems.",
+        "We saw only excerpts of the Spectrum piece and secondary coverage."
+      ],
+      "facts": [
+        "Princeton researchers led the work.",
+        "Methods included reinforcement learning, inverse design and diffusion models.",
+        "Prototypes were fabricated millimeter-wave circuits.",
+        "Some layouts look like QR codes.",
+        "Progress needs shared datasets."
+      ],
+      "next": "Whether a peer-reviewed benchmark against human designs follows.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/ai-radio-chip-design"
+        ],
+        [
+          "Boing Boing",
+          "C",
+          "https://boingboing.net/?p=1114970"
+        ],
+        [
+          "Electronics For You",
+          "C",
+          "https://www.electronicsforu.com/news/ai-simplifies-rf-chip-design"
+        ]
+      ],
+      "flag": "We saw only excerpts of the IEEE Spectrum article, and some performance claims come from secondary coverage.",
+      "why": "RF design has resisted automation. If AI can do it, 5G, radar and satellite chips could be designed faster, and the layouts may be harder for humans to audit."
+    },
+    {
+      "id": "heatshield",
+      "section": "science",
+      "motif": "rocket",
+      "when": "Artemis II",
+      "title": "NASA says Artemis II's heat shield held up far better than Artemis I's",
+      "summary": "A post-flight analysis found the Orion heat shield lost much less char than on the 2022 test flight, thanks to a changed reentry path.",
+      "story": [
+        "NASA's analysis, covered by Space.com and SpacePolicyOnline, says the Artemis II heat shield showed far less char loss than Artemis I's, where larger-than-expected pieces broke off. NASA credits a modified reentry angle that reduced the duration of peak thermal stress. NASA's post puts the count at nine char-loss spots versus 103 on Artemis I.",
+        "Commander Reid Wiseman reported only minor damage, a little char loss at the shoulder where the shield meets the capsule structure. The shield went to Marshall Space Flight Center for sample extraction and an internal X-ray scan.",
+        "The Artemis I result had delayed Artemis II over safety concerns, so this clears a main risk before Artemis III, which NASA lists for 2027 as a crewed lunar-landing demonstration. NASA says booster stacking for Artemis III is complete.",
+        "Independent confirmation of the final analysis will come from the Marshall teardown."
+      ],
+      "facts": [
+        "Artemis II char loss was far lower than Artemis I's.",
+        "NASA counts nine spots versus 103.",
+        "A modified reentry angle cut peak thermal stress time.",
+        "Wiseman reported minor shoulder char loss.",
+        "NASA lists Artemis III for 2027."
+      ],
+      "next": "Marshall's X-ray and sample results, and Artemis III schedule updates.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://space.com/space-exploration/artemis/artemis-2s-heat-shield-seems-to-have-aced-its-trial-by-fire"
+        ],
+        [
+          "SpacePolicyOnline",
+          "C",
+          "https://spacepolicyonline.com/news/nasa-identifies-root-cause-of-orion-heat-shield-char-loss/"
+        ]
+      ],
+      "why": "A reliable heat shield is the gating safety item for returning crews from the Moon. Fixing it with a flight-path change, not new hardware, keeps Artemis III on schedule."
+    },
+    {
+      "id": "phosphorus",
+      "section": "science",
+      "motif": "flask",
+      "when": "Early Earth",
+      "title": "Study: an ancient phosphorus cycle helped Earth keep its oxygen",
+      "summary": "Bristol-led researchers say a self-sustaining phosphorus cycle kept early oceans producing oxygen, a clue for finding life elsewhere.",
+      "story": [
+        "A Nature Communications study led by Lewis Alcott of the University of Bristol, with Andrey Bekker of UC Riverside, found a self-sustaining phosphorus cycle in ancient oceans that helped keep oxygen high after it first rose, Space.com reports. The team studied rocks from South Africa.",
+        "The method is new. Earlier work could measure total phosphorus in rocks but not how much was usable by life. The team separated phosphorus by mineral type and dissolved each mineral separately to test whether organisms could access it.",
+        "The results suggest oxygen fluctuated more after the Great Oxidation Event than scientists thought. The authors argue this could help identify similar conditions on ocean worlds elsewhere. A 2022 Leeds study of 2.6-billion-year-old South African rocks had described a similar recycling process.",
+        "ScienceDaily and Universe Today also covered the work."
+      ],
+      "facts": [
+        "The study appeared in Nature Communications.",
+        "Lead author: Lewis Alcott, University of Bristol.",
+        "The team used rocks from South Africa.",
+        "They measured bioavailable phosphorus by mineral type.",
+        "Oxygen fluctuated more after the Great Oxidation Event than assumed."
+      ],
+      "next": "Whether telescopes can look for phosphorus-related signatures on exoplanets.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/search-for-life/ocean-chemistry-on-ancient-earth-could-help-scientists-search-for-life-on-alien-worlds"
+        ],
+        [
+          "ScienceDaily",
+          "C",
+          "https://sciencedaily.com/releases/2026/10/261011211602.htm"
+        ],
+        [
+          "Universe Today",
+          "C",
+          "https://www.universetoday.com/articles/phosphorus-prepared-earth-for-complex-life-and-could-be-a-valuable-biosignature"
+        ]
+      ],
+      "why": "It explains how a planet can hold oxygen over geologic time, which is what astrobiologists want to infer from distant atmospheres."
+    },
+    {
+      "id": "argon",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Gemini 4",
+      "title": "Google's Gemini 4 Argon launches to cyber partners with mixed independent rankings",
+      "summary": "Google says Gemini 4 Argon sets records on software engineering, but an independent index puts it behind Claude Opus 5.5 and Sonnet 5.5.",
+      "story": [
+        "CNBC, Axios and TechCrunch report that Google released Gemini 4 Argon on Sept. 30, rolling it out first to a small group of cyber partners through its Fairwind Program. There is no public release date. Google is taking part in a voluntary U.S. government safety-testing process.",
+        "Google says Argon sets a record in real-world software engineering and leads a benchmark for finance, legal and other professional tasks. It ties OpenAI's GPT-6 Astra and Grok 4.7 on cyber benchmarks, per reporting. The Artificial Analysis Intelligence Index places Gemini 4 behind only Claude Opus 5.5 and Sonnet 5.5, CNBC reports.",
+        "Bloomberg reported some Google employees questioned its real-world coding performance despite strong benchmarks. Google disputes that.",
+        "Most benchmark figures come from Google's own announcement and are unverified."
+      ],
+      "facts": [
+        "Argon launched Sept. 30 to cyber partners first.",
+        "No public release date.",
+        "Google claims software-engineering records.",
+        "Artificial Analysis ranks it behind Claude Opus 5.5 and Sonnet 5.5.",
+        "Google joined a voluntary U.S. safety-testing process."
+      ],
+      "next": "A public release date and independent coding evaluations.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/09/30/google-gemini-4"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        ],
+        [
+          "CNBC (Tech Download)",
+          "C",
+          "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html"
+        ]
+      ],
+      "flag": "Benchmark figures come mainly from Google and have not been independently verified.",
+      "why": "Frontier rankings drive enterprise contracts. A staged cyber-first release signals labs now treat capability as a security question."
+    },
+    {
+      "id": "geminiagent",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Work agent",
+      "title": "Google's Gemini agent for work lets customers pick Anthropic's Claude models",
+      "summary": "Google Cloud launched a workplace agent that plans and executes tasks across work apps and offers third-party models, starting with Claude.",
+      "story": [
+        "Bloomberg, TechCrunch and CNBC report that on Oct. 8 Google launched a universal Gemini agent for businesses that acts like a colleague: it plans and carries out tasks across work apps and returns finished work in documents, email and developer environments.",
+        "The agent picks the best model by default, but users can choose third-party models, starting with Anthropic's Claude models. That puts Anthropic inside a Google product. CNBC notes Google agreed in April to invest up to $40 billion in Anthropic, with $10 billion up front and the rest tied to milestones.",
+        "CNBC frames it as part of the race with OpenAI and Anthropic over enterprise agents, with Wall Street shifting its focus to personal agents.",
+        "Pricing and availability details were not in the summaries we saw."
+      ],
+      "facts": [
+        "Launched Oct. 8 for businesses.",
+        "Works across work apps and returns finished documents.",
+        "Users can choose third-party models, starting with Claude.",
+        "Google agreed to invest up to $40 billion in Anthropic (CNBC, April).",
+        "Enterprise agents are the new battleground."
+      ],
+      "next": "Customer uptake and whether OpenAI models are added.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/08/google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up.html"
+        ]
+      ],
+      "why": "Distribution is becoming the moat. A Google agent that routes to Claude shows model makers are partners and rivals at once."
+    },
+    {
+      "id": "measles",
+      "section": "health",
+      "motif": "heart",
+      "when": "Record year",
+      "title": "U.S. measles cases pass 4,000 as Pennsylvania's outbreak tops 1,100",
+      "summary": "NPR reports more than 4,000 measles cases this year, the most in 35 years, while the CDC and Pennsylvania disagree on deaths.",
+      "story": [
+        "NPR reports more than 4,000 measles cases in the U.S. this year, the highest in 35 years. NBC News says Pennsylvania's outbreak, the largest in decades, passed 1,100 confirmed cases as of Oct. 13 and has a sixth reported death, a 39-year-old woman.",
+        "The count is disputed. NBC reports the CDC has confirmed two measles deaths this year, while Pennsylvania's health secretary and governor clashed with HHS Secretary Robert F. Kennedy Jr. over whether the deaths were caused by measles. CNN reported the decision to exclude them from the weekly update came from the CDC's new director, Dr. Erica Schwartz.",
+        "NPR's guidance: two MMR doses give about 97% protection, usually for life. During outbreaks, children as young as 6 months can get an early extra dose. People born after 1957 and vaccinated before 1968 may need an additional dose, because an early vaccine version was less effective.",
+        "National totals vary by source because CDC data lags state reports."
+      ],
+      "facts": [
+        "NPR counts more than 4,000 cases this year.",
+        "Pennsylvania has more than 1,100 cases (NBC, Oct. 13).",
+        "Six deaths reported in Pennsylvania; the CDC confirms two.",
+        "Two MMR doses give about 97% protection.",
+        "Children as young as 6 months can get an early dose in outbreaks."
+      ],
+      "next": "Updated CDC counts and whether Pennsylvania's deaths are added.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/health/health-news/measles-cases-cdc-35-year-high-2026-rcna349767"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/09/30/health/pennsylvania-measles-outbreak-cases-related-deaths"
+        ]
+      ],
+      "flag": "Case totals differ by source and date; the CDC and Pennsylvania disagree on deaths.",
+      "why": "Measles is a gauge of vaccine coverage. Disputed death counts mean official figures may understate the toll."
+    }
+  ],
+  "briefs": [
+    "Bank of America fell about 4% premarket after a $1.2 billion Treasury penalty; without it, profit would have been $1.08 a share (CNBC).",
+    "PG&E flagged possible wildfire-safety power shutoffs this week, including 386 customers in Alameda County; check pge.com for current status (PG&E).",
+    "Nature reports global conserved land is up to 27%, short of the 30%-by-2030 target (Nature).",
+    "Caltrans plans overnight lane closures on Highway 37 on Oct. 21-22 and a full closure from Oct. 23 (SF Chronicle)."
+  ]
+}
