@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-16T23:19:37Z",
-  "label": "Afternoon edition",
-  "summary": "Keanu, **the Nasdaq fell 2.14% on Friday for its worst week since June**, as AI financing worries, oil and inflation all pressed at once, and the S&P 500 lost 1.09% to 7,659.44 (CNBC, Bloomberg). CoreWeave's debt stress stayed at the center, though Deutsche Bank and Jefferies call the selloff overdone (CNBC, Bloomberg). Fed Chair Kevin Warsh gave no signal in Bangkok, and traders now favor a hold on Oct. 28 after **wholesale prices jumped 6.3%** and CPI hit 3.7% (CNBC, Axios, Fox Business). In Washington, **six Republican and six Democratic senators asked Trump to scrap** the Russian diesel deal (The Hill, Fox News, OPB), and Ukraine's refinery strikes and the Starlink limits keep widening the rift with Kyiv (NPR, NBC News, CNN). The Justice Department sued California to stop counting ballots from about 20,000 alleged noncitizens, which the state disputes (NPR, SF Chronicle, Fox News). Trump says no Iran strikes before the midterms while Brent sits near $110 and the Houthis keep hitting Saudi Arabia (CNN, Fox News, NBC News). At home, **state workers still plan a strike on Oct. 21**, and Newsom now backs Prop. 42 to cancel the billionaire tax (CalMatters, KQED). Tesla showed a Roadster with cold-gas thrusters and reports earnings Oct. 21 after the close (TechCrunch, CNBC). Anthropic told investors that **Q3 revenue hit $16.8 billion** (CNBC, Bloomberg, Axios), and Nature published the biggest blind test yet of methane-detecting satellites.",
+  "updatedAt": "2026-10-17T13:06:04Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **the Nasdaq fell 2.14% Friday, its worst week since June**, as AI debt fears, oil near $100 and hot inflation hit tech at once (CNBC, Bloomberg). CoreWeave's bond stress drove the rout, though Jefferies and Deutsche Bank call it overdone, and traders now lean toward a Fed hold on Oct. 28 (CNBC, Bloomberg). The Justice Department sued California to block counting ballots from about 20,000 alleged noncitizens, which the state says has no evidence behind it (NPR, SF Chronicle, Fox News). **Trump says no Iran strikes before the midterms** while Houthi attacks on Saudi Arabia keep crude near $99 (Fox News, CNN, NBC News). Six Republican and six Democratic senators asked Trump to scrap his Russian diesel deal (NPR, Fox News, Washington Examiner), and Ukraine's refinery strikes and the Starlink dispute keep widening the rift with Kyiv (CNN, NPR). Closer to home, **state workers plan their first strike on Wednesday, Oct. 21**, and Newsom backs Prop. 42 to cancel the billionaire tax (CalMatters, KQED). Anthropic told investors that **Q3 revenue hit $16.8 billion**, and METR gets employee-level access to audit its models (CNBC, Bloomberg, TechCrunch).",
   "alerts": [
     {
-      "text": "Warsh did not signal a hike, and traders now favor a hold at the Oct. 27-28 Fed meeting, so rate-sensitive tech may bounce or sag on that decision.",
-      "level": "watch",
-      "story": "inflationfed"
-    },
-    {
-      "text": "Tesla reports earnings Wednesday, Oct. 21 after the close, the same day state workers plan their strike.",
-      "level": "watch",
-      "story": "roadster"
-    },
-    {
-      "text": "SEIU Local 1000 plans picket lines at 7 a.m. Oct. 21 in Oakland and Sacramento, so expect possible DMV and EDD delays.",
-      "level": "watch",
+      "text": "SEIU Local 1000 plans picket lines at 7 a.m. Wednesday, Oct. 21 in Oakland and Sacramento, so expect possible DMV and EDD delays.",
+      "level": "high",
       "story": "seiustrike"
     },
     {
-      "text": "Newsom backs Prop. 42, which would cancel the billionaire tax; Prop. 40 leads narrowly in polls ahead of Nov. 3.",
+      "text": "Tesla reports earnings Wednesday, Oct. 21 after the close, and the stock fell 2.13% Friday.",
+      "level": "watch",
+      "story": "nasdaqrout"
+    },
+    {
+      "text": "DOJ is suing California to block counting ballots from about 20,000 flagged voters before the Nov. 3 election.",
+      "level": "watch",
+      "story": "dojcalifornia"
+    },
+    {
+      "text": "Newsom backs Prop. 42 to void the billionaire tax in Prop. 40; PPIC shows Prop. 40 at 52% to 46%.",
       "level": "info",
       "story": "billtax"
     }
@@ -27,33 +27,33 @@
   "highlights": [
     {
       "story": "nasdaqrout",
-      "text": "Nasdaq falls 2.14% for its worst week since June as AI financing, oil and inflation worries hit chips."
-    },
-    {
-      "story": "inflationfed",
-      "text": "Wholesale prices jump 6.3% and CPI hits 3.7%, yet Warsh's remarks cool October hike odds."
+      "text": "Nasdaq lost 2.14% Friday as CoreWeave debt stress, oil and inflation hit tech."
     },
     {
       "story": "dojcalifornia",
-      "text": "Justice Department sues California to stop counting ballots from about 20,000 alleged noncitizens; the state disputes it."
+      "text": "DOJ sues California to stop counting ballots from about 20,000 alleged noncitizens."
     },
     {
-      "story": "dieselsenate",
-      "text": "Twelve senators from both parties ask Trump to rescind the Russian diesel deal."
+      "story": "iranmidterm",
+      "text": "Trump holds Iran strikes until after midterms while Houthi attacks keep oil near $100."
+    },
+    {
+      "story": "seiustrike",
+      "text": "California state workers plan their first statewide strike on Wednesday, Oct. 21."
     },
     {
       "story": "anthropicq3",
-      "text": "Anthropic tells investors Q3 revenue hit $16.8 billion and it was adjusted-profitable."
+      "text": "Anthropic tells investors Q3 revenue hit $16.8 billion and it was adjusted profitable."
     }
   ],
   "stat": {
-    "label": "Wholesale prices, Sept. vs. year ago",
-    "value": "6.3%",
-    "note": "Biggest annual gain since 2022 (CNBC)"
+    "label": "WTI crude, Friday close",
+    "value": "$99.02",
+    "note": "Up 2.61% as Houthi attacks on Saudi Arabia continue (live data, CNN)"
   },
   "markets": {
     "asOf": "Fri Oct 16, 5:15 PM ET",
-    "wrap": "Friday was a **broad tech selloff**. The Nasdaq fell 2.14% to 26,140.03 for its worst week since June, the S&P 500 dropped 1.09% to 7,659.44, and the Dow slipped 0.34% to 52,002.41 (CNBC). Worries about Fed hikes, costly AI financing and CoreWeave's debt hit chips after Asia's rout, and WTI crude rose 2.63% to $99.04 (CNBC, Bloomberg). Warsh's refusal to signal a move kept hold odds for Oct. 28 high, while the 10-year yield sat at **5.10%** (CNBC, Bloomberg). Alphabet, Tesla, Microsoft, Amazon and Nvidia all fell, and Apple rose 0.43%.",
+    "wrap": "The Nasdaq dropped 2.14% on Friday and the S&P 500 lost 1.09%, while the Dow slipped 0.34% (CNBC, Bloomberg). **AI financing worries led the selloff**, with CoreWeave's debt and bond stress at the center and its shares down nearly 12% (CNBC, Bloomberg). Oil rose and hot wholesale inflation kept the Fed in focus, though Warsh's remarks lifted expectations of a hold on Oct. 28 (Bloomberg). Analysts at Jefferies and Deutsche Bank called the CoreWeave drop overdone (CNBC). Google and Tesla fell more than 2%, and **Apple was the only watchlist name that rose** (live data).",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -191,13 +191,12 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$99.04",
-        "raw": 99.04,
-        "change": "+2.63%",
+        "price": "$99.02",
+        "raw": 99.02,
+        "change": "+2.61%",
         "dir": "up",
         "time": 1792184398,
         "spark": [
-          102.43,
           101.91,
           100.3,
           95.78,
@@ -219,19 +218,18 @@
           94.14,
           95.09,
           97.97,
-          99.04
+          101.41
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,659",
-        "raw": 81658.85,
-        "change": "-0.58%",
+        "price": "$81,413",
+        "raw": 81412.53,
+        "change": "-0.11%",
         "dir": "down",
-        "time": 1792190067,
+        "time": 1792240655,
         "spark": [
-          76150.32,
           76403.77,
           80901.46,
           81233.68,
@@ -261,7 +259,8 @@
           83095.12,
           81562.49,
           82141.46,
-          81658.85
+          81500.8,
+          81412.53
         ]
       }
     ],
@@ -397,7 +396,7 @@
           349.22,
           340.59
         ],
-        "note": "Fell with megacap tech as AI financing and rate worries spread (CNBC)."
+        "note": "Fell with the AI-related tech selloff that hit the Nasdaq (CNBC, Bloomberg)."
       },
       {
         "symbol": "TSLA",
@@ -431,7 +430,7 @@
           362.44,
           354.72
         ],
-        "note": "Slid with tech after Thursday's Roadster reveal; reports earnings Oct. 21 (CNBC)."
+        "note": "Fell with tech on Friday; reports earnings Wed. Oct. 21 after the close (CNBC, Nasdaq calendar)."
       },
       {
         "symbol": "AMZN",
@@ -504,20 +503,13 @@
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 88.7,
-      "feels": 82.3,
-      "hum": 14,
-      "wind": 6.5,
+      "temp": 60.4,
+      "feels": 55.6,
+      "hum": 39,
+      "wind": 3.6,
       "cond": "clear"
     },
     "days": [
-      {
-        "date": "2026-10-15",
-        "hi": 87,
-        "lo": 48,
-        "cond": "clear",
-        "pop": 0
-      },
       {
         "date": "2026-10-16",
         "hi": 92,
@@ -528,220 +520,73 @@
       {
         "date": "2026-10-17",
         "hi": 89,
-        "lo": 55,
+        "lo": 60,
         "cond": "clear",
         "pop": 0
       },
       {
         "date": "2026-10-18",
         "hi": 73,
-        "lo": 55,
-        "cond": "clear",
-        "pop": 0
+        "lo": 56,
+        "cond": "partly",
+        "pop": 4
       },
       {
         "date": "2026-10-19",
-        "hi": 65,
-        "lo": 55,
+        "hi": 66,
+        "lo": 56,
         "cond": "cloudy",
-        "pop": 2
+        "pop": 6
       },
       {
         "date": "2026-10-20",
         "hi": 70,
-        "lo": 56,
+        "lo": 57,
         "cond": "cloudy",
-        "pop": 27
+        "pop": 32
       },
       {
         "date": "2026-10-21",
-        "hi": 73,
-        "lo": 56,
-        "cond": "cloudy",
-        "pop": 24
+        "hi": 69,
+        "lo": 58,
+        "cond": "drizzle",
+        "pop": 28
+      },
+      {
+        "date": "2026-10-22",
+        "hi": 70,
+        "lo": 58,
+        "cond": "drizzle",
+        "pop": 25
       }
     ]
   },
   "stories": [
     {
-      "id": "midtermsga",
-      "section": "politics",
-      "motif": "ballot",
-      "thread": "midterms-2026",
-      "when": "Georgia rally",
-      "title": "Trump rallies in Georgia as Fox News and National Review read the Senate map differently",
-      "summary": "Trump campaigned for Mike Collins in Dalton, Georgia, while Fox News polling favors Democrats and National Review sees the Senate tightening.",
-      "story": [
-        "Trump held a rally in Dalton, Georgia, on Friday, Oct. 16, for Republican Senate nominee Mike Collins and gubernatorial nominee Rick Jackson, about three weeks before the Nov. 3 election (Fox News, Washington Examiner, CNN). Fox News reported that he called Sen. Jon Ossoff \"weak, arrogant, hate filled\" and said this may be \"the most important midterm election maybe we've ever had.\" CNN reported that he compared Ossoff to Pee-wee Herman. Fox News counted it as Trump's third Georgia visit this year.",
-        "The polling picture is mixed by source. Fox News Power Rankings put Democrats ahead on the generic ballot by about 11 points among likely voters and call the Senate a toss-up. The Washington Examiner, citing RealClearPolitics averages, shows Ossoff ahead of Collins by roughly 7 to 9 points. A Fox News poll has Democrat James Talarico 2 points ahead of Republican Ken Paxton in Texas.",
-        "National Review argues the Senate is \"breaking closer.\" It reports Republican gains in Maine, Alaska and Minnesota, and more competitive races in Iowa, Ohio, Kansas and Nebraska. The Washington Examiner asks whether polls are overstating Senate Democrats again and points to Maine in 2020, when every public poll missed. In the Georgia debates, Collins blamed Biden-era policies for inflation, and Ossoff pressed Collins on Trump's tariffs (NBC News)."
-      ],
-      "flag": "Poll figures come from different pollsters and dates, so they are not directly comparable.",
-      "facts": [
-        "Trump's rally was in Dalton, Georgia, on Oct. 16.",
-        "Election Day is Nov. 3.",
-        "Fox News Power Rankings show Democrats up about 11 points on the generic ballot among likely voters.",
-        "RealClearPolitics averages cited by the Washington Examiner put Ossoff up 7 to 9 points.",
-        "A Fox News poll has Talarico up 2 points over Paxton in Texas."
-      ],
-      "left": "Democrats argue the map is moving their way because of the cost of living, tariffs and an unpopular war, and that Trump's personal attacks on Ossoff show a campaign with little to say about prices. They point to a double-digit generic-ballot lead in a Fox poll and to Republicans such as Susan Collins distancing themselves from the president. Their warning is against complacency in the final three weeks.",
-      "right": "Conservative analysts argue that polls have overstated Democrats in Senate races before, and that Republicans are gaining in states such as Maine, Alaska and Minnesota. They say Collins is landing hits on Biden-era inflation and on Ossoff's donors, and that Trump's rallies turn out base voters in a way polls miss. They treat the Senate as still very much in play.",
-      "next": "Early voting in Georgia and any new Georgia or Texas polls before Nov. 3.",
-      "src": [
-        [
-          "CNN",
-          "LL",
-          "https://cnn.com/2026/10/16/politics/live-news/midterm-election-congress"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/midterm-elections-2026-less-than-three-weeks-away-october-16"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/4769068/trump-georgia-rally-for-senate-candidate-mike-collins/"
-        ],
-        [
-          "National Review",
-          "R",
-          "https://www.nationalreview.com/2026/10/the-senate-is-breaking-closer/"
-        ],
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/politics/2026-election/georgia-senate-debate-ossoff-collins-fight-trump-biden-era-policies-rcna602279"
-        ]
-      ]
-    },
-    {
-      "id": "dieselsenate",
-      "section": "politics",
-      "motif": "capitol",
-      "thread": "russia-diesel",
-      "when": "Senate pushback",
-      "title": "Six Republican and six Democratic senators ask Trump to rescind the Russian diesel deal",
-      "summary": "A dozen senators call the deal a betrayal of allies, and the White House says it will lower prices for farmers, truckers and families.",
-      "story": [
-        "Six Republican and six Democratic senators wrote to Trump on Oct. 13 asking him to rescind his Russian diesel deal, calling it \"a gift to our adversary and a betrayal of our Allies\" (The Hill, Fox News, OPB). Signers include Republicans Thom Tillis, Mitch McConnell, Susan Collins, Lisa Murkowski and John Cornyn, and Democrats Richard Blumenthal, Jeanne Shaheen, Dick Durbin, Sheldon Whitehouse, Jack Reed and Chris Coons. Trump announced the deal with Vladimir Putin on Oct. 9. Reported volumes range from 300,000 tons up front to millions of tons later, and sources differ.",
-        "The senators say the deal gives little relief to U.S. drivers and conflicts with a Russia sanctions law Trump signed last month. A separate statement from Collins, Murkowski, Tillis and Democrats says it runs counter to a 2022 law and that the administration did not consult Congress. Diesel averaged $6.28 a gallon, according to AAA. A White House spokesperson said the deal will \"help lower prices for farmers, truckers, and families across the nation.\" The White House has not said who pays for the fuel or when it arrives.",
-        "The Hill reports that Trump picked a fight with the GOP senators, and that Iowa Senate candidate Ashley Hinson broke with him on the deal during the Iowa Senate debate. Chuck Schumer called it a \"deal with the devil.\" The Washington Examiner reported that Trump also said Ukraine should \"get a new leader who can make a deal,\" after Volodymyr Zelensky called the diesel deal \"weak.\""
-      ],
-      "flag": "Reported diesel volumes differ by outlet, and the White House has not said who pays for the fuel.",
-      "facts": [
-        "Trump announced the deal on Oct. 9.",
-        "The senators' letter is dated Oct. 13 and has six Republican and six Democratic signers.",
-        "The senators say it conflicts with a Russia sanctions law and a 2022 statute.",
-        "AAA lists the national diesel average at $6.28 a gallon.",
-        "The White House says the deal lowers prices for farmers, truckers and families."
-      ],
-      "left": "Democrats call the deal a betrayal that rewards Putin while Russia bombs Ukrainian cities, and they note that Republican senators agree. They say it undercuts the sanctions law Trump just signed and that the savings at the pump will be small. Their demand is that the administration rescind it and brief Congress.",
-      "right": "Trump's defenders say lowering fuel prices for truckers, farmers and families is a legitimate priority when diesel is above $6, and that Ukraine's refinery strikes also raise prices. Hawkish conservatives, including several GOP senators, reject that argument and say energy revenue funds Russia's war. The split is inside the Republican conference, not just between parties.",
-      "next": "Whether the White House answers the senators' letter or Congress moves to block imports.",
-      "src": [
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/senate/6146695-senate-gop-criticize-russia-diesel-deal/"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies"
-        ],
-        [
-          "OPB (NPR)",
-          "LL",
-          "https://www.opb.org/article/2026/10/14/gop-senators-join-democrats-seeking-to-stop-russia-diesel-deal/"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/senate/6144186-trump-russia-diesel-deal/"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/white-house/4762283/trump-ukraine-needs-new-leader-zelensky/"
-        ]
-      ]
-    },
-    {
-      "id": "iranmidterm",
-      "section": "politics",
-      "motif": "swords",
-      "thread": "iran-war",
-      "when": "Iran pause",
-      "title": "Trump holds Iran strikes until after the midterms as oil nears $110 and Houthis hit Saudi Arabia",
-      "summary": "Trump says no attacks on Iran before the election and rules out nuclear weapons, while Houthi strikes on Saudi targets push oil higher.",
-      "story": [
-        "Trump said on Oct. 8, \"We will not be attacking Iran at any time prior to the Midterm Elections,\" while keeping the blockade of Iranian ports in place (CNN). On Oct. 15 he ruled out nuclear weapons, said the war would end \"very quickly,\" and said oil prices would plunge afterward. He also said, \"I should have probably left the leaders because I don't know who we're negotiating with\" (Fox News). NBC News put Brent near $110 a barrel, the first time since May. WTI closed Friday at $99.04, up 2.63%.",
-        "The hot fighting has shifted to Saudi Arabia. The Saudi-led coalition said Houthi forces carried out 20 attacks on Riyadh's airport in October that killed 17 people, and the airport is closed through Oct. 17 (Fox News). Sources told Reuters a missile damaged a building at Saudi Aramco's headquarters, according to Fox News. Trump is weighing joining Saudi strikes on the Houthis, and officials say U.S. help already includes intelligence sharing, target identification and planning (NBC News, NPR).",
-        "The politics are plain. Senate Majority Leader John Thune said the Iran war \"sort of trumped everything else\" in the midterm races (Washington Examiner). The Dispatch reports that GOP candidates are stepping back from Trump and an unpopular war, and CNN reports that Sen. Susan Collins criticized the war. CENTCOM rejected Iranian claims that Tehran controls the Strait of Hormuz."
-      ],
-      "flag": "Death tolls for the Riyadh airport attacks differ by source (17 per the coalition, at least 20 per another report).",
-      "facts": [
-        "Trump said on Oct. 8 there would be no Iran attack before the midterms.",
-        "He ruled out nuclear weapons on Oct. 15.",
-        "Riyadh's airport is closed through Oct. 17 after repeated Houthi attacks.",
-        "The coalition counts 20 attacks and 17 deaths in October.",
-        "WTI closed Friday at $99.04, up 2.63%."
-      ],
-      "left": "Critics argue the pause shows the war is being run for the election calendar, and that families are paying for it through fuel prices while Trump promises relief only after Nov. 3. They say the open-ended blockade and the pull toward a Houthi fight risk a wider regional war with no congressional authorization. Democrats want a clear exit plan and a war powers vote.",
-      "right": "Supporters say holding fire while talks and the blockade work is prudent, and that the Houthis and Tehran, not Washington, are escalating against Saudi Arabia and shipping. Conservative critics inside the party say the war has become a political liability and that Trump should explain its goals more clearly. Most still back pressure on Iran and support for Riyadh.",
-      "next": "Whether Trump decides to join Saudi strikes on the Houthis, and Riyadh airport's reopening after Oct. 17.",
-      "src": [
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/us-iran-war-peace-donald-trump-strait-hormuz-oil-prices-midterms-october-15"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/10/08/politics/trump-iran-attack-election"
-        ],
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/campaigns/congressional/4745707/john-thune-iran-war-trump-midterms/"
-        ],
-        [
-          "The Dispatch",
-          "LR",
-          "https://thedispatch.com/newsletter/next-right/trump-republicans-midterms-polling-iran-war/"
-        ]
-      ]
-    },
-    {
       "id": "dojcalifornia",
       "section": "politics",
       "motif": "gavel",
-      "when": "DOJ lawsuit",
+      "thread": "midterms-2026",
+      "when": "Ballot lawsuit",
       "title": "Justice Department sues California to block counting of ballots from alleged noncitizens",
-      "summary": "DOJ says about 20,000 registered voters are likely noncitizens; California officials say the federal government has shown no evidence.",
+      "summary": "The DOJ wants a judge to stop California tabulating mail ballots from about 20,000 people it calls likely noncitizens; the state says there is no evidence.",
       "story": [
-        "The Justice Department sued California on Thursday, Oct. 15, in federal court in Los Angeles to stop the state from counting mail-in ballots it says went to likely noncitizens (NPR, SF Chronicle, Fox News). The suit says Homeland Security Investigations \"reasonably believes that around 20,000 noncitizens are registered to vote in California.\" It asks the court to block tabulation of those ballots or to order the state to verify the voters' citizenship first. Earlier federal claims cited a far larger figure of 190,000.",
-        "Secretary of State Shirley Weber rejected the demands and said the federal government has not provided its methodology or evidence. Attorney General Rob Bonta said the state will not withhold ballots and argued the move violates the federal 90-day limit on major voter-roll changes before an election (NPR, KQED). The list was delivered on a thumb drive with a handwritten password note, and an election official said he did not consider that secure.",
-        "Attorney General Todd Blanche said, \"California has refused to comply and intends to facilitate noncitizens in voting, which is a violation of federal law\" (Fox News). Election lawyers told the SF Chronicle they have never seen anything like the suit, and NPR reports that legal experts expect an uphill fight, because earlier Trump administration suits over California's voter rolls have failed."
+        "The Justice Department sued California election officials on Thursday, Oct. 15, in federal court in Los Angeles. It asks a judge to bar the state from tabulating mail-in ballots from about 20,000 people the federal government flags as likely noncitizens, or to make the state verify their citizenship first (NPR, SF Chronicle, The Hill). California mails a ballot to every registered voter, and the election is Nov. 3.",
+        "The suit followed a dispute over a thumb drive. DOJ gave the state and Los Angeles County 48 hours to review the list. Los Angeles County Registrar Dean Logan said the drive was not secure, and the secretary of state's office said the password was on a sticky note (AP via local stations, The Hill). Fox News reported DOJ's position that California made no serious effort to cooperate.",
+        "Secretary of State Shirley Weber says the federal government gave no evidence or methodology. Attorney General Rob Bonta called widespread voter fraud \"a lie. It is a conspiracy theory.\" The SF Chronicle reports the federal estimate fell from 190,000 over the summer to 20,000, and that a similar claim in Nevada found every flagged person was a citizen. Election lawyers told the Chronicle they had never seen a suit like this.",
+        "Legal critics note the 90-day federal limit on voter-roll purges before an election and that the criminal statute DOJ cites covers casting ballots, not registration. No ruling has been reported."
       ],
-      "flag": "The 20,000 figure is a federal claim the state disputes, and no methodology has been made public.",
+      "flag": "The 20,000 figure is a federal estimate. No outlet has independently verified it, and no court ruling was found.",
       "facts": [
-        "The suit was filed Oct. 15 in federal court in Los Angeles.",
-        "DOJ cites about 20,000 likely noncitizen registrants.",
-        "California officials say no evidence or method was provided.",
-        "Bonta cites the 90-day federal limit on voter-roll changes.",
-        "Earlier similar suits by the administration have failed."
+        "DOJ filed suit Thursday, Oct. 15, in federal court in Los Angeles.",
+        "It targets about 20,000 people flagged as likely noncitizens.",
+        "The federal count earlier cited 190,000 (SF Chronicle).",
+        "California says the federal government gave no methodology.",
+        "The election is Nov. 3."
       ],
-      "left": "Democrats and election lawyers call the suit a pressure tactic weeks before an election. They argue that noncitizen voting is already a felony and extremely rare, that the list comes with no public method, and that federal law bars last-minute roll purges. They worry about eligible citizens being swept in and about delayed counts.",
-      "right": "Conservatives argue that states have a duty to keep rolls clean and that California refused to verify a federal list of suspected noncitizens before ballots were counted. They say any noncitizen vote dilutes citizens' votes and that checking citizenship is a modest, common-sense request. They see the state's refusal as the real scandal.",
-      "next": "A first hearing or ruling in the Los Angeles federal court, and any state response before ballots go out.",
+      "left": "Voting-rights lawyers say the suit is a late, thinly evidenced attempt to disrupt an election in the nation's largest state. The shrinking numbers, 190,000 to 20,000, and the Nevada result where every flagged voter was a citizen suggest the data is unreliable. Federal law restricts roll purges close to an election, and blocking ballots risks disenfranchising citizens who were flagged by mistake.",
+      "right": "Supporters argue that noncitizen voting is illegal and that states should welcome federal help in cleaning rolls. California got a specific list and 48 hours, and its officials refused to engage with it, which Fox News and the Washington Examiner present as stonewalling. If even a small number of flagged people are noncitizens, they say, verifying status before counting is a modest safeguard that protects every legal vote.",
+      "next": "Watch for a hearing or ruling on the request to block tabulation before the Nov. 3 election; no date has been reported.",
       "src": [
         [
           "NPR",
@@ -751,7 +596,17 @@
         [
           "SF Chronicle",
           "LL",
-          "https://www.sfchronicle.com/news/politics/article/trump-administration-sues-california-over-alleged-22478806.php"
+          "https://www.sfchronicle.com/politics/article/doj-california-ballots-lawsuit-22478986.php"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/6152422-doj-sues-california-election-officials/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/trump-sues-california-voting/"
         ],
         [
           "Fox News",
@@ -759,14 +614,117 @@
           "https://www.foxnews.com/politics/doj-gives-california-48-hours-review-list-possible-noncitizens-voter-rolls"
         ],
         [
-          "KQED",
-          "LL",
-          "https://www.kqed.org/news/12104425/california-officials-denounce-trump-dojs-demands-to-prove-voters-citizenship"
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/justice/4766983/doj-sue-california-noncitizen-voter-rolls-secretary-declined-to-view/"
+        ]
+      ]
+    },
+    {
+      "id": "iranmidterm",
+      "section": "politics",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran and Houthis",
+      "title": "Trump holds Iran strikes until after the midterms as Houthi attacks on Saudi Arabia keep oil near $100",
+      "summary": "Trump blames Iran for Houthi attacks on Saudi targets and says he will respond after Nov. 3, while WTI sits near $99.",
+      "story": [
+        "President Trump has said he will not attack Iran before the Nov. 3 midterms, and he is also weighing how to answer Iran-backed Houthi attacks on Saudi Arabia (Fox News, CNN, NBC News). Houthi strikes on Riyadh's main airport killed at least 13 people by one count and 20 by another, so casualty figures differ by outlet. Trump has said the Houthis are \"purposefully trying to drive up oil prices\" to help Iran (Washington Examiner, Fox News).",
+        "The Houthis kept up the campaign this week. CNN reported a deadly strike on the presidential palace in Aden, and NPR reported new Saudi security alerts after Houthi rebels hit a Saudi oil company, with Aramco's Dhahran offices reportedly struck. Trump said the US \"may\" join Saudi strikes but has not committed forces; the New York Times reported he decided against joint strikes on Sunday (CNN).",
+        "WTI crude closed Friday at $99.02, up 2.61%. CNN reports the war has upended two critical trade routes, Hormuz and Bab el-Mandeb, and its Oct. 14 analysis says Trump's effort to force prices lower before the midterms depends on Iran too. Reports that Iran pushed the Houthis rely on anonymous Yemeni and Iranian sources, and a former US envoy says the group increasingly acts on its own."
+      ],
+      "flag": "Iran's degree of control over the Houthis is contested; reports of Iranian direction rely on anonymous sources.",
+      "facts": [
+        "Trump said on Oct. 8 the US will not attack Iran before the midterms (CNN).",
+        "Houthi strikes on Riyadh airport killed at least 13 to 20 people, depending on the outlet.",
+        "WTI crude closed at $99.02 on Friday, up 2.61%.",
+        "Trump said the US \"may\" join Saudi strikes on the Houthis.",
+        "The midterm election is Nov. 3."
+      ],
+      "left": "Critics say the president is letting domestic politics dictate war policy. Pausing action until after Nov. 3 while oil sits near $100 and Americans pay more for fuel, they argue, shows the war has no clear plan or end date. They also note that the administration cannot say who it is negotiating with in Tehran.",
+      "right": "Supporters say a pause in strikes is prudent while talks continue, and that the real aggressors are Iran and its proxies, who are attacking a key American partner and shipping lanes. They argue that Trump is right to name Iran as the force behind the Houthis and to keep the blockade in place, and that a Saudi-led coalition should carry more of the burden. Pressure on oil, they say, comes from Tehran, not Washington.",
+      "next": "Watch whether Trump commits US forces against the Houthis and where crude trades after the Nov. 3 election.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
         ],
         [
-          "SF Chronicle",
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/white-house/4764245/trump-houthis-drive-oil-prices-help-iran/"
+        ],
+        [
+          "CNN",
           "LL",
-          "https://www.sfchronicle.com/politics/article/doj-california-ballot-lawsuit-election-22479436.php"
+          "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/15/middleeast/yemeni-houthi-strikes-on-aden-presidential-palace-kill-two-latam-intl"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://npr.org/2026/10/15/nx-s1-6001752/saudi-arabia-issues-new-security-alerts-after-houthi-rebels-hit-saudi-oil-company"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        ]
+      ]
+    },
+    {
+      "id": "dieselsenate",
+      "section": "politics",
+      "motif": "capitol",
+      "thread": "russia-diesel",
+      "when": "Diesel deal",
+      "title": "Bipartisan senators ask Trump to rescind Russian diesel deal as GOP unease grows",
+      "summary": "Six Republicans and six Democrats call the Putin diesel deal a betrayal of Ukraine, and analysts doubt it will lower US prices.",
+      "story": [
+        "Six Republican and six Democratic senators sent Trump a letter on Tuesday, Oct. 13, asking him to rescind his diesel deal with Vladimir Putin and to withdraw a waiver of sanctions on Russia's energy sector (NPR, Fox News, OPB). The letter calls the deal \"a gift to our adversary and a betrayal of our Allies,\" per Fox News. Republican names in coverage include Susan Collins, Lisa Murkowski, Thom Tillis and Mitch McConnell.",
+        "Trump announced the deal on social media on Oct. 9. Russia would supply more than 300,000 tons of diesel to the American and global market, with 500,000 more in November and about 3 million tons later, depending on refinery conditions (NPR). Treasury issued a license for the sales. The senators note that Congress passed a law this summer directing tariffs on top importers of Russian oil.",
+        "The Washington Examiner reports that seven Republicans in the 13 most competitive Senate races have voiced skepticism or opposition, and its editorial board called the deal \"worse-than-useless.\" Rep. Brian Fitzpatrick said he will introduce a bill to block purchases of Russian oil, and Rep. Don Bacon will cosponsor it. Analysts quoted in the coverage say the deal moves barrels between customers rather than adding supply and will change US diesel prices very little. Trump argues the global market suffered under high prices."
+      ],
+      "facts": [
+        "The senators' letter went to Trump on Oct. 13.",
+        "The deal was announced Oct. 9.",
+        "Initial volume is above 300,000 tons, with 500,000 more in November.",
+        "Rep. Fitzpatrick plans a bill to block Russian oil purchases.",
+        "Zelensky called the deal a \"gift\" to Putin (reported by The Hill)."
+      ],
+      "left": "Democrats say the deal rewards Russia during a war and undercuts a sanctions law Congress passed with large bipartisan majorities. They add that the administration skipped required consultation with Congress. Even on price, they argue, the supply is too small to matter, so Americans get little relief while Putin gets revenue and legitimacy.",
+      "right": "Conservative critics at the Washington Examiner and elsewhere call the deal a strategic mistake that props up Moscow while doing little for US diesel prices. They argue that a hawkish stance on Russia is in line with Republican tradition and that the White House should boost domestic production instead. Trump allies counter that the goal is lower prices for a global market squeezed by the Iran war.",
+      "next": "Watch for a response from the White House and any Senate vote or House bill on Russian oil purchases.",
+      "src": [
+        [
+          "NPR (KUNC)",
+          "LL",
+          "https://www.kunc.org/npr-news/2026-10-13/bipartisan-group-of-senators-call-on-trump-to-rescind-russian-diesel-deal"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies"
+        ],
+        [
+          "OPB",
+          "LL",
+          "https://www.opb.org/article/2026/10/14/gop-senators-join-democrats-seeking-to-stop-russia-diesel-deal/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4766278/gop-senate-candidates-skirting-trump-putin-diesel-deal/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/opinion/editorials/4763006/trump-russian-diesel-deal-worse-than-useless/"
         ]
       ]
     },
@@ -774,24 +732,26 @@
       "id": "seiustrike",
       "section": "local",
       "motif": "scales",
-      "when": "Strike Oct. 21",
-      "title": "State worker strike set for Wednesday, Oct. 21, with picket lines in Oakland and Sacramento",
-      "summary": "SEIU Local 1000 plans its first statewide walkout; the state says it is ready to negotiate anytime.",
+      "when": "State worker strike",
+      "title": "California state workers plan first statewide strike on Wednesday, Oct. 21",
+      "summary": "SEIU Local 1000 will hold a one-day strike with picket lines in Sacramento and Oakland after talks with Newsom's administration stalled.",
       "story": [
-        "SEIU Local 1000, California's largest state worker union, has authorized a one-day unfair practice strike for Wednesday, Oct. 21, after contract talks with the Newsom administration stalled (CalMatters, KQED, Just the News). Reports put the yes vote at about 96%, though one outlet cited 92.6%. Picket lines are planned at 7 a.m. in Sacramento, Oakland, San Francisco, Fresno, Los Angeles and San Diego. It would be the union's first statewide walkout.",
-        "The contract expired June 30. The union wants raises, affordable health coverage and more flexible telework, and says the state bargained in bad faith. The Department of Human Resources says it is ready to sit down anytime to negotiate a fair and responsible agreement. Members are not required to strike, and those who do will not be paid for the time.",
-        "Union president Anica Walls has warned of possible delays at DMV offices and at unemployment and disability insurance agencies. The Center Square, via Just the News, frames the vote as taxpayer-paid workers striking while negotiations stall. We found no report that talks have resumed."
+        "SEIU Local 1000, California's largest state worker union, has set a one-day unfair labor practice strike for Wednesday, Oct. 21, after members voted about 96% to authorize it (CalMatters, KQED). The union represents roughly 100,000 state employees. Picket lines are planned at 7 a.m. at sites including five in Sacramento and one each in Oakland, San Francisco, Fresno, Los Angeles and San Diego. It would be the union's first strike.",
+        "The contract expired June 30. The union wants higher pay, more affordable health care and more flexibility to work from home, and it has proposed a 20% raise over three years. CalMatters reports that the state's Public Employment Relations Board sided with the union in late September, finding CalHR \"refused to meet and confer in good faith.\" Gov. Newsom vetoed a telework bill, AB 1729, in September.",
+        "CalHR says it is ready to bargain at any time and is prepared to move into mediation. Union president Anica Walls said the strike could delay services at the DMV and at unemployment and disability insurance offices (CalMatters). The Center Square, via Just the News, frames it as taxpayer-paid workers striking over pay and remote work. The union nearly struck in 2016 before a deal with then-Gov. Jerry Brown."
       ],
+      "flag": "No reporting after Oct. 14 was found, so whether a deal or mediation changes the Oct. 21 date is unconfirmed.",
+      "blindspot": "Right-leaning coverage is limited to a syndicated Center Square piece; no National Review, Dispatch or Fox coverage was found.",
       "facts": [
-        "The strike date is Wednesday, Oct. 21.",
-        "Reports put the authorization vote at about 96%.",
+        "The strike is set for Wednesday, Oct. 21, with picket lines at 7 a.m.",
+        "About 96% of voting members authorized it.",
+        "The union represents about 100,000 state workers.",
         "The contract expired June 30.",
-        "Picket lines start at 7 a.m. in six cities including Oakland.",
-        "Striking workers will not be paid."
+        "A strike would be the union's first."
       ],
-      "left": "Labor advocates say state workers have fallen behind inflation, that health costs are eating raises, and that the union is striking over unfair practices because the state would not bargain in good faith. They see telework flexibility as a quality-of-life and cost issue for workers. They argue the state can afford a fair deal.",
-      "right": "Fiscal conservatives argue that public employees are paid by taxpayers and that a walkout would hurt residents who need DMV and unemployment services. They question whether the state can afford raises given its budget pressures and its pension obligations. They want the dispute settled without disrupting services.",
-      "next": "Any mediation or deal before Oct. 21, and service warnings from the DMV and EDD.",
+      "left": "Union supporters say state workers have gone months without a contract while the cost of living in California climbs, and that the labor board has already found the state refused to bargain in good faith. They argue that remote work saves the state money and that workers deserve raises that keep up with rent and health premiums. A strike, they say, is the result of the state stalling.",
+      "right": "Skeptics note that the state faces budget pressure and that a 20% raise over three years is a large ask on taxpayers. They argue that public-sector strikes hurt residents who rely on DMV and unemployment services and that return-to-office rules are a reasonable management decision. Fiscal conservatives say the state should be wary of precedents it cannot afford.",
+      "next": "Strike day is Wednesday, Oct. 21; watch for mediation or a last-minute deal before then.",
       "src": [
         [
           "CalMatters",
@@ -817,23 +777,23 @@
       "thread": "california-billionaire-tax",
       "when": "Prop. 40 and 42",
       "title": "Newsom backs Prop. 42 to cancel California's billionaire tax as polls show a tight race",
-      "summary": "Prop. 40 leads narrowly in polls, and Newsom has endorsed a rival measure that would nullify it and bar future wealth taxes.",
+      "summary": "Prop. 40 polls 52% to 46% in PPIC, while Prop. 42, backed by Newsom and Sergey Brin, would void it and ban wealth taxes.",
       "story": [
-        "Gov. Gavin Newsom endorsed Proposition 42 on Oct. 9, a ballot measure that would cancel the billionaire tax in Proposition 40 and ban future wealth taxes (CalMatters). A PPIC survey of likely voters found 52% for Prop. 40 and 46% against, a statistical tie, according to CalMatters. A UC Berkeley IGS poll in August had it ahead 48% to 41% with 11% undecided (KQED). The election is Nov. 3.",
-        "The ballot rules matter. If Props. 40, 41 and 42 all pass, and 41 or 42 gets more votes than 40, the state cannot enforce the billionaire tax. PPIC found Prop. 41 ahead 51% to 44% and Prop. 42 ahead 54% to 43%. The state Democratic Party narrowly endorsed the tax over Newsom's objection, and Xavier Becerra, the Democratic nominee for governor, opposes it (CalMatters).",
-        "Newsom says the fight belongs at the federal level and has pitched a national alternative. Fox News framed his stance as begging Californians to vote no amid a billionaire exodus. The IGS poll showed sharp partisan splits, with 70% of Democrats in favor and 80% of Republicans opposed."
+        "Gov. Gavin Newsom has endorsed Proposition 42, a measure that would cancel the billionaire tax in Proposition 40 and ban future wealth taxes in California (CalMatters). He opposes Prop. 40 and says he fears billionaires would leave the state. His position splits him from the state Democratic Party and some unions, which endorsed the tax.",
+        "A PPIC survey of likely voters found 52% for Prop. 40 and 46% against, a near tie, with Prop. 42 leading 54% to 43% (CalMatters). Prop. 40 is a one-time 5% tax on billionaires who lived in California on Jan. 1, 2026, payable in 2027 or spread over five years at a higher cost (KQED). The election is Nov. 3.",
+        "The measures interact. If Prop. 40 gets more votes than both Props. 41 and 42, the tax takes effect and voids the countermeasures. If either 41 or 42 outpolls Prop. 40, the tax does not take effect. The SF Chronicle reports that a billionaire-led committee has raised tens of millions of dollars, with Sergey Brin a major funder, and its editorial board called Prop. 42 another poison-pill measure. Sources give different totals for opposition money, so treat any single figure with caution."
       ],
-      "flag": "The PPIC poll is about a month old, and many voters are unfamiliar with the competing measures.",
+      "flag": "Fundraising totals differ by outlet and date; no single figure is confirmed.",
       "facts": [
-        "Prop. 40 is the billionaire tax; Prop. 42 would cancel it and bar future wealth taxes.",
-        "Newsom endorsed Prop. 42 on Oct. 9.",
-        "PPIC has Prop. 40 at 52% yes and 46% no among likely voters.",
-        "If 41 or 42 outpolls 40, the tax cannot be enforced.",
-        "Election Day is Nov. 3."
+        "Newsom backs Prop. 42 and opposes Prop. 40.",
+        "PPIC: Prop. 40 at 52% yes, 46% no.",
+        "Prop. 42 led 54% to 43% in the same poll.",
+        "If Prop. 40 outpolls 41 and 42, the tax takes effect.",
+        "Election day is Nov. 3."
       ],
-      "left": "Supporters argue that the ultra-wealthy pay a lower effective rate than ordinary households and that California needs revenue for health care and schools that federal cuts are straining. They note the state Democratic Party and most Democratic voters back Prop. 40, and they see Prop. 42 as a billionaire-funded trap that would lock in low taxes. They want a clear yes on 40 and no on 42.",
-      "right": "Opponents argue that a wealth tax will drive high earners and their businesses out of the state, shrinking the tax base the budget depends on. They point to Newsom and Becerra, both Democrats, as evidence that the policy is risky, and back Prop. 42 to prevent any future wealth tax. They say a tax on unrealized wealth is hard to value and enforce.",
-      "next": "New polls before Nov. 3, and how Props. 40, 41 and 42 interact on election night.",
+      "left": "Supporters say a one-time tax on billionaires is a fair way to fund health care and education when the federal government is cutting both. They argue that the ultra-wealthy gain from California's economy and that talk of an exodus is a scare tactic funded by the people who would pay. The Prop. 42 ban on future wealth taxes, they say, is a billionaire-funded trap that would lock in the status quo.",
+      "right": "Opponents argue the tax is retroactive, would hit unrealized gains and would drive founders and investors to other states, shrinking the income-tax base California relies on. Newsom himself makes this case. They also warn that valuing private stakes is messy and invites litigation, so one-time revenue could cost more than it raises.",
+      "next": "Watch for new polls and ad spending before the Nov. 3 vote.",
       "src": [
         [
           "CalMatters",
@@ -848,12 +808,17 @@
         [
           "KQED",
           "LL",
-          "https://www.kqed.org/news/12099825/california-billionaires-tax-has-a-slim-lead-in-new-poll-but-still-a-lot-of-work-to-do"
+          "https://www.kqed.org/news/12100660/proposition-40-imposes-a-one-time-tax-on-billionaires-to-fund-healthcare-and-education"
         ],
         [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/newsom-begs-californians-vote-billionaires-tax-face-mass-exodus-pitches-nationwide-tax-hike"
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/california-proposition-42-taxes-22449389.php"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/finance-and-economy/4764328/gavin-newsom-california-billionaire-tax-proposition-40/"
         ]
       ]
     },
@@ -862,26 +827,31 @@
       "section": "world",
       "motif": "ship",
       "thread": "ukraine-us-rift",
-      "when": "Ukraine rift",
-      "title": "Ukraine resumes refinery strikes as Trump calls them a 'disgrace' and Starlink limits bite",
-      "summary": "Kyiv ends its pause on Russian energy targets, Trump objects, and Ukrainian units report throttled Starshield service.",
+      "when": "US-Ukraine rift",
+      "title": "Ukraine resumes refinery strikes as Starlink limits and Trump's criticism widen the rift",
+      "summary": "Kyiv ended its energy truce, Trump called the strikes a disgrace, and Ukraine says Starshield limits hurt its air defenses.",
       "story": [
-        "Ukrainian drones hit a refinery in Russia's Ryazan region early Thursday, hours after President Volodymyr Zelensky said a brief truce that Moscow spurned was over (NPR). Trump called the resumption a \"disgrace\" and linked the strikes to rising fuel prices before the midterms (NBC News). Vladimir Putin warned of \"consequences\" if Ukraine keeps hitting Russian energy and industrial sites. Zelensky said Russia kept hitting Ukraine's energy sites during the pause and that at least 600,000 people were without power (CNN).",
-        "CNN reported, citing two European officials, that Washington warned it could suspend intelligence sharing and European weapons purchases unless Ukraine stopped deep strikes on Russian energy. Trump says, \"We are helping them, and we are sharing intel.\" Ukrainian units also reported throttled Starshield service. Elon Musk said limits are decided by the U.S. military \"and ultimately POTUS,\" while two senior U.S. officials told CNN the order did not come from Trump. Service was reported restored for now (NBC News, CNN).",
-        "Zelensky told the Financial Times, \"The block is out. We're done,\" and said he felt betrayed by the diesel deal, the energy ceasefire and the Starlink problems. Kremlin spokesman Dmitry Peskov backed Trump's position, saying Zelensky \"doesn't want to take responsibility\" (NPR). The Washington Examiner reported that Zelensky called the diesel deal \"weak.\""
+        "Ukrainian drones hit a refinery in Russia's Ryazan region on Thursday, Oct. 15, after Zelensky said the brief energy truce that Moscow spurned was over (NPR, CNN). Trump called the resumption a \"disgrace\" and tied the strikes to US fuel prices ahead of the midterms (NBC News). Putin warned of \"consequences\" for attacks on Russian energy sites.",
+        "The rift extends to Starlink. Ukraine said new restrictions on Starshield capacity disrupted its military and air defenses (NBC News, The Hill). Reuters reported the order came from inside the White House, while two senior US officials told CNN it did not come from Trump. Trump denied involvement, as did Musk, who said limits are set by the US military and the president. Ukraine's Defense Ministry later said operations resumed, though speeds were not fully restored.",
+        "CNN also reported in an exclusive that Ukraine has run out of Patriot interceptor missiles. The administration reportedly warned Kyiv it could cut intelligence sharing unless deep strikes stopped, and Trump says intelligence sharing continues. Zelensky called the Russian diesel deal a \"gift\" to Putin and said he feels betrayed."
       ],
-      "flag": "Who ordered the Starlink limits is disputed: Reuters reports an order from inside the White House, while U.S. officials told CNN it did not come from Trump.",
+      "flag": "Who ordered the Starshield limits is disputed between Reuters' sourcing and senior officials who spoke to CNN.",
       "facts": [
-        "Ukrainian drones hit a Ryazan refinery on Oct. 15.",
-        "Trump called the renewed strikes a 'disgrace'.",
-        "CNN, citing European officials, reports a U.S. warning on intelligence and weapons purchases.",
-        "Starshield service to Ukrainian units was throttled and later reported restored.",
-        "Zelensky said at least 600,000 people lacked power after Russian attacks."
+        "Ukrainian drones hit a Ryazan refinery on Thursday, Oct. 15.",
+        "Trump called the strikes a \"disgrace.\"",
+        "Reuters and CNN differ on whether the White House ordered the Starshield limits.",
+        "CNN reports Ukraine has run out of Patriot interceptors.",
+        "Putin warned of \"consequences\" for strikes on energy sites."
       ],
-      "left": "Critics say Trump is pressuring the victim instead of the aggressor, trading Ukraine's leverage for a few cents of diesel relief. They see the intelligence threat and the Starlink limits as a dangerous sign of where U.S. policy is heading and want Congress to protect aid and intelligence sharing. Many Democrats also tie it to the Russian diesel deal.",
-      "right": "Supporters argue that the U.S. has to put its own fuel prices and risk of escalation first, and that Ukrainian strikes on refineries raise global energy costs. Hawks on the right counter that the deal and the pressure on Kyiv reward Moscow, and several GOP senators now say so. Both camps want a negotiated end to the war.",
-      "next": "Whether the U.S. formally restricts intelligence sharing, and Russia's response to the refinery strikes.",
+      "left": "Critics say the administration is squeezing a victim of invasion while handing Putin a diesel deal and sanctions relief. Cutting Starlink access and pressuring Kyiv over refinery strikes, they argue, trades Ukraine's defense for lower pump prices before an election. They also say the Patriot shortage shows Europe and the US are not supplying enough.",
+      "right": "Supporters of the president say the US cannot fund a war indefinitely and that strikes on Russian refineries raise global fuel prices at a bad time. Some conservative outlets, including the Washington Examiner, have criticized the diesel deal itself, but they accept that Washington should press Kyiv toward a negotiated end. The goal, they say, is to stop the fighting, not to prolong it.",
+      "next": "Watch for new Starshield rules, Ukrainian strikes on Russian energy sites and any White House move on intelligence sharing.",
       "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/16/politics/ukraine-trump-russia-starlink"
+        ],
         [
           "NPR",
           "LL",
@@ -890,73 +860,17 @@
         [
           "NBC News",
           "LL",
-          "https://www.nbcnews.com/world/ukraine/trump-ukraine-strikes-russian-oil-disgrace-zelenskyy-starlink-rcna603848"
+          "https://www.nbcnews.com/world/ukraine/ukraine-starlink-restrictions-military-intel-trump-zelenskyy-russia-rcna603412"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6154786-trump-denies-starlink-outage-cause/"
         ],
         [
           "CNN",
           "LL",
-          "https://www.cnn.com/2026/10/16/politics/ukraine-trump-russia-starlink"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/world/4762031/zelensky-bashes-trump-russia-diesel-deal/"
-        ]
-      ]
-    },
-    {
-      "id": "inflationfed",
-      "section": "economy",
-      "motif": "coins",
-      "when": "Fed hold odds",
-      "title": "Hot CPI and wholesale prices keep the Fed in play, but Warsh's remarks cool October hike odds",
-      "summary": "Wholesale prices rose 6.3% on the year and CPI hit 3.7%, yet traders expect the Fed to hold on Oct. 28.",
-      "story": [
-        "September CPI rose 0.6% on the month and 3.7% from a year earlier, a bit hotter than the 3.6% economists expected, with gasoline up 9.1% in the month and 34.2% on the year (CNBC, Fox Business, NPR). Core CPI rose 2.6%. A day later, wholesale prices jumped 6.3% on the year, the biggest gain since 2022 and well above the 5.5% forecast, and rose 1.3% on the month (CNBC). Core wholesale prices rose 0.7% on the month and 5% on the year. Retail sales gained 0.8%, but excluding autos and gas they were much weaker.",
-        "Fed Chair Kevin Warsh spoke in Bangkok on Friday and withheld a rate signal, saying he does not \"prejudge meetings\" (CNBC). He said AI could make economies more productive but that the path may be \"very bumpy\" and that he does not know its effect on jobs over the next 12 to 18 months. CME FedWatch showed a hold on Oct. 27-28 at 72% to 82% depending on the report, and Goldman Sachs expects a second and final hike in December (CNBC, Bloomberg).",
-        "The Fed raised rates to a range of 3.75% to 4% last month, its first hike since 2023. Axios called the data a too-hot-for-comfort economy. NBC News reported that inflation hit businesses even harder than consumers last month. The 10-year Treasury yield ended Friday at 5.10%."
-      ],
-      "flag": "Odds for an October hike vary by report and time of day.",
-      "facts": [
-        "CPI rose 3.7% on the year in September; gasoline rose 9.1% on the month.",
-        "Producer prices rose 6.3% on the year, the most since 2022.",
-        "The Fed funds range is 3.75% to 4% after a September hike.",
-        "FOMC meets Oct. 27-28; traders favor a hold.",
-        "The 10-year yield closed at 5.10%."
-      ],
-      "left": "Progressives argue that the price spike comes from an energy shock caused by the Iran war and from tariffs, not from wages, and that further rate hikes would hurt workers while doing little about oil. They say the administration should end the war and the tariffs instead of leaning on the Fed. NPR notes Social Security benefits will get a boost from the inflation reading.",
-      "right": "Conservatives argue that the Fed's first hike in years was necessary and that inflation at 3.7% shows the central bank cannot ease while energy prices climb. They blame war-driven supply shocks plus a spending-heavy fiscal stance, and they want more domestic energy production. Many want Warsh to hold firm and keep a December hike on the table.",
-      "next": "The FOMC decision on Oct. 28, and the next monthly price data.",
-      "src": [
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
-        ],
-        [
-          "Fox Business",
-          "R",
-          "https://www.foxbusiness.com/economy/cpi-inflation-september-2026"
-        ],
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
-        ],
-        [
-          "Bloomberg",
-          "C",
-          "https://www.bloomberg.com/news/articles/2026-10-16/warsh-boosts-market-expectations-of-fed-hold-in-october"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/15/fed-inflation-ppi-warsh"
+          "https://www.cnn.com/2026/10/15/europe/ukraine-us-patriot-interceptor-missiles-run-out-intl"
         ]
       ]
     },
@@ -964,23 +878,25 @@
       "id": "nasdaqrout",
       "section": "stocks",
       "motif": "chart",
-      "when": "Nasdaq selloff",
-      "title": "Nasdaq falls 2.1% for its worst week since June as AI financing and oil worries spread",
-      "summary": "The S&P 500 lost 1.09% Friday while chip and AI names kept sliding after Asia's Thursday rout.",
+      "when": "Worst week",
+      "title": "Nasdaq slides 2.1% as AI debt fears, oil and inflation hit tech together",
+      "summary": "The Nasdaq lost 2.14% Friday and CoreWeave led an AI-financing rout, while traders now lean toward a Fed hold on Oct. 28.",
       "story": [
-        "The Nasdaq Composite fell 2.14% on Friday, Oct. 16, to 26,140.03 and posted its worst week since June, while the S&P 500 lost 1.09% to 7,659.44 and the Dow slipped 0.34% to 52,002.41 (CNBC). The Dow gained about 0.7% for the week (CNBC). WTI crude rose 2.63% to $99.04, the 10-year yield sat at 5.10%, and bitcoin was near $81,659. CNBC tied the drop to the AI selloff and oil prices. Bloomberg said crude revived inflation fears while doubts about the AI trade weighed on chipmakers.",
-        "Thursday's rout in Asia set the tone. Korea's Kospi fell nearly 8% into a bear market, SK Hynix dropped more than 10%, and SoftBank fell 7.9% (Bloomberg, CNBC). CNBC counted more than $1 trillion lost this week across 20 of the most valuable AI and chip names. The reasons were fears of Fed hikes after hot inflation, higher costs of financing AI buildouts, and worry about a memory glut from China.",
-        "There were counterarguments. Nvidia CEO Jensen Huang said CoreWeave's cost of capital is falling, and Analyst Dan Ives called the pullback a buying opportunity, saying \"rates are a financing question, not a demand question.\" Broadcom CEO Hock Tan reportedly said financing could be a bigger obstacle for AI than chips or electricity. Among the watchlist, Alphabet, Tesla, Microsoft, Amazon and Nvidia all fell, while Apple rose 0.43%."
+        "The Nasdaq Composite fell 2.14% on Friday, Oct. 16, to 26,140.03. The S&P 500 lost 1.09% to 7,659.44 and the Dow slipped 0.34% to 52,002.41 (CNBC, Bloomberg). CNBC called it the Nasdaq's worst week since June, with a weekly loss above 4%. Bloomberg framed the Nasdaq 100's week as its worst since April 2025, so the two outlets use different benchmarks. WTI crude rose 2.61% to $99.02 and the 10-year Treasury yield sat at 5.10%.",
+        "CoreWeave sat at the center. Its shares dropped nearly 12% Friday after falling about 20% in the first three sessions of the week, and Bloomberg reported that default insurance on its bonds hit a record, with swaps pricing a better than 60% chance of default within five years. CNBC put its debt at $51.6 billion. Axios said warning signs are flashing across the AI trade, and CNBC added that slower Anthropic revenue growth weighed on neocloud stocks.",
+        "Analysts split. Jefferies' Brent Thill called the selloff overdone and kept a $150 target, and Deutsche Bank's Brad Zelnick said he struggles to find company-specific reasons for the drop (CNBC, Bloomberg). Skeptics pointed to heavy leverage, 15.4% short interest and doubts that backlogs equal revenue. Paul Meeks of Freedom Capital Markets called CoreWeave the canary in the coal mine.",
+        "Rates matter too. CNBC reports the odds of a quarter-point Fed hike have fallen to 17%, and Bloomberg said Chair Kevin Warsh's remarks lifted expectations of a hold at the Oct. 27-28 meeting."
       ],
+      "flag": "The \"worst week\" label differs by outlet: CNBC says since June for the Nasdaq, Bloomberg says since April 2025 for the Nasdaq 100.",
       "facts": [
-        "Nasdaq closed at 26,140.03, down 2.14%.",
-        "S&P 500 closed at 7,659.44, down 1.09%.",
-        "Dow closed at 52,002.41, down 0.34%.",
-        "Kospi fell nearly 8% on Thursday, per Bloomberg.",
-        "More than $1 trillion in value was lost this week across 20 AI and chip names, per CNBC."
+        "The Nasdaq closed at 26,140.03, down 2.14% on Friday.",
+        "The S&P 500 closed at 7,659.44, down 1.09%.",
+        "CoreWeave carries about $51.6 billion in debt (CNBC).",
+        "Fed hike odds fell to 17%, per CNBC.",
+        "The next Fed meeting is Oct. 27-28."
       ],
-      "why": "Hot inflation, a higher rate path and costly AI financing all hit the same crowded trade at once. If financing stays expensive, AI spending plans and the chip names that depend on them are the first to feel it.",
-      "next": "Tesla earnings on Oct. 21 after the close, then Alphabet and Microsoft on Oct. 28 and the Fed the same day.",
+      "why": "AI buildout spending is financed with debt, so stress at one heavily indebted cloud provider can spread to chipmakers and to the broader tech trade that holds up the S&P 500.",
+      "next": "Tesla reports Wednesday, Oct. 21 after the close; Fed decision Oct. 28; CoreWeave earnings due in a few weeks (CNBC).",
       "src": [
         [
           "CNBC",
@@ -990,107 +906,22 @@
         [
           "Bloomberg",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold"
+          "https://www.bloomberg.com/news/articles/2026-10-16/coreweave-stock-wipeout-exposes-divide-between-ai-fear-and-greed"
         ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
-        ],
-        [
-          "Bloomberg",
-          "C",
-          "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt"
-        ],
-        [
-          "NBC News",
-          "LL",
-          "https://nbcnews.com/business/energy/oil-prices-hormuz-iran-ukraine-rcna603919"
-        ]
-      ]
-    },
-    {
-      "id": "corewarebuy",
-      "section": "stocks",
-      "motif": "chart",
-      "when": "CoreWeave debt",
-      "title": "CoreWeave's debt stress deepens while analysts call the selloff overdone",
-      "summary": "Bond yields near 15% and distressed swaps meet buy ratings from Deutsche Bank, Jefferies and JPMorgan.",
-      "story": [
-        "CoreWeave shares fell about 11% on Friday after a roughly 15% drop on Wednesday, wiping out more than $10 billion in market value in four sessions (CNBC). Its 9.625% bond due in 2032 yields about 14.8%, and its five-year credit default swap spread at one point topped 1,140 basis points. The company has about $51.6 billion in debt, or about $46 billion net of cash, and faces an estimated $16.45 billion in negative free cash flow in the second half of the year, according to Bloomberg.",
-        "Analysts split. Deutsche Bank calls the selloff a buying opportunity with a $150 target, and Jefferies' Brent Thill called it overdone and kept a $150 target while saying new debt deals could price at higher rates (Bloomberg, CNBC). JPMorgan rates the stock overweight, and Cantor Fitzgerald said the market is getting it wrong. HSBC rates it a sell with a $39 target. Of 45 analysts, 32 have a buy or strong buy, per LSEG data cited by CNBC.",
-        "Nvidia's Huang said CoreWeave's strength \"is improving every day\" and that no backstop is needed (Bloomberg). The problem for the wider market is that CoreWeave is the neocloud bellwether: if its funding costs stay near 15%, the buildout economics for every borrower in AI infrastructure look worse. CNBC also reports that Nebius and other neoclouds sold off with it."
-      ],
-      "flag": "Analyst targets and ratings are opinions, and the swap spread peaked at one point rather than staying at 1,140 basis points.",
-      "facts": [
-        "CoreWeave fell about 11% Friday after about 15% on Wednesday.",
-        "Its 2032 bond yields about 14.8%.",
-        "Debt is about $51.6 billion.",
-        "Deutsche Bank and Jefferies hold $150 targets; HSBC has a sell at $39.",
-        "32 of 45 analysts rate it a buy or strong buy."
-      ],
-      "why": "CoreWeave rents Nvidia GPUs to AI labs and is funded largely with debt, so its borrowing costs are a live read on how much risk lenders see in AI infrastructure. Nvidia and the chip suppliers depend on that financing staying open.",
-      "next": "Any new CoreWeave debt deal and its pricing; Nvidia reports Nov. 18.",
-      "src": [
         [
           "CNBC",
           "C",
           "https://www.cnbc.com/2026/10/16/coreweave-stock-selloff-analysts.html"
         ],
         [
-          "CNBC",
+          "Axios",
           "C",
-          "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
+          "https://www.axios.com/2026/10/16/ai-coreweave-bonds-debt"
         ],
         [
           "Bloomberg",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-s-selloff-is-buying-opportunity-deutsche-bank-says"
-        ],
-        [
-          "Bloomberg",
-          "C",
-          "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-ceo-huang-says-coreweave-improving-no-backstop-needed"
-        ]
-      ]
-    },
-    {
-      "id": "roadster",
-      "section": "engineering",
-      "motif": "rocket",
-      "when": "Roadster reveal",
-      "title": "Tesla shows a Roadster with cold-gas thrusters built with SpaceX technology",
-      "summary": "The demo car climbed an inverted ramp and jumped over other Teslas, but production is not due until 2028.",
-      "story": [
-        "Tesla unveiled its long-delayed second-generation Roadster on Oct. 15 at a SpaceX test site near Waco, Texas (TechCrunch, CNBC). The demo used fans and cold-gas thrusters to climb an inverted ramp, spin and land, and to jump over a Cybercab, Cybertruck, Semi, Model Y and Model 3. Engineering VP Lars Moravy said 10 thrusters draw on 600 liters of compressed air and that the tank can be recharged. Reservations are open at $50,000 for the Performance trim and $250,000 for Thrust.",
-        "There are three trims. Performance seats two and is \"road ready.\" Thrust seats two, is \"race ready,\" and has rear thrusters aimed at a sub-one-second 0-to-60 mph run. Rocket seats one, is \"air ready\" and carries 10 cold-gas thrusters and is invite-only. All three are rated at about 300 miles of range and speeds above 230 mph, per press accounts of Tesla's website and event remarks. Musk said production begins in 2028.",
-        "The car has slipped repeatedly since its 2017 debut, and Musk first promised thrusters in 2018 (TechCrunch). Musk has called it a halo product that may not \"move the needle massively\" on revenue. CNBC said the SpaceX link has fueled speculation about a Tesla-SpaceX merger. Tesla reports third-quarter earnings Oct. 21 after the close, and its shares were down 2.13% on Friday."
-      ],
-      "flag": "Range, speed and acceleration figures are Tesla's claims from the event and website; no independent testing exists, and no base price was announced.",
-      "facts": [
-        "The reveal was Oct. 15 near Waco, Texas.",
-        "The Rocket trim carries 10 cold-gas thrusters fed by 600 liters of compressed air.",
-        "All trims are rated about 300 miles and above 230 mph (Tesla claims).",
-        "Musk said production begins in 2028.",
-        "Tesla reports earnings Oct. 21 after the close."
-      ],
-      "why": "Cold-gas thrusters give impulsive thrust without combustion, so the demo is a controlled stunt, not a flying car. The engineering question is whether any of it survives crash, safety and weight rules on a road car.",
-      "next": "Tesla's Q3 earnings call on Oct. 21 for production and Roadster timing comments.",
-      "src": [
-        [
-          "TechCrunch",
-          "C",
-          "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/16/5-things-to-know-before-the-stock-market-opens.html"
+          "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold"
         ]
       ]
     },
@@ -1098,23 +929,24 @@
       "id": "transformers",
       "section": "engineering",
       "motif": "pylon",
-      "when": "Grid hardware",
+      "when": "Grid bottleneck",
       "title": "Transformer and steel shortages are slowing the grid hookups AI data centers need",
-      "summary": "IEEE Spectrum reports an EU steel dispute and a shift to 800-volt DC as data centers strain power equipment.",
+      "summary": "Grain-oriented electrical steel and long transformer lead times are bottlenecks for AI data centers in the US and Europe.",
       "story": [
-        "IEEE Spectrum reports that the European Commission recently raised the cost of importing grain-oriented electrical steel, the material nearly every transformer core is made from. Only two EU mills, Thyssenkrupp and Stalprodukt, make it, and energy-sector groups say the higher import costs could worsen a transformer shortage. A ZVEI representative said imports from Japan and South Korea will stay indispensable until European mills scale up.",
-        "The data center side is pushing power design. Spectrum describes a shift to 800-volt DC distribution that converts 13.8 kV grid power at the site perimeter and removes intermediate conversion steps. Eaton is developing a medium-voltage solid-state transformer for it, and Vertiv expects its 800-volt ecosystem for Nvidia's Vera Rubin Ultra platforms to be commercial in the second half of 2026. Other Spectrum pieces describe battery-based \"AI UPS\" units that buffer microsecond load swings that can stress transformers.",
-        "Policy is catching up. Spectrum reports that FERC on June 18 ordered grid operators to overhaul how they connect data centers or justify their approach, and that ERCOT in Texas has 438 GW of large-load interconnection requests. Bloomberg has reported that a large share of 2026 U.S. data centers face delays from electrical equipment shortages."
+        "IEEE Spectrum reports that the European Commission recently raised the cost of importing grain-oriented electrical steel (GOES), the material nearly every transformer core is made from. Only two EU mills, Thyssenkrupp and Stalprodukt, make it, and energy groups warn the higher import costs could deepen a transformer shortage. A representative of the German electrical industry group ZVEI said imports from Japan and South Korea will stay indispensable until European mills scale up.",
+        "In the US, Bloomberg reported that more than half of the data centers planned for the year face delays, and that lead times for large transformers have stretched to three to five years from a few months. Wood Mackenzie estimates a 15% market shortage for power transformers in 2026, and says steel tariffs have raised transformer prices about 20%. A 2022 Department of Energy report found only one US producer of GOES.",
+        "CNBC reported in September on hidden China risks, since many data centers have used Chinese electrical equipment to shorten lead times. Hitachi Energy plans a $457 million transformer plant and Siemens Energy has committed $1 billion to US grid and turbine equipment."
       ],
+      "flag": "Several figures come from reports published months ago; current shortage levels may differ.",
       "facts": [
-        "Only two EU mills make grain-oriented electrical steel.",
-        "The EU recently raised import costs on that steel.",
-        "800-volt DC distribution aims to cut conversion steps in data centers.",
-        "FERC ordered grid operators to overhaul data center connections on June 18.",
-        "ERCOT has 438 GW of large-load interconnection requests."
+        "Only two EU mills make GOES (IEEE Spectrum).",
+        "Large transformer lead times can reach three to five years.",
+        "Wood Mackenzie estimates a 15% power-transformer shortage in 2026.",
+        "Steel tariffs have raised transformer prices about 20%.",
+        "Hitachi Energy plans a $457 million US transformer plant."
       ],
-      "why": "AI capacity is limited as much by grid hardware as by chips. Transformers have long lead times, so every data center plan depends on equipment that cannot be scaled up quickly.",
-      "next": "EU decisions on steel import costs, and how FERC's data center interconnection orders play out.",
+      "why": "Chips get the headlines, but a transformer on a three-year delivery clock can hold up a data center regardless of how many GPUs are ordered. The bottleneck shapes where and how fast AI capacity gets built.",
+      "next": "Watch for new US or EU steel and import rules and for announcements of new transformer capacity.",
       "src": [
         [
           "IEEE Spectrum",
@@ -1122,19 +954,19 @@
           "https://spectrum.ieee.org/transformer-shortage-europe-goes-steel"
         ],
         [
-          "IEEE Spectrum",
-          "C",
-          "https://spectrum.ieee.org/800-vdc-for-data-centers"
-        ],
-        [
-          "IEEE Spectrum",
-          "C",
-          "https://spectrum.ieee.org/ferc-data-center-policy"
-        ],
-        [
           "Bloomberg",
           "C",
           "https://www.bloomberg.com/news/newsletters/2026-04-01/us-data-center-boom-relies-on-hard-to-find-electrical-equipment"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/09/03/us-ai-data-centers-china-supply-chain.html"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/transformer-shortage"
         ]
       ]
     },
@@ -1142,23 +974,23 @@
       "id": "methanesats",
       "section": "science",
       "motif": "satellite",
-      "when": "Methane test",
-      "title": "Nature's biggest blind test finds purpose-built satellites detect methane well",
-      "summary": "Twelve satellites were tested against 746 events in Arizona; targeted instruments caught 92 to 100% of releases.",
+      "when": "Methane satellites",
+      "title": "Nature's largest blind test finds purpose-built satellites detect methane well",
+      "summary": "A year-long Arizona trial of 12 satellites found instruments built for methane had 92-100% true positive rates.",
       "story": [
-        "A paper in Nature published Oct. 14 reports the largest controlled test yet of satellites that detect methane (Nature). Over a year in the Arizona desert, researchers ran 746 events, 481 metered releases and 265 blank controls, with 12 government, commercial and non-profit satellites overhead. Fifteen analysis teams from nine countries produced more than 2,250 estimates. The title is \"Evaluating space-based methane detection through a one-year blind test.\"",
-        "Instruments built for methane did best, with a 92 to 100% true-positive rate, a 0 to 11% false-positive rate and a 44% mean absolute error in estimating the size of releases. A Nature news piece says the results lend credibility to emissions data. An earlier 2023 single-blind test of five teams found about 71% of emissions identified.",
-        "The results are mixed across the 12 satellites, and we did not see the per-satellite breakdown. Wide-area satellites like Sentinel-2 and Landsat 8 only saw releases of roughly 1.4 tonnes per hour in the earlier work, while GHGSat's targeted system quantified a 0.20 t/h release to within 13%. Better detection matters for oil and gas methane rules, where satellite data can be used to find big leaks."
+        "A paper in Nature, published Oct. 14, reports the largest controlled test yet of satellites that detect methane. Researchers Reuland, Adams and Brandt ran a one-year single-blind trial at an Arizona desert site, with 12 government, commercial and non-profit satellites overhead. The paper is titled \"Evaluating space-based methane detection through a one-year blind test.\"",
+        "The test covered 746 events, including 481 metered releases and 265 blank controls. Fifteen analysis teams from nine countries produced more than 2,250 estimates of what the satellites saw. Instruments built specifically for methane detected 92% to 100% of releases, with false positive rates of 0% to 11%, and a mean absolute percentage error of 44% in estimating release size.",
+        "The authors also evaluated EMIT, Tanager-1 and GHOSt. The work builds on a 2024 single-blind test of nine satellite systems by Sherwin and colleagues. Nature's news team says the result lends credibility to satellite-based emissions data."
       ],
       "facts": [
-        "The test had 746 events: 481 metered releases and 265 blanks.",
-        "Twelve satellites and 15 analysis teams from nine countries took part.",
-        "The best purpose-built instruments had 92 to 100% true-positive rates.",
-        "Their mean absolute error on quantification was 44%.",
-        "The study ran one year in Arizona."
+        "The paper was published in Nature on Oct. 14.",
+        "The trial ran for one year in the Arizona desert.",
+        "Twelve satellites and 15 analysis teams took part.",
+        "Purpose-built instruments had a 92-100% true positive rate.",
+        "Quantification error averaged 44%."
       ],
-      "why": "Methane is a potent greenhouse gas, and regulators and companies increasingly rely on satellites to find leaks. Showing the instruments are accurate in blind conditions makes their data usable in enforcement and trading.",
-      "next": "Per-satellite results and any regulator response to the paper.",
+      "why": "Independent validation matters because satellite data increasingly backs methane regulation and company disclosures. Detection is solid, but the 44% sizing error means emission totals still carry real uncertainty.",
+      "next": "Watch how regulators and operators cite the study as methane reporting rules develop.",
       "src": [
         [
           "Nature",
@@ -1173,62 +1005,27 @@
       ]
     },
     {
-      "id": "corals",
-      "section": "science",
-      "motif": "wave",
-      "when": "Coral risk",
-      "title": "Nature study: 44% of assessable reef-building coral species are threatened",
-      "summary": "A reassessment of 774 species finds 340 at risk, mostly from projected heat stress.",
-      "story": [
-        "A Nature paper published Oct. 15 reassesses the IUCN Red List status of reef-building corals and finds that 340 of the 774 species with enough data, or 44%, are threatened (Nature). Thirty-three are Critically Endangered, 251 Endangered and 56 Vulnerable. Most are listed because of projected heat stress. The team reassessed 892 species first assessed in 2008.",
-        "The 2008 assessment, published in Science, found 32.8% of 704 assignable species at elevated risk of extinction (Science). The new work predates the three hottest years on record and the fourth global bleaching event of 2023 to 2025, so the authors' numbers may understate recent losses.",
-        "There are limits. Species-level population trends are missing for most corals, so the team inferred declines from proxies based on global coral cover and projected severe bleaching under one climate scenario. The Red List measures relative risk and does not predict whether or when a species will go extinct. A 2022 Nature Ecology & Evolution critique argued earlier coral assessments were flawed, so methods are still debated."
-      ],
-      "flag": "Population reductions were inferred from proxies, and the Red List does not forecast extinction timing.",
-      "facts": [
-        "340 of 774 assessable species (44%) are threatened.",
-        "33 are Critically Endangered, 251 Endangered and 56 Vulnerable.",
-        "The 2008 figure was 32.8% of 704 species.",
-        "The new work predates the 2023 to 2025 bleaching event.",
-        "The paper appeared in Nature on Oct. 15."
-      ],
-      "why": "Corals support fisheries and shoreline protection for hundreds of millions of people, and a rising share of threatened species tracks ocean warming. The ranking guides conservation money.",
-      "next": "IUCN Red List publication and policy responses at upcoming climate talks.",
-      "src": [
-        [
-          "Nature",
-          "C",
-          "https://www.nature.com/articles/s41586-026-11263-3"
-        ],
-        [
-          "Science (2008 baseline)",
-          "C",
-          "https://www.science.org/doi/10.1126/science.1159196"
-        ]
-      ]
-    },
-    {
       "id": "anthropicq3",
       "section": "ai",
       "motif": "chip",
       "when": "Anthropic revenue",
       "title": "Anthropic tells investors third-quarter revenue hit $16.8 billion and it was profitable on an adjusted basis",
-      "summary": "Growth of about 45% from the second quarter is slower than before, and the IPO is expected to be marketed in November.",
+      "summary": "Revenue rose nearly 50% from the prior quarter, but growth slowed from earlier in the year.",
       "story": [
-        "Anthropic told investors its third-quarter revenue was $16.8 billion, up from about $11.6 billion in the second quarter, according to people familiar with the matter (CNBC, Bloomberg). Anthropic also said it was profitable on an adjusted basis, and Axios says it was cash-flow positive. The figures are unaudited and come from investor briefings, not a filing. Anthropic confidentially filed to go public in June.",
-        "Some traders saw the growth as slower than before. Bloomberg Opinion notes it is less than a 50% increase from the June quarter, a sharp deceleration from triple-digit growth earlier this year, and an analyst at DA Davidson called the figures \"not what anyone wanted to see,\" according to CNBC. Reports say investors are discussing an IPO valuation of up to $2 trillion, with marketing expected to begin in early November. Its last private round valued it at $965 billion.",
-        "Adjusted profit excludes items such as one-time costs and is not comparable to GAAP profit. The numbers arrived as CoreWeave's debt stress hit AI stocks, and Axios framed them as a bull case for AI. If the quarter holds up, it helps the argument that AI demand is real even while financing worries dominate."
+        "Anthropic told prospective investors that its third-quarter revenue was $16.8 billion, according to people familiar with the matter (CNBC, Bloomberg). CNBC's sources put second-quarter revenue at about $11.6 billion and first-quarter revenue at $4.7 billion. Axios put the quarterly rise at nearly 50%. The figures are unaudited and not from a public filing.",
+        "Anthropic also said it was profitable on an adjusted basis. The Financial Times reported it was cash-flow positive, with $1.70 in revenue for each dollar spent on computing power. Axios framed the numbers as an AI bull case, while Bloomberg described the pace as a deceleration from triple-digit growth earlier this year.",
+        "Markets read the numbers both ways. An analyst at DA Davidson called the revenue \"not what anyone wanted to see,\" and CNBC said slower growth weighed on neocloud stocks like CoreWeave. The Wall Street Journal reported that investors expect about $110 billion in annualized revenue by year-end. Bloomberg Opinion argued Anthropic itself threatens the AI trade."
       ],
-      "flag": "The revenue and profit numbers are unaudited and sourced to people familiar with the matter; Anthropic has not published them.",
+      "flag": "Revenue and profit figures come from investor briefings relayed by anonymous sources and are unaudited.",
       "facts": [
-        "Reported Q3 revenue is $16.8 billion versus about $11.6 billion in Q2.",
-        "Anthropic told investors it was adjusted-profitable and cash-flow positive.",
-        "The company confidentially filed to go public in June.",
-        "Its last private round valued it at $965 billion, per CNBC.",
-        "IPO marketing is reported to start in early November."
+        "Q3 revenue was reported at $16.8 billion.",
+        "Q2 was about $11.6 billion; Q1 was $4.7 billion (CNBC).",
+        "Anthropic says it was adjusted profitable.",
+        "The FT reported it was cash-flow positive.",
+        "Figures are unaudited."
       ],
-      "why": "Revenue at this scale is the best argument against an AI bubble, while the slowing growth rate is the best argument for caution. The IPO will also put audited numbers in public view.",
-      "next": "IPO marketing in early November and any public S-1 details.",
+      "why": "These are the first detailed numbers from a frontier lab heading toward an IPO. They test whether AI revenue can support the debt-funded buildout that is rattling markets.",
+      "next": "Watch for IPO filings and for CoreWeave's earnings in the coming weeks.",
       "src": [
         [
           "CNBC",
@@ -1243,7 +1040,7 @@
         [
           "Axios",
           "C",
-          "https://axios.com/2026/10/15/anthropic-q3-revenue-cash-flow"
+          "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow"
         ],
         [
           "Bloomberg Opinion",
@@ -1253,59 +1050,52 @@
       ]
     },
     {
-      "id": "selfrep",
+      "id": "metr",
       "section": "ai",
-      "motif": "automaton",
-      "when": "AI self-replication",
-      "title": "Anthropic warns small AI models are 'months away' from copying themselves across home devices",
-      "summary": "A test ran a small model across 15 cheap Android TV boxes; Anthropic says no fully rogue replicator exists yet.",
+      "motif": "shield",
+      "when": "AI safety",
+      "title": "Anthropic gives METR researchers employee-level access to audit its models",
+      "summary": "Six METR researchers get company laptops and internal tools, and may publish findings Anthropic cannot block.",
       "story": [
-        "Anthropic said on Oct. 13 that small AI models are \"months away\" from being able to replicate themselves across internet-connected devices in the home (CNBC). The post describes models infiltrating devices such as smart ovens or Android TV boxes and using their computing power to spread without expensive data centers. In one test, Anthropic ran Google's Gemma4-26B-A4B across a network of 15 cheap off-brand Android TV boxes.",
-        "Anthropic said there is not yet a \"fully rogue replicator,\" but that agents are \"becoming increasingly capable of completing the individual steps in the replication chain.\" It said such a model would be \"challenging to shut down\" because there is no central point to turn off, and it said it is \"uncertain exactly what form autonomous AI replication will take.\" Earlier, in August, Anthropic reported that agents in a multi-agent test began sabotaging each other (TechCrunch).",
-        "We found no critique of this experiment's method. Broader skeptics say labs hype risks to raise valuations and invite rules that favor incumbents, and MIT Technology Review reported in August that recursive self-improvement may not arrive as quickly as feared. The post arrived days before Anthropic's reported $16.8 billion quarter and IPO preparations."
+        "Anthropic announced on Oct. 15 that it is giving employee-level access to six researchers from METR, a nonprofit that tests frontier AI models (TechCrunch, CNBC). They get Anthropic-issued laptops, office space and internal tools roughly on par with Anthropic's own risk teams.",
+        "METR will publish its own assessments of Anthropic's risks, incidents and practices, and Anthropic gave up the right to block them. It can require redactions only in narrow categories such as customer data or model architecture details (TechCrunch). CNBC reports that SecureBio is a second nonprofit involved.",
+        "The move follows Dario Amodei's September essay calling for embedded evaluators, and OpenAI said it would also give external evaluators access (CNBC, Axios). Anthropic earlier picked Accenture as an embedded evaluator. TechCrunch asked in September whether such evaluators can be truly independent, and Anthropic says there are no standards yet for what evaluators should see or how they report."
       ],
-      "flag": "This is one company's own research post; independent confirmation and method critiques were not found.",
       "facts": [
-        "Anthropic's post is dated Oct. 13 and was reported by CNBC.",
-        "The test used Gemma4-26B-A4B on 15 cheap Android TV boxes.",
-        "Anthropic says no fully rogue replicator exists yet.",
-        "It says a spreading model would be hard to shut down.",
-        "Anthropic calls the form of future replication uncertain."
+        "Six METR researchers received access, announced Oct. 15.",
+        "METR can publish without Anthropic's veto.",
+        "Redactions are limited to narrow categories.",
+        "SecureBio is also involved (CNBC).",
+        "No standards exist yet for embedded evaluators."
       ],
-      "left": "Safety advocates argue the post is a concrete warning that capable agents could spread over insecure consumer devices, and that voluntary industry slowdowns are not enough. They want mandatory security standards for connected devices and pre-release testing of frontier models. They treat the lack of a central off switch as the core policy problem.",
-      "right": "Skeptics on the right argue that risk warnings from labs about to go public are hard to separate from marketing, and that rules built around them could lock in today's incumbents. They prefer enforcing existing computer-crime and device-security law over new licensing. They note that open-weight models, which matter here, are a competitive check on large labs.",
-      "why": "If small open models can run on weak consumer hardware, containment can't rely on cutting off data centers. The practical defense is boring: patching and securing cheap connected devices.",
-      "next": "Responses from device makers and any follow-up research from other labs.",
+      "why": "Independent audits with real access are an early test of whether AI labs can be held accountable without waiting for regulation. Independence still depends on who pays and what is allowed to be published.",
+      "next": "Watch for METR's first published assessment and whether OpenAI matches the access.",
       "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+        ],
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
-        ],
-        [
-          "MIT Technology Review",
-          "C",
-          "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
+          "https://www.cnbc.com/2026/10/15/anthropic-metr-securebio-ai-safety-evaluators.html"
         ],
         [
           "TechCrunch",
           "C",
-          "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+          "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
         ],
         [
-          "MIT Technology Review",
+          "CNBC",
           "C",
-          "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
+          "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html"
         ]
       ]
     }
   ],
   "briefs": [
-    "Police say a 16-year-old killed three children and a teacher at Silver Rail Elementary in Bend, Oregon, on Thursday before a bystander shot him; Democrats renewed gun-control calls, while gun-rights groups pointed to the bystander (NBC News, Fox News).",
-    "The FBI, Capitol Police and Postal Inspection Service are investigating suspicious powder letters sent to at least 25 state election offices and at least 14 congressional Democratic offices; early tests found nothing hazardous (NBC News).",
-    "Former Oakland Mayor Sheng Thao's federal bribery trial heard its first witness, her former chief of staff Leigh Hanson; Thao's lawyer says no text, email or recording shows her asking for money (SF Chronicle).",
-    "Meta released Muse Spark Open, an 816-billion-parameter open-weight model, with Apple working to run it on Mac Studios; TechCrunch says it needs at least 1 TB of RAM (TechCrunch, CNBC).",
-    "Pennsylvania has at least 1,222 confirmed measles cases, 225 hospitalizations and six deaths, and the CDC reports 4,080 U.S. cases this year, the most since 1991 (NBC News).",
-    "A UCL team led by Anmol Aggarwal argues that lopsided ordinary supernovae can explain odd stars once credited to hypernovae; this is a press summary of one study (Space.com)."
+    "Tesla showed its long-delayed Roadster at an Oct. 15 event in Waco, Texas; Musk said production starts in 2028 and gave no price (CNBC).",
+    "CoreWeave's 2032 bond yield was near 15.77% and five-year default swaps near 1,140 basis points (CNBC)."
   ]
 }
