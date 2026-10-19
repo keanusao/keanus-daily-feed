@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-19T00:46:53Z",
+  "updatedAt": "2026-10-19T01:38:43Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 61.4,
-      "feels": 58.8,
-      "hum": 82,
-      "wind": 10.7,
-      "cond": "clear"
+      "temp": 59.3,
+      "feels": 57.3,
+      "hum": 89,
+      "wind": 9.4,
+      "cond": "partly"
     },
     "days": [
       {
         "date": "2026-10-17",
         "hi": 88,
-        "lo": 59,
+        "lo": 58,
         "cond": "clear",
         "pop": 0
       },
@@ -22,13 +22,13 @@
         "date": "2026-10-18",
         "hi": 73,
         "lo": 54,
-        "cond": "fog",
+        "cond": "cloudy",
         "pop": 1
       },
       {
         "date": "2026-10-19",
         "hi": 64,
-        "lo": 54,
+        "lo": 53,
         "cond": "cloudy",
         "pop": 2
       },
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Sun Oct 18, 8:36 PM ET",
+    "asOf": "Sun Oct 18, 9:28 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$97.53",
-        "raw": 97.53,
-        "change": "-1.50%",
+        "price": "$97.74",
+        "raw": 97.74,
+        "change": "-1.29%",
         "dir": "down",
-        "time": 1792370211,
+        "time": 1792373325,
         "spark": [
           100.3,
           95.78,
@@ -228,17 +228,17 @@
           95.09,
           97.97,
           101.41,
-          97.53
+          97.74
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$82,423",
-        "raw": 82422.82,
-        "change": "+0.50%",
+        "price": "$82,321",
+        "raw": 82321.09,
+        "change": "+0.38%",
         "dir": "up",
-        "time": 1792370809,
+        "time": 1792373920,
         "spark": [
           81233.68,
           81142.61,
@@ -269,7 +269,7 @@
           82141.46,
           81500.8,
           81382.15,
-          82422.82
+          82321.09
         ]
       }
     ],
