@@ -1,23 +1,16 @@
 {
-  "updatedAt": "2026-10-19T06:48:29Z",
+  "updatedAt": "2026-10-19T07:52:11Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 56.8,
-      "feels": 54.7,
-      "hum": 84,
-      "wind": 6.5,
-      "cond": "partly"
+      "temp": 57.1,
+      "feels": 55.7,
+      "hum": 87,
+      "wind": 5.7,
+      "cond": "cloudy"
     },
     "days": [
-      {
-        "date": "2026-10-17",
-        "hi": 88,
-        "lo": 58,
-        "cond": "clear",
-        "pop": 0
-      },
       {
         "date": "2026-10-18",
         "hi": 73,
@@ -59,11 +52,18 @@
         "lo": 55,
         "cond": "clear",
         "pop": 1
+      },
+      {
+        "date": "2026-10-24",
+        "hi": 80,
+        "lo": 57,
+        "cond": "cloudy",
+        "pop": 12
       }
     ]
   },
   "markets": {
-    "asOf": "Mon Oct 19, 2:38 AM ET",
+    "asOf": "Mon Oct 19, 3:42 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$97.07",
-        "raw": 97.07,
-        "change": "-1.97%",
+        "price": "$96.99",
+        "raw": 96.99,
+        "change": "-2.05%",
         "dir": "down",
-        "time": 1792391899,
+        "time": 1792395726,
         "spark": [
           95.78,
           94.59,
@@ -227,17 +227,17 @@
           95.09,
           97.97,
           101.41,
-          97.07
+          96.99
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$82,718",
-        "raw": 82718.36,
-        "change": "+0.86%",
+        "price": "$82,634",
+        "raw": 82634.32,
+        "change": "+0.76%",
         "dir": "up",
-        "time": 1792392506,
+        "time": 1792396325,
         "spark": [
           81233.68,
           81142.61,
@@ -268,7 +268,8 @@
           82141.46,
           81500.8,
           81382.15,
-          82718.36
+          82017.6,
+          82634.32
         ]
       }
     ],
