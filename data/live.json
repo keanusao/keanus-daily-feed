@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-19T10:37:51Z",
+  "updatedAt": "2026-10-19T11:37:37Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 56.9,
-      "feels": 55.5,
-      "hum": 83,
-      "wind": 4.7,
-      "cond": "partly"
+      "temp": 56.6,
+      "feels": 54.5,
+      "hum": 82,
+      "wind": 5.7,
+      "cond": "cloudy"
     },
     "days": [
       {
@@ -34,36 +34,36 @@
       },
       {
         "date": "2026-10-21",
-        "hi": 62,
-        "lo": 57,
-        "cond": "rain",
+        "hi": 70,
+        "lo": 60,
+        "cond": "drizzle",
         "pop": 50
       },
       {
         "date": "2026-10-22",
-        "hi": 69,
-        "lo": 56,
-        "cond": "cloudy",
+        "hi": 68,
+        "lo": 58,
+        "cond": "drizzle",
         "pop": 24
       },
       {
         "date": "2026-10-23",
-        "hi": 75,
-        "lo": 55,
-        "cond": "clear",
+        "hi": 73,
+        "lo": 56,
+        "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-10-24",
         "hi": 80,
         "lo": 57,
-        "cond": "cloudy",
+        "cond": "partly",
         "pop": 10
       }
     ]
   },
   "markets": {
-    "asOf": "Mon Oct 19, 6:27 AM ET",
+    "asOf": "Mon Oct 19, 7:27 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$98.34",
-        "raw": 98.34,
-        "change": "-0.69%",
+        "price": "$98.15",
+        "raw": 98.15,
+        "change": "-0.88%",
         "dir": "down",
-        "time": 1792405669,
+        "time": 1792409257,
         "spark": [
           95.78,
           94.59,
@@ -227,17 +227,17 @@
           95.09,
           97.97,
           101.41,
-          98.36
+          98.15
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$82,132",
-        "raw": 82132.17,
+        "price": "$82,133",
+        "raw": 82132.95,
         "change": "+0.15%",
         "dir": "up",
-        "time": 1792406269,
+        "time": 1792409856,
         "spark": [
           81233.68,
           81142.61,
@@ -269,7 +269,7 @@
           81500.8,
           81382.15,
           82017.6,
-          82132.17
+          82132.95
         ]
       }
     ],
@@ -475,7 +475,7 @@
     ]
   },
   "earnings": {
-    "checkedAt": "2026-10-18T15:31:05Z",
+    "checkedAt": "2026-10-19T11:37:37Z",
     "symbols": [
       "NVDA",
       "AAPL",
@@ -503,7 +503,7 @@
       {
         "symbol": "AMZN",
         "date": "2026-10-29",
-        "when": ""
+        "when": "after close"
       },
       {
         "symbol": "AAPL",
