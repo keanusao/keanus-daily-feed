@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-20T01:39:36Z",
+  "updatedAt": "2026-10-20T02:35:06Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 59.3,
-      "feels": 55.7,
-      "hum": 65,
-      "wind": 7.1,
+      "temp": 59.0,
+      "feels": 54.9,
+      "hum": 66,
+      "wind": 8.1,
       "cond": "cloudy"
     },
     "days": [
@@ -27,16 +27,16 @@
       },
       {
         "date": "2026-10-20",
-        "hi": 71,
-        "lo": 50,
+        "hi": 70,
+        "lo": 51,
         "cond": "cloudy",
         "pop": 5
       },
       {
         "date": "2026-10-21",
-        "hi": 69,
-        "lo": 52,
-        "cond": "drizzle",
+        "hi": 68,
+        "lo": 54,
+        "cond": "rain",
         "pop": 46
       },
       {
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Mon Oct 19, 9:29 PM ET",
+    "asOf": "Mon Oct 19, 10:25 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -196,11 +196,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$98.92",
-        "raw": 98.92,
-        "change": "+0.39%",
-        "dir": "up",
-        "time": 1792459774,
+        "price": "$98.46",
+        "raw": 98.46,
+        "change": "-0.08%",
+        "dir": "down",
+        "time": 1792463100,
         "spark": [
           95.78,
           94.59,
@@ -222,17 +222,18 @@
           95.09,
           97.97,
           101.41,
-          98.92
+          103.66,
+          98.46
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,539",
-        "raw": 81539.01,
-        "change": "-0.37%",
+        "price": "$81,587",
+        "raw": 81587.0,
+        "change": "-0.31%",
         "dir": "down",
-        "time": 1792460372,
+        "time": 1792463694,
         "spark": [
           81142.61,
           86602.91,
@@ -263,7 +264,7 @@
           81500.8,
           81382.15,
           82017.6,
-          81539.01
+          81594.27
         ]
       }
     ],
