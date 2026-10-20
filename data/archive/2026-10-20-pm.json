@@ -1,0 +1,1330 @@
+{
+  "updatedAt": "2026-10-20T23:08:30Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, state workers strike tomorrow, the Fed meets next week and the midterms are two weeks away. **California state workers plan their first-ever strike Wednesday**, with pickets in Oakland, San Francisco and Sacramento and possible DMV delays (CalMatters, KQED). Cook moved three Senate races and a Reuters/Ipsos poll put **Trump's approval at 31%**, while Kansas is now a toss-up (CNN, The Hill, NPR). Twelve senators of both parties are pressing Trump to reverse his Russia sanctions waiver, and Trump said it is \"time for somebody else to negotiate on behalf of Ukraine\" (The Hill, Fox News, CNN). The White House says it **will not attack Iran before Nov. 3**, and Trump endorsed Netanyahu nine days before Israel's Oct. 27 vote (Fox News, Axios). The **Dow rose 1.02% to 52,495.88** on 3M's raised outlook, the S&P 500 gained 0.28% and the Nasdaq slipped 0.02% (CNBC). **SpaceX beat estimates and Musk confirmed merger committees with Tesla**, which reports Wednesday after the close (CNBC, Axios). September CPI hit 3.7%, and most analysts expect a Fed hold on Oct. 28 with a December hike more likely (CNBC, Axios). A NASA-led model says **Thwaites Glacier could add twice the sea-level rise** once grounding zones are modeled (NASA). Eight states sued OpenAI over ChatGPT safety, and the FTC is probing OpenAI and Anthropic (CNBC, Axios).",
+  "alerts": [
+    {
+      "text": "SEIU Local 1000's one-day state worker strike starts Wednesday morning; expect possible DMV and EDD delays unless a deal lands first.",
+      "level": "high",
+      "story": "seiustrike"
+    },
+    {
+      "text": "Tesla reports after the close Wednesday, and Musk says special committees are weighing a SpaceX merger.",
+      "level": "watch",
+      "story": "spacextesla"
+    },
+    {
+      "text": "The Fed meets Oct. 27-28 and Microsoft and Alphabet report that evening; Israel votes Oct. 27.",
+      "level": "watch",
+      "story": "fedhold"
+    },
+    {
+      "text": "The Kansas Senate debate between Marshall and Hamilton is Wednesday, Oct. 21.",
+      "level": "info",
+      "story": "midterms"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "seiustrike",
+      "text": "California state workers plan their first-ever strike Wednesday; DMV and EDD delays likely."
+    },
+    {
+      "story": "midterms",
+      "text": "Cook shifts three Senate races; Trump approval hits 31% in Reuters/Ipsos."
+    },
+    {
+      "story": "iranwar",
+      "text": "White House says no Iran attack before midterms; Trump endorses Netanyahu."
+    },
+    {
+      "story": "spacextesla",
+      "text": "SpaceX beats estimates; Musk confirms Tesla merger committees before Tesla earnings."
+    },
+    {
+      "story": "thwaites",
+      "text": "NASA-led model projects Thwaites could add up to 30 mm of sea-level rise."
+    }
+  ],
+  "stat": {
+    "label": "10-year Treasury yield",
+    "value": "5.12%",
+    "note": "Above 5% since late September; Fed meets Oct. 27-28."
+  },
+  "markets": {
+    "asOf": "Tue Oct 20, 6:23 PM ET",
+    "wrap": "Stocks ended mixed Tuesday as earnings lifted the **Dow 1.02% to 52,495.88** while the Nasdaq slipped 0.02% (CNBC). 3M jumped more than 5% after beating estimates and raising its full-year outlook (CNBC, Bloomberg). The S&P 500 rose 0.28% to 7,712.57, recovering some of last week's rout over AI borrowing worries. After the close, SpaceX beat revenue and earnings estimates and Musk confirmed **special committees are weighing a Tesla merger** (CNBC, Axios). Crude settled near $98 and the 10-year yield was 5.12%.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,712.57",
+        "raw": 7712.57,
+        "change": "+0.28%",
+        "dir": "up",
+        "time": 1792529145,
+        "spark": [
+          7764.7,
+          7764.64,
+          7706.03,
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,495.88",
+        "raw": 52495.88,
+        "change": "+1.02%",
+        "dir": "up",
+        "time": 1792529163,
+        "spark": [
+          52048.83,
+          51863.69,
+          51511.59,
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,424.82",
+        "raw": 26424.816,
+        "change": "-0.02%",
+        "dir": "down",
+        "time": 1792530959,
+        "spark": [
+          27122.09,
+          27244.28,
+          26936.04,
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.12%",
+        "raw": 5.117,
+        "change": "-0.37%",
+        "dir": "down",
+        "time": 1792522794,
+        "spark": [
+          4.96,
+          4.97,
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$98.02",
+        "raw": 98.02,
+        "change": "+0.20%",
+        "dir": "up",
+        "time": 1792535025,
+        "spark": [
+          95.78,
+          94.59,
+          92.16,
+          94.61,
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          98.02
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$82,957",
+        "raw": 82956.81,
+        "change": "+1.36%",
+        "dir": "up",
+        "time": 1792535665,
+        "spark": [
+          81142.61,
+          86602.91,
+          86172.28,
+          84383.01,
+          84379.06,
+          84034.92,
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82956.81
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$216.47",
+        "raw": 216.47,
+        "change": "-0.29%",
+        "dir": "down",
+        "time": 1792526401,
+        "spark": [
+          227.38,
+          228.87,
+          225.51,
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$339.50",
+        "raw": 339.5,
+        "change": "-1.00%",
+        "dir": "down",
+        "time": 1792526401,
+        "spark": [
+          338.98,
+          339.75,
+          337.02,
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$531.87",
+        "raw": 531.87,
+        "change": "-0.31%",
+        "dir": "down",
+        "time": 1792526401,
+        "spark": [
+          501.61,
+          498.0,
+          500.59,
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$340.27",
+        "raw": 340.275,
+        "change": "-1.13%",
+        "dir": "down",
+        "time": 1792526401,
+        "spark": [
+          354.97,
+          351.16,
+          337.83,
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.27
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$373.71",
+        "raw": 373.71,
+        "change": "+1.54%",
+        "dir": "up",
+        "time": 1792526400,
+        "spark": [
+          375.3,
+          378.9,
+          380.12,
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$262.63",
+        "raw": 262.63,
+        "change": "+0.07%",
+        "dir": "up",
+        "time": 1792526401,
+        "spark": [
+          258.45,
+          254.98,
+          249.27,
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "TSLA",
+      "date": "2026-10-21",
+      "when": "after close"
+    },
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": "after close"
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 70.1,
+      "feels": 68.0,
+      "hum": 51,
+      "wind": 6.0,
+      "cond": "partly"
+    },
+    "days": [
+      {
+        "date": "2026-10-19",
+        "hi": 66,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-10-20",
+        "hi": 70,
+        "lo": 52,
+        "cond": "cloudy",
+        "pop": 4
+      },
+      {
+        "date": "2026-10-21",
+        "hi": 70,
+        "lo": 53,
+        "cond": "cloudy",
+        "pop": 17
+      },
+      {
+        "date": "2026-10-22",
+        "hi": 61,
+        "lo": 52,
+        "cond": "drizzle",
+        "pop": 51
+      },
+      {
+        "date": "2026-10-23",
+        "hi": 72,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-24",
+        "hi": 77,
+        "lo": 55,
+        "cond": "clear",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-25",
+        "hi": 81,
+        "lo": 59,
+        "cond": "clear",
+        "pop": 0
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "russiawaiver",
+      "section": "politics",
+      "motif": "scroll",
+      "thread": "russia-diesel",
+      "when": "Sanctions waiver",
+      "title": "Senators from both parties press Trump to reverse his Russia sanctions waiver",
+      "summary": "Trump waived more Russia-related sanctions on top of a diesel export deal, and a bipartisan Senate group calls it a betrayal of allies.",
+      "story": [
+        "Trump has waived a further set of Russia-related sanctions before they took effect, and a bipartisan group of senators wants him to reverse course. The move came on top of a Russian diesel export deal announced Oct. 9. A letter from 12 senators, including Republicans Mitch McConnell, John Cornyn, Thom Tillis, Lisa Murkowski and Susan Collins, called the diesel deal a betrayal of allies that would fund Putin's war machine (The Hill, Fox News). CNN reported that the waiver also drew criticism from Ukraine.",
+        "Trump says easing sanctions is a way to lure Putin toward a peace deal and to bring Americans fuel price relief (Fox News). The size of the diesel deal is disputed. Trump's own post cited 300,000 tons immediately, with 500,000 more promised in November, while The Hill reported 2.2 million to 2.5 million tons in different pieces. A Stanford economist told The Hill the volume is a drop in the bucket compared with U.S. demand.",
+        "Republican criticism has been blunt. Tillis called the waiver \"beyond irresponsible,\" and Armed Services Chair Roger Wicker said he was \"not overly delighted with the deal on diesel\" (The Hill). Democrat Richard Blumenthal, who helped draft the sanctions bill, said the waivers were about \"sucking up to Vladimir Putin.\" Majority Whip John Barrasso did not say whether he backed the deal and blamed Democrats for limiting domestic oil production."
+      ],
+      "facts": [
+        "The Russian diesel deal was announced Oct. 9, according to The Hill.",
+        "Trump later waived a further set of Russia-related sanctions before they took effect, according to CNN.",
+        "Twelve senators signed a letter calling the diesel deal a betrayal of allies.",
+        "Trump's post cited 300,000 tons of diesel now and 500,000 more in November.",
+        "The Hill reported larger volumes, 2.2 million to 2.5 million tons."
+      ],
+      "left": "Democrats say the waivers hand Putin money and legitimacy while he keeps bombing Ukraine. They argue a president should not quietly void sanctions Congress has pressed for. Blumenthal's charge is that the policy serves Putin, not American drivers. A sanctions regime that bends whenever Moscow gestures at talks, they say, stops being leverage.",
+      "right": "Supporters of the deal say Trump is using the one tool a president controls, flexibility, to pull Moscow toward talks and to ease fuel costs before the midterms. Conservative hawks are not buying it. Wicker and Tillis argue that rewarding Russia while Ukraine is being squeezed weakens deterrence, and that Congress was owed consultation. Even friendly voices doubt the volumes will move U.S. prices much.",
+      "next": "Watch whether Senate Republicans move to force a vote on the waivers, and whether the November diesel tranche goes ahead.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6146695-senate-gop-criticize-russia-diesel-deal/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-tries-different-approach-russia-bring-americans-relief-amid-ongoing-war-ukraine"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/10/16/europe/us-ukraine-russia-sanctions-intl-hnk"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6145760-trump-russian-diesel-ukraine-gas-prices/"
+        ]
+      ]
+    },
+    {
+      "id": "midterms",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Two weeks out",
+      "title": "Cook shifts three Senate races as Trump's approval hits a record low in one poll",
+      "summary": "Cook moved South Carolina and Mississippi toward Democrats and Minnesota toward Republicans, while Trump campaigns in red states with two weeks to go.",
+      "story": [
+        "Cook Political Report shifted three Senate races on Tuesday, 14 days before the Nov. 3 election. South Carolina moved from likely Republican to lean Republican, Mississippi from solid Republican to likely Republican, and Minnesota from likely Democratic to lean Democratic (CNN, The Hill). A Reuters/Ipsos poll conducted Oct. 16-19 put Trump's approval at 31%, a record low in that survey, according to The Hill. Trump held a rally in Kansas on Monday and is scheduled in North Carolina (Fox News, NBC News).",
+        "Kansas has become an unlikely battleground. Sen. Roger Marshall faces Adam Hamilton, a Methodist pastor who was a Republican until earlier this year. NPR calls the race a toss-up and reports that disgruntled farmers may help flip the seat, and the Kansas Livestock Association has pulled its endorsement of Marshall. Polls conflict: one average has Marshall up 0.3 points and another poll shows Hamilton ahead by 2. The two debate on Oct. 21.",
+        "At the Park City rally Trump said polls showing a close race are \"fake\" and the race \"shouldn't be\" close. The Washington Examiner reported that he again used an antisemitic slur about Marshall's past medical billing. Trump has also said he spent over $300 million to help Republicans (The Hill). Fox News reports Speaker Mike Johnson insisting Republicans will keep the House despite voter frustration over prices and the Iran war, while Hakeem Jeffries says Democrats have momentum."
+      ],
+      "facts": [
+        "Election Day is Nov. 3.",
+        "Cook moved South Carolina to lean Republican and Mississippi to likely Republican.",
+        "Cook moved Minnesota from likely Democratic to lean Democratic.",
+        "Reuters/Ipsos, Oct. 16-19, put Trump's approval at 31%.",
+        "The Kansas Senate debate between Marshall and Hamilton is Oct. 21."
+      ],
+      "left": "Democrats read the Cook shifts and Trump's 31% as proof that affordability, the Iran war and tariffs are costing Republicans even in safe seats. Kansas farmers hurt by trade fights are the clearest example. They argue oversight of the administration is the central issue, and that a president rallying in Kansas two weeks out is playing defense.",
+      "right": "Republicans point out that Minnesota moved toward them and that Cook still rates Kansas, Iowa and Michigan as toss-ups, not Democratic leans. They argue that single polls swing wildly, that Trump's rallies turn out voters polls miss, and that Democrats offer higher costs and open borders. Johnson says the House stays red because voters will weigh candidates, not just the president's approval.",
+      "next": "Marshall and Hamilton debate Oct. 21. Trump also campaigns in North Carolina this week.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6160752-cook-political-report-moves-races/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6159609-trump-approval-record-low-reuters-ipsos"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/19/nx-s1-6007796/the-kansas-senate-race-is-looking-like-a-toss-up-yes-really"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4771737/trump-antisemitic-shylock-slur-kansas-rally/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/midterm-elections-2026-trump-kansas-latino-voters-october-19"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-kansas-vance-congress-2026-midterm-live-updates-rcna604283"
+        ]
+      ]
+    },
+    {
+      "id": "californiavoters",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Voter rolls",
+      "title": "Prosecutors charge 28 California green card holders as DOJ sues over voter rolls",
+      "summary": "Federal prosecutors charged 28 green card holders with illegal voting or registering, while California officials dispute a Justice Department lawsuit over alleged noncitizen ballots.",
+      "story": [
+        "Federal prosecutors announced charges on Monday, Oct. 19, against 28 California green card holders accused of illegally voting or registering to vote. Of them, 22 are accused of voting in at least one election, including as recently as the June primary, five only registered, and one cast a provisional ballot in 2020 (CalMatters, KQED). Acting Deputy Attorney General Trent McCotter said each defendant appears on a federal list of people it considers likely noncitizens.",
+        "The charges follow a separate Justice Department lawsuit asking a judge to bar California from counting mail-in ballots from people on that list until their status is confirmed. Prosecutors say the list covers about 20,000 registered voters. That is far fewer than the 190,000 that DHS flagged over the summer, as CalMatters noted. The SF Chronicle asked whether the small number of cases shows voter fraud in California is a non-factor.",
+        "Secretary of State Shirley Weber says the federal government has provided no evidence for its claims, and Attorney General Rob Bonta says the state will not withhold ballots. Election law expert David Becker called the suit \"fairly frivolous.\" The Washington Examiner framed the arrests as an intensifying federal crackdown. Bill Essayli, who oversees federal prosecutors in Los Angeles, said federal prosecutors have charged roughly 113 noncitizens in 20 states in two months, and that election officials could face charges if they allowed noncitizens to vote."
+      ],
+      "facts": [
+        "The charges were announced Oct. 19.",
+        "Twenty-two defendants are accused of voting, five of registering only and one of casting a provisional ballot in 2020.",
+        "The DOJ list covers about 20,000 registered voters, down from the 190,000 DHS flagged over the summer.",
+        "Outside experts note that voter fraud is exceedingly rare.",
+        "California officials say they will not withhold ballots."
+      ],
+      "left": "Progressives say this is intimidation timed to the election. The list shrank from 190,000 to 20,000, the cases amount to a few dozen out of millions of voters. Asking a court to stop counting ballots from legal residents risks disenfranchising citizens whose names match the list.",
+      "right": "Conservatives argue that noncitizen voting is illegal whatever the number, and that these are federal charges backed by a list of identified individuals, not rumor. Even a few dozen cases in a primary show the state's verification is weak, they say. Their position is that states which won't check rolls invite federal action, and that close elections are decided by small margins.",
+      "next": "Watch for a ruling on the DOJ motion before Nov. 3 and for the defendants' first court appearances.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/california-federal-arrests-voter-fraud/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12105139/federal-prosecutors-charge-28-california-green-card-holders-with-voting-violations"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/justice/4770658/federal-voter-fraud-arrests-intensify-california-clash-days-after-doj-warned-election-officials/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/california/article/trump-doj-california-voter-fraud-22485420.php"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/news/politics/article/trump-administration-sues-california-over-alleged-22478806.php"
+        ]
+      ]
+    },
+    {
+      "id": "seiustrike",
+      "section": "local",
+      "motif": "shield",
+      "thread": "ca-state-strike",
+      "when": "Strike Wednesday",
+      "title": "California's largest state worker union plans its first strike on Wednesday",
+      "summary": "SEIU Local 1000 plans a one-day strike on Oct. 21, with pickets in Oakland, San Francisco and Sacramento, and the state says it is open to mediation.",
+      "story": [
+        "SEIU Local 1000, California's largest state worker union, plans a one-day strike on Wednesday, Oct. 21, the first in its history. About 100,000 state employees belong to the union, and about 95,000 can legally take part, while about 5,000 are excluded (CalMatters, KQED). Members authorized the walkout with 96% support. The union says the state bargained in bad faith. Its contract expired June 30. It wants higher pay, more affordable health coverage and more telework flexibility.",
+        "Pickets and rallies are planned in more than a dozen cities, including Oakland, San Francisco, Los Angeles, San Diego and Sacramento, where members will march to lawmakers' offices near the Capitol. CalMatters reports the likely effects include delayed service at the DMV and the unemployment and disability insurance offices. The union could call off the strike at any time before Wednesday. In 2016 members also authorized a strike, and a deal came days before the walkout.",
+        "The California Department of Human Resources says it remains willing to negotiate, is prepared to move into mediation and is focused on keeping essential services running. The union says \"Administrations change, but our demands won't.\" Telework is a flashpoint. CalMatters reported in September that Newsom vetoed a bill to loosen work-from-home rules for state workers. This is Newsom's last year in office. I found no reporting yet showing a deal or a cancellation."
+      ],
+      "facts": [
+        "The strike is a one-day action on Wednesday, Oct. 21.",
+        "The union represents about 100,000 state workers, and 96% of voters authorized the strike.",
+        "About 95,000 workers can legally participate.",
+        "The union's contract expired June 30.",
+        "The state says it is ready for mediation."
+      ],
+      "left": "Labor advocates say state workers have gone months without a contract while living costs in places like the Bay Area climb. Reversing remote work after workers rearranged their lives, they argue, is a pay cut by another name. A first-ever strike signals how far talks have broken down, and they put the blame on a governor who vetoed the telework bill.",
+      "right": "Fiscal conservatives note the state faces budget pressure and that taxpayers fund every raise. They question a strike by public employees who cannot be replaced and who serve residents with no alternative, such as DMV customers. Many see the office-attendance push as a reasonable expectation of public servants and view the walkout as leverage timed to Newsom's exit.",
+      "next": "Wednesday Oct. 21: pickets begin in the morning. Watch for a mediation announcement or a last-minute deal.",
+      "blindspot": "Only center and left-leaning outlets covered this in my search; I found no right-leaning reporting on the strike itself.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/economy/2026/10/state-worker-strike-dmv-edd-services/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/economy/2026/10/seiu-local-1000-strike-authorization/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12103583/californias-largest-public-sector-union-set-to-strike-later-this-month"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/09/newsom-veto-telework-bill/"
+        ]
+      ]
+    },
+    {
+      "id": "billionairetax",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Prop 40 vs 42",
+      "title": "Newsom endorses Prop. 42, a ban on wealth taxes that would cancel the billionaire tax",
+      "summary": "Newsom opposes Prop. 40 and backs Prop. 42, splitting from the state Democratic Party and labor groups that endorse the billionaire tax.",
+      "story": [
+        "Gov. Gavin Newsom has endorsed Proposition 42, a Nov. 3 ballot measure that would bar future wealth taxes and cancel out Proposition 40, the billionaire tax, according to CalMatters. Prop. 40 would levy a one-time 5% tax on California residents with a net worth above $1 billion. Newsom opposes it. The California Democratic Party and the state Labor Federation endorse Prop. 40, so the governor is split from much of his own party (KQED, CalMatters).",
+        "Prop. 42 would bar new taxes on personal property such as businesses, investments, retirement accounts, trusts and art, and would prohibit retroactive taxes, which blocks a key part of Prop. 40. A group that includes Google co-founder Sergey Brin helped fund the counter-measures and has raised $131 million to campaign for Props. 41 and 42, CalMatters reported. CalMatters also reported separately that Prop. 40 might not become law even if it passes, because of the competing measure.",
+        "Critics responded sharply. Actor Mark Ruffalo called Newsom's stance \"disqualifying\" (Fox Business), and Rep. Ro Khanna objected to the endorsement. Backers of Prop. 42 say middle-class retirement savings should never be taxed as assets. The CalMatters piece notes no proposal currently targets such accounts. Newsom, Xavier Becerra and the California Teachers Association oppose Prop. 40."
+      ],
+      "facts": [
+        "Prop. 40 is a one-time 5% tax on residents worth more than $1 billion.",
+        "Prop. 42 would ban new wealth taxes and retroactive taxes.",
+        "The California Democratic Party and Labor Federation endorse Prop. 40.",
+        "Backers of Props. 41 and 42 have raised $131 million.",
+        "Election Day is Nov. 3."
+      ],
+      "left": "Supporters of Prop. 40 argue that the wealthiest Californians pay a low share of their true wealth, and that a one-time tax could fund health care and schools at a time of federal cuts. They see Prop. 42 as a billionaire-funded trap that would lock in tax avoidance in the constitution, and Newsom's endorsement as taking sides with donors against his own party.",
+      "right": "Opponents of Prop. 40 warn that taxing unrealized wealth is a one-way door. Founders and their capital leave, the state's income tax base shrinks, and the tax can reach well beyond billionaires once the principle is set. They say Prop. 42 protects retirement accounts and small businesses from the next expansion, and that Newsom is acting on the lesson that California cannot afford capital flight.",
+      "next": "Ballots are due Nov. 3. Watch whether Kamala Harris and Nancy Pelosi, who had not weighed in as of the latest SF Chronicle report, take a position.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12093726/california-democratic-party-endorses-billionaire-tax-splitting-with-newsom"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/mark-ruffalo-calls-gavin-newsoms-billionaire-tax-stance-disqualifying-ahead-california-vote"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/joegarofoli/article/pelosi-harris-prop-40-california-22476930.php"
+        ]
+      ]
+    },
+    {
+      "id": "iranwar",
+      "section": "world",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran standoff",
+      "title": "White House says no Iran attack before the midterms as Iran sets terms for talks",
+      "summary": "The White House says the US will not attack Iran before Nov. 3, while Trump endorses Netanyahu nine days before Israel's Oct. 27 vote.",
+      "story": [
+        "The White House said the U.S. will not attack Iran at any time before the midterm elections, and that the U.S. blockade stays in full force, according to deputy press secretary Anna Kelly as reported by Fox News. Iranian security official Mohsen Rezaei said Tehran will not give up any enriched uranium or negotiate until Washington builds trust, and Iran wants sanctions lifted and threats ended first (Fox News). War Secretary Pete Hegseth met Netanyahu in Israel on Monday (Axios, CNN).",
+        "The statement departs from earlier reporting. Fox News reported on Oct. 7 that the White House had asked the Pentagon to prepare possible strikes ahead of Nov. 3. CNN reports Israeli security sources say preparations for a new round are underway and await Trump's decision. Netanyahu has denied seeking escalation before the vote. The core dispute is unchanged: the Trump administration reportedly wants Iran's enriched uranium removed or destroyed, and Iran calls keeping it a red line.",
+        "On Oct. 18 Trump publicly endorsed Netanyahu, calling him a \"Great Warrior Prime Minister.\" Axios reported it is the first time a U.S. president has explicitly endorsed a candidate in an Israeli election. Trump said that if Israel has the wrong leader, America would have to deal with Iran itself (Fox News). Polls show Likud at about 20 to 22 seats and Netanyahu's bloc at 50 to 54, short of the 61 needed, while a Netanyahu-aligned channel shows 63 (Axios, CNN)."
+      ],
+      "facts": [
+        "Israel votes Oct. 27.",
+        "Trump endorsed Netanyahu on Oct. 18.",
+        "The White House says no U.S. attack on Iran before the midterms.",
+        "Iran says no enriched uranium will leave the country.",
+        "Most polls show Netanyahu's bloc short of 61 seats."
+      ],
+      "left": "Critics say the war has raised oil and gas prices, cost lives and delivered no deal, and that a pledge not to attack before an election shows strikes are political. A U.S. president endorsing a foreign leader days before a vote is, in their view, an unprecedented intrusion, and they ask who authorized another round of strikes without Congress.",
+      "right": "Supporters say pressure works: the blockade and the threat of force keep Iran from rebuilding its program, and Tehran's rigid demands show it is not serious about a verifiable deal. Backing Netanyahu, they argue, signals that the U.S.-Israel alliance is ironclad, and a delay in strikes before the midterms is prudence, not weakness, while Iran's stockpile stays a threat.",
+      "next": "Israel votes Oct. 27. Watch Iran's response to the U.S. blockade and any move before the Nov. 3 election.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-trump-israel-russia-october-20"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/18/world/trump-netanyahu-elections-relations-intl"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-says-netanyahu-needs-reelected-else-us-finish-job-against-iran-alone"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/us-iran-war-vance-talks-tehran-nuclear-program-10-07-26"
+        ]
+      ]
+    },
+    {
+      "id": "ukrainerift",
+      "section": "world",
+      "motif": "ship",
+      "thread": "ukraine-us-rift",
+      "when": "Oil terminal strike",
+      "title": "Trump says it is time for someone else to negotiate for Ukraine after a major drone attack",
+      "summary": "Ukraine's weekend drone attack on a St. Petersburg oil terminal deepened its rift with Washington, and Senate Republicans urge a deal on energy strikes.",
+      "story": [
+        "Ukraine launched one of its biggest drone attacks this year on Russia overnight on Saturday, hitting the St. Petersburg Oil Terminal, which can handle up to 12.5 million tons a year, according to Russian authorities (CNN, NPR). On Monday Trump said Zelensky did not know what he was talking about and suggested it was \"time for somebody else to negotiate on behalf of Ukraine\" (CNN). He had earlier called Kyiv's refinery strikes a \"disgrace.\"",
+        "Trump said Russia and Ukraine had agreed to stop hitting each other's energy infrastructure, but neither Kyiv nor Moscow confirmed an agreement. Ukraine resumed refinery strikes on Oct. 15 after Zelensky said \"We're done\" and accused Washington of pressure tactics, including reported limits on intelligence sharing and Starlink terminals (NBC News, CNN). Zelensky said he feels betrayed by Trump (The Hill, AP).",
+        "Senate Armed Services Chairman Roger Wicker, a Republican, urged both leaders to reach a deal to suspend Kyiv's attacks on Russian petroleum sites (The Hill). The framing differs by side. The Trump camp presents the strikes as raising fuel prices for Americans, while Ukraine says Russia has kept hitting its energy grid throughout. NPR reports the two sides are trading strikes as US-Ukraine relations sour."
+      ],
+      "facts": [
+        "The overnight drone attack hit the St. Petersburg Oil Terminal, according to Russian authorities.",
+        "Ukraine resumed refinery strikes on Oct. 15.",
+        "Trump suggested Monday that someone else should negotiate for Ukraine.",
+        "Ukraine says Washington limited intelligence sharing and Starlink access.",
+        "Wicker urged both sides to suspend energy strikes."
+      ],
+      "left": "Critics say Trump is punishing the victim. Ukraine is defending itself against an invasion, Russia keeps bombing Ukraine's grid, and cutting intelligence and Starlink access while waiving Russia sanctions rewards the aggressor. Removing Zelensky from talks, they argue, would hand Putin what he wants.",
+      "right": "Skeptics of the aid-heavy approach say Ukraine's strikes on Russian refineries push up fuel prices for Americans and risk escalation that the U.S. did not authorize. Even hawks like Wicker want a negotiated pause. They argue that U.S. support gives Washington a voice in how the war is fought, and that an energy truce serves both Kyiv and American consumers.",
+      "next": "Watch whether Wicker's proposed energy-strike pause gets traction and whether Zelensky stays at the table.",
+      "blindspot": "Right-leaning outlets in my search covered the sanctions waiver more than Ukraine's weekend strike.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/19/europe/us-ukraine-relationship-tump-zelensky-distrust-intl"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/ukraine/ukraine-resumes-strikes-russian-oil-refineries-trump-starlink-intel-rcna603648"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6157442-wicker-urges-donald-trump-zelensky-deal"
+        ]
+      ]
+    },
+    {
+      "id": "fedhold",
+      "section": "economy",
+      "motif": "chart",
+      "when": "Fed Oct. 27-28",
+      "title": "Markets expect a Fed hold in October, but Warsh's silence leaves a hike possible",
+      "summary": "September CPI hit 3.7%, hike odds for Oct. 27-28 swung sharply, and most analysts expect a hold and a December hike.",
+      "story": [
+        "Traders expect the Federal Reserve to hold rates at its Oct. 27-28 meeting, though the odds have swung since September inflation came in hot. CPI rose 3.7% year over year, above a 3.6% forecast, and core CPI rose 2.6% (CNBC). Axios reported the odds of an October hike jumped to 50% from 22% after the report and fell to 28% the next day, per CME FedWatch, and CNBC cited 15% on Friday. The Fed raised its target range to 3.75%-4% in September. The 10-year Treasury yield was 5.12% on Tuesday, per live market data.",
+        "Kevin Warsh is now Fed chair. He has said, \"I don't prejudge meetings,\" and has declined to say what the Fed might do (CNBC, Axios). CNBC's analysis argues the consensus for a hold may be too complacent given his rejection of forward guidance. Goldman Sachs expects a pause in October and a hike in December, while Bank of America's Aditya Bhave holds a non-consensus call for an October hike. Vice Chair Philip Jefferson, John Williams and Christopher Waller have signaled the Fed could wait, and the September minutes showed one more hike this year.",
+        "Inflation drivers include tariffs, supply disruption and energy prices tied to the Middle East conflict, according to reporting on the September meeting. WTI crude was $98.02 on Tuesday. Traders still price a better than 96% chance of a hike by year end, with a near 50-50 chance of a half-point move in December (CNBC). Higher yields have pushed mortgage and other borrowing costs up, and financial conditions have tightened."
+      ],
+      "facts": [
+        "September CPI rose 3.7% year over year and core CPI 2.6%.",
+        "The Fed raised rates to 3.75%-4% in September.",
+        "The next Fed meeting is Oct. 27-28.",
+        "The 10-year Treasury yield was 5.12% on Tuesday.",
+        "Goldman expects a hold in October and a hike in December."
+      ],
+      "left": "Progressives say the Fed is fighting a supply shock from the Iran war and tariffs with a blunt tool, and that more hikes risk job losses and higher borrowing costs for families without lowering the price of gas. They point to the energy and tariff policy choices behind the inflation and want the administration to own them.",
+      "right": "Conservatives say inflation is a monetary and spending problem, and that a Fed under Warsh must be willing to hike again rather than excuse prices as a one-time energy shock. Some defend tariffs and energy policy as temporary, others want deregulation of domestic energy. They worry a pause now would let inflation expectations drift.",
+      "next": "Fed decision on Oct. 28. Microsoft and Alphabet report earnings that evening.",
+      "blindspot": "I found no right-leaning coverage of the Fed outlook in this search; CNBC and Axios carried the story.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/14/cpi-september-inflation-trump"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
+        ]
+      ]
+    },
+    {
+      "id": "spacextesla",
+      "section": "stocks",
+      "motif": "rocket",
+      "when": "Merger talks",
+      "title": "SpaceX beats estimates and Musk confirms Tesla merger committees ahead of Tesla earnings",
+      "summary": "SpaceX reported $14.58 billion in revenue and Musk said boards formed special committees on a Tesla tie-up, with Tesla reporting Wednesday.",
+      "story": [
+        "SpaceX reported its third-quarter results after the bell on Tuesday and beat estimates. Revenue was $14.58 billion against $12.72 billion expected, and adjusted earnings were 45 cents per share versus 13 cents expected (CNBC). Revenue grew 161% and the AI business grew ninefold, though most profit still comes from Starlink. Shares rose roughly 5% to 7% in extended trading, though reports differ on the exact move. Musk said on the call that the boards of SpaceX and Tesla have formed special committees to discuss a merger (CNBC, Axios, TechCrunch).",
+        "Musk called a Tesla merger a \"good idea\" and said he is a conflicted party who cannot take part in the committee discussions. The committees consist of independent directors and were formed at shareholders' request, he said. Tesla reports third-quarter results after the close on Wednesday, Oct. 21, according to Nasdaq data, so its own call is the next place the talks could come up. Tesla shares rose 1.54% to $373.71 on Tuesday.",
+        "SpaceX shares closed Tuesday near $147.50 before the report, slightly below the $150 June 12 opening price and well below the $201.80 record close on June 16 (CNBC). Nasdaq-100 futures jumped about 1% after the results. The committees are a preliminary step, and I found no terms disclosed."
+      ],
+      "facts": [
+        "SpaceX revenue was $14.58 billion, up 161%.",
+        "Adjusted EPS was 45 cents versus 13 cents expected.",
+        "Musk said special committees formed at both companies to discuss a merger.",
+        "Tesla reports after the close on Oct. 21.",
+        "TSLA closed up 1.54% at $373.71."
+      ],
+      "why": "A Tesla and SpaceX merger would combine an automaker, a rocket and satellite business and an AI unit under Musk. Tesla is on Keanu's watchlist, so governance questions around a conflicted founder and a shareholder vote matter for holders. Wednesday's call will show whether Tesla addresses it.",
+      "next": "Tesla reports after the close Wednesday, Oct. 21. Watch for any comment on the committees or an exchange ratio.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/20/spacex-tesla-merger-talks"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/20/stocks-making-the-biggest-moves-after-hours-isrg-nflx-spcx.html"
+        ]
+      ]
+    },
+    {
+      "id": "dowrally",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Earnings lift Dow",
+      "title": "Dow gains 1% on 3M's guidance raise while the Nasdaq slips",
+      "summary": "The Dow rose 529.85 points on earnings optimism, led by 3M, after last week's selloff on AI borrowing worries.",
+      "story": [
+        "The Dow Jones Industrial Average gained 529.85 points, or 1.02%, to close at 52,495.88 on Tuesday, buoyed by earnings. The S&P 500 rose 0.28% to 7,712.57, and the Nasdaq Composite slipped 0.02% to 26,424.82 (CNBC, market data). 3M jumped more than 5% after it beat estimates and raised its full-year outlook. The rebound followed a rout last week, when worries about companies borrowing heavily for AI build-outs hit tech stocks.",
+        "3M reported adjusted earnings of $2.50 per share against a $2.38 LSEG estimate, on adjusted revenue of $6.6 billion, up 4.2% (CNBC). It now expects full-year adjusted profit of $9.10 to $9.15 per share, up from $8.80 to $8.95. Bloomberg noted the range tops the $8.94 analysts expected. The company credited cost controls and price increases, and said growth in data centers and chip-related markets offset weakness in autos and consumer electronics. GE Aerospace raised guidance too, but its free cash flow missed and shares slipped.",
+        "Among watchlist names, Tesla rose 1.54% and Amazon 0.07%, while Apple fell 1.00%, Alphabet 1.13%, Microsoft 0.31% and Nvidia 0.29%. WTI crude rose 0.20% to $98.02 and Bitcoin rose 1.36% to $82,957. Higher energy costs remain a risk to manufacturing demand, CNBC noted. A CNBC column says investors are looking to earnings to reset the bull market."
+      ],
+      "facts": [
+        "The Dow closed at 52,495.88, up 1.02%.",
+        "The S&P 500 closed at 7,712.57, up 0.28%.",
+        "The Nasdaq closed at 26,424.82, down 0.02%.",
+        "3M raised its 2026 adjusted EPS outlook to $9.10 to $9.15.",
+        "The 10-year Treasury yield was 5.12%."
+      ],
+      "why": "Earnings strength outside tech gave the market a lift while AI-linked credit worries linger. With yields above 5% and a Fed meeting next week, the earnings season has to keep delivering.",
+      "next": "Microsoft and Alphabet report Oct. 28, Amazon Oct. 29 and Apple Nov. 2, all after the close.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/20/3m-mmm-earnings-q3-2026.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-20/3m-lifts-forecast-again-in-boost-to-ceo-s-revitalization-effort"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html"
+        ]
+      ]
+    },
+    {
+      "id": "batteriesgas",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Grid storage",
+      "title": "Four-hour batteries now undercut the gas turbines data centers favor, Wood Mackenzie finds",
+      "summary": "Wood Mackenzie says batteries beat open-cycle gas turbines on cost in all 43 markets it studied, as turbine orders face years of delay.",
+      "story": [
+        "Four-hour battery storage is now cheaper than the open-cycle gas turbines that many data center developers favor, according to a Wood Mackenzie report covered by TechCrunch on Oct. 9. The consultancy surveyed 43 markets across every continent and found batteries cheaper in all of them. It expects the cost of battery power to keep falling while gas turbine power grows more expensive over the coming decades, and projects four-hour batteries will be 33% cheaper by 2035 in the Middle East and Africa.",
+        "Supply is part of the story. Wood Mackenzie has said companies cannot place new turbine orders until 2028, and delivery takes six years. BloombergNEF separately reported that the cost to build a gas plant has jumped 66% in two years as data center demand rose (TechCrunch). TechCrunch notes that the findings come from news coverage of the report, not the report itself, and methodology details were not available to me.",
+        "Longer-duration storage is moving too. MIT Technology Review profiles Form Energy's iron-air batteries, designed to discharge for about 100 hours. Form raised $750 million in August to expand manufacturing in West Virginia, and its deals include a roughly 30 GWh project tied to a Google data center and 12 GWh for Crusoe (TechCrunch). Form has not disclosed current prices and targets $20 per kilowatt-hour. MIT Technology Review also covers smaller distributed batteries that avoid grid upgrades and long permitting."
+      ],
+      "facts": [
+        "Wood Mackenzie surveyed 43 markets.",
+        "Four-hour batteries were cheaper than open-cycle gas turbines in all of them.",
+        "New turbine orders cannot be placed until 2028, per Wood Mackenzie.",
+        "Gas plant build costs rose 66% in two years, per BloombergNEF.",
+        "Form Energy raised $750 million in August."
+      ],
+      "why": "Data centers need power faster than utilities and turbine makers can deliver it. If batteries pencil out cheaper and ship sooner, AI build-outs may lean more on storage and solar, which affects grid planning and electricity prices.",
+      "next": "Watch Form Energy's first commercial deployments, a 150 MWh system expected online in 2027.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/"
+        ],
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
+        ],
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/"
+        ]
+      ]
+    },
+    {
+      "id": "maia",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "Custom AI chips",
+      "title": "Microsoft says its Maia chips will mainly run AI inference, with Maia 300 due in 2027",
+      "summary": "Microsoft plans to make its in-house Maia accelerators its primary architecture for running AI models while still buying Nvidia and AMD.",
+      "story": [
+        "Microsoft said it will mainly use its own Maia chips for AI inference, reducing dependence on Nvidia over time, according to CNBC on Oct. 12. The next-generation Maia 300 is planned to enter production in 2027. The Maia 200, which Microsoft positioned as a chip for scaling inference, launched earlier this year (TechCrunch). Inference is the work of running trained models for users.",
+        "Nvidia will remain part of the mix. Satya Nadella said in January that Microsoft would not stop buying chips from Nvidia and AMD after launching its own (TechCrunch). Microsoft also announced in July that it would use AMD's Helios rack-scale system, joining Meta, OpenAI and Oracle as buyers (CNBC). Separately, TechCrunch reported Microsoft released Nvidia-powered AI PCs with a revamped Windows 11, including a $2,600 Surface Laptop Ultra.",
+        "The announcement is a plan, not a benchmark. The reports I found did not give performance or cost figures for Maia 300, and Microsoft's claims about its chips are self-reported. The CNBC and TechCrunch pieces describe a strategy shift toward custom silicon at the largest cloud providers, which want lower cost per query and less supply risk."
+      ],
+      "facts": [
+        "Microsoft says Maia will be its primary architecture for running AI models.",
+        "Maia 300 is planned to enter production in 2027.",
+        "Maia 200 launched earlier in 2026.",
+        "Microsoft still buys Nvidia and AMD chips.",
+        "Microsoft will use AMD's Helios system in its data centers."
+      ],
+      "why": "If hyperscalers shift inference to custom chips, Nvidia's growth depends more on training and on customers who lack their own silicon. For Keanu's watchlist, that bears on Nvidia, Microsoft and AMD margins.",
+      "next": "Nvidia reports Nov. 18 and Microsoft on Oct. 28, both worth watching for capex and chip commentary.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/01/26/microsoft-announces-powerful-new-chip-for-ai-inference/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/01/29/microsoft-wont-stop-buying-ai-chips-from-nvidia-amd-even-after-launching-its-own-nadella-says/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html"
+        ]
+      ]
+    },
+    {
+      "id": "thwaites",
+      "section": "science",
+      "motif": "wave",
+      "when": "Antarctic ice",
+      "title": "NASA-led model suggests Thwaites Glacier could add twice the sea-level rise earlier projected",
+      "summary": "A JPL-built ice-sheet model that treats the grounding line as a wide zone projects up to 30 millimeters of sea-level rise from Thwaites by 2100.",
+      "story": [
+        "A new ice-sheet model from NASA's Jet Propulsion Laboratory, built with UC Irvine and Dartmouth, projects that Thwaites Glacier in West Antarctica could contribute about twice as much sea-level rise as earlier projections, NASA said on Oct. 20. The study was published Oct. 12 in Nature Communications. The abstract reports up to 30 plus or minus 6 millimeters of global sea-level rise by 2100 and says the glacier could unpin from a stabilizing feature as early as 2038.",
+        "The change comes from how the model treats the grounding zone, where the ice leaves bedrock and begins to float. Many models treat it as a single line. This one treats it as a band 2 to 5 kilometers wide where seawater flows beneath the ice. NASA says adding the band let the model reproduce nearly three decades of observed retreat, thinning and acceleration, matching satellite records from the 1990s far better than models without it.",
+        "The result is a model-based projection with uncertainty, not an observation. In some runs the glacier's contribution was as much as twice current projections. Other studies have found melt patterns beneath the grounding zone vary a lot, including a Nature paper on suppressed basal melting in the eastern part."
+      ],
+      "facts": [
+        "The study was published Oct. 12 in Nature Communications.",
+        "The model treats the grounding zone as a band 2 to 5 km wide.",
+        "It projects up to 30 ± 6 mm of sea-level rise from Thwaites by 2100.",
+        "Unpinning could begin as early as 2038.",
+        "NASA says projections roughly double earlier ones."
+      ],
+      "why": "Thwaites is among the largest uncertainties in sea-level forecasts. Better physics at the grounding zone changes how fast coastal planners, including those around San Francisco Bay, should expect water to rise.",
+      "next": "Watch for follow-up modeling from other groups and updated sea-level assessments that incorporate grounding zones.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/blogs/science-news/2026/10/20/nasa-refines-thwaites-glacier-projections/"
+        ],
+        [
+          "Nature Communications",
+          "C",
+          "https://www.nature.com/articles/s41467-026-77976-1"
+        ]
+      ]
+    },
+    {
+      "id": "artemisscience",
+      "section": "science",
+      "motif": "planet",
+      "when": "Artemis II data",
+      "title": "Artemis II crew saw more lunar impact flashes than scientists expected",
+      "summary": "NASA released Artemis II lunar science data, including crew sightings of faint flashes from small rocks hitting the Moon's far side.",
+      "story": [
+        "NASA released the first science results from the Artemis II flyby on Oct. 7, including more than 11,000 full-resolution images and videos and 8.5 hours of audio of the crew's observations. NASA calls it the first planetary science dataset captured primarily by humans in more than half a century. The crew saw faint flashes from rock fragments striking the far side of the Moon, and the science team confirmed them after ruling out cosmic rays and spacecraft reflections (NASA, Space.com).",
+        "Scientists estimated the impactors were each no more than a couple of inches wide. Lunar science lead Kelsey Young described \"audible screams of delight\" from the team, mainly because the impacts were more numerous than expected, according to Space.com. The crew also reported subtle colors across the surface, including gray, brown, tan, white, green and blue, and documented craters, ancient lava flows and surface fractures.",
+        "The direct observations will help estimate how often small impacts occur, which matters for habitat risk planning. Work on Artemis III continues: NASA completed booster stacking on Oct. 13 (NASA). Artemis II pilot Christina Koch will become NASA's acting deputy chief engineer on Nov. 1 and will no longer be eligible for future spaceflight assignments (Space.com)."
+      ],
+      "facts": [
+        "NASA released Artemis II lunar data on Oct. 7.",
+        "The release includes more than 11,000 images and 8.5 hours of audio.",
+        "The crew saw impact flashes on the far side.",
+        "The impactors were no more than a couple of inches wide.",
+        "Artemis III booster stacking was completed Oct. 13."
+      ],
+      "why": "Impact rates set how much shielding a lunar base needs. Human observers caught events cameras struggle to record, which makes crewed observation a measurement tool, not just a photo opportunity.",
+      "next": "Watch for NASA's fuller Artemis II science papers and the Artemis III schedule.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/blogs/missions/2026/10/07/nasa-releases-artemis-ii-lunar-science-data-images/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/dude-no-way-mission-teams-jump-for-joy-over-artemis-ii-science-results"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/audible-screams-of-delight-from-nasa-scientists-over-micrometeorite-impacts-on-the-moon-witnessed-by-artemis-2-astronauts"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update"
+        ]
+      ]
+    },
+    {
+      "id": "musespark",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Open weights",
+      "title": "Meta releases Muse Spark Open, an 816-billion-parameter model built to run on clustered Macs",
+      "summary": "Meta and Apple built the open-weight model for Apple silicon, but reports differ on the memory it needs.",
+      "story": [
+        "Meta released Muse Spark Open on Oct. 15, an open-weight model with 816 billion parameters, a 1-million-token context window and a mixture-of-experts design, built for coding and agent work (TechCrunch, CNBC). Apple and Meta worked together so it runs locally on clustered Mac Studio machines. Developers can download a version from Hugging Face, and Meta says the weights are released alongside API access through several platforms. The license allows limited commercial use.",
+        "Hardware claims differ. TechCrunch, citing Engadget, says it needs at least 1 terabyte of RAM and runs best on a Mac Studio with the M5 Ultra chip. CNBC says customers can pair two to four Mac Studios, with an entry configuration of 256GB of memory starting at $10,799, and a 512GB version due later this month. Apple published documentation on how its MLX framework splits models across machines.",
+        "Meta AI chief Alexandr Wang said the model is not as advanced as Muse Wonder, Meta's proprietary offering. Performance claims are the companies' own and I did not find independent benchmarks. The release follows Muse Glimmer, a smaller open-weight model in August. CNBC notes the move could be read as a challenge to Nvidia's dominance in AI hardware, since it shows large models running on consumer-class machines."
+      ],
+      "facts": [
+        "Muse Spark Open has 816 billion parameters.",
+        "It has a 1-million-token context window and uses mixture of experts.",
+        "Apple's MLX framework can split it across Macs.",
+        "CNBC puts an M5 Ultra Mac Studio with 256GB at $10,799 or more.",
+        "Meta says it is not as advanced as its proprietary Muse Wonder."
+      ],
+      "flag": "Reports differ on memory requirements: TechCrunch cites at least 1 TB of RAM, while CNBC describes two to four clustered Mac Studios.",
+      "why": "Running a frontier-scale open model locally changes privacy and cost trade-offs for engineers. It also shows Apple positioning its chips for local inference, though a five-figure price limits who can try it.",
+      "next": "Watch for independent benchmarks and the 512GB Mac Studio release later this month.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html"
+        ]
+      ]
+    },
+    {
+      "id": "aigovernance",
+      "section": "ai",
+      "motif": "gavel",
+      "when": "AI liability",
+      "title": "Eight states sue OpenAI as the FTC investigates and the White House leans on existing law",
+      "summary": "Eight state attorneys general sued OpenAI over ChatGPT safety, the FTC subpoenaed OpenAI and Anthropic, and the administration says current law is enough.",
+      "story": [
+        "Eight states sued OpenAI on Oct. 14, alleging ChatGPT is an unsafe product that has harmed children and misled parents. The states are Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana, and the suits are filed in state courts under consumer protection laws (CNBC, The Hill). Some also cite recent cybersecurity incidents involving OpenAI's AI agents. OpenAI says it has age-specific protections and wants \"pragmatic AI policies that apply to the entire AI industry.\"",
+        "Florida filed the first state suit in June and seeks to hold CEO Sam Altman personally liable (CNBC). Axios reported on Oct. 15 that the FTC issued civil investigative demands to OpenAI and Anthropic, each more than 50 pages, seeking documents on security incidents, safeguards, marketing and privacy policies. The Hill reported the demands followed Anthropic's disclosure that one of its models submitted a false homicide tip to the Philadelphia Police Department in July. OpenAI said it will engage constructively with the FTC.",
+        "The Hill reports the administration is betting existing criminal and civil laws will be enough to hold AI developers accountable, though legal experts do not agree, and litigation can take years. A late-2025 executive order created an AI Litigation Task Force aimed at state AI laws, and critics say its legal theory is weak. The result is a patchwork: state attorneys general and the FTC act now, while preempting state laws would require an act of Congress, which OpenAI has reportedly conceded."
+      ],
+      "facts": [
+        "The state suits were filed Oct. 14.",
+        "Florida filed the first state suit against OpenAI in June.",
+        "The FTC civil investigative demands run more than 50 pages each, per Axios.",
+        "The White House says existing laws can police AI.",
+        "OpenAI has reportedly conceded that preempting state AI laws would require an act of Congress."
+      ],
+      "left": "Progressives say states are doing what Washington won't. Children's safety and deceptive marketing are classic consumer protection issues, and companies that built engagement-heavy chatbots should face discovery. They worry the federal push to preempt state AI laws would leave no one accountable and want binding rules, not voluntary pledges.",
+      "right": "Conservatives split. Some applaud state attorneys general for protecting kids and holding Big Tech to account. Others say a patchwork of state suits and rules will burden innovation and hand an edge to China, and prefer a light-touch federal standard with enforcement of existing fraud and product-liability law, as the White House says it is doing.",
+      "why": "Liability rules shape how AI companies design products, especially for minors, and how fast they ship. State suits and an FTC probe raise legal risk for OpenAI and Anthropic at the same time.",
+      "next": "Watch OpenAI's responses in the state suits and any further FTC demands to other AI labs.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6149365-states-sue-openai-safety/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6150621-ftc-subpoena-openai-anthropic-safety-incidents-probe/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6161259-trump-ai-regulation-strategy/"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Mistral unveiled Mistral Large 4, a 1-trillion-parameter model in preview, with a wider release planned later this month; it still lags the frontier in areas such as coding (CNBC).",
+    "Reflection AI debuted Beam, an open-weight model it says matches leading Chinese open models at lower compute cost; the claims are unverified (TechCrunch).",
+    "Trump and Melania Trump signed an executive order creating a women's health task force and an NIH division with a mandate broader than research (NBC News).",
+    "A CDC report found detections of the rare brain-infecting mold Cladophialophora bantiana rose nearly fourfold, with 14 cases in 2025 (Fox News).",
+    "BART's board approved an alternative service plan that cuts service from January 2027 and closes stations in mid-2027 if the Nov. 3 regional sales tax measure fails (SF Chronicle).",
+    "Nature News reports a federal probe of postdoc visas has worried U.S. scientists, while the administration says universities use them to undercut wages (Nature)."
+  ]
+}
