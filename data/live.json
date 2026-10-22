@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-22T08:43:05Z",
+  "updatedAt": "2026-10-22T09:39:04Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 59.7,
-      "feels": 58.5,
-      "hum": 69,
-      "wind": 2.6,
+      "temp": 58.6,
+      "feels": 56.0,
+      "hum": 67,
+      "wind": 4.7,
       "cond": "cloudy"
     },
     "days": [
@@ -23,7 +23,7 @@
         "hi": 64,
         "lo": 57,
         "cond": "drizzle",
-        "pop": 61
+        "pop": 59
       },
       {
         "date": "2026-10-23",
@@ -34,7 +34,7 @@
       },
       {
         "date": "2026-10-24",
-        "hi": 77,
+        "hi": 76,
         "lo": 56,
         "cond": "clear",
         "pop": 0
@@ -58,12 +58,12 @@
         "hi": 71,
         "lo": 56,
         "cond": "cloudy",
-        "pop": 1
+        "pop": 0
       }
     ]
   },
   "markets": {
-    "asOf": "Thu Oct 22, 4:33 AM ET",
+    "asOf": "Thu Oct 22, 5:29 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$100.01",
-        "raw": 100.01,
-        "change": "+2.94%",
+        "price": "$99.53",
+        "raw": 99.53,
+        "change": "+2.45%",
         "dir": "up",
-        "time": 1792657985,
+        "time": 1792661341,
         "spark": [
           94.59,
           92.16,
@@ -229,17 +229,17 @@
           103.66,
           101.79,
           97.15,
-          100.01
+          99.54
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,853",
-        "raw": 81853.28,
-        "change": "-2.58%",
+        "price": "$81,694",
+        "raw": 81693.51,
+        "change": "-2.77%",
         "dir": "down",
-        "time": 1792658582,
+        "time": 1792661941,
         "spark": [
           86172.28,
           84383.01,
@@ -271,7 +271,7 @@
           81853.54,
           82941.0,
           84011.97,
-          81853.28
+          81693.51
         ]
       }
     ],
