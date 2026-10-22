@@ -1,59 +1,59 @@
 {
-  "updatedAt": "2026-10-21T23:08:51Z",
-  "label": "Afternoon edition",
-  "summary": "Keanu, **California's state workers are on strike today**, the first statewide walkout by SEIU Local 1000, with pickets in Oakland, San Francisco and Sacramento (KQED, CalMatters). **Trump's \"Shylock\" remark at a Kansas rally** drew condemnation from Schumer and the ADL, and CNN's fact check says no law required Sen. Marshall to sue patients (CNN, The Hill, Washington Examiner). Marshall and Hamilton debate tonight, with Decision Desk HQ giving Democrats a 56 percent chance at the Senate (The Hill). Republicans keep attacking Trump's Russia sanctions waiver as Rubio and Wright give different explanations (Axios, The Hill). Trump endorsed Netanyahu nine days before Israel's vote, Vance declined to, and Iran says no uranium leaves (Axios, CNN, Fox News). In France, the interior minister offered to resign and unions plan a Nov. 5 strike (Fox News, NBC). **A New Mexico judge ordered Meta to pay $25 billion**, though Meta beat on revenue and says it will appeal (CNBC, Axios). Tesla beat estimates but slipped after hours, and the Dow, S&P 500 and Nasdaq all rose Tuesday (CNBC). On the engineering side, **NASA's nuclear-powered SR-1 aims to launch in December 2028** (NASA, MIT Technology Review). Science brought the **first known green star**, a white dwarf polluted by planet debris (Space.com).",
+  "updatedAt": "2026-10-22T13:20:00Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Trump's approval hit record lows** in new polls, with CNN/SSRS at 32 percent and Democrats up 49 to 39 on the generic ballot (CNN, The Hill). In Kansas, Marshall and Hamilton traded blows in a final debate that both used to distance themselves from their parties (NBC News, The Hill, Fox News). Trump's waiver of Graham Act Russia sanctions keeps drawing fire from Republicans like Cornyn, while Massie and Bessent defend it (The Hill, Washington Examiner). Closer to home, **California's first state worker strike** ended its one day, and mediation reportedly resumes Oct. 30 (CalMatters, KQED). The billionaire tax on your Nov. 3 ballot leads narrowly, but two rival measures could cancel it (CalMatters, KQED). Abroad, France added nightly curfews after its worst unrest in years, and Iran says no uranium leaves the country as the White House promises no strike before the midterms (NPR, Fox News). On Wall Street, the Nasdaq rose 1.05 percent Wednesday, but **Tesla fell about 4 percent premarket** after weak auto revenue and Meta slipped despite a revenue beat and a $25 billion penalty (CNBC, Axios). In tech, **Google and Amazon want PyTorch off Nvidia chips**, and Nvidia answered with a truck-shippable Vera Rubin pod (TechCrunch, CNBC). Science brought **a flightless Jurassic bird** and a single positron held for months (Nature). A mutated flu strain is arriving early on the West Coast (CNN).",
   "alerts": [
     {
-      "text": "SEIU Local 1000's one-day strike is happening today, so expect DMV, EDD and State Parks delays; the union says it may escalate.",
-      "level": "high",
-      "story": "seiustrike"
+      "text": "Alphabet and Microsoft report earnings Oct. 28 after the close, and Amazon follows Oct. 29, with the Fed deciding the same day as the first two.",
+      "level": "watch",
+      "story": "fedhold"
     },
     {
-      "text": "Tesla and Meta reported after the close, and Microsoft and Alphabet report Oct. 28, the same day the Fed decides on rates.",
+      "text": "Tesla is down about 4 percent in premarket trading after earnings, and TSLA is on your watchlist.",
       "level": "watch",
       "story": "teslaq3"
     },
     {
-      "text": "California's billionaire tax (Prop. 40) could be cancelled by Props. 41 or 42 even if it passes; the vote is Nov. 3.",
+      "text": "An early flu season is hitting the West Coast first, so now is a good time to get your flu shot.",
       "level": "info",
-      "story": "billionairetax"
+      "story": "earlyflu"
     },
     {
-      "text": "Israel votes Oct. 27, a week before the U.S. midterms, and Trump has endorsed Netanyahu.",
-      "level": "watch",
-      "story": "israelvote"
+      "text": "The California billionaire tax and its two rival measures are on the Nov. 3 ballot, and polls are close.",
+      "level": "info",
+      "story": "billtax"
     }
   ],
   "highlights": [
     {
-      "story": "shylock",
-      "text": "Trump uses \"Shylock\" at a Kansas rally; CNN finds no law required Marshall to sue patients."
+      "story": "pollslow",
+      "text": "Trump's approval falls to 32 percent in CNN's poll as Democrats lead the generic ballot by ten."
     },
     {
-      "story": "seiustrike",
-      "text": "About 95,000 California state workers strike for the first time, with Bay Area pickets."
+      "story": "strike",
+      "text": "California's first state worker strike ends its day, with mediation reportedly set for Oct. 30."
     },
     {
-      "story": "metapenalty",
-      "text": "A New Mexico judge orders Meta to pay $25 billion; Meta beats revenue estimates and will appeal."
+      "story": "teslaq3",
+      "text": "Tesla beats estimates but falls on weak auto revenue, lower profit and merger talk."
     },
     {
-      "story": "nasasr1",
-      "text": "NASA's SR-1 Freedom aims to launch the first nuclear-powered interplanetary spacecraft in December 2028."
+      "story": "torchtpu",
+      "text": "Google and Amazon release tools to move PyTorch apps off Nvidia GPUs."
     },
     {
-      "story": "israelvote",
-      "text": "Trump endorses Netanyahu as Vance declines, and Iran says no enriched uranium leaves."
+      "story": "flightlessbird",
+      "text": "A Jurassic bird from China could not fly, Nature reports."
     }
   ],
   "stat": {
-    "label": "Meta penalty (New Mexico)",
-    "value": "$25B",
-    "note": "Cut from a $219.5 billion maximum; Meta says it will appeal (CNBC)."
+    "label": "Trump approval (CNN/SSRS)",
+    "value": "32%",
+    "note": "Record low; Democrats lead the generic ballot 49 to 39 (Oct. 15-18)"
   },
   "markets": {
-    "asOf": "Wed Oct 21, 6:25 PM ET",
-    "wrap": "The **Dow, S&P 500 and Nasdaq all rose** in the latest session in the data feed, with the Nasdaq up 1.05% (CNBC). CNBC says 3M's better results and a raised outlook helped, and SpaceX and Tesla rallied on merger-committee news. The 10-year Treasury yield sits at 5.15% and WTI crude at $97.89. After the close Tesla beat estimates but slipped about 2%, and Meta rose about 3% on a revenue beat despite a **$25 billion New Mexico penalty** (CNBC, Axios).",
+    "asOf": "Thu Oct 22, 8:35 AM ET",
+    "wrap": "The **Nasdaq rose 1.05 percent Wednesday** and the S&P 500 gained 0.58 percent for a third straight win (CNBC). Tesla jumped more than 3 percent ahead of results, then gave back gains after hours on weak auto revenue (CNBC). Thursday brought a risk-off turn, with tech futures lower, Tesla down about 4 percent and Meta down more than 2 percent despite a revenue beat (CNBC). **Oil rose more than $2 a barrel** on Houthi attacks in Saudi Arabia, and traders price a 91 percent chance of a December Fed hike (CNBC).",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -157,13 +157,12 @@
       {
         "symbol": "^TNX",
         "name": "10-yr Treasury",
-        "price": "5.15%",
-        "raw": 5.146,
-        "change": "+0.57%",
-        "dir": "up",
-        "time": 1792609194,
+        "price": "5.04%",
+        "raw": 5.04,
+        "change": "-2.06%",
+        "dir": "down",
+        "time": 1792672213,
         "spark": [
-          4.96,
           4.97,
           5.11,
           5.16,
@@ -185,19 +184,19 @@
           5.1,
           5.14,
           5.12,
-          5.15
+          5.15,
+          5.04
         ]
       },
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$97.89",
-        "raw": 97.89,
-        "change": "+0.76%",
+        "price": "$99.39",
+        "raw": 99.39,
+        "change": "+2.31%",
         "dir": "up",
-        "time": 1792621548,
+        "time": 1792672516,
         "spark": [
-          95.78,
           94.59,
           92.16,
           94.61,
@@ -219,19 +218,19 @@
           101.41,
           103.66,
           101.79,
-          97.89
+          97.15,
+          99.39
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$84,603",
-        "raw": 84603.07,
-        "change": "+2.00%",
-        "dir": "up",
-        "time": 1792622147,
+        "price": "$81,654",
+        "raw": 81653.66,
+        "change": "-2.82%",
+        "dir": "down",
+        "time": 1792673120,
         "spark": [
-          86602.91,
           86172.28,
           84383.01,
           84379.06,
@@ -261,7 +260,8 @@
           82017.6,
           81853.54,
           82941.0,
-          84603.07
+          84011.97,
+          81653.66
         ]
       }
     ],
@@ -298,7 +298,7 @@
           216.47,
           221.97
         ],
-        "note": "Part of a 1.05% Nasdaq rally; no single catalyst found (CNBC)."
+        "note": "Rose with the Nasdaq (+1.05%); no company-specific catalyst found in the sources (CNBC)."
       },
       {
         "symbol": "AAPL",
@@ -431,7 +431,7 @@
           373.71,
           386.47
         ],
-        "note": "Rose into its Q3 report and SpaceX merger-committee news (CNBC)."
+        "note": "Rose more than 3% before its Q3 report, then slid after hours on weak auto revenue (CNBC)."
       },
       {
         "symbol": "AMZN",
@@ -504,38 +504,31 @@
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 65.1,
-      "feels": 63.7,
-      "hum": 61,
-      "wind": 4.3,
+      "temp": 57.7,
+      "feels": 58.0,
+      "hum": 93,
+      "wind": 3.7,
       "cond": "cloudy"
     },
     "days": [
       {
-        "date": "2026-10-20",
-        "hi": 70,
-        "lo": 52,
-        "cond": "cloudy",
-        "pop": 8
-      },
-      {
         "date": "2026-10-21",
         "hi": 69,
         "lo": 59,
-        "cond": "drizzle",
+        "cond": "cloudy",
         "pop": 33
       },
       {
         "date": "2026-10-22",
-        "hi": 69,
-        "lo": 56,
-        "cond": "rain",
-        "pop": 45
+        "hi": 64,
+        "lo": 57,
+        "cond": "drizzle",
+        "pop": 60
       },
       {
         "date": "2026-10-23",
-        "hi": 72,
-        "lo": 55,
+        "hi": 67,
+        "lo": 54,
         "cond": "cloudy",
         "pop": 4
       },
@@ -549,204 +542,196 @@
       {
         "date": "2026-10-25",
         "hi": 78,
-        "lo": 60,
+        "lo": 58,
         "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-10-26",
-        "hi": 79,
-        "lo": 60,
+        "hi": 76,
+        "lo": 59,
         "cond": "cloudy",
-        "pop": 2
+        "pop": 1
+      },
+      {
+        "date": "2026-10-27",
+        "hi": 73,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 0
       }
     ]
   },
   "stories": [
     {
-      "id": "shylock",
+      "id": "kansasdebate",
       "section": "politics",
       "motif": "ballot",
-      "thread": "midterms-2026",
-      "when": "Kansas rally",
-      "title": "Trump uses the word 'Shylock' at a Kansas rally while defending Sen. Marshall's medical-debt lawsuits",
-      "summary": "CNN, The Hill and the Washington Examiner report the remark, and CNN's fact check finds no law required Marshall to sue patients.",
+      "when": "Kansas Senate",
+      "title": "Marshall and Hamilton clash in a fiery final debate as the Kansas Senate race tightens",
+      "summary": "Both candidates tried to distance themselves from their national parties, while Marshall's medical-debt past and Hamilton's church-camp response drew questions.",
       "story": [
-        "President Trump used the term \"Shylock\" on Monday, Oct. 19, at a rally in Park City, Kansas, while defending Sen. Roger Marshall, according to CNN, The Hill and the Washington Examiner. He was responding to a New York Times investigation that found Marshall's medical practice sued more than 700 patients over unpaid bills. Senate Democratic leader Chuck Schumer called the remark \"disgusting,\" and the Anti-Defamation League said the word can \"reinforce harmful tropes about Jews,\" The Hill reports.",
-        "CNN's fact check, published Wednesday, tested Trump's claim that Marshall would have broken a law by not suing. It found no law that requires a doctor to sue patients and none that requires 18 percent interest. The White House cited two federal laws that require reasonable collection efforts, but CNN notes those laws allow providers to forgive debts for patients who cannot pay. Marshall's campaign did not say which law Trump meant. Marshall's attorney said Marshall was not personally involved in decisions to seek warrants or garnish wages.",
-        "The Washington Examiner headline says Trump used the term \"again,\" a reference to a similar remark at an Iowa rally in 2025, when he said he had never heard it as an antisemitic term (CNN, The Hill). Kansas is now a toss-up. The Hill reports that a Hill/Emerson poll had Democrat Adam Hamilton ahead 45 percent to 43 percent, and Decision Desk HQ's polling average has him up 0.4 points.",
-        "Marshall and Hamilton hold their second and final debate tonight at 7 p.m. Central on Nexstar's WDAF. How Marshall handles the medical-debt question will be the main thing to watch."
+        "Republican Sen. Roger Marshall and Democrat Adam Hamilton met Wednesday, Oct. 21, in Kansas City, Missouri, for their second and final debate, hosted by Nexstar Media Group (NBC News, The Hill, Fox News). The night opened with hard personal questions. Moderators asked Marshall about his former medical practice, which was reported to have sued patients over unpaid bills, and asked Hamilton how he handled an abuse allegation involving a volunteer at his church's camp. Hamilton said he should have checked that the man was not returning to camp (Fox News).",
+        "Analysts call the race a toss-up, though Decision Desk HQ gives Marshall 65 percent odds, and Kansas has not elected a Democrat to the Senate since the 1930s (The Hill). Marshall's medical-debt record has been a Democratic ad theme. The Washington Examiner reported this week that Trump used the word \"shylock\" at a Kansas rally while defending Marshall, and the ADL called the term an antisemitic trope (Washington Examiner, Fox News).",
+        "On policy, the pair clashed over the Iran war, tariffs, health care and AI regulation (NBC News, The Hill). Marshall told the audience that Trump \"is not always right\" and pointed to immigration enforcement in southwest Kansas as one disagreement. Hamilton said he would not back Chuck Schumer for majority leader. Fox News framed the night as both men distancing from party leaders, while The Hill focused on Hamilton's effort not to alienate Trump voters. Both said there are two genders and that biological males should not compete in girls' sports."
       ],
       "facts": [
-        "Trump spoke at a rally in Park City, Kansas, on Monday, Oct. 19.",
-        "A New York Times investigation found Marshall's practice sued more than 700 patients.",
-        "CNN found no law requiring doctors to sue patients over unpaid bills.",
-        "Schumer called the remark \"disgusting\" (The Hill).",
-        "The ADL said use of the word can reinforce harmful tropes about Jews (The Hill).",
-        "The final Marshall-Hamilton debate is tonight at 7 p.m. Central."
+        "The debate was Wednesday, Oct. 21, in Kansas City, Missouri, hosted by Nexstar.",
+        "It was the second and final debate between Marshall and Hamilton.",
+        "Decision Desk HQ gives Marshall 65 percent odds of winning, per The Hill.",
+        "Hamilton said he would not support Schumer as majority leader.",
+        "Marshall said Trump \"is not always right.\""
       ],
-      "left": "Democrats say the remark is antisemitic and that Trump repeated it after being warned last year. They add that the legal defense does not hold up, since CNN found no law forcing Marshall to sue. For them the story is about a senator who had patients arrested over small debts while voting on health policy.",
-      "right": "Marshall's side says judges, not doctors, issue warrants when people repeatedly miss court dates, and that the practice wrote off many bills and gave away millions in charity care. Trump's defenders argue the attack on Marshall is a campaign hit built on a decades-old practice. Conservatives who dislike the word itself say the party cannot dismiss the criticism, because it distracts from a Senate seat the GOP needs.",
-      "next": "Watch tonight's debate and any Republican senators who speak up on the remark; Kansas votes Nov. 3.",
+      "next": "Election Day is Nov. 3. Watch for new Kansas polls and any Trump visit before then.",
       "src": [
         [
-          "CNN",
+          "NBC News",
           "LL",
-          "https://www.cnn.com/2026/10/20/politics/trump-antisemitic-term-roger-marshalls-lawsuits"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/10/21/politics/fact-check-trump-roger-marshall-claims"
+          "https://www.nbcnews.com/politics/2026-election/roger-marshall-adam-hamilton-face-fiery-final-kansas-senate-debate-rcna604592"
         ],
         [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/campaign/6160002-trump-uses-antisemitic-slur/"
+          "https://thehill.com/homenews/campaign/6164323-marshall-hamilton-clash-in-battleground-kansas-senate-debate-4-takeaways/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/kansas-senate-rivals-distance-themselves-from-party-leaders-fiery-debate"
         ],
         [
           "Washington Examiner",
           "LR",
           "https://www.washingtonexaminer.com/news/campaigns/congressional/4771737/trump-antisemitic-shylock-slur-kansas-rally/"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/midterm-elections-2026-trump-kansas-latino-voters-october-19"
         ]
-      ]
+      ],
+      "thread": "midterms-2026",
+      "left": "Democrats say Marshall's practice suing patients shows a pattern of putting money ahead of neighbors, and that his Senate votes on health care follow the same instinct. They argue Hamilton, a pastor with a long community record, offers a moral alternative, and that Trump's remarks at Marshall's rally show a party that treats voters' medical debt as a joke.",
+      "right": "Republicans say Marshall is a working physician who delivered thousands of babies and gave millions to charity, and that a clinic is a business that must collect bills. They argue Hamilton is a Democrat who will still vote with Schumer's caucus on taxes, tariffs and the border, and that Kansas voters know the difference between a local doctor and a national party."
     },
     {
-      "id": "senatetour",
+      "id": "pollslow",
       "section": "politics",
-      "motif": "capitol",
-      "when": "Senate map",
-      "title": "Trump starts his busiest campaign week as Democrats are slight favorites to take the Senate",
-      "summary": "Decision Desk HQ gives Democrats a 56 percent chance at the majority, and some GOP senators worry Trump hurts them with independents.",
+      "motif": "scales",
+      "when": "Midterm polls",
+      "title": "Trump's approval hits record lows in CNN and Reuters/Ipsos polls as Democrats lead the generic ballot",
+      "summary": "CNN/SSRS has Trump at 32 percent and Democrats up 49 to 39. Reuters/Ipsos has him at 31 percent. The FCC chair warned broadcasters about 'fake polls.'",
       "story": [
-        "Trump is spending the final two weeks before the Nov. 3 midterms campaigning mostly for Senate Republicans, according to The Hill and Fox News. Fox reports rallies in Kansas on Monday, North Carolina on Tuesday and South Carolina on Wednesday. The Hill says the planned stops also include Iowa, Florida, Georgia, Michigan and Texas.",
-        "The Senate is split 53-47 now. The Hill cites Decision Desk HQ, which gives Democrats a 56 percent chance of winning the majority and Republicans 44 percent. The Hill also reports that the RNC moved more than $44 million to the party's House and Senate committees between mid-August and mid-October.",
-        "Some Republican senators question whether Trump helps. The Hill reports that GOP senators warn he is hurting the party with independents. Sen. Thom Tillis, asked whether Trump might lash out after a bad night, said \"I think there's a risk, I really do.\" CNN's midterm live coverage describes Trump raising alarm about Democrats as he tries to limit losses.",
-        "The tour is a bet that turnout from his base matters more than persuasion. Kansas, North Carolina and South Carolina are the states where that bet is most visible this week."
+        "A CNN/SSRS poll taken Oct. 15 to 18 puts Trump's approval at 32 percent, a new low, with only 13 percent approving strongly and 74 percent approval among Republicans. Democrats lead the generic congressional ballot 49 to 39 among registered voters, CNN's largest margin since just before the 2020 election (CNN). A Reuters/Ipsos poll of 1,679 adults, taken Oct. 16 to 19, had approval at 31 percent, the lowest of either Trump term (The Hill).",
+        "CNN's own poll of polls averages Trump near 33 to 34 percent and the generic ballot at 54 to 45 for Democrats. CNN adds a caution: redistricting and the number of GOP-leaning competitive seats could limit Democratic gains. In its latest Senate ranking, published Thursday, CNN says Democratic excitement is high but control of the chamber is far from certain (CNN).",
+        "On Wednesday, FCC Chair Brendan Carr warned broadcasters about \"fake polls\" without naming any, the same day two new polls showed record-low approval for Trump (CNN). Decision Desk HQ had earlier given Democrats a 77 percent chance at the House and 55 percent at the Senate, though the Senate figure comes from an earlier report (The Hill)."
       ],
-      "flag": "The DDHQ odds are one forecaster's model; other forecasters differ.",
       "facts": [
-        "The Senate is split 53-47 today.",
-        "DDHQ gives Democrats a 56 percent chance at the majority (The Hill).",
-        "Trump rallied in Kansas, North Carolina and South Carolina on Oct. 19-21 (Fox News).",
-        "The RNC says it moved more than $44 million to the NRCC and NRSC (The Hill).",
-        "Tillis said there is a real risk Trump lashes out after a bad night (The Hill)."
+        "CNN/SSRS, Oct. 15-18: Trump approval 32 percent, strong approval 13 percent.",
+        "CNN generic ballot: Democrats 49, Republicans 39 among registered voters.",
+        "Reuters/Ipsos, Oct. 16-19: 31 percent approval, 1,679 respondents.",
+        "CNN's poll of polls shows Trump near 33 to 34 percent approval.",
+        "FCC Chair Brendan Carr warned about 'fake polls' on Oct. 21."
       ],
-      "left": "Democrats argue Trump's approval, near record lows in Reuters/Ipsos polling, makes him a drag in swing states. They see Kansas and South Carolina moving their way and say voters are reacting to prices, the Iran war and the Russia waiver. They want the final weeks to be a referendum on him.",
-      "right": "Republicans say Trump is the only Republican who can turn out low-propensity voters, and that polls have underrated him before. They argue the tour puts resources where the Senate will be decided and that Democratic candidates are running on a map that favors them only in a bad news cycle. Some conservatives say a poor night would still be a narrow loss in a midterm.",
-      "next": "Early voting continues and the Nov. 3 election is 13 days away; Kansas's debate tonight is the next marker.",
+      "next": "Election Day is Nov. 3, with early voting already open in states such as Texas.",
       "src": [
         [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/"
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/21/politics/cnn-poll-trump-democrats-republicans-midterms"
         ],
         [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/senate/6129187-thom-tillis-donald-trump-midterm-elections/"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/senate/6124725-trump-senate-race-risk/"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+          "https://thehill.com/homenews/administration/6159609-trump-approval-record-low-reuters-ipsos/"
         ],
         [
           "CNN",
           "LL",
-          "https://www.cnn.com/2026/10/19/politics/live-news/midterm-election-congress"
+          "https://cnn.com/2026/10/21/media/trump-polls-fcc-brendan-carr-wedgewood"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6162170-democrats-hold-poll-advantage-midterms/"
         ]
-      ]
+      ],
+      "left": "Democrats read the numbers as a referendum on prices, the Iran war and tariffs, and on a president who keeps escalating culture fights. They point to gains in states Trump won by double digits and argue that the polling gap is wide enough to survive likely errors.",
+      "right": "Conservatives note that midterm polls overstate the out-party's energy before turnout is real, and that redistricting and tight Senate maps limit how far a bad national number travels. They argue voters still split on Democratic economic plans and that enthusiasm gaps among Trump's base can close in the last two weeks.",
+      "blindspot": "Right-leaning coverage of the new polls was thin in what I found; the right-leaning angle here is the FCC's 'fake polls' warning, which I only found through CNN."
     },
     {
-      "id": "russiawaiver",
+      "id": "grahamwaiver",
       "section": "politics",
       "motif": "scroll",
-      "thread": "russia-diesel",
-      "when": "Waiver backlash",
-      "title": "Trump's waiver of Russia sanctions draws fire from Republicans as his team gives mixed explanations",
-      "summary": "Rubio says the White House wants a 60-day review, Wright calls the diesel deal a carrot, and Rubio also says Russia would sell its diesel anyway.",
+      "when": "Russia sanctions",
+      "title": "Trump waives Russia sanctions from the Graham Act, and the criticism comes from both parties",
+      "summary": "Trump suspended sanctions under a law he signed Sept. 18. Republicans such as Cornyn objected, Massie praised the move, and Treasury's Bessent defended it.",
       "story": [
-        "The backlash over Trump's order waiving sanctions and tariffs under the Graham Russia sanctions law is now about the White House's own explanations, according to Axios. Energy Secretary Chris Wright called the diesel deal a \"carrot\" that could ease Russia's assault, Axios reports. Secretary of State Marco Rubio said Russia would sell its diesel anyway, and that Trump wants a 60-day review of how the Graham Act affects the global and U.S. economies.",
-        "The Hill reports that Sen. Thom Tillis called the move \"beyond irresponsible\" and Sen. John Cornyn said the late Lindsey Graham \"would be appalled.\" Graham's successor, Sen. Darline Graham, said she disagrees with the decision and would keep pressure on Russia. House Speaker Mike Johnson said he warned the White House of \"unintended consequences,\" The Hill reports. A separate letter led by Tillis asks the administration to rescind a Treasury general license that lifted sanctions on Russian diesel.",
-        "Treasury Secretary Scott Bessent defended the moves on NBC's Meet the Press, saying \"no one has been tougher on Russian sanctions than President Trump\" and pointing to 2025 sanctions on Rosneft and Lukoil. The Wall Street Journal editorial board, quoted by The Hill, wrote that Trump \"stuck a shiv in the back\" of Graham's legacy. CNN reports that Ukraine also objected.",
-        "The Graham Act lets a president waive penalties by certifying to Congress that it serves the national interest, so lawmakers have no quick way to reverse it."
+        "Trump issued an executive order last week suspending sanctions under the Lindsey O. Graham Sanctioning Russia and Iran Act, citing the law's waiver provision. The White House said enforcing the sanctions now would impede U.S. efforts to negotiate a durable peace between Ukraine and Russia (The Hill, Axios). The order followed Trump's easing of Russian diesel sanctions earlier in the month.",
+        "Trump signed the Graham Act on Sept. 18, and its first 30-day implementation deadline fell on Oct. 18 (Washington Examiner). Sen. John Cornyn wrote that \"Lindsey would be appalled,\" and the Wall Street Journal editorial board said Trump \"stuck a shiv in the back\" of the late senator's legacy (The Hill). Trump defended the move on Truth Social, saying he did not \"want to do anything that will drive, foolishly, Russia away from the bargaining table\" (The Hill).",
+        "Not every Republican objected. Rep. Thomas Massie praised the waiver (Washington Examiner), and Treasury Secretary Bessent said \"no one has been tougher\" on Russian sanctions than Trump. Sen. Darline Graham, who campaigned with Trump in South Carolina, said she would personally keep the pressure on Russia because she does not trust Putin, but that she and the president share the goal of ending the war (The Hill). National Review called the waiver part of a pattern of Trump helping Putin as scrutiny rises."
       ],
-      "blindspot": "Most coverage found is from center outlets and the right-leaning Wall Street Journal editorial board; no standalone left-leaning article was found.",
       "facts": [
-        "Trump issued the waiver Oct. 16 (CNN).",
-        "Rubio says the White House wants a 60-day review of the Graham Act's effects (Axios).",
-        "Wright called the diesel deal a \"carrot\" (Axios).",
-        "Tillis, Cornyn, Johnson and Sen. Darline Graham have criticized the move (The Hill).",
-        "Bessent says no one has been tougher on Russian sanctions than Trump."
+        "Trump suspended sanctions under the Graham Act with an executive order last week.",
+        "He signed the act into law on Sept. 18.",
+        "The White House says enforcement would impede peace negotiations.",
+        "Cornyn and the WSJ editorial board criticized the waiver; Massie praised it.",
+        "Bessent said 'no one has been tougher' on Russian sanctions than Trump."
       ],
-      "left": "Democrats say the waiver gives Putin money and leverage while Russia keeps attacking Ukraine's energy system. They stress that Republican senators who wrote the law are now objecting, and they want Congress to force a vote. The mixed explanations, in their view, show there is no plan.",
-      "right": "The administration argues cheaper energy helps American families before the midterms and that the pause is a bargaining chip toward a peace deal. Foreign-policy hawks, including the Wall Street Journal editorial board, say it undercuts a law named for a Republican hero and rewards Moscow without a concession. A smaller libertarian wing sees sanctions as a cause of higher prices.",
-      "next": "Watch for a Senate letter, hearing or vote on the waiver, and the end of the 60-day review in mid-December.",
+      "next": "Watch for a congressional response and whether Senate Republicans press Trump to rescind the waiver.",
       "src": [
         [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/18/trump-russia-diesel-deal-rubio-wright-sanctions"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://axios.com/2026/10/19/fallout-trump-russia-energy"
-        ],
-        [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/senate/6158966-trump-waives-russia-sanctions/"
+          "https://thehill.com/homenews/administration/6155621-trump-waives-russian-sanctions-act-tariffs/"
         ],
         [
-          "The Hill",
+          "Axios",
           "C",
-          "https://thehill.com/homenews/senate/6157363-darline-graham-russia-ukraine-pressure-trump-gop/"
+          "https://www.axios.com/2026/10/17/trump-russia-sanctions"
         ],
         [
-          "CNN",
-          "LL",
-          "https://edition.cnn.com/2026/10/16/europe/us-ukraine-russia-sanctions-intl-hnk"
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/foreign-policy/4770107/bessent-trump-russia-diesel-sanctions/"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/corner/as-scrutiny-of-his-aid-to-putin-intensifies-trump-waives-more-russia-sanctions/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-tries-different-approach-russia-bring-americans-relief-amid-ongoing-war-ukraine"
         ]
-      ]
+      ],
+      "thread": "russia-diesel",
+      "left": "Democrats say the waiver hands Putin economic relief while he keeps striking Ukraine, and that it undoes a bipartisan law Trump himself signed. They point to Republican critics as proof the policy is indefensible and warn that it weakens leverage for any real settlement.",
+      "right": "Supporters argue presidents need flexibility to bargain, and that sanctions have not stopped the war. The White House frames the waiver as a lever to bring Moscow to the table and to ease energy prices. Critics on the right, including National Review, answer that the law was written to limit exactly this kind of discretion."
     },
     {
-      "id": "seiustrike",
+      "id": "strike",
       "section": "local",
       "motif": "gear",
-      "thread": "ca-state-strike",
-      "when": "Strike day",
-      "title": "California's largest state worker union holds its first statewide strike, with pickets in Oakland, San Francisco and Sacramento",
-      "summary": "About 95,000 SEIU Local 1000 members are eligible to walk out over pay, health costs and Newsom's return-to-office order.",
+      "when": "State workers",
+      "title": "California's first state worker strike puts pay and the return-to-office order back on the table",
+      "summary": "About 95,000 SEIU Local 1000 members could take part. Mediation reportedly resumes Oct. 30.",
       "story": [
-        "SEIU Local 1000 began a one-day strike on Wednesday, Oct. 21, the first statewide walkout in the union's 44-year history, according to KQED. About 95,000 state workers are eligible to strike. CalMatters reports the union is holding demonstrations in more than a dozen cities, including Oakland, San Francisco, Los Angeles, San Diego and Sacramento, where members plan a march to lawmakers' offices near the Capitol.",
-        "The contract expired June 30. KQED says the union wants across-the-board raises of 20 percent over three years, more state money for health coverage and remote-work rules set by each department. In late September the Public Employment Relations Board found that CalHR \"refused to meet and confer in good faith.\" On Oct. 16 the board let the strike proceed once the union exempted more workers, mostly at state prisons. Fewer than 5,000 employees at corrections, Caltrans and state hospitals must work.",
-        "The DMV, the Employment Development Department and State Parks could see delays, and CalMatters says the state's agencies have contingency plans. Newsom's order requiring most workers to be in the office four days a week took effect in July after a one-year delay. The union's president has said the union will escalate if the state keeps bargaining in bad faith, according to CalMatters.",
-        "A Washington Examiner editorial argues government unions have shown Newsom who is in charge on the work-week fight. It is opinion, not news reporting, and does not cover today's strike itself."
+        "SEIU Local 1000 held a one-day statewide strike on Wednesday, Oct. 21, the first in the union's 44-year history, with pickets planned in Sacramento, Oakland, San Francisco, Fresno and Los Angeles (CalMatters, KQED). The union represents about 100,000 state workers. About 95,000 could take part, and 5,000 were legally excluded because their absence would threaten public health or safety (CalMatters). Some state offices, including DMV field offices and parks, modified or limited operations beforehand.",
+        "The union's contract expired June 30. It wants better pay (it proposed 20 percent across the board over three years), more affordable health coverage and more flexibility to work from home. Newsom's order that most employees work in the office four days a week took effect in July after a one-year delay, and he vetoed a bill that would have loosened telework rules in September (CalMatters). In late September the state Public Employment Relations Board found that CalHR \"refused to meet and confer in good faith.\"",
+        "CalHR says it remains focused on a fair and responsible agreement and is available at the table. According to CalMatters coverage, both sides are scheduled to resume mediation on Oct. 30. Union president Anica Walls has said the union will stand firm: \"Administrations change, but our demands won't.\" Newsom is in his final months in office, which the union argues gives it leverage."
       ],
-      "blindspot": "Right-leaning outlets have not covered the strike itself in the search results; only an older Washington Examiner editorial on the return-to-office fight turned up.",
       "facts": [
-        "The strike is Wednesday, Oct. 21, and is the union's first statewide walkout.",
-        "About 95,000 workers are eligible; fewer than 5,000 essential employees are exempt (KQED).",
-        "The union wants 20 percent raises over three years (KQED).",
-        "PERB found CalHR did not bargain in good faith in late September (KQED).",
-        "DMV, EDD and State Parks services could be affected."
+        "The strike was Oct. 21 and lasted one day.",
+        "It was SEIU Local 1000's first strike in 44 years.",
+        "About 95,000 of roughly 100,000 members were eligible to strike.",
+        "The state labor board found CalHR failed to bargain in good faith in late September.",
+        "Mediation is reportedly scheduled to resume Oct. 30."
       ],
-      "left": "The union says the state is bargaining in bad faith, a finding PERB itself made, and that workers who run the DMV and unemployment offices deserve raises as health costs and rents climb. It frames the four-day office order as a pay cut in commuting costs, and says remote work helps with recruiting.",
-      "right": "Critics say state workers have job security and benefits most private workers lack, and that a strike hurts Californians who need DMV and unemployment services during a budget squeeze. The Washington Examiner editorial says unions have outmaneuvered Newsom on return to office. Supporters of the mandate say public servants should work where the public is served.",
-      "next": "Watch whether the state returns to the table this week or the union announces further walkouts; Newsom leaves office in January.",
+      "next": "Mediation between the union and CalHR is reportedly set for Oct. 30.",
       "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/economy/2026/10/state-worker-strike-local-1000/"
+        ],
         [
           "KQED",
           "LL",
@@ -755,47 +740,41 @@
         [
           "CalMatters",
           "C",
-          "https://calmatters.org/economy/2026/10/state-worker-strike-dmv-edd-services/"
-        ],
+          "https://calmatters.org/economy/2026/10/why-are-state-workers-striking/"
+        ]
+      ],
+      "thread": "ca-state-strike",
+      "left": "The union's case is that state workers took pay cuts while the cost of living in California climbed, and that the state broke bargaining rules, as its own labor board found. Supporters argue a four-day office order adds commute costs and reverses telework that worked, and that a strike is the last tool workers have.",
+      "right": "Critics of the union argue that taxpayers face a large budget gap and that public employees already have strong benefits and job security. They say in-office work improves service and downtown economies, and that a governor is entitled to set where state employees do their jobs.",
+      "flag": "The Oct. 30 mediation date comes from a search summary of CalMatters coverage and was not confirmed by a second outlet. I found no turnout figures for strike day.",
+      "blindspot": "Covered mainly by center and left-leaning outlets; no right-leaning coverage found."
+    },
+    {
+      "id": "billtax",
+      "section": "local",
+      "motif": "coins",
+      "when": "Props 40-42",
+      "title": "California's billionaire tax holds a slim poll lead, but two rival measures could cancel it",
+      "summary": "Prop. 40 leads narrowly, while Props. 41 and 42, backed by tech billionaires, could void it if either gets more yes votes.",
+      "story": [
+        "California's Nov. 3 ballot includes Prop. 40, a tax on billionaires, and two rival measures, Props. 41 and 42, that were placed on the ballot by a group of tech billionaires to counter it (CalMatters). Only the measure with the most yes votes takes effect. If Prop. 40 beats both, the tax takes effect and the countermeasures are void. If either rival outpolls it, the billionaire tax does not take effect.",
+        "Polls show a tight race. A September PPIC survey had Prop. 40 at 52 percent yes and 46 percent no among likely voters, with Prop. 41 at 51 to 44 and Prop. 42 at 54 to 43. A later Citrin-POLITICO poll put Prop. 40 at 46 percent to 43 percent (CalMatters, KQED). Opponents have raised heavily, with one report counting more than $187 million for the group fighting Prop. 40. Gov. Gavin Newsom opposes Prop. 40.",
+        "CalMatters also notes Prop. 3, a separate measure to make higher income tax rates permanent, polled at 58 percent yes. Because each poll differs in timing and wording, margins vary, and the PPIC and Citrin results may not be directly comparable."
+      ],
+      "facts": [
+        "Election Day is Nov. 3, 2026.",
+        "Props. 41 and 42 were placed on the ballot by a group of tech billionaires.",
+        "PPIC (September): Prop. 40 at 52 percent yes, 46 percent no.",
+        "Citrin-POLITICO: Prop. 40 at 46 percent yes, 43 percent no.",
+        "Newsom opposes Prop. 40."
+      ],
+      "next": "Nov. 3 is the vote; expect new polls and ad spending in the final two weeks.",
+      "src": [
         [
           "CalMatters",
           "C",
-          "https://calmatters.org/newsletter/state-worker-strike-begins/"
+          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
         ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/opinion/editorials/3472780/gavin-newsom-unions-california-government-employees-work-week/"
-        ]
-      ]
-    },
-    {
-      "id": "billionairetax",
-      "section": "local",
-      "motif": "coins",
-      "thread": "california-billionaire-tax",
-      "when": "Prop. 40",
-      "title": "California's billionaire tax holds a slim poll lead, but two rival measures could cancel it",
-      "summary": "A September PPIC poll had Prop. 40 at 52 percent to 46 percent, and Newsom backs Prop. 42, which would ban new wealth taxes.",
-      "story": [
-        "California's one-time billionaire tax, Proposition 40, led 52 percent to 46 percent among likely voters in a PPIC poll taken Sept. 4-10, according to KQED. PPIC's survey director called the lead slim and said supporters have \"a lot of work to do.\" An earlier UC Berkeley IGS poll in August had it at 48 percent to 41 percent, CalMatters reports, with 70 percent of Democrats in favor and about 80 percent of Republicans opposed.",
-        "The tax can pass and still fail. CalMatters explains that Propositions 41 and 42 are written to override it. If all three pass and either 41 or 42 gets more votes than Prop. 40, the state cannot enforce the tax. In PPIC's poll Prop. 41, which would put new taxes under the state spending limit, led 51 percent to 44 percent, and Prop. 42 led 54 percent to 43 percent. Prop. 42 would also ban any new taxes on personal property.",
-        "Gov. Gavin Newsom opposes the billionaire tax and has endorsed Prop. 42, according to CalMatters, while the California Democratic Party backs the tax. The measure is backed by unions, and the SF Chronicle reports it qualified for the Nov. 3 ballot.",
-        "The most recent public poll found is from September, so the race may have moved."
-      ],
-      "blindspot": "Coverage found comes from center and left-leaning outlets; no right-leaning outlet article on the measure turned up in these searches.",
-      "flag": "The newest public poll found is from early September.",
-      "facts": [
-        "Prop. 40 led 52 percent to 46 percent in PPIC's Sept. 4-10 poll.",
-        "Prop. 41 led 51-44 and Prop. 42 led 54-43 in the same poll.",
-        "If 41 or 42 gets more votes than 40, the state cannot enforce the tax.",
-        "Newsom opposes the tax and endorsed Prop. 42; the state Democratic Party backs the tax.",
-        "Election day is Nov. 3."
-      ],
-      "left": "Supporters say a one-time tax on the very wealthy would pay for health care and schools that federal cuts are straining, and that billionaires have gained far more than ordinary Californians. They say the rival measures are a trick by opponents to cancel a vote the public might otherwise approve.",
-      "right": "Opponents say wealth taxes drive founders and capital out of California, which relies heavily on a few high earners for income tax revenue. They argue that taxing unrealized assets is hard to value and sets a precedent that will reach more people. Newsom's own opposition shows this is not a partisan view in the state.",
-      "next": "Watch for a new PPIC or Berkeley IGS poll before the Nov. 3 vote.",
-      "src": [
         [
           "KQED",
           "LL",
@@ -804,142 +783,128 @@
         [
           "CalMatters",
           "C",
-          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
-        ],
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/"
-        ],
-        [
-          "SF Chronicle",
-          "LL",
-          "https://www.sfchronicle.com/politics/article/billionaire-tax-qualifies-22228531.php"
+          "https://calmatters.org/newsletter/billionaire-tax-proposition-poll/"
         ]
-      ]
+      ],
+      "thread": "california-billionaire-tax",
+      "left": "Supporters say the ultra-rich pay too little relative to wealth, and that California's schools, health care and transit need stable revenue. They see the rival measures as a billionaire-funded trick designed to cancel the tax by confusing voters.",
+      "right": "Opponents say a wealth tax will push founders and capital out of California, shrink the tax base and tie the state to volatile paper gains. Newsom, a Democrat, shares part of that worry, and critics say the tax would be hard to administer and likely tied up in court.",
+      "blindspot": "Covered mainly by center and left-leaning outlets; no right-leaning coverage found."
     },
     {
-      "id": "israelvote",
+      "id": "francecurfew",
       "section": "world",
-      "motif": "swords",
-      "thread": "iran-war",
-      "when": "Israel votes Oct. 27",
-      "title": "Trump's endorsement of Netanyahu splits Republicans as Iran restates its red lines",
-      "summary": "Trump endorsed Netanyahu nine days before Israel's Oct. 27 vote, Vance declined to, and Iran says no enriched uranium will leave.",
+      "motif": "globe",
+      "when": "France",
+      "title": "France imposes nightly curfews in Paris and other cities after its worst unrest in years",
+      "summary": "Officials count about 2,400 arrests since Saturday. Interior Minister Nu\u00f1ez offered to resign and Macron refused.",
       "story": [
-        "Trump endorsed Israeli Prime Minister Benjamin Netanyahu on Oct. 18, nine days before Israel's Oct. 27 election, according to Axios, NPR and Fox News (CNN dates it Saturday; the others say Sunday). NPR calls it the first time a U.S. president has explicitly endorsed a candidate in an Israeli election. Trump said that if Israel chooses anyone other than Netanyahu, America \"will have to do this work ourselves\" on Iran, Fox News reports.",
-        "Vice President JD Vance declined to follow, saying \"I'm not getting involved in Israeli elections,\" CNN and the Washington Examiner report. Axios reports most polls show Netanyahu's coalition at 50 to 54 seats, short of the 61 needed, while polls from the Netanyahu-friendly Channel 14 show 63. Rival Gadi Eisenkot said Israelis alone will decide.",
-        "Fox News reports that Iran's Supreme National Security Council secretary Mohsen Rezaei wrote that no enriched uranium will leave Iran, and that President Masoud Pezeshkian said sanctions must be lifted and threats ended before talks. Trump said on Oct. 8 the U.S. will not attack Iran before the Nov. 3 midterms (Axios, CNN). A White House official called an Axios report on a joint U.S.-Israeli strike plan \"false.\"",
-        "The Dispatch's David Drucker has written that parts of the American right, especially younger populists, have grown cooler toward Israel."
+        "France announced nightly curfews \"for as long as necessary\" in central Paris, around the Place de la R\u00e9publique and Les Halles, and kept them in Lyon, Bordeaux and Lille, after the first quiet night following the country's most destructive rioting in years (NPR, NBC News). Prime Minister S\u00e9bastien Lecornu credited the targeted curfews with keeping the peace overnight.",
+        "Protests on Oct. 17 drew roughly 550,000 people nationwide, according to Interior Minister Laurent Nu\u00f1ez, then turned violent after nightfall in Paris, Lyon, Marseille and Limoges, where a town hall was set on fire (CNN, NBC News). Arrest figures vary: the Interior Ministry's number is about 2,400, while one earlier tally put it at 1,800 (NBC News, NPR). At least two deaths were linked to the unrest. Nu\u00f1ez offered to resign Sunday, and Macron declined while citing \"intelligence and foresight failings\" in government.",
+        "Fox News reported the arrest of a \"far-left activist\" after the Limoges city hall fire, and said leftist groups in nine countries are planning further demonstrations. Trump said at a rally that \"migrants have taken over France\" and urged closing borders fast (Fox News). Authorities plan a heavy police presence for more protests on Saturday, with Sentinelle soldiers guarding sensitive sites."
       ],
       "facts": [
-        "Israel votes Tuesday, Oct. 27; the U.S. midterms are Nov. 3.",
-        "Trump endorsed Netanyahu on Oct. 18 (Axios, Fox, NPR).",
-        "Vance said he is not getting involved in Israeli elections.",
-        "Rezaei wrote that no enriched uranium will leave Iran (Fox News).",
-        "Trump has said the U.S. will not attack Iran before Nov. 3."
+        "Protests on Oct. 17 drew about 550,000 people, per Nu\u00f1ez.",
+        "Officials count about 2,400 arrests since Saturday.",
+        "Nightly curfews cover central Paris, Lyon, Bordeaux and Lille.",
+        "Nu\u00f1ez offered to resign and Macron refused.",
+        "More protests are planned for Saturday."
       ],
-      "left": "Progressives say Trump is turning a U.S. ally's election into a campaign prop and tying American security to one politician. They note polls show Netanyahu may fall short and argue the endorsement raises the odds of a new war with Iran that Americans do not want.",
-      "right": "Supporters say Netanyahu has been America's key partner against Iran and that Trump is just stating what is at stake. Pro-Israel conservatives say Vance's neutrality is an error. The populist right, including some commentators, argues the U.S. should not pick sides abroad, and says the split shows a real debate in the party.",
-      "next": "Israel votes Oct. 27; watch whether talks with Iran move before the Nov. 3 midterms.",
+      "next": "Another round of protests is planned for Saturday, Oct. 24, and unions have called a strike for Nov. 5.",
       "src": [
         [
           "NPR",
           "LL",
-          "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://edition.cnn.com/2026/10/18/world/trump-netanyahu-elections-relations-intl"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://foxnews.com/live-news/iran-war-news-trump-israel-russia-october-20"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "http://www.washingtonexaminer.com/news/world/4771732/vance-netanyahu-reelection-endorsement-trump/"
-        ]
-      ]
-    },
-    {
-      "id": "francetrump",
-      "section": "world",
-      "motif": "globe",
-      "thread": "france-unrest",
-      "when": "France unrest",
-      "title": "France's interior minister offers to resign after rioting as unions plan a Nov. 5 strike",
-      "summary": "Macron refused the resignation and ordered a review, and Trump says such riots won't happen in the United States.",
-      "story": [
-        "France's Interior Minister Laurent Nuñez offered to resign after saying \"in certain large cities, we lost control\" during Saturday's protests, according to Fox News. Macron rejected the offer and ordered a review of what the Élysée called failures in planning and intelligence. NBC reports France is moving to impose curfews after its worst violence in years.",
-        "The French Interior Ministry said more than half a million people took part in Saturday's day of protest and nearly 2,400 were arrested, while organizers claimed about 800,000 (Fox News). CNN describes the rioting as a symptom of a larger political crisis ahead of next spring's presidential election. The protests began with high school students demanding better classrooms and spread to living costs.",
-        "Macron blamed \"troublemakers from far-left fringe groups\" while acknowledging protesters' legitimate concerns, Fox News reports. The head of the CGT union called strikes for Nov. 5 after meeting Prime Minister Sébastien Lecornu, with other actions planned Oct. 31 and Nov. 14. Fox News also reports Marseille banned demonstrations.",
-        "On Wednesday Trump said the United States will not put up with riots like France's, according to Fox News."
-      ],
-      "facts": [
-        "Nuñez offered to resign; Macron refused (Fox News).",
-        "The interior ministry counted more than 500,000 marchers and nearly 2,400 arrests.",
-        "Unions plan strikes on Nov. 5, with other actions Oct. 31 and Nov. 14.",
-        "The protests began with high school students over school conditions.",
-        "France votes for president next spring (CNN)."
-      ],
-      "left": "The left reads the unrest as anger over living costs and crumbling schools that the government has ignored. It says heavy policing and blaming far-left groups avoids the underlying grievances, and that unions are channeling the anger into a lawful strike.",
-      "right": "The right says the violence shows a loss of public order and points to the interior minister's own admission that police lost control. Some conservatives, citing Fox News, argue immigration and weak enforcement are driving it, and that National Rally and center-right parties can gain from the security debate.",
-      "next": "Watch the Oct. 31 and Nov. 5 actions and the results of Macron's security review.",
-      "src": [
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/world/violence-erupts-france-protests-macron-warns-unrest-being-exploited"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/france-riots-protests-trump-speaks-10-21-26"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/10/19/europe/france-riots-political-crisis-intl"
+          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
         ],
         [
           "NBC News",
           "LL",
           "https://www.nbcnews.com/world/europe/france-violence-riots-looting-paris-limoges-curfews-macron-protests-rcna604292"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/19/europe/france-protests-violence-wwk-intl-hnk"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/france-riots-protests-limoges-arrest-10-20-26"
         ]
-      ]
+      ],
+      "thread": "france-unrest",
+      "left": "The left reads the unrest as youth anger at economic insecurity and a government that failed to anticipate it, and warns that curfews and mass arrests treat symptoms. Critics say Macron's team ignored warning signs and that violent fringe actors should not discredit a mass peaceful movement.",
+      "right": "The right says the burning of a town hall shows order has broken down, and that the state has been too slow to police extremists and enforce borders. Trump's remark that migrants have taken over France reflects that view, while others on the right emphasize public safety over immigration framing.",
+      "flag": "Arrest and death figures differ across outlets; the Nov. 5 strike date comes from earlier Daily Feed coverage."
     },
     {
-      "id": "fedwarsh",
-      "section": "economy",
-      "motif": "coins",
-      "when": "Fed Oct. 28",
-      "title": "Markets expect the Fed to hold next week, but a CNBC analysis says Warsh could surprise with a hike",
-      "summary": "September CPI was 3.7 percent and the economy added only 29,000 jobs, and the 10-year yield sits near 5.15 percent.",
+      "id": "iranstall",
+      "section": "world",
+      "motif": "swords",
+      "when": "Iran war",
+      "title": "Iran sets red lines as the US says it will not strike before the midterms",
+      "summary": "Iran says 'not a single gram' of enriched uranium leaves. The White House says the blockade stays and no attack comes before Nov. 3.",
       "story": [
-        "The Fed meets Oct. 27-28 and markets expect it to leave rates unchanged, according to CNBC. A CNBC analysis argues that Fed Chair Kevin Warsh could still surprise with a rate hike, based on the inflation data. Officials raised rates a quarter point last month to a range of 3.75 percent to 4 percent, The Hill reports.",
-        "September consumer prices rose 3.7 percent, up from 3.4 percent in August, The Hill reports. Axios says Fed Governor Christopher Waller worries the acceleration could push inflation expectations up. The economy added only 29,000 jobs in September, well below the 80,000-plus economists expected, CNBC reports, and CNBC says the weak report cut the odds of an October hike.",
-        "Fed minutes showed officials see one more hike this year and none in 2027 as a group (CNBC). The data feed shows the 10-year Treasury yield at 5.15 percent and WTI crude at $97.89, both reflecting the inflation pressure. The Washington Examiner has run an op-ed arguing the Fed cannot create diesel or refining capacity by raising rates.",
-        "Warsh has avoided forward guidance, The Hill reports, which leaves the decision open until Oct. 28."
+        "Iranian President Masoud Pezeshkian said Tuesday that the U.S. must lift sanctions and end threats before negotiations can begin, and blamed U.S. \"warmongering\" for disruptions in the Strait of Hormuz. An Iranian official said \"not a single gram\" of enriched uranium will be removed from the country (Fox News). Iran's security council secretary met Pakistan's army chief and said Tehran will not negotiate until Washington rebuilds trust.",
+        "A White House deputy press secretary said the naval blockade will remain \"in full force and effect\" and that the U.S. will not attack Iran before the midterms. Trump reportedly said strikes alone are not enough unless the U.S. can ensure Iran will not build a nuclear weapon (Fox News). CNN analysis argues that even if Congress changes hands, Trump would keep control of the war (CNN). CNBC reported that Brent crude topped $110 a barrel, the U.S. pulled non-emergency staff from Saudi Arabia, and Houthi attacks in Saudi Arabia pushed oil up more than $2 a barrel Thursday.",
+        "Earlier this fall, Trump rejected an Iranian proposal to reopen Hormuz in exchange for lifting the blockade, calling it \"not acceptable\" (NPR). Analysts describe a stalemate, with Iran unable to close the strait but still able to threaten ships and regional infrastructure. Brent and WTI prices stay sensitive to each new statement from either side."
       ],
       "facts": [
-        "The Fed meets Oct. 27-28.",
-        "September CPI was 3.7 percent, up from 3.4 percent in August (The Hill).",
-        "September payrolls rose by 29,000 (CNBC).",
-        "The Fed funds range is 3.75 to 4 percent (The Hill).",
-        "The 10-year yield is 5.15 percent and WTI crude is $97.89 (market data)."
+        "Pezeshkian demands sanctions relief before talks.",
+        "Iran says no enriched uranium will leave the country.",
+        "The White House says the blockade remains and no attack comes before the midterms.",
+        "Oil rose more than $2 a barrel Thursday on Houthi attacks in Saudi Arabia, per CNBC.",
+        "WTI crude was $99.39 in live.json."
       ],
-      "left": "Progressives and many economists say hiking into a weak jobs market risks a recession when much of the inflation comes from energy and war-related supply shocks. They want the Fed to look through oil prices and say workers should not pay for a war-driven price spike.",
-      "right": "Conservatives who favor tight money say Warsh must prove the Fed will not tolerate inflation near 4 percent after years above target, and that waiting repeats 2021-22 mistakes. Others on the right argue that rates cannot fix supply shocks in diesel or refining, citing a Washington Examiner op-ed, and blame energy and tariff policy instead.",
-      "next": "The Fed decision comes Wednesday, Oct. 28; the next jobs report follows in early November.",
+      "next": "Nov. 3 is the date the White House has tied its no-strike pledge to. Israel votes next week.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-trump-israel-russia-october-20"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/21/politics/mcgurk-on-iran-midterms-effect"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/gold-hits-over-two-week-low-as-oil-rally-fuels-inflation-worries.html"
+        ]
+      ],
+      "thread": "iran-war",
+      "left": "Critics say a blockade without talks risks open-ended conflict, higher gas prices and a pledge that conveniently ends on Election Day. They want Congress to demand a war-powers vote and a negotiating track.",
+      "right": "Supporters say the blockade and Iran's isolation are leverage, and that Tehran's refusal to give up enriched uranium shows why strength is needed. They argue a deal that leaves enrichment in place would be worse than the current pressure, and that Trump's focus on preventing a weapon is the right test.",
+      "flag": "A report that the Pentagon was asked for post-election strike options appeared in a search summary and I did not confirm it with a second outlet, so it is not in the facts."
+    },
+    {
+      "id": "fedhold",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed meeting",
+      "title": "Markets expect the Fed to hold on Oct. 28, but inflation keeps a December hike in play",
+      "summary": "The Fed raised rates Sept. 16, and traders price a 91 percent chance of another hike in December.",
+      "story": [
+        "The Federal Reserve meets Oct. 27 and 28, and most traders expect no change after the Sept. 16 hike that lifted the benchmark range to 3.75 to 4 percent, the first increase since 2023 (Fox Business, CNBC). Fed minutes released Oct. 7 showed officials expect one more hike this year (CNBC). CNBC reported Thursday that traders now price a 91 percent chance of a December increase, per CME FedWatch.",
+        "A CNBC analysis argued Chair Kevin Warsh could surprise with a hike in October, since last week's consumer and producer inflation data came in hotter than expected. Reports differ on the October hold odds, so treat any single FedWatch number with caution. The next big data point is the PCE inflation report on Oct. 29, the day after the meeting (CNBC).",
+        "Oil is a major factor: WTI crude sits near $99 and Brent topped $110 this week (live.json, CNBC). Fox Business reported that Warsh has said the Fed has \"no tolerance\" for elevated inflation. A Washington Examiner op-ed argued the September hike came at the worst possible moment, squeezing consumer credit while the economy risks a hard landing."
+      ],
+      "facts": [
+        "The FOMC meets Oct. 27-28.",
+        "The Sept. 16 hike set the range at 3.75 to 4 percent.",
+        "Fed minutes showed officials expect one more hike this year.",
+        "Traders price a 91 percent chance of a December hike, per CNBC.",
+        "PCE inflation data arrive Oct. 29."
+      ],
+      "next": "The Fed decision comes Oct. 28; PCE inflation follows Oct. 29.",
       "src": [
         [
           "CNBC",
@@ -947,96 +912,89 @@
           "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
         ],
         [
-          "The Hill",
-          "C",
-          "https://thehill.com/business/6148963-september-cpi-data-fed-rate-pressure/"
-        ],
-        [
           "CNBC",
           "C",
           "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
         ],
         [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/08/interest-rate-hikes-fed-waller"
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-september-16-2026"
         ],
         [
           "Washington Examiner",
           "LR",
-          "https://www.washingtonexaminer.com/op-eds/4732487/fed-rate-hikes-energy-inflation-main-street/"
+          "https://www.washingtonexaminer.com/op-eds/4741193/fed-rate-hike-worst-possible-moment/"
         ]
-      ]
+      ],
+      "left": "Progressive economists argue the inflation is driven largely by war-related oil and supply shocks that rate hikes cannot fix, and that tightening hurts borrowers and workers first. They want the Fed to look through energy prices and protect jobs.",
+      "right": "Conservative commentators say inflation near the highs in recent months justifies the Fed's hawkish stance, and that the central bank lost credibility by moving late before. Some, like the Washington Examiner op-ed author, still worry about timing, but most agree price stability has to come first.",
+      "flag": "Sources disagree on the odds of a hold in October and on recent inflation readings, so this story avoids quoting a CPI figure."
     },
     {
       "id": "teslaq3",
       "section": "stocks",
       "motif": "chart",
-      "when": "Tesla results",
-      "title": "Tesla beats Q3 estimates, but shares slip after hours as SpaceX merger talk looms",
-      "summary": "Adjusted earnings were 48 cents a share on $28.05 billion in revenue, and CNBC says shares traded about 2 percent lower after the close.",
+      "when": "Tesla Q3",
+      "title": "Tesla beats Q3 estimates but falls on weak auto revenue, a 43% profit drop and SpaceX merger talk",
+      "summary": "Adjusted EPS of 48 cents beat estimates, but automotive revenue fell 3 percent and the stock dropped about 4 percent in premarket trading Thursday.",
       "story": [
-        "Tesla reported third-quarter adjusted earnings of 48 cents a share on $28.05 billion in revenue after the close Wednesday, beating LSEG estimates of 43 cents and $27.88 billion, according to CNBC. CNBC says shares gave back early gains and traded about 2 percent lower after hours. Tesla had closed the day up 3.41 percent in the market-data feed.",
-        "Tesla delivered 486,532 vehicles in the quarter, above the 469,000 Visible Alpha expected, and deployed 13.7 gigawatt-hours of energy storage, according to S&P Global Market Intelligence's preview. The preview had expected earnings and revenue to edge lower despite the delivery beat.",
-        "The earnings arrive a day after Elon Musk said Tesla and SpaceX have formed special committees to discuss a merger, CNBC reports. SpaceX shares jumped 7 percent after it said revenue grew 161 percent in the third quarter. Tesla shares rallied with them on Tuesday, per CNBC.",
-        "CNBC's live page was inconsistent on the after-hours move, so the 2 percent decline is approximate."
+        "Tesla reported adjusted earnings of 48 cents a share on revenue of $28.05 billion Wednesday after the close, ahead of the 43 cents and $27.9 billion analysts polled by LSEG expected (CNBC). Automotive revenue fell 3 percent from a year earlier to $20.56 billion, which Tesla blamed on lower average sales prices and trouble securing battery supplies. Energy revenue fell 16 percent to $2.88 billion, while services and other revenue rose 33 percent to $4.61 billion.",
+        "TechCrunch reported that profit fell 43 percent as spending on AI and the Optimus robot rose, and that Tesla started Optimus production in California. The stock, which rose more than 3 percent during Wednesday's session (to $386.47, per live.json), slid more than 3 percent in extended trading and was down about 4 percent in Thursday premarket trading (CNBC).",
+        "The report landed a day after Musk told investors on SpaceX's earnings call that a merger of the two companies would be a \"good idea,\" and said special committees at both boards are discussing a possible combination. Musk will not take part in the committees' deliberations because he is a \"conflicted party\" (CNBC). Analysts were mixed on the quarter, and the main concern is the size of Tesla's investments in emerging technology."
       ],
-      "flag": "CNBC's live coverage gave mixed readings on the after-hours move; no GAAP net income figure was found.",
       "facts": [
-        "Adjusted EPS was 48 cents vs. 43 cents expected (CNBC/LSEG).",
-        "Revenue was $28.05 billion vs. $27.88 billion expected.",
-        "Q3 deliveries were 486,532 vs. 469,000 expected (S&P Global).",
-        "Storage deployments were 13.7 GWh.",
-        "Tesla and SpaceX have formed special committees to discuss a merger (CNBC)."
+        "Adjusted EPS was 48 cents against 43 cents expected.",
+        "Revenue was $28.05 billion against about $27.9 billion expected.",
+        "Automotive revenue fell 3 percent to $20.56 billion.",
+        "Profit fell 43 percent, per TechCrunch.",
+        "Shares were down about 4 percent in Thursday premarket trading."
       ],
-      "why": "Tesla is on Keanu's watchlist and has moved with SpaceX news all week. Investors now weigh a solid quarter against a possible merger, whose terms and timing are unknown. A beat that still drops the stock shows how much of its value rests on expectations about the merger and autonomy rather than the quarter.",
-      "next": "Watch the after-hours trading and the earnings call for merger comments; Alphabet and Microsoft report Oct. 28.",
+      "next": "Watch the Tesla and SpaceX special committees for a merger announcement and for Tesla's Thursday close.",
       "src": [
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
+          "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/"
         ],
         [
           "CNBC",
           "C",
-          "https://cnbc.com/2026/10/21/stocks-making-the-biggest-moves-after-hours-meta-tsla-lrcx-ibm.html"
+          "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html"
         ],
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/10/21/futures-orbit-around-spacex-as-tesla-merger-talk-cheers-investors.html"
-        ],
-        [
-          "S&P Global Market Intelligence",
-          "C",
-          "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/tesla-s-revenue-earnings-expected-to-edge-lower-despite-delivery-beat"
+          "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
         ]
-      ]
+      ],
+      "why": "A merger of Tesla and SpaceX would combine two very different businesses, one with falling auto revenue and one with fast growth. For a shareholder, the questions are who sets the price and how independent the board process is."
     },
     {
-      "id": "metapenalty",
+      "id": "metapen",
       "section": "stocks",
-      "motif": "scales",
-      "when": "Meta results",
-      "title": "Meta beats on revenue even as a New Mexico judge orders a $25 billion privacy penalty",
-      "summary": "Meta's Q3 revenue was $64.60 billion, shares rose about 3 percent after hours, and Meta says it will appeal the penalty.",
+      "motif": "gavel",
+      "when": "Meta",
+      "title": "Meta slips in premarket trading after a revenue beat and a $25 billion New Mexico penalty",
+      "summary": "A judge ordered the penalty over Cambridge Analytica-related practices. Meta says it will appeal, and several analysts raised price targets.",
       "story": [
-        "A New Mexico judge ordered Meta to pay $25 billion on Wednesday in a Cambridge Analytica-related privacy case, CNBC, Axios and Fox Business report. A jury found in September that Meta misled users about their data. Judge Francis Mathew calculated a maximum of $219.5 billion, using the state's $5,000 penalty across 43,899,720 violations, and cut it to $25 billion. Meta had asked for $3.45 billion.",
-        "Mathew cited willful violations, the length of the conduct and senior leaders' involvement, and found Facebook did not conduct the thorough investigation it promised, according to CNBC. Interest accrues at 15 percent a year. Meta's chief legal officer C.J. Mahoney said \"We are confident we will prevail on appeal,\" and called the case a tax on speech. One commentator expects a serious fight on appeal and does not expect Meta to pay anything near $25 billion.",
-        "Meta also reported third-quarter revenue of $64.60 billion against the $63.37 billion LSEG consensus, and its fourth-quarter guidance midpoint beat estimates, CNBC reports. The company narrowed its full-year capital spending range to $135 billion to $145 billion. Shares rose more than 3 percent after hours. CNBC's live blog says Zuckerberg committed to stay in California for eight years as part of a new share class.",
-        "Alphabet fell 1.62 percent in the market-data feed, and Microsoft and Alphabet report Oct. 28."
+        "A New Mexico judge ordered Meta to pay $25 billion on Wednesday in the state's Cambridge Analytica-related data privacy case, after a September jury found more than 43 million violations of the state's unfair practices act. Judge Francis Mathew said the maximum could have exceeded $219 billion and reduced it to $25 billion (CNBC, Axios, TechCrunch). Interest accrues at 15 percent a year until it is paid.",
+        "Meta's chief legal officer, C.J. Mahoney, said the company is confident it will win on appeal, and argued the case would impose a tax on speech. Meta had asked the judge to cap the penalty at $3.45 billion. New Mexico was the only state to go to trial, because 48 others settled (CNBC, Fox Business).",
+        "The same day Meta reported a third-quarter revenue beat and strong guidance. Shares were down more than 2 percent in Thursday premarket trading, though several analysts raised their price targets (CNBC). Meta also faces separate New Mexico rulings in a child-safety case, totaling $942 million, which it says it will appeal."
       ],
-      "flag": "CNBC's live blog did not give a clear earnings-per-share comparison, so none is stated here.",
       "facts": [
-        "The penalty is $25 billion, reduced from a $219.5 billion maximum (CNBC).",
-        "Meta had asked for a $3.45 billion penalty.",
-        "Meta says it will appeal.",
-        "Q3 revenue was $64.60 billion vs. $63.37 billion expected.",
-        "Full-year capex is guided to $135-145 billion."
+        "The penalty is $25 billion, ordered Oct. 21.",
+        "The jury found more than 43 million violations.",
+        "Interest accrues at 15 percent a year.",
+        "Meta plans to appeal.",
+        "Shares were down more than 2 percent in premarket trading Thursday."
       ],
-      "why": "A $25 billion penalty would be large even for Meta, but courts often cut such awards on appeal, which is why shares rose on the quarter. The case also shows how state attorneys general use consumer-protection law against big platforms. For investors in AI spenders, the narrowed capex range suggests spending is under better control than feared, one analyst said.",
-      "next": "Watch Meta's appeal filing in New Mexico and the stock open Thursday.",
+      "next": "Watch for Meta's appeal filing and analyst updates after the earnings call.",
       "src": [
         [
           "CNBC",
@@ -1054,248 +1012,276 @@
           "https://www.foxbusiness.com/technology/meta-ordered-pay-25b-jury-finds-misled-facebook-users"
         ],
         [
-          "TechCrunch",
+          "CNBC",
           "C",
-          "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/"
+          "https://www.cnbc.com/2026/10/22/meta-platforms-beat-the-street-heres-why-analysts-are-bullish-on-the-stock.html"
+        ]
+      ],
+      "why": "A $25 billion penalty is small next to Meta's revenue but large as a precedent, since a single state used its unfair-practices law to seek per-violation fines. Appeals may take years, and interest at 15 percent adds up."
+    },
+    {
+      "id": "dsxpod",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "Nvidia DSX",
+      "title": "Nvidia packs seven Vera Rubin racks into a truck-shippable pod to cut data center build time",
+      "summary": "Nvidia says the DSX Pod AI Factory can cut the time to start serving tokens from six months to 14 days, with deliveries in early 2027.",
+      "story": [
+        "Nvidia announced the DSX Pod AI Factory on Oct. 21. It puts seven Vera Rubin racks into a single unit about the size of a shipping container that weighs roughly 28,000 kilograms and can travel by truck (CNBC). Cabling and liquid cooling are assembled at the factory, so on-site work is limited to placement, connection to other containers and testing.",
+        "Nvidia says the pod will reduce the time for a new AI data center to start serving tokens from six months to 14 days. That figure is Nvidia's own claim. The design is a reference that will ship from manufacturing partners including Foxconn, Gigabyte, Lenovo, HPE, Quanta and Pegatron, with deliveries expected to start in early 2027. Nvidia has not disclosed a price, and analysts estimate one Vera Rubin rack can cost more than $7 million (CNBC).",
+        "The announcement comes as Nvidia's current Rubin systems are in full production and starting to ship to cloud partners. A separate SemiAnalysis report said the later Kyber rack system slipped to 2028 on manufacturing problems (CNBC), but that delay concerns the next-generation Rubin Ultra system, not the racks in this pod."
+      ],
+      "facts": [
+        "The pod holds seven Vera Rubin racks.",
+        "It weighs about 28,000 kilograms.",
+        "Nvidia claims six months to 14 days to serve tokens.",
+        "Deliveries are expected to start in early 2027.",
+        "No price has been disclosed."
+      ],
+      "next": "Look for partner pricing and first customer commitments before early 2027 deliveries.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html"
         ],
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html"
+          "https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html"
         ]
-      ]
+      ],
+      "why": "Data center build time is a bottleneck for AI capacity. If prefabricated pods work as described, power and cooling construction move into factories, which could speed deployment but ties customers closer to Nvidia's reference design.",
+      "flag": "The 14-day claim is Nvidia's own and the sources do not include independent verification; this is a single-outlet story based on CNBC."
     },
     {
-      "id": "delhigrid",
+      "id": "torchtpu",
       "section": "engineering",
-      "motif": "pylon",
-      "when": "Grid losses",
-      "title": "Delhi cut electricity losses from about 50 percent to 5 percent, IEEE Spectrum reports",
-      "summary": "Private distributors, smart metering and anti-theft work took losses from more than half of power to 5 to 6 percent.",
+      "motif": "gear",
+      "when": "PyTorch",
+      "title": "Google and Amazon release tools to move PyTorch apps off Nvidia GPUs",
+      "summary": "Google's TorchTPU and Amazon's TorchNeuron aim to cut the cost of leaving Nvidia's CUDA software, with one-line config changes claimed.",
       "story": [
-        "IEEE Spectrum reports that Delhi's power distribution losses fell from more than 50 percent in 2002 to 5 to 6 percent in 2026, and that grid reliability now tops 99.9 percent. The losses came from obsolete equipment and theft, which left utilities without money for upgrades.",
-        "The turnaround began in 2002, when the Delhi Vidyut Board was broken up and two private companies, BSES and North Delhi Power Limited, took over distribution. Tata Power-DDL, which took over North Delhi Power, inherited a combined commercial and technical loss of 53.5 percent, Spectrum says.",
-        "Spectrum's October issue frames the Delhi case as something other cities could copy. The magazine's earlier coverage of electricity theft describes the fix as a mix of better metering, network upgrades and enforcement. Some areas still have high losses, partly from illegal charging of e-rickshaws.",
-        "The lesson for engineers is that measurement comes first: you cannot fix losses you do not meter."
+        "Amazon released TorchNeuron on Monday, Oct. 19, which lets PyTorch apps run on its Trainium chips, and Google released TorchTPU as an open source project on Tuesday, Oct. 20, to run PyTorch on its TPUs (TechCrunch). Amazon says a single line of configuration is enough to move an app to Trainium. Google reports it worked with Meta, Hugging Face, Inferact (the maker of vLLM), RadixArk (the maker of SGLang) and others, and launched a TPU agent suite to help with migration and error fixing.",
+        "The target is Nvidia's software lead. PyTorch's default path runs through CUDA, and Nvidia has spent years making CUDA work smoothly with it, so rewriting an AI app for a non-CUDA chip is hard. Amazon says it is contributing code upstream to PyTorch to remove code that ties the framework to specific chips (TechCrunch).",
+        "Amazon unveiled Trainium3 in December 2025 and plans Trainium4 to interoperate with Nvidia GPUs in the same system. Anthropic's Claude models run across Google TPUs, Trainium and Nvidia GPUs. I found no independent benchmarks of either tool, so the performance claims are the companies' own."
       ],
-      "flag": "Both reports are IEEE Spectrum; the 5 to 6 percent figure is the more precise one.",
       "facts": [
-        "Distribution losses fell from more than 50 percent to 5-6 percent over about 25 years.",
-        "Reliability exceeds 99.9 percent (IEEE Spectrum).",
-        "Delhi's utility was split up and privatized in 2002.",
-        "Tata Power-DDL inherited a 53.5 percent combined loss.",
-        "Illegal e-rickshaw charging still causes losses in some areas."
+        "Amazon released TorchNeuron on Oct. 19.",
+        "Google released TorchTPU as open source on Oct. 20.",
+        "Amazon claims a one-line configuration change.",
+        "Google worked with Meta, Hugging Face and others on compatibility.",
+        "No independent benchmarks were found."
       ],
-      "why": "Grid losses waste generation that has already been built and paid for. The Delhi case shows that metering and governance can matter as much as new power plants, which is relevant as U.S. utilities face data-center demand growth.",
-      "next": "Watch for other cities adopting the Delhi model.",
+      "next": "Watch for third-party benchmarks and whether large AI labs announce migrations.",
       "src": [
         [
-          "IEEE Spectrum",
+          "TechCrunch",
           "C",
-          "https://spectrum.ieee.org/delhi-electricity-loss"
+          "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
         ],
         [
-          "IEEE Spectrum",
+          "TechCrunch",
           "C",
-          "https://spectrum.ieee.org/electricity-theft"
+          "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html"
         ]
-      ]
+      ],
+      "why": "Nvidia's moat is partly software. If moving a PyTorch model to a TPU or Trainium chip really takes one line, buyers get negotiating power and prices for AI compute could fall."
     },
     {
-      "id": "nasasr1",
-      "section": "engineering",
-      "motif": "rocket",
-      "when": "Nuclear spacecraft",
-      "title": "NASA's SR-1 Freedom aims to be the first nuclear reactor-powered interplanetary spacecraft by December 2028",
-      "summary": "NASA says the 48-kilowatt craft will carry three Mars helicopters, while MIT Technology Review says experts call the schedule ambitious.",
-      "story": [
-        "NASA's Space Reactor-1 Freedom is planned as the first fission-powered spacecraft to travel beyond Earth orbit, NASA says. Its mission page lists a 20-kilowatt electric closed Brayton cycle power conversion system, HALEU fuel and a power and propulsion element producing 48 kilowatts, with a mass of about 12,000 kilograms.",
-        "NASA targets a late-2028 launch. Space.com reports December 2028, with arrival at Mars about a year later. It will carry SkyFall, three Mars helicopters evolved from Ingenuity. The power and propulsion element comes from the canceled Gateway station.",
-        "MIT Technology Review, which featured nuclear spaceships in its Oct. 21 \"Impossible\" issue, quotes NASA saying Idaho National Laboratory, which is building the reactor, is on target. The magazine says experts call the schedule ambitious and that little detail is public.",
-        "NASA frames SR-1 as a pathfinder to qualify the supply chain and build a workforce for later work, including the Lunar Reactor-1 surface power system."
-      ],
-      "flag": "NASA says the mission architecture is not final.",
-      "facts": [
-        "Launch is targeted for late 2028 (NASA); Space.com says December 2028.",
-        "The reactor is being built at Idaho National Laboratory.",
-        "The spacecraft has a 20 kW electric Brayton power conversion system.",
-        "It will carry three SkyFall helicopters.",
-        "Experts call the schedule ambitious (MIT Technology Review)."
-      ],
-      "why": "Nuclear electric propulsion could cut Mars transit propellant and power far larger instruments than solar arrays allow. A demonstration flight lowers the risk for surface reactors on the Moon and Mars, but the schedule leaves little room for a test failure.",
-      "next": "Watch for reactor ground-test milestones through 2027.",
-      "src": [
-        [
-          "NASA",
-          "C",
-          "https://www.nasa.gov/mission/space-reactor-1-freedom/"
-        ],
-        [
-          "Space.com",
-          "C",
-          "https://www.space.com/astronomy/mars/nasas-1st-nuclear-powered-interplanetary-spacecraft-will-send-skyfall-helicopters-to-mars-in-2028"
-        ],
-        [
-          "MIT Technology Review",
-          "C",
-          "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/"
-        ]
-      ]
-    },
-    {
-      "id": "greenstar",
+      "id": "positron",
       "section": "science",
-      "motif": "planet",
-      "when": "Green star",
-      "title": "Astronomers find the first truly green star, a white dwarf polluted by rocky planet debris",
-      "summary": "Space.com reports Mark Hollands's team found WD J1330+6435 about 326 light-years away, with sodium absorbing orange light.",
+      "motif": "atom",
+      "when": "Positron",
+      "title": "Physicists trap a single positron for months to test physics beyond the Standard Model",
+      "summary": "A quantum cyclotron holds one antimatter particle in a trap so researchers can measure its magnetic moment with high precision.",
       "story": [
-        "A team led by Mark Hollands of the University of Warwick reports the first known genuinely green star, according to Space.com. The star, WD J1330+6435, is a cool white dwarf about 326 light-years away. Space.com published the report on Oct. 15.",
-        "The team's model says the star pulled in rocky material from a planetary companion. That material added calcium, lithium and sodium to its atmosphere. Sodium absorbs orange light, which shifts the star away from white or pale blue.",
-        "The team also found what could be the reddest star ever, white dwarf WD J1011+2845, and suggests white dwarfs could glow in many colors, including green, pink, cyan, yellow and purple, Space.com says. Hollands has published earlier work (2020) linking alkali metals in white dwarf atmospheres to ancient planetary crusts in Nature Astronomy.",
-        "The result rests on one press-covered report; the paper itself and outside experts were not found."
+        "Physicists reported trapping and cooling a single positron for months in a device called a one-positron quantum cyclotron, so they can measure its magnetic moment with extraordinary precision. Nature's news team covered the work on Oct. 21, and it is described in a Physical Review Letters paper (Nature). A related arXiv preprint from the Northwestern group describes the device, in which a single positron can be suspended indefinitely in the magnetic field of a Penning trap.",
+        "The goal is to compare the positron's magnetic moment with the electron's. The Standard Model's CPT symmetry predicts they should match, so any difference would point to new physics. The preprint says the most precise positron measurement so far used classical cyclotron motion, and argues quantum measurements could do much better.",
+        "An outside physicist quoted by Nature called the approach a potentially powerful test of physics beyond the Standard Model. I did not find the new precision figure in the sources, so the size of the improvement is unconfirmed. For scale, the antiproton's moment was measured to about 1.5 parts per billion in a 2017 Nature paper."
       ],
-      "flag": "Only Space.com's coverage and an earlier Hollands paper were found; the new paper and independent expert reaction were not.",
       "facts": [
-        "The star is WD J1330+6435, about 326 light-years away.",
-        "Sodium in its atmosphere absorbs orange light.",
-        "The material likely came from a rocky planetary companion.",
-        "A second white dwarf may be the reddest star known.",
-        "Mark Hollands of the University of Warwick led the team (Space.com)."
+        "The work traps one positron for months.",
+        "Nature News covered it on Oct. 21.",
+        "It is described in a Physical Review Letters paper.",
+        "The test compares positron and electron magnetic moments.",
+        "The new precision figure was not found in the sources."
       ],
-      "why": "White dwarfs that swallow planet debris let astronomers read the composition of rocky worlds from starlight. The color finding gives another way to spot such systems, though it needs confirmation from the underlying paper.",
-      "next": "Watch for the peer-reviewed paper and independent follow-up spectra.",
+      "next": "Look for the full precision figure and independent comment as the paper circulates.",
       "src": [
         [
-          "Space.com",
+          "Nature",
           "C",
-          "https://www.space.com/astronomy/stars/astronomers-discover-the-1st-ever-green-star-a-cosmic-zombie-just-in-time-for-halloween"
+          "https://www.nature.com/articles/d41586-026-03342-2"
         ],
         [
-          "Nature Astronomy",
+          "arXiv (preprint)",
           "C",
-          "https://www.nature.com/articles/s41550-020-01296-7"
+          "https://arxiv.org/pdf/2605.08147"
         ]
-      ]
+      ],
+      "why": "Antimatter and matter should behave identically under current theory. A measurable difference would be a crack in the Standard Model, so precision tests like this are one of the few ways to look for it.",
+      "flag": "The precision achieved was not stated in the summaries I found."
     },
     {
-      "id": "denisovan",
+      "id": "flightlessbird",
       "section": "science",
       "motif": "dna",
-      "when": "Denisovans",
-      "title": "Ancient proteins identify more Denisovan remains in southwest China",
-      "summary": "Nature papers on Bianfu Cave used protein analysis to confirm hominin bones and teeth as Denisovan, including the first Denisovan arm bone.",
+      "when": "Jurassic bird",
+      "title": "A Late Jurassic bird from China could not fly, and it lived alongside Archaeopteryx",
+      "summary": "Nature reports Yuezhuornis yangyuanensis had short forelimbs and was a terrestrial animal, showing early bird lineages were ecologically diverse.",
       "story": [
-        "Nature published 2026 papers on Denisovan remains from Bianfu Cave in southwestern China. One paper used ancient proteins to identify the hominin bones and two teeth as Denisovan, a group known mainly from a few fragments and DNA. A second paper covers how these Denisovans lived and what they ate.",
-        "Science reports that a partial elbow from the site is the first Denisovan arm bone identified, and that the fossil and primitive tools suggest the Denisovans were strong and agile hunters. Nature has also run a news piece saying archaeologists identified skulls from China as Denisovan, though that article could not be opened.",
-        "Earlier work covered the Harbin \"Dragon Man\" skull, which Nature and Science reported as likely Denisovan, based on proteins and DNA recovered from tooth plaque. Protein analysis helps because DNA rarely survives in warm regions.",
-        "The new papers widen the known range and body form of a group that interbred with modern humans."
+        "A paper in Nature published Oct. 14 describes Yuezhuornis yangyuanensis, a Late Jurassic avialan from the Zhenghe Fauna of southeastern China. The authors conclude it was a terrestrial, flightless animal with short forelimbs (Nature). It lived at the same time as Archaeopteryx, which suggests early avian lineages included birds that could not fly alongside flying species.",
+        "The animal mixes traits. It has avialan-like and troodontid-like features in the skull, along with advanced postcranial traits and a deinonychosaur-like hyperextensible second toe, per the paper's abstract. Earlier Zhenghe Fauna finds in Nature include Zhengheornis buyu and Baminornis zhenghensis, described as the oldest short-tailed avialan.",
+        "A Nature News & Views piece by Fernando E. Novas, titled \"Some Jurassic period birds were flightless,\" accompanies the paper. I only saw the abstract and summaries, so details of the anatomy beyond those are unverified."
       ],
-      "flag": "The Nature news item on Denisovan skulls could not be opened, so its details are not reported here.",
       "facts": [
-        "The papers describe remains from Bianfu Cave in southwestern China.",
-        "Ancient proteins confirmed the bones and two teeth as Denisovan.",
-        "A partial elbow is the first Denisovan arm bone identified (Science).",
-        "Proteins survive where DNA often does not.",
-        "Nature also published a paper on Denisovan subsistence strategies."
+        "The paper was published in Nature on Oct. 14.",
+        "The species is Yuezhuornis yangyuanensis.",
+        "It comes from the Zhenghe Fauna of southeastern China.",
+        "The authors conclude it was flightless and terrestrial.",
+        "It lived alongside Archaeopteryx."
       ],
-      "why": "Denisovans have been defined mostly by genes, so fossils with bodies and tools show how they hunted, moved and spread. Protein methods let researchers identify remains from warm regions where DNA fails.",
-      "next": "Watch for further skull and bone identifications from sites in China.",
+      "next": "Watch for other Zhenghe fossils and for challenges to the flightless interpretation.",
       "src": [
         [
           "Nature",
           "C",
-          "https://www.nature.com/articles/s41586-026-10976-9"
+          "https://www.nature.com/articles/s41586-026-10972-z"
         ],
         [
           "Nature",
           "C",
-          "https://www.nature.com/articles/s41586-026-10997-4"
-        ],
-        [
-          "Science",
-          "C",
-          "https://www.science.org/content/article/mysterious-human-relatives-were-strong-and-agile-fossil-elbow-and-primitive-tools"
+          "https://www.nature.com/articles/d41586-026-02645-8"
         ]
-      ]
+      ],
+      "why": "Flight is often shown as a single step in bird evolution. A flightless Jurassic avialan suggests early birds tried many lifestyles, so the path to modern birds was less linear than a simple ladder."
     },
     {
-      "id": "localmodels",
+      "id": "openaigoogle",
       "section": "ai",
-      "motif": "chip",
-      "when": "Local AI models",
-      "title": "Nvidia and Recursive release open models built to run on a laptop or PC",
-      "summary": "Nvidia's Nemotron 3.5 Bolt and Recursive's Flint target local use, and the performance claims come from the companies.",
+      "motif": "automaton",
+      "when": "Cloud deal",
+      "title": "OpenAI will sell its models on Google Cloud, putting them on all three major clouds",
+      "summary": "Google Cloud customers will buy OpenAI models through Model Garden, with general availability planned in the coming weeks.",
       "story": [
-        "Recursive released Flint on Oct. 21, a free coding model that runs on a laptop, according to TechCrunch. It is a mixture-of-experts model that uses 2.5 billion of its 40 billion parameters for any task. On Nvidia's RTX Spark it topped 150 tokens per second. It is free to download on Hugging Face.",
-        "Recursive says its automated research system, the Eureka Machine, helped with nearly every step, so a small team built Flint in under four months. CEO Richard Socher, Salesforce's former chief scientist, leads the company, which emerged from stealth in May with $650 million at a $4.65 billion valuation. TechCrunch calls Flint an early public test of recursive self-improvement, and notes it is an AI research assistant overseen by people.",
-        "On Oct. 19 Nvidia released open-weight models for agents. TechCrunch reports Nemotron 3.5 Super VL, 120 billion parameters, targets enterprise agents, and Bolt 74B-A9B runs locally on RTX Spark PCs and DGX Spark workstations. A smaller Bolt E4B arrives later this month. Nvidia's claim that Super VL outperforms some models from Anthropic and OpenAI is unverified.",
-        "Both launches point to agents that run on local hardware, keeping code and data private."
+        "OpenAI announced Oct. 21 that its frontier models will be available to developers on Google Cloud through Google's Model Garden and Marketplace, with customers able to use existing cloud spending commitments. General availability is planned in the coming weeks. The models also come to Google's Antigravity development environment and Gemini Agent (CNBC, Axios).",
+        "With Amazon's Bedrock and SageMaker already offering OpenAI models, the move puts OpenAI on all three of the top U.S. clouds and widens its reach beyond Microsoft. Microsoft was OpenAI's exclusive cloud partner for its API earlier; how that exclusivity stands today is unclear from the sources, since the Azure statements date from 2025.",
+        "For Google, selling a rival's models is a way to keep cloud customers who want a choice. The deal lands the same week Google released TorchTPU and Anthropic opened a preview of Claude Duet. CNBC separately reported OpenAI expanded ChatGPT Ads to 26 more countries, for a total of 89, as it diversifies revenue."
       ],
-      "flag": "Performance and build-process claims are the companies' own, and TechCrunch is the only outlet found.",
       "facts": [
-        "Flint is a mixture-of-experts model with 2.5B active of 40B parameters.",
-        "It topped 150 tokens per second on Nvidia's RTX Spark.",
-        "Nemotron 3.5 Super VL has 120 billion parameters.",
-        "Bolt 74B-A9B is available now; Bolt E4B is due later this month.",
-        "Nvidia's claims about outperforming other labs' models are unverified."
+        "OpenAI announced the deal Oct. 21.",
+        "Models will be sold through Model Garden and Marketplace.",
+        "Customers can use existing cloud commitments.",
+        "General availability is planned in the coming weeks.",
+        "OpenAI models are already on Amazon's AI services."
       ],
-      "why": "Models that run on laptops reduce usage fees and keep source code on the device. If the benchmarks hold up, local agents become a real alternative to cloud APIs for coding and enterprise work.",
-      "next": "Watch for independent benchmarks of Flint and Bolt, and Bolt E4B later in October.",
+      "next": "Watch for the general availability date and whether Microsoft changes its terms.",
       "src": [
         [
-          "TechCrunch",
+          "CNBC",
           "C",
-          "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+          "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html"
         ],
-        [
-          "TechCrunch",
-          "C",
-          "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
-        ]
-      ]
-    },
-    {
-      "id": "openaibio",
-      "section": "ai",
-      "motif": "flask",
-      "when": "OpenAI acquisition",
-      "title": "OpenAI buys Orchestra Bio to expand its drug-development AI",
-      "summary": "Axios and TechCrunch report that OpenAI will fold the startup's agents into its Rosalind life-sciences model.",
-      "story": [
-        "OpenAI acquired Orchestra Bio, a four-year-old startup, on Oct. 20, according to Axios, which had the exclusive, and TechCrunch. Financial terms were not disclosed.",
-        "Orchestra builds AI agents for operational work in drug development, such as tracking finances and resolving clinical-trial scheduling problems. Axios says scientists can hand off tasks like monitoring studies and spotting timeline delays. TechCrunch reports Orchestra had raised about $20 million as of 2025 from Andreessen Horowitz, Atria and 8VC.",
-        "OpenAI plans to fold the team and technology into Rosalind, its life-sciences model, and Rosalind Workbench, which helps researchers plan experiments and analyze results. OpenAI already counts Moderna and Novo Nordisk as Rosalind customers.",
-        "TechCrunch notes that OpenAI and Anthropic are both moving into science and pharma."
-      ],
-      "facts": [
-        "The acquisition was announced Oct. 20.",
-        "Terms were not disclosed.",
-        "Orchestra had raised about $20 million (TechCrunch).",
-        "OpenAI will fold it into Rosalind and Rosalind Workbench.",
-        "Moderna and Novo Nordisk are Rosalind customers."
-      ],
-      "why": "Drug development spends heavily on coordination work, not only chemistry, so agents that handle trial logistics could shorten timelines. The deal also shows frontier labs buying specialist teams to enter regulated industries.",
-      "next": "Watch for Rosalind customer announcements and similar deals from Anthropic.",
-      "src": [
         [
           "Axios",
           "C",
-          "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development"
+          "https://axios.com/2026/10/21/openai-google-cloud-ai-models"
         ],
         [
-          "TechCrunch",
+          "CNBC",
           "C",
-          "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/"
+          "https://cnbc.com/2026/10/21/openai-chatgpt-ads-26-countries.html"
         ]
-      ]
+      ],
+      "why": "Model access is becoming a commodity on the cloud shelf. Buyers get more choice and less lock-in, and model makers compete on price and quality rather than on exclusive distribution.",
+      "flag": "The current status of Microsoft's exclusivity for OpenAI's API is unclear from the sources."
+    },
+    {
+      "id": "claudeduet",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Claude Duet",
+      "title": "Anthropic opens a research preview of Claude Duet, a work-focused personal agent",
+      "summary": "Duet runs daily briefs, watches connected apps and asks before sending messages or making payments. Anthropic says personal errands are weaker.",
+      "story": [
+        "Anthropic announced a research preview of Claude Duet on Oct. 21, a personal AI agent aimed at small businesses and professionals. CNBC reports it can deliver daily briefings, monitor connected apps and handle work such as building dashboards, scheduling meetings and creating financial forecasts. It is available to Pro and Max subscribers during the preview, with a waitlist, through a standalone app or the Claude website.",
+        "It works in the background and checks with the user before it acts on their behalf, for example before sending messages or making payments. Anthropic says personal errands are weaker, since the product is designed for the workplace, and admits it \"might misread a thread or miscalibrate what's urgent.\" CNBC frames it as a competitor to Meta's Muse, which launched last month and rose to the top of Apple's App Store, and OpenAI's always-on agents called Dots.",
+        "CNBC reported earlier in September that AI labs are shipping so many models that \"model fatigue\" is setting in. This story rests on one outlet relaying Anthropic's own materials, so the claims about capability are the company's."
+      ],
+      "facts": [
+        "Anthropic announced the preview Oct. 21.",
+        "It targets small businesses and professionals.",
+        "It is available to Pro and Max subscribers in preview.",
+        "It asks before sending messages or making payments.",
+        "Anthropic says personal errands are weaker."
+      ],
+      "next": "Watch for how the preview handles errors and for rival agent updates from Meta and OpenAI.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html"
+        ]
+      ],
+      "why": "Always-on agents are the next product fight. The key issue is trust: how often the agent errs and how clearly it asks before acting.",
+      "flag": "Single-outlet coverage (CNBC) relaying Anthropic's own description; no independent testing found."
+    },
+    {
+      "id": "earlyflu",
+      "section": "health",
+      "motif": "heart",
+      "when": "Flu season",
+      "title": "A mutated H1N1 flu strain is driving an early season, starting on the West Coast",
+      "summary": "CNN reports a variant that evades immunity is behind the early start, about two and a half months ahead of normal.",
+      "story": [
+        "Flu season is starting early, and the West Coast is being hit first, which reverses the usual pattern, according to CNN's Oct. 22 report. A University of Washington infectious disease expert said the season began about two and a half months earlier than typical. The wave came from Asia and is dominated by H1N1, which makes up about 98 percent of the samples his lab is sequencing (CNN).",
+        "The variant carries a mutation that appears to help it evade immunity, which may explain the early start, though it is unclear why the West got hit first. This year's vaccines target an H1N1 strain, but the new mutation means the virus can still break through. An epidemiologist told CNN all regions are seeing increases (CNN).",
+        "NPR reported earlier this month that an early start moves up the best time to get vaccinated, and that flu activity remains low in most of the country, with about 2.1 percent of doctor visits for influenza-like illness nationally, still below baseline (NPR, CNN). The first mRNA flu vaccine is also now available for older adults."
+      ],
+      "facts": [
+        "The season started about 2.5 months earlier than usual in the West.",
+        "H1N1 makes up about 98 percent of one lab's samples.",
+        "A mutation helps the virus evade immunity.",
+        "National flu-like illness is about 2.1 percent of visits, below baseline.",
+        "Vaccination timing has moved earlier, per NPR."
+      ],
+      "next": "Check CDC flu data weekly; vaccination is recommended earlier than usual.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/22/health/flu-2026-mutation"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/06/nx-s1-5985003/an-early-start-to-flu-season-moves-up-vaccination-timing"
+        ]
+      ],
+      "why": "The West Coast includes the Bay Area, so an early wave reaches Fremont first. A partial vaccine match still reduces severe illness, so getting vaccinated sooner is the practical step."
     }
   ],
   "briefs": [
-    "Nvidia says its Nemotron 3.5 Super VL matches larger models on instruction following, and the claim is Nvidia's own (TechCrunch).",
-    "IEEE Spectrum reports Energy Dome's CO2 battery, a 20 MW, 200 MWh plant in Sardinia, is being adopted for grid storage, with Google backing deployments (IEEE Spectrum).",
-    "Nature News reports a large study suggesting body-clock disruption contributes to one in four cases of depression; the study details were not available (Nature).",
-    "Phantom Neuro reported successful procedures for an under-skin EMG implant that controls prosthetic arms in an early human trial (IEEE Spectrum).",
-    "Cook's Kansas rating and polling put the Senate race at a toss-up, with a Hill/Emerson poll showing Hamilton up 45 percent to 43 percent (The Hill)."
+    "Science reports a 99-million-year-old lizard tail in Burmese amber is the oldest direct evidence of deliberate tail-dropping, and Nature's briefing also covered it (Science, Nature).",
+    "CNBC reports OpenAI expanded ChatGPT Ads to 26 more countries, bringing the total to 89 (CNBC).",
+    "Norway's sovereign wealth fund posted a roughly $30 billion quarterly loss on bond market turbulence (CNBC).",
+    "China's CSI 300 entered a bear market, down 20 percent from its June peak (CNBC).",
+    "Nvidia released new open models on Oct. 19 built for always-on agents and edge computing (TechCrunch)."
   ]
 }
