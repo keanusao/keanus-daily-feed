@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-22T20:35:34Z",
+  "updatedAt": "2026-10-22T21:34:48Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 60.6,
-      "feels": 62.5,
-      "hum": 90,
-      "wind": 1.6,
-      "cond": "cloudy"
+      "temp": 61.1,
+      "feels": 63.0,
+      "hum": 85,
+      "wind": 0.7,
+      "cond": "drizzle"
     },
     "days": [
       {
@@ -30,7 +30,7 @@
         "hi": 67,
         "lo": 54,
         "cond": "cloudy",
-        "pop": 3
+        "pop": 2
       },
       {
         "date": "2026-10-24",
@@ -41,7 +41,7 @@
       },
       {
         "date": "2026-10-25",
-        "hi": 78,
+        "hi": 77,
         "lo": 58,
         "cond": "cloudy",
         "pop": 0
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Thu Oct 22, 4:35 PM ET",
+    "asOf": "Thu Oct 22, 5:15 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -138,7 +138,7 @@
         "raw": 26008.86,
         "change": "-2.60%",
         "dir": "down",
-        "time": 1792701332,
+        "time": 1792703759,
         "spark": [
           26936.04,
           26939.37,
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$99.23",
-        "raw": 99.23,
-        "change": "+2.14%",
+        "price": "$99.10",
+        "raw": 99.1,
+        "change": "+2.01%",
         "dir": "up",
-        "time": 1792700725,
+        "time": 1792702799,
         "spark": [
           94.59,
           92.16,
@@ -229,17 +229,17 @@
           103.66,
           101.79,
           97.15,
-          99.23
+          99.1
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,213",
-        "raw": 81212.65,
-        "change": "-3.35%",
+        "price": "$81,365",
+        "raw": 81365.08,
+        "change": "-3.16%",
         "dir": "down",
-        "time": 1792701332,
+        "time": 1792704886,
         "spark": [
           86172.28,
           84383.01,
@@ -271,7 +271,7 @@
           81853.54,
           82941.0,
           84011.97,
-          81212.65
+          81365.08
         ]
       }
     ],
@@ -477,7 +477,7 @@
     ]
   },
   "earnings": {
-    "checkedAt": "2026-10-22T00:46:23Z",
+    "checkedAt": "2026-10-22T21:34:48Z",
     "symbols": [
       "NVDA",
       "AAPL",
@@ -487,11 +487,6 @@
       "AMZN"
     ],
     "upcoming": [
-      {
-        "symbol": "TSLA",
-        "date": "2026-10-21",
-        "when": "after close"
-      },
       {
         "symbol": "GOOGL",
         "date": "2026-10-28",
