@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-23T03:36:55Z",
+  "updatedAt": "2026-10-23T04:35:47Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 58.7,
-      "feels": 58.6,
-      "hum": 85,
-      "wind": 3.5,
-      "cond": "partly"
+      "temp": 59.1,
+      "feels": 60.0,
+      "hum": 91,
+      "wind": 2.8,
+      "cond": "drizzle"
     },
     "days": [
       {
@@ -21,7 +21,7 @@
       {
         "date": "2026-10-22",
         "hi": 61,
-        "lo": 57,
+        "lo": 58,
         "cond": "drizzle",
         "pop": 65
       },
@@ -30,7 +30,7 @@
         "hi": 69,
         "lo": 53,
         "cond": "cloudy",
-        "pop": 2
+        "pop": 3
       },
       {
         "date": "2026-10-24",
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Thu Oct 22, 11:26 PM ET",
+    "asOf": "Fri Oct 23, 12:25 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,13 +201,12 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$100.11",
-        "raw": 100.11,
-        "change": "+0.64%",
+        "price": "$100.03",
+        "raw": 100.03,
+        "change": "+0.56%",
         "dir": "up",
-        "time": 1792726009,
+        "time": 1792729534,
         "spark": [
-          94.59,
           92.16,
           94.61,
           92.41,
@@ -230,17 +229,17 @@
           101.79,
           97.15,
           99.47,
-          100.11
+          100.03
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,740",
-        "raw": 81739.67,
-        "change": "+0.52%",
+        "price": "$81,564",
+        "raw": 81564.46,
+        "change": "+0.31%",
         "dir": "up",
-        "time": 1792726614,
+        "time": 1792730144,
         "spark": [
           84383.01,
           84379.06,
@@ -271,7 +270,7 @@
           81853.54,
           82941.0,
           84011.97,
-          81739.67
+          81564.46
         ]
       }
     ],
