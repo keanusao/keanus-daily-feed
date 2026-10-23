@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-23T02:36:08Z",
+  "updatedAt": "2026-10-23T03:36:55Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 59.8,
-      "feels": 61.3,
-      "hum": 93,
-      "wind": 2.4,
+      "temp": 58.7,
+      "feels": 58.6,
+      "hum": 85,
+      "wind": 3.5,
       "cond": "partly"
     },
     "days": [
@@ -21,7 +21,7 @@
       {
         "date": "2026-10-22",
         "hi": 61,
-        "lo": 58,
+        "lo": 57,
         "cond": "drizzle",
         "pop": 65
       },
@@ -30,7 +30,7 @@
         "hi": 69,
         "lo": 53,
         "cond": "cloudy",
-        "pop": 3
+        "pop": 2
       },
       {
         "date": "2026-10-24",
@@ -58,12 +58,12 @@
         "hi": 67,
         "lo": 56,
         "cond": "cloudy",
-        "pop": 1
+        "pop": 0
       }
     ]
   },
   "markets": {
-    "asOf": "Thu Oct 22, 10:26 PM ET",
+    "asOf": "Thu Oct 22, 11:26 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$100.37",
-        "raw": 100.37,
-        "change": "+0.90%",
+        "price": "$100.11",
+        "raw": 100.11,
+        "change": "+0.64%",
         "dir": "up",
-        "time": 1792722369,
+        "time": 1792726009,
         "spark": [
           94.59,
           92.16,
@@ -229,17 +229,18 @@
           103.66,
           101.79,
           97.15,
-          100.37
+          99.47,
+          100.11
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$81,810",
-        "raw": 81810.23,
-        "change": "+0.61%",
+        "price": "$81,740",
+        "raw": 81739.67,
+        "change": "+0.52%",
         "dir": "up",
-        "time": 1792722967,
+        "time": 1792726614,
         "spark": [
           84383.01,
           84379.06,
@@ -270,7 +271,7 @@
           81853.54,
           82941.0,
           84011.97,
-          81810.23
+          81739.67
         ]
       }
     ],
