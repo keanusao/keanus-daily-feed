@@ -1,0 +1,1074 @@
+{
+  "updatedAt": "2026-10-24T13:10:00Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Brent crude settled at $116.72 on Friday**, its highest since April 29, on reports that the U.S. and Israel plan new Iran strikes after Nov. 3 (CNBC, NBC News). Trump told a Florida rally the U.S. may do 'another little Operation Epic Fury' unless Iran agrees to a deal (NBC News, Fox News). Stocks fell, with the Dow down 1.23 percent to 52,215.16, and next week brings **the Fed decision, Alphabet, Microsoft and Amazon earnings** (CNBC, Axios). More than 20 million people have voted early, and **Democrats lead early returns where party data exists** (NPR, CNN, ABC News). Closer to home, **the Bay Area transit sales tax** is on the Nov. 3 ballot, with BART warning it could close up to 15 stations if it fails (KQED, SF Chronicle). In California, the Justice Department's fight to set aside 20,000 mail ballots is still unresolved, and Newsom faces **a state worker union with no contract** (CalMatters, Fox News). NASA now plans an Earth-orbit lander test in late 2027, with a landing in 2028 (NASA, Space.com), and Anthropic previewed Claude Duet, a proactive agent app (CNBC, TechCrunch).",
+  "alerts": [
+    {
+      "text": "Alphabet and Microsoft report Wednesday, Oct. 28 after the close, the same day the Fed decides; Amazon follows Oct. 29.",
+      "level": "watch",
+      "story": "weekclose"
+    },
+    {
+      "text": "The Bay Area transit sales tax is on your Nov. 3 ballot; BART and Caltrain warn of station closures if it fails.",
+      "level": "watch",
+      "story": "rtm"
+    },
+    {
+      "text": "Brent at $116.72 means higher gas prices may follow if Iran strike fears hold.",
+      "level": "watch",
+      "story": "iranwar"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "iranwar",
+      "text": "Trump floats another round of Iran strikes while reports point to post-midterm plans; Brent settles at $116.72."
+    },
+    {
+      "story": "midterms",
+      "text": "Early voting passes 20 million ballots; Democrats lead where party data exists, Republicans cite Election Day."
+    },
+    {
+      "story": "rtm",
+      "text": "Bay Area transit sales tax goes to voters Nov. 3; BART warns of up to 15 station closures."
+    },
+    {
+      "story": "weekclose",
+      "text": "Dow falls 1.2 percent as oil climbs; Fed and Big Tech earnings arrive next week."
+    },
+    {
+      "story": "duet",
+      "text": "Anthropic previews Claude Duet, a proactive agent app built on Opus 5.5."
+    }
+  ],
+  "stat": {
+    "label": "Brent crude settle",
+    "value": "$116.72",
+    "note": "Highest settlement since April 29 (CNBC)"
+  },
+  "markets": {
+    "asOf": "Fri Oct 23, 5:15 PM ET",
+    "wrap": "Stocks ended the week lower as oil jumped on reports of renewed Iran strikes. The Dow fell 1.23 percent and the S&P 500 fell 0.52 percent (CNBC). **WTI crude rose 3.82 percent to $103.27**, and the 10-year Treasury yield sat near 4.99 percent. The AI trade remains under pressure, with semiconductors down more than 15 percent this month (CNBC, Axios). Next week brings **the Fed decision on Wednesday and Big Tech earnings**.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,623.68",
+        "raw": 7623.68,
+        "change": "-0.52%",
+        "dir": "down",
+        "time": 1792787901,
+        "spark": [
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,215.16",
+        "raw": 52215.16,
+        "change": "-1.23%",
+        "dir": "down",
+        "time": 1792788175,
+        "spark": [
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,955.34",
+        "raw": 25955.342,
+        "change": "-0.21%",
+        "dir": "down",
+        "time": 1792790159,
+        "spark": [
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.99%",
+        "raw": 4.988,
+        "change": "+0.71%",
+        "dir": "up",
+        "time": 1792781996,
+        "spark": [
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$103.27",
+        "raw": 103.27,
+        "change": "+3.82%",
+        "dir": "up",
+        "time": 1792789198,
+        "spark": [
+          94.61,
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$80,718",
+        "raw": 80718.03,
+        "change": "-0.45%",
+        "dir": "down",
+        "time": 1792845603,
+        "spark": [
+          84379.06,
+          84034.92,
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80706.35
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$210.96",
+        "raw": 210.96,
+        "change": "-0.59%",
+        "dir": "down",
+        "time": 1792785600,
+        "spark": [
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$347.73",
+        "raw": 347.725,
+        "change": "-0.14%",
+        "dir": "down",
+        "time": 1792785601,
+        "spark": [
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$524.51",
+        "raw": 524.51,
+        "change": "+0.66%",
+        "dir": "up",
+        "time": 1792785601,
+        "spark": [
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$320.21",
+        "raw": 320.21,
+        "change": "-1.24%",
+        "dir": "down",
+        "time": 1792785601,
+        "spark": [
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$372.22",
+        "raw": 372.22,
+        "change": "-0.63%",
+        "dir": "down",
+        "time": 1792785600,
+        "spark": [
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$248.00",
+        "raw": 248.0,
+        "change": "-0.95%",
+        "dir": "down",
+        "time": 1792785601,
+        "spark": [
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": "after close"
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 48.6,
+      "feels": 46.0,
+      "hum": 79,
+      "wind": 1.7,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-10-23",
+        "hi": 72,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-24",
+        "hi": 72,
+        "lo": 48,
+        "cond": "partly",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-25",
+        "hi": 68,
+        "lo": 48,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-26",
+        "hi": 68,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-27",
+        "hi": 67,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-28",
+        "hi": 65,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-29",
+        "hi": 66,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 13
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "iranwar",
+      "section": "politics",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Post-midterm strikes",
+      "title": "Trump says the U.S. could strike Iran again if there is no deal, as reports point to post-midterm plans",
+      "summary": "At a Florida rally Trump floated 'another little Operation Epic Fury' unless Iran agrees to a deal, while reports say strike plans are being drafted.",
+      "story": [
+        "At a Fort Myers, Florida rally for gubernatorial candidate Byron Donalds on Friday, Trump said the U.S. 'may do another little Operation Epic Fury, or [the Iranians] will agree' to a deal (NBC News). NBC also noted he repeated that the U.S. has 'defeated' Iran even though the conflict continues. Fox News reported that Trump told Time it was 'Possible' that he would ramp up bombing after the midterms.",
+        "The New York Times reported that the U.S. and Israel are drafting plans to resume strikes after Nov. 3, with possible targets including energy infrastructure, nuclear sites and missile and drone arsenals. The Wall Street Journal reported that Trump rejected an Iranian seven-day ceasefire proposal and told aides he expects bombing to resume after the election. Trump adviser Mike Waltz disputed that account, saying he did not think the president had said that himself (Fox News).",
+        "Iran's foreign minister, Abbas Araghchi, said Tehran is 'fully prepared for the war to be resumed' but remains open to diplomacy (Fox News). NBC News and Axios reported a U.S. intelligence memo warning that Iranian plots to kill U.S. officials in the Middle East have reached 'advanced stages.' A Washington Examiner opinion piece argued that operational signals point to an attack before the election, not after it; that is the writer's view, not a confirmed report.",
+        "Oil is the clearest market signal. Brent settled at $116.72 on Friday, its highest settlement since April 29, and WTI closed at $103.27 (CNBC)."
+      ],
+      "flag": "No strike has been announced. The NYT plan and the WSJ account of Trump's private intentions are anonymously sourced, and Waltz disputes the WSJ version.",
+      "facts": [
+        "Trump spoke at a Byron Donalds rally in Fort Myers, Florida, on Friday, Oct. 23 (NBC News).",
+        "The NYT reported U.S.-Israeli plans to resume strikes after Nov. 3.",
+        "Brent settled at $116.72 on Friday, up more than 6 percent on the week (CNBC).",
+        "WTI closed at $103.27, up 3.8 percent (CNBC).",
+        "Houthi attacks on Saudi oil sites added to supply fears (CNBC)."
+      ],
+      "left": "Democrats and war critics call this a war of choice that has not met its goals, and they point to the cost at the pump. They argue that a president who pledged to wait until after the election, and now floats new strikes at a rally, is mixing military decisions with campaign messaging. They want Congress to vote on any new round of strikes and note that two Iowa House Republicans have already backed a measure to end the war.",
+      "right": "Supporters argue that a credible threat is how you get Iran to the table, and that the pause bought time for talks that Tehran keeps stalling. Sen. Ted Cruz has said that if the war ends favorably, gas prices will fall and voters will accept short-term pain for lasting security gains. Some conservatives disagree. Washington Examiner writers say the war strains 'America First' and hurts Republicans on affordability, so the right is not united.",
+      "next": "Watch for any announced strike before Nov. 3, Iran's response on a ceasefire, and Monday's oil open.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/iranian-negotiators-kicked-out-us-talks-stall-trump-lays-possible-timeline-more-strikes"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-byron-donalds-florida-live-updates-rcna605134"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/op-eds/4750803/trump-iran-strike-midterm-elections/"
+        ]
+      ]
+    },
+    {
+      "id": "midterms",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "10 days out",
+      "title": "Early voting passes 20 million ballots as both parties argue over what it means",
+      "summary": "Democrats lead early returns in most states with data, but analysts and Republicans say Election Day turnout will decide it.",
+      "story": [
+        "More than 20 million Americans have voted early for the Nov. 3 midterms, according to CNN's count from 47 states and D.C. NPR, citing the University of Florida's Election Lab, put the figure near 21 million, and The Hill reported more than 23 million accepted ballots against more than 15 million at this point in 2022. Counts differ by tracker and date.",
+        "Where party data exists, Democrats are voting early at higher rates. In North Carolina, registered Democrats have cast 240,206 ballots to Republicans' 102,845 (ABC News). Fox News reported that Georgia's in-person early vote passed 1 million, about 12 percent above the same point in 2022. A Reuters/Ipsos poll cited by ABC found 36 percent of Democrats very enthusiastic versus 29 percent of Republicans, and a Fox News poll found interest at 69 percent for Democrats and 61 percent for Republicans.",
+        "Analysts urge caution. MIT's Charles Stewart told NPR that many early voters would have voted on Election Day anyway, and Democrats tend to vote early while Republicans lean toward Election Day. The RNC says Republicans are narrowing the mail-ballot gap daily (Fox News).",
+        "The Senate map has widened. Republicans hold 53 seats, and Fox News reports Democrats are competitive in Alaska, Kansas, Nebraska and Iowa while defending open seats in Michigan and New Hampshire. A Fox News poll has Texas tied at 49 percent between Ken Paxton and James Talarico. Republican groups have outspent Democrats by more than $83 million on ads in ten key Senate races since September, per AdImpact."
+      ],
+      "facts": [
+        "CNN counts more than 20 million early ballots from 47 states and D.C.",
+        "NC Democrats have cast 240,206 early ballots to Republicans' 102,845 (ABC News).",
+        "Georgia in-person early voting passed 1 million, about 12 percent above 2022 (Fox News).",
+        "A Fox News poll has Paxton and Talarico tied at 49 percent in Texas.",
+        "Republicans hold the Senate 53-47."
+      ],
+      "left": "Democrats read the early vote as evidence of an energized base and a public angry about gas prices and the Iran war. Higher early turnout in North Carolina and Georgia, they say, matches polls that show a double-digit House lead in several surveys. They warn that a wide Senate map still needs turnout, and they point to GOP ad spending as a sign Republicans fear losing seats.",
+      "right": "Republicans say early ballots are a poor predictor, because Democrats bank votes early while Republicans surge on Election Day. They note the RNC is closing the mail-ballot gap, that Republican groups hold a large ad-spending edge, and that history is hard to beat but not impossible. Fox News lists six forces that could help the party defy the usual midterm penalty, including candidate quality in the Senate.",
+      "next": "Election Day is Tuesday, Nov. 3. Expect daily early-vote updates from NPR, CNN and the University of Florida's Election Lab.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/22/politics/live-news/midterm-election-congress"
+        ],
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/georgia-voters-set-early-voting-record-midterm-elections-heat"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/republicans-face-brutal-midterm-headwinds-six-forces-could-help-them-defy-history"
+        ]
+      ]
+    },
+    {
+      "id": "cavoters",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "ca-voter-rolls",
+      "when": "Ballot fight",
+      "title": "Justice Department and California clash in court over 20,000 mail ballots",
+      "summary": "DOJ wants ballots from voters it calls likely noncitizens set aside; California says the claim is wrong and the timing is illegal.",
+      "story": [
+        "The Justice Department sued California and Los Angeles County officials on Oct. 15 to stop them from counting mail ballots from about 20,000 voters that federal agencies label likely noncitizens, the SF Chronicle and CalMatters reported. Prosecutors sought an emergency order to set the ballots aside until citizenship is verified. The case was reassigned from Judge John Holcomb to Judge David Carter, who in January dismissed a separate DOJ suit seeking California's unredacted voter list (Democracy Docket).",
+        "Attorney General Rob Bonta says the suit 'borders on the absurd' and that the federal government is violating a law that bars changes to voter rolls within 90 days of an election (CalMatters). Secretary of State Shirley Weber says no evidence has been supplied. Gov. Gavin Newsom called it 'a sad, desperate attempt' to suppress voters.",
+        "A federal prosecutor says investigators confirmed that all 20,000 flagged entries are noncitizens who received mail ballots, and federal prosecutors have charged 28 green card holders with voting violations (Fox News, CalMatters). County officials dispute the larger claim. In a sample of 200 records, 112 matched canceled or inactive registrations (SF Chronicle). The federal estimate has also shrunk from about 190,000 possible noncitizens to 20,000.",
+        "Earlier editions listed a hearing before Judge Carter this week. I could not confirm a date in this morning's reporting."
+      ],
+      "flag": "The hearing date and the DOJ's claim that all 20,000 are noncitizens are not independently confirmed; county officials dispute the count.",
+      "facts": [
+        "DOJ filed suit on Oct. 15 over ballots from about 20,000 voters (SF Chronicle).",
+        "Judge David Carter took the case from Judge John Holcomb (Democracy Docket).",
+        "Bonta cites the federal 90-day limit on changing voter rolls.",
+        "Federal prosecutors have charged 28 green card holders with voting violations (CalMatters).",
+        "The federal figure fell from about 190,000 to 20,000."
+      ],
+      "left": "Critics call this a last-minute attempt to disenfranchise lawful voters. They stress the federal 90-day rule, the shrinking numbers, and county findings that many flagged records are canceled or inactive. They argue that a judge already dismissed a similar voter-roll suit in January, and that setting ballots aside weeks before an election risks wrongly blocking citizens.",
+      "right": "Supporters of the DOJ say noncitizen voting is illegal and that once a ballot is counted it cannot be pulled back, so verification has to happen first. They point to the 28 criminal charges and to federal investigators' claim that the flagged voters are confirmed noncitizens. They say California's resistance to a federal audit of its rolls is itself a reason for concern.",
+      "next": "Watch for a ruling on the emergency request and any Ninth Circuit action before ballots are counted.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/california-noncitizen-voter-suit/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/news/politics/article/trump-administration-sues-california-over-alleged-22478806.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12104425/california-officials-denounce-trump-dojs-demands-to-prove-voters-citizenship"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/doj-verified-20000-noncitizens-california-voter-rolls-federal-prosecutor-says"
+        ],
+        [
+          "Democracy Docket",
+          "L",
+          "https://www.democracydocket.com/news-alerts/judge-who-rejected-dojs-voter-roll-demand-takes-over-california-ballot-case-from-trump-appointee/"
+        ]
+      ]
+    },
+    {
+      "id": "rtm",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Nov. 3 ballot",
+      "title": "Bay Area voters decide a regional transit sales tax on Nov. 3",
+      "summary": "A 14-year sales tax would close BART, Muni and Caltrain budget gaps; agencies warn of station closures if it fails.",
+      "story": [
+        "The Nov. 3 ballot includes a regional sales tax in Alameda, Contra Costa, San Mateo, Santa Clara and San Francisco counties: 0.5 percent in most counties and 1 percent in San Francisco, for 14 years, raising about $980 million a year, or roughly $14 billion in total (KQED). It needs a simple majority. San Francisco voters also decide a separate Muni parcel tax, which KQED says would cost single-family owners about $129 a year.",
+        "The stakes are service. BART faces an operating deficit of about $350 million starting in July and the SFMTA a $307 million shortfall. BART has said it could close up to 15 stations and Caltrain 10; Muni has said it could cut 20 routes (KQED, SF Chronicle). Caltrain has warned it could cancel weekend service and end service at 9 p.m. A KQED report found Bay Bridge traffic delays would double if the measures fail.",
+        "The SF Chronicle editorial board endorsed a yes vote. The main opposition comes from taxpayer groups. A Contra Costa Taxpayers Association campaign argues agencies should reallocate existing money first, and ConnectedSF has endorsed no on the regional tax and the city parcel tax. I found no recent public poll; the only figure was an older Chronicle-reported 56 percent support."
+      ],
+      "blindspot": "Coverage found is from Bay Area outlets, which lean supportive; no right-leaning outlet coverage turned up, though taxpayer groups voice the opposition.",
+      "facts": [
+        "Rate is 0.5 percent in most counties and 1 percent in San Francisco for 14 years (KQED).",
+        "It raises about $980 million a year and needs a simple majority.",
+        "BART's deficit is about $350 million and the SFMTA's $307 million.",
+        "BART says up to 15 stations could close; Caltrain says 10.",
+        "The SF Chronicle endorsed yes; taxpayer groups oppose."
+      ],
+      "left": "Supporters call transit a basic public service and a climate and equity lifeline. They say a collapse would push riders into cars, double Bay Bridge delays, and hit workers who cannot drive. They argue a regional measure spreads the cost and that one-time cuts would be hard to reverse.",
+      "right": "Opponents say agencies should show reforms before getting more money, and that a regular-sales tax hits low-income shoppers. Taxpayer groups argue BART and Muni have spent poorly, ridership has not recovered, and a bailout without spending limits just resets the clock on the same deficits.",
+      "next": "Election Day is Nov. 3. Expect more polling and endorsements in the final week.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12100738/bay-bridge-traffic-delays-would-double-if-transit-tax-measures-fail-report-finds"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12090212/opposition-group-says-bay-area-transit-doesnt-deserve-more-money-this-november"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/regional-transit-measure-bay-area-22424231.php"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/a-critical-inflection-point-caltrain-22160685.php"
+        ]
+      ]
+    },
+    {
+      "id": "statestrike",
+      "section": "local",
+      "motif": "scroll",
+      "thread": "ca-state-strike",
+      "when": "State workers",
+      "title": "California's largest state worker union stages its first statewide strike, with no deal in sight",
+      "summary": "SEIU Local 1000 walked out for a day over pay, health costs and Newsom's four-day office mandate.",
+      "story": [
+        "SEIU Local 1000, the largest union of California state workers, staged a one-day strike on Wednesday, Oct. 21. It represents more than 100,000 employees and says the walkout was its first statewide strike since its founding in 2004. Union president Anica Walls said workers want pay that keeps up with living costs, affordable health care and more remote flexibility (CalMatters, AP via local stations).",
+        "The contract expired June 30. CalMatters reported that 96 percent of voting members authorized the strike, and that a state labor board sided with the union in late September on its bad-faith bargaining complaint. The state's human resources department says it remains open to bargaining and had contingency plans for service disruptions.",
+        "The return-to-office order is a central issue. Newsom ordered state workers back four days a week by July 1, and in September he vetoed AB 1729, a union-backed bill that would have let departments set their own telework policies (CalMatters). Newsom has argued the mandate improves collaboration and public service. Walls said the union will hold firm regardless of who wins the governor's race."
+      ],
+      "blindspot": "Found only coverage from center and left-leaning outlets; no right-leaning outlet coverage turned up.",
+      "flag": "I found no report of renewed talks or further strike dates since Oct. 21.",
+      "facts": [
+        "The strike was Wednesday, Oct. 21.",
+        "SEIU Local 1000 represents more than 100,000 state workers.",
+        "The contract expired June 30.",
+        "Newsom's order requires four office days a week by July 1.",
+        "Newsom vetoed AB 1729 in September."
+      ],
+      "left": "Union supporters say state workers have gone years without pay that keeps up with prices, and that return-to-office rules add commuting costs and cut flexibility without clear evidence of benefit. They note a state board found the administration failed to bargain in good faith and that the strike was a last resort.",
+      "right": "Critics say the state faces budget pressure and taxpayers should not fund open-ended raises or remote work that reduces service. They argue Newsom is right that in-person work improves collaboration and accountability, and that public-sector strikes harm residents who rely on DMV, EDD and park services.",
+      "next": "Watch for a resumption of bargaining and any announcement of a second strike date before Newsom leaves office.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/seiu-local-1000-strike-authorization/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/economy/2026/10/state-worker-strike-dmv-edd-services/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/09/newsom-veto-telework-bill/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12074852/state-workers-push-for-telework-options"
+        ]
+      ]
+    },
+    {
+      "id": "ukrainerift",
+      "section": "world",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Russia sanctions",
+      "title": "Trump's Russia diesel deal and sanctions waiver strain ties with Ukraine and Republican hawks",
+      "summary": "Washington eased some Russia penalties to lower fuel prices, drawing criticism from Zelensky and some Republicans.",
+      "story": [
+        "President Trump said on Oct. 9 that Putin agreed to supply more than 4 million tons of diesel to global markets, and Treasury issued a general license waiving sanctions on Russian diesel through April 2027 (CNBC, The Hill). On Oct. 16 Trump used a national-interest waiver under the Graham Act to suspend new duties on Russian goods and major buyers of Russian energy, while existing sanctions stay in place (CNBC).",
+        "Ukrainian President Volodymyr Zelensky called the waiver 'wrong' and said it helps only Russia. Trump has also pressed Kyiv to stop strikes on Russian refineries and called them a 'disgrace' (CNN). Zelensky said Ukraine would stop hitting refineries if Russia stops hitting Ukraine's energy grid, and neither side has announced an energy-strike truce.",
+        "Treasury Secretary Scott Bessent says only the diesel embargo was lifted, not broader sanctions (The Hill). Five House Republicans and 17 Democrats signed letters urging the administration to revoke the diesel license (The Hill), and Fox News reported GOP allies warning that pressure on Putin is slipping. Matt Whitaker, the U.S. ambassador to NATO, said the two sides remain 'a long way apart' (Fox News). The WSJ reported that Trump asked Elon Musk to lift a Starlink slowdown affecting Ukraine (CNBC)."
+      ],
+      "facts": [
+        "The diesel license runs through April 2027 (CNBC).",
+        "Trump waived Graham Act duties on Oct. 16.",
+        "Bessent says only the diesel embargo was lifted.",
+        "Five House Republicans and 17 Democrats urged revoking the license (The Hill).",
+        "Zelensky called the waiver 'wrong'."
+      ],
+      "left": "Critics say easing sanctions rewards Moscow while Russia keeps bombing Ukraine's cities and grid. They argue lower diesel prices are a thin payoff for weakening leverage, and that pressing Kyiv to stop refinery strikes ties Ukraine's hands. Democrats in the House have joined Republicans in calling for the license to be revoked.",
+      "right": "The administration argues that cheaper fuel helps Americans and that talks need a working channel to Moscow, with Bessent stressing that existing sanctions remain. Republican hawks disagree and see the waiver as a retreat. The split inside the right is real, and a thoughtful conservative case needs to explain how easing pressure produces peace.",
+      "next": "Watch for whether Treasury revokes or extends the diesel license and for any resumption of three-way talks.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6156573-bessent-refutes-sanctions-relief/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-sidelines-sweeping-russia-sanctions-gop-allies-warn-pressure-putin-slipping"
+        ]
+      ]
+    },
+    {
+      "id": "weekclose",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Week ahead",
+      "title": "Stocks end a rough week as oil climbs; Fed and Big Tech earnings loom",
+      "summary": "The Dow fell 1.2 percent Friday, and Alphabet, Microsoft and Amazon report next week alongside a likely Fed hold.",
+      "story": [
+        "U.S. stocks closed lower Friday. The S&P 500 fell 0.52 percent to 7,623.68, the Dow dropped 1.23 percent to 52,215.16 and the Nasdaq slipped 0.21 percent to 25,955.34. WTI crude rose 3.82 percent to $103.27 as Iran strike reports lifted oil, and the 10-year Treasury yield was 4.99 percent. CNBC reported the Dow fell more than 600 points on Thursday as oil rose and the selloff hit most sectors.",
+        "CNBC called next week a major test for the AI trade. Alphabet and Microsoft report Wednesday, Oct. 28, and Amazon on Thursday, Oct. 29, with Evercore's Mark Mahaney warning of capital spending that could rise by as much as $100 billion. Semiconductors are down more than 15 percent this month and memory stocks more than 20 percent. Axios said the muted reaction to still-strong AI earnings, including Meta's post-earnings slide, shows growing doubt about the boom.",
+        "The Fed decides Wednesday, with a hold at 3.75 to 4.00 percent widely expected (CNBC); Chair Kevin Warsh will have to explain the pause. September CPI was 3.7 percent and payrolls added only 29,000 jobs (CNBC). The PCE report follows Thursday, with core inflation projected at 3.1 percent. Among Keanu's watchlist, Alphabet fell 1.24 percent Friday and ended the week down more than 5 percent."
+      ],
+      "facts": [
+        "The S&P 500 closed at 7,623.68, down 0.52 percent.",
+        "The Dow closed at 52,215.16, down 1.23 percent.",
+        "WTI rose 3.82 percent to $103.27.",
+        "The Fed decides Wednesday, Oct. 28.",
+        "Alphabet and Microsoft report Oct. 28 after the close; Amazon on Oct. 29."
+      ],
+      "why": "Oil, rates and AI capital spending are all pulling on the same stocks. Next week's earnings and the Fed will show whether investors will keep paying for AI infrastructure when inflation is 3.7 percent and the 10-year is near 5 percent.",
+      "next": "Fed decision Wednesday, Oct. 28; Alphabet and Microsoft results that evening; Amazon on Oct. 29.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/23/next-week-brings-major-risks-for-the-stock-market-just-as-the-ai-trade-keeps-faltering.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://axios.com/2026/10/23/ai-stocks-meta-western-digital"
+        ]
+      ]
+    },
+    {
+      "id": "appliedepic",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "Sunnyvale fab R&D",
+      "title": "Applied Materials opens its $5 billion EPIC Center in Sunnyvale",
+      "summary": "The 600,000-square-foot facility puts chipmakers and toolmakers under one roof to speed AI-era chip development.",
+      "story": [
+        "Applied Materials unveiled its Equipment and Process Innovation and Commercialization (EPIC) Center in Sunnyvale on Oct. 12. The company calls it the world's largest facility for collaborative semiconductor process and equipment R&D. The building is about 600,000 square feet with nearly four acres of cleanroom space, and the project took more than six million construction hours (Evertiq, citing the company).",
+        "The investment is now about $5 billion, up from the $4 billion Applied announced in 2023. Applied says that figure will grow as customer projects begin. In 2024 Bloomberg reported that the company was denied a CHIPS Act grant for the project, so it is largely self-funded.",
+        "The pitch is to compress the path from lab to high-volume manufacturing by putting materials research, equipment development, process integration and pilot production on one site. Applied describes a TSMC partnership to co-develop materials engineering, equipment and process integration work, and Samsung was the first partner announced. IEEE Spectrum reports TSMC, Samsung, Micron and Broadcom have agreed to host operations in the lab; Applied's filings also list SK hynix."
+      ],
+      "facts": [
+        "The center opened Oct. 12 in Sunnyvale.",
+        "It covers about 600,000 square feet with nearly four acres of cleanroom.",
+        "Investment is about $5 billion, up from $4 billion in 2023.",
+        "TSMC and Samsung are named partners.",
+        "Bloomberg reported in 2024 that Applied was denied a CHIPS grant for it."
+      ],
+      "why": "Chip progress now depends on materials and process changes made jointly by equipment makers and chipmakers. Co-locating them shortens the feedback loop for AI processors and memory, which is where the industry is spending.",
+      "next": "Watch for additional partner announcements and Applied's next earnings report.",
+      "src": [
+        [
+          "Evertiq",
+          "C",
+          "https://evertiq.com/design/2026-10-13-applied-materials-opens-5-billion-epic-center-in-silicon-valley"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/semiconductor-research"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2024-08-01/applied-materials-denied-us-chips-grant-for-4-billion-project-in-silicon-valley"
+        ]
+      ]
+    },
+    {
+      "id": "artemis",
+      "section": "science",
+      "motif": "rocket",
+      "when": "Moon plans",
+      "title": "NASA's Artemis III becomes an Earth-orbit lander test, with a landing targeted for 2028",
+      "summary": "NASA held an 'Artemis Acceleration' briefing Friday; the 2027 flight will dock Orion with commercial landers before a 2028 attempt.",
+      "story": [
+        "NASA held an 'Artemis Acceleration' briefing on Oct. 23 on its moon plans (NASA, Space.com). Administrator Jared Isaacman has said Artemis III, now targeted for late 2027, will be a crewed flight in low Earth orbit that tests rendezvous, docking and interoperability with one or both commercial landers, rather than a moon landing.",
+        "Blue Origin's Blue Moon would fly first, with one account saying the crew would dock with it for two days. SpaceX's Starship would follow, without a crew cabin for astronauts to enter on this mission (Space.com). The first landing moves to Artemis IV, and Isaacman says NASA is protecting two opportunities in 2028.",
+        "The timeline faces skepticism. Space.com noted that development delays for Starship and Blue Moon pushed the date from 'early 2027' to 'late 2027,' and that the landers may struggle to meet NASA's 10-month cadence target. NASA's Aerospace Safety Advisory Panel has said the difficulties cast doubt on the Artemis III goals, and The Register called a 2028 landing very ambitious."
+      ],
+      "flag": "I could not retrieve the specific details of the Oct. 23 briefing; schedule details come from earlier NASA and Space.com reporting.",
+      "facts": [
+        "Artemis III is now an Earth-orbit docking test targeted for late 2027.",
+        "Blue Origin's Blue Moon would fly first, then SpaceX's Starship.",
+        "Artemis IV is the first mission planned to land.",
+        "NASA says it is protecting two 2028 landing opportunities.",
+        "The Aerospace Safety Advisory Panel has questioned the Artemis III timeline."
+      ],
+      "why": "The schedule now depends on commercial landers that have not yet flown with crew. An orbit test retires docking and life-support risks before astronauts try a landing, at the cost of a year of delay and a tighter race with China.",
+      "next": "Watch for lander test milestones and the next NASA schedule update.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/artemis-3-has-been-pushed-to-late-2027-can-nasa-still-land-astronauts-on-the-moon-in-2028"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/when-will-spacex-and-blue-origin-fly-to-the-moon-nasa-reveals-lunar-lander-timelines-and-an-artemis-iii-update"
+        ],
+        [
+          "The Register",
+          "C",
+          "https://www.theregister.com/2026/05/01/artemis_iii_aims_for_late/"
+        ]
+      ]
+    },
+    {
+      "id": "duet",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Agent app",
+      "title": "Anthropic previews Claude Duet, a proactive agent for professionals and small businesses",
+      "summary": "The research-preview app runs background tasks, builds dashboards and connects to thousands of tools.",
+      "story": [
+        "Anthropic opened a research preview of Claude Duet on Oct. 21, an agent app for iOS, Android and the web aimed at professionals and small businesses (CNBC, TechCrunch). It is available to Claude Pro and Max subscribers through a waitlist. TechCrunch says it is built on Claude Opus 5.5 and can connect to more than 6,000 connectors and plug-ins in the Claude Marketplace.",
+        "Duet can send daily briefs, watch connected apps, build dashboards, schedule meetings, create financial forecasts and run tasks in its own virtual machine in the background. CNBC quotes Anthropic warning that it 'might misread a thread or miscalibrate what's urgent,' and the company says it is weaker at errands such as booking tickets.",
+        "Safeguards include payment approvals by the user. Duet will not trade securities or move money between accounts, and a new classifier screens messages for sensitive information, refusing by default to handle credit card numbers and government IDs (CNBC). It competes with Meta's Muse and OpenAI's dots, which have both seen early traction (CNBC)."
+      ],
+      "facts": [
+        "The research preview began Oct. 21.",
+        "It is built on Claude Opus 5.5 (TechCrunch).",
+        "It connects to more than 6,000 connectors and plug-ins.",
+        "Access is by waitlist for Pro and Max subscribers.",
+        "It will not trade securities or move money between accounts."
+      ],
+      "why": "Consumer agents are moving from chat to always-on work. The safeguards show where the labs draw the line, with approvals and no money movement, as agents gain access to inboxes, calendars and files.",
+      "next": "Watch for wider access beyond the waitlist and head-to-head comparisons with Meta's Muse and OpenAI's dots.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+        ]
+      ]
+    },
+    {
+      "id": "agentsafety",
+      "section": "ai",
+      "motif": "shield",
+      "when": "Agent security",
+      "title": "Nvidia pushes agent security outside the AI model with OpenShell and Sentry",
+      "summary": "Nvidia's open platform enforces agent policy in the runtime and in hardware, away from the agent itself.",
+      "story": [
+        "Nvidia launched its Open Agent Safety Platform on Sept. 28, and followed on Oct. 21 with an OpenShell reference architecture (Nvidia, TechCrunch). The design has two halves: OpenShell, an open-source runtime that applies policy outside the agent process, and Sentry, a watchdog that runs on BlueField-4 DPUs as an independent layer outside the agent and host software.",
+        "Nvidia says Sentry works out of band and can quarantine an agent within milliseconds. It uses a transparent proxy that inspects agent traffic in both directions, Open Policy Agent rules, and memory introspection. OpenShell can run on local, on-premises, cloud and Kubernetes infrastructure without BlueField-4. Nvidia names Anthropic, Salesforce, SAP and Red Hat among collaborators, and says more than 100 organizations back the effort.",
+        "Caveats: Nvidia's own claims, including up to 20 percent more agent capacity from Sentry, have no independent validation yet, and the full reference design is tuned for Nvidia's Vera CPUs and BlueField hardware. Separately, Microsoft has argued that enterprises need oversight systems the model makers do not control, and has introduced Guardian Agents to watch the agents a company deploys, per one secondary report that I could not check against Microsoft's own announcement."
+      ],
+      "flag": "Microsoft's Guardian Agents detail comes from a secondary aggregator and is unconfirmed; the performance claims come only from Nvidia.",
+      "facts": [
+        "Nvidia launched the platform on Sept. 28.",
+        "The Oct. 21 reference architecture pairs OpenShell with Sentry.",
+        "Sentry runs on BlueField-4 and can quarantine agents in milliseconds, per Nvidia.",
+        "OpenShell runs without BlueField-4.",
+        "Anthropic, Salesforce, SAP and Red Hat are named collaborators."
+      ],
+      "why": "A prompt-level guardrail can be talked around. Enforcing limits in the runtime or hardware gives security teams something auditable, which is what enterprises need before letting agents touch real systems.",
+      "next": "Watch for independent testing of Sentry and for enterprise adoption announcements.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+        ],
+        [
+          "Nvidia Newsroom",
+          "C",
+          "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+        ],
+        [
+          "Nvidia Developer Blog",
+          "C",
+          "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/"
+        ],
+        [
+          "The Next Platform",
+          "C",
+          "https://www.nextplatform.com/ai/2026/09/30/nvidia-wraps-security-layer-around-agentic-ai-to-stop-rogue-behavior/5300098"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "OpenAI is bringing its models and Codex tools to Google Cloud, with general availability planned in the coming weeks (CNBC, Axios).",
+    "NASA's Roman Space Telescope captured a first test image on Sept. 15; official science images are expected in early 2027 (NASA)."
+  ]
+}
