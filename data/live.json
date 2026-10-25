@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-25T21:32:14Z",
+  "updatedAt": "2026-10-25T22:30:23Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 73.3,
-      "feels": 70.5,
+      "temp": 73.5,
+      "feels": 70.6,
       "hum": 38,
-      "wind": 4.3,
+      "wind": 4.6,
       "cond": "cloudy"
     },
     "days": [
@@ -30,7 +30,7 @@
         "hi": 67,
         "lo": 51,
         "cond": "cloudy",
-        "pop": 0
+        "pop": 1
       },
       {
         "date": "2026-10-27",
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Fri Oct 23, 5:15 PM ET",
+    "asOf": "Sun Oct 25, 6:20 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$103.27",
-        "raw": 103.27,
-        "change": "+0.00%",
-        "dir": "flat",
-        "time": 1792789198,
+        "price": "$101.75",
+        "raw": 101.75,
+        "change": "-1.47%",
+        "dir": "down",
+        "time": 1792966819,
         "spark": [
           92.41,
           92.6,
@@ -227,17 +227,18 @@
           101.79,
           97.15,
           99.47,
-          103.27
+          103.27,
+          101.75
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$80,371",
-        "raw": 80370.81,
-        "change": "-0.50%",
+        "price": "$80,414",
+        "raw": 80413.57,
+        "change": "-0.44%",
         "dir": "down",
-        "time": 1792963932,
+        "time": 1792967410,
         "spark": [
           84034.92,
           84406.45,
@@ -269,7 +270,7 @@
           81311.89,
           81074.19,
           80790.84,
-          80370.81
+          80416.44
         ]
       }
     ],
