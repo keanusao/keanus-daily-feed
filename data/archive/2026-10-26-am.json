@@ -1,0 +1,1283 @@
+{
+  "updatedAt": "2026-10-26T13:11:37Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **the U.S. pulled non-emergency staff from Saudi Arabia** as Houthi attacks hit the kingdom, and reports say the U.S. and Israel plan Iran strikes after Nov. 3, which Trump has not approved (CNBC, CNN). Brent settled at $116.72 Friday, its highest since April (CNBC). With eight days to go, **about 29 million early ballots are in** and Fox News has the Texas Senate race tied at 49% (NBC News, Axios, Fox News). The Justice Department sued over Alaska's Senate count, and Trump says he ordered it (The Hill, Washington Examiner). In California, **Judge Carter hears the DOJ's 20,000-ballot request Tuesday** after a skeptical Ninth Circuit panel (CalMatters, Fox News). Israel votes Tuesday, and polls point to deadlock (CNN, NPR). The Fed decides Wednesday, with a hold priced near 90% (CNBC). **Alphabet and Microsoft report Wednesday after the close**, while Brazilian stocks plunged after Lula's win (Bloomberg, CNBC). In tech, **PHP2Shell forced governments offline** (CNBC, TechCrunch), and neocloud stocks fell again on credit fears (CNBC). Merck and Moderna's melanoma vaccine cut recurrence risk by 42% (CNN, NBC News).",
+  "alerts": [
+    {
+      "text": "Alphabet and Microsoft report Wednesday after the close, the same day as the Fed decision; Amazon follows Thursday.",
+      "level": "watch",
+      "story": "brazilselloff"
+    },
+    {
+      "text": "Judge Carter hears the DOJ's request on 20,000 California mail ballots Tuesday, Oct. 27.",
+      "level": "high",
+      "story": "dojballots"
+    },
+    {
+      "text": "The Bay Area transit tax is on the Nov. 3 ballot; BART's fallback plan cuts 63% of train service if it fails.",
+      "level": "watch",
+      "story": "rtmvote"
+    },
+    {
+      "text": "PHP2Shell: patch any PHP servers you run; exploit attempts are in the millions.",
+      "level": "info",
+      "story": "phpshell"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "iranpause",
+      "text": "U.S. pulls Saudi staff and weighs post-election Iran strikes as Brent nears $116."
+    },
+    {
+      "story": "dojballots",
+      "text": "Judge Carter hears DOJ's 20,000-ballot request Tuesday after a skeptical Ninth Circuit."
+    },
+    {
+      "story": "midtermsweek",
+      "text": "About 29 million early ballots are in; Texas Senate is tied at 49%."
+    },
+    {
+      "story": "phpshell",
+      "text": "Critical PHP flaws force governments offline as exploit attempts reach the millions."
+    },
+    {
+      "story": "melanoma",
+      "text": "Personalized mRNA melanoma vaccine cuts recurrence or death risk 42% in phase 3."
+    }
+  ],
+  "stat": {
+    "label": "Early ballots cast",
+    "value": "28.9M",
+    "note": "National tracker, NBC News"
+  },
+  "markets": {
+    "asOf": "Mon Oct 26, 7:36 AM ET",
+    "wrap": "Brazilian assets plunged after Lula's surprise runoff win, with the country ETF down roughly 18% to 27% in early trading depending on the report (CNBC, Bloomberg). U.S. futures pointed higher early Monday, up about 0.4% for the S&P 500 per CNBC, though the latest quotes below show the major indexes lower. **Oil is the pressure point**, with Brent near $115 on Houthi attacks on Saudi Arabia (CNBC). Neocloud stocks slid again after Elon Musk warned of consolidation (CNBC). **Alphabet and Microsoft report Wednesday after the close**, alongside the Fed decision (Bloomberg, CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,623.68",
+        "raw": 7623.68,
+        "change": "-0.52%",
+        "dir": "down",
+        "time": 1792787901,
+        "spark": [
+          7704.13,
+          7743.41,
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,215.16",
+        "raw": 52215.16,
+        "change": "-1.23%",
+        "dir": "down",
+        "time": 1792788175,
+        "spark": [
+          51349.98,
+          51828.62,
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,955.34",
+        "raw": 25955.342,
+        "change": "-0.21%",
+        "dir": "down",
+        "time": 1792790159,
+        "spark": [
+          26939.37,
+          27068.72,
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.99%",
+        "raw": 4.988,
+        "change": "+0.71%",
+        "dir": "up",
+        "time": 1792781996,
+        "spark": [
+          5.11,
+          5.16,
+          5.18,
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$101.19",
+        "raw": 101.19,
+        "change": "-2.01%",
+        "dir": "down",
+        "time": 1793014605,
+        "spark": [
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.19
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$80,249",
+        "raw": 80248.89,
+        "change": "+0.26%",
+        "dir": "up",
+        "time": 1793015193,
+        "spark": [
+          84406.45,
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80248.89
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$210.96",
+        "raw": 210.96,
+        "change": "-0.59%",
+        "dir": "down",
+        "time": 1792785600,
+        "spark": [
+          224.58,
+          225.07,
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$347.73",
+        "raw": 347.725,
+        "change": "-0.14%",
+        "dir": "down",
+        "time": 1792785601,
+        "spark": [
+          335.92,
+          341.07,
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$524.51",
+        "raw": 524.51,
+        "change": "+0.66%",
+        "dir": "up",
+        "time": 1792785601,
+        "spark": [
+          497.93,
+          516.17,
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$320.21",
+        "raw": 320.21,
+        "change": "-1.24%",
+        "dir": "down",
+        "time": 1792785601,
+        "spark": [
+          342.36,
+          343.92,
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$372.22",
+        "raw": 372.22,
+        "change": "-0.63%",
+        "dir": "down",
+        "time": 1792785600,
+        "spark": [
+          377.94,
+          372.11,
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$248.00",
+        "raw": 248.0,
+        "change": "-0.95%",
+        "dir": "down",
+        "time": 1792785601,
+        "spark": [
+          249.38,
+          249.67,
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": "after close"
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 53.0,
+      "feels": 52.4,
+      "hum": 88,
+      "wind": 1.3,
+      "cond": "partly"
+    },
+    "days": [
+      {
+        "date": "2026-10-25",
+        "hi": 74,
+        "lo": 49,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-26",
+        "hi": 67,
+        "lo": 52,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-10-27",
+        "hi": 64,
+        "lo": 48,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-28",
+        "hi": 72,
+        "lo": 53,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-29",
+        "hi": 69,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-30",
+        "hi": 65,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 4
+      },
+      {
+        "date": "2026-10-31",
+        "hi": 64,
+        "lo": 50,
+        "cond": "cloudy",
+        "pop": 17
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "iranpause",
+      "section": "politics",
+      "motif": "swords",
+      "when": "Iran war",
+      "title": "U.S. pulls Saudi staff and weighs Iran strikes after the midterms as Brent nears $116",
+      "summary": "Houthi attacks on Saudi Arabia push oil higher while reports say the U.S. and Israel are planning Iran strikes after Nov. 3; Trump has not approved them.",
+      "story": [
+        "The State Department ordered non-emergency U.S. government staff and their families out of Saudi Arabia, citing escalating attacks by Iran-aligned Houthis, spokesman Tommy Pigott said (CNBC, CNN). CNBC reports, citing The New York Times and unnamed officials, that U.S. and Israeli planners have drawn up options for renewed strikes on Iran after the Nov. 3 midterms. President Trump has not approved them. A strike on the Dammam airport killed at least two people, and Saudi authorities reported more intercepted missiles and drones on Sunday (CNBC).",
+        "Brent settled at $116.72 on Friday, the highest settlement since April 29, then eased to about $115 on Sunday evening (CNBC). WTI trades near $101 in the latest data. Saudi Aramco told staff at its Dhahran headquarters to work remotely. Trump has said something will happen \"fairly soon\" and that the U.S. is not negotiating with Iran, while CNBC notes that indirect talks are still reported.",
+        "Iranian officials have vowed to widen their attacks, including on data centers and undersea internet cables, and have refused nuclear concessions (CNBC). Fox News analysts are split on whether Washington gets pulled in. A Foundation for Defense of Democracies expert told Fox that Iran likely pushed the Houthis toward a blockade of Saudi Arabia, and a former CENTCOM analyst warned that a new Yemen campaign would compete for resources with the Iran war.",
+        "The strike reports rest on anonymous sources, so the timeline could change. For markets, the key point is that oil has priced in risk before any new U.S. action."
+      ],
+      "facts": [
+        "The State Department ordered non-emergency staff and families to leave Saudi Arabia.",
+        "Saudi Arabia says it intercepted missiles and drones on Sunday.",
+        "Brent settled at $116.72 on Friday, the highest since April 29 (CNBC).",
+        "The strike plans are reported by The New York Times via CNBC and are unconfirmed.",
+        "Trump has not approved the plans, according to the reports."
+      ],
+      "next": "Watch for any Trump decision after Nov. 3, further Houthi strikes on Saudi oil sites, and Brent's reaction.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/21/politics/us-orders-departure-embassy-staff-saudi-arabia"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/saudi-arabia-defense-vulnerabilities-trump-problem-houthi-onslaught"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html"
+        ]
+      ],
+      "thread": "iran-war",
+      "left": "Critics argue the administration is running a war with no public plan, no congressional vote and no clear end, and that timing strikes around an election shows politics shaping military decisions. They point to higher gas prices for American families and to risks for U.S. staff in the Gulf. They want Congress to debate any new strikes before they happen.",
+      "right": "Supporters argue that Iran and its proxies, including the Houthis, are attacking a key U.S. partner and the world's oil supply, and that deterrence requires credible force. They say pausing before the election is prudence, not weakness, and that an unconstrained Iran would be costlier later. Some conservatives still warn against another open-ended Yemen campaign."
+    },
+    {
+      "id": "alaskasuit",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Alaska Senate",
+      "title": "Justice Department sues to block Alaska Senate results if Sullivan loses",
+      "summary": "DOJ filed Oct. 22 over a same-name candidate on Alaska's ballot, and Trump says he ordered it; Murkowski says it should not have been filed.",
+      "story": [
+        "The Justice Department sued Alaska on Oct. 22 in federal court, asking that certification of the U.S. Senate race be blocked if Republican Sen. Dan Sullivan loses to Democrat Mary Peltola and votes cast for a second candidate, Daniel J. Sullivan, could have changed the outcome (The Hill, CNN). Trump said he personally ordered the filing: \"I'm the one that said do it\" (Washington Examiner).",
+        "The second Sullivan is a registered Republican who appears on the ballot with no party label. Alaska's Supreme Court ruled he must stay on the ballot and let officials add identifying information to distinguish the two men (Fox News). Republicans call the candidacy a decoy. The challenger's camp denies wrongdoing, and the sources found do not substantiate the claim of a Democratic scheme.",
+        "Sen. Lisa Murkowski, who is not on the ballot this year, said the department should never have filed. Trump called her a \"disgrace\" on Truth Social (The Hill). Attorney General Todd Blanche defended the suit on a Sunday show. Election-law expert David Becker said the administration has no authority over how Alaska certifies its results. Peltola called the suit a \"desperate attempt\" by Republicans to \"cling to power\" (The Hill). Sullivan's campaign said it will let the challenge run its course.",
+        "The suit is preemptive and only matters if Sullivan loses. No court ruling was found in the reporting."
+      ],
+      "facts": [
+        "DOJ filed in the District of Alaska on Oct. 22.",
+        "The suit relies on the National Voter Registration Act, per the Washington Examiner.",
+        "Trump said he ordered the filing.",
+        "Alaska's Supreme Court kept the second Sullivan on the ballot.",
+        "No ruling on the suit has been reported."
+      ],
+      "next": "Watch for a first hearing or ruling in the Alaska federal court before Nov. 3.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6168331-justice-department-sues-to-block-alaska-results-if-sullivan-loses/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/10/23/politics/doj-sues-alaska-dan-sullivan-us-senate"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/senate/4777810/doj-lawsuit-block-alaska-senate-result-distorted-will-voters-lacked-integrity/"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/expert-sounds-alarm-legal-battle-candidates-same-name-critical-senate-race-takes-new-turn"
+        ]
+      ],
+      "thread": "midterms-2026",
+      "left": "Critics see a sitting administration trying to pre-empt an election result in a state's own count, with a preemptive suit that has no loss to point to yet. They say certification belongs to the states and that courts and Alaska's voters already handled the name question. Trump's open claim that he ordered the case adds to the concern.",
+      "right": "Supporters argue the second Sullivan entered the race to confuse voters, citing his last-minute party registration, shortened name and copied campaign look. They say a ranked-choice ballot with two near-identical names invites errors, and that asking a court to check this before certification is cautious, not extreme. Some also use the case to attack ranked-choice voting."
+    },
+    {
+      "id": "midtermsweek",
+      "section": "politics",
+      "motif": "ballot",
+      "when": "Final week",
+      "title": "Early voting runs far ahead of 2022 and Democrats look competitive in Texas, Kansas and Ohio",
+      "summary": "About 29 million early ballots are in, and Democrats need a net four Senate seats; Fox News has Texas tied at 49%.",
+      "story": [
+        "More than 28.9 million mail and early in-person ballots have been cast nationally, according to NBC News' early-vote tracker. An AP analysis found that early turnout is well above 2022 in many Senate battleground states, including Texas (up 74% at the time), Kansas (more than double), and Maine, North Carolina and Ohio (each up more than 30%) (The Hill, Axios). In most of those states Republicans make up a smaller share of advance voters than four years ago.",
+        "Republicans hold the Senate 53-47, so Democrats need a net gain of four seats. Decision Desk HQ gave Democrats a 56% chance of winning the chamber in a report about a week ago (The Hill). In Texas, a Fox News poll of likely voters conducted Oct. 15-19 has Democrat James Talarico and Republican Ken Paxton tied at 49% (Fox News). Other races to watch: Michigan (El-Sayed vs. Rogers), North Carolina (Cooper vs. Whatley) and Ohio (Brown vs. Husted).",
+        "Experts caution against reading too much into early data, since early voters tend to be more engaged than average and some of the rise reflects more states reporting more data (The Hill). The AP ties the surge partly to dissatisfaction with tariffs, living costs and fuel prices. Trump has campaigned in Texas, Florida and elsewhere, while Obama and Trump both rallied in Michigan, and Trump has warned of a \"1929-style\" depression if Democrats sweep (Washington Examiner, Fox News).",
+        "The 2026 electorate is on track to be large, and the Senate map is wider than at any point this cycle."
+      ],
+      "facts": [
+        "28.9 million ballots had been cast nationally by early voting, per NBC News' tracker.",
+        "Republicans hold the Senate 53-47.",
+        "Fox News poll, Oct. 15-19: Talarico and Paxton tied at 49%.",
+        "Early voting is up sharply in Texas and Kansas versus 2022.",
+        "Early-vote data is a weak predictor of results."
+      ],
+      "next": "Election Day is Tuesday, Nov. 3. Georgia early voting ends Friday, Oct. 30.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-elections/early-vote"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/20/midterms-early-voting-states-data"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/senate-control-voter-turnout/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4750837/trump-texas-rally-ken-paxton/"
+        ]
+      ],
+      "thread": "midterms-2026",
+      "left": "Democrats say the turnout surge reflects anger about tariffs, prices and gas costs, and that a wide map in Texas, Kansas, Ohio and Alaska shows a real chance to flip the Senate. They argue that the party out of power usually gains in midterms and that voters want a check on the White House.",
+      "right": "Republicans note that early-vote data is a poor predictor and that the party's base tends to vote late. They argue Democrats' candidates are out of step on the border, crime and energy, and that Trump's rallies are energizing the base. They point to Paxton's tied Fox poll as proof that the Senate is still in reach in Texas."
+    },
+    {
+      "id": "dojballots",
+      "section": "local",
+      "motif": "scales",
+      "when": "Ballot fight",
+      "title": "California fights DOJ bid to set aside 20,000 mail ballots as a judge hears the case Tuesday",
+      "summary": "The Ninth Circuit seemed skeptical Sunday; Judge Carter holds a hearing Tuesday on the Justice Department's emergency request.",
+      "story": [
+        "The Justice Department wants California election officials to set aside mail ballots tied to about 20,000 people that federal agencies label \"likely noncitizens,\" and to hold them uncounted until citizenship is verified (CalMatters, SF Chronicle). Secretary of State Shirley Weber refused, saying voting was well underway and that complying would be unlawful. U.S. District Judge David Carter, who ruled against DOJ in a related voter-roll case in January, has a hearing set for Tuesday, Oct. 27.",
+        "DOJ also went to the Ninth Circuit. At Sunday's argument, Judge Gabriel Sanchez asked why the appeals court should act before the district court rules, and Judge Mark Bennett questioned how the request fits the Constitution's Elections Clause. Judge Patrick Bumatay focused more on noncitizen-voting concerns (Fox News). The panel has not ruled.",
+        "The list is disputed. A federal prosecutor, Bill Essayli, said all 20,000 are verified noncitizens and called the figure a floor (Fox News). In a sample of 200 records, Los Angeles County found 112 were canceled or inactive registrations with no ballot mailed for November, and some people on the list appear to be U.S.-born (NPR, Fox News). DOJ's prosecutor acknowledged there could be some errors. Federal prosecutors also charged 28 green card holders with voting crimes (NPR).",
+        "California says that once signatures are verified, ballots are separated from envelopes, so setting some aside may be impossible for ballots already processed."
+      ],
+      "facts": [
+        "DOJ wants about 20,000 mail ballots set aside.",
+        "Carter's hearing is Tuesday, Oct. 27.",
+        "The Ninth Circuit heard arguments Sunday and has not ruled.",
+        "LA County found 112 of 200 sampled records were canceled or inactive.",
+        "DOJ charged 28 green card holders with voting crimes."
+      ],
+      "next": "Carter's hearing is Tuesday, Oct. 27, and the Ninth Circuit could rule before or after it.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/california-noncitizen-voter-suit/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/doj-registrar-demand-voters-22491688.php"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12104425/california-officials-denounce-trump-dojs-demands-to-prove-voters-citizenship"
+        ]
+      ],
+      "thread": "ca-voter-rolls",
+      "left": "California officials and election lawyers say the federal list is unreliable, with canceled registrations and apparent U.S.-born citizens on it, and that quarantining ballots days before an election could disenfranchise eligible voters. They argue states, not the Justice Department, run elections, and that the timing looks like pressure on a blue state.",
+      "right": "Supporters of the DOJ say noncitizen registrations on state rolls are a real integrity problem and that California has refused to verify them. They argue that a federal prosecutor's finding of 20,000 cases justifies emergency action, and that sealing ballots until citizenship is checked is a modest step. Some Republicans tie the dispute to the Prop 39 voter-ID measure."
+    },
+    {
+      "id": "rtmvote",
+      "section": "local",
+      "motif": "bridge",
+      "when": "Nov. 3 ballot",
+      "title": "Bay Area transit tax faces a majority vote with BART cuts on the line",
+      "summary": "The five-county sales tax would raise about $1 billion a year; BART's fallback plan cuts 63% of train service if it fails.",
+      "story": [
+        "Voters in Alameda, Contra Costa, San Mateo, San Francisco and Santa Clara counties will decide the Regional Transit Measure on Nov. 3. It adds a 0.5% sales tax in four counties and 1% in San Francisco for 14 years, raising roughly $980 million to $1 billion a year, and it needs a simple majority of the combined vote (KQED, SF Chronicle).",
+        "BART's board approved by 8-1 a fallback plan that would start in January 2027 if the measure fails. It cuts train service by 63%, eliminates the Red and Green lines, ends daily service at 9 p.m., and includes 1,100 layoffs. Station closures, up to 15 stations, would come later, around June or July 2027 (SF Chronicle). Muni would cut about 20 routes if the regional or a San Francisco measure fails.",
+        "An early poll cited in a Chronicle column showed 56% support, short of the 60% cushion backers want, and suburban voters are less supportive than San Francisco voters. Opponents argue agencies should first redirect existing funds, renegotiate labor deals and cut overtime. A transit-agency report found Bay Bridge delays would double if the measures fail (KQED). The Chronicle editorial board endorses yes.",
+        "Even a yes vote does not fully erase the agencies' deficits, KQED analysis notes."
+      ],
+      "facts": [
+        "The measure is a 0.5% sales tax (1% in San Francisco) for 14 years.",
+        "It raises about $980 million to $1 billion per year.",
+        "It needs a simple majority of the combined five-county vote.",
+        "BART's fallback plan cuts 63% of train service and 1,100 jobs.",
+        "Early polling showed 56% support."
+      ],
+      "next": "Election Day, Tuesday, Nov. 3. BART's cuts would start in January if it fails.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/voterguide/california/regional-measure-rtm"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/bart-doomsday-station-closures-21944447.php"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/regional-transit-measure-bay-area-22424231.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12100738/bay-bridge-traffic-delays-would-double-if-transit-tax-measures-fail-report-finds"
+        ]
+      ],
+      "thread": "bay-transit-measure",
+      "left": "Supporters say transit is essential infrastructure for workers, climate goals and congestion, and that sales-tax revenue is the only realistic way to avoid a death spiral of cuts and lower ridership. They warn the cuts would hit lower-income riders hardest.",
+      "right": "Skeptics say agencies should show savings first through labor costs and overtime, and that a regressive sales tax is a poor way to fund systems with falling ridership. They point to anti-tax voting in the June primary and want accountability before more money.",
+      "blindspot": "Coverage found came mainly from Bay Area outlets that lean left; no right-leaning outlet coverage was found."
+    },
+    {
+      "id": "israelvote",
+      "section": "world",
+      "motif": "ballot",
+      "when": "Israel votes",
+      "title": "Israel votes Tuesday in an election polls say could end in deadlock",
+      "summary": "Final polls put Netanyahu's bloc near 50-55 of 120 seats, short of the 61 needed; challenger Gadi Eisenkot leads most polls.",
+      "story": [
+        "Israelis vote Tuesday, Oct. 27, in what CNN calls the country's most important election in years. Most final polls put Prime Minister Benjamin Netanyahu's coalition at about 50 to 55 of the 120 Knesset seats, well short of the 61 needed, with Likud near 20 seats. Pro-Netanyahu Channel 14 is an outlier, projecting 60 for his bloc (CNN, NPR, Axios).",
+        "Former military chief Gadi Eisenkot's Yashar party leads most polls at 20 to 23 seats, but opposition blocs also lack a majority without Arab-Israeli parties, which are projected to win a combined 12 to 14 (CNN). If neither side finds a path to 61, Netanyahu would remain in office with full authority, including on decisions about war.",
+        "Far-right leader Itamar Ben-Gvir is eyeing a kingmaker role (Fox News). Axios reports that Netanyahu urged Trump to boost support before the vote, and that some Trump advisers see an opportunity beyond Netanyahu.",
+        "The election comes during the Iran war and three years after Oct. 7, which NPR says is at the center of Netanyahu's reckoning."
+      ],
+      "facts": [
+        "The election is Tuesday, Oct. 27.",
+        "Knesset has 120 seats; 61 are needed.",
+        "Most polls show Netanyahu's bloc at 50 to 55.",
+        "Eisenkot's Yashar polls at 20 to 23 seats.",
+        "Arab-Israeli parties are projected at 12 to 14 seats combined."
+      ],
+      "next": "Results come Tuesday night and Wednesday; coalition talks could drag on for weeks.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/25/netanyahu-trump-israeli-elections"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/benjamin-netanyahu-legacy-political-future-line-israel-oct-27-election"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972"
+        ]
+      ],
+      "left": "Netanyahu's critics argue he has failed on Oct. 7 accountability, that his coalition with far-right parties has isolated Israel, and that a prolonged war serves his political survival. They see Eisenkot as a security-minded alternative who could repair ties with allies.",
+      "right": "Netanyahu's supporters say he has weakened Hamas, Hezbollah and Iran's network and that Israel needs a leader who will not trade security for diplomatic approval. They argue that Eisenkot's coalition would depend on parties that would limit Israel's military options at a dangerous moment."
+    },
+    {
+      "id": "francecurfew",
+      "section": "world",
+      "motif": "shield",
+      "when": "France",
+      "title": "France keeps targeted curfews as 400,000 march in a calmer weekend of cost-of-living protests",
+      "summary": "The Oct. 24 weekend saw large but mostly peaceful marches after violence a week earlier left at least 1,800 arrested.",
+      "story": [
+        "More than 400,000 people protested across France on Saturday, Oct. 24, including 110,000 in Paris, according to interior ministry figures cited by CNN. Police deployed more than 70,000 officers and at least 1,000 people were detained, but the weekend was calmer than Oct. 17-18, when looting and fires hit several cities (NPR, CNN).",
+        "The movement began last month as a student protest over school staffing and funding, then widened into anger over living costs and inequality, with unions and farmers joining. Fuel prices, up partly because of the Iran war, are a major grievance (NPR). In the Oct. 17-18 violence, Fox News cites 1,800 arrests nationwide, while another report puts it at 2,400, so the exact count is unclear.",
+        "Several cities imposed nightly curfews. Prime Minister Sébastien Lecornu said \"targeted curfews\" kept things calm and rejected a citywide Paris curfew (NPR). Officials blame far-left groups and opportunistic looters, while protesters point to police conduct. CNN reports Trump has used the unrest as a talking point in his midterm campaign.",
+        "Macron is in the final months of his presidency, with a presidential election coming."
+      ],
+      "facts": [
+        "Interior ministry: at least 400,000 marched on Oct. 24, 110,000 in Paris.",
+        "More than 70,000 police were deployed.",
+        "At least 1,000 were detained.",
+        "Arrest counts for Oct. 17-18 range from 1,800 to 2,400.",
+        "Targeted curfews remain in several cities."
+      ],
+      "next": "Watch the next weekend's turnout and whether curfews expand or lift.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/20/politics/trump-france-rioting-midterms"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/photos-show-aftermath-riots-masked-groups-clash-police-across-france"
+        ]
+      ],
+      "thread": "france-unrest",
+      "left": "Sympathetic readers say the protests are rooted in real hardship from fuel and housing costs and underfunded schools, and that a heavy police response and curfews risk deepening anger. They argue the violence is a minority's work and should not define a broad movement.",
+      "right": "Critics point to looting, arson and attacks on town halls as proof that unrest has moved beyond protest, and say order must come first. They argue that energy and spending policy, not police, are the roots of France's economic pain, and that the unrest weakens Macron's camp."
+    },
+    {
+      "id": "fedweek",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed Wednesday",
+      "title": "Fed expected to hold at 3.75% to 4% on Wednesday, with a December hike in play",
+      "summary": "Futures put the chance of a hold near 90%; Bank of America is calling for a quarter-point hike.",
+      "story": [
+        "The Federal Reserve decides on Wednesday, Oct. 28, and fed funds futures imply about a 90% chance policymakers hold the target range at 3.75% to 4% (CNBC). Bank of America is the notable outlier, expecting a quarter-point hike that it calls a \"heavy lift,\" and framing the meeting as a test of Chair Kevin Warsh's resolve on forward guidance (CNBC).",
+        "The Fed raised rates in September by a 12-0 vote, its first hike since 2023, after a divided July meeting where three presidents dissented in favor of a hike (CNBC, Axios). Warsh succeeded Jerome Powell as chair, and Powell stayed on the board. CNBC reported that markets price about a 71% chance of a quarter-point hike in December.",
+        "Oil is the main complication. Brent is near $115, and the 10-year Treasury yield, which the live market data shows at 4.99%, has been hovering around 5% as investors weigh inflation and AI-funding worries (CNBC). No October preview found predicted dissents.",
+        "A hold with a hawkish tone would keep December in play. A hike would be a surprise."
+      ],
+      "facts": [
+        "Decision is Wednesday, Oct. 28.",
+        "Target range is 3.75% to 4%.",
+        "Futures put a hold at about 90%.",
+        "Bank of America expects a 25-basis-point hike.",
+        "The Fed hiked 12-0 in September."
+      ],
+      "next": "The decision comes Wednesday; watch the dissent count and Warsh's guidance on December.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/09/16/fed-meeting-today-live-updates.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/07/29/fed-warsh-rates-inflation"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+        ]
+      ],
+      "left": "Progressive critics say hiking into an oil shock risks higher unemployment and borrowing costs for working families, while the inflation comes from war-driven energy prices that rates cannot fix. They want the Fed to weigh jobs as much as prices.",
+      "right": "Conservative economists argue that inflation has run too high for too long, that the Fed has to show resolve, and that tariffs and war spending add to price pressure that rate hikes must offset. They say a credible Fed is the best protection for savers.",
+      "blindspot": "No right-leaning outlet coverage of this week's Fed meeting turned up in my searches."
+    },
+    {
+      "id": "brazilselloff",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Markets",
+      "title": "Brazil stocks plunge after Lula's surprise win while U.S. futures point higher",
+      "summary": "Brazil's ETF fell about 18% to 25% in early trading as Lula beat Bolsonaro; Alphabet and Microsoft report Wednesday.",
+      "story": [
+        "Brazilian assets sold off sharply Monday after President Luiz Inácio Lula da Silva beat Flávio Bolsonaro in Sunday's runoff, 51.8% to 48.2% (CNBC, NPR). Investors had positioned for a Bolsonaro win. The iShares MSCI Brazil ETF fell between roughly 18% and 27% in overnight and premarket trading depending on the source, and Petrobras fell more than 20% and Itaú Unibanco about 26% (CNBC, Bloomberg). Currency derivatives pointed to a more than 10% drop in the real.",
+        "Bolsonaro has not conceded and said he would seek annulment; experts say the legal bar is high (CNBC). Goldman Sachs expects only modest efforts to control spending. In the U.S., futures were higher early Monday: S&P 500 and Dow futures up about 0.4% and Nasdaq-100 futures up 0.7% per CNBC, with Bloomberg showing smaller gains (CNBC, Bloomberg).",
+        "The latest quotes in this edition's market data show the S&P 500 at 7,623.68, the Dow at 52,215.16 and the Nasdaq at 25,955.34, with WTI crude near $101 and the 10-year yield at 4.99%. Alphabet and Microsoft report after Wednesday's close, along with the Fed decision, Amazon on Thursday and Apple on Nov. 2.",
+        "Neocloud stocks also dropped again after Elon Musk's comments on debt markets."
+      ],
+      "facts": [
+        "Lula won 51.8% to 48.2%.",
+        "Brazil's ETF fell roughly 18% to 27% overnight and premarket, per different reports.",
+        "Petrobras fell more than 20%.",
+        "Alphabet and Microsoft report Oct. 28 after the close.",
+        "Amazon reports Oct. 29 and Apple Nov. 2."
+      ],
+      "next": "Alphabet and Microsoft earnings and the Fed decision land Wednesday after the close.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/conservative-wave-hits-roadblock-brazil-lula-holds-off-bolsonaro-challenge"
+        ]
+      ],
+      "why": "Brazil's drop shows how crowded positioning can reverse on an election, and U.S. investors have the same event-risk setup this week with the Fed and big tech earnings."
+    },
+    {
+      "id": "phpshell",
+      "section": "engineering",
+      "motif": "shield",
+      "when": "Cybersecurity",
+      "title": "PHP2Shell flaws force governments offline and show AI-assisted bug hunting at scale",
+      "summary": "Two critical PHP bugs rated 9.2 let attackers run code remotely; a patch is out, but exploit attempts rose into the millions.",
+      "story": [
+        "Two critical vulnerabilities in PHP, dubbed PHP2Shell and tracked as CVE-2026-109618 and CVE-2026-109619, let unauthenticated attackers run code remotely on servers. Both are rated 9.2 out of 10. Government sites in Europe and elsewhere, including agencies in the Netherlands and Finland, went offline as a precaution, and security agencies in Europe, Australia, Japan and Britain urged users to patch or take sites down (CNBC). The NSA told organizations to patch immediately.",
+        "Researchers at Calif found the bugs using OpenAI's GPT-5.6 Sol, and Google's Wiz team used its Wiz Atlas agent, Gemini 4 Argon and GPT-5.6 Sol (CNBC, TechCrunch). A TechCrunch correction says human researchers led the work and used AI to help exploit it, so the credit for discovery is disputed. Patches shipped about 24 hours early after news leaked in forums.",
+        "Amazon's MadPot honeypots saw attempts before patches were available, and Cloudflare said exploit attempts grew from thousands to millions after disclosure (TechCrunch, MIT Technology Review). The PHP Foundation said it had seen no working public exploits, and MIT Technology Review, citing NBC News, said no successful attacks had been reported. Security firm Tolmo said it built a working exploit in under a day.",
+        "The episode is an early test of how AI changes vulnerability discovery and defenders' patch timelines."
+      ],
+      "facts": [
+        "CVE-2026-109618 and CVE-2026-109619 are both rated 9.2.",
+        "The NSA advised immediate patching.",
+        "Government sites in the Netherlands and Finland went offline.",
+        "Cloudflare reported exploit attempts growing into the millions.",
+        "Credit for the discovery is disputed between AI and human researchers."
+      ],
+      "next": "Watch for confirmed successful exploitation and for how many PHP servers remain unpatched.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/21/government-websites-go-dark-as-software-flaw-sparks-security-scramble.html"
+        ],
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/"
+        ]
+      ],
+      "why": "PHP runs a large share of the web, so a remote-code bug spreads fast. It also shows that AI tools are now finding old bugs faster than many organizations patch them.",
+      "flag": "Sources disagree on who found the bugs and on when, and on whether successful attacks have happened."
+    },
+    {
+      "id": "magne",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "Quantum",
+      "title": "Microsoft and Atom Computing plan a 50-logical-qubit neutral-atom machine for early 2027",
+      "summary": "The Magne system would use about 1,200 physical atoms to make 50 error-corrected qubits for a Danish foundation.",
+      "story": [
+        "Microsoft and Atom Computing plan to deliver an error-corrected quantum computer called Magne to the Export and Investment Fund of Denmark and the Novo Nordisk Foundation. The machine is to have 50 logical qubits built from about 1,200 physical neutral-atom qubits, and should be operational by the start of 2027 (IEEE Spectrum).",
+        "The approach builds on a 2024 demonstration in which the companies entangled 24 logical qubits and detected and corrected for the loss of a neutral atom during computation (TechCrunch). Neutral-atom logical qubits are not new: Harvard-led work in 2023 ran algorithms on 48 logical qubits, each made of seven or eight atoms (Quanta Magazine).",
+        "Skeptics say practical value is still distant. A QuEra executive said at a New York panel that anyone claiming quantum computers are commercially useful today is overstating it (MIT Technology Review). A separate IEEE Spectrum piece covers a startup, S-Transistors, working on superconducting transistors that could cut the cabling inside quantum computers, with first circuits planned for 2027.",
+        "The 2027 target is a delivery date, not a proof of advantage. The test is whether logical error rates stay low as circuits get deeper."
+      ],
+      "facts": [
+        "Magne targets 50 logical qubits from about 1,200 physical qubits.",
+        "Delivery is targeted for the start of 2027.",
+        "The 2024 demo entangled 24 logical qubits.",
+        "Harvard-led work ran 48 logical qubits in 2023.",
+        "Commercial usefulness is still debated."
+      ],
+      "next": "Watch for logical error-rate results and any schedule change ahead of the early-2027 delivery.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/neutral-atom-quantum-computing"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2024/11/19/microsoft-and-atom-computing-will-launch-a-commercial-quantum-computer-in-2025/"
+        ],
+        [
+          "Quanta Magazine",
+          "C",
+          "https://www.quantamagazine.org/the-best-qubits-for-quantum-computing-might-just-be-atoms-20240325/"
+        ]
+      ],
+      "why": "Error correction is the gating item for useful quantum computing. A working 50-logical-qubit system would show whether neutral atoms can scale past lab demos.",
+      "flag": "The early-2027 delivery date is reported by IEEE Spectrum; a 2024 TechCrunch article had promised a 2025 launch, so timelines have moved."
+    },
+    {
+      "id": "artemis3",
+      "section": "science",
+      "motif": "rocket",
+      "when": "Artemis III",
+      "title": "NASA confirms Artemis III is a crewed low-Earth-orbit lander test, still without a launch date",
+      "summary": "Mission is about 90 days behind per an internal memo; the Moon landing is still aimed at Artemis IV in 2028.",
+      "story": [
+        "At an Oct. 23 briefing, NASA confirmed that Artemis III will be a crewed test in low Earth orbit rather than a lunar landing. Blue Origin launches a test version of its Blue Moon Mark 2 lander into orbit, and the Orion crew spends two days checking out their capsule before meeting the lander on flight day three. The nominal mission is 14 days and could last 17 (Space.com, NASA).",
+        "The crew is Randy Bresnik, Frank Rubio, Andre Douglas and ESA's Luca Parmitano. NASA has no firm date, targeting around summer 2027, and an internal memo from Administrator Jared Isaacman put the mission about 90 days behind schedule (Space.com). Supply-chain issues with the landers are among the biggest challenges.",
+        "NASA is still aiming for a crewed landing near the Moon's south pole on Artemis IV in 2028. It has not chosen between SpaceX's Starship and Blue Origin's Blue Moon for that landing, and both must complete uncrewed lunar landing tests before certification.",
+        "The slip leaves little margin for a 2028 landing."
+      ],
+      "facts": [
+        "Artemis III is a low-Earth-orbit test, not a landing.",
+        "Crew: Bresnik, Rubio, Douglas and Parmitano.",
+        "The mission is about 90 days behind per a memo.",
+        "The target is around summer 2027.",
+        "The landing is planned for Artemis IV in 2028."
+      ],
+      "next": "Watch for a launch date and for lander test milestones from SpaceX and Blue Origin.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/nasa-lays-out-plan-for-artemis-3-moon-lander-test-flight-but-when-will-it-launch"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
+        ]
+      ],
+      "why": "Artemis III is the rehearsal for docking with a commercial lander. Any further slip pushes the 2028 landing and tests NASA's two-lander strategy."
+    },
+    {
+      "id": "neocloud",
+      "section": "ai",
+      "motif": "chip",
+      "when": "AI financing",
+      "title": "Neocloud stocks slide again as Musk warns of 'guppy-level death' and credit stress grows",
+      "summary": "CoreWeave and Nebius are down more than 30% in a month, with CoreWeave's debt yields above 15%.",
+      "story": [
+        "Neocloud stocks fell again Monday after Elon Musk said more than 200 such companies face \"guppy-level death and consolidation,\" arguing that debt markets have nearly shut off financing for companies without significant revenue beyond AI data centers. Nebius, CoreWeave and Iren dropped more than 4% premarket before paring losses (CNBC). CoreWeave and Nebius are each down more than 30% over the past month, and Iren is down about 40%.",
+        "CoreWeave's credit default swaps have widened past 11%, a level generally seen as distressed, and yields on its 2031 and 2032 unsecured notes top 15%. It carries about $51.6 billion of debt (CNBC). SK Hynix pulled the US IPO of its Solidigm unit, which Bloomberg tied to Korean regulatory scrutiny and which the filing attributed to \"recent capital market conditions\" (CNBC, Bloomberg).",
+        "CNBC frames Nvidia's role as an investor in several neoclouds as facing its first big test, though CEO Jensen Huang says demand for the neoclouds is \"off the charts.\" Nebius says it does not carry the same debt as CoreWeave, and a Janus Henderson manager holding CoreWeave bonds calls the selloff a bump. HSBC and Gartner are more bearish on the business model.",
+        "Bloomberg reported that Musk said SpaceX closed $40 billion in debt for GPUs, while sources told Bloomberg that pricing talks were ongoing."
+      ],
+      "facts": [
+        "CoreWeave and Nebius are down over 30% in a month.",
+        "CoreWeave's CDS spreads are above 11%.",
+        "Its 2031 and 2032 notes yield over 15%.",
+        "SK Hynix pulled Solidigm's US IPO.",
+        "Gartner predicts over 80% of neoclouds will not stay independent by 2030."
+      ],
+      "next": "Alphabet and Microsoft earnings Wednesday will show whether cloud and AI spending hold up.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-22/sk-hynix-scraps-solidigm-us-ipo-after-shareholder-concerns"
+        ]
+      ],
+      "why": "Neoclouds borrow heavily to rent GPUs. If credit stays closed, GPU orders and data-center builds slow, which would matter for Nvidia and for the AI capex story at the big cloud companies."
+    },
+    {
+      "id": "argon",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Gemini 4",
+      "title": "Google limits Gemini 4 Argon to cyber defenders while the government tests it",
+      "summary": "Google's most powerful model is in a phased rollout; analysts call it competitive, not the leader.",
+      "story": [
+        "Google released Gemini 4 Argon on Sept. 30 as its most advanced model, but is rolling it out in phases, starting with a small group of trusted cybersecurity partners and enterprise cloud customers while it takes part in a voluntary U.S. government safety-testing process (CNBC, TechCrunch). Google has not announced a public release date.",
+        "Google says Argon was trained for defensive cyber work and can \"autonomously find, validate, and patch critical software vulnerabilities.\" It also says it ties OpenAI's GPT-6 Astra and Grok 4.7 on cybersecurity benchmarks. It plans to scale safeguards, including against misuse and prompt injection, before a wider launch (CNBC).",
+        "Analysts are more cautious. One CNBC analysis says Argon makes Google competitive again but does not make it the leader (CNBC). Limited access also restricts independent testing. Wiz used Argon, alongside its own agent and OpenAI's GPT-5.6 Sol, in the PHP vulnerability work (TechCrunch).",
+        "Axios calls it a long-awaited answer to OpenAI and Anthropic."
+      ],
+      "facts": [
+        "Argon launched Sept. 30 in a phased rollout.",
+        "Initial access is for cyber partners and some enterprise cloud customers.",
+        "Google is working with the U.S. government on pre-release evaluations.",
+        "Google says it ties GPT-6 Astra on cyber benchmarks.",
+        "No public release date has been announced."
+      ],
+      "next": "Alphabet's earnings Wednesday after the close may include Argon rollout details.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/09/30/google-gemini-4"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html"
+        ]
+      ],
+      "why": "Frontier labs are gating powerful cyber-capable models, and the PHP episode shows why. Independent verification of benchmark claims is limited until wider access.",
+      "flag": "Google's benchmark claims come from the company; no independent evaluations have been published. The result of the government safety testing is not public."
+    },
+    {
+      "id": "melanoma",
+      "section": "health",
+      "motif": "dna",
+      "when": "Cancer vaccine",
+      "title": "Personalized mRNA melanoma vaccine cuts recurrence or death risk by 42% in phase 3",
+      "summary": "Merck and Moderna's intismeran plus Keytruda beat Keytruda alone after surgery in 1,137 stage 3 patients.",
+      "story": [
+        "Merck and Moderna reported that their personalized mRNA vaccine intismeran, given with Keytruda after surgery, cut the risk of melanoma recurrence or death by 42% compared with Keytruda plus placebo in a phase 3 trial of 1,137 stage 3 patients (CNN, NBC News). At two years, 82% of patients on the combination had no recurrence, versus 70% on Keytruda alone.",
+        "The companies released the data early, on Thursday, after reports that it had been posted online and removed. It is set for presentation at the European Society for Medical Oncology meeting in Madrid. The companies say they are engaging regulators, and Merck says an FDA approval could come late next year (NPR).",
+        "Each vaccine is made for the individual patient using their tumor's neoantigen profile, with up to 34 targets. A phase 2b trial showed a 49% reduction (NBC News). Full results, side effects and overall survival data are not yet reviewed.",
+        "If approved, it would be among the first personalized cancer vaccines."
+      ],
+      "facts": [
+        "The phase 3 trial had 1,137 stage 3 melanoma patients.",
+        "The combination cut recurrence or death risk by 42%.",
+        "Two-year recurrence-free rates were 82% versus 70%.",
+        "Companies are engaging with regulators.",
+        "Data will be presented at ESMO in Madrid."
+      ],
+      "next": "Watch for the ESMO presentation and an FDA filing.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/health/cancer/personalized-mrna-vaccine-melanoma-cut-risk-cancers-return-late-stage-rcna605208"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/23/nx-s1-6009881/merck-and-moderna-release-promising-data-on-cancer-vaccine-trial"
+        ],
+        [
+          "Science",
+          "C",
+          "https://www.science.org/content/blog-post/merck-moderna-results"
+        ]
+      ],
+      "why": "A phase 3 win validates the neoantigen-vaccine idea that has been in trials for years. Cost, manufacturing speed and durability beyond two years are the open questions."
+    }
+  ],
+  "briefs": [
+    "Space.com reports a new theoretical study concluding that black holes more massive than whole galaxies are unlikely to be a major component of dark matter, based in part on the smoothness of the cosmic microwave background; tiny asteroid-mass black holes remain a candidate.",
+    "CalMatters reports that California's SEIU Local 1000 and the state resume mediation on Oct. 30 after the union's first statewide strike on Oct. 21 over pay, health costs and telework.",
+    "NPR reports U.S. measles cases have more than doubled last year's total, with Pennsylvania the hardest hit; the CDC says 96% of 2026 cases were unvaccinated or unknown.",
+    "TechCrunch reports Hugging Face's open-source Microduck robot drew more than 20,000 preorders after a viral moment at Nvidia's GTC Berlin keynote."
+  ]
+}
