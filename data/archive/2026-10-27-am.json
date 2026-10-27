@@ -1,0 +1,1306 @@
+{
+  "updatedAt": "2026-10-27T13:11:29Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Judge Carter hears DOJ's California ballot case** today at 1 p.m. Pacific after a 2-1 Ninth Circuit panel refused the department's emergency request (CNN, The Hill, Washington Examiner). CNN reports U.S. forces could strike Iran within 96 hours of an order from Trump, with action seen as most likely after Nov. 3, while Saudi, Pakistani and Turkish officials pressed Tehran for de-escalation (CNN, Fox News). **The Fed decides Wednesday, with a hold near 90%**, and Chair Warsh may point toward a December hike (CNBC, Bloomberg). Alphabet and Microsoft report that evening, and Tesla jumped 5.21% on a Barclays upgrade tied to a possible SpaceX merger (CNBC, Bloomberg). **Anthropic's IPO filing shows $16.3 billion in first-half revenue** and an $80.7 billion net loss, mostly non-cash (CNBC, Bloomberg, Axios). **Israel votes today, and final polls show no bloc at 61 seats** (NBC News, Axios, NPR). A Fox News poll has the Texas Senate race tied at 49% (Fox News). Closer to home, **Bay Area voters decide a transit tax Nov. 3**, with BART station closures floated if it fails (KQED, SF Chronicle). In science, a new model says **Thwaites Glacier could add twice the projected sea-level rise** (NASA JPL, Nature).",
+  "alerts": [
+    {
+      "text": "The Fed decides Wednesday at 2 p.m. ET, and Alphabet and Microsoft both report after the close that day; Amazon follows Thursday.",
+      "level": "high",
+      "story": "fedweek"
+    },
+    {
+      "text": "Judge Carter hears DOJ's bid to set aside 20,000 California mail ballots at 1 p.m. Pacific today, and a ruling could come fast.",
+      "level": "watch",
+      "story": "dojballots"
+    },
+    {
+      "text": "Measure RTM, the Bay Area transit tax, is on your Nov. 3 ballot, and BART's fallback plans could close stations including Warm Springs/South Fremont.",
+      "level": "watch",
+      "story": "rtm"
+    },
+    {
+      "text": "Tesla is up 5.21% and Nvidia 2.39% in your watchlist; Tesla's move follows a Barclays call on a SpaceX merger.",
+      "level": "info",
+      "story": "teslaspacex"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "iranplans",
+      "text": "CNN: U.S. could strike Iran within 96 hours of an order; Trump's call is expected after Nov. 3."
+    },
+    {
+      "story": "dojballots",
+      "text": "Judge Carter hears DOJ's California ballot bid today after a 2-1 appeals court rejection."
+    },
+    {
+      "story": "fedweek",
+      "text": "Fed expected to hold Wednesday at 3.75% to 4%, with a December hike the question."
+    },
+    {
+      "story": "anthropicipo",
+      "text": "Anthropic's S-1: $16.3 billion first-half revenue, $80.7 billion net loss, ticker ANT."
+    },
+    {
+      "story": "thwaites",
+      "text": "New model: Thwaites Glacier could add up to 30 mm of sea-level rise by 2100."
+    }
+  ],
+  "stat": {
+    "label": "U.S. measles cases in 2026",
+    "value": "4,580+",
+    "note": "More than double all of 2025, through Oct. 22; 96% unvaccinated or unknown (CDC data via NPR)."
+  },
+  "markets": {
+    "asOf": "Tue Oct 27, 8:37 AM ET",
+    "wrap": "Stocks rose Monday, with the S&P 500 up 0.70%, the Nasdaq up 0.82% and the Dow up 0.28%, as **chip stocks gained for a second day** and oil eased (CNBC). Tesla jumped 5.21% after Barclays upgraded it on a possible SpaceX merger (CNBC, Bloomberg), and Nvidia rose 2.39%. The 10-year yield sits at 4.98% and WTI near $101, with Brent about $115 as Gulf diplomacy and Houthi attacks on Saudi Arabia pull in opposite directions (CNBC). **Wednesday brings the Fed decision and Alphabet and Microsoft earnings**, after Meta fell nearly 7% last week on negative free cash flow (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,676.77",
+        "raw": 7676.77,
+        "change": "+0.70%",
+        "dir": "up",
+        "time": 1793047423,
+        "spark": [
+          7683.69,
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,361.58",
+        "raw": 52361.58,
+        "change": "+0.28%",
+        "dir": "up",
+        "time": 1793047421,
+        "spark": [
+          51481.51,
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,169.38",
+        "raw": 26169.38,
+        "change": "+0.82%",
+        "dir": "up",
+        "time": 1793049359,
+        "spark": [
+          26820.38,
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.98%",
+        "raw": 4.982,
+        "change": "-0.08%",
+        "dir": "down",
+        "time": 1793104324,
+        "spark": [
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.98
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$101.11",
+        "raw": 101.11,
+        "change": "-0.64%",
+        "dir": "down",
+        "time": 1793104625,
+        "spark": [
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          101.11
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$80,197",
+        "raw": 80196.73,
+        "change": "+0.23%",
+        "dir": "up",
+        "time": 1793105224,
+        "spark": [
+          84458.09,
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80196.73
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$216.00",
+        "raw": 216.0,
+        "change": "+2.39%",
+        "dir": "up",
+        "time": 1793044800,
+        "spark": [
+          228.86,
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0
+        ],
+        "note": "Chip stocks gained for a second day (CNBC)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$343.91",
+        "raw": 343.91,
+        "change": "-1.10%",
+        "dir": "down",
+        "time": 1793044801,
+        "spark": [
+          338.4,
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$532.60",
+        "raw": 532.6,
+        "change": "+1.54%",
+        "dir": "up",
+        "time": 1793044801,
+        "spark": [
+          509.22,
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$316.80",
+        "raw": 316.8,
+        "change": "-1.06%",
+        "dir": "down",
+        "time": 1793044801,
+        "spark": [
+          342.75,
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$391.62",
+        "raw": 391.62,
+        "change": "+5.21%",
+        "dir": "up",
+        "time": 1793044800,
+        "spark": [
+          357.45,
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62
+        ],
+        "note": "Barclays upgraded Tesla to overweight on SpaceX merger hopes (CNBC, Bloomberg)."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$249.09",
+        "raw": 249.09,
+        "change": "+0.44%",
+        "dir": "up",
+        "time": 1793044801,
+        "spark": [
+          246.15,
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": "after close"
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 49.3,
+      "feels": 46.1,
+      "hum": 84,
+      "wind": 4.2,
+      "cond": "cloudy"
+    },
+    "days": [
+      {
+        "date": "2026-10-26",
+        "hi": 68,
+        "lo": 52,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-10-27",
+        "hi": 65,
+        "lo": 49,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-28",
+        "hi": 68,
+        "lo": 48,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-29",
+        "hi": 68,
+        "lo": 57,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-30",
+        "hi": 68,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-10-31",
+        "hi": 65,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 17
+      },
+      {
+        "date": "2026-11-01",
+        "hi": 69,
+        "lo": 53,
+        "cond": "cloudy",
+        "pop": 13
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "iranplans",
+      "section": "politics",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Strike plans",
+      "title": "U.S. has strike plans ready for Iran as regional powers press Tehran for a deal",
+      "summary": "CNN reports U.S. forces could hit Iran within 96 hours of an order, while Saudi, Pakistani and Turkish officials meet Iranian leaders in Tehran.",
+      "story": [
+        "CNN reported Monday that U.S. forces in the Middle East could launch new, possibly major, operations against Iran within 96 hours of an order from President Trump, citing two U.S. officials. The officials said Trump has not decided what to do after the Nov. 3 midterms, though he appears to lean toward major action. They also noted he has backed off at the last moment before. Fox News and CNN both covered the same day's meeting in Tehran, where Saudi Defense Minister Prince Khalid bin Salman, Pakistani army chief Asim Munir and Turkish intelligence chief Ibrahim Kalin met President Masoud Pezeshkian.",
+        "The war began Feb. 28 with U.S. and Israeli strikes. Trump has repeatedly said the U.S. will not attack Iran before the midterms, while saying resumed bombing after the vote is \"possible,\" according to Fox News and The Hill. Brent crude has gained about 12% this month, CNBC reported, and October has been the worst month for attacks on shipping in and near the Strait of Hormuz, per a Washington-based think tank CNBC cited. Global inventories have fallen sharply, and the U.S. Strategic Petroleum Reserve is at its lowest since 1982.",
+        "Iranian state media said the four countries agreed to keep talking and to strengthen regional security cooperation. Analysts quoted by CNN were skeptical, with one calling the Tehran meeting more a last-minute attempt to prevent a return to war than the start of a new diplomatic process. CNBC reported that Brent slipped to about $115 early Tuesday on hopes for diplomacy, though Houthi attacks on Saudi Arabia keep supply worries alive.",
+        "The next decision point is Trump's. He has said he is approaching a choice between a deal and intensified military operations. Markets, gas prices and the final week of the campaign all sit under that choice."
+      ],
+      "flag": "No official announcement of a strike order exists. The 96-hour figure and Trump's leanings come from unnamed U.S. officials cited by CNN.",
+      "facts": [
+        "CNN, citing two U.S. officials, reports forces could strike within 96 hours of an order from Trump.",
+        "Trump has not decided on post-midterm action, and he has reversed himself before, officials told CNN.",
+        "Saudi, Pakistani and Turkish officials met Iranian leaders in Tehran on Monday (CNN, NBC News).",
+        "Brent closed Monday at $115.81 and was near $115 early Tuesday (CNBC, Fox News).",
+        "The U.S. Strategic Petroleum Reserve is at its lowest level since 1982 (CNBC)."
+      ],
+      "left": "Democrats say the war is a choice Trump keeps making and ordinary people keep paying for. They have tied the conflict to gas and diesel prices, and The Hill and CNN report House Democrats have pushed war powers votes and demanded a cost breakdown. Their argument is that a president who promises no strikes before an election and plans them after it is treating a war as a campaign calendar item. They want Congress to vote on any renewed offensive.",
+      "right": "Hawks in the party, including Sens. Lindsey Graham and Roger Wicker, have urged Trump to finish the job rather than settle for a deal that leaves Iran's regime and enrichment capacity intact, as The Hill has reported. Supporters of the administration argue that pressure and the blockade are the only language Tehran respects, and that a short, intensive campaign beats an open-ended stalemate. Interior Secretary Doug Burgum has argued that U.S. pump prices owe more to state policy than to the war.",
+      "next": "Watch for any Trump decision or order after Nov. 3, and for the next round of Gulf-mediated talks.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/10/26/politics/us-iran-strike-plans-trump"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/26/middleeast/iran-meeting-regional-powers-intl"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-trump-israel-saudi-october-26"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/middle-east/delegations-meet-iran-middle-east-edge-potential-renewed-fighting-rcna605662"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6079754-trump-comments-iran-midterms/"
+        ]
+      ]
+    },
+    {
+      "id": "dojballots",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "ca-voter-rolls",
+      "when": "Court hearing",
+      "title": "Judge Carter hears DOJ bid to set aside 20,000 California mail ballots after appeals court says no",
+      "summary": "A 2-1 Ninth Circuit panel refused DOJ's emergency request Monday, and the district judge holds a hearing Tuesday afternoon.",
+      "story": [
+        "A divided Ninth Circuit panel on Monday rejected the Justice Department's emergency request to make California set aside mail ballots tied to more than 20,000 people the government calls likely noncitizens, CNN, The Hill and the Washington Examiner reported. Judges Mark Bennett and Gabriel Sanchez ruled the court lacked jurisdiction because the district court had not had time to decide. Judge Patrick Bumatay, a Trump appointee, dissented. The case returns to U.S. District Judge David Carter, who has a hearing set for 4 p.m. Eastern (1 p.m. Pacific) Tuesday.",
+        "DOJ says USCIS cross-checked California voter records against federal immigration data and produced a preliminary list. The department argues that once ballots are counted there is no way to undo it, in the words of U.S. Attorney Bill Essayli, quoted by Fox News. California's election officials say counties lack the authority and federal records to verify citizenship. Los Angeles County's registrar reported that in a 200-record sample, 112 records belonged to canceled or inactive registrations. DOJ has also charged 28 lawful permanent residents from the list with false statements and fraudulent registration, according to Fox News and NPR.",
+        "The majority wrote that the government's claimed emergency was, at least in part, self-constructed, according to CNN. Bennett added that on the merits he would have ruled against DOJ, saying the federal law at issue does not override states' primary role in running elections. Bumatay wrote that the federal government must be able to stop the threat and warned the ballots may not be identifiable later. Carter dismissed a separate DOJ suit over California's voter rolls in January, calling that demand \"unprecedented and illegal.\"",
+        "Because the ruling was procedural, DOJ can still seek relief from the full Ninth Circuit or the Supreme Court if Carter rules against it."
+      ],
+      "facts": [
+        "The Ninth Circuit ruled 2-1 on Monday, Oct. 26, that it lacked jurisdiction (CNN, The Hill).",
+        "DOJ's list covers more than 20,000 voters flagged as likely noncitizens (Fox News, Washington Examiner).",
+        "A Los Angeles County sample of 200 records found 112 tied to canceled or inactive registrations (Fox News).",
+        "Judge Carter's hearing is at 4 p.m. Eastern Tuesday (CNN).",
+        "DOJ has charged 28 green card holders with voting-related offenses (Fox News, NPR)."
+      ],
+      "left": "Democratic officials and voting-rights groups say the case is an election-season attempt to cast doubt on California's count, built on a list that the state's own sample shows is unreliable. They note that noncitizen voting is already a crime, that studies find it extremely rare, and that Congress never gave DOJ a civil tool to hold back a state's ballots. Gov. Newsom has called the administration's moves something that should alarm everyone, per the SF Chronicle.",
+      "right": "Conservatives argue that only citizens may vote in federal elections, that the law is clear, and that ballots cannot be pulled back once counted, so the courts should act before certification. The Washington Examiner and Fox News report DOJ's position that the federal government can prevent vote dilution and enforce the ban. Supporters add that California has resisted sharing data and that the 28 charged defendants show the problem is real, even if the scale is disputed.",
+      "next": "Carter's ruling, expected soon after Tuesday's hearing; DOJ could then appeal again before Nov. 3.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/26/politics/california-mail-ballot-noncitizen-appeals-court-rejects"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6173747-appeals-court-denies-emergency-election-stay/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/justice/4780657/appeals-court-doj-california-mail-ballots/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/sf/article/newsom-says-trump-election-moves-scare-hell-22489491.php"
+        ]
+      ]
+    },
+    {
+      "id": "midtermsfinal",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Final week",
+      "title": "Trump heads to Texas as Fox poll has Senate race tied and Michigan stays a toss-up",
+      "summary": "A Fox News poll has Paxton and Talarico tied at 49%, and Trump campaigns in Waco and Lubbock today.",
+      "story": [
+        "A Fox News poll conducted Oct. 15-19 found Democrat James Talarico and Republican Ken Paxton tied at 49% among likely voters in Texas, Fox News reported. Last month Talarico led 51% to 49%. Fox attributed the shift to Paxton consolidating conservatives, rural voters and Cornyn primary voters. Paxton's ratings are underwater, at 41% favorable and 58% unfavorable. Trump is scheduled to hold rallies in Waco and Lubbock today, according to States Newsroom reporting on his schedule.",
+        "In Michigan, Obama rallied in Detroit on Oct. 24 for Democrat Abdul El-Sayed and gubernatorial candidate Jocelyn Benson, and Trump followed Oct. 25 in Port Huron for Republican Mike Rogers, according to CNN, Fox News and The Hill. Cook rates the open seat a toss-up. At the rally Trump attacked El-Sayed, who is Muslim, saying he would be the only senator who must pass through a metal detector. El-Sayed answered that Trump will soon have to call him senator, and his campaign called Rogers a rubber stamp. Rogers called El-Sayed the most extreme candidate in the country.",
+        "Democrats need a net gain of four seats for a Senate majority, per earlier CNN reporting in this thread. Early voting is far ahead of 2022. The Washington Examiner reports Paxton is fighting to hold on to Trump's gains among Texas Latinos, one of the clearest signs of how tight the race is in a state Trump won comfortably.",
+        "With a week left, both parties are spending on offense and defense in states that were not on the map a few months ago."
+      ],
+      "flag": "Poll results differ by pollster and sample. Fox's Texas figure is among likely voters in one survey.",
+      "facts": [
+        "Fox News poll, Oct. 15-19: Talarico 49%, Paxton 49% among Texas likely voters.",
+        "Paxton is 41% favorable and 58% unfavorable in the same poll (Fox News).",
+        "Trump rallied in Port Huron, Michigan on Oct. 25 and Obama in Detroit on Oct. 24 (CNN, Fox News).",
+        "Cook Political Report rates the Michigan Senate race a toss-up (Fox News, The Hill).",
+        "Election Day is Nov. 3."
+      ],
+      "left": "Democrats argue the map has turned against Republicans because of high fuel prices, the Iran war, a Fed that just raised rates, and a president at or near record-low approval. They see a tied Texas race as evidence that voters are punishing the party in power and that candidates like Talarico and El-Sayed can win by focusing on costs. They also criticize Trump's attacks on El-Sayed's faith as divisive.",
+      "right": "Republicans respond that polls have understated Trump's coalition before and that Paxton and Rogers are consolidating the base as Election Day approaches. They stress Democratic candidates' left-wing positions, with Rogers calling El-Sayed the most extreme candidate in the country, and argue that Election Day turnout, not early-vote totals, decides these races. Washington Examiner coverage points to Paxton's work to hold Latino voters as proof the party is competing for every group.",
+      "next": "Trump's Texas rallies today and the last weekend of early voting before Nov. 3.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/25/politics/live-news/midterm-election-congress"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/midterm-elections-2026-trump-obama-michigan-alaska-october-25"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6171651-el-sayed-fires-back-trump-attacks/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4776677/ken-paxton-fights-keep-trump-texas-latino-gains/"
+        ]
+      ]
+    },
+    {
+      "id": "rtm",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Nov. 3 vote",
+      "title": "Bay Area transit tax goes to voters Nov. 3, with BART station closures on the table if it fails",
+      "summary": "Measure RTM would raise about $1 billion a year for BART, Muni, AC Transit and Caltrain through a regional sales tax.",
+      "story": [
+        "Regional Measure RTM would add a sales tax for 14 years: half a cent in Alameda, Contra Costa, San Mateo and Santa Clara counties and a full cent in San Francisco, KQED's voter guide says. It would raise roughly $1 billion a year for BART, Muni, Caltrain, AC Transit and other operators. The measure passes with a majority of the combined vote across the five counties, so Fremont voters count toward a regional total rather than deciding it themselves. Alameda County residents would pay the half-cent rate.",
+        "BART has said contingency plans would close 10 to 15 stations if voters reject the tax, the SF Chronicle reported. Earlier reporting on those plans said South Hayward and Warm Springs would be dropped from the Orange Line, but the agency has stressed those were options under consideration, not decisions. A KQED-reported analysis found Bay Bridge traffic delays would roughly double if the transit tax measures fail.",
+        "The SF Chronicle's editorial board endorsed a yes vote, writing that the Bay Area cannot function without public transit. Supporters include Rep. Lateefah Simon, Nancy Pelosi, Oakland Mayor Barbara Lee and the Alameda Labor Council. The Committee for Affordable Bay Area Transit, launched by the Contra Costa Taxpayers Association, opposes it, arguing agencies should reallocate money and cut costs first. I found no independent public poll. One opposition website cites a 48% figure without naming the pollster.",
+        "For Fremont, the practical stakes are the Warm Springs station and AC Transit service. Nothing is final until agencies vote on cuts after the election."
+      ],
+      "flag": "No independent poll was found; the one poll figure comes from an opposition campaign site. Station closure lists were options, not decisions.",
+      "blindspot": "Coverage found came from center and left-leaning outlets; no right-leaning outlet coverage turned up, so the opposition case comes mainly through KQED's reporting.",
+      "facts": [
+        "Measure RTM is a 14-year sales tax: 0.5% in four counties, 1% in San Francisco (KQED).",
+        "It would raise about $1 billion a year for regional transit operators (KQED).",
+        "BART contingency plans floated closing 10 to 15 stations if it fails (SF Chronicle).",
+        "A failure could double Bay Bridge delays, per a report cited by KQED.",
+        "The vote is Nov. 3."
+      ],
+      "left": "Supporters say transit is the backbone of the region's climate goals and its workers' commutes, and that a no vote would trigger a death spiral of cuts, fare hikes and more traffic. They argue a regional sales tax spreads the cost widely and that agencies have already trimmed what they can. Labor groups and Democratic officials back it, and note that the alternative is station closures that hit lower-income riders first.",
+      "right": "Opponents say a sales tax is regressive, would push Alameda County residents toward an 11.25% rate, and rewards agencies that have not earned voters' trust. They argue BART and Muni should find savings, audit spending and restructure before asking for a billion dollars a year. Taxpayer associations in Alameda and Contra Costa counties wrote the ballot argument against it, per local reporting.",
+      "next": "Election night returns Nov. 3; BART and AC Transit boards would then decide whether to act on contingency plans.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/voterguide/california/regional-measure-rtm"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12100738/bay-bridge-traffic-delays-would-double-if-transit-tax-measures-fail-report-finds"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/regional-transit-measure-bay-area-22424231.php"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/10-bart-stations-could-close-doomsday-scenario-21335951.php"
+        ]
+      ]
+    },
+    {
+      "id": "prop40",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Prop. 40",
+      "title": "California's billionaire tax is a close call, and two rival measures could cancel it",
+      "summary": "Prop. 40 would levy a one-time 5% tax on billionaires, but Props. 41 or 42 void it if either gets more yes votes.",
+      "story": [
+        "Proposition 40 would impose a one-time 5% tax on the net worth of California residents worth more than $1 billion, with an exemption for pensions and retirement accounts, CalMatters and KQED report. The catch is the vote-count rule: if Prop. 40 and either Prop. 41 or Prop. 42 pass, the one with more yes votes becomes law. Prop. 41 targets the spending limit that Prop. 40 exempts its revenue from. Prop. 42 would bar retroactive taxes and new taxes on financial assets and personal property, and Gov. Newsom has endorsed it.",
+        "Polling is mixed. A September PPIC poll had Prop. 40 at 52% to 46%, with Prop. 42 at 54% and Prop. 41 at 51%, according to CalMatters. A UC Berkeley IGS poll from late September had Prop. 40 at 45% to 42% with 13% undecided, and Props. 41 and 42 at 37% and 43%, per the SF Chronicle. CalMatters and KQED both describe a close race with many undecided.",
+        "Google co-founder Sergey Brin has put $102 million into the campaign against the tax, including the two countermeasures, according to CalMatters. CNBC puts spending by the committee Building a Better California, which counts Brin as a top donor, at roughly $118 million, so totals vary by source. Sen. Bernie Sanders campaigned for the tax in San Francisco, KQED reported, while Newsom and some tech billionaires oppose it, splitting from the state Democratic Party and labor groups that back it.",
+        "Even a yes majority on Prop. 40 would not settle the question if a rival measure draws more votes."
+      ],
+      "blindspot": "Coverage found came from center and left-leaning outlets; no right-leaning outlet coverage turned up in my searches.",
+      "facts": [
+        "Prop. 40 is a one-time 5% tax on net worth above $1 billion (CalMatters, KQED).",
+        "If Props. 41 or 42 gets more yes votes than Prop. 40, the billionaire tax does not take effect (CalMatters).",
+        "PPIC had Prop. 40 at 52%-46%, and Berkeley IGS had it at 45%-42% (CalMatters, SF Chronicle).",
+        "Brin has given $102 million to opponents per CalMatters; CNBC cites about $118 million for the main committee.",
+        "Newsom backs Prop. 42 and opposes Prop. 40."
+      ],
+      "left": "Backers say a one-time levy on fortunes built in California is a modest way to ask the very wealthy to contribute, and that billionaires' political spending shows how much they fear it. They note the state party and labor groups endorse it and argue Props. 41 and 42 are poison pills written to nullify a tax voters may approve. Sanders and others frame it as basic fairness after years of rising inequality.",
+      "right": "Opponents argue a retroactive wealth tax invites capital flight, is hard to value and collect, and would damage the tax base that funds Sacramento's budget. They point to Newsom's own opposition and say Prop. 42's ban on retroactive taxes protects every Californian, not just the rich. They also argue that a one-time tax creates pressure to repeat it, and that a measure this complex deserves skepticism.",
+      "next": "Election night Nov. 3; the margins among Props. 40, 41 and 42 decide the outcome.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/california-billionaire-tax-explainer/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/forum/2010101915682/californias-billionaire-tax-and-the-efforts-to-nullify-it"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/prop-40-41-42-california-22476000.php"
+        ]
+      ]
+    },
+    {
+      "id": "israelvote",
+      "section": "world",
+      "motif": "globe",
+      "when": "Election day",
+      "title": "Israel votes today in an election that polls say could leave no bloc with a majority",
+      "summary": "Eisenkot's Yashar leads Likud in final polls, but neither bloc reaches 61 seats, and results may take weeks to turn into a government.",
+      "story": [
+        "Israelis voted Tuesday in what CNN calls the most important election in years, a referendum on Prime Minister Benjamin Netanyahu after the Oct. 7 attacks and the Iran war. The final polls, as summarized by Axios, NPR and others, show former military chief Gadi Eisenkot's new Yashar party as the largest, with 22 to 23 seats against Likud's 19. Netanyahu's bloc averages about 49.5 seats and the opposition about 54, short of the 61 needed in the 120-seat Knesset. Early turnout was strong, with 31.5% reported by midday.",
+        "Eisenkot has pledged not to sit in a government led by Netanyahu and promises a national inquiry into the Oct. 7 failures. Naftali Bennett's B'Yachad list, joined by Yair Lapid, is polling around 14 seats. Most opposition leaders have pledged not to govern with Arab parties, which complicates their math. NPR's election guide says results may take weeks or months to convert into a government.",
+        "Trump endorsed Netanyahu on Oct. 18, tying the vote to the Iran war and writing that \"If Israel has the wrong Leader, which would be anyone other than Bibi, America will have to do this work ourselves.\" Eisenkot replied that the election is a domestic Israeli issue. The Free Press frames the vote as a verdict on Netanyahu's 19 years leading Israel, and The Dispatch asks whether an opposition victory could repair U.S.-Israel ties.",
+        "The most likely outcome, the Free Press says, is a deadlock and possibly another round of elections."
+      ],
+      "facts": [
+        "Israelis vote Oct. 27 for a 120-seat Knesset; 61 seats are needed for a majority.",
+        "Final polls average about 54 seats for the opposition and 49.5 for Netanyahu's bloc.",
+        "Eisenkot's Yashar polls 22 to 23 seats against Likud's 19.",
+        "Trump endorsed Netanyahu on Oct. 18 (Axios).",
+        "Results may take weeks or months to produce a government (NPR)."
+      ],
+      "left": "Critics of Netanyahu say the vote is about accountability for Oct. 7 and for a government that tied itself to the far right. They welcome an opposition led by a former army chief and view Trump's endorsement as foreign interference that could backfire. Many progressives argue that the war's costs, in Gaza and in the region, should weigh on the result.",
+      "right": "Supporters of Netanyahu argue that he led Israel through its hardest war and that a weaker government would embolden Iran at a moment of maximum danger. They see Trump's endorsement as a reflection of a security alliance, and Some conservatives in the U.S. say that Netanyahu is the leader best placed to finish the Iran campaign, and the Dispatch notes the U.S. alliance is itself on the ballot.",
+      "next": "Exit polls and first results tonight; coalition talks follow, with the president's consultations coming next.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/eisenkot-netanyahu-israel-elections"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/former-israeli-army-chief-gadi-eisenkot-emerges-netanyahus-leading-election-challenger"
+        ],
+        [
+          "The Free Press",
+          "LR",
+          "https://www.thefp.com/p/election-day-in-israel-plus"
+        ],
+        [
+          "The Dispatch",
+          "LR",
+          "https://thedispatch.com/article/israel-election-netanyahu-us-relations/"
+        ]
+      ]
+    },
+    {
+      "id": "fedweek",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed decision",
+      "title": "Fed expected to hold at 3.75% to 4% Wednesday, with markets watching for a December hike signal",
+      "summary": "Futures put a hold near 90%, and the focus is on whether Chair Warsh points to another increase before year-end.",
+      "story": [
+        "The Federal Reserve ends its two-day meeting Wednesday at 2 p.m. Eastern, and CNBC reports fed funds futures put the chance of a hold at about 90%, with rates at 3.75% to 4%. The September meeting raised rates by a quarter point, the first hike since 2023. Bloomberg says Chair Kevin Warsh faces the task of reassuring investors that he is serious about inflation while explaining why officials did not hike this week.",
+        "CNBC reports consumer prices rose 3.7% in the year through September, and producer prices rose 6.3%. Warsh has avoided forward guidance, saying he will not divulge the committee's future moves. Sources differ on the odds of a December hike, with CNBC citing figures from roughly 70% to above 80% depending on the date and the tool. Goldman expects a second and final hike in December, contingent on inflation and energy prices.",
+        "The 10-year Treasury yield fell back toward 5% last week, CNBC reported, as investors sought cover from AI worries, and it stood at 4.98% in live.json's latest reading. The Washington Examiner's opinion writers argue the September hike came at the worst possible moment, with an energy shock from the Iran war doing much of the damage to prices that rates cannot fix, and that a further squeeze is unnecessary unless the shock spreads into wages and expectations.",
+        "The decision lands less than a week before the midterms, and the Washington Examiner has reported that Republicans see a pre-election hike as a political problem."
+      ],
+      "blindspot": "Coverage found came from center and right-leaning outlets; no left-leaning outlet coverage turned up in my searches.",
+      "facts": [
+        "The Fed decision is Wednesday, Oct. 28, at 2 p.m. Eastern (CNBC).",
+        "Futures price a hold at about 90% (CNBC).",
+        "The Fed raised rates to 3.75%-4% on Sept. 16, its first hike since 2023 (CNBC, Washington Examiner).",
+        "Consumer prices rose 3.7% in the year through September (CNBC).",
+        "The 10-year yield is 4.98% (live.json)."
+      ],
+      "left": "Critics on the left argue that hiking into an energy-price shock punishes workers and borrowers for a supply problem the Fed cannot fix, and that tighter credit will slow hiring just as AI-driven layoffs, like Microsoft's buyouts, spread. They say the Iran war, not wage growth, is driving prices, so the right policy response is to end the conflict and ease shipping bottlenecks rather than raise rates.",
+      "right": "Conservative economists argue that inflation near 4% is a tax on everyone and that Warsh is right to treat 2% as a fixed target. They say the Fed lost credibility by moving late and must prove it will act even when the politics are awkward. Others on the right, including Washington Examiner writers, warn the September hike may have come at the worst moment and want evidence that energy costs are spreading before the Fed tightens more.",
+      "next": "Warsh's statement and press conference Wednesday afternoon, then the December meeting.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-26/fed-meeting-focus-turns-to-warsh-messaging-with-december-in-mind"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/op-eds/4741193/fed-rate-hike-worst-possible-moment/"
+        ]
+      ]
+    },
+    {
+      "id": "earningsweek",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Earnings week",
+      "title": "Tech rally extends into the Fed and Big Tech earnings, with Alphabet and Microsoft due Wednesday",
+      "summary": "Stocks rose Monday as chip shares gained, and 163 S&P 500 companies report this week after Meta's weak results.",
+      "story": [
+        "Stocks rose Monday, with the S&P 500 up 0.70% to 7,676.77, the Nasdaq up 0.82% and the Dow up 0.28%, live.json shows. CNBC's live coverage said chip stocks gained for a second day and oil eased, and its Tuesday headline says tech's relief rally extends as attention turns to the Fed. Investors face a peak earnings week, with 163 S&P 500 companies reporting, CNBC says.",
+        "Alphabet and Microsoft report Wednesday after the close and Amazon follows Thursday. LSEG estimates cited by CNBC call for about 25% revenue growth at Alphabet and 16.8% revenue growth and 14.3% earnings growth at Microsoft. Alphabet shares are down about 10% from their high earlier this month in live.json's one-month history, and Meta's report last week set the mood: the stock fell nearly 7% on Oct. 22 after free cash flow turned negative at minus $2.12 billion, CNBC said, with capex guided to $135 billion to $145 billion.",
+        "Bloomberg reported that Meta also plans a new class of nonvoting stock to help finance its AI push. Bloomberg reports that Alphabet, Meta and Amazon have all seen free cash flow weaken as AI spending climbs, which is why the central question for this week is whether cloud revenue is growing fast enough to justify the build-out. Anthropic's IPO filing, which showed well over $150 billion in compute commitments to Google and Microsoft alone, added to that debate.",
+        "The Fed decision arrives the same afternoon as the Alphabet and Microsoft reports, so Wednesday could move markets twice."
+      ],
+      "facts": [
+        "S&P 500 closed Monday up 0.70% at 7,676.77; Nasdaq +0.82%; Dow +0.28% (live.json).",
+        "Alphabet and Microsoft report Wednesday, Oct. 28, after the close (live.json, CNBC).",
+        "Amazon reports Thursday, Oct. 29, after the close; Apple Nov. 2 (live.json).",
+        "Meta fell nearly 7% on Oct. 22 after free cash flow turned negative (CNBC).",
+        "163 S&P 500 companies report this week (CNBC)."
+      ],
+      "why": "Big Tech's capex and cloud growth set the pace for the AI trade, and your watchlist holds three of the names reporting Wednesday and Thursday. Alphabet and Microsoft also have direct ties to Anthropic's revenue and compute spending.",
+      "next": "Alphabet and Microsoft Wednesday after the close, Amazon Thursday, Apple Nov. 2.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/25/earnings-week-alphabet-microsoft-amazon.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/tech-rally-fed-decision.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-21/meta-boosts-bet-on-ai-with-new-spending-outlook-stock-offering"
+        ]
+      ]
+    },
+    {
+      "id": "teslaspacex",
+      "section": "stocks",
+      "motif": "rocket",
+      "when": "Tesla surge",
+      "title": "Tesla jumps 5% as Barclays bets on a SpaceX merger",
+      "summary": "Barclays upgraded Tesla to overweight and raised its target to $450, citing a heavily expected combination with SpaceX.",
+      "story": [
+        "Tesla rose 5.21% in Monday's session to $391.62, live.json shows, after Barclays analyst Dan Levy upgraded the stock to overweight from equal weight and raised his price target to $450 from $370, CNBC and Bloomberg reported. Levy wrote that a combination with SpaceX is heavily expected and should lift the stock. Barclays thinks a merger could be announced before Tesla's annual meeting, which it expects by Dec. 6. Tesla is still down more than 17% this year, CNBC noted.",
+        "Elon Musk called a merger a good idea after SpaceX's earnings last week, and said the boards of both companies formed special committees. He said he is a conflicted party and will not take part in talks, and noted that a Tesla vote would need 50% of all shares, a high hurdle. He owns 19.8% of Tesla. SpaceX is valued near $2 trillion and Tesla near $1.5 trillion, so SpaceX would be the acquirer in a stock swap, per CNBC.",
+        "Bloomberg reported that the share of sell ratings on Tesla fell to an 11-year low. William Blair analysts argued that the push is about control rather than strengthening either business. No deal has been announced, no timetable was given, and the transaction would need negotiations, shareholder votes and regulatory approvals.",
+        "Tesla also reported third-quarter results on Oct. 21, beating on earnings and sales even as auto revenue declined, according to CNBC."
+      ],
+      "flag": "No merger has been announced. The timing and deal terms are analyst expectations, not company statements.",
+      "facts": [
+        "Tesla closed up 5.21% at $391.62 (live.json).",
+        "Barclays raised its Tesla target to $450 from $370 (CNBC).",
+        "Musk says special committees at both companies are discussing a merger (CNBC).",
+        "SpaceX is valued near $2 trillion, Tesla near $1.5 trillion (CNBC).",
+        "Barclays expects any announcement before Tesla's annual meeting, by Dec. 6 at the latest (CNBC)."
+      ],
+      "why": "A SpaceX-Tesla combination would reshape two of the market's largest AI-linked stories. Tesla holders could get a premium, but they also face a control question and a shareholder vote.",
+      "next": "Any announcement from the special committees, and Tesla's annual meeting expected by Dec. 6.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/tesla-spacex-merger-barclays.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-26/tesla-spacex-merger-hopes-send-bearish-ratings-to-11-year-low"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html"
+        ]
+      ]
+    },
+    {
+      "id": "fusionchips",
+      "section": "engineering",
+      "motif": "atom",
+      "when": "Fusion funding",
+      "title": "Helion and Commonwealth Fusion win $260 million in CHIPS awards and give the government equity",
+      "summary": "Helion gets $175 million and CFS $85 million for fusion-ready semiconductors, and both give non-voting stakes in return.",
+      "story": [
+        "Helion and Commonwealth Fusion Systems (CFS) each won CHIPS Act awards from the Commerce Department, totaling $260 million, and each agreed to give the government a non-voting stake, TechCrunch reported. Helion's award is $175 million to develop semiconductors and power electronics for its reactors, and TechCrunch says that works out to roughly 1% based on Helion's Series G valuation of $15.5 billion. CFS's award is $85 million for radio-frequency power generators, radiation-hardened electronics and adapting AI hardware for power plants, and the size of its stake is not known.",
+        "Helion says the new chips could double the output of its power plants, TechCrunch reported Oct. 22. The awards are small next to private money, since CFS has raised about $4 billion and Helion has about $3.2 billion in committed capital. The deals follow other equity-for-funding arrangements, including MP Materials, which gave up a 15% stake alongside a $400 million investment and a $150 million loan.",
+        "TechCrunch's analysis says venture investors will have to weigh whether dilution from a government stake is worth the non-dilutive cash, and asks how cap tables would work in later down rounds or wind-downs. Helion CEO David Kirtley said the structure aligns Helion's and taxpayers' interests around commercial success. Not every fusion company has agreed to the terms. Thea Energy, Avalanche Energy, Pacific Fusion and Inertia Enterprises say they have not given the government equity.",
+        "The stakes could signal that federal support for fusion is returning, but TechCrunch notes they could just as easily chill private investment."
+      ],
+      "flag": "All the reporting found on this story came from TechCrunch; I could not find a second outlet.",
+      "facts": [
+        "Helion's award is $175 million and CFS's is $85 million, $260 million in total (TechCrunch).",
+        "Both companies give the government non-voting stakes (TechCrunch).",
+        "Helion's stake is roughly 1%, based on a $15.5 billion Series G valuation (TechCrunch).",
+        "CFS has raised about $4 billion and Helion has about $3.2 billion in committed capital (TechCrunch).",
+        "Thea Energy, Avalanche, Pacific Fusion and Inertia say they have not given equity (TechCrunch)."
+      ],
+      "why": "Fusion needs power electronics that survive radiation and heat, and the awards fund exactly that supply chain. The equity terms also show how the administration now prices federal help, which matters for any hardware startup that wants public money.",
+      "next": "Whether other fusion firms accept equity terms, and Helion's 2028 power-plant target.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/26/fusion-startups-are-giving-the-government-shares-in-exchange-for-awards-is-it-worth-it/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/"
+        ]
+      ]
+    },
+    {
+      "id": "iphoneduo",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "Foldable flaws",
+      "title": "Apple's foldable iPhone Duo draws early complaints of cracked inner screens",
+      "summary": "Apple says a small number of units have inner-display problems, and iFixit points to the hinge design as a possible cause.",
+      "story": [
+        "Customers say the inner display on Apple's first foldable, the iPhone Duo, cracked within hours or days, Bloomberg, TechCrunch and CNBC reported Monday. Some heard a crunch when unfolding the phone, then saw a crack along the center crease. Others reported a white patch on the right side of the screen. Apple told CNBC it is aware of an issue affecting the inner display on a small number of iPhone Duo units and is replacing affected devices.",
+        "Out-of-warranty inner-screen repairs cost $999, according to Apple's site as cited by CNBC. iFixit's teardown theorized that the failures may trace to Apple's hinge design, and its CEO noted that a manufacturing variance or a grain of sand can destroy the fragile panel underneath. Foldable screens have broken since the first models in 2019, TechCrunch noted, and Apple had said it had cracked the code.",
+        "Most reports so far are anonymous social posts, and some circulating images are fake, so the failure rate is unclear. CNBC also reported that Apple is ramping iPhone Duo production, and Bloomberg's review called the screen stunning but the app experience uneven.",
+        "If the failures trace to a hinge tolerance, Apple would likely need a production change rather than a software fix."
+      ],
+      "flag": "The scale of the problem is unknown. Apple calls it a small number of units, and many online reports are anonymous.",
+      "facts": [
+        "Apple confirmed an inner-display issue on a small number of iPhone Duo units (CNBC).",
+        "Complaints include cracks along the crease and a white patch on the right side (Bloomberg).",
+        "Out-of-warranty inner-screen repair costs $999 (CNBC).",
+        "iFixit's teardown points to the hinge design as a possible cause (TechCrunch, Bloomberg).",
+        "Apple is ramping up production, per CNBC."
+      ],
+      "why": "The first generation of any foldable tests whether a hinge and flexible glass can survive daily use, and early failure rates decide whether people trust the form factor. Apple's reputation for polish is on the line.",
+      "next": "Apple's response on replacement rates, and its Nov. 2 earnings call for any comment on Duo demand.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-26/apple-s-foldable-iphone-duo-draws-early-complaints-of-the-screen-cracking"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/"
+        ]
+      ]
+    },
+    {
+      "id": "thwaites",
+      "section": "science",
+      "motif": "wave",
+      "when": "Sea level",
+      "title": "Study finds Thwaites Glacier could add about twice the sea-level rise earlier models projected",
+      "summary": "A model that includes seawater creeping beneath grounded ice projects up to 30 mm of sea-level rise by 2100.",
+      "story": [
+        "A study published Oct. 12 in Nature Communications finds that Antarctica's Thwaites Glacier could contribute roughly twice the sea-level rise earlier estimates suggested, NASA's Jet Propulsion Laboratory reported. The team, from JPL, UC Irvine and Dartmouth, modeled the glacier's grounding zone, the band where seawater slips several miles under ice that rests on bedrock. Most ice-sheet models treat that transition as a single line. The paper reports up to 30 plus or minus 6 mm of global mean sea-level rise by 2100.",
+        "With grounding zones included, the model matched about three decades of satellite observations of retreat four times more closely than models without them, according to JPL. The paper says the process could allow the glacier to unpin from a seabed ridge as early as 2038, even without extra climate warming. Earlier field work found tidally controlled grounding zones 2 to 6 km long, with seawater intrusions reaching about 6 km further inland at spring tide.",
+        "The result is a single model, and the headline doubling is a comparison with earlier projections rather than a fixed multiplier. A separate Science Advances paper using three ice-sheet models found Thwaites would not retreat further in this century under a different mechanism, marine ice cliff instability. The two studies test different physics, which is part of why Thwaites projections still vary widely.",
+        "For coastal planners, even a few extra centimeters matter, since sea-level rise compounds storm surge."
+      ],
+      "flag": "This is one model's projection, and independent replication has not been reported.",
+      "facts": [
+        "The study appeared Oct. 12 in Nature Communications (JPL, Nature).",
+        "It projects up to 30 ± 6 mm of sea-level rise from Thwaites by 2100 (Nature).",
+        "The model reproduced observed retreat four times more closely than models without grounding zones (JPL).",
+        "The paper says unpinning could begin as early as 2038 (Nature).",
+        "A separate Science Advances study found no extra 21st-century retreat from marine ice cliff instability (Science Advances)."
+      ],
+      "why": "Thwaites is often called the doomsday glacier because its collapse could raise seas substantially over centuries. Better physics in the models changes how fast cities need to plan for that, including low-lying Bay Area shoreline.",
+      "next": "Follow-up modeling from other groups and Antarctic field seasons starting in the austral summer.",
+      "src": [
+        [
+          "NASA JPL",
+          "C",
+          "https://www.jpl.nasa.gov/news/nasa-study-refines-projections-for-thwaites-glacier/"
+        ],
+        [
+          "Nature Communications",
+          "C",
+          "https://www.nature.com/articles/s41467-026-77976-1"
+        ],
+        [
+          "Science Advances",
+          "C",
+          "https://www.science.org/doi/10.1126/sciadv.ado7794"
+        ]
+      ]
+    },
+    {
+      "id": "swiftend",
+      "section": "science",
+      "motif": "satellite",
+      "when": "Swift ends",
+      "title": "NASA ends the Swift observatory's science mission as its orbit decays after a failed rescue",
+      "summary": "After 22 years, drag from a strong solar maximum pulled Swift below 275 km, and re-entry is expected within weeks.",
+      "story": [
+        "NASA announced Oct. 23 that it has ended the science mission of the Neil Gehrels Swift Observatory after the spacecraft sank to about 171 miles (275 km) on Oct. 20, NASA's mission blog and Space.com reported. At that altitude drag overwhelmed its ability to compensate and it entered safe mode. Operators then sent a command to prepare it for re-entry, which is expected within weeks. Swift's final observation was Oct. 20.",
+        "Swift launched in 2004 for a two-year primary mission and ran for more than two decades, catching gamma-ray bursts and flagging them for telescopes worldwide. NASA had expected it to stay up into the early 2030s, but a stronger-than-expected solar maximum swelled the atmosphere and increased drag. A privately built rescue vehicle, Katalyst Space's LINK, was meant to boost it to a higher orbit but began spinning out of control, and ground controllers could not bring it back, according to Science and Space.com.",
+        "NASA says Swift's archive will support discoveries for years and that it is looking at existing and commercial telescopes to cover rapid-response observations. Science magazine reported that NASA abandoned an orbit-boosting rescue mission.",
+        "The loss leaves a gap in fast-reaction astronomy, the work of catching short-lived events like neutron star mergers."
+      ],
+      "facts": [
+        "NASA announced the end of Swift's science mission on Oct. 23 (NASA).",
+        "Swift reached 275 km on Oct. 20 and entered safe mode (NASA, Space.com).",
+        "It launched in 2004 and operated for more than two decades (NASA).",
+        "A private rescue craft, Katalyst's LINK, spun out of control and failed (Space.com, Science).",
+        "Re-entry is expected within weeks (NASA)."
+      ],
+      "why": "Swift was the workhorse for catching gamma-ray bursts within seconds and pointing other telescopes at them. Losing it to a solar cycle that came in stronger than predicted shows how space weather can end missions early.",
+      "next": "Swift's re-entry in the coming weeks, and NASA's plan for rapid-response coverage.",
+      "src": [
+        [
+          "NASA Science",
+          "C",
+          "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/missions/nasa-ends-swift-space-telescope-mission-after-failed-rescue-attempt"
+        ],
+        [
+          "Science",
+          "C",
+          "https://www.science.org/content/article/nasa-abandons-orbit-boosting-rescue-mission-space-observatory"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "chip",
+      "thread": "anthropic-ipo",
+      "when": "Anthropic IPO",
+      "title": "Anthropic's IPO filing shows $16.3 billion in first-half revenue and an $80.7 billion net loss",
+      "summary": "The S-1 shows fast growth, huge compute commitments and heavy dependence on Amazon, Google and Microsoft.",
+      "story": [
+        "Anthropic publicly filed its S-1 on Monday and plans to list on Nasdaq under the ticker ANT, with Goldman Sachs and Morgan Stanley as lead underwriters, CNBC, TechCrunch and Bloomberg reported. Revenue was about $16.3 billion in the first half of 2026, compared with roughly $1.2 billion a year earlier. Net loss was $80.7 billion, of which $72.4 billion came from non-cash accounting charges tied to convertible debt, CNBC reported. Operating loss was $693 million for the half, and Axios said the filing shows a $974 million operating profit in the second quarter.",
+        "The filing says net revenue retention was about 900% at the end of the third quarter, and more than half of $100,000-plus customers use both the Claude platform and a first-party app, CNBC and TechCrunch reported. Nearly half of first-half revenue came through cloud marketplaces run by Amazon, Google and Microsoft, which are also investors and competitors, according to Bloomberg. Anthropic committed to at least $114.5 billion of compute from Google through July 2033, Bloomberg said, and at least $44.9 billion from Microsoft through May 2033, CNBC reported.",
+        "The risk factors warn that cloud partners increasingly see Anthropic as a competitor, and that the company may not sustain profitability. Reuters reported a target valuation around $2 trillion, against $965 billion at its May round. Axios argues that hyperscalers are the biggest winners because they earn on compute and on marketplace fees. CNBC notes severe jitters on Wall Street about whether AI revenue will cover trillions in infrastructure spending.",
+        "The filing arrives in a week when Alphabet, Microsoft and Amazon report earnings, which will show how the same spending looks from the other side."
+      ],
+      "flag": "Editor's note: Claude, which helps write this briefing, is made by Anthropic. The 2025 and valuation figures come from earlier Reuters reporting, not the filing.",
+      "facts": [
+        "Anthropic filed publicly on Oct. 26 and plans to list on Nasdaq as ANT (CNBC, TechCrunch).",
+        "First-half revenue was about $16.3 billion, up from roughly $1.2 billion (CNBC).",
+        "Net loss was $80.7 billion, with $72.4 billion from non-cash charges (CNBC).",
+        "Compute commitments include at least $114.5 billion to Google and $44.9 billion to Microsoft (Bloomberg, CNBC).",
+        "Nearly half of first-half revenue came through Amazon, Google and Microsoft marketplaces (Bloomberg)."
+      ],
+      "why": "This is the first public look at the economics of a frontier AI lab at scale: revenue is surging, but compute bills and cloud-partner dependence are enormous. How investors price it will set the tone for OpenAI and other AI listings.",
+      "next": "Roadshow and pricing details; Alphabet, Microsoft and Amazon earnings this week for read-throughs.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/graphics/2026-anthropic-ipo/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises"
+        ]
+      ]
+    },
+    {
+      "id": "msbuyouts",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Microsoft buyouts",
+      "title": "Microsoft offers voluntary buyouts to about 60,000 employees as AI costs climb",
+      "summary": "The offer covers roughly 27% of the workforce, and employees must decide in early December.",
+      "story": [
+        "Microsoft is offering voluntary buyouts to about 60,000 employees, CNBC, TechCrunch and Axios reported Monday. Chief people officer Amy Coleman announced it in a memo, according to CNBC. The offer goes to employees at vice president level and below on select teams in the U.S., Canada, India and the U.K. Bloomberg reports that Xbox, Windows, Copilot and Finance are among the participating divisions. CNBC puts the group at about 27% of Microsoft's 223,000 employees.",
+        "Employees must decide in early December, and those who accept leave Dec. 31, with terms similar to standard severance. Coleman's memo called it a new choice for people considering a future outside the company, and Microsoft said it is new for the company and that it will learn from it. Axios notes Microsoft laid off about 15,000 workers last year and cut another 4,800 jobs in July, and that this follows a smaller voluntary retirement program in April.",
+        "CNBC ties the offer to the cost of Microsoft's AI build-out, saying the company is trying to balance a costly infrastructure program with capital efficiency. Axios, citing the Seattle Times, describes it as a way to trim headcount without forced layoffs. I found no employee or analyst reaction in the coverage.",
+        "Microsoft reports earnings Wednesday after the close, where investors will look for how AI spending and headcount fit together."
+      ],
+      "facts": [
+        "The offer covers about 60,000 employees, or roughly 27% of the workforce (CNBC).",
+        "It applies to VP level and below on select teams in the U.S., Canada, India and the U.K. (CNBC).",
+        "Employees decide in early December, and departures take effect Dec. 31 (CNBC).",
+        "Microsoft laid off about 15,000 last year and cut 4,800 more in July (Axios).",
+        "Microsoft reports earnings Wednesday after the close (live.json)."
+      ],
+      "why": "The biggest software company is shrinking headcount while spending record amounts on AI infrastructure. That trade, fewer people and more compute, is the pattern many white-collar employers are watching.",
+      "next": "Microsoft earnings Wednesday after the close; early-December buyout decisions.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/local/seattle/2026/10/26/microsoft-voluntary-buyouts-ai-job-cuts-2026"
+        ]
+      ]
+    },
+    {
+      "id": "melanomavax",
+      "section": "health",
+      "motif": "dna",
+      "when": "Cancer vaccine",
+      "title": "Moderna and Merck's melanoma vaccine cuts recurrence or death by 42%, but Moderna's stock falls",
+      "summary": "Doctors call the late-stage result a major advance, while investors had hoped for more.",
+      "story": [
+        "Merck and Moderna reported Oct. 22 that their experimental mRNA vaccine, intismeran autogene, cut the risk of melanoma recurrence or death by 42% when added to Keytruda, compared with Keytruda alone, CNN, NPR and CNBC reported. It also cut the risk of distant spread or death by 38%, in a trial of about 1,100 patients. A separate analysis showed a 58% reduction in risk after the first six months.",
+        "Partial data leaked on social media before the full release, and Moderna shares dropped sharply, by as much as 25% according to CNBC and about 18% at the close according to CNN. Analysts said expectations were too high. RBC called the result clinically meaningful and likely to support approval but at the low end of investor hopes, and BMO blamed inflated expectations rather than a flaw in the therapy.",
+        "Oncologists told CNBC and NPR the result is a meaningful advance. The companies say it is too early to know if the treatment improves overall survival and aim to file for FDA approval and launch in 2027. The data are set to be presented at the ESMO meeting in Madrid.",
+        "The trial is ongoing, so survival data could change the picture."
+      ],
+      "facts": [
+        "The vaccine plus Keytruda cut melanoma recurrence or death by 42% (CNN, NPR).",
+        "Distant metastasis or death fell by 38% (CNBC).",
+        "Moderna fell as much as 25% and closed down about 18% on Oct. 22 (CNBC, CNN).",
+        "Overall survival data are not yet in (CNBC).",
+        "The companies aim to launch in 2027 (CNBC)."
+      ],
+      "why": "This is among the strongest late-stage evidence that personalized mRNA vaccines can work against solid tumors. The stock reaction is a reminder that clinical success and investor expectations are different things.",
+      "next": "Full data at ESMO in Madrid, and an FDA filing.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/26/nx-s1-6013568/mercks-melanoma-vaccine-trial-shows-reduced-recurrence-or-death-from-skin-cancer"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "OpenAI will sell its frontier models through Google Cloud's marketplace and its Gemini Agent and Antigravity tools, with general availability planned in the coming weeks (Axios).",
+    "U.S. measles cases passed 4,580 this year through Oct. 22, more than double all of 2025, and Pennsylvania's outbreak has 1,338 confirmed cases and five deaths (NPR).",
+    "Gov. Newsom is weighing whether to commute California's remaining death sentences in his final weeks in office (KQED).",
+    "Microsoft says AI agents behave like insider threats and introduced Guardian Agents to monitor them (TechCrunch)."
+  ]
+}
