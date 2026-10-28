@@ -1,0 +1,1287 @@
+{
+  "updatedAt": "2026-10-28T23:10:55Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, the Fed held rates at 3.75% to 4% today, but **two officials voted to hike** and futures point to a December increase (CNBC, CNN, Fox Business). Stocks closed higher, with the S&P 500 at 7,743.98, then earnings split the market after the bell: Microsoft rose about 4% on 48% Azure growth, while **Alphabet fell 9% to 10%** on negative free cash flow (CNBC). Oracle jumped about 11% earlier after capping outside financing at $20 billion (CNBC). In California, Judge Carter signaled he will appoint a special master on the DOJ's bid to set aside 20,000 mail ballots, after the Ninth Circuit dismissed the DOJ's emergency appeal 2-1 (KQED, The Hill, Fox News). With the election five days away, CNN's Poll of Polls has Democrats up about 9 points on the generic ballot, while Trump campaigned in Ohio and Texas (CNN, NBC News, Fox News). Reports that the U.S. told Gulf allies to expect strikes on Iran after Nov. 3 keep WTI crude near $102, and mediators are pressing Tehran for a deal (CNBC, Axios). In Israel, **neither bloc has 61 seats** and official results are due by Nov. 4 (Axios, NPR, Fox News). Locally, a Bay Area News Group poll has the regional transit tax at 48% yes and 34% no, and Prop 40 opponents have **outraised backers about three to one** (Mass Transit, CalMatters). On the engineering side, the Energy Department offered Constellation up to $5 billion to **squeeze 1.1 gigawatts from existing reactors** (TechCrunch, Bloomberg).",
+  "alerts": [
+    {
+      "text": "Alphabet fell roughly 9% to 10% after hours and Microsoft rose about 4%; Amazon reports Thursday after the close and Apple on Nov. 2.",
+      "level": "high",
+      "story": "earningsnight"
+    },
+    {
+      "text": "Judge Carter's ruling or special-master order on the 20,000 California ballots could come any day, and may push a final answer past Nov. 3.",
+      "level": "watch",
+      "story": "carterhearing"
+    },
+    {
+      "text": "A new Bay Area News Group poll has the regional transit tax at 48% yes, 34% no; BART and Muni warn of deep cuts if it fails on Nov. 3.",
+      "level": "watch",
+      "story": "transitpoll"
+    },
+    {
+      "text": "Futures put a December Fed hike at about 85%, which matters for mortgage rates and your tech holdings.",
+      "level": "info",
+      "story": "fedhold"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "fedhold",
+      "text": "Fed holds at 3.75% to 4% with two dissents for a hike; December looks live."
+    },
+    {
+      "story": "earningsnight",
+      "text": "Microsoft rises on Azure, Alphabet sinks on negative free cash flow after the bell."
+    },
+    {
+      "story": "carterhearing",
+      "text": "Carter signals a special master in the DOJ's bid to set aside 20,000 California ballots."
+    },
+    {
+      "story": "transitpoll",
+      "text": "Bay Area transit tax polls at 48% yes, short of a majority, five days out."
+    },
+    {
+      "story": "nuclearloan",
+      "text": "Energy Department offers Constellation up to $5 billion to add 1.1 GW from existing reactors."
+    }
+  ],
+  "stat": {
+    "label": "Azure revenue",
+    "value": "$33.2B",
+    "note": "Up 48%; the first time Microsoft disclosed Azure revenue in dollars (TechCrunch, CNBC)."
+  },
+  "markets": {
+    "asOf": "Wed Oct 28, 6:32 PM ET",
+    "wrap": "Stocks edged up as the Fed held rates and investors turned to earnings (CNBC, CNN). The S&P 500 rose 0.28%, the Dow 0.19% and the Nasdaq 0.27%, and the 10-year yield stood at 5.04%. **Oracle jumped about 11%** after reaffirming a $225 billion fiscal 2030 revenue target and capping outside financing (CNBC). After the close, Microsoft rose about 4% and Alphabet fell 9% or more, so **Thursday opens on a split in AI spending** (CNBC, Bloomberg). WTI crude ended near $102 as Gulf strike reports kept supply fears alive (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,743.98",
+        "raw": 7743.98,
+        "change": "+0.28%",
+        "dir": "up",
+        "time": 1793222322,
+        "spark": [
+          7670.84,
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,475.10",
+        "raw": 52475.1,
+        "change": "+0.19%",
+        "dir": "up",
+        "time": 1793222332,
+        "spark": [
+          51349.92,
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,549.85",
+        "raw": 26549.852,
+        "change": "+0.27%",
+        "dir": "up",
+        "time": 1793222159,
+        "spark": [
+          26797.54,
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.04%",
+        "raw": 5.045,
+        "change": "+1.04%",
+        "dir": "up",
+        "time": 1793213995,
+        "spark": [
+          5.24,
+          5.26,
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$101.97",
+        "raw": 101.97,
+        "change": "-0.79%",
+        "dir": "down",
+        "time": 1793226771,
+        "spark": [
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          101.97
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$81,245",
+        "raw": 81244.55,
+        "change": "+0.55%",
+        "dir": "up",
+        "time": 1793227378,
+        "spark": [
+          83502.61,
+          83622.43,
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81244.55
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$215.38",
+        "raw": 215.38,
+        "change": "-1.17%",
+        "dir": "down",
+        "time": 1793217601,
+        "spark": [
+          227.21,
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$343.83",
+        "raw": 343.83,
+        "change": "-0.94%",
+        "dir": "down",
+        "time": 1793217601,
+        "spark": [
+          329.4,
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$531.01",
+        "raw": 531.01,
+        "change": "-0.06%",
+        "dir": "down",
+        "time": 1793217601,
+        "spark": [
+          508.96,
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01
+        ],
+        "note": "Flat in the regular session, then rose about 4% after hours on 48% Azure growth (CNBC)."
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$324.89",
+        "raw": 324.89,
+        "change": "+1.34%",
+        "dir": "up",
+        "time": 1793217601,
+        "spark": [
+          340.92,
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89
+        ],
+        "note": "Closed +1.34% in the regular session, then fell roughly 9% to 10% after hours on negative free cash flow (CNBC)."
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$404.22",
+        "raw": 404.22,
+        "change": "-0.80%",
+        "dir": "down",
+        "time": 1793217601,
+        "spark": [
+          352.84,
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$254.60",
+        "raw": 254.6,
+        "change": "+0.59%",
+        "dir": "up",
+        "time": 1793217601,
+        "spark": [
+          246.67,
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "MSFT",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "GOOGL",
+      "date": "2026-10-28",
+      "when": "after close"
+    },
+    {
+      "symbol": "AMZN",
+      "date": "2026-10-29",
+      "when": "after close"
+    },
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 68.3,
+      "feels": 63.1,
+      "hum": 40,
+      "wind": 8.1,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-10-27",
+        "hi": 66,
+        "lo": 50,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-28",
+        "hi": 69,
+        "lo": 46,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-29",
+        "hi": 70,
+        "lo": 51,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-10-30",
+        "hi": 69,
+        "lo": 49,
+        "cond": "cloudy",
+        "pop": 3
+      },
+      {
+        "date": "2026-10-31",
+        "hi": 65,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 25
+      },
+      {
+        "date": "2026-11-01",
+        "hi": 71,
+        "lo": 51,
+        "cond": "clear",
+        "pop": 15
+      },
+      {
+        "date": "2026-11-02",
+        "hi": 72,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 1
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "carterhearing",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "ca-voter-rolls",
+      "when": "Ballot case",
+      "title": "Judge Carter signals a special master, not a quick order, in the DOJ's bid to set aside 20,000 California ballots",
+      "summary": "After a skeptical hearing, Carter is expected to appoint a special master and tell federal officials to stop threatening county election workers.",
+      "story": [
+        "Federal Judge David Carter sounded skeptical at Tuesday's hearing of the Justice Department's request that California set aside about 20,000 mail ballots tied to voters federal agencies flagged as likely noncitizens. \"Some of these may be very valid voters, and that's my concern about disenfranchisement,\" he said, according to coverage summarized by KQED, Fox News and The Hill. He said he would rule by Wednesday but was likely to appoint a special master to weigh the evidence at a hearing about two weeks out. As of this edition I found no published ruling.",
+        "The case reached Carter on Oct. 21 after he took it over from a Trump appointee. Earlier this week a three-judge Ninth Circuit panel dismissed the DOJ's emergency appeal 2-1, finding it lacked jurisdiction because the district court had not yet ruled (The Hill, Fox News, CNN). California's election officials say ballots already processed cannot be separated from the others, and the state says the DHS data behind the list is more than a year old and can produce false positives. The U.S. attorney's office says its investigators determined all 20,000 people are not citizens.",
+        "Carter also suggested his order would tell federal authorities to stop warning election employees they could face criminal charges. \"This court believes it would be wise that any threats to state or county (election) employees cease immediately,\" he said. He added that if noncitizen voting is as widespread as claimed, prosecutors could find and charge those individuals without risking legal voters' ballots. One report noted his final ruling might not come until after Election Day on Nov. 3.",
+        "The practical effect is delay. A special master and a two-week evidentiary hearing would carry the dispute past Election Day, while the state's Dec. 3 deadline for voters to fix ballot problems sits in the background."
+      ],
+      "facts": [
+        "The DOJ wants California to set aside about 20,000 mail ballots tied to people on a federal 'likely noncitizen' list.",
+        "Judge David Carter took over the case on Oct. 21 and held a hearing on Tuesday, Oct. 27.",
+        "A Ninth Circuit panel dismissed the DOJ's emergency appeal 2-1 for lack of jurisdiction.",
+        "Carter said he would likely appoint a special master and hold a hearing in about two weeks.",
+        "California says processed ballots cannot be separated and the DHS data is more than a year old."
+      ],
+      "flag": "I found no published Carter ruling as of this edition. The count of 20,000 noncitizens is the DOJ's claim; California disputes the underlying data.",
+      "left": "The strongest progressive argument is that a ballot, once cast and processed, belongs to a voter whose eligibility the state has already checked. A federal list built on year-old data will include citizens. Setting aside ballots days before an election risks disenfranchising lawful voters with no way to cure the mistake in time. Threatening county clerks with prosecution adds pressure to a process that should run on state law, and Carter's skepticism reflects that.",
+      "right": "The strongest conservative argument is that only citizens may vote under federal law, and the DOJ says its investigators confirmed all 20,000 people are not citizens. California has resisted sharing complete voter data, so federal officials had little choice but to ask a court to act before the count. If even a fraction is accurate, counting those ballots dilutes lawful votes, and a special master is a reasonable way to test the evidence rather than assume the state's version.",
+      "next": "Carter's written order or special-master appointment, possibly this week; Election Day is Nov. 3 and the ballot-cure deadline is Dec. 3.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12106835/judge-says-trump-could-disenfranchise-voters-in-purge-of-noncitizens-from-election-rolls"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6173747-appeals-court-denies-emergency-election-stay/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/26/politics/california-mail-ballot-noncitizen-appeals-court-rejects"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/news/justice/4780657/appeals-court-doj-california-mail-ballots/"
+        ]
+      ]
+    },
+    {
+      "id": "finalweek",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Final week",
+      "title": "Democrats lead the generic ballot by about 9 points as Trump and Obama make closing pitches",
+      "summary": "Polls favor Democrats for the House and keep the Senate close, while Trump rallies in Texas and Ohio and Obama campaigns in Ohio and Michigan.",
+      "story": [
+        "With Election Day on Nov. 3, polls favor Democrats nationally. CNN's Poll of Polls puts them up about 9 points on the generic ballot, and NBC's tracker shows 52% to 43% for Democrats on control of Congress. A CNN poll has Trump's approval at a record-low 32%. The Senate is tighter. NBC rates five races as toss-ups, and Fox News's power rankings call the chamber a toss-up at 47 seats each, with Ohio's Senate and governor's races shifting to Lean Democratic in its latest poll.",
+        "Both parties are using their biggest names. Trump held rallies in Corpus Christi and Lubbock, Texas, with Senate nominee Ken Paxton on Tuesday and was in Chillicothe, Ohio, on Wednesday (Fox News, NBC News). Obama's first midterm rally, in Cleveland, described Trump as an agent of \"chaos and cruelty\" and pointed to tariffs and the Iran war as drivers of higher prices (NBC News). Fox News reports Trump also called on Democrat Mary Peltola to leave the Alaska Senate race over an alleged spoiler-candidate scheme; her campaign has denied involvement.",
+        "Republicans point to turnout. Fox News's own poll has Democrats ahead 54% to 45% overall, but only by six points among voters certain to vote. Redistricting has also reduced the number of competitive House seats, so a gain that once looked like a modest wave is now harder to reach, and Fox rates 19 House seats as toss-ups.",
+        "For Keanu in California, the Senate math runs through Texas, Michigan, Ohio, Georgia and Alaska, not the Bay Area, but House seats in the state still matter to the majority."
+      ],
+      "facts": [
+        "CNN's Poll of Polls shows Democrats ahead by about 9 points on the generic ballot.",
+        "NBC's tracker has Democrats at 52% and Republicans at 43% on control of Congress.",
+        "A CNN poll puts Trump's approval at a record-low 32%.",
+        "Fox News rates the Senate a toss-up and shifted Ohio's Senate and governor's races to Lean Democratic.",
+        "Trump rallied in Texas and Ohio this week; Obama rallied in Ohio and Michigan."
+      ],
+      "left": "The strongest progressive argument is that voters are judging the cost of living. Tariffs and the Iran war raised gas and grocery prices, and Moody's puts the war's cost at roughly $2,000 per household. Democrats say that record, plus Trump's record-low approval, explains why they lead nationally and are competitive in states Trump won by wide margins. They argue the choice is about affordability and accountability, not personalities.",
+      "right": "The strongest conservative argument is that generic-ballot leads overstate Democratic strength. Fox's polling shows the lead shrinking to six points among certain voters, redistricting limited the playing field, and Republicans have deep Senate candidates in Texas, Ohio and Michigan. Trump's rally schedule shows the GOP is defending a map it thinks it can hold. A thoughtful National Review writer would add that midterm electorates favor the party with enthusiastic voters, and Republicans say enthusiasm is closing.",
+      "next": "Election Day, Tuesday Nov. 3; watch the last Texas, Michigan and Ohio polls and early-vote totals.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/28/politics/polls-democrats-midterms-senate"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/28/politics/house-democrats-wave-election-2026"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/obama-trump-chaos-cruelty-midterm-election-pitch-acton-ramaswamy-rcna605223"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/midterm-elections-2026-trump-ohio-midterms-october-28"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6176403-sabatos-crystal-ball-shifts-democrats"
+        ]
+      ]
+    },
+    {
+      "id": "iranpost",
+      "section": "politics",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran war",
+      "title": "Mediators press Tehran for a deal as reports point to major U.S. strikes after Election Day",
+      "summary": "The U.S. reportedly told Gulf allies to expect a short, intense campaign after Nov. 3, and the IAEA says it cannot verify Iran's nuclear material.",
+      "story": [
+        "The United States has told Gulf Arab countries to prepare for a short but intense military campaign against Iran after the midterms, according to a Wall Street Journal report relayed by CNBC. Oil rose on the report. Axios reports mediators are telling Iran that accepting U.S. proposals may be the only way to avoid major attacks after Nov. 3. CNN reported on Oct. 26 that Trump had not decided but appeared to be leaning toward ordering major action. CNBC reported the war's cost reportedly reached $47 billion, and quoted Trump saying it ends \"when I want it to.\"",
+        "At the U.N. Security Council, IAEA Director General Rafael Grossi said the agency cannot verify whether Iran has diverted nuclear material. He cited about 440 kg of previously declared high-enriched uranium and said Iran has repeatedly refused access to the Isfahan enrichment plant (Fox News). Grossi has also said strikes alone will not end Iran's program and that the world will eventually return to negotiation (Fox News).",
+        "The economic cost is already visible. Moody's chief economist Mark Zandi estimates the war has cost U.S. consumers about $265 billion, roughly $2,000 per household (CNN). WTI crude closed near $102 a barrel on Wednesday. Reports describe an active maritime blockade in the Strait of Hormuz, Iranian mine detonations and a Houthi claim of a strike on Saudi Arabia's Ras Tanura refinery, which Saudi authorities had not confirmed.",
+        "Trump's public message is that the war will end on his terms. Fox News reports he has said the Iran strikes were among the greatest things he has done and that a deal must ensure Iran never gets a nuclear weapon."
+      ],
+      "flag": "The Wall Street Journal's reporting is secondhand here. The Houthi claim about Ras Tanura is unconfirmed by Saudi authorities, and the $47 billion cost is a reported figure.",
+      "facts": [
+        "The WSJ reports the U.S. told Gulf allies to prepare for a short, intense campaign after the midterms.",
+        "Axios reports mediators are urging Iran to accept U.S. proposals to avoid major attacks.",
+        "IAEA chief Grossi told the Security Council the agency cannot verify whether Iran diverted nuclear material.",
+        "Moody's estimates the war has cost U.S. households about $2,000 each.",
+        "WTI crude closed near $102 a barrel on Wednesday."
+      ],
+      "left": "The strongest progressive argument is that this war has no congressional authorization and no exit plan. Households are paying roughly $2,000 each in higher prices, and reported strike planning timed to the day after an election suggests politics is steering military decisions. Grossi himself says strikes will not end the program, so critics say more bombing risks another open-ended escalation while diplomacy that mediators describe as available goes unused.",
+      "right": "The strongest conservative argument is that deterrence lapsed and the nuclear threat is real. The IAEA cannot account for Iran's enriched uranium or inspect its enrichment sites, so pressure must be renewed until Tehran negotiates in good faith. Writers in this camp say the stockpile grew where deterrence was absent. They support resuming strikes if talks fail, and note that planning is not the same as a decision.",
+      "next": "Election Day, Nov. 3, then any U.S. order; watch Hormuz shipping, Gulf statements and the mediators' talks with Tehran.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/26/politics/us-iran-strike-plans-trump"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/us-iran-war-peace-talks-donald-trump-strait-hormuz-october-27"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/strikes-may-set-iran-back-likely-wont-end-nuclear-program-un-watchdog-chief-says"
+        ]
+      ]
+    },
+    {
+      "id": "transitpoll",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Transit tax",
+      "title": "New poll has the Bay Area regional transit tax at 48% yes, short of a majority, as BART and Muni warn of deep cuts",
+      "summary": "A Bay Area News Group poll finds 34% opposed and 18% undecided, five days before voters decide.",
+      "story": [
+        "A poll by Embold Research for Joint Venture Silicon Valley and the Bay Area News Group finds 48% of voters would back the regional transit measure, 34% would oppose it and 18% are undecided, Mass Transit magazine reports. The measure needs more than 50% to pass, so the result would fall short. Voters in five Bay Area counties decide on Nov. 3. The magazine notes the poll question left out the measure's stated benefits, such as fewer cuts and better reliability.",
+        "Other polls look better for backers. An earlier survey had 54% in favor and 46% opposed, and the measure's sponsors say support rose to 58% after voters learned the consequences of service cuts. A July poll reported by Streetsblog, an advocacy-linked outlet, found a path to victory. The differences likely reflect question wording and who commissioned each poll.",
+        "The agencies describe what is at stake. Forecasts cited by Mass Transit say Muni could cut service by 30% and cancel about 20 lines, and BART could cut around 70% of service and close 15 stations as early as January. BART has also said it faces a deficit of $350 million to $400 million a year beginning in fiscal 2027 (KQED, SF Chronicle). A group opposing the measure argues transit has not earned more money (KQED).",
+        "The reports I found do not say which BART stations would close, so Fremont's exposure is unclear."
+      ],
+      "facts": [
+        "The Bay Area News Group poll shows 48% yes, 34% no and 18% undecided.",
+        "The measure needs more than 50% support, per Mass Transit.",
+        "Muni says failure could mean a 30% service cut and about 20 canceled lines.",
+        "BART says failure could mean cuts of around 70% of service and 15 station closures as early as January.",
+        "Voters in five counties decide on Nov. 3."
+      ],
+      "flag": "Polls differ on wording and sponsor, so the 48% and 54% results are not directly comparable. I could not confirm which BART stations would close.",
+      "blindspot": "I found no right-leaning outlet covering this poll; the opposition's case appears only through KQED's reporting on the opposition group.",
+      "left": "The strongest progressive argument is that transit is basic infrastructure for workers who cannot afford to drive, and that cutting service would push riders into cars, raise emissions and deepen congestion. Supporters say the measure funds service and includes accountability reforms, and that the alternative is a death spiral of fewer trains, fewer riders and less revenue. They argue the poll question left out what voters actually get.",
+      "right": "The strongest conservative argument is that agencies should show they can spend money well before asking taxpayers for more. Opponents say BART and Muni have struggled with costs, safety and ridership, and they want efficiency reviews and audits first. They also warn that a new regional tax lands on households already paying high Bay Area costs, and that threats of drastic cuts are a negotiating tactic rather than a forecast.",
+      "next": "Election night, Tuesday Nov. 3; watch turnout in Alameda and Contra Costa counties.",
+      "src": [
+        [
+          "Mass Transit",
+          "C",
+          "https://www.masstransitmag.com/management/news/55410777/ca-voters-are-split-on-whether-or-not-to-save-bay-area-public-transit"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12090212/opposition-group-says-bay-area-transit-doesnt-deserve-more-money-this-november"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/regional-transit-measure-bay-area-22424231.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/voterguide/california/regional-measure-rtm"
+        ],
+        [
+          "Streetsblog California",
+          "C",
+          "https://cal.streetsblog.org/2026/07/29/new-poll-shows-bay-area-regional-transit-funding-measure-heading-towards-passage"
+        ]
+      ]
+    },
+    {
+      "id": "prop40money",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Prop 40",
+      "title": "Prop 40 opponents outspend backers about three to one as the billionaire tax trails in polls",
+      "summary": "CalMatters' voter guide counts $99.8 million raised against the tax and $31.7 million for it, and Newsom backs a rival measure.",
+      "story": [
+        "Opponents of Proposition 40, California's one-time billionaire tax, have raised far more than supporters. CalMatters' voter guide counted $99.8 million raised by committees opposing it and $31.7 million by committees supporting it. Another report put opponents' booked airtime and digital buys near $96 million against $209,000 for supporters. These figures come from different dates and measure different things. The PPIC poll covered in this morning's edition had the measure behind 46% to 52%.",
+        "Gov. Gavin Newsom opposes the measure and endorsed Proposition 42, one of two competing measures. Under the competing-measure rule, if Prop 40 passes but Prop 41 or 42 gets more votes, the billionaire tax is voided (CalMatters). The California Teachers Association and Planned Parenthood also oppose it, as do most Republicans. Sen. Bernie Sanders headlined rallies in support, and the campaign says it has raised $32.4 million.",
+        "Opponents argue the tax would drive wealthy residents out. Reagan adviser Art Laffer told Fox Business it would 'ruin California,' and a Washington Examiner column cites a National Bureau of Economic Research paper finding the one-time 5% levy would likely leave the state with less revenue. Fox News and others have quoted founders and investors threatening to leave. Those exit claims come from commentators and interested parties, not measured migration data.",
+        "The election is Nov. 3."
+      ],
+      "facts": [
+        "CalMatters' voter guide counted $99.8 million raised against Prop 40 and $31.7 million for it.",
+        "Newsom opposes Prop 40 and endorsed Prop 42, a competing measure.",
+        "If Prop 40 passes but Prop 41 or 42 gets more votes, the billionaire tax is voided.",
+        "A PPIC poll had Prop 40 behind 46% to 52%.",
+        "The election is Nov. 3."
+      ],
+      "flag": "Fundraising totals come from different dates and sources. Claims about wealthy residents leaving are from commentators and interested parties.",
+      "left": "The strongest progressive argument is that billionaires have escaped taxes that ordinary workers pay, and a one-time levy could fund health care and education without raising anyone else's taxes. Supporters like Sanders say the spending gap proves how much opponents fear the measure, and that billionaire money is buying the outcome. They say threats to leave are a bargaining chip.",
+      "right": "The strongest conservative argument is that California already depends on a narrow group of high earners, and a wealth tax on unrealized assets is hard to administer and easy to flee. A National Review or Dispatch writer would stress the NBER finding that revenue could fall, the risk of forced sales of founders' stock, and the fact that even Newsom and the teachers union oppose it. The state's budget swings, they say, argue against betting on a one-time windfall.",
+      "next": "Election night, Nov. 3; the vote totals for Props. 40, 41 and 42 decide which survives.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/prop-40-poll/"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/media/reagan-economist-warns-billionaire-tax-would-destroy-california"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/restoring-america/faith-freedom-self-reliance/4779911/california-proposition-40-wealth-tax-could-backfire/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12099825/california-billionaires-tax-has-a-slim-lead-in-new-poll-but-still-a-lot-of-work-to-do"
+        ]
+      ]
+    },
+    {
+      "id": "israeldeadlock",
+      "section": "world",
+      "motif": "scales",
+      "thread": "israel-election",
+      "when": "Israel vote",
+      "title": "Israel's count leaves neither bloc at 61 seats and sets up weeks of coalition talks",
+      "summary": "Netanyahu's bloc is at 53 to 54 seats, Eisenkot's at 47 to 48, and Arab parties hold a record 19.",
+      "story": [
+        "With most votes counted, Israel's Tuesday election is deadlocked. Reports put Netanyahu's bloc at 53 or 54 seats, down from the 68 it held in the outgoing Knesset, and Gadi Eisenkot's opposition bloc at 47 or 48. Arab-led parties are projected at a record 19 (Axios, CNN, NPR). Likud is still the largest party, at 26 to 27 seats, with Eisenkot's Yashar at 20 to 21. Roughly 430,000 to 500,000 double-envelope ballots remain, and final results are due by Nov. 4.",
+        "President Isaac Herzog plans to consult the parties next week before choosing a candidate to try to form a government, and he has seven days after official results to do so (Axios). If talks fail, new elections could come as early as April. Herzog has said the country must do everything possible to avoid another election.",
+        "Netanyahu is calling for what he described as a strong Jewish right-wing national government and has ruled out Arab parties. Eisenkot has said he cannot accept the conditions that Arab parties would likely set, which makes a path to 61 hard for him. A minority government with outside Arab support is possible but could collapse quickly, and opposition parties refuse to serve under Netanyahu in a unity deal. Fox News reports Trump said his endorsement of Netanyahu helped.",
+        "Seat totals remain provisional until the last envelopes are counted."
+      ],
+      "facts": [
+        "Netanyahu's bloc is at 53 to 54 seats, below the 61 needed for a majority.",
+        "Eisenkot's bloc is at 47 to 48 seats; Arab-led parties hold a record 19.",
+        "About 430,000 to 500,000 double-envelope ballots remain to be counted.",
+        "Official results are due by Nov. 4, and Herzog then has seven days to name a candidate.",
+        "New elections could come as early as April if coalition talks fail."
+      ],
+      "flag": "Seat counts differ slightly between outlets and will shift as the last ballots are counted.",
+      "left": "The strongest progressive argument is that the result is a rebuke of Netanyahu: his bloc lost about 15 seats from the outgoing Knesset and no longer commands a majority, even with the war and the Oct. 7 trauma shaping the vote. Critics say Eisenkot's challenge shows many Israelis want new leadership, and that any stable government should include Arab-led parties that hold about a sixth of the Knesset.",
+      "right": "The strongest conservative argument is that Netanyahu defied exit polls, kept Likud as the largest party and holds the larger bloc, while Eisenkot can reach 61 only with parties he says he cannot accept. Supporters say the right-wing bloc remains the only one with a coherent governing platform on security and Iran, and that Trump's endorsement helped hold the base.",
+      "next": "Final official results by Nov. 4, then Herzog's consultations and the first coalition mandate.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/28/israel-elections-netanyahu-eisenkot-results-deadlock"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/28/world/live-news/israel-election-result-live-latest-netanyahu-eisenkot-intl"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/netanyahu-defies-exit-polls-vote-shifts-his-favor-majority-remains-elusive"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/world/4782417/netanyahu-eisenkot-both-spin-election-victory-results/"
+        ]
+      ]
+    },
+    {
+      "id": "fedhold",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed decision",
+      "title": "Fed holds at 3.75% to 4% with two dissents for a hike, and December looks live",
+      "summary": "Governor Lisa Cook and Cleveland's Beth Hammack wanted a quarter-point increase; Warsh said politics played no role.",
+      "story": [
+        "The Federal Reserve left its benchmark rate at 3.75% to 4% on Wednesday, the Fed's last decision before the midterms. Two of the 12 voters, Governor Lisa Cook and Cleveland Fed President Beth Hammack, dissented in favor of a quarter-point hike (CNBC, CNN, Fox Business, Axios). Markets had priced less than a 10% chance of a hike, and stocks closed slightly higher. Futures put the odds of a December increase at about 85%, up from 78% a day earlier, CNBC and CNN reported, citing CME FedWatch. The next meeting is Dec. 9.",
+        "The Fed raised rates a quarter point in September, its first increase since 2023, in a 12-0 vote. In July it held with three dissents. Cook's vote stands out because CNBC says she had not dissented before. One economist suggested it could be a protest vote while the Trump administration pursues her removal; the Supreme Court blocked her firing for now in a 5-4 ruling on June 29, and CNBC reports the administration restarted the effort with a hearing set for early November.",
+        "At his press conference, Warsh said inflation has run above target for close to six years and that there is \"no soft inflation target and no implicit inflation target,\" only price stability defined as 2% PCE (Fox Business). Asked about politics, he said \"I don't believe it had any role in the decision\" (CNN). He also said \"I don't believe that we need to do harm to the labor markets to achieve our objective.\" CNBC reports he hinted the committee may lean toward a hike in December and said the Fed will hold fewer rate-setting meetings in future years.",
+        "Seema Shah of Principal Asset Management told Fox Business that \"AI may be booming, but the broader economy is not firing on all cylinders, and elevated geopolitical uncertainty argues against rushing another hike.\""
+      ],
+      "facts": [
+        "The Fed held its rate at 3.75% to 4%; two officials dissented in favor of a quarter-point hike.",
+        "Dissenters were Governor Lisa Cook and Cleveland Fed President Beth Hammack.",
+        "CME FedWatch put December hike odds at about 85%, up from 78%.",
+        "The Fed hiked in September for the first time since 2023, and the next meeting is Dec. 9.",
+        "Warsh said the target is 2% PCE inflation and politics played no role."
+      ],
+      "left": "The strongest progressive argument is that the inflation now hurting households came from an oil shock tied to the Iran war and tariffs, and rate hikes cannot lower the price of crude. Higher rates raise borrowing costs for homebuyers and small businesses and risk the labor market, as CNN notes. Critics add that the Fed is tightening into a slowing economy while a political fight over Cook's seat undercuts its credibility.",
+      "right": "The strongest conservative argument is that inflation has been above target for nearly six years, and that the two dissenters are right that waiting lets expectations drift. A thoughtful Dispatch or National Review writer would say Warsh is correct to reject any soft target, and that CNN's own analysis asks whether the Fed is repeating 2021's mistake of assuming inflation would fade. Strong growth, they add, gives the Fed room to tighten.",
+      "next": "The Fed's Dec. 9 meeting; watch Cook's removal hearing in early November and the next CPI report.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-october-28-2026"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/policy/finance-and-economy/4782688/fed-interest-rates-highly-anticipated-election-meeting/"
+        ]
+      ]
+    },
+    {
+      "id": "earningsnight",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Earnings night",
+      "title": "Microsoft jumps and Alphabet sinks after the bell, while Oracle rallies on a financing cap",
+      "summary": "Azure grew 48% to $33.2 billion, Alphabet posted negative free cash flow, and the S&P 500 closed at 7,743.98.",
+      "story": [
+        "Stocks edged higher Wednesday as the Fed held rates and earnings took over. The S&P 500 rose 0.28% to 7,743.98, the Dow gained 0.19% to 52,475.10 and the Nasdaq added 0.27% to 26,549.85 (CNBC). After the close the two largest reports split. Microsoft rose about 4% in extended trading after Azure grew 48% to $33.2 billion, the first time the company disclosed Azure revenue in dollars (CNBC, TechCrunch, Bloomberg). Alphabet fell roughly 9% to more than 10% after hours, depending on the report, after free cash flow turned negative at about $9.07 billion (CNBC).",
+        "Microsoft's revenue was $92.28 billion against $90.69 billion expected, and earnings per share were $4.89 against $4.73. Capital spending of $45.2 billion came in below the $50.7 billion analysts expected. CFO Amy Hood said \"some third-party capacity deliveries we expected in Q1 were delayed\" and guided to more than $50 billion next quarter. Neocloud stocks such as CoreWeave dropped on the lower capex (CNBC).",
+        "Alphabet's revenue of $127.58 billion missed LSEG's $128.22 billion, and earnings per share of $2.67 missed $3.02, its first top and bottom-line miss in nearly four years. It kept its 2026 capex forecast unchanged after raising it to $195 billion to $205 billion and said spending will increase significantly in 2027. Earlier, Oracle rose about 11% after reaffirming a $225 billion fiscal 2030 revenue target and limiting new outside funding to $20 billion over fiscal 2027 to 2030 (CNBC).",
+        "Meta said last week its cash flow turned negative for the first time, and CNBC notes Alphabet's result continues that pattern of AI spending outrunning cash generation."
+      ],
+      "flag": "Alphabet's after-hours drop is reported as about 9% by one CNBC piece and more than 10% by another. After-hours moves can change by Thursday's open.",
+      "facts": [
+        "Microsoft shares rose about 4% after hours on 48% Azure growth to $33.2 billion.",
+        "Alphabet fell about 9% to 10%+ after hours on negative free cash flow of about $9.07 billion.",
+        "Microsoft's capex was $45.2 billion against $50.7 billion expected, with delayed third-party capacity cited.",
+        "Alphabet kept its 2026 capex forecast and expects a significant increase in 2027.",
+        "Oracle rose about 11% after capping new outside funding at $20 billion through fiscal 2030."
+      ],
+      "why": "Two of your watchlist names reported and moved in opposite directions, so the AI-spending debate is now about cash, not just growth. Markets are rewarding companies that show revenue and cost discipline and punishing those that show spending without cash flow. Amazon reports Thursday after the close and could swing it again.",
+      "next": "Amazon reports Thursday, Oct. 29, after the close; Apple reports Nov. 2.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-reports-quarterly-cloud-sales-that-beat-estimates"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/28/oracle-forecast-growth-2030.html"
+        ]
+      ]
+    },
+    {
+      "id": "nuclearloan",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Nuclear uprates",
+      "title": "Energy Department offers Constellation up to $5 billion to squeeze about 1.1 GW from existing reactors",
+      "summary": "The conditional loan covers eight plants in Illinois, Maryland and Pennsylvania, with most new capacity already promised to Google, Amazon and Meta.",
+      "story": [
+        "The Energy Department is offering Constellation Energy a conditional loan commitment of up to $5 billion to upgrade reactors in Illinois, Maryland and Pennsylvania, TechCrunch and Bloomberg report. The department says the projects would add nearly 1.1 gigawatts of electricity. The loan is not finalized. Constellation said it could lower financing costs. The company had already committed more than $7 billion to add 1,080 megawatts for its customers, TechCrunch reports.",
+        "TechCrunch lists eight plants. Six are in Illinois (Braidwood, Byron, Clinton, Dresden, La Salle and Quad Cities), one in Maryland (Calvert Cliffs) and one in Pennsylvania (Limerick). Google is the confirmed buyer of additional power from the Pennsylvania plant and four Illinois plants, Amazon buys from Calvert Cliffs, and Meta takes the full output of Clinton. The projects are 'uprates,' meaning engineers extract more output from reactors that already exist, which is faster than building new ones.",
+        "This follows several data-center power deals this month. Google signed a 20-year power-purchase agreement tied to upgrades at 11 Constellation reactors, with power on the PJM grid as soon as 2028 (Bloomberg, CNBC). Amazon is funding a proposed 960-megawatt plant of 12 small modular reactors at a former coal site near Terre Haute, Indiana (TechCrunch). Blue Energy has applied to connect small reactors to Texas's ERCOT grid, which the grid operator calls its first such application (Bloomberg).",
+        "Taken together, the deals show AI power demand pulling nuclear financing forward."
+      ],
+      "flag": "The loan commitment is conditional and not final. The 1.1 GW Energy Department estimate is a separate number from the Google, Amazon and Meta deal sizes and should not be added to them.",
+      "facts": [
+        "The Energy Department offered Constellation a conditional loan commitment of up to $5 billion.",
+        "The upgrades would add nearly 1.1 gigawatts across plants in Illinois, Maryland and Pennsylvania.",
+        "Google, Amazon and Meta are the buyers of most of the new capacity.",
+        "Constellation had already committed more than $7 billion to add 1,080 MW.",
+        "Amazon separately plans 12 small modular reactors near Terre Haute, Indiana."
+      ],
+      "why": "Data centers need firm power now, and uprates are the fastest way to add it. The loan lowers Constellation's cost of capital, which matters as the Alphabet and Meta results show how expensive AI buildouts are. For California, where Bay Area cities are pausing data centers, the same demand is being met by nuclear in other states.",
+      "next": "Whether the Energy Department finalizes the loan; Google's PJM power is due as soon as 2028.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-27/us-offers-constellation-5-billion-in-financing-to-boost-nukes"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/06/google-constellation-energy-ceg-nuclear-power-data-center.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/"
+        ]
+      ]
+    },
+    {
+      "id": "romancommission",
+      "section": "engineering",
+      "motif": "satellite",
+      "when": "Roman telescope",
+      "title": "NASA's Roman Space Telescope nears the end of commissioning, with first public images targeted for early 2027",
+      "summary": "The 300-megapixel Wide Field Instrument has already returned engineering test images after the Aug. 30 Falcon Heavy launch.",
+      "story": [
+        "NASA's Nancy Grace Roman Space Telescope is in its commissioning phase, about two months after launching on a SpaceX Falcon Heavy on Aug. 30, Space.com and Sky & Telescope report. Engineers have already produced a test image from the Wide Field Instrument, a 300-megapixel camera, which captured its first photons of starlight. Commissioning is expected to take roughly three months, after which science operations begin. NASA's current target for the first public images is early 2027, with January 2027 cited.",
+        "The public 'First Look' observations are separate from the engineering checkouts. NASA plans about 12 to 24 hours of commissioning time for them and expects to prioritize three to five programs, releasing results after commissioning ends (NASA). One outlet said first high-resolution images could arrive before winter, which conflicts with the early-2027 target given by most sources.",
+        "After launch, Roman began a roughly million-mile journey to the Sun-Earth L2 point, where it operates (launch coverage).",
+        "Timing could shift if calibration or commissioning checks turn up problems."
+      ],
+      "flag": "The first-image date is a target, and one outlet gave an earlier date. The L2 destination comes from launch coverage.",
+      "facts": [
+        "Roman launched on Aug. 30, 2026, on a SpaceX Falcon Heavy.",
+        "Its Wide Field Instrument is a 300-megapixel camera that has already returned test images.",
+        "Commissioning is expected to last about three months.",
+        "NASA's target for first public images is early 2027, with January cited.",
+        "The mission is positioned near the Sun-Earth L2 point."
+      ],
+      "why": "Commissioning is the stage that shows whether the telescope's optics and 300-megapixel detectors work as designed. A clean checkout keeps the 2027 science schedule on track, and the First Look images will be the first public test of its performance.",
+      "next": "NASA's commissioning announcements and the First Look release, targeted for January 2027.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://space.com/news/live/nancy-grace-roman-telescope-live-updates-nasa-begins-spacecraft-commissioning-september-2026"
+        ],
+        [
+          "Sky & Telescope",
+          "C",
+          "https://skyandtelescope.org/astronomy-news/nasa-launches-nancy-grace-roman-space-telescope/"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/mission/roman-space-telescope/wfi-first-look-observations-overview-and-community-call"
+        ]
+      ]
+    },
+    {
+      "id": "archaeaculture",
+      "section": "science",
+      "motif": "dna",
+      "when": "Complex life",
+      "title": "Researchers culture two archaea from the lineage closest to eukaryotes, offering clues to how complex cells arose",
+      "summary": "Nature reports strains HC1 and SC1 are simple inside, rich in surface structures, and depend on microbial partners.",
+      "story": [
+        "A Nature paper by Imachi and colleagues reports the first lab isolates of archaea from Heimdallarchaeia, the lineage that branches closest to eukaryotes, according to the journal's News & Views, published Oct. 28. The two strains, HC1 and SC1, grow in a pure co-culture and in a tri-culture with methanogenic partners. They are strict anaerobes that live by breaking down peptides, thrive at moderate temperatures and depend on partner microbes, a lifestyle called syntrophy.",
+        "Under the microscope, the cells make protrusions and vesicles but lack persistent internal membrane structures. The authors title their work 'Eukaryotes' closest relatives are internally simple syntrophic peptidotrophic archaea,' which points to a simpler cell than some models predicted. The News & Views commentary frames the surface structures, partnerships and protein-based diet as clues to how eukaryotic cells arose.",
+        "The finding adds to a debate rather than closing it. A 2023 Nature paper placed eukaryotes inside Heimdallarchaeia as a sister to a proposed order called Hodarchaeales, while a 2025 Nature paper argued for a deep origin outside Heimdallarchaeia, within the wider Asgard group. Cultivating living cells lets researchers test genome-based predictions directly.",
+        "I read the abstracts and the commentary summary rather than the full paper."
+      ],
+      "flag": "I did not read the full paper. Which Asgard lineage is closest to eukaryotes remains disputed in the literature.",
+      "facts": [
+        "Two Heimdallarchaeia strains, HC1 and SC1, were isolated and grown in co-culture with methanogens.",
+        "They are strictly anaerobic, syntrophic, peptide-degrading and grow at moderate temperatures.",
+        "The cells make protrusions and vesicles but lack persistent internal membranes.",
+        "Nature published the paper and a News & Views commentary on Oct. 28, 2026.",
+        "Earlier Nature papers disagree on which Asgard lineage is the closest relative."
+      ],
+      "why": "Eukaryotes include plants, animals and fungi, and living archaeal relatives let scientists test how they arose. Cells that are simple inside but rich in surface structures and dependent on partners point to where researchers should look for the origin of complex cells. Cultures allow experiments that genomes alone cannot support.",
+      "next": "Replication by other labs and a full read of the Nature paper's methods; follow-up work on the strains' cell biology.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03294-7"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-026-11170-7"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-025-08955-7"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-023-06186-2"
+        ]
+      ]
+    },
+    {
+      "id": "flickerconscious",
+      "section": "science",
+      "motif": "atom",
+      "when": "Consciousness",
+      "title": "Macaque brain signals flicker about 15 times a second between what animals perceive and what they miss, a preprint reports",
+      "summary": "Doris Tsao's team says the same neurons alternate between conscious and suppressed content; the work is not yet peer reviewed.",
+      "story": [
+        "Neural activity in macaques alternates about 15 times per second between patterns tied to an image the animal consciously sees and patterns tied to an image in front of its eyes that it does not register, Nature's news team and Science report. The work comes from the lab of Doris Tsao at UC Berkeley and was posted as a bioRxiv preprint, so it has not been peer reviewed. Science describes the switching as occurring roughly every 60 milliseconds.",
+        "In the experiment, a flash-suppression setup showed one face to one eye and a different face to the other. From neural activity alone, researchers could reconstruct both the image the monkey consciously saw and the one that was present but unnoticed. Tsao called the rapid switching a \"pure signal of conscious perception.\" Science says it may explain why earlier monkey studies found little difference between seen and unseen images, because averaging over time blurred a fast alternation.",
+        "Not everyone is convinced. Shay Ben-Haim, who was not involved, said he is eager to see whether the findings hold up (Science). A different news report says the same switching appeared in face-selective areas and in prefrontal cortex and lists co-authors Frank Lanfranchi, Conor McGrory and Yuelin Shi; I could not check that against the preprint.",
+        "Tsao's 2020 eLife paper with Janis Hesse showed that macaque face patches encode both the physical stimulus and the animal's conscious percept without needing a verbal report."
+      ],
+      "flag": "This is a preprint. The 15-per-second figure and the prefrontal-cortex claim come from news reports; I could not access the preprint text.",
+      "facts": [
+        "Neural patterns in macaques alternate about 15 times per second between perceived and suppressed images.",
+        "The work is from Doris Tsao's lab at UC Berkeley and is a bioRxiv preprint.",
+        "Researchers reconstructed both the seen and unseen images from neural activity.",
+        "Science says the switching occurs roughly every 60 milliseconds.",
+        "An outside researcher, Shay Ben-Haim, wants to see whether the result holds up."
+      ],
+      "why": "If confirmed, the result suggests consciousness is not a steady state in a single brain region but a rapid rhythm of alternation within the same neurons. That would change how researchers look for its neural signature. It also warns against averaging over time when studying perception.",
+      "next": "Peer review and replication of the preprint; reactions from other consciousness researchers.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03384-6"
+        ],
+        [
+          "Science",
+          "C",
+          "https://www.science.org/content/article/flickering-signals-monkey-brains-hint-how-we-become-conscious-what-we-see"
+        ],
+        [
+          "eLife",
+          "C",
+          "https://elifesciences.org/articles/58360v1"
+        ]
+      ]
+    },
+    {
+      "id": "metabroadcom",
+      "section": "ai",
+      "motif": "chip",
+      "when": "AI financing",
+      "title": "Nvidia and AMD put $4 billion into Meta's $95 billion stock sale and deepen work on its Muse agent",
+      "summary": "Nvidia is investing $3 billion and AMD $1 billion, and Broadcom is also reported interested.",
+      "story": [
+        "Nvidia said Tuesday it will invest $3 billion in Meta's equity offering, and AMD said it will put in $1 billion, CNBC and Axios report. Meta announced Monday that it would raise $95 billion for AI infrastructure and superintelligence work, starting with $35 billion in underwritten public offerings and then $60 billion through an at-the-market program. Meta said Nvidia, AMD and Broadcom were interested in buying up to $5 billion of shares. Meta stock fell about 1.6% in morning trading after the announcement.",
+        "Nvidia tied its investment to a broader partnership: Meta will expand deployment of Nvidia's Vera Rubin and Vera CPU systems, and the companies will work more closely on Muse, Meta's AI agent platform (CNBC). Axios describes a multibillion-dollar Nvidia investment as close to table stakes for serious AI players because it also seeds future chip demand.",
+        "Analysts disagree on whether Muse will pay back. Baird expects it to consume capacity without near-term revenue through 2027. Citi estimates it could bring Meta $27 billion in revenue over several years, Jefferies modeled up to $10.8 billion in annualized subscription revenue, and Deutsche Bank kept a buy rating with an $820 target (CNBC). Separately, TechCrunch reports Meta launched an AI pet app called Waddle World in the Philippines, which it says may preview a Muse-powered device.",
+        "Today's Alphabet result shows why financing matters: both companies are spending more than they generate."
+      ],
+      "flag": "Outlets differ on the headline figure: Axios reports Nvidia's $3 billion, CNBC's headline uses the combined $4 billion with AMD.",
+      "facts": [
+        "Nvidia will invest $3 billion and AMD $1 billion in Meta's equity offering.",
+        "Meta plans $35 billion in underwritten offerings and $60 billion through an at-the-market program.",
+        "Meta will expand use of Nvidia's Vera Rubin and Vera CPU systems and work more on Muse.",
+        "Citi estimates Muse could add $27 billion in revenue; Baird expects no near-term revenue through 2027.",
+        "Meta launched an AI pet app, Waddle World, in the Philippines."
+      ],
+      "why": "AI labs and cloud companies now fund buildouts with equity sales and supplier investments, not just cash flow. Chipmakers investing in customers support their own demand, which raises questions about circular financing. If Muse earns revenue, the structure looks smart, and if not, the pressure moves to the suppliers.",
+      "next": "Pricing of the first $35 billion tranche and Meta's next earnings call; Nvidia reports Nov. 18.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/27/nvidia-meta-muse-investment"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicroadshow",
+      "section": "ai",
+      "motif": "scroll",
+      "thread": "anthropic-ipo",
+      "when": "Anthropic IPO",
+      "title": "Anthropic's IPO filing points to a pre-Thanksgiving listing, with valuation talk from $1.4 trillion to $2 trillion",
+      "summary": "Reports on timing, retail allocation and valuation vary, and investors remain split on the filing's losses and compute commitments.",
+      "story": [
+        "Anthropic filed for its initial public offering on Monday, Axios reports, and the filing suggests shares could begin trading before Thanksgiving, which is an inference, not a set date. CNBC says the company plans to list on Nasdaq under the ticker ANT after a roadshow that has yet to be scheduled. Bloomberg reports investors expect a fair valuation of $1.4 trillion to $1.75 trillion, while CNBC cites reports of $1.5 trillion to more than $2 trillion. Its last private valuation was $965 billion in May.",
+        "Bloomberg also reports Anthropic is considering offering 15% to 20% of IPO shares to retail investors through JPMorgan. The filing shows first-half revenue of about $16.3 billion and a net loss of $80.7 billion, of which $72.4 billion came from non-cash accounting for convertible debt (CNBC). Reports on compute commitments differ: Axios cites $637 billion in total, Bloomberg about $417 billion in new commitments since the end of 2025, and the WSJ up to $750 billion in additional potential spending.",
+        "Bulls cite growth, net revenue retention near 900% and an 85% gross margin; bears cite losses and fixed bills against pay-as-you-go revenue (CNBC, Axios). Axios notes the company held more than $130 billion in cash and short-term investments as of June 30.",
+        "As this edition's author is an Anthropic model, treat the framing with that in mind and rely on the cited outlets for the numbers."
+      ],
+      "flag": "Compute-commitment figures differ by outlet ($417 billion, $637 billion, $750 billion) and the SEC filing excerpt I saw left them blank. The IPO date is an inference. The author of this edition is an Anthropic model.",
+      "facts": [
+        "Anthropic filed for its IPO on Monday, Oct. 26, and plans to list on Nasdaq as ANT, according to CNBC.",
+        "Valuation estimates range from $1.4 trillion to more than $2 trillion; the last private round was $965 billion.",
+        "First-half revenue was about $16.3 billion, with an $80.7 billion net loss mostly from non-cash items.",
+        "Bloomberg reports 15% to 20% of shares may go to retail investors through JPMorgan.",
+        "Compute-commitment totals differ by outlet."
+      ],
+      "why": "This would be among the largest IPOs ever, and it will test how markets price AI companies with huge growth and huge spending. The filing's mix of non-cash losses and real compute commitments is why investors disagree. Retail access matters because individual investors may hold a large part of the float.",
+      "next": "Amended S-1 filings, roadshow dates and the reported pre-Thanksgiving listing window.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/anthropic-ipo"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/graphics/2026-anthropic-ipo/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/anthropic-ipo-filing-investor-reaction.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "CDC issued a new ranking of the most urgent drug-resistant germs and says resistant infections contribute to more than 50,000 U.S. deaths a year (NBC News).",
+    "Rep. Thomas Massie's Hegseth impeachment resolution is expected to get a House vote when members return after the November election (The Hill).",
+    "Bay Area layoff filings include PayPal (251 in San Jose, effective Oct. 30), Cisco (471), Oracle (441, effective Nov. 13) and Uber (137 in Sunnyvale, effective Nov. 2) (SF Chronicle).",
+    "NASA says Artemis III will fly in 2027 as a crewed Earth-orbit test with the commercial landers, with a lunar landing on Artemis IV in 2028; the summer 2027 date comes from secondary reports (NASA, Executive Gov).",
+    "Meta launched Waddle World, an AI virtual-pet app, in the Philippines; TechCrunch says it may preview a Muse-powered device.",
+    "Netflix plans 227 layoffs at its Los Gatos headquarters (SF Chronicle)."
+  ]
+}
