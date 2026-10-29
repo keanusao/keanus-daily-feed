@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-29T01:58:02Z",
+  "updatedAt": "2026-10-29T02:50:25Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 60.2,
-      "feels": 57.4,
-      "hum": 66,
-      "wind": 5.7,
+      "temp": 58.3,
+      "feels": 55.7,
+      "hum": 69,
+      "wind": 5.0,
       "cond": "cloudy"
     },
     "days": [
@@ -28,7 +28,7 @@
       {
         "date": "2026-10-29",
         "hi": 69,
-        "lo": 51,
+        "lo": 50,
         "cond": "cloudy",
         "pop": 2
       },
@@ -44,26 +44,26 @@
         "hi": 64,
         "lo": 55,
         "cond": "drizzle",
-        "pop": 25
+        "pop": 11
       },
       {
         "date": "2026-11-01",
         "hi": 70,
         "lo": 52,
         "cond": "clear",
-        "pop": 15
+        "pop": 7
       },
       {
         "date": "2026-11-02",
         "hi": 73,
         "lo": 54,
         "cond": "cloudy",
-        "pop": 1
+        "pop": 0
       }
     ]
   },
   "markets": {
-    "asOf": "Wed Oct 28, 9:48 PM ET",
+    "asOf": "Wed Oct 28, 10:40 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -201,11 +201,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$102.12",
-        "raw": 102.12,
-        "change": "-0.64%",
+        "price": "$101.78",
+        "raw": 101.78,
+        "change": "-0.97%",
         "dir": "down",
-        "time": 1793238480,
+        "time": 1793241619,
         "spark": [
           92.6,
           89.38,
@@ -229,17 +229,18 @@
           103.27,
           101.76,
           99.9,
-          102.12
+          102.78,
+          101.78
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$80,009",
-        "raw": 80009.02,
-        "change": "-1.54%",
+        "price": "$79,782",
+        "raw": 79781.99,
+        "change": "-1.82%",
         "dir": "down",
-        "time": 1793239081,
+        "time": 1793242222,
         "spark": [
           83622.43,
           83553.85,
@@ -270,7 +271,7 @@
           80024.01,
           80006.66,
           80805.08,
-          80009.02
+          79781.99
         ]
       }
     ],
