@@ -1,0 +1,1325 @@
+{
+  "updatedAt": "2026-10-30T13:09:49Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Amazon and Intel are sliding premarket**, with Amazon down about 7% after missing on revenue and earnings and Intel off about 25% on weak guidance, and Nasdaq futures are down more than 2% (CNBC, Bloomberg). Thursday's record Alphabet drop of 12.64% started the AI-spending reckoning (CNBC). The economy is not the problem, since Q3 GDP grew 3.4%, but September PCE inflation hit 3.6% and traders see about an 85% chance of a December Fed hike (Axios, CNBC, Fox Business). Five days before the midterms, **new CNN polls put Democrats ahead in Michigan and Texas**, and Decision Desk HQ gives them about an 80% shot at the House (CNN, The Hill). In California, Judge Carter rejected the DOJ's bid to set aside 20,000 ballots, the DOJ appealed, and **grand jury subpoenas reached election workers** (NPR, CalMatters, Fox News). Vice President Vance wrote to Iran's security chief, while Trump said post-election strikes are possible (Axios, Fox News). Prop 40 trails 46% to 52% in PPIC's poll, and **state workers and Newsom are in mediation today** (CalMatters, KQED). Israel's vote left neither bloc at 61 seats (NPR, CNN). On AI, **Anthropic's public S-1 targets a November IPO** at the ticker ANT (CNBC, Axios), and Meta's Muse Wonder and Google's Argon keep the frontier crowded (Axios, TechCrunch). Also worth a look is Form Energy's 100-hour iron-air battery (MIT Technology Review).",
+  "alerts": [
+    {
+      "text": "Amazon is down about 7% and Intel about 25% in premarket trading, and Nasdaq futures are off more than 2%.",
+      "level": "high",
+      "story": "amazonintel"
+    },
+    {
+      "text": "Prop 40 trails 46% to 52% in PPIC's poll, and California votes Tuesday, Nov. 3.",
+      "level": "watch",
+      "story": "prop40slips"
+    },
+    {
+      "text": "SEIU Local 1000 and the state meet in mediation today, Oct. 30.",
+      "level": "info",
+      "story": "statemediation2"
+    },
+    {
+      "text": "BART picked a team to build 643 homes, 176 of them affordable, on the Fremont station parking lots.",
+      "level": "info"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "amazonintel",
+      "text": "Amazon and Intel tumble premarket, pushing Nasdaq futures down more than 2%."
+    },
+    {
+      "story": "midtermsfinal",
+      "text": "New CNN polls show Democrats ahead in Michigan and Texas five days before the midterms."
+    },
+    {
+      "story": "ballotsubpoenas",
+      "text": "A judge rejected the DOJ's ballot request, and election workers got grand jury subpoenas."
+    },
+    {
+      "story": "anthropicsone",
+      "text": "Anthropic's public S-1 shows $16.3 billion in first-half revenue and a November IPO plan."
+    },
+    {
+      "story": "iranletter",
+      "text": "Vance wrote to Iran's security chief while the U.S. readies options for strikes after the election."
+    }
+  ],
+  "stat": {
+    "label": "Q3 GDP growth",
+    "value": "3.4%",
+    "note": "Annualized growth beat the roughly 3.1% to 3.2% forecast, while September PCE inflation reached 3.6% (Axios, CNBC)."
+  },
+  "markets": {
+    "asOf": "Fri Oct 30, 8:47 AM ET",
+    "wrap": "Nasdaq 100 futures fell 2.4% and S&P 500 futures about 1.1% early Friday after **Amazon and Intel fell sharply on earnings** (Bloomberg, CNBC). Amazon missed on revenue and earnings and held 2026 capex near $220 billion, and Intel guided fourth-quarter earnings to 25 cents against 43 cents expected (CNBC, Axios). The moves follow Alphabet's record 12.64% drop on Thursday, when the Nasdaq closed down 1.38% and the S&P 500 down 0.30% (CNBC, market data). With the Fed holding at 3.75% to 4% and traders pricing a December hike, **investors are punishing AI spending that outruns cash flow** (Axios, Fox Business).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,720.39",
+        "raw": 7720.39,
+        "change": "-0.30%",
+        "dir": "down",
+        "time": 1793305966,
+        "spark": [
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,342.56",
+        "raw": 52342.56,
+        "change": "-0.25%",
+        "dir": "down",
+        "time": 1793306031,
+        "spark": [
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "26,184.72",
+        "raw": 26184.725,
+        "change": "-1.38%",
+        "dir": "down",
+        "time": 1793308559,
+        "spark": [
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.94%",
+        "raw": 4.941,
+        "change": "-0.96%",
+        "dir": "down",
+        "time": 1793364124,
+        "spark": [
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.94
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$104.19",
+        "raw": 104.19,
+        "change": "+2.15%",
+        "dir": "up",
+        "time": 1793364429,
+        "spark": [
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.19
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$77,204",
+        "raw": 77203.78,
+        "change": "-0.76%",
+        "dir": "down",
+        "time": 1793365025,
+        "spark": [
+          83553.85,
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77203.78
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$213.66",
+        "raw": 213.66,
+        "change": "-0.80%",
+        "dir": "down",
+        "time": 1793304000,
+        "spark": [
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$348.91",
+        "raw": 348.91,
+        "change": "+1.48%",
+        "dir": "up",
+        "time": 1793304001,
+        "spark": [
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$530.14",
+        "raw": 530.14,
+        "change": "-0.16%",
+        "dir": "down",
+        "time": 1793304001,
+        "spark": [
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$283.82",
+        "raw": 283.82,
+        "change": "-12.64%",
+        "dir": "down",
+        "time": 1793304000,
+        "spark": [
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82
+        ],
+        "note": "Worst day on record after a double miss and negative free cash flow (CNBC)."
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$403.30",
+        "raw": 403.3,
+        "change": "-0.23%",
+        "dir": "down",
+        "time": 1793304000,
+        "spark": [
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$243.79",
+        "raw": 243.79,
+        "change": "-4.25%",
+        "dir": "down",
+        "time": 1793304001,
+        "spark": [
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79
+        ],
+        "note": "Down 4.25% ahead of results, then about 7% lower premarket Friday after missing on revenue and earnings (CNBC, Bloomberg)."
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-18",
+      "when": ""
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 54.5,
+      "feels": 51.5,
+      "hum": 58,
+      "wind": 1.3,
+      "cond": "partly"
+    },
+    "days": [
+      {
+        "date": "2026-10-29",
+        "hi": 70,
+        "lo": 49,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-10-30",
+        "hi": 68,
+        "lo": 52,
+        "cond": "drizzle",
+        "pop": 1
+      },
+      {
+        "date": "2026-10-31",
+        "hi": 64,
+        "lo": 48,
+        "cond": "cloudy",
+        "pop": 6
+      },
+      {
+        "date": "2026-11-01",
+        "hi": 64,
+        "lo": 54,
+        "cond": "rain",
+        "pop": 22
+      },
+      {
+        "date": "2026-11-02",
+        "hi": 67,
+        "lo": 53,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-03",
+        "hi": 69,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 7
+      },
+      {
+        "date": "2026-11-04",
+        "hi": 70,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 20
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "ballotsubpoenas",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "ca-voter-rolls",
+      "when": "Election week",
+      "title": "Judge rejects DOJ bid to set aside 20,000 California ballots, and subpoenas to election workers follow",
+      "summary": "Judge David Carter refused to make California segregate ballots tied to suspected noncitizens. The DOJ appealed, and grand jury subpoenas reached election staff.",
+      "story": [
+        "U.S. District Judge David Carter denied the Justice Department's emergency request on Wednesday, Oct. 28, to make California set aside mail ballots linked to about 20,000 voters that federal officials call likely noncitizens. He wrote that the request would \"wreak havoc and disrupt the election that is already underway\" (CNN, NPR). He also said the government's methodology raised reliability questions and that federal prosecutors can still pursue individual cases (CNN, NPR, Fox News). The DOJ appealed to the Ninth Circuit right away (CalMatters).",
+        "California officials say some names on the list are not on their rolls or are in suspended status, and a preliminary review found U.S.-born people on it (Fox News, CalMatters). A top federal prosecutor in California says investigators determined all 20,000 flagged people are not citizens (Fox News). That claim has not been independently verified in the coverage found. The Ninth Circuit had earlier dismissed an emergency DOJ request, 2-1, because Carter had not yet ruled (Washington Examiner).",
+        "On Thursday, at least four California election workers received federal grand jury subpoenas, at least one after Carter ordered the DOJ to stop threatening officials (CalMatters, NPR). Orange County's subpoena seeks unredacted records for about 60 people. Three Los Angeles employees were told to appear in Santa Ana on Nov. 4. DOJ spokesperson Kiersten Pels said receiving a subpoena does not make someone a target. Los Angeles County Registrar Dean Logan called the approach \"confrontational, adversarial\" (CalMatters).",
+        "The fight could still reach the Supreme Court, and it lands in the same week California counts ballots for Tuesday's election."
+      ],
+      "flag": "The DOJ's claim that all 20,000 people are noncitizens is disputed by state officials and not independently verified.",
+      "facts": [
+        "Carter ruled on Wednesday, Oct. 28, and denied the request to segregate about 20,000 ballots.",
+        "The DOJ appealed to the Ninth Circuit after the ruling.",
+        "At least four California election workers got federal grand jury subpoenas in the past week.",
+        "Three Los Angeles employees must appear in Santa Ana on Nov. 4.",
+        "Orange County's subpoena seeks unredacted voter records for about 60 people."
+      ],
+      "left": "Democrats and election officials say the DOJ is trying to disrupt a vote already underway on thin evidence. They point to Carter's finding that the list is unreliable, to U.S.-born people found on it, and to subpoenas served after a judge told prosecutors to stop threatening officials. They argue that states run elections, and that individual fraud cases are the proper route.",
+      "right": "Conservatives argue that counting ballots from people who are not citizens cannot be undone once those ballots are mixed in, so setting them aside costs little. They say California refused to cooperate with a legitimate federal request, as election-law expert Hans von Spakovsky has argued, and that DOJ prosecutors verified the names. In this view, a state that will not fix its rolls invites federal action.",
+      "next": "The Ninth Circuit is expected to rule on the new appeal, and Los Angeles election staff face the Nov. 4 grand jury date.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/10/28/politics/judge-denies-trump-bid-california-ballots"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/judge-rejects-doj-request-block-california-immediately-counting-ballots-linked-alleged-noncitizens"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/justice/4783689/judge-denies-doj-effort-isolate-california-mail-ballots/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/ca-election-officials-subpoenas/"
+        ]
+      ]
+    },
+    {
+      "id": "midtermsfinal",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Final stretch",
+      "title": "Democrats look strong for the House and competitive for the Senate five days before the midterms",
+      "summary": "New CNN polls show Democrats ahead in Michigan and Texas, and forecasters give them about an 80% shot at the House.",
+      "story": [
+        "With the election on Tuesday, Nov. 3, new CNN polls of likely voters show Democrat Abdul El-Sayed ahead of Republican Mike Rogers 49% to 42% in Michigan and Democrat James Talarico ahead of Republican Ken Paxton 49% to 43% in Texas. Kansas has Democrat Adam Hamilton at 49% and Republican Roger Marshall at 45%, and Maine is effectively tied between Susan Collins and Democrat Troy Jackson (CNN, The Hill). CNN found at least 1 in 8 likely voters in most of those states could still change their minds.",
+        "Democrats need a net gain of four seats to take the Senate from Republicans, who hold it 53-47. Decision Desk HQ gives Democrats about a 57% chance of Senate control and 80% for the House (The Hill). Fox News power rankings have Democrats favored in 48 Senate seats and Republicans in 47, with the vice president breaking ties for the GOP (Fox News). New NYT/Siena numbers show South Carolina tied at 48% each and Minnesota at 54% to 40% for Democrat Peggy Flanagan (as reported by The Hill).",
+        "Republicans have a money edge. Republican ad spending is outpacing Democratic spending in six of the seven Senate races the Times counts as toss-ups. Washington Examiner writers argue Republicans are helped by the redistricted House map and a favorable Senate map, and that polling in a volatile year deserves caution.",
+        "Even so, The Hill's analysis frames the likely result as a rebuke of Trump if the polls hold."
+      ],
+      "flag": "Many leads sit inside the margin of error, and outlets give different Senate odds.",
+      "facts": [
+        "Election Day is Tuesday, Nov. 3.",
+        "CNN's Michigan poll has El-Sayed 49%, Rogers 42%.",
+        "CNN's Texas poll has Talarico 49%, Paxton 43%.",
+        "Republicans hold the Senate 53-47; Democrats need a net gain of four.",
+        "Decision Desk HQ gives Democrats about an 80% chance at the House.",
+        "Fox News power rankings have Democrats favored in 48 seats and Republicans in 47."
+      ],
+      "left": "Democrats say voters are punishing the president over prices, the Iran war and what they see as federal pressure on elections. They read the Texas, Michigan and Kansas numbers as a sign that red-leaning states are in play. Their worry is turnout and the Republican spending advantage, not the message.",
+      "right": "Republicans argue the map and money favor them, and that polls have missed before. They say local issues and candidate quality decide close Senate races, and that undecided voters tend to break against the party that looks poised to win. A strong economy, they add, is not priced into the polls.",
+      "next": "Polls close Tuesday, Nov. 3. Watch early returns from Georgia, North Carolina and Texas for the Senate path.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6180606-democrats-lead-texas-michigan-polls/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/analysis/6179825-midterm-elections-trump-senate-house/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/fox-news-power-rankings-iran-looms-large-can-gop-keep-faithful"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/opinion/schoen-cooperman-democrats-riding-midterm-wave-numbers-terrify-gop"
+        ]
+      ]
+    },
+    {
+      "id": "iranletter",
+      "section": "politics",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran standoff",
+      "title": "Vance writes to Iran's security chief as U.S. forces prepare for possible strikes after the midterms",
+      "summary": "Vance told Iran any talks must cover its nuclear program, while Trump said \"anything's possible\" on post-election strikes.",
+      "story": [
+        "Qatari mediators delivered a letter from Vice President JD Vance to Mohsen Rezaei, secretary of Iran's Supreme National Security Council. Vance proposed restarting talks but said they must address Iran's nuclear program (Axios). The Wall Street Journal first reported the outreach. Trump told reporters the letter was about medical supplies, and the Washington Examiner quoted him saying he told Vance \"if you want to do that, that's OK.\" Iranian media confirmed Rezaei received it and said no reply had been sent as of Thursday (Fox News).",
+        "Asked late Tuesday if the U.S. might strike Iran after the Nov. 3 election, Trump said \"I can't tell you that... but anything's possible\" (Fox News). CNN reported on Oct. 26 that U.S. forces are ready to launch major operations within 96 hours of an order, with energy, military and nuclear targets on the list. Axios reported that the top U.S. Middle East commander briefed Trump on the naval blockade on Thursday.",
+        "The sides remain far apart. Iranian officials demand the U.S. lift the blockade, release frozen funds and allow oil sales before nuclear talks resume, and Rezaei has said \"not a single gram\" of enriched uranium will leave Iran. Washington says Iran must return to nuclear negotiations before getting sanctions relief (Axios, Fox News). A June memorandum that would have released frozen funds was never carried out (CNN).",
+        "A Washington Examiner opinion column attacked the outreach as a gift to an IRGC figure with American blood on his hands."
+      ],
+      "flag": "Trump's account of the letter (humanitarian aid) differs from the WSJ and Axios description (nuclear talks).",
+      "facts": [
+        "Vance's letter went to Mohsen Rezaei through Qatari mediators.",
+        "Iran had not replied as of Thursday, Oct. 29.",
+        "CNN reported strikes could begin within 96 hours of an order.",
+        "Iran demands the blockade end and frozen funds be released before talks.",
+        "Trump said post-election strikes are possible: \"anything's possible.\""
+      ],
+      "left": "Critics argue that threatening a major strike while writing letters sends mixed signals, and that the war has already pushed up oil to about $104 a barrel and strained households. They say a deal that trades sanctions relief for verified limits is the realistic way out, as the June memorandum showed. Many Democrats also question launching a bigger campaign without congressional approval.",
+      "right": "Conservatives argue Iran only negotiates under pressure, so the blockade and credible strike plans are the leverage that makes talks possible. They say sanctions relief before nuclear concessions rewards stalling. Some on the right, as the Washington Examiner column shows, also object to direct contact with hardliners such as Rezaei.",
+      "next": "Watch for an Iranian reply to Vance and any strike order after Tuesday's election.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/28/vance-iran-nuclear-talks-letter"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/29/brad-cooper-briefs-trump-iran-naval-blockade"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://cnn.com/2026/10/26/politics/us-iran-strike-plans-trump"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/us-iran-war-trump-speaks-strait-hormuz-10-28-26"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/white-house/4783651/trump-vance-peace-talks-iran-war/"
+        ]
+      ]
+    },
+    {
+      "id": "statemediation2",
+      "section": "local",
+      "motif": "scroll",
+      "thread": "ca-state-strike",
+      "when": "Mediation day",
+      "title": "California and its largest state worker union return to mediation after the first strike in 44 years",
+      "summary": "SEIU Local 1000 and the Newsom administration meet with a state mediator today over pay, health costs and the four-day office order.",
+      "story": [
+        "SEIU Local 1000, California's largest state employee union, and the Newsom administration resume mediation today, Oct. 30, nine days after thousands of members walked off the job for one day. It was the union's first strike in 44 years (CalMatters, KQED). The state Public Employment Relations Board appointed the mediator. The union wants higher pay, larger state contributions to health coverage and changes to the order that most state employees work in the office four days a week.",
+        "That order took effect in July after a one-year delay (CalMatters). Newsom vetoed AB 1729, a bill to loosen telework rules, last month. In late September the labor board found that the state's human resources department \"refused to meet and confer in good faith\" (CalMatters).",
+        "The state says it remains at the table and points to the union's refusal to move on return to office. The union says the administration rejected proposals without bargaining over them and has filed a complaint with the labor board (KQED, CalMatters).",
+        "Newsom leaves office in January, so the union is trying to settle before the next governor arrives."
+      ],
+      "blindspot": "Covered mainly by California public-affairs and left-leaning outlets; no right-leaning coverage found.",
+      "facts": [
+        "The one-day strike was Oct. 21, SEIU Local 1000's first in 44 years.",
+        "Mediation resumes today, Oct. 30.",
+        "Newsom's order requires most state employees in the office four days a week.",
+        "Newsom vetoed telework bill AB 1729 last month.",
+        "The labor board found in September that the state refused to bargain in good faith."
+      ],
+      "left": "Labor advocates say workers have gone years without a raise that matches rent and health costs, and that a four-day office order costs them commuting time and money. They argue the labor board's finding shows the state bargained in bad faith. For them, a strike was a last resort.",
+      "right": "Critics say a union striking while California faces budget pressure puts workers ahead of taxpayers. They support returning state workers to offices to serve the public and keep downtown Sacramento running. They also say pay and benefits should be weighed against a state deficit that Sacramento keeps papering over.",
+      "next": "Watch for a tentative deal or a second strike notice after today's session.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/economy/2026/10/state-worker-strike-local-1000/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12103583/californias-largest-public-sector-union-set-to-strike-later-this-month"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/seiu-local-1000-strike-authorization/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/09/newsom-veto-telework-bill/"
+        ]
+      ]
+    },
+    {
+      "id": "prop40slips",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Prop 40",
+      "title": "Prop 40 billionaire tax trails in two polls as opponents outspend backers more than six to one",
+      "summary": "PPIC has 46% for and 52% against, and Berkeley IGS has 42% for and 50% against, with Props 41 and 42 designed to cancel it.",
+      "story": [
+        "California's proposed billionaire tax, Prop 40, is losing ground with days to go. The latest PPIC survey of 1,086 likely voters has 46% in favor and 52% opposed, a drop from last month, when supporters had a slim majority. The Berkeley Institute of Governmental Studies finds 42% yes and 50% no (CalMatters, KQED). A Citrin-Politico poll had support at 46% and opposition at 43%. Props 41 and 42 were put on the ballot by billionaire-backed groups to cancel the tax.",
+        "If Prop 40 gets more votes than both, the tax takes effect. If either passes with more votes, it does not (CalMatters). Opponents have raised more than $205 million, including at least $102 million from Google co-founder Sergey Brin, while backers raised about $31 million, mostly from unions (CalMatters).",
+        "Gov. Gavin Newsom opposes the measure and backs a federal billionaire tax instead. So do the three leading governor candidates (CalMatters). Fox Business has covered Brin's move of entities out of California and his comparison of the tax to Soviet socialism. Critics also object that the tax reaches people who lived in California on Jan. 1, 2026, even if they left.",
+        "Whatever happens Tuesday, CalMatters notes the measure might not become law even if it passes."
+      ],
+      "flag": "Spending totals differ by outlet: Fox Business cited smaller Brin figures from earlier in the year than CalMatters' $102 million.",
+      "facts": [
+        "PPIC has Prop 40 at 46% yes and 52% no among likely voters.",
+        "Berkeley IGS has 42% yes and 50% no.",
+        "Opponents have raised over $205 million; backers about $31 million.",
+        "Props 41 and 42 would cancel the tax if they get more votes than Prop 40.",
+        "Election Day is Tuesday, Nov. 3."
+      ],
+      "left": "Supporters say a small group of billionaires is spending nine figures to avoid a tax that would fund health care, and that the spending gap shows why the tax is needed. They note Newsom and most of the Democratic establishment sided with the wealthy donors. The Democratic Party's own endorsement of the measure, they say, reflects voters' anger about inequality.",
+      "right": "Opponents argue the tax drives founders and capital out of state, which shrinks the revenue base Sacramento depends on. They call the retroactive reach unfair and say illiquid startup founders could owe huge sums on paper wealth. Garry Tan of Y Combinator said it would hurt startups. Even Newsom says it would be damaging.",
+      "next": "Voters decide Prop 40, 41 and 42 on Tuesday, Nov. 3.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/prop-40-poll/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/news/politics/article/top-democrats-join-the-wealthiest-in-fighting-a-22470045.php"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/google-co-founder-rips-california-billionaire-tax-i-fled-socialism"
+        ]
+      ]
+    },
+    {
+      "id": "israeldeadlock2",
+      "section": "world",
+      "motif": "globe",
+      "thread": "israel-election",
+      "when": "Coalition math",
+      "title": "Israel's vote leaves Netanyahu and Eisenkot short of 61 seats, with Arab parties holding the balance",
+      "summary": "Neither bloc reaches a majority, and Arab parties won a record number of seats but both sides resist relying on them.",
+      "story": [
+        "Israel's election produced a stalemate. Prime Minister Benjamin Netanyahu's bloc and the opposition led by Gadi Eisenkot both fell short of the 61 seats needed, and Arab parties won a record of about 19 seats (CNN, NPR, Axios). Counts shifted as votes came in, so exact tallies differ between outlets. Eisenkot cannot reach a majority without the Arab parties, though he ruled out bringing them into his government before the vote.",
+        "His allies Naftali Bennett and Avigdor Liberman oppose any government that depends on them, while Democrats leader Yair Golan urges working with them (Fox News, NPR). Netanyahu rejects any government relying on the Arab parties and calls them \"anti-Zionist.\" Likud alleged the election was \"stolen,\" a claim not established by investigators (Fox News).",
+        "Possible paths include a minority government backed from outside by Arab parties, a unity government, or a fresh election. Eisenkot could also try to win enough recommendations to persuade President Isaac Herzog to let him try first. Trump said his endorsement of Netanyahu \"helped\" (Fox News).",
+        "A former Israeli diplomat told NPR the opposition's refusal to work with Arab parties is reckless."
+      ],
+      "flag": "Seat counts varied between early reports and the final count, and the fraud claim is unverified.",
+      "facts": [
+        "Neither Netanyahu's bloc nor Eisenkot's bloc reached 61 seats.",
+        "Arab parties won a record of about 19 seats.",
+        "Netanyahu rejects any government that relies on Arab parties.",
+        "Bennett and Liberman oppose a government that depends on Arab parties.",
+        "Herzog decides who gets the first chance to form a government."
+      ],
+      "left": "Liberal commentators say Arab citizens are voters like any others, and refusing to count their seats hands Netanyahu a veto. They see Likud's \"stolen election\" claim as an attack on Arab voters. They argue a minority government with outside Arab support is a normal parliamentary solution.",
+      "right": "Conservatives note that Netanyahu's bloc remains the largest single faction and that most Israelis reject a government resting on parties that oppose Israel's Jewish character. Fox News highlighted allegations of Qatari interference. They say even the opposition's own partners refuse the Arab-party route, which shows how fragile Eisenkot's path is.",
+      "next": "Herzog's consultations with party leaders will decide who gets the first chance to form a government.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/28/middleeast/netanyahu-israel-election-intl"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/27/netanyahu-eisenkot-israel-election-exit-polls"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/28/nx-s1-6019328/israel-election-arab-parties-government"
+        ]
+      ]
+    },
+    {
+      "id": "gdpfed",
+      "section": "economy",
+      "motif": "chart",
+      "when": "Growth vs. prices",
+      "title": "Third-quarter GDP beats forecasts at 3.4% while PCE inflation hits 3.6% and the Fed holds",
+      "summary": "The economy grew faster than expected, inflation edged up, and traders see about an 85% chance of a December rate hike.",
+      "story": [
+        "The U.S. economy grew at a 3.4% annual rate in the third quarter, above the 3.1% to 3.2% economists expected, after 2.2% in the second quarter. Business investment rose almost 13% on AI equipment and consumer spending rose 3.8%, while trade subtracted 3.3 percentage points (Axios, CNBC). September PCE inflation, the Fed's favored gauge, reached 3.6% over the year, up from 3.4%. Core PCE rose from 3.0% to 3.1% (CNBC, Fox Business).",
+        "On Wednesday, Oct. 28, the Fed held its rate at 3.75% to 4% on a 10-2 vote. Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented in favor of a quarter-point hike, and it was Cook's first dissent since joining in 2022 (Axios, CNBC). It followed September's hike, the first since 2023. Chair Kevin Warsh said he does not believe in forward guidance without a crisis. Traders put the odds of a December hike at about 85% (Axios) or 82.6% (Fox Business), and Nomura's Rob Subbaraman said a 50-basis-point move could come into play (CNBC).",
+        "NPR notes the report landed days before the midterms, with a gap between the growth data and voters' frustration over living costs. Fox Business reported that Democrats call Trump a failure on inflation while the White House cites growth.",
+        "The next Fed meeting is Dec. 8-9."
+      ],
+      "facts": [
+        "Q3 GDP grew at a 3.4% annual rate.",
+        "September PCE inflation was 3.6% over the year.",
+        "The Fed held at 3.75% to 4% on a 10-2 vote on Oct. 28.",
+        "Cook and Hammack dissented in favor of a hike.",
+        "The next Fed meeting is Dec. 8-9."
+      ],
+      "left": "Democrats and many economists say the headline growth leans on AI investment while households feel inflation, tariffs and war-driven energy prices. They argue 3.6% inflation and an 80%-plus chance of another hike mean borrowing costs rise just as families struggle. They also defend the Fed's independence, noting the administration has restarted its effort to remove Cook.",
+      "right": "Conservatives point to strong output, 3.8% consumer spending and a record AI buildout as proof the economy works. They say inflation tied to energy and the Iran war is temporary and blame Biden-era spending for the base. Some on the right back the Fed's willingness to hike, while Trump allies want lower rates.",
+      "next": "Watch the October jobs and CPI reports in November and the Fed's Dec. 8-9 meeting.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/29/dp-q3-economy-energy"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/september-2026-pce-inflation"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/29/nx-s1-6021008/economy-gdp-inflation-midterms-voters-affordability"
+        ]
+      ]
+    },
+    {
+      "id": "amazonintel",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Premarket selloff",
+      "title": "Amazon and Intel tumble after earnings, pushing Nasdaq futures down more than 2%",
+      "summary": "Amazon fell about 7% and Intel about 25% in premarket trading on capex worries and weak guidance.",
+      "story": [
+        "Amazon shares fell about 7% and Intel about 25% in premarket trading Friday, with Nasdaq futures down more than 2% and S&P 500 futures down about 1.1% (CNBC, Bloomberg). Amazon missed on revenue and earnings for the third quarter. Revenue rose 12% to $201.9 billion, AWS sales rose 39% to $46.0 billion, and operating income was $28.1 billion (CNBC). Amazon kept its 2026 cash capex forecast near $220 billion, and trailing free cash flow was negative $42.4 billion (Axios).",
+        "AWS backlog grew to $578 billion from $496 billion, and CEO Andy Jassy said AWS can become a $1 trillion business, but first it will spend big (TechCrunch, Axios). Bloomberg said a soft holiday forecast and the revenue miss added to the selloff. Morgan Stanley's Brian Nowak called the AWS shortfall mostly an expectations miss and cut his price target to $335 from $350 (CNBC).",
+        "Intel fell about 21% in extended trading after forecasting fourth-quarter earnings of 25 cents on $15 billion to $16 billion of revenue, well below the 43 cents and $17.1 billion analysts expected. CEO Lip-Bu Tan said customers signaled a PC slowdown tied to memory prices and availability, and CFO David Zinsner expects it to last through the first half of next year (CNBC). Its data center and AI segment had its strongest growth in 15 years.",
+        "Alphabet fell 12.64% on Thursday, the day before, in its worst day on record. Together they put AI spending returns back at the center of the market."
+      ],
+      "facts": [
+        "Amazon was down about 7% premarket after missing on revenue and earnings.",
+        "Intel was down about 25% premarket after weak fourth-quarter guidance.",
+        "Nasdaq futures were down more than 2% early Friday.",
+        "Amazon kept 2026 cash capex near $220 billion.",
+        "AWS grew 39% to $46.0 billion, with a $578 billion backlog."
+      ],
+      "why": "Investors cheer AI revenue but now punish spending that outruns cash flow. Amazon, Alphabet and Meta have each reported negative free cash flow, so a growth beat no longer protects a stock.",
+      "next": "Apple reports Monday, Nov. 2 after the close, in John Ternus's first report as CEO; Nvidia reports Nov. 18.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/amazon-earnings-analysts-stock.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/29/amazon-stock-earnings-ai"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
+        ]
+      ]
+    },
+    {
+      "id": "capexpressure",
+      "section": "stocks",
+      "motif": "coins",
+      "when": "AI capex test",
+      "title": "Alphabet's record drop leads Big Tech into a reckoning over AI spending",
+      "summary": "Alphabet lost about $500 billion in value, while Microsoft and Meta show how differently investors treat the same spending.",
+      "story": [
+        "Alphabet fell 12.64% on Thursday, Oct. 29, to $283.82, its worst single day since its 2004 IPO, wiping out roughly $500 billion in market value (CNBC). It reported negative free cash flow of $9.07 billion for the third quarter against expectations of about negative $2.70 billion. It kept 2026 capex at $195 billion to $205 billion and said spending would rise significantly in 2027. Search and YouTube ad revenue missed, even as Google Cloud revenue more than doubled (CNBC).",
+        "Microsoft was treated differently. It beat on earnings and revenue with Azure growth of 48%, and it trimmed its capex forecast for the year to $170 billion from $175 billion, citing delays from third-party chip providers (CNBC). Meta fell nearly 7% last week after its free cash flow turned negative and it raised the low end of its capex range to $135 billion to $145 billion (CNBC). Jim Cramer argued that Microsoft is winning the AI spending battle and Alphabet is paying the price.",
+        "Live data show Nasdaq closed down 1.38% on Thursday and the S&P 500 down 0.30%. Hyperscaler capex is expected to top $1 trillion in 2027 according to CNBC reporting.",
+        "Fed hike odds and a 10-year Treasury yield near 4.94% add to the pressure on long-duration growth stocks."
+      ],
+      "facts": [
+        "Alphabet closed at $283.82, down 12.64%.",
+        "Alphabet's Q3 free cash flow was negative $9.07 billion.",
+        "Alphabet kept 2026 capex at $195 billion to $205 billion.",
+        "Microsoft's Azure grew 48%, and its capex forecast fell to $170 billion.",
+        "Meta's 2026 capex range is $135 billion to $145 billion."
+      ],
+      "why": "Investors have shifted from asking whether AI demand exists to asking who earns a return on the build. Cloud growth is strong, but companies burning cash for capacity face a lower multiple.",
+      "next": "Nvidia reports Nov. 18, and Big Tech 2027 capex guidance will keep driving the group.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/cramer-microsoft-alphabet-ai-spending.html"
+        ]
+      ],
+      "flag": "Microsoft's capex forecast cut to $170 billion from $175 billion comes from one CNBC report, and Alphabet's drop is cited as about 13% in some CNBC pieces and 12.64% in market data."
+    },
+    {
+      "id": "formenergy",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Grid storage",
+      "title": "Form Energy's iron-air batteries move from promise to production for 100-hour storage",
+      "summary": "The startup's \"reversible rusting\" cells store power for about 100 hours, but output is a small fraction of what it has promised.",
+      "story": [
+        "Form Energy makes grid batteries that store electricity for about 100 hours using iron and air. As a cell discharges, oxygen from air rusts iron pellets and releases electrons. Charging reverses the rust back to iron, a process the company calls \"reversible rusting\" (MIT Technology Review). Iron is cheap compared with lithium, cobalt and nickel, and Form has said it expects storage to ultimately cost about $20 per kilowatt-hour, which is a company projection.",
+        "The first commercial unit is going in at Great River Energy in Minnesota and is designed to hold 150 megawatt-hours over 100 hours. Form raised $750 million in August to expand its West Virginia factory, and TechCrunch reported Google paid the company about $1 billion for a 100-hour battery in a clean energy deal (TechCrunch).",
+        "Capacity is the limit. Form can make about 2 gigawatt-hours of batteries a year, against roughly 80 gigawatt-hours promised in commercial agreements. Skeptics said in 2024 that making iron-air cells at this scale and cost had never been done, and the coverage found shows no independent field data yet on 100-hour performance.",
+        "MIT Technology Review also notes US battery installations are on pace for 71 gigawatt-hours in 2026, up 20%."
+      ],
+      "flag": "Cost and 100-hour performance figures come from the company, not independent field data.",
+      "facts": [
+        "Form's batteries rust and un-rust iron to store energy for about 100 hours.",
+        "Its factory can make about 2 GWh a year, against about 80 GWh promised.",
+        "Form raised $750 million in August 2026.",
+        "The first unit, for Great River Energy in Minnesota, is 150 MWh over 100 hours.",
+        "TechCrunch reported Google paid Form about $1 billion for a 100-hour battery."
+      ],
+      "why": "Multi-day storage is the missing piece for grids that rely on solar and wind and now face AI-driven demand. Whether Form can scale will show if long-duration storage is a business or a lab result.",
+      "next": "Watch for performance data from the Minnesota unit and progress on the West Virginia factory expansion.",
+      "src": [
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/"
+        ]
+      ]
+    },
+    {
+      "id": "powerbottleneck",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "Data center power",
+      "title": "Turbine, transformer and steel shortages push AI data centers toward jet engines for power",
+      "summary": "Waits of up to seven years for turbines and years for transformers make bridging power from refurbished jet engines attractive.",
+      "story": [
+        "IEEE Spectrum reports that demand for gas turbines is so intense that new orders can wait up to seven years. Developers who cannot get turbines or grid connections are turning to refurbished jet engines for bridging power. ProEnergy's PE6000 turns used GE CF6-80C2 turbofan cores into 48-megawatt gas units, and the company says it sold 21 of them for two data center projects totaling more than 1 gigawatt (IEEE Spectrum).",
+        "The units are meant to supply power for five to seven years until grid interconnection arrives. A ProEnergy executive described permitting delays of eight to ten years in some cases, and the company says a PE6000 can ship in 2027. Conversion requires a larger turbine section, new controls, fuel nozzles for natural gas and a combustor that limits nitrogen oxides (IEEE Spectrum).",
+        "Other parts are scarce too. Spectrum, citing Wood Mackenzie, puts the wait for a new transformer near two years and for large power transformers up to four years. Grain-oriented electrical steel, used in most transformers, is made by only two EU steelmakers, Thyssenkrupp and Stalprodukt. Yttrium used in turbine blade coatings is also tight.",
+        "TechCrunch warns behind-the-meter gas plants could raise power prices and lock in gas use."
+      ],
+      "flag": "The jet-engine article appears to date from about a year ago, so ProEnergy's figures may have changed.",
+      "facts": [
+        "New gas turbine orders can wait up to seven years.",
+        "ProEnergy's PE6000 produces 48 megawatts from a CF6-80C2 core.",
+        "ProEnergy sold 21 turbines for two projects totaling over 1 GW.",
+        "New transformers wait near two years; large power transformers up to four years.",
+        "Only two EU steelmakers make grain-oriented electrical steel."
+      ],
+      "why": "The limit on AI growth is increasingly physical hardware and power, not chips. Hardware bottlenecks also tie directly to the capex worries hitting Big Tech stocks.",
+      "next": "Watch for ProEnergy's 2027 deliveries and whether utilities speed up interconnection approvals.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/ai-data-centers"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/transformer-shortage"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/transformer-shortage-europe-goes-steel"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/"
+        ]
+      ]
+    },
+    {
+      "id": "brownfat",
+      "section": "science",
+      "motif": "dna",
+      "when": "Nature study",
+      "title": "Active brown fat is linked to lower rates of diabetes, depression and anxiety in 100,000 patients",
+      "summary": "An AI analysis of PET scans in a Nature study finds people with active brown fat have fewer health problems, but it shows association only.",
+      "story": [
+        "A Nature study led by Paul Cohen of Rockefeller University used an AI model to measure active brown fat in scans from more than 100,000 patients treated at Memorial Sloan Kettering Cancer Center. People with active brown fat had fewer health problems, including type 2 diabetes, depression and anxiety (Nature). Brown fat burns calories to make heat, and cold exposure activates it. An earlier Nature Medicine study of 134,529 scans from 52,487 patients linked brown fat to a lower likelihood of type 2 diabetes, dyslipidaemia, coronary artery disease, heart failure and hypertension.",
+        "The new study adds the mental health signal and reports that small studies have tied cold exposure to better mood. Brown fat prevalence fell with SSRI use (Nature).",
+        "The scans were taken for cancer care, so the people are not typical, and the work is observational. Outside experts quoted by Nature say more work is needed to show brown fat causes the benefits. The paper also raises a hypothesis that a class of blood pressure drugs, ARBs, may lower diabetes risk partly through brown fat.",
+        "The AI method may let researchers study brown fat in other large scan archives."
+      ],
+      "flag": "The study shows association from cancer-patient scans, not that brown fat causes the benefits.",
+      "facts": [
+        "The study analyzed scans from more than 100,000 patients.",
+        "Active brown fat was linked to lower rates of type 2 diabetes, depression and anxiety.",
+        "An AI model measured brown fat from FDG-PET-CT scans.",
+        "Cold exposure activates brown fat.",
+        "The ARB-diabetes link is a hypothesis, not a demonstrated mechanism."
+      ],
+      "why": "If brown fat is protective, activating it could become a drug or lifestyle target. For now, the finding mostly tells researchers where to look.",
+      "next": "Watch for trials that activate brown fat with cold or drugs and track diabetes and mood outcomes.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03302-w"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-026-11162-7"
+        ]
+      ]
+    },
+    {
+      "id": "lsdmicro",
+      "section": "science",
+      "motif": "flask",
+      "when": "Meeting report",
+      "title": "Small study finds LSD microdoses speed attention in women only, but results are preliminary",
+      "summary": "A Maastricht team reported women reacted 8% faster after 15 micrograms of LSD, while men showed no such effect.",
+      "story": [
+        "Maastricht University psychopharmacologist Iva Totomanova and colleagues presented a placebo-controlled study on Oct. 12 at the ECNP Congress in Munich. Women who took 15 micrograms of LSD reacted 8% faster than placebo on a 10-minute sustained-attention test (Nature). The effect appeared only in women. The study was small, with 24 women and 24 men, and it was presented at a conference rather than published as a peer-reviewed paper. Its design was placebo-controlled.",
+        "An outside psychopharmacologist told Nature that the signal warrants further investigation.",
+        "Earlier placebo-controlled work has largely failed to show strong benefits from microdosing, possibly because people respond so differently. One trial found no effect except small changes toward cognitive impairment on most measures.",
+        "Nature's Daily Briefing described the result as tiny doses seeming to boost cognition, which overstates the evidence."
+      ],
+      "flag": "The sex-specific result comes from a conference presentation of a small, unpublished study and is unconfirmed.",
+      "facts": [
+        "The study was presented Oct. 12 at the ECNP Congress in Munich.",
+        "Women on 15 micrograms of LSD reacted 8% faster than placebo.",
+        "The study included 24 women and 24 men.",
+        "It has not been published in a peer-reviewed journal.",
+        "Earlier placebo-controlled microdosing trials were mostly negative."
+      ],
+      "why": "Microdosing claims run far ahead of controlled evidence. A sex difference is plausible but could also be noise in a small sample.",
+      "next": "Watch for the full paper and for replication in larger trials.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03265-y"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03374-8"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicsone",
+      "section": "ai",
+      "motif": "scroll",
+      "thread": "anthropic-ipo",
+      "when": "IPO filing",
+      "title": "Anthropic's public S-1 sets up a November IPO under the ticker ANT",
+      "summary": "The filing shows $16.3 billion in first-half revenue, lock-up dates and a warning about political targeting.",
+      "story": [
+        "Anthropic publicly filed its S-1 on Monday, Oct. 26, with a planned Nasdaq ticker of \"ANT.\" The filing shows nearly $16.3 billion in revenue in the first half of 2026 (CNBC). The Wall Street Journal, as cited by CNBC, reports the company is aiming to start trading the week of Nov. 16, which is later than the week of Nov. 9 that earlier coverage floated. One report puts the target valuation at $1.5 trillion to more than $2 trillion (CNBC).",
+        "Bloomberg reports Anthropic is considering offering 15% to 20% of shares to retail investors through JPMorgan. Insiders can sell on the first trading day, and lock-ups open 27, 48, 62 and 76 days after the IPO (CNBC). The S-1 left run-rate revenue blank and says \"We may not achieve or sustain profitability in the future.\"",
+        "Axios reports the filing warns the company could be \"disproportionately or selectively targeted\" because of its AI safety positions, a reference to its clashes with the Trump administration. TechCrunch reports the filing shows how Anthropic keeps enterprise customers, and that Amazon stands to make far more than venture investors from the offering.",
+        "Prediction markets treat a 2026 IPO as near-certain, according to CNBC."
+      ],
+      "flag": "Timing and valuation come from press reports, not the filing, and could change with the market.",
+      "facts": [
+        "The S-1 became public Oct. 26.",
+        "First-half 2026 revenue was nearly $16.3 billion.",
+        "The planned Nasdaq ticker is ANT.",
+        "Lock-ups open at 27, 48, 62 and 76 days after the IPO.",
+        "The WSJ reports trading could start the week of Nov. 16."
+      ],
+      "why": "A $1.5 trillion-plus listing would be among the largest ever and sets a public benchmark for AI labs. Yesterday's tech selloff makes the timing harder.",
+      "next": "Watch for a price range and roadshow launch, reportedly in mid-November.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/anthropic-ipo-filing-investor-reaction.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/anthropic-trump-ai-safety-ipo-risks"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html"
+        ]
+      ]
+    },
+    {
+      "id": "frontierrace",
+      "section": "ai",
+      "motif": "chip",
+      "when": "Frontier race",
+      "title": "Meta's Muse Wonder and Google's Gemini 4 Argon crowd the frontier as rivals dispute the benchmarks",
+      "summary": "Meta says Wonder matches Fable 5.1 and GPT-6 Astra, while Google is rolling out Argon only to security partners first.",
+      "story": [
+        "Meta unveiled Muse Wonder and Muse Wonder Full on Oct. 12. Its model card says they score comparably to Fable 5.1 and GPT-6 Astra on agent, memory and coding tasks, which are Meta's own tests. Wonder costs $4 per million input tokens and $20 per million output tokens, and Wonder Full is limited to Muse Code subscribers (Axios, TechCrunch). Meta has not said it will open-source Wonder. Its open-weight model is Muse Spark Open, an 816-billion-parameter mixture-of-experts model that is free to download with a commercial license.",
+        "On Oct. 15 Apple and Meta announced a partnership to run Muse on Macs (TechCrunch, CNBC).",
+        "Google launched Gemini 4 Argon on Sept. 30 in phases, starting with cybersecurity partners and enterprise cloud customers through its Fairwind program. Google says Argon ties for first in cybersecurity benchmarks and sets a record in real-world software engineering. One composite index places it behind Claude Opus 5.5 and Sonnet 5.5, and Bloomberg reported some Google staff found it lacking in internal tests, which Google called inaccurate (CNBC, TechCrunch). CEO Sundar Pichai says a newer Carbon version outperforms Argon on almost every domain.",
+        "Limited access means outsiders cannot yet verify the claims."
+      ],
+      "flag": "Benchmark claims are from the companies, and Google's Argon access is limited.",
+      "facts": [
+        "Meta released Muse Wonder on Oct. 12 at $4 and $20 per million tokens.",
+        "Muse Spark Open has 816 billion parameters and open weights.",
+        "Apple and Meta announced Muse on Macs on Oct. 15.",
+        "Google began Gemini 4 Argon rollout on Sept. 30 with security partners.",
+        "Pichai says Carbon outperforms Argon on almost every domain."
+      ],
+      "why": "Frontier capability is no longer held by two labs, which pushes prices down and strengthens the case for open weights. It also raises spending, the issue behind this week's stock moves.",
+      "next": "Watch for Argon's wider release and independent evaluations of Muse Wonder.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        ]
+      ]
+    },
+    {
+      "id": "measlesdeaths",
+      "section": "health",
+      "motif": "heart",
+      "when": "Measles",
+      "title": "U.S. measles cases pass 4,580 as Pennsylvania and the CDC dispute the death count",
+      "summary": "2026 cases are more than double last year's, and the CDC tally excludes some deaths Pennsylvania counts.",
+      "story": [
+        "The CDC reported more than 4,580 U.S. measles cases in 2026 as of Oct. 22, more than double the 2025 total. About 96% of cases with known status were unvaccinated or of unknown status (NPR). Pennsylvania is the hardest hit, with at least 1,338 confirmed cases in 44 counties, the largest outbreak in decades (NPR, NBC News). The state health department reports five measles-associated deaths, while the CDC dashboard lists three (CNN).",
+        "CNN reported that the CDC left two Pennsylvania deaths out of its tally on the order of its new director, Dr. Erica Schwartz, because available information did not establish that measles caused or contributed to them. Experts called that unusual.",
+        "HHS Secretary Robert F. Kennedy Jr. suggested the deaths may have been fabricated, and Gov. Josh Shapiro accused him of spreading vaccine misinformation. Kennedy denied directing a suppression and said the CDC will report deaths when the National Center for Health Statistics lists measles as the underlying cause (NBC News). The CDC sent an Epi-Aid team to Pennsylvania.",
+        "Early flu activity is also running ahead of last year, with 3.6% of tests positive in early October versus 0.6% (NPR)."
+      ],
+      "flag": "Death counts differ by source: NBC reports six in Pennsylvania, while CNN's Oct. 21 report says five, and the CDC lists fewer.",
+      "facts": [
+        "The CDC counted more than 4,580 measles cases as of Oct. 22.",
+        "Pennsylvania has at least 1,338 cases in 44 counties.",
+        "The state reports five deaths; the CDC dashboard lists three.",
+        "About 96% of 2026 cases were unvaccinated or unknown.",
+        "Early flu positivity is 3.6%, versus 0.6% a year ago."
+      ],
+      "why": "Disputed death counts weaken the data public health relies on, and falling vaccination rates keep outbreaks growing. Bay Area families should check measles and flu shots before the holidays.",
+      "next": "Watch the CDC's next weekly update and any resolution of the death-count dispute.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/10/21/health/measles-pennsylvania-undercount-cdc"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/health/health-news/cdc-measles-outbreak-pennsylvania-rkf-jr-rcna603665"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/health/health-news/measles-deaths-cdc-pennsylvania-standoff-rcna598565"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "BART's board picked Pacific Development and Affirmed Housing to build 643 homes, including 176 affordable, on about 12 acres of Fremont station parking lots. The developer hopes for approval in 2027 and construction in 2028 (SF Chronicle).",
+    "A Melania Trump-brokered local ceasefire in the occupied Ukrainian city of Oleshky is due to last through Saturday, while missile attacks continue in Kyiv and elsewhere (NPR).",
+    "Microsoft's Azure grew 48% in its latest quarter, and Meta fell nearly 7% last week after its free cash flow turned negative (CNBC)."
+  ]
+}
