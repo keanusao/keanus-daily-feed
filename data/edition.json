@@ -1,59 +1,58 @@
 {
-  "updatedAt": "2026-10-30T23:07:30Z",
-  "label": "Afternoon edition",
-  "summary": "Keanu, **Wall Street had its worst day since June**: the Nasdaq fell 2.86% to 25,437, the S&P 500 lost 1.82%, and Bloomberg puts the Nasdaq about 10% below its peak (CNBC, Bloomberg). Intel dropped about 29% on weak guidance, its worst day since the 1970s, while Amazon pared a deeper early loss to close down 1.4% (CNBC, Bloomberg). Binance says hackers took **$6.3 billion, the largest crypto theft on record**, and TRM Labs and Elliptic point to North Korea (TechCrunch, Axios). Four days before the midterms, Trump reversed himself and will hold in-person rallies in Iowa and Kansas on Sunday, while CNN polls show Democrats ahead in Michigan and Texas (The Hill, CNN). A report that Democratic operatives backed a second Dan Sullivan has **roiled the Alaska Senate race**, and Peltola's campaign denies it (NPR, Fox News, The Hill). On Iran, Treasury says the blockade has **crippled Iran's economy**, and Trump says Tehran wants to talk (Axios, Fox News). In California, Prop 40 trails 46% to 52% in PPIC's poll, and no outcome was reported from the state worker mediation (CalMatters, KQED). On AI, analysts are asking what **Anthropic's IPO filing leaves out**, including about $417 billion in compute commitments (CNBC). NASA's Swift telescope is **headed for re-entry** after a failed rescue (Nature, NASA).",
+  "updatedAt": "2026-10-31T13:06:29Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Wall Street had its worst day since June** on Friday, with the Nasdaq down 2.86% to 25,437 and Intel off about 29% on weak guidance (CNBC, Bloomberg). Three days before the midterms, Trump put his **Iowa and Kansas rallies back on** for Sunday, while CNN polls show Democrats ahead in Michigan and Texas (NBC News, The Hill, CNN). On Iran, Qatari mediators held marathon talks in Tehran and Treasury says the blockade has crippled the economy, though sequencing remains the sticking point (Axios, Fox News). Oil settled at $104.12 and Brent at $117.64 as the Fed held rates (CNBC). In California, **Prop 40 now trails 46% to 52%** in PPIC's poll, and Bay Area voters also decide Tuesday on a transit tax that BART, Caltrain and Muni say they need (CalMatters, KQED, SF Chronicle). Binance's record $6.3 billion theft has been tied to North Korea by TRM Labs and Chainalysis, though Binance has not confirmed it (TechCrunch, CNBC). Anthropic's IPO filing shows an $80.7 billion first-half loss, and **compute commitments** are reported anywhere from $417 billion to $750 billion (CNBC, Bloomberg, Axios). Apple reports Monday after the close.",
   "alerts": [
     {
-      "text": "The Nasdaq fell 2.86% Friday and sits about 10% below its peak, and Apple reports Monday, Nov. 2 after the close.",
+      "text": "Apple reports earnings Monday, Nov. 2, after the close, with the Nasdaq near correction territory.",
+      "level": "watch",
+      "story": "techselloff2"
+    },
+    {
+      "text": "Prop 40 and the Bay Area transit tax are on your ballot Tuesday, and Prop 40 now trails in the PPIC poll.",
       "level": "high",
-      "story": "techselloff"
+      "story": "prop40final"
     },
     {
-      "text": "Election Day is Tuesday, Nov. 3, and Trump now plans in-person rallies in Iowa and Kansas on Sunday.",
-      "level": "watch",
-      "story": "midtermsfinal"
-    },
-    {
-      "text": "Prop 40 trails in two polls, and Props 41 and 42 would cancel it if they get more votes.",
-      "level": "watch",
-      "story": "prop40slips"
-    },
-    {
-      "text": "NASA's Swift telescope could re-enter the atmosphere as soon as Nov. 2, according to some researchers.",
+      "text": "Binance's record hack is reshaping crypto; withdrawals are expected to resume within 48 hours.",
       "level": "info",
-      "story": "swiftend"
+      "story": "binancetrace"
+    },
+    {
+      "text": "Daylight saving time ends Sunday, Nov. 1, so clocks go back one hour.",
+      "level": "info"
     }
   ],
   "highlights": [
     {
-      "story": "techselloff",
-      "text": "The Nasdaq fell 2.86% as Intel plunged 29%, leaving the index near a correction."
+      "story": "midtermsrally",
+      "text": "Trump restores Iowa and Kansas rallies as CNN polls show Democrats ahead in Michigan and Texas."
     },
     {
-      "story": "midtermsfinal",
-      "text": "Trump reverses his rally cancellations while CNN polls show Democrats ahead in several Senate states."
+      "story": "techselloff2",
+      "text": "Nasdaq falls 2.86% and nears a correction as Intel plunges 29% and Amazon disappoints."
     },
     {
-      "story": "iranblockade",
-      "text": "Treasury says Iran has loaded no oil since Aug. 25, and Trump says Tehran wants to talk."
+      "story": "binancetrace",
+      "text": "Investigators tie the $6.3 billion Binance theft to North Korea, but the entry point is unclear."
     },
     {
-      "story": "anthropicquestions",
-      "text": "Analysts question Anthropic's S-1: slower growth, $417 billion in compute commitments and no price."
+      "story": "iranqatar",
+      "text": "Qatari mediators press for an Iran deal before the midterms while Treasury says the blockade is working."
     },
     {
-      "story": "binancehack",
-      "text": "Binance reports a record $6.3 billion theft traced to a compromised engineer's laptop."
+      "story": "anthropicipo",
+      "text": "Anthropic's IPO filing meets a skeptical market as compute commitments and losses draw scrutiny."
     }
   ],
   "stat": {
-    "label": "Nasdaq on Friday",
-    "value": "-2.86%",
-    "note": "Worst day since June, with the index about 10% below its peak (CNBC, Bloomberg)."
+    "label": "Brent crude, October gain",
+    "value": "+13.6%",
+    "note": "Brent settled at $117.64 on Friday; WTI rose 15.2% for the month (CNBC)"
   },
   "markets": {
     "asOf": "Fri Oct 30, 5:15 PM ET",
-    "wrap": "The Nasdaq fell 2.86% to 25,437 for its **worst day since June**, while the S&P 500 lost 1.82% and the Dow 1.09% (CNBC, market data). Intel's 29% plunge on weak guidance and Amazon's capex worries followed Alphabet's record drop on Thursday, so **investors are demanding proof that AI spending pays** (CNBC, Bloomberg). Nvidia fell 4.22% in the group selloff. The 10-year yield eased to 4.93% while WTI crude rose to $102.95 (market data). Bitcoin slipped to about $76,820 after Binance's $6.3 billion hack (Bloomberg, CNBC).",
+    "wrap": "The **Nasdaq fell 2.86% on Friday**, its worst day since June, as Intel plunged about 29% on weak guidance and Amazon's heavier spending revived doubts about AI returns (CNBC, Bloomberg). The S&P 500 lost 1.82% and the Dow 1.09%, while the 10-year yield eased to 4.93%. WTI crude rose 2.08% to $104.12 on Houthi attacks on Saudi Arabia and Hormuz tensions (CNBC). Every watchlist name fell, led by Nvidia at -4.22%. Bitcoin held near $77,400 despite the Binance hack (CNBC).",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -194,9 +193,9 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$102.95",
-        "raw": 102.95,
-        "change": "+0.93%",
+        "price": "$104.12",
+        "raw": 104.12,
+        "change": "+2.08%",
         "dir": "up",
         "time": 1793393999,
         "spark": [
@@ -222,17 +221,17 @@
           99.9,
           102.78,
           102.0,
-          102.95
+          104.12
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$76,820",
-        "raw": 76820.44,
-        "change": "-1.25%",
-        "dir": "down",
-        "time": 1793400107,
+        "price": "$77,400",
+        "raw": 77400.0,
+        "change": "+0.26%",
+        "dir": "up",
+        "time": 1793450978,
         "spark": [
           83553.85,
           84853.1,
@@ -264,7 +263,8 @@
           80805.08,
           81267.59,
           77775.11,
-          76809.43
+          77198.21,
+          77409.77
         ]
       }
     ],
@@ -302,7 +302,7 @@
           213.66,
           204.64
         ],
-        "note": "Fell with the AI-spending selloff that hit the Nasdaq on Friday (CNBC, Bloomberg)."
+        "note": "Chip and AI stocks sold off on doubts about AI spending returns (CNBC, Bloomberg)."
       },
       {
         "symbol": "AAPL",
@@ -492,20 +492,13 @@
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 68.2,
-      "feels": 65.7,
-      "hum": 51,
-      "wind": 5.5,
-      "cond": "clear"
+      "temp": 48.5,
+      "feels": 45.3,
+      "hum": 84,
+      "wind": 3.9,
+      "cond": "cloudy"
     },
     "days": [
-      {
-        "date": "2026-10-29",
-        "hi": 70,
-        "lo": 49,
-        "cond": "cloudy",
-        "pop": 0
-      },
       {
         "date": "2026-10-30",
         "hi": 68,
@@ -515,64 +508,79 @@
       },
       {
         "date": "2026-10-31",
-        "hi": 63,
-        "lo": 49,
+        "hi": 66,
+        "lo": 48,
         "cond": "cloudy",
-        "pop": 10
+        "pop": 3
       },
       {
         "date": "2026-11-01",
-        "hi": 63,
-        "lo": 48,
+        "hi": 62,
+        "lo": 49,
         "cond": "drizzle",
-        "pop": 27
+        "pop": 24
       },
       {
         "date": "2026-11-02",
-        "hi": 67,
-        "lo": 53,
+        "hi": 69,
+        "lo": 52,
         "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-11-03",
-        "hi": 69,
-        "lo": 54,
-        "cond": "cloudy",
-        "pop": 24
+        "hi": 65,
+        "lo": 55,
+        "cond": "drizzle",
+        "pop": 12
       },
       {
         "date": "2026-11-04",
-        "hi": 70,
-        "lo": 54,
+        "hi": 69,
+        "lo": 51,
         "cond": "cloudy",
         "pop": 6
+      },
+      {
+        "date": "2026-11-05",
+        "hi": 73,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 2
       }
     ]
   },
   "stories": [
     {
-      "id": "midtermsfinal",
+      "id": "midtermsrally",
       "section": "politics",
       "motif": "ballot",
-      "when": "Final stretch",
-      "title": "Trump reverses his rally cancellations as Democrats lead several Senate polls four days before the midterms",
-      "summary": "Trump will hold in-person rallies in Iowa and Kansas on Sunday after canceling them, while CNN polls show Democrats ahead in Michigan, Texas and Kansas.",
+      "thread": "midterms-2026",
+      "when": "Final weekend",
+      "title": "Trump revives Iowa and Kansas rallies as CNN polls show Democrats ahead in Michigan and Texas",
+      "summary": "After canceling and then restoring two red-state rallies, Trump will appear in Dubuque and Salina on Sunday while Senate polling tightens.",
       "story": [
-        "On Friday, Oct. 30, Trump said he will hold in-person rallies in Iowa and Kansas on Sunday, one day after the RNC and a White House official said the events were canceled in favor of tele-rallies (The Hill, CNN, NPR). Trump said friends in both states asked him to reconsider and that he would visit Iowa first, then Kansas, with another round of telephone rallies on Monday (The Hill). Officials had described the change as a scheduling rearrangement. CNN reported that Trump grew irked over coverage of the cancellations before ordering the events back on.",
-        "The states are competitive. A CNN poll has Democrat Adam Hamilton ahead of Sen. Roger Marshall 49% to 45% in Kansas, and the Cook Political Report rates both Kansas and Iowa as toss-ups. An Emerson College/The Hill poll has Iowa Rep. Ashley Hinson leading Democrat Josh Turek by 2 points (The Hill). CNN's other new polls show Democrat Abdul El-Sayed ahead of Mike Rogers 49% to 42% in Michigan and Democrat James Talarico ahead of Ken Paxton 49% to 43% in Texas (CNN).",
-        "Republicans say the polls understate them. Senate Majority Leader John Thune predicts the party will outperform the polls and keep its majority, though he concedes that Mississippi and South Carolina have shifted toward Democrats. NRSC chair Tim Scott says \"The momentum, frankly, is with us, not against us\" (Fox News). Fox News power rankings call Senate control a toss-up. The Washington Examiner reports that RealClearPolitics averages show Democrats leading in six of eight toss-up Senate races.",
-        "A CNN analysis says the range of outcomes for the Senate is enormous. Democrats could win one of the biggest popular-vote margins in decades and still fall short of a majority, because they need a net gain of four seats from a 53-47 deficit."
+        "Trump will hold in-person rallies on Sunday, Nov. 1, in Dubuque, Iowa, and Salina, Kansas, one day after his team canceled them, NBC News and The Hill reported. The RNC announced the change on Friday afternoon. Trump said friends in both states called and asked him to reconsider. He will start in Iowa, then fly to Kansas, and plans another round of telephone rallies on Monday. CNN reported the original cancellation as part of a shift in strategy.",
+        "Both states matter for Senate control. The Cook Political Report rates Iowa and Kansas as toss-ups. A CNN poll released Thursday found Democrat Adam Hamilton leading Sen. Roger Marshall by 4 points in Kansas, while an Emerson College and The Hill poll earlier this month had Rep. Ashley Hinson ahead of Democrat Josh Turek by 2 in Iowa. Fox News Power Rankings put Democrats ahead in 48 Senate seats and Republicans in 47, with the rest unsettled.",
+        "CNN's new polls also found Democrats leading in two states Republicans normally win. In Michigan, Abdul El-Sayed is at 49% against Mike Rogers at 42% (margin of error 4.7 points). In Texas, James Talarico is at 49% against Ken Paxton at 43% (margin 4.2). CNN noted that at least one in eight likely voters could still change their minds, and that several recent quality polls in both states showed no clear leader. Trump called the recent polling \"totally phony.\"",
+        "Republicans point to strong early turnout. Fox News reported that Georgia early voting is up 22% on 2022 and that Rogers' campaign says its models show Republicans about 7% ahead in returned ballots. Democrats counter with Texas data showing more past Democratic primary voters have already voted than past Republican primary voters (Fox News)."
       ],
       "facts": [
-        "Election Day is Tuesday, Nov. 3.",
-        "Trump plans Iowa and Kansas rallies on Sunday, Nov. 1, and tele-rallies on Monday.",
-        "CNN has Michigan at El-Sayed 49%, Rogers 42%, and Texas at Talarico 49%, Paxton 43%.",
-        "Democrats need a net gain of four Senate seats; Republicans hold it 53-47.",
-        "Fox News power rankings rate Senate control a toss-up."
+        "Trump rallies are set for Sunday, Nov. 1, in Dubuque, Iowa, and Salina, Kansas (NBC News, The Hill).",
+        "CNN poll: El-Sayed 49%, Rogers 42% in Michigan; Talarico 49%, Paxton 43% in Texas.",
+        "CNN poll: Democrat Adam Hamilton leads Sen. Marshall by 4 points in Kansas.",
+        "Cook Political Report rates both Iowa and Kansas Senate races as toss-ups.",
+        "CNN reported Republicans will outspend Democrats about $27.2 million to $15 million in the final two weeks."
       ],
-      "next": "Polls close Tuesday, Nov. 3. Watch Iowa and Kansas returns and whether Sunday's rallies move undecided voters.",
+      "left": "Democrats say the map is expanding into places that were safe a cycle ago, and that Trump's rally scramble shows his own team sees it. They argue cost of living, the Iran war and gas near record highs have turned independents against the party in power. Polls in Texas and Michigan that favor Democratic Senate candidates, they say, reflect real enthusiasm, backed by early-vote data in Texas.",
+      "right": "Republicans argue the polls have missed Trump voters before and that early-vote turnout in Georgia and Kentucky shows their base is engaged. Trump's strategists describe the red-state stops as a turnout play, and Republican candidates such as Rogers cite internal ballot-return models. Conservatives also say voters told Fox News Digital they fear Democratic control of Congress more than prices.",
+      "next": "Election Day is Tuesday, Nov. 3. Trump speaks in Iowa and Kansas on Sunday and holds tele-rallies Monday.",
       "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487"
+        ],
         [
           "The Hill",
           "C",
@@ -581,109 +589,52 @@
         [
           "CNN",
           "LL",
-          "https://www.cnn.com/2026/10/30/politics/trump-rally-cancellation-midterms"
+          "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
         ],
         [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/30/nx-s1-6022529/candidates-make-final-appeals-to-voters-ahead-of-election-day"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/10/29/politics/senate-midterms-democrats-republicans"
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/4785845/trump-iowa-kansas-rallies-back-on/"
         ],
         [
           "Fox News",
           "R",
           "https://www.foxnews.com/live-news/4-days-to-go-battle-for-control-of-congress-intensifies-as-midterms-reach-their-final-stretch-october-30"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "http://www.washingtonexaminer.com/news/campaigns/congressional/4785595/no-signs-red-state-firewall-gop-majorities-midterm-elections/"
         ]
-      ],
-      "thread": "midterms-2026",
-      "flag": "Officials say the rally change was about scheduling, while CNN reported Trump was reacting to coverage. Many poll leads sit inside the margin of error.",
-      "left": "Democrats say the president is campaigning from a defensive crouch, with rally reversals as evidence that red states are in play. They tie voter frustration to prices, the Iran war and what they see as federal pressure on election officials. Their worry is turnout and the Republican spending advantage, not the message. They note that polls in Kansas, Iowa and Texas would have looked unthinkable a year ago.",
-      "right": "Republicans say the map and money favor them and that polls have missed before. They argue that Thune and Scott are reading the same private data and see a majority that holds, and that the rally shuffle reflects a candidate-first strategy of telephone events to reach more states. Conservatives also say voters weighing a Democratic Senate will think about the war, the border and taxes, which polls capture poorly."
+      ]
     },
     {
-      "id": "alaskaspoiler",
-      "section": "politics",
-      "motif": "scales",
-      "when": "Alaska Senate",
-      "title": "Alaska Senate race is roiled by a report that Democratic operatives backed a second Dan Sullivan",
-      "summary": "A New York Times report alleges Peltola campaign and DSCC staff helped field a second candidate named Dan Sullivan, which both deny.",
-      "story": [
-        "The New York Times reported that Democratic operatives tied to Mary Peltola's campaign and the Democratic Senatorial Campaign Committee recruited a second candidate named Dan Sullivan to split votes from Republican Sen. Dan Sullivan, according to NPR, which says it has not independently confirmed the reporting. The effort was allegedly called the \"ballot composition project\" and began in summer 2025, when a Peltola staffer was reportedly told to comb voter rolls for Alaskans with that name (NPR, Fox News).",
-        "Peltola's campaign denies involvement and called the story \"just another distraction.\" The DSCC says it had no involvement, and Sen. Chris Murphy blamed a \"disgruntled fired former campaign staffer\" (The Hill). Trump called the allegations \"Voter Fraud at the Highest Level.\" Gov. Mike Dunleavy ordered an investigation, House Oversight Chair James Comer summoned two operatives named in the report, and Sen. Lisa Murkowski also criticized the effort (The Hill, NPR).",
-        "The legal picture is murky. The Hill reports that ballot stacking is not illegal under state law, and the Alaska Supreme Court ruled in June that the second Sullivan could appear on the ballot. Fox News reports the U.S. Attorney's Office in Alaska has been investigating for months and that the Justice Department sought to delay certification. Polls taken before and after the story showed Peltola ahead, and early voting was already underway, so experts quoted by The Hill doubt the story will move many voters.",
-        "National Review and the Washington Examiner opinion writers call the alleged scheme proof that Democrats think voters are easy to fool."
-      ],
-      "facts": [
-        "The allegation comes from a New York Times report that NPR has not independently confirmed.",
-        "Peltola's campaign and the DSCC deny involvement.",
-        "Gov. Mike Dunleavy ordered an investigation.",
-        "The second Sullivan changed his registration from Republican to undeclared, per the Alaska Beacon as reported by NPR.",
-        "Early voting was already underway when the story broke."
-      ],
-      "next": "Watch Alaska results on Tuesday, Nov. 3, and any Justice Department move on certification if Sullivan loses.",
-      "src": [
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/29/nx-s1-6022069/alaskas-all-important-senate-race-is-roiled-by-report-on-alleged-spoiler-candidate"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/senate/6178270-peltola-denies-sullivan-recruitment-alaska-senate-report/"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/mary-peltola-campaign-dems-backed-covert-scheme-field-spoiler-candidates-alaska-senate-race-report"
-        ],
-        [
-          "National Review",
-          "R",
-          "https://www.nationalreview.com/corner/in-alaska-the-worlds-least-surprising-scoop/"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/justice/4785926/alaska-democrats-voting-scheme-voters-stupid-salena-zito/"
-        ]
-      ],
-      "thread": "midterms-2026",
-      "flag": "The core allegation rests on one New York Times investigation. Peltola's campaign and the DSCC deny it, and NPR has not confirmed it.",
-      "left": "Democrats say the story leans on a fired ex-staffer and unproven claims, and that stacking the ballot with similar names is not illegal under Alaska law. They accuse Trump and the Justice Department of using it as a pretext to question certification and chill a close race. Polls before and after the report showed Peltola ahead, and they argue voters should judge the candidates on policy.",
-      "right": "Republicans say that if the report is true, a campaign tried to trick voters by putting a second Dan Sullivan on the ballot to peel off votes from the incumbent. They point to Murkowski's criticism as proof the concern crosses party lines, and argue that Democrats who preach about election integrity must answer questions. Sullivan's camp calls it a deliberate deception, and they want investigators to finish their work before certification."
-    },
-    {
-      "id": "iranblockade",
+      "id": "iranqatar",
       "section": "politics",
       "motif": "swords",
-      "when": "Iran standoff",
-      "title": "Treasury says the Iran blockade has crippled its economy as Trump says Tehran wants to talk",
-      "summary": "A Treasury assessment says Iran has loaded no oil since Aug. 25, while Trump predicts the war ends 'very soon' and strike options stay ready.",
+      "thread": "iran-war",
+      "when": "Blockade and talks",
+      "title": "Qatari mediators hold marathon Tehran talks as Treasury says the Iran blockade is crippling its economy",
+      "summary": "Axios reports Qatar is pushing a deal before the midterms while Trump keeps the blockade and military options ready.",
       "story": [
-        "A Treasury Department assessment says the U.S. naval blockade, sanctions and pressure on overland export routes have crippled Iran's economy and cut its revenue, Axios reported on Friday, Oct. 30. The report says Iran has not loaded any oil onto tankers since Aug. 25, that the rial has fallen about a quarter since August and that annual inflation hit 90% in September. It does not argue the regime is near collapse (Axios). Thousands of trucks are stranded at the Turkish border, with delays of up to 20 days.",
-        "Trump said Friday that Iran wants to talk and predicted the war would end \"very soon,\" while saying Iran cannot have a nuclear weapon (Fox News). Tehran has not answered the letter Vice President Vance sent to security chief Mohsen Rezaei this week and says the U.S. must lift the blockade before talks begin. It also wants frozen funds released and oil sales allowed (Axios, Fox News).",
-        "The military track continues. Adm. Brad Cooper, the top U.S. Middle East commander, briefed Trump on Thursday on whether the blockade is working, and officials say strike options are being readied for after the Nov. 3 midterms (Axios, Fox News). Earlier Fox News coverage found an estimated 80 million barrels of Iranian crude in floating storage, citing Reuters, and a former Treasury official said the blockade is not stopping oil already past the line.",
-        "Oil still matters to households. WTI crude settled near $103 on Friday (market data)."
+        "Qatari mediators held marathon talks in Tehran in a bid to reach a U.S.-Iran deal before the midterms, Axios reported on Saturday. The aim is a set of reciprocal steps carried out over a few days, followed by a return to direct talks. The main obstacle is sequencing. Washington wants nuclear concessions first. Iran says the U.S. must first lift the naval blockade, release frozen funds and allow it to sell oil.",
+        "A Treasury report released Friday says the blockade, sanctions and pressure on overland export routes have crippled Iran's economy, and that Iran has loaded no oil onto tankers since Aug. 25 (Axios). Secretary Bessent is urging Trump to let the economic campaign work rather than rush back into combat. Trump said on Friday, \"We have time, frankly. It's a war, but it is not a typical war.\"",
+        "Fox News reported on Oct. 29 that military options are being readied for the president, and Axios said Trump is working two tracks: a deal that restarts talks, and preparation for possible major combat after the midterms. U.S. Ambassador Tom Barrack said the sides are \"very close,\" a claim not independently confirmed. Earlier reporting showed Iranian officials dismissing Bessent's economic forecasts as \"delusional.\"",
+        "For markets, the stakes are visible. WTI crude settled at $104.12 on Friday and Brent topped $117, as CNBC covered separately."
       ],
+      "flag": "Barrack's 'very close' claim and the timing of any deal are unconfirmed.",
+      "blindspot": "Mostly center and right-leaning coverage found this week; no left-leaning outlet coverage turned up in my searches.",
       "facts": [
-        "Treasury says Iran has loaded no oil onto tankers since Aug. 25.",
-        "The rial has fallen about 25% since August and inflation reached 90% in September, per the Treasury report.",
-        "Iran has not replied to Vance's letter and demands the blockade end first.",
-        "Adm. Brad Cooper briefed Trump on the blockade on Thursday, Oct. 29.",
-        "WTI crude was $102.95 on Friday."
+        "Qatari mediators held marathon talks in Tehran on Oct. 30-31 (Axios).",
+        "Treasury says Iran has loaded no oil onto tankers since Aug. 25 (Axios).",
+        "Sticking point: the U.S. wants nuclear concessions first; Iran wants the blockade lifted first.",
+        "Fox News reports military options for Trump are being readied.",
+        "WTI crude settled at $104.12 on Friday, up 15.2% for October (CNBC)."
       ],
-      "next": "Watch for an Iranian reply to Vance and any strike order after Tuesday's election.",
+      "left": "Progressives argue the war has no clear endpoint and that a blockade that cuts Iran off from the world risks hurting ordinary Iranians more than the regime. They point to oil above $100 and the inflation it feeds at home. A negotiated deal through Qatari, Omani and Pakistani mediators, they say, beats resuming bombing after the election.",
+      "right": "Conservatives argue the economic squeeze is working. Treasury data shows zero oil loaded for two months, which they say gives Trump leverage Iran never faced under airstrikes alone. They say sequencing matters: lifting the blockade before nuclear concessions would hand Tehran money and time. Keeping military options ready, they add, is what makes talks credible.",
+      "next": "Watch for a Qatari announcement of reciprocal steps before Tuesday, and for any strike orders after the election.",
       "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/31/qatari-mediators-iran-war-deal-before-midterms"
+        ],
         [
           "Axios",
           "C",
@@ -692,162 +643,40 @@
         [
           "Fox News",
           "R",
-          "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/29/brad-cooper-briefs-trump-iran-naval-blockade"
-        ],
-        [
-          "Fox News",
-          "R",
           "https://www.foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
         ],
         [
-          "Axios",
+          "CNBC",
           "C",
-          "https://www.axios.com/2026/10/28/vance-iran-nuclear-talks-letter"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/media/bessent-says-iran-nothing-left-trade-two-weeks-oil-lifeline-dries-up"
-        ]
-      ],
-      "thread": "iran-war",
-      "flag": "The Treasury report is described through Axios and administration officials, and independent verification of its figures was not found. Fox News has reported oil still moving past the blockade line.",
-      "blindspot": "Coverage found came mostly from Axios and Fox News; no left-leaning outlet's take on the Treasury report was found.",
-      "left": "Critics say the blockade imposes heavy costs on Iranian civilians and on American households through oil near $103, and that the administration is threatening a larger strike while also writing letters. They argue a deal that trades verified nuclear limits for sanctions relief is the realistic exit. Many Democrats also say a bigger campaign needs congressional approval.",
-      "right": "Conservatives say the Treasury figures show the pressure strategy working and that Iran only talks when it is squeezed. They argue that sanctions relief before nuclear concessions rewards stalling, and that strike options are the credible threat behind diplomacy. Some on the right warn that the Fox News reporting on floating oil shows leaks must be closed before the pressure is complete."
-    },
-    {
-      "id": "ballotsubpoenas",
-      "section": "politics",
-      "motif": "gavel",
-      "thread": "ca-voter-rolls",
-      "when": "Election week",
-      "title": "Judge rejects DOJ bid to set aside 20,000 California ballots, and subpoenas to election workers follow",
-      "summary": "Judge David Carter refused to make California segregate ballots tied to suspected noncitizens. The DOJ appealed, and grand jury subpoenas reached election staff.",
-      "story": [
-        "U.S. District Judge David Carter denied the Justice Department's emergency request on Wednesday, Oct. 28, to make California set aside mail ballots linked to about 20,000 voters that federal officials call likely noncitizens. He wrote that the request would \"wreak havoc and disrupt the election that is already underway\" (CNN, NPR). He also said the government's methodology raised reliability questions and that federal prosecutors can still pursue individual cases (CNN, NPR, Fox News). The DOJ appealed to the Ninth Circuit right away (CalMatters).",
-        "California officials say some names on the list are not on their rolls or are in suspended status, and a preliminary review found U.S.-born people on it (Fox News, CalMatters). A top federal prosecutor in California says investigators determined all 20,000 flagged people are not citizens (Fox News). That claim has not been independently verified in the coverage found. The Ninth Circuit had earlier dismissed an emergency DOJ request, 2-1, because Carter had not yet ruled (Washington Examiner).",
-        "On Thursday, at least four California election workers received federal grand jury subpoenas, at least one after Carter ordered the DOJ to stop threatening officials (CalMatters, NPR). Orange County's subpoena seeks unredacted records for about 60 people. Three Los Angeles employees were told to appear in Santa Ana on Nov. 4. DOJ spokesperson Kiersten Pels said receiving a subpoena does not make someone a target. Los Angeles County Registrar Dean Logan called the approach \"confrontational, adversarial\" (CalMatters).",
-        "The fight could still reach the Supreme Court, and it lands in the same week California counts ballots for Tuesday's election."
-      ],
-      "flag": "The DOJ's claim that all 20,000 people are noncitizens is disputed by state officials and not independently verified.",
-      "facts": [
-        "Carter ruled on Wednesday, Oct. 28, and denied the request to segregate about 20,000 ballots.",
-        "The DOJ appealed to the Ninth Circuit after the ruling.",
-        "At least four California election workers got federal grand jury subpoenas in the past week.",
-        "Three Los Angeles employees must appear in Santa Ana on Nov. 4.",
-        "Orange County's subpoena seeks unredacted voter records for about 60 people."
-      ],
-      "left": "Democrats and election officials say the DOJ is trying to disrupt a vote already underway on thin evidence. They point to Carter's finding that the list is unreliable, to U.S.-born people found on it, and to subpoenas served after a judge told prosecutors to stop threatening officials. They argue that states run elections, and that individual fraud cases are the proper route.",
-      "right": "Conservatives argue that counting ballots from people who are not citizens cannot be undone once those ballots are mixed in, so setting them aside costs little. They say California refused to cooperate with a legitimate federal request, as election-law expert Hans von Spakovsky has argued, and that DOJ prosecutors verified the names. In this view, a state that will not fix its rolls invites federal action.",
-      "next": "The Ninth Circuit is expected to rule on the new appeal, and Los Angeles election staff face the Nov. 4 grand jury date.",
-      "src": [
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://edition.cnn.com/2026/10/28/politics/judge-denies-trump-bid-california-ballots"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/judge-rejects-doj-request-block-california-immediately-counting-ballots-linked-alleged-noncitizens"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/justice/4783689/judge-denies-doj-effort-isolate-california-mail-ballots/"
-        ],
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/politics/2026/10/ca-election-officials-subpoenas/"
+          "https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
         ]
       ]
     },
     {
-      "id": "statemediation2",
+      "id": "prop40final",
       "section": "local",
-      "motif": "scroll",
-      "thread": "ca-state-strike",
-      "when": "Mediation day",
-      "title": "California and its largest state worker union meet in mediation after the first strike in 44 years",
-      "summary": "SEIU Local 1000 and the Newsom administration met with a state mediator on Friday, but no outcome had been reported.",
-      "story": [
-        "SEIU Local 1000, California's largest state employee union, and the Newsom administration were scheduled to resume mediation on Friday, Oct. 30, nine days after thousands of members walked off the job for one day. It was the union's first strike in 44 years (CalMatters, KQED). The state Public Employment Relations Board appointed the mediator. The union wants higher pay, larger state contributions to health coverage and changes to the order that most state employees work in the office four days a week.",
-        "That order took effect in July after a one-year delay (CalMatters). Newsom vetoed AB 1729, a bill to loosen telework rules, last month. In late September the labor board found that the state's human resources department \"refused to meet and confer in good faith\" (CalMatters).",
-        "The state says it remains at the table and points to the union's refusal to move on return to office. The union says the administration rejected proposals without bargaining over them and has filed a complaint with the labor board (KQED, CalMatters).",
-        "Newsom leaves office in January, so the union is trying to settle before the next governor arrives."
-      ],
-      "blindspot": "Covered mainly by California public-affairs and left-leaning outlets; no right-leaning coverage found.",
-      "facts": [
-        "The one-day strike was Oct. 21, SEIU Local 1000's first in 44 years.",
-        "Mediation was scheduled for Friday, Oct. 30.",
-        "Newsom's order requires most state employees in the office four days a week.",
-        "Newsom vetoed telework bill AB 1729 last month.",
-        "The labor board found in September that the state refused to bargain in good faith."
-      ],
-      "left": "Labor advocates say workers have gone years without a raise that matches rent and health costs, and that a four-day office order costs them commuting time and money. They argue the labor board's finding shows the state bargained in bad faith. For them, a strike was a last resort.",
-      "right": "Critics say a union striking while California faces budget pressure puts workers ahead of taxpayers. They support returning state workers to offices to serve the public and keep downtown Sacramento running. They also say pay and benefits should be weighed against a state deficit that Sacramento keeps papering over.",
-      "next": "Watch for word on a tentative agreement or a second strike notice, since Newsom leaves office in January.",
-      "src": [
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/economy/2026/10/state-worker-strike-local-1000/"
-        ],
-        [
-          "KQED",
-          "LL",
-          "https://www.kqed.org/news/12103583/californias-largest-public-sector-union-set-to-strike-later-this-month"
-        ],
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/politics/2026/10/seiu-local-1000-strike-authorization/"
-        ],
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/politics/2026/09/newsom-veto-telework-bill/"
-        ]
-      ],
-      "flag": "Coverage found does not report whether Friday's mediation produced progress or a tentative deal."
-    },
-    {
-      "id": "prop40slips",
-      "section": "local",
-      "motif": "coins",
+      "motif": "scales",
       "thread": "california-billionaire-tax",
-      "when": "Prop 40",
-      "title": "Prop 40 billionaire tax trails in two polls as opponents outspend backers more than six to one",
-      "summary": "PPIC has 46% for and 52% against, Berkeley IGS has 42% for and 50% against, and Props 41 and 42 would cancel the tax if they win more votes.",
+      "when": "Prop 40 final days",
+      "title": "Prop 40 billionaire tax loses its poll lead as Stanford economists warn of a multibillion-dollar revenue hole",
+      "summary": "PPIC has the tax at 46% yes and 52% no, and two countermeasures could cancel it even if it passes.",
       "story": [
-        "California's proposed billionaire tax, Prop 40, is losing ground with days to go. The latest PPIC survey of 1,086 likely voters has 46% in favor and 52% opposed, a drop from last month, when supporters had a slim majority. The Berkeley Institute of Governmental Studies finds 42% yes and 50% no (CalMatters, KQED). A Citrin-Politico poll had support at 46% and opposition at 43%. Props 41 and 42 were put on the ballot by billionaire-backed groups to cancel the tax.",
-        "If Prop 40 gets more votes than both, the tax takes effect. If either passes with more votes, it does not (CalMatters). Opponents have raised more than $205 million, including at least $102 million from Google co-founder Sergey Brin, while backers raised about $31 million, mostly from unions (CalMatters).",
-        "Gov. Gavin Newsom opposes the measure and backs a federal billionaire tax instead. So do the three leading governor candidates (CalMatters). Fox Business has covered Brin's move of entities out of California and his comparison of the tax to Soviet socialism. Critics also object that the tax reaches people who lived in California on Jan. 1, 2026, even if they left.",
-        "California votes Tuesday, Nov. 3. CalMatters notes the measure might not become law even if it passes."
+        "California's Prop 40 billionaire tax has slipped behind in the latest PPIC poll, with 46% of likely voters in favor and 52% opposed, CalMatters reported. A month earlier it held a slim 52% majority. PPIC's survey director said support has declined, particularly among Democrats and independents. The measure goes to voters on Tuesday.",
+        "Two countermeasures complicate the outcome. Prop 42, which would ban new state taxes on personal property such as investments, polls at 51% support. Prop 41, which targets taxes that sidestep the state spending cap, is tied at 48% to 49%. PPIC said both could effectively nullify Prop 40 even if it passes, and both now poll better than the tax. Sergey Brin has put about $102 million into the opposition, and nearly $400 million has been spent across the three measures, according to election coverage.",
+        "Economists disagree on the numbers. Stanford's Joshua Rauh estimates the state would lose $25 billion to $38 billion, versus the roughly $100 billion supporters project, the San Francisco Chronicle reported. Supporters say the money would backfill federal cuts to Medi-Cal and that fears of billionaire flight are overstated. A CalMatters fact check found the claim that lawmakers could easily widen the tax only partly true, because the tax would be written into the state Constitution.",
+        "The California Democratic Party endorsed the tax, splitting with Gov. Newsom, KQED reported."
       ],
-      "flag": "Spending totals differ by outlet: Fox Business cited smaller Brin figures from earlier in the year than CalMatters' $102 million.",
+      "blindspot": "Mostly center and left-leaning local outlets found; no right-leaning coverage from this week turned up.",
       "facts": [
-        "PPIC has Prop 40 at 46% yes and 52% no among likely voters.",
-        "Berkeley IGS has 42% yes and 50% no.",
-        "Opponents have raised over $205 million; backers about $31 million.",
-        "Props 41 and 42 would cancel the tax if they get more votes than Prop 40.",
-        "Election Day is Tuesday, Nov. 3."
+        "PPIC: 46% yes, 52% no among likely voters, down from 52% yes a month earlier.",
+        "Prop 42 polls at 51% support; Prop 41 is tied 48% to 49%.",
+        "Stanford's Joshua Rauh estimates a net revenue loss of $25 billion to $38 billion (SF Chronicle).",
+        "The California Democratic Party endorsed Prop 40, splitting with Newsom (KQED).",
+        "Voters decide on Tuesday, Nov. 3."
       ],
-      "left": "Supporters say a small group of billionaires is spending nine figures to avoid a tax that would fund health care, and that the spending gap shows why the tax is needed. They note Newsom and most of the Democratic establishment sided with the wealthy donors. The Democratic Party's own endorsement of the measure, they say, reflects voters' anger about inequality.",
-      "right": "Opponents argue the tax drives founders and capital out of state, which shrinks the revenue base Sacramento depends on. They call the retroactive reach unfair and say illiquid startup founders could owe huge sums on paper wealth. Garry Tan of Y Combinator said it would hurt startups. Even Newsom says it would be damaging.",
-      "next": "Voters decide Prop 40, 41 and 42 on Tuesday, Nov. 3.",
+      "left": "Supporters argue California's income tax is progressive on paper but much wealth held in stock and private companies escapes it. They say the tax would backfill federal Medi-Cal cuts and that threats of billionaire flight are overstated. Opposition spending of six to one, they note, shows how much the wealthiest want to defeat it.",
+      "right": "Opponents argue the tax would raise far less than promised, drive wealthy residents and their income tax payments out of state, and could be widened later. Economists at Stanford and Hoover put the net result at a loss. Critics add that the Medi-Cal money could free up the general fund for unrelated spending.",
+      "next": "Results Tuesday night. Watch Props 41 and 42, which could void Prop 40 if they get more votes.",
       "src": [
         [
           "CalMatters",
@@ -855,47 +684,96 @@
           "https://calmatters.org/newsletter/prop-40-poll/"
         ],
         [
-          "KQED",
-          "LL",
-          "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news"
-        ],
-        [
           "CalMatters",
           "C",
-          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
+          "https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/"
         ],
         [
           "SF Chronicle",
           "LL",
-          "https://www.sfchronicle.com/news/politics/article/top-democrats-join-the-wealthiest-in-fighting-a-22470045.php"
+          "https://www.sfchronicle.com/california/article/billionaire-tax-analysis-22485993.php"
         ],
         [
-          "Fox Business",
-          "R",
-          "https://www.foxbusiness.com/politics/google-co-founder-rips-california-billionaire-tax-i-fled-socialism"
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12093726/california-democratic-party-endorses-billionaire-tax-splitting-with-newsom"
         ]
       ]
     },
     {
-      "id": "ukrainetruce",
+      "id": "transitvote",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Transit tax vote",
+      "title": "Bay Area voters decide Tuesday on a transit tax that BART, Caltrain and Muni say they need to avoid deep cuts",
+      "summary": "A regional sales tax would raise about $1 billion a year, and agencies have published service cuts if it fails.",
+      "story": [
+        "On Tuesday, voters in Alameda, Contra Costa, San Mateo and Santa Clara counties decide on a half-cent sales tax for transit, and San Francisco voters weigh a 1-cent version, KQED reported. The measure would raise around $1 billion a year for 14 years. Because citizens sponsored it, it needs a simple majority, not two-thirds.",
+        "The agencies have published what happens if it fails. BART would close up to 15 stations and run trains every half hour. Caltrain would close more than a third of its stations, and Muni would cut up to 20 bus lines, KQED and the San Francisco Chronicle reported. San Francisco also has a separate Muni parcel tax, Prop H, at $129 a year for most single-family owners. Muni officials say approving only one of the two taxes will not prevent cuts.",
+        "A SPUR report, which endorses the measures, projects that delays at the worst Bay Area freeway bottlenecks would more than double if voters say no. Critics dispute the model, and one report noted the models suggest a slight rise in freeway volume rather than a full collapse. The Contra Costa Taxpayers Association argues the region could pay for operations by pausing big capital projects such as BART Silicon Valley Phase II and high-speed rail. Supporters call that not grounded in reality.",
+        "The agencies say one approved tax is not enough to avoid cuts, so the combined result in San Francisco and the four-county region matters."
+      ],
+      "flag": "Which specific stations would close was not detailed in the sources found.",
+      "blindspot": "Coverage found is from center and left-leaning local outlets; no right-leaning outlet coverage this week.",
+      "facts": [
+        "Regional measure: half-cent sales tax in four counties, 1 cent in San Francisco, about $1 billion a year for 14 years.",
+        "If it fails, BART could close up to 15 stations and run trains every half hour.",
+        "Caltrain could close more than a third of stations; Muni could cut up to 20 bus lines.",
+        "The measure needs a simple majority.",
+        "Even if it passes, one report says it will not erase the agencies' deficits by itself."
+      ],
+      "left": "Supporters say transit is basic infrastructure and that a failed measure would push riders into cars, doubling bottleneck delays and hurting low-income commuters most. They argue sales taxes are a fair way to share the cost of a system the whole region uses, and that cutting service creates a death spiral of falling ridership and revenue.",
+      "right": "Opponents say agencies should show they can spend existing money wisely before asking for more. They argue the region can reprioritize billions in capital projects toward operations, and that a regressive sales tax hits working families. Traffic models predicting catastrophe, they say, come from groups that endorse the tax.",
+      "next": "Results Tuesday night, Nov. 3. Agencies would start finalizing cut plans if the measure fails.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12100738/bay-bridge-traffic-delays-would-double-if-transit-tax-measures-fail-report-finds"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12090212/opposition-group-says-bay-area-transit-doesnt-deserve-more-money-this-november"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/bay-bridge-delays-transit-death-spiral-22441989.php"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/bay-bridge-traffic-bart-station-closures-22477694.php"
+        ]
+      ]
+    },
+    {
+      "id": "ukrainetruce2",
       "section": "world",
       "motif": "globe",
-      "when": "Ukraine war",
-      "title": "Local ceasefire in southern Ukraine runs through Saturday as Russian strikes hit cities and Zelenskyy floats a frozen front",
-      "summary": "A Melania Trump-brokered pause lets aid reach occupied Oleshky, while strikes continue elsewhere and Zelenskyy says he would freeze the front lines.",
+      "thread": "ukraine-us-rift",
+      "when": "Oleshky truce",
+      "title": "Melania Trump-brokered ceasefire in Oleshky is set to run through Sunday as fighting continues elsewhere",
+      "summary": "The local truce lets aid reach about 2,000 residents while Russian strikes hit Kharkiv and Zelenskyy repeats he would freeze the front.",
       "story": [
-        "A local ceasefire brokered by U.S. first lady Melania Trump took effect early Tuesday, Oct. 27, ahead of a humanitarian mission to the occupied southern Ukrainian town of Oleshky, where up to 2,000 people are stranded. It is due to last through Saturday or longer, as missile attacks resumed in Kyiv (NPR). Deep mistrust has thwarted earlier ceasefire attempts, NPR notes.",
-        "Fighting continues elsewhere. CNBC reported on Friday that Russian strikes plunged a Ukrainian city into blackout as Zelenskyy warned of more missile attacks. CNN reported that Russia struck the Dnipro train station in central Ukraine and killed 15. On Oct. 8, a Russian strike killed at least 33 people when two buses caught fire in eastern Ukraine (CNN).",
-        "Diplomacy is moving. Zelenskyy has said he is open to freezing the front lines to end the war (Fox News). A new round of U.S.-brokered talks between Russia and Ukraine is expected next month (NPR). Trump said Zelenskyy \"doesn't want to end this war, and probably never did,\" a claim Zelenskyy rejected (CNN). Zelenskyy says Ukraine's Starlink access for battlefield drones is still curtailed, which the Trump administration denies ordering (NPR)."
+        "A local ceasefire in the Russian-occupied city of Oleshky took effect early on Oct. 27 and is due to last through Sunday, NPR and NBC News reported. It was brokered by Melania Trump and is meant to let a humanitarian operation deliver food and medicine to about 2,000 remaining residents and evacuate people who want to leave. Russia's and Ukraine's human rights ombudsmen both said there were no violations in the first 30 hours (NBC News).",
+        "Fighting continues elsewhere. A Russian drone strike on Kharkiv wounded five people, including a 4-year-old, and Zelenskyy has said Russia strikes his country almost hourly. An adviser to Melania Trump said Russia agreed to extend the pause by two days and widen it across Kherson region (Fox News). I could not confirm that extension from a second source.",
+        "On Oct. 21, Zelenskyy told Fox News he is open to freezing the front lines as a ceasefire, then seeking security guarantees from partners (Fox News, The Hill). Putin agreed in principle to resume trilateral talks with Washington and Kyiv after Nov. 10, though Russia's foreign minister said there would be no ceasefire to let Kyiv rearm. Zelenskyy also said Ukraine now receives an average of 12 Patriot interceptors a month this year, far fewer than in prior years.",
+        "Ukraine has resumed strikes on Russian oil refineries, saying they answer Russian attacks, after the energy ceasefire Trump announced earlier in October."
       ],
+      "flag": "The two-day extension and wider area were reported by one adviser and not independently confirmed.",
       "facts": [
-        "The Oleshky ceasefire began Tuesday, Oct. 27, and is due to last through Saturday, Oct. 31.",
-        "Up to 2,000 people are stranded in Oleshky.",
-        "Zelenskyy says he is open to freezing the front lines.",
-        "A new round of U.S.-brokered talks is expected next month.",
-        "Russian missile attacks continued in Kyiv and other cities."
+        "The Oleshky ceasefire began Oct. 27 and runs through Sunday, Nov. 1.",
+        "About 2,000 residents remain in Oleshky (NBC News, NPR).",
+        "Zelenskyy told Fox News on Oct. 21 he is open to freezing front lines.",
+        "Putin agreed in principle to trilateral talks after Nov. 10.",
+        "Zelenskyy says Ukraine receives about 12 Patriot interceptors per month this year."
       ],
-      "next": "Watch whether the Oleshky pause is extended past Saturday and when the next round of talks is set.",
+      "left": "Critics of the Trump approach say a one-city truce is a gesture that leaves the war untouched and that falling Patriot deliveries leave Ukrainian cities exposed. They want sustained military aid and firm security guarantees before any freeze, so Russia cannot rearm and attack again.",
+      "right": "Supporters say any pause that moves food to civilians is progress, and that Zelenskyy's openness to freezing the front shows the war is heading toward negotiation. They argue Europe should carry more of the burden for Ukraine's defense and that the administration is right to keep channels open to Moscow.",
+      "next": "The truce expires Sunday unless extended. Trilateral talks could resume after Nov. 10.",
       "src": [
         [
           "NPR",
@@ -903,98 +781,91 @@
           "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
         ],
         [
-          "CNBC",
-          "C",
-          "https://cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html"
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/ukraine/melania-trump-brokered-ceasefire-devastated-ukrainian-city-holds-rcna606069"
         ],
         [
           "Fox News",
           "R",
-          "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia"
+          "https://www.foxnews.com/world/ceasefire-negotiated-melania-trump-holds-russia-occupied-ukrainian-city"
         ],
         [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
-        ]
-      ],
-      "thread": "ukraine-us-rift",
-      "flag": "The date of the Dnipro station strike was not verified in the coverage found.",
-      "left": "Supporters of Ukraine say a localized pause is welcome but that Moscow is exploiting talk of freezing the front line while it hits power grids and cities. They argue the U.S. should keep intelligence and Starlink access steady and press Russia, not Kyiv, to stop. A frozen line, they say, would reward aggression.",
-      "right": "Conservatives who back the president's approach say the war has cost tens of thousands of lives, that Trump's own casualty figure of 25,000 in a month shows the urgency, and that a freeze may be the only workable path. They argue Europe should carry more of the burden and that U.S. leverage over Kyiv is how a deal gets made."
-    },
-    {
-      "id": "gdpfed",
-      "section": "economy",
-      "motif": "chart",
-      "when": "Growth vs. prices",
-      "title": "Third-quarter GDP beats forecasts at 3.4% while PCE inflation hits 3.6% and the Fed holds",
-      "summary": "The economy grew faster than expected, inflation edged up, and traders see about an 85% chance of a December rate hike.",
-      "story": [
-        "The U.S. economy grew at a 3.4% annual rate in the third quarter, above the 3.1% to 3.2% economists expected, after 2.2% in the second quarter. Business investment rose almost 13% on AI equipment and consumer spending rose 3.8%, while trade subtracted 3.3 percentage points (Axios, CNBC). September PCE inflation, the Fed's favored gauge, reached 3.6% over the year, up from 3.4%. Core PCE rose from 3.0% to 3.1% (CNBC, Fox Business).",
-        "On Wednesday, Oct. 28, the Fed held its rate at 3.75% to 4% on a 10-2 vote. Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented in favor of a quarter-point hike, and it was Cook's first dissent since joining in 2022 (Axios, CNBC). It followed September's hike, the first since 2023. Chair Kevin Warsh said he does not believe in forward guidance without a crisis. Traders put the odds of a December hike at about 85% (Axios) or 82.6% (Fox Business), and Nomura's Rob Subbaraman said a 50-basis-point move could come into play (CNBC).",
-        "NPR notes the report landed days before the midterms, with a gap between the growth data and voters' frustration over living costs. Fox Business reported that Democrats call Trump a failure on inflation while the White House cites growth.",
-        "On Friday the 10-year Treasury yield eased to 4.93% and WTI crude rose to $102.95 (market data). The next Fed meeting is Dec. 8-9."
-      ],
-      "facts": [
-        "Q3 GDP grew at a 3.4% annual rate.",
-        "September PCE inflation was 3.6% over the year.",
-        "The Fed held at 3.75% to 4% on a 10-2 vote on Oct. 28.",
-        "Cook and Hammack dissented in favor of a hike.",
-        "The next Fed meeting is Dec. 8-9."
-      ],
-      "left": "Democrats and many economists say the headline growth leans on AI investment while households feel inflation, tariffs and war-driven energy prices. They argue 3.6% inflation and an 80%-plus chance of another hike mean borrowing costs rise just as families struggle. They also defend the Fed's independence, noting the administration has restarted its effort to remove Cook.",
-      "right": "Conservatives point to strong output, 3.8% consumer spending and a record AI buildout as proof the economy works. They say inflation tied to energy and the Iran war is temporary and blame Biden-era spending for the base. Some on the right back the Fed's willingness to hike, while Trump allies want lower rates.",
-      "next": "Watch the October jobs and CPI reports in November and the Fed's Dec. 8-9 meeting.",
-      "src": [
-        [
-          "Axios",
+          "The Hill",
           "C",
-          "https://www.axios.com/2026/10/29/dp-q3-economy-energy"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook"
-        ],
-        [
-          "Fox Business",
-          "R",
-          "https://www.foxbusiness.com/economy/september-2026-pce-inflation"
-        ],
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/29/nx-s1-6021008/economy-gdp-inflation-midterms-voters-affordability"
+          "https://thehill.com/policy/international/6162186-zelensky-open-freezing-frontline-russia-war/"
         ]
       ]
     },
     {
-      "id": "techselloff",
+      "id": "oilfed",
+      "section": "economy",
+      "motif": "barrel",
+      "when": "Oil and rates",
+      "title": "Oil settles near $104 as Houthi attacks on Saudi Arabia keep supply fears high and the Fed holds rates",
+      "summary": "WTI gained 15.2% in October and Brent closed at $117.64, while the October jobs report arrives Friday.",
+      "story": [
+        "U.S. crude futures settled up 2.08% at $104.12 on Friday, and Brent's December contract expired at $117.64, CNBC reported. For October, Brent gained 13.6% and WTI rose 15.2%, the fourth monthly gain in a row. Traders cited Iran-aligned Houthi attacks on Saudi Arabia and Iranian attacks near the Strait of Hormuz, though CNBC noted tankers are still keeping crude flowing through the strait.",
+        "The Federal Reserve held its key rate in a range of 3.75% to 4% this week, and Chairman Kevin Warsh said policymakers are not on a set course (CNBC). The 10-year Treasury yield ended Friday near 4.93%, per live market data. One strategist quoted by CNBC expects the Fed to hike in December and March.",
+        "The week ahead brings JOLTS job openings on Tuesday and the October jobs report on Friday. Saxo Bank said oil could become more volatile over the next couple of weeks because of Israel's recent elections and the U.S. midterms on Nov. 3.",
+        "Conservative commentators have attacked the Fed's approach. An earlier Washington Examiner op-ed argued that rate hikes cannot fix a supply shock from the Hormuz blockade."
+      ],
+      "flag": "Sources disagree slightly on the 10-year yield (4.923% to 4.941%) depending on the snapshot.",
+      "facts": [
+        "WTI settled at $104.12 on Friday, up 2.08% on the day.",
+        "Brent's December contract settled at $117.64; October gain 13.6%.",
+        "The Fed held its rate at 3.75% to 4% (CNBC).",
+        "JOLTS is due Tuesday and the October jobs report on Friday.",
+        "One analyst quoted by CNBC expects oil to stay in a $70 to $90 range even after the war ends."
+      ],
+      "left": "Progressives say the oil spike is a direct cost of the Iran war and blockade, and that working families are paying for it at the pump and in groceries. They argue the administration should prioritize a deal that reopens Hormuz, and that further Fed hikes would add job losses on top of a war-driven price shock.",
+      "right": "Conservatives argue the supply shock comes from Iranian and Houthi aggression, not domestic policy, and that the Fed should not punish consumers for it with higher rates. They say the blockade is the fastest route to ending Iranian leverage, and that higher domestic production would cushion prices.",
+      "next": "JOLTS Tuesday, Nov. 3, and the October jobs report Friday, Nov. 6.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/op-eds/4732781/fed-rate-hikes-supply-shock-inflation/"
+        ]
+      ]
+    },
+    {
+      "id": "techselloff2",
       "section": "stocks",
       "motif": "chart",
-      "when": "Tech rout",
-      "title": "Nasdaq falls 2.86% as Intel plunges 29% and Amazon pares an early loss",
-      "summary": "Intel had its worst day since the 1970s, and the Nasdaq sits about 10% below its peak after a week of AI-spending shocks.",
+      "when": "Tech selloff",
+      "title": "Nasdaq closes 2.86% lower and nears a correction as Intel plunges 29% and Amazon disappoints",
+      "summary": "Weak Intel guidance and Amazon spending worries drove the worst day since June, and Nvidia fell 4.22%.",
       "story": [
-        "The Nasdaq fell 2.86% to 25,437.00 on Friday, Oct. 30, its worst day since June. The S&P 500 lost 1.82% to 7,580.07 and the Dow fell 1.09% to 51,770.31 (CNBC, market data). Bloomberg put the Nasdaq about 10% below its peak, close to a technical correction. Intel dropped about 29%, its worst day since the 1970s, after it guided fourth-quarter earnings to 25 cents on $15 billion to $16 billion of revenue against estimates near 43 cents and $17 billion (CNBC). The slide cut about $12 billion from the U.S. government's roughly 10% stake in Intel.",
-        "Amazon missed on third-quarter revenue and earnings and held its 2026 capex forecast near $220 billion. Bloomberg reported an intraday drop of 7.3%, but the shares pared much of that and closed down 1.41% at $240.35 (CNBC, market data). Alphabet fell 12.64% on Thursday in its worst day on record, so the two days together hit the group that has led the AI trade.",
-        "Intel's CFO David Zinsner said the PC slowdown should continue at least through the first half of next year, and CNBC tied the weak outlook to soaring memory and component costs. Bank of America and UBS downgraded the stock or cut targets. Intel's third-quarter revenue rose 21% and its data center segment grew strongly, but the guidance overshadowed both (CNBC).",
-        "Strategists are split. Bloomberg quoted one saying the market is leaving the \"hopes and dreams phase\" of AI and entering a \"show me\" phase. UBS's chief investment officer said the answer on AI demand and monetization is still yes, and BlackRock has kept its U.S. equity and AI overweights (CNBC)."
+        "The Nasdaq fell 2.86% to 25,437 on Friday, the S&P 500 lost 1.82% to 7,580.07 and the Dow dropped 1.09% to 51,770.31, CNBC and Bloomberg reported. Bloomberg says the Nasdaq is about 10% below its peak, close to a technical correction. CNBC described it as the Nasdaq's worst day since June and said the index is down 4.7% for October.",
+        "Intel fell about 29%, its worst day since the 1970s, after guiding fourth-quarter adjusted earnings to 25 cents a share on $15 billion to $16 billion in revenue, against LSEG estimates of 43 cents and about $17 billion, CNBC reported. The company blamed a plant shutdown in Israel and PC weakness that its finance chief expects to last through the first half of next year. TechCrunch noted the drop cut roughly $12 billion from the U.S. government's stake.",
+        "Amazon missed on third-quarter results, with heavier capital spending and the slowest core e-commerce growth in three years (CNBC). It was down 6% to 7% early and pared the loss to close down 1.41% at $240.35. Alphabet had fallen sharply the day before. Nvidia ended down 4.22% at $204.64 as AI-linked chip stocks sold off on doubts about the return on AI spending.",
+        "Bitcoin held up better than expected despite the record Binance hack, trading around $77,400 (CNBC)."
       ],
       "facts": [
-        "The Nasdaq fell 2.86% to 25,437.00, its worst day since June.",
-        "The S&P 500 fell 1.82% to 7,580.07 and the Dow 1.09% to 51,770.31.",
-        "Intel fell about 29% on weak fourth-quarter guidance.",
-        "Amazon closed down 1.41% after an intraday drop of about 7%.",
-        "Nvidia fell 4.22% to $204.64."
+        "Nasdaq 25,437.00 (-2.86%); S&P 500 7,580.07 (-1.82%); Dow 51,770.31 (-1.09%).",
+        "Intel fell about 29%, its worst day since the 1970s (CNBC).",
+        "Intel guided Q4 EPS to 25 cents versus 43 cents expected (CNBC, LSEG).",
+        "Amazon closed down 1.41% at $240.35 after a deeper early drop.",
+        "The 10-year Treasury yield fell to 4.93%; WTI rose 2.08% to $104.12."
       ],
-      "next": "Apple reports Monday, Nov. 2 after the close, and Nvidia reports Nov. 17 after the close.",
+      "why": "The selloff ties Wall Street's mood to whether AI spending pays off. Intel's guidance points to a weak PC cycle, and Amazon's heavier capex raises the same worry, which also hangs over Anthropic's coming IPO.",
+      "next": "Apple reports Monday, Nov. 2, after the close. Nvidia reports Nov. 17.",
       "src": [
         [
           "CNBC",
@@ -1007,90 +878,40 @@
           "https://www.bloomberg.com/news/newsletters/2026-10-30/nasdaq-nears-correction-as-amazon-alphabet-intel-disappoint-wall-street"
         ],
         [
-          "CNBC",
+          "TechCrunch",
           "C",
-          "https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html"
+          "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
         ],
         [
           "CNBC",
           "C",
           "https://www.cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html"
-        ],
-        [
-          "Bloomberg",
-          "C",
-          "https://www.bloomberg.com/news/articles/2026-10-30/wall-street-turns-ruthless-as-earnings-misses-fuel-deep-selloffs"
         ]
-      ],
-      "flag": "Intel's drop was reported as 21% to 25% in early coverage and 29% in closing coverage. Amazon's intraday and closing moves differ.",
-      "why": "Investors have moved from asking whether AI demand exists to asking who earns a return on the build. Companies with negative free cash flow now get punished even when revenue grows. A weak PC market adds a separate hit for chipmakers."
+      ]
     },
     {
-      "id": "epic",
+      "id": "binancetrace",
       "section": "engineering",
       "motif": "chip",
-      "when": "Chip R&D",
-      "title": "Applied Materials opens its roughly $5 billion EPIC chip research center in Sunnyvale",
-      "summary": "The center lets TSMC, Samsung, Micron and Broadcom work alongside equipment makers to cut years from the path from lab to chip.",
+      "when": "Binance breach",
+      "title": "Investigators tie the $6.3 billion Binance theft to North Korea's TraderTraitor group, but the entry point stays unclear",
+      "summary": "Chainalysis and TRM Labs describe a fast, automated withdrawal run, while Binance says a compromised engineer laptop was only part of the breach.",
       "story": [
-        "Applied Materials unveiled its Equipment and Process Innovation and Commercialization center, called EPIC, in Sunnyvale, California, on Oct. 12, IEEE Spectrum reports. The company announced the project in 2023 at about $4 billion and now says it will invest roughly $5 billion. CEO Gary Dickerson describes it as a way to speed development of next-generation chips, and the stated goal is to cut by several years the time from early-stage discovery to commercialization.",
-        "TSMC, Samsung, Micron, Broadcom and others have agreed to set up inside the lab, IEEE Spectrum reports. Competing customers get their own space behind digital firewalls and physical barriers. The project did not receive federal money: Bloomberg reported in 2024 that the Commerce Department decided it did not qualify for CHIPS Act funding.",
-        "It is one of several AI-driven bets in chip research. IEEE Spectrum also reports that Micron disclosed a $10 billion, 10-year investment in its Boise, Idaho, memory research lab, and CNBC reported in September that Samsung and Micron are sounding alarms about a deep U.S. chipmaker labor shortage."
+        "Binance says about $6.3 billion in client assets were drained in the largest crypto theft on record, TechCrunch and CNBC reported. Roughly $3 billion has been frozen, with Circle and Tether freezing linked stablecoins, and Binance has pledged to cover losses from its user safety fund. Binance suspended deposits and withdrawals and said it expected to resume withdrawals within 48 hours.",
+        "TRM Labs attributed the attack with high confidence to TraderTraitor, a North Korean state-sponsored unit, and Chainalysis also tied it to a North Korean group (TechCrunch, CNBC). TRM said several features match earlier heists, including the Bybit hack. Binance has not confirmed attribution. President Trump said the U.S. is looking at it, answering \"We don't know\" when asked about North Korea (Bloomberg).",
+        "On method, Binance first said a compromised DevOps engineer's laptop gave attackers access to a service container, where they submitted unauthorized withdrawals. Co-CEO Richard Teng later described a more complex process with other points of breach, and said the attackers used a self-destruct mechanism that wiped tooling and traces. Chainalysis says the theft took as little as 20 minutes and, in the words of its analyst Eric Jardine, \"It had to have been done by a computer.\" TRM found preparation began about 36 hours earlier.",
+        "It remains unexplained how the laptop was compromised or how attackers reached the withdrawal systems (CNBC)."
       ],
+      "flag": "Attribution to North Korea comes from TRM Labs and Chainalysis and is not confirmed by Binance or the U.S. government.",
       "facts": [
-        "EPIC opened in Sunnyvale on Oct. 12, 2026.",
-        "The investment grew from about $4 billion to about $5 billion.",
-        "TSMC, Samsung, Micron and Broadcom are among the customers.",
-        "Competing customers are separated by digital firewalls and physical barriers.",
-        "Micron separately plans $10 billion over 10 years in Boise."
+        "About $6.3 billion was stolen; about $3 billion is frozen.",
+        "TRM Labs and Chainalysis attribute the attack to North Korea's TraderTraitor.",
+        "Chainalysis says the withdrawals took as little as 20 minutes.",
+        "TRM found hackers began preparing about 36 hours before the attack.",
+        "Binance has not said how the engineer's laptop was compromised."
       ],
-      "next": "Watch for the first process results out of EPIC and whether the labor shortage slows the new labs.",
-      "src": [
-        [
-          "IEEE Spectrum",
-          "C",
-          "https://spectrum.ieee.org/applied-materials-epic-center"
-        ],
-        [
-          "IEEE Spectrum",
-          "C",
-          "https://spectrum.ieee.org/semiconductor-research"
-        ],
-        [
-          "Bloomberg",
-          "C",
-          "https://www.bloomberg.com/news/articles/2024-08-01/applied-materials-denied-us-chips-grant-for-4-billion-project-in-silicon-valley"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/09/17/us-chipmakers-face-deep-labor-shortage-samsung-micron-sound-alarm.html"
-        ]
-      ],
-      "flag": "IEEE Spectrum sources differ slightly on timing: one older piece says the center would open in 2026, another dates the opening to Oct. 12.",
-      "why": "Chips now take years to move from lab to fab, and AI demand is pulling capital into shortening that gap. A shared center in Silicon Valley also gives competitors a way to test processes without building their own lines."
-    },
-    {
-      "id": "binancehack",
-      "section": "engineering",
-      "motif": "shield",
-      "when": "Security",
-      "title": "Binance says hackers took $6.3 billion, the largest crypto theft on record, after a compromised engineer laptop",
-      "summary": "Binance traced the breach to an engineer's laptop, and TRM Labs and Elliptic attribute it to North Korean hackers.",
-      "story": [
-        "Binance estimates that hackers took about $6.3 billion in a breach disclosed Thursday and Friday, the largest crypto heist on record (Axios, Bloomberg, CNBC). Bloomberg reported that Binance suspended deposits and withdrawals. About $3 billion has been frozen, with Tether, Circle and others also freezing funds (CNBC). Binance says it has set aside more than $6.3 billion of its own funds to cover losses.",
-        "Binance's co-CEO said an initial investigation points to a compromised DevOps engineer's laptop, which let an attacker reach a service container and submit unauthorized withdrawal transactions. Binance says it has seen no evidence that private keys leaked (CNBC, TechCrunch). That would make the entry point a human and an endpoint, not a break in the exchange's cryptography.",
-        "TRM Labs and Elliptic both attribute the theft to North Korean hackers, TechCrunch reports. A TRM investigator said \"This was absolutely North Korea,\" according to the Wall Street Journal as cited in coverage. Elliptic said some funds ended in a wallet used in an earlier attack on the exchange Bitget. Authorities have not confirmed attribution (TechCrunch, Axios).",
-        "Markets took it in stride relative to past hacks. Bitcoin slipped below $77,000 and was near $76,820 late Friday (Bloomberg, CNBC, market data)."
-      ],
-      "facts": [
-        "Binance estimates $6.3 billion was stolen.",
-        "About $3 billion has been frozen.",
-        "An initial probe points to a compromised engineer's laptop.",
-        "Binance says no private keys leaked.",
-        "TRM Labs and Elliptic blame North Korean hackers."
-      ],
-      "next": "Watch for official attribution, more recovered funds and whether Binance restores withdrawals.",
+      "why": "The case shows that even large exchanges can fail at the weakest endpoint. A single developer machine plus automation was enough to move billions in minutes, which will push exchanges toward stricter device controls and withdrawal limits.",
+      "next": "Watch for Binance's resumption of withdrawals within 48 hours and any U.S. attribution statement.",
       "src": [
         [
           "TechCrunch",
@@ -1100,56 +921,45 @@
         [
           "Axios",
           "C",
-          "https://www.axios.com/2026/10/29/binance-cyberattack-crypto-heist"
+          "https://www.axios.com/2026/10/31/north-korea-hackers-binance-crypto"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
         ],
         [
           "Bloomberg",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/30/tech-trade-nasdaq-futures-crypto-hack.html"
+          "https://www.bloomberg.com/news/articles/2026-10-30/trump-says-us-looking-at-whether-binance-hack-was-by-north-korea"
         ]
-      ],
-      "flag": "The $6.3 billion figure is Binance's estimate and may change. North Korean attribution comes from private researchers, not authorities.",
-      "why": "The largest theft in crypto history started with one engineer's device, which shows that endpoint security and access to production containers can matter more than the cryptography. It also tests how much customers trust exchanges to cover losses."
+      ]
     },
     {
-      "id": "swiftend",
+      "id": "swiftreentry",
       "section": "science",
       "motif": "satellite",
-      "when": "Space telescope",
-      "title": "NASA's Swift telescope ends science work and is set to fall back to Earth after a failed rescue",
-      "summary": "After a private rescue craft failed, Swift stopped observing on Oct. 20 and is expected to re-enter within weeks.",
+      "when": "Swift reentry",
+      "title": "NASA's Swift observatory ends science work and will fall to Earth in the coming weeks",
+      "summary": "After a failed private rescue, the spacecraft is below 171 miles and will make an uncontrolled reentry.",
       "story": [
-        "NASA's Neil Gehrels Swift Observatory made its final observation on Oct. 20 and entered safe mode at about 171 miles (275 km) above Earth, when it could no longer offset the extra drag, NASA says. NASA then sent a command that effectively ended operations to prepare the spacecraft for re-entry, which it expects in the next few weeks. Some researchers predict re-entry on Nov. 2, Nature reports.",
-        "A private rescue attempt failed. NASA paid $30 million for the first-of-its-kind mission, Space.com reported. Katalyst Space's LINK craft launched on July 3, but some of its reaction wheels failed soon after, and controllers said on Aug. 19 that LINK would no longer try to capture and boost Swift. NASA says LINK itself re-entered on Sept. 25 (Space.com, NASA).",
-        "Increased solar activity heated and expanded the upper atmosphere, raising drag on Swift and speeding its orbital decay. NASA expects most of the spacecraft to burn up, though some components are expected to survive, with debris most likely falling into the ocean. The risk to anyone on Earth is unlikely, NASA says. Nature quotes Swift science operations lead Caryl Gronwall: \"There's definitely grief.\"",
-        "Swift observed everything from black holes to gamma-ray bursts, and astronomers are mourning its loss (Nature)."
+        "NASA ended science operations for the Neil Gehrels Swift Observatory ahead of reentry, according to NASA and Space.com. The spacecraft is now orbiting below 171 miles (275 kilometers) above Earth, and a final command put it in a configuration for its descent. NASA's last observation was Oct. 20, and it expects the uncontrolled reentry in the next few weeks.",
+        "A private rescue attempt failed. NASA and Katalyst Space announced on Aug. 19 that the LINK spacecraft would not proceed with capturing and boosting Swift. Swift then resumed observations in late August, and its Burst Alert Telescope came back online in September. Space.com reported that the restarted observations increased drag and sped the descent.",
+        "NASA expects most of the spacecraft to burn up as it falls, but said some components should survive reentry. NASA has not published a date or location, and Space.com's explainer said the timing and place are not yet predictable.",
+        "NASA titled its closing post on the mission as one that leaves behind a scientific bonanza."
       ],
       "facts": [
-        "Swift's final observation was Oct. 20.",
-        "Swift was at 171 miles (275 km) when it entered safe mode.",
-        "LINK launched July 3 and was abandoned for capture on Aug. 19.",
-        "Re-entry is expected within weeks, with some researchers predicting Nov. 2.",
-        "NASA expects most of Swift to burn up."
+        "NASA ended Swift science operations ahead of reentry (NASA Science).",
+        "Swift orbits below 171 miles (275 km).",
+        "Reentry will be uncontrolled; some components should survive.",
+        "The Katalyst LINK rescue was dropped on Aug. 19.",
+        "NASA's last science observation was Oct. 20."
       ],
-      "next": "Watch for NASA's re-entry announcement, possibly as early as Nov. 2.",
+      "why": "Swift's loss removes a fast-response tool for catching gamma-ray bursts and other transients, and the failed rescue shows how hard commercial orbital servicing still is.",
+      "next": "Reentry is expected within weeks; NASA has not given a date.",
       "src": [
         [
-          "Nature",
-          "C",
-          "https://www.nature.com/articles/d41586-026-03461-w"
-        ],
-        [
-          "NASA",
+          "NASA Science",
           "C",
           "https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/"
         ],
@@ -1159,71 +969,36 @@
           "https://www.space.com/space-exploration/missions/nasa-ends-swift-space-telescope-mission-after-failed-rescue-attempt"
         ],
         [
-          "Science",
+          "Space.com",
           "C",
-          "https://www.science.org/content/article/nasa-abandons-orbit-boosting-rescue-mission-space-observatory"
+          "https://www.space.com/space-exploration/missions/after-failure-of-private-rescue-mission-nasas-swift-space-telescope-will-crash-back-to-earth-but-when-and-where"
         ]
-      ],
-      "flag": "The Nov. 2 re-entry date is a prediction by some researchers, not a NASA date.",
-      "why": "Swift's quick-response gamma-ray burst work will be hard to replace, and the failed rescue shows commercial orbit-boosting is not yet proven. Solar activity is now shortening the lives of other low-orbit satellites."
+      ]
     },
     {
-      "id": "positron",
-      "section": "science",
-      "motif": "atom",
-      "when": "Antimatter",
-      "title": "Physicists hold a single positron in a trap for months to test matter-antimatter symmetry",
-      "summary": "Gerald Gabrielse's team cooled one positron to its lowest energy state to measure its magnetic moment with new precision.",
-      "story": [
-        "A Nature news report says Gerald Gabrielse's group at Northwestern trapped a single positron, the electron's antimatter twin, and cooled it to its lowest energy state, keeping it for months. The aim is to measure the positron's magnetic moment with extraordinary precision and compare it with the electron's (Nature). Gabrielse says that finding a mismatch between matter and antimatter would be revolutionary for physics.",
-        "The comparison tests a symmetry in physics called CPT. A 2026 arXiv preprint on a one-positron quantum cyclotron says the electron's magnetic moment is the best-measured property of any elementary particle, at about 3 parts in 10 trillion. The positron's is known about 15 times less precisely, so closing that gap is the goal.",
-        "Related antimatter measurements are already tight. The antiproton's magnetic moment has been measured to 1.5 parts per billion, and the proton's to 0.3 parts per billion. Nature's Briefing Chat on Oct. 23 covers how the team trapped the particle.",
-        "The coverage found does not give the precision the new experiment reached, so the result is a method demonstration for now."
-      ],
-      "facts": [
-        "The experiment holds one positron in a trap for months.",
-        "The team is led by Gerald Gabrielse at Northwestern.",
-        "The goal is to compare positron and electron magnetic moments.",
-        "The positron's moment is known about 15 times less precisely than the electron's.",
-        "Nature reported the work in late October."
-      ],
-      "next": "Watch for the full measurement and any difference from the electron's value.",
-      "src": [
-        [
-          "Nature",
-          "C",
-          "https://www.nature.com/articles/d41586-026-03342-2"
-        ],
-        [
-          "Nature",
-          "C",
-          "https://www.nature.com/articles/d41586-026-03418-z"
-        ]
-      ],
-      "flag": "The precision reached by the new experiment was not found in the coverage, and the electron-comparison figures come from an arXiv preprint.",
-      "why": "A matter-antimatter difference would break the Standard Model's symmetry assumptions and could help explain why the universe has more matter. Even a null result tightens one of the most precise tests in physics."
-    },
-    {
-      "id": "anthropicquestions",
+      "id": "anthropicipo",
       "section": "ai",
-      "motif": "scroll",
-      "when": "IPO questions",
-      "title": "Analysts ask what Anthropic's IPO filing leaves out: slower growth, compute costs and a valuation",
-      "summary": "CNBC lists open questions in the S-1, including about $417 billion in compute obligations and nearly half of revenue flowing through three cloud partners.",
+      "motif": "automaton",
+      "thread": "anthropic-ipo",
+      "when": "Anthropic IPO",
+      "title": "Anthropic's IPO filing meets a tech selloff as investors question compute commitments and losses",
+      "summary": "The S-1 shows an $80.7 billion first-half loss and hundreds of billions in compute obligations, with figures varying by outlet.",
       "story": [
-        "CNBC reported on Friday that analysts see several gaps in Anthropic's public S-1. The filing does not explain how much it costs to generate each added dollar of revenue as compute demand rises, and growth appears to have slowed in the third quarter, with a Morningstar analyst saying management's outlook on that slowdown was not disclosed (CNBC). About 80% of revenue is consumption-based, which leaves it exposed to swings in usage.",
-        "Compute commitments are large. The filing reportedly shows roughly $417 billion in obligations to providers, plus an expected $125 billion to $150 billion more for 2028 to 2031 deals whose pricing is not final. Analysts say it is unclear how much goes to training versus serving customers, and that split will shape margins. Close to half of revenue flows through Microsoft, Amazon and Google cloud channels, and five customers made up about a quarter of revenue in the first nine months of 2026 (CNBC).",
-        "Founders hold special voting power through a single share class with 50.1% of votes. The price is not set, and the prospectus says valuation will be \"determined by negotiations among us, the selling stockholders, and the representatives.\" Analyst estimates run from about $1 trillion to more than $2 trillion (CNBC). Bloomberg reports Anthropic is weighing 15% to 20% of shares for retail investors through JPMorgan.",
-        "CNBC's earlier coverage cited 900% revenue retention alongside $80 billion in first-half losses, and a mid-October report put third-quarter revenue near $16.8 billion."
+        "Anthropic filed publicly for a Nasdaq listing on Oct. 26 under the ticker ANT, and the filing arrives in the middle of a tech selloff over AI spending, CNBC and Bloomberg reported. Bloomberg expects a listing in November, and Axios says trading could begin before Thanksgiving. The company has not said how much it will raise.",
+        "The S-1 shows a loss of $80.7 billion in the first six months of 2026 on revenue of $16.29 billion, up 1,304%, according to coverage summarized by CNBC. Bloomberg reports minimum compute obligations of about $417 billion, with $125 billion to $150 billion more in deals still being priced. Axios cites $637 billion in one piece and $750 billion in another, so the commitment total is not settled.",
+        "CNBC's list of open questions includes whether compute costs can fall faster than commitments grow, whether Anthropic can secure enough capacity for customers, and why the filing offers little forward revenue guidance after a reported slowdown from the second to the third quarter. Nearly a quarter of 2025 revenue came from two customers. Axios reports the SpaceX compute deal reaches up to $120.5 billion through 2029 and can be canceled by either side on 90 days' notice.",
+        "Skeptics are loud. Research firm New Constructs valued the company at about $150 billion, far below the reported $2 trillion target, while others call it a generational moment. CNBC says the market backdrop has made the path to listing bumpier."
       ],
+      "flag": "Compute commitment totals differ by outlet ($417 billion, $637 billion, $750 billion) and an amended filing is expected.",
       "facts": [
-        "The S-1 was filed publicly on Oct. 26 with the ticker ANT.",
-        "The filing reportedly shows about $417 billion in compute obligations to providers.",
-        "About 80% of revenue is consumption-based.",
-        "Five customers made up about a quarter of revenue in the first nine months of 2026.",
-        "Founders hold 50.1% of votes through special voting power."
+        "Anthropic filed its S-1 on Oct. 26 to list on Nasdaq as ANT.",
+        "First-half 2026 loss was $80.7 billion on $16.29 billion in revenue.",
+        "Bloomberg reports about $417 billion in minimum compute obligations.",
+        "Nearly a quarter of 2025 revenue came from two customers.",
+        "Axios says the SpaceX compute deal can be canceled with 90 days' notice."
       ],
-      "next": "Watch for a price range and roadshow, with trading reportedly possible the week of Nov. 16.",
+      "why": "Anthropic would be the first frontier AI lab to list publicly. Its numbers will be read as a test of whether huge compute spending can turn into durable profits, and the result may set the tone for the rest of the AI trade.",
+      "next": "Watch for an amended S-1 with updated commitments and a pricing date, possibly in November.",
       "src": [
         [
           "CNBC",
@@ -1231,129 +1006,25 @@
           "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html"
         ],
         [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html"
-        ],
-        [
           "Bloomberg",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-10-28/anthropic-ipo-shutout-sends-asia-s-investors-into-proxy-bets"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
-        ]
-      ],
-      "thread": "anthropic-ipo",
-      "flag": "Sources disagree on revenue figures (Q2 appears as $10.9 billion in May and $11.56 billion in October) and on the valuation range. Numbers are provisional until checked against the S-1.",
-      "why": "A listing near $1.5 trillion to $2 trillion would be among the largest ever, and the filing puts AI lab economics, such as compute costs and customer concentration, under public scrutiny. This week's tech selloff makes pricing harder."
-    },
-    {
-      "id": "openmodels",
-      "section": "ai",
-      "motif": "chip",
-      "when": "Open weights",
-      "title": "Nvidia and Reflection push open-weight models as frontier labs pull back on safety grounds",
-      "summary": "Nvidia released free open models for agents, PCs and transcription, while OpenAI reportedly shelved a model over safety concerns.",
-      "story": [
-        "Nvidia released Nemotron 3.5 Transcribe on Wednesday, Oct. 28, a free open-weight model that transcribes recorded audio in up to 40 languages. It handles recordings, not live audio (TechCrunch). On Oct. 19 the company launched open-weight models for enterprise agents and PCs, including the 120-billion-parameter Nemotron 3.5 Super VL. Super VL and Bolt 74B-A9B are available now, and Bolt E4B was due later in October (TechCrunch).",
-        "Nvidia-backed startup Reflection unveiled a powerful open-weight model in early October. Axios expected it to trail the top U.S. models but compete with leading Chinese open models.",
-        "Closed labs are under their own pressure. CNBC reported that OpenAI decided not to release GPT-6.1 Astra after finding it did not adequately meet the company's safety standards, and sources name the model inconsistently. On Oct. 8 CNBC reported OpenAI told investors it reached about $50 billion in annualized revenue at the end of September, below an earlier $68 billion figure, and AI stocks including Nvidia fell."
-      ],
-      "facts": [
-        "Nemotron 3.5 Transcribe supports up to 40 languages and works on recordings.",
-        "Nemotron 3.5 Super VL has 120 billion parameters.",
-        "Bolt 74B-A9B and Super VL are available now.",
-        "Reflection is an Nvidia-backed open-weight startup.",
-        "OpenAI reportedly shelved GPT-6.1 Astra over safety."
-      ],
-      "next": "Watch for independent benchmarks of Reflection's model and Nvidia's Bolt E4B release.",
-      "src": [
-        [
-          "TechCrunch",
-          "C",
-          "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
-        ],
-        [
-          "TechCrunch",
-          "C",
-          "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+          "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances"
         ],
         [
           "Axios",
           "C",
-          "https://www.axios.com/2026/10/04/reflection-open-weight-ai"
+          "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises"
         ],
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+          "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
         ]
-      ],
-      "flag": "OpenAI's model name varies across sources (GPT-6 Astra or GPT-6.1 Astra). The OpenAI revenue figure comes from reports of what it told investors.",
-      "why": "Open-weight models from a chip company and a startup lower the price of agent and speech tools and give developers an alternative to closed APIs. Safety pullbacks at closed labs also raise the question of who decides what gets released."
-    },
-    {
-      "id": "earlyflu",
-      "section": "health",
-      "motif": "heart",
-      "when": "Flu season",
-      "title": "Flu is arriving early as federal vaccine messaging stays thin",
-      "summary": "Early-October flu positivity ran about six times last year's, and the CDC is promoting shots less than usual.",
-      "story": [
-        "CDC data cited by Axios show flu test positivity at about 3.6% in early October, versus 0.6% at the same point last year. NPR described the season as unusual, starting early and hitting the West rather than the South, and said the early start moves up the best time to get a flu shot (Axios, NPR).",
-        "Federal guidance is quieter than usual. On Sept. 2 the CDC extended its 2025 flu vaccine recommendations to this year, and NPR reported the agency has not been promoting flu shots as it normally does. A CDC spokesperson said it is developing a communication strategy. In January the CDC dropped its routine annual flu shot advice for children in favor of shared clinical decision-making, and pediatric groups objected (NPR).",
-        "Medical groups have filled the gap. Leading organizations issued their own recommendations for COVID-19, flu and RSV vaccines in September (NPR). A new mRNA flu vaccine is also available this season to adults 50 and older, according to CNN."
-      ],
-      "facts": [
-        "Flu positivity was about 3.6% in early October, versus 0.6% a year earlier.",
-        "The season is hitting the West earlier than the South, per NPR.",
-        "The CDC extended its 2025 flu vaccine recommendations on Sept. 2.",
-        "The CDC dropped routine annual flu shots for children in January.",
-        "An mRNA flu vaccine is available to adults 50 and older."
-      ],
-      "next": "Watch the CDC's weekly flu updates and whether it launches a vaccination campaign.",
-      "src": [
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/09/flu-cases-rise-shot"
-        ],
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/10/06/nx-s1-5985003/an-early-start-to-flu-season-moves-up-vaccination-timing"
-        ],
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/09/02/nx-s1-5947884/covid-flu-rsv-vaccine-recommendations"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/09/02/health/cdc-vaccine-guidance-gap"
-        ]
-      ],
-      "flag": "The positivity data are from early October, and the coverage found does not include newer CDC numbers.",
-      "why": "An early season in the West means Bay Area residents may want flu shots sooner than usual. With less federal promotion, local clinics, pharmacies and medical groups carry more of the messaging."
+      ]
     }
   ],
   "briefs": [
-    "BART's board picked Pacific Development and Affirmed Housing to build 643 homes, including 176 affordable, on about 12 acres of Fremont station parking lots, with approval hoped for in 2027 and construction in 2028 (SF Chronicle).",
-    "Emerson College polling from Oct. 17 to 19 has Xavier Becerra ahead of Republican Steve Hilton 60% to 33% in the California governor's race, and PPIC has a similar gap at 61% to 37% (CalMatters).",
-    "IEEE Spectrum reports d-Matrix's Raptor accelerator stacks logic directly on commodity DRAM instead of HBM, cutting data travel from millimeters to micrometers (IEEE Spectrum)."
+    "Prime Medicine has treated the first person in an in vivo prime editing trial for a genetic disease that can cause liver and nerve damage, with first results expected next year (Nature).",
+    "Virgin Galactic's first Delta-class plane, Apeiron, lifted off for the first time beneath its carrier aircraft on Oct. 29 (Space.com)."
   ]
 }
