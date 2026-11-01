@@ -1,0 +1,1163 @@
+{
+  "updatedAt": "2026-11-01T14:10:00Z",
+  "label": "Morning edition",
+  "summary": "Keanu, it is the last weekend before the midterms, and **Trump closes his campaign in Iowa and Kansas** today after cancelling and reinstating the rallies (CNN, NBC News, The Hill). Fox News and the Washington Examiner stress Democratic infighting in Michigan and Alaska, while CNN has Kansas Sen. Roger Marshall trailing by 4 points. On Iran, Qatari mediators held 12 hours of talks in Tehran, but Iran wants the blockade lifted first and US officials told allies to prepare for strikes after Nov. 3 (Axios, CNBC). In California, **Prop 40 trails in both PPIC and Berkeley IGS polls**, and the Bay Area transit tax is also on Tuesday's ballot (CalMatters, KQED, SF Chronicle). On Wall Street, the **Nasdaq had its worst day since June** on Friday, and Apple reports Monday after the close (CNBC, Bloomberg). The FBI says North Korea's TraderTraitor group stole the Binance funds, and Binance is reopening withdrawals in phases (CoinDesk, CNBC). Anthropic's IPO faces a **skeptical AI market** after an $80.7 billion half-year loss, mostly non-cash (CNBC).",
+  "alerts": [
+    {
+      "text": "Prop 40 and the Bay Area regional transit tax are both on your ballot Tuesday; Prop 40 trails in two polls.",
+      "level": "high",
+      "story": "prop40vote"
+    },
+    {
+      "text": "Apple reports earnings Monday, Nov. 2, after the close, with the Nasdaq near correction territory.",
+      "level": "watch",
+      "story": "selloffweek"
+    },
+    {
+      "text": "Qatar-brokered Iran talks could produce news before Tuesday, or strikes could follow the election.",
+      "level": "watch",
+      "story": "iranqatar"
+    },
+    {
+      "text": "Clocks went back an hour overnight for the end of daylight saving time.",
+      "level": "info"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "midtermsfinal",
+      "text": "Trump closes the midterm campaign in Iowa and Kansas as Senate control hangs on toss-ups."
+    },
+    {
+      "story": "prop40vote",
+      "text": "Prop 40 billionaire tax trails in PPIC and Berkeley polls ahead of Tuesday's vote."
+    },
+    {
+      "story": "iranqatar",
+      "text": "Qatar presses Iran and the US toward talks while allies prepare for post-election strikes."
+    },
+    {
+      "story": "selloffweek",
+      "text": "Nasdaq near correction as Apple reports Monday after a brutal week for AI stocks."
+    },
+    {
+      "story": "binancefbi",
+      "text": "FBI blames North Korea's TraderTraitor for the $6.3 billion Binance theft."
+    }
+  ],
+  "stat": {
+    "label": "September PCE inflation, headline",
+    "value": "3.6%",
+    "note": "Core PCE was 3.1%; the Fed held at 3.75%-4% (CNBC)"
+  },
+  "markets": {
+    "asOf": "Fri Oct 30, 5:15 PM ET",
+    "wrap": "The **Nasdaq fell 2.86% on Friday** to 25,437, its worst day since June, as Intel dropped about 29% and Amazon's cash burn revived doubts about AI returns (CNBC, Bloomberg). The S&P 500 lost 1.82% and the Dow 1.09%, and the 10-year yield eased to 4.93%. WTI crude rose 2.08% to $104.12 on Houthi attacks on Saudi Arabia (CNBC). Every watchlist name fell, led by Nvidia at -4.22%, and Apple reports Monday after the close (CNBC). Bitcoin traded near $77,800.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,580.07",
+        "raw": 7580.07,
+        "change": "-1.82%",
+        "dir": "down",
+        "time": 1793393263,
+        "spark": [
+          7651.54,
+          7666.45,
+          7722.72,
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "51,770.31",
+        "raw": 51770.31,
+        "change": "-1.09%",
+        "dir": "down",
+        "time": 1793393273,
+        "spark": [
+          50906.05,
+          50926.56,
+          51176.96,
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,437.00",
+        "raw": 25436.998,
+        "change": "-2.86%",
+        "dir": "down",
+        "time": 1793394959,
+        "spark": [
+          26861.06,
+          26871.6,
+          27190.86,
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.93%",
+        "raw": 4.929,
+        "change": "-1.20%",
+        "dir": "down",
+        "time": 1793386794,
+        "spark": [
+          5.29,
+          5.24,
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$104.12",
+        "raw": 104.12,
+        "change": "+2.08%",
+        "dir": "up",
+        "time": 1793393999,
+        "spark": [
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$77,820",
+        "raw": 77820.36,
+        "change": "+0.49%",
+        "dir": "up",
+        "time": 1793540952,
+        "spark": [
+          84853.1,
+          84497.21,
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          77823.64
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$204.64",
+        "raw": 204.64,
+        "change": "-4.22%",
+        "dir": "down",
+        "time": 1793390401,
+        "spark": [
+          228.38,
+          230.86,
+          233.95,
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64
+        ],
+        "note": "AI and chip stocks sold off on doubts about AI spending returns; Bloomberg and CNBC said no single Nvidia trigger was named."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$344.63",
+        "raw": 344.63,
+        "change": "-1.23%",
+        "dir": "down",
+        "time": 1793390401,
+        "spark": [
+          333.02,
+          330.32,
+          333.69,
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$521.91",
+        "raw": 521.91,
+        "change": "-1.55%",
+        "dir": "down",
+        "time": 1793390401,
+        "spark": [
+          512.9,
+          512.8,
+          517.53,
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$279.84",
+        "raw": 279.84,
+        "change": "-1.40%",
+        "dir": "down",
+        "time": 1793390401,
+        "spark": [
+          344.08,
+          338.24,
+          343.5,
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$399.81",
+        "raw": 399.81,
+        "change": "-0.87%",
+        "dir": "down",
+        "time": 1793390400,
+        "spark": [
+          354.81,
+          354.11,
+          370.59,
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$240.35",
+        "raw": 240.35,
+        "change": "-1.41%",
+        "dir": "down",
+        "time": 1793390401,
+        "spark": [
+          249.15,
+          248.23,
+          251.52,
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 49.8,
+      "feels": 48.4,
+      "hum": 96,
+      "wind": 2.6,
+      "cond": "cloudy"
+    },
+    "days": [
+      {
+        "date": "2026-10-31",
+        "hi": 65,
+        "lo": 48,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-11-01",
+        "hi": 62,
+        "lo": 50,
+        "cond": "drizzle",
+        "pop": 68
+      },
+      {
+        "date": "2026-11-02",
+        "hi": 64,
+        "lo": 49,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-11-03",
+        "hi": 65,
+        "lo": 54,
+        "cond": "drizzle",
+        "pop": 42
+      },
+      {
+        "date": "2026-11-04",
+        "hi": 68,
+        "lo": 51,
+        "cond": "cloudy",
+        "pop": 3
+      },
+      {
+        "date": "2026-11-05",
+        "hi": 74,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 2
+      },
+      {
+        "date": "2026-11-06",
+        "hi": 77,
+        "lo": 56,
+        "cond": "cloudy",
+        "pop": 2
+      }
+    ]
+  },
+  "recap": {
+    "week": "Oct 26-Nov 1",
+    "summary": "The week ended with the **midterms two days away** and Democrats ahead in national polls, though Senate races in Texas, Michigan, Iowa and Kansas stayed close (CNN, The Hill). Judge Carter refused the Justice Department's bid to set aside 20,000 California voter records (per earlier editions). On Iran, the US readied strikes while Qatari mediators pushed for talks (Axios, CNBC). Markets turned sharply as Alphabet had a record one-day drop, Intel plunged and the **Nasdaq neared a correction** (CNBC, Bloomberg). Anthropic filed its S-1, and Binance suffered the largest crypto theft on record, now attributed to North Korea (CNBC, TechCrunch, CoinDesk).",
+    "top": [
+      {
+        "text": "Democrats led national polls and Senate odds improved going into Tuesday's vote.",
+        "story": "midtermsfinal"
+      },
+      {
+        "text": "Qatari mediators pressed Iran while the US warned allies of post-election strikes.",
+        "story": "iranqatar"
+      },
+      {
+        "text": "Nasdaq fell 2.86% Friday, its worst day since June, as Intel lost about 29%.",
+        "story": "selloffweek"
+      },
+      {
+        "text": "Binance lost $6.3 billion; the FBI blamed North Korea's TraderTraitor.",
+        "story": "binancefbi"
+      },
+      {
+        "text": "Anthropic filed to go public, disclosing an $80.7 billion half-year loss.",
+        "story": "anthropicipoweek"
+      }
+    ],
+    "ahead": [
+      {
+        "date": "Mon Nov 2",
+        "text": "Apple (AAPL) reports earnings after the close."
+      },
+      {
+        "date": "Tue Nov 3",
+        "text": "Election Day: Congress, Prop 40, Props 41 and 42, and the Bay Area regional transit measure."
+      },
+      {
+        "date": "Fri Nov 6",
+        "text": "October jobs report; economists expect roughly 55,000 to 72,500 jobs and 4.2% unemployment."
+      },
+      {
+        "date": "Nov 6-10",
+        "text": "Possible Ukraine-Russia-US technical talks in Abu Dhabi, if a date is set."
+      },
+      {
+        "date": "Tue Nov 17",
+        "text": "NVIDIA (NVDA) reports earnings after the close."
+      },
+      {
+        "date": "After Nov 3",
+        "text": "Anthropic IPO timing; Reuters says after the midterms, Axios says possibly before Thanksgiving."
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "midtermsfinal",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Final weekend",
+      "title": "Trump closes the midterm campaign in Iowa and Kansas as control of Congress hangs on toss-up Senate races",
+      "summary": "Trump holds rallies in Dubuque and Salina on Sunday after cancelling and then reinstating them, with two days to go.",
+      "story": [
+        "President Trump ends his midterm blitz today with rallies in Dubuque, Iowa, and Salina, Kansas, CNN and ABC News report. The White House had pulled both events on Thursday in favor of tele-rallies, then put them back after the RNC announced the new schedule on Friday (NBC News, The Hill). CNN says more than 50 million early votes have already been cast. Election Day is Tuesday, Nov. 3.",
+        "The Kansas stop matters because Sen. Roger Marshall trails Democrat Adam Hamilton by 4 points in a CNN poll, The Hill reports. Trump had said he did not need to go to Kansas because Marshall was doing well, which CNN says undercut the claim that the seat was safe. In Iowa, an Emerson College/The Hill poll has Rep. Ashley Hinson leading Democrat Josh Turek by 2 points. The Cook Political Report rates both races as toss-ups, according to The Hill.",
+        "Fox News and the Washington Examiner point to other late fronts. Michigan Democrats are quarreling, with Abdul El-Sayed's campaign telling former primary rival Rep. Haley Stevens to stay away from his events. A Fox News poll shows a dead heat in Maine. In Alaska, federal and state probes are looking at claims that operatives tied to Democrat Mary Peltola helped recruit a candidate who shares Sen. Dan Sullivan's name; Peltola denies involvement. Republicans hold the Senate 53-47 and a narrow House majority.",
+        "NPR describes Trump's Friday rally in Daytona Beach, Florida, as a farewell-flavored stop. He told the crowd \"I hope you enjoy it because you're never going to see it again.\" He has held 25 rallies in the past month."
+      ],
+      "facts": [
+        "Trump rallies Sunday in Dubuque, Iowa (afternoon) and Salina, Kansas (evening), per ABC News.",
+        "CNN reports more than 50 million early votes cast.",
+        "CNN poll: Marshall (R-KS) trails Hamilton (D) by 4 points; Emerson/The Hill: Hinson (R-IA) leads by 2.",
+        "Cook Political Report rates the Kansas and Iowa Senate races as toss-ups (The Hill).",
+        "Republicans hold the Senate 53-47 before the vote (Fox News)."
+      ],
+      "left": "Democrats and the outlets covering them frame the closing stretch as a referendum on a president whose approval sits in the low-to-mid 30s in several polls. They point to Republican defense in red states like Kansas and Iowa as proof the map has moved. They also see the rally cancellations and reversals as a campaign that is short of energy and money, and argue the early-vote surge shows an engaged anti-Trump electorate.",
+      "right": "Republican-leaning outlets argue the polls undercount their voters, as in past cycles, and that Trump's rally schedule shows he is fighting for every seat. They stress that Democrats are the ones with problems in Michigan and Alaska, and that Republicans hold a 53-47 Senate cushion. They say history favors the party out of power, but a split Democratic message and inflation worries still give the GOP a path to hold the House.",
+      "next": "Polls open Tuesday, Nov. 3. Watch Texas, Michigan, Ohio, Maine, Iowa, Kansas and Alaska for Senate control.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6183998-trump-iowa-kansas-rallies-back-on/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/30/politics/trump-rally-cancellation-midterms"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/01/nx-s1-6022128/trump-rally-2026-midterms-republicans"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-kansas-november-1"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/live-blog/2026-midterm-elections-live-updates/"
+        ]
+      ]
+    },
+    {
+      "id": "iranqatar",
+      "section": "politics",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran talks",
+      "title": "Qatar presses US and Iran toward talks as Washington warns allies of strikes after the midterms",
+      "summary": "Iran wants the blockade lifted first, the US wants the uranium stockpile, and Trump says he has no hard timetable.",
+      "story": [
+        "Qatari mediators held more than 12 hours of talks in Tehran on Friday aimed at restarting direct US-Iran negotiations and avoiding renewed American strikes, Axios and CNBC report. Iran's foreign minister said he has no plans to meet US officials, and an Iranian delegation has gone to Qatar to talk with the mediators. On Saturday Trump said the US has no hard timetable for a deal, and earlier he said Washington is not in \"that much of a hurry\" (Washington Examiner).",
+        "The gap is sequencing. Iran's demands include lifting the US naval blockade, releasing frozen funds and allowing oil sales before nuclear talks resume; Iran's parliamentary speaker says progress is possible only after its seven conditions are met. The US wants Iran to give up its enriched uranium stockpile. Axios reports the Qataris brought ideas to bridge the two positions.",
+        "US officials have warned Gulf allies to prepare for possible renewed strikes after the Nov. 3 midterms, though Trump has not announced a decision, Axios and CNN report. CNN says the region is bracing for the war to restart. Axios reported that the top US Middle East commander briefed Trump on the naval blockade, with Treasury Secretary Scott Bessent attending.",
+        "Fox News reported Trump saying Iran wants to talk and predicting the conflict will end \"very soon.\" Tehran denies it is negotiating directly with Washington."
+      ],
+      "flag": "Whether the Qatari proposals narrow the gap is unconfirmed; neither government has described them publicly.",
+      "facts": [
+        "Qatari mediators held 12+ hours of talks in Tehran on Friday (Axios, CNBC).",
+        "Iran's foreign minister says no plans to meet US officials; a delegation is in Qatar.",
+        "Iran demands the blockade be lifted and frozen funds released first; the US demands the enriched uranium stockpile.",
+        "US officials told allies to prepare for possible strikes after Nov. 3 (Axios).",
+        "Trump said Saturday there is no hard timetable for a deal."
+      ],
+      "left": "Progressives argue a negotiated deal is the only durable exit and that threatening a huge strike package days after an election looks political. They note oil near the century mark is hurting American consumers and that the blockade punishes ordinary Iranians. They want Congress to demand a vote before any new strikes and welcome Qatari mediation.",
+      "right": "Conservatives argue pressure is working: the blockade is costing Iran's economy and Tehran is now at the table through mediators. They say a deal that leaves enriched uranium in Iranian hands would repeat past mistakes, so Trump is right not to hurry. Keeping military options ready, they say, is what gives the diplomacy its leverage.",
+      "next": "Watch for a Qatar-brokered announcement before Tuesday, or strike decisions after the Nov. 3 election.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/31/middleeast/gulf-braces-us-midterms-intl"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/world/4787211/trump-iran-negotiations-not-in-hurry/"
+        ]
+      ]
+    },
+    {
+      "id": "prop40vote",
+      "section": "local",
+      "motif": "scales",
+      "thread": "california-billionaire-tax",
+      "when": "Prop 40 vote",
+      "title": "California's Prop 40 billionaire tax heads to Tuesday's vote trailing in polls, with two countermeasures that could cancel it",
+      "summary": "PPIC has the tax at 46% yes and 52% no, and UC Berkeley's IGS poll shows it down 42% to 50%.",
+      "story": [
+        "California voters decide Prop 40 on Tuesday, and both big polls show it losing ground. PPIC found 46% of likely voters in favor and 52% opposed, CalMatters reported. UC Berkeley's IGS poll has 42% yes and 50% no, down from 45% yes and 42% no a month ago, according to KQED.",
+        "Props 41 and 42 add a twist. If all three pass and 41 or 42 gets more votes than Prop 40, the state cannot enforce the billionaire tax, KQED reports. Gov. Newsom opposes Prop 40, supports Prop 42, which would bar new state taxes on personal property such as investments, and says he will vote no on the tax, CalMatters and Fox Business report. He has called for a national billionaire tax instead.",
+        "Money is lopsided. KQED reports billionaires have spent more than $300 million to defeat the tax, and CalMatters says Google co-founder Sergey Brin has put in at least $102 million. A Stanford working paper by Jaros and Rauh estimates a long-run net loss of $39 billion in the average scenario (SF Chronicle). Some economists dispute that study.",
+        "Supporters, led by health-care workers' union SEIU-UHW, argue California's economy can keep most of its 216 billionaires. Critics, including Republican gubernatorial candidate Steve Hilton, call it a symbol of one-party failure."
+      ],
+      "facts": [
+        "PPIC: 46% yes, 52% no among 1,086 likely voters (CalMatters).",
+        "UC Berkeley IGS: 42% yes, 50% no (KQED).",
+        "If Prop 41 or 42 outpolls Prop 40, the state cannot enforce the tax (KQED).",
+        "Brin has given at least $102 million to the opposition (CalMatters).",
+        "Voters decide Tuesday, Nov. 3."
+      ],
+      "left": "Supporters argue much wealth in stock and private companies escapes income tax, and that a one-time levy would backfill health care and education as federal cuts bite. They say flight threats are overstated and that opposition spending of more than $300 million shows how much the wealthiest want to defeat it. They are angry that Newsom and some Democrats sided with the opposition.",
+      "right": "Opponents argue the tax would raise far less than promised, push high earners and their income-tax payments out of state, and be widened later. They cite Stanford economists' estimate of a net loss and say a retroactive tax on unrealized wealth chills investment. Many back Prop 42 as a firewall against future wealth taxes.",
+      "next": "Results Tuesday night. Watch whether Props 41 or 42 outpoll Prop 40.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/prop-40-poll/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/10/newsom-tax-propositions-november-election/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/california/article/billionaire-tax-analysis-22485993.php"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/peter-thiel-donates-3m-group-fighting-proposed-california-billionaire-tax"
+        ]
+      ]
+    },
+    {
+      "id": "transitfinal",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Transit tax",
+      "title": "Bay Area voters decide a regional transit sales tax as BART, Caltrain and Muni warn of deep cuts",
+      "summary": "The measure needs a simple majority in five counties; agencies say failure could close BART stations and halve Caltrain service.",
+      "story": [
+        "On Tuesday voters in Alameda, Contra Costa, San Francisco, San Mateo and Santa Clara counties decide the Regional Transit Measure, KQED reports. It would add a 0.5% sales tax, 1% in San Francisco, for 14 years and raise about $1 billion a year for AC Transit, BART, Caltrain, Muni and other agencies. It needs a simple majority.",
+        "The SF Chronicle's editorial board, which endorses a yes vote, says failure could mean BART closing up to 15 stations and cutting service by as much as 70%, with Caltrain dropping to one train an hour and ending weekend service. A separate San Francisco parcel tax on the same ballot would raise about $183 million a year for Muni, with a base rate of $129 for most homeowners (SF Standard).",
+        "Opponents, including former state Sen. Steve Glazer, call the sales tax regressive and want agencies to cut costs and administration first, the Chronicle reports. Analysts quoted by the SF Standard earlier this year saw the Muni tax as likely to pass and the regional measure as a closer call, with Contra Costa the hardest county."
+      ],
+      "blindspot": "Covered mainly by center and left-leaning Bay Area outlets; no right-leaning coverage found.",
+      "facts": [
+        "Five-county sales tax: 0.5%, or 1% in San Francisco, for 14 years (KQED).",
+        "Raises about $1 billion a year for transit operations (KQED).",
+        "BART warns of up to 15 station closures and 70% service cuts (SF Chronicle).",
+        "Caltrain could drop to one train per hour with no weekend service (SF Chronicle).",
+        "Vote is Tuesday, Nov. 3; simple majority needed."
+      ],
+      "left": "Supporters argue transit is a climate, equity and affordability lifeline for workers who cannot drive, and that a regional tax shares the burden across counties. They say service cuts would spiral into lower ridership and more traffic. They point to the Chronicle and KQED guides as showing the stakes.",
+      "right": "Critics argue a regressive sales tax should come only after agencies show they can control labor costs and top-heavy administration. They say riders and taxpayers have been told to expect crisis before and want reforms and accountability tied to the money. Some suburban voters question paying for systems they rarely use.",
+      "next": "Results Tuesday night; Contra Costa and San Mateo counties are the swing counties to watch.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/voterguide/california/regional-measure-rtm"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/regional-transit-measure-bay-area-22424231.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/forum/2010101915410/regional-ballot-measure-is-a-14-billion-bet-on-bay-area-transit"
+        ],
+        [
+          "SF Standard",
+          "C",
+          "https://sfstandard.com/2026/05/28/san-francisco-muni-parcel-tax-measure-signatures/"
+        ],
+        [
+          "SF Standard",
+          "C",
+          "https://sfstandard.com/2026/03/18/sf-muni-tax-likely-to-pass-regional-transit-measure-toss-up/"
+        ]
+      ]
+    },
+    {
+      "id": "oleshkaend",
+      "section": "world",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Oleshky truce",
+      "title": "Melania Trump-brokered Oleshky truce reaches its scheduled end as US-led talks wait for a date",
+      "summary": "The local ceasefire held without reported violations in its first days; any extension and the Abu Dhabi talks remain unconfirmed.",
+      "story": [
+        "A localized Russia-Ukraine ceasefire around the occupied city of Oleshky, brokered by first lady Melania Trump, was set to run from Oct. 27 until 22:59 on Nov. 1, according to Ukraine's lead negotiator as reported by Ukrainian media. It was meant to allow humanitarian aid and civilian evacuation. ABC News reported no violations in the first 30 hours, and NBC News reported an aid mission entering the city on the third day.",
+        "Ukrainian President Volodymyr Zelensky said Kyiv would honor the truce and counts on US mediation. Kremlin spokesman Dmitry Peskov also said no violations had been recorded around the city. The Hill and NPR reported the zone was widened beyond Oleshky, and Fox News credited the first lady with a quiet diplomatic role.",
+        "Larger talks are still unscheduled. Delegations from Ukraine, Russia and the United States are expected in Abu Dhabi in November, and Zelensky hopes for Nov. 6-10, after the US midterms, ABC News reported. Russia continues to demand that Ukraine cede all of the eastern Donbas, including land it has not captured; Kyiv rejects that."
+      ],
+      "flag": "Whether the ceasefire was extended past Nov. 1 is unconfirmed; one outlet reported an extension, but no second source found.",
+      "facts": [
+        "Truce began Oct. 27 and was set to end at 22:59 on Nov. 1.",
+        "ABC News: no violations reported in the first 30 hours.",
+        "Zelensky said Ukraine would honor the truce and counts on US mediation.",
+        "Technical talks in Abu Dhabi are expected in the first half of November, with no date set.",
+        "Russia demands all of Donbas; Kyiv refuses (ABC News)."
+      ],
+      "left": "Critics on the left welcome any humanitarian pause but question why the first lady, not diplomats, is the channel, and whether Washington is pressing Kyiv to concede territory. They want any broader deal to include security guarantees for Ukraine rather than ratify Russian gains.",
+      "right": "Conservative outlets present the truce as proof Trump's unconventional diplomacy can produce results where formal channels stalled. They argue a negotiated end to the war is in US interests and that Europe should carry more of the burden for Ukraine's defense.",
+      "next": "Watch for an extension announcement and a date for the Abu Dhabi talks, possibly Nov. 6-10.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6174582-melania-trump-ukraine-oleshky-ceasefire-takes-effect/"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/10/27/nx-s1-6019612/why-ukraine-and-russia-agreed-to-a-ceasefire-in-just-one-city"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/ukraine/aid-mission-oleshky-localized-russia-ukraine-truce-holds-rcna606170"
+        ],
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/International/wireStory/ceasefire-russian-occupied-ukrainian-city-holds-30-hours-137632288"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/inside-melania-trumps-secret-diplomatic-role-russia-ukraine-ceasefire-deal"
+        ]
+      ]
+    },
+    {
+      "id": "weekaheadecon",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed and jobs",
+      "title": "Inflation runs at 3.6% as the Fed holds and Friday's jobs report could keep rate hikes on the table",
+      "summary": "Economists expect 55,000 to 72,500 new jobs in October with unemployment steady at 4.2%.",
+      "story": [
+        "The Federal Reserve held its benchmark rate at 3.75% to 4% at its late-October meeting and said inflation \"remains elevated,\" CNBC reported. September PCE inflation ran at 3.6% headline and 3.1% core, according to CNBC. A CNBC survey earlier in the week said rate hikes are coming, but not at the last meeting.",
+        "The next test is Friday's October jobs report. Forecasts differ: Bloomberg's preview expects about 65,000 jobs, CNBC cites FactSet at 55,000 in one piece and 72,500 in another, and all see unemployment steady at 4.2%. Bloomberg says a strong print could keep the Fed on track for more rate increases. Jobless claims fell to 194,000 for the week ended Oct. 24.",
+        "Energy remains the swing factor. WTI crude settled at $104.12 on Friday, up 2.08%, on Houthi attacks on Saudi Arabia and Hormuz tensions, and Brent was around $117.6, CNBC and Fox News reported. The 10-year Treasury yield eased to 4.93%. Oil is on track for a fourth straight monthly gain."
+      ],
+      "facts": [
+        "Fed funds range 3.75%-4%; Fed says inflation \"remains elevated\" (CNBC).",
+        "September PCE: 3.6% headline, 3.1% core (CNBC).",
+        "October jobs report is due Friday, Nov. 6; forecasts range from 55,000 to 72,500 (Bloomberg, CNBC).",
+        "Unemployment is expected to hold at 4.2%.",
+        "WTI settled at $104.12, up 2.08% on Friday."
+      ],
+      "left": "Progressives worry that a Fed focused on inflation driven by war and oil supply shocks could hike into a weak labor market, hurting workers who see only 55,000 to 72,500 new jobs a month. They tie the energy price spike to the Iran war and want relief for households.",
+      "right": "Conservatives say inflation at 3.6% is the central economic failure and that the Fed must act. They tie high prices to administration spending and energy policy, while some argue Trump's pressure on Iran will lower oil once Hormuz reopens.",
+      "next": "Jobs report Friday, Nov. 6; Apple earnings Monday, Nov. 2, set the tone for tech.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+        ]
+      ]
+    },
+    {
+      "id": "selloffweek",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Tech selloff",
+      "title": "Nasdaq ends a third losing week near correction as Apple reclaims the top market value ahead of earnings",
+      "summary": "Intel's 29% drop, Alphabet's record one-day fall and Amazon's cash burn weighed on AI stocks before Apple reports Monday.",
+      "story": [
+        "The Nasdaq closed Friday down 2.86% at 25,437.00, its worst day since June, while the S&P 500 fell 1.82% to 7,580.07 and the Dow lost 1.09% to 51,770.31, CNBC and Bloomberg reported. Bloomberg put the Nasdaq 100 down 3.5% and said the selling capped a third week of losses. Intel fell about 29% on weak guidance, its worst day since 1974 according to CNBC.",
+        "Alphabet had its worst day on record on Thursday, falling more than 12%, and Amazon reported negative free cash flow of $42.4 billion with capex plans unchanged, CNBC said. Nvidia dropped 4.2% and Apple reclaimed the title of most valuable company, Bloomberg reported. A strategist told Bloomberg the market is leaving the \"hopes and dreams phase of the AI trade\" for a \"show me\" phase.",
+        "Apple reports Monday after the close in CEO John Ternus's first earnings release, CNBC says. The stock trades near 40 times earnings, and Bank of America removed it from its top-ideas list over gross-margin risk. Jim Cramer is bullish but warns valuation leaves little room for error. Defensive sectors such as staples and health care rose on Friday."
+      ],
+      "why": "AI spending is now judged on returns, not promises. Heavy capex and negative free cash flow are hitting even the largest firms, which matters for chip demand and for IPOs such as Anthropic's.",
+      "facts": [
+        "Nasdaq -2.86% to 25,437.00; S&P 500 -1.82% to 7,580.07; Dow -1.09% to 51,770.31.",
+        "Intel fell about 29%, its worst day since 1974 (CNBC).",
+        "Alphabet fell more than 12% Thursday, a record one-day drop (CNBC).",
+        "Amazon free cash flow was negative $42.4 billion (CNBC).",
+        "Apple reports Monday, Nov. 2, after the close."
+      ],
+      "next": "Apple earnings Monday after the close; Nvidia reports Nov. 17.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-30/ai-dip-buyers-gored-as-selling-spasm-caps-third-week-of-losses"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html"
+        ]
+      ]
+    },
+    {
+      "id": "binancefbi",
+      "section": "engineering",
+      "motif": "shield",
+      "thread": "binance-hack",
+      "when": "Binance hack",
+      "title": "FBI blames North Korea for the $6.3 billion Binance theft as the exchange reopens withdrawals in phases",
+      "summary": "The FBI named TraderTraitor and published hundreds of addresses to block; Binance says it has replaced most affected assets.",
+      "story": [
+        "The FBI said Saturday that North Korea's TraderTraitor group was behind the record $6.3 billion theft from Binance, CoinDesk reported. It listed more than 600 Ethereum addresses, just under 20 Bitcoin addresses and one Solana address, and asked the crypto community to block them. Binance began reopening withdrawals in phases on Sunday, starting with bitcoin, CoinDesk and CNBC said.",
+        "TRM Labs estimated about $6.36 billion moved from Binance wallets across 10 blockchains, most of it within roughly 20 minutes, and attributed the attack to TraderTraitor with high confidence (CNBC, TechCrunch). Chainalysis and Elliptic also point to North Korea. About $3 billion has been frozen, according to a Binance update reported by CNBC. Binance said it had restored backing for about 90% of affected assets, later about 95%, using company funds; that is not the same as recovering the stolen funds.",
+        "The entry point is still unclear. Binance first pointed to a compromised engineer's laptop, but co-CEO Richard Teng later said the probe found additional breaches (CNBC). CoinDesk reported the attacker abused an Ethereum permission to drain about $2.5 billion, and found the compromised wallets had been on a list of assets backing customer balances, which Binance disputes by calling the target its own hot wallet. The attacker swapped $325 million in stablecoins for $285 million in ETH within about 20 minutes to avoid freezes."
+      ],
+      "flag": "The full attack path has not been published, and the dispute over whether customer-backing wallets were hit is unresolved.",
+      "why": "It shows hot-wallet permissions and key handling remain the weakest point at even the largest exchanges, and that fast automated laundering outruns freezes. Funding a state weapons program is now a core threat model for crypto custody.",
+      "facts": [
+        "TRM Labs estimates $6.36 billion moved across 10 blockchains in about 20 minutes.",
+        "The FBI named TraderTraitor and listed 600+ Ethereum addresses to block (CoinDesk).",
+        "About $3 billion has been frozen so far (CNBC).",
+        "Binance says backing is restored for about 95% of affected assets (CoinDesk).",
+        "Withdrawals reopened in phases starting Sunday, Nov. 1."
+      ],
+      "next": "Watch for a published root-cause report and further freezes of the flagged addresses.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/"
+        ],
+        [
+          "CoinDesk",
+          "C",
+          "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+        ],
+        [
+          "The Block",
+          "C",
+          "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
+        ],
+        [
+          "CoinDesk",
+          "C",
+          "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance"
+        ]
+      ]
+    },
+    {
+      "id": "rubinplanet",
+      "section": "science",
+      "motif": "planet",
+      "when": "Dwarf planet?",
+      "title": "Rubin Observatory spots a possible new dwarf planet beyond Pluto, designated 2026 ED138",
+      "summary": "Astronomers estimate it is 600 to 1,500 km wide and about 46 AU from the Sun; size confirmation will take months.",
+      "story": [
+        "Astronomers working with Vera Rubin Observatory data have flagged a large object beyond Neptune, provisionally 2026 ED138, as a possible dwarf planet, Space.com and NSF report. Matthew Holman of the Center for Astrophysics first picked it out on Oct. 13 using code he built with Kevin Napier to sift billions of moving-object detections, and it was announced Oct. 27.",
+        "The object lies about 46 astronomical units from the Sun with an estimated diameter of 600 to 1,500 kilometers, though those figures could change, according to coverage by Scripps News and others. It was missed earlier partly because it sits in the southern sky near the Milky Way's plane, which makes it hard to see from the northern hemisphere.",
+        "Confirming its status depends on measuring its size, which needs infrared observations such as from the James Webb Space Telescope, Space.com reports. Holman said that will probably take a few months, and he describes it as still a candidate. If it is confirmed, it would get a permanent number and then a name."
+      ],
+      "flag": "Size and dwarf-planet status are unconfirmed; the 600 to 1,500 km range is an estimate.",
+      "why": "Rubin's survey is built to find exactly this kind of faint, slow-moving object. A large body found with new software suggests many more distant worlds remain undiscovered in the outer solar system.",
+      "facts": [
+        "Provisional designation 2026 ED138, found in Rubin Observatory data.",
+        "Identified Oct. 13 by Matthew Holman; announced Oct. 27.",
+        "Estimated distance about 46 AU; estimated diameter 600 to 1,500 km.",
+        "Status is a dwarf planet candidate pending size measurements.",
+        "Follow-up needs infrared observations, such as from JWST."
+      ],
+      "next": "Size measurements are expected to take a few months.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/dwarf-planets/astronomers-found-a-mysterious-object-beyond-neptune-and-it-could-be-a-new-dwarf-planet"
+        ],
+        [
+          "NSF",
+          "C",
+          "https://nsf.gov/news/new-dwarf-planet-candidate-discovered-nsf-doe-rubin"
+        ],
+        [
+          "Scripps News",
+          "C",
+          "https://www.scrippsnews.com/science-and-tech/space/astronomers-make-startling-discovery-of-a-possible-dwarf-planet-beyond-pluto"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipoweek",
+      "section": "ai",
+      "motif": "chip",
+      "thread": "anthropic-ipo",
+      "when": "Anthropic IPO",
+      "title": "Anthropic's IPO path gets bumpier as a falling AI trade meets an $80.7 billion half-year loss and huge compute bills",
+      "summary": "CNBC says the S-1 shows $417 billion in compute obligations; WSJ-sourced reports put total plans far higher.",
+      "story": [
+        "Anthropic's S-1 shows a first-half 2026 net loss of $80.7 billion on $16.3 billion in revenue, CNBC and TechCrunch report. CNBC says most of the loss came from non-cash changes in the fair value of convertible notes and derivatives, including a $72.4 billion item, and notes an implied 85% gross margin. Revenue was $1.2 billion in the same period a year earlier.",
+        "Compute figures vary by source. CNBC says the filing shows about $417 billion owed to providers, while Bloomberg, citing the Wall Street Journal, says Anthropic could spend $750 billion on computing, and Axios cites more than $600 billion in future infrastructure costs with up to $150 billion more under negotiation. Draft figures reported earlier were different again, so the numbers are not interchangeable.",
+        "CNBC says the path to the Nasdaq got bumpier after Microsoft, Google and Amazon reported results days after the filing, and as worries grew about neocloud borrowing costs. Axios reported shares could trade before Thanksgiving, while Reuters said the debut is likely after the midterms. Bulls cite growth; bears cite losses, concentration (nearly a quarter of revenue came from two customers last year) and more than 90 pages of risk factors."
+      ],
+      "flag": "Compute commitment totals differ by source and filing version; IPO terms and date are not set.",
+      "why": "Anthropic is the largest AI IPO test. Its reception will signal whether public markets will fund compute-heavy labs when the biggest spenders are being punished for capex.",
+      "facts": [
+        "First-half 2026 net loss of $80.7 billion, mostly non-cash (CNBC).",
+        "First-half revenue $16.3 billion (TechCrunch).",
+        "Filing shows about $417 billion of compute obligations (CNBC); WSJ-based reports say $600-750 billion.",
+        "Reports differ on timing: before Thanksgiving (Axios) or after the midterms (Reuters).",
+        "Target valuation reported between $1.5 trillion and over $2 trillion."
+      ],
+      "next": "Watch for pricing terms and a listing date after the Nov. 3 midterms.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-20/anthropic-could-spend-750-billion-on-computing-costs-wsj-says"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/21/anthropic-ipo-ai-costs"
+        ]
+      ]
+    },
+    {
+      "id": "aicapexcheck",
+      "section": "ai",
+      "motif": "gear",
+      "when": "AI capex check",
+      "title": "Microsoft trims its capex forecast, Meta's outlook turns negative and OpenAI lowers its funding target",
+      "summary": "Investors are rewarding cloud growth and punishing cash burn, and big raises are getting harder to close.",
+      "story": [
+        "Microsoft cut its fiscal-year capex forecast to $170 billion from $175 billion and said delays at third-party AI chip providers will push some capacity into the first half of 2027, CNBC reported. Investors liked the report because Azure sales grew 48% and results beat estimates. Alphabet held its guidance at $195 billion to $205 billion.",
+        "Meta raised the low end of its 2026 capex range to $135 billion to $145 billion on Oct. 21. Its shares fell nearly 7% after the report showed negative free cash flow, and S&P Global Ratings later revised its outlook to negative, CNBC said. The stock finished October down 15%, its worst month in four years.",
+        "TechCrunch reported on Oct. 31, citing the Financial Times and the Wall Street Journal, that OpenAI lowered its funding target to $20 billion, with about $11 billion secured and a \"tepid\" response from some large investors. TechCrunch also covered a $100 million Series A for General Compute, which builds cloud capacity from rival inference chips."
+      ],
+      "flag": "OpenAI's funding figures come from FT and WSJ reporting relayed by TechCrunch and are not confirmed by the company.",
+      "why": "The AI buildout is shifting from spending announcements to cash-flow scrutiny. Chip supply delays and rising borrowing costs may slow data-center capacity, and affect who can fund frontier models.",
+      "facts": [
+        "Microsoft capex forecast cut to $170 billion from $175 billion; Azure grew 48% (CNBC).",
+        "Alphabet held capex guidance at $195-205 billion.",
+        "Meta raised its 2026 capex range to $135-145 billion; S&P cut its outlook to negative.",
+        "OpenAI reportedly lowered its funding target to $20 billion with $11 billion secured (TechCrunch).",
+        "General Compute raised a $100 million Series A (TechCrunch)."
+      ],
+      "next": "Watch Nvidia's Nov. 17 earnings and Anthropic's pricing for read-through on AI financing.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Prime Medicine says it dosed its first patient in a Phase 1/2 trial of in-body prime editing for Wilson disease on Oct. 5, with first results expected in 2027 (Biotecnika).",
+    "Runware says it has received $1 billion in committed interest for its containerized Sonic AI inference pods, TechCrunch reported on Oct. 30.",
+    "Wabi, an AI agent app that builds mini apps, raised $55 million at a $1.25 billion valuation (TechCrunch)."
+  ]
+}
