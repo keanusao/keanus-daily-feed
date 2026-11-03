@@ -1,0 +1,1297 @@
+{
+  "updatedAt": "2026-11-03T14:11:08Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Election Day is here**, with control of Congress on the line (CNN, NBC News, Fox News). Democrats lead the generic ballot by 9 points in CNN's poll of polls, and Fox rates the Senate a toss-up, with Republicans needing to hold 50 seats (CNN, Fox News). A judge threw out the Justice Department's Alaska Senate ballot suit on Sunday, and DOJ says it will appeal (NBC News, The Hill, Fox News). On your California ballot, **Prop 40 trails in the polls** at 46% yes to 52% no, and Props 41 or 42 could erase it even if it passes (KQED, CalMatters, SF Chronicle). The Bay Area transit tax is also on your ballot, and BART says failure could close up to 15 stations (SF Chronicle, KQED). On Iran, U.S. forces struck Qeshm Island after Iran fired at a U.S. aircraft, officials called it defensive, and Trump still says there is no rush to resume the war (Fox News, CNBC, Axios). In Ukraine, a Russian bombing in Zaporizhzhia has killed at least 29, and U.S., Russian and Ukrainian envoys meet in Abu Dhabi on Nov. 10-11 (NPR, CNN, Axios). On Wall Street, the **Nasdaq 100 is in a correction**, Apple is down about 4% premarket on a weak margin forecast, and Palantir is down 6.5% (Bloomberg, CNBC). NASA's Swift telescope should fall near **12:30 a.m. Pacific Wednesday**, with a 1-in-2,100 risk to anyone on Earth (NASA, Space.com).",
+  "alerts": [
+    {
+      "text": "Today is Election Day: your ballot has Prop 40, its countermeasures Props 41 and 42, the Bay Area transit tax, and Fremont council races in Districts 2, 3 and 4.",
+      "level": "high",
+      "story": "prop40vote"
+    },
+    {
+      "text": "Swift telescope re-entry is predicted near 12:30 a.m. Pacific Wednesday, give or take 11 hours; NASA puts the risk to people at about 1 in 2,100.",
+      "level": "watch",
+      "story": "swiftfall"
+    },
+    {
+      "text": "Apple is down about 4% premarket on its margin forecast, and Microsoft closed down 2.83% in the Nasdaq 100 correction, while Amazon rose 2.20%.",
+      "level": "watch",
+      "story": "nasdaqapple"
+    },
+    {
+      "text": "Friday brings the October jobs report, and Nvidia reports Nov. 17 after the close. Anthropic could start its IPO roadshow the week of Nov. 9.",
+      "level": "info",
+      "story": "inflationjobs"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "electionday",
+      "text": "Election Day: Democrats favored in the House, Senate a toss-up, polls close tonight."
+    },
+    {
+      "story": "prop40vote",
+      "text": "Prop 40 billionaire tax trails 46% to 52%, and Props 41 or 42 could erase it."
+    },
+    {
+      "story": "iranqeshm",
+      "text": "U.S. strikes Iran's Qeshm Island; Trump says no rush to resume war."
+    },
+    {
+      "story": "nasdaqapple",
+      "text": "Nasdaq 100 in correction; Apple and Palantir fall despite earnings beats."
+    },
+    {
+      "story": "swiftfall",
+      "text": "NASA's Swift telescope falls around 12:30 a.m. Pacific Wednesday."
+    }
+  ],
+  "stat": {
+    "label": "Swift re-entry risk to people",
+    "value": "1 in 2,100",
+    "note": "NASA estimate for harm to anyone on Earth; re-entry near 12:30 a.m. Pacific Wednesday"
+  },
+  "markets": {
+    "asOf": "Tue Nov 3, 7:51 AM ET",
+    "wrap": "The **Nasdaq 100 fell 1.4% Monday to 27,989.82**, more than 10% below its Oct. 6 peak, as doubts about AI spending hit Alphabet, Intel and Microsoft (Bloomberg, CNBC). Apple beat on revenue but guided December-quarter gross margin to 45% to 46% against a 46.3% estimate, and traded about 4% lower premarket (CNBC). Palantir fell about 6.5% premarket despite $2.31 billion in revenue, on softer bookings measures (CNBC). Oil rebounded after a reported U.S. strike on Iran's Qeshm Island, with WTI at $97.09 and the 10-year yield at 4.89% (CNBC, live data). Marvell fell 13% and Lumentum nearly 19% on their **$115 billion merger** (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,541.40",
+        "raw": 7541.4,
+        "change": "-0.51%",
+        "dir": "down",
+        "time": 1793656259,
+        "spark": [
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "51,983.98",
+        "raw": 51983.98,
+        "change": "+0.41%",
+        "dir": "up",
+        "time": 1793656257,
+        "spark": [
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,164.36",
+        "raw": 25164.363,
+        "change": "-1.07%",
+        "dir": "down",
+        "time": 1793661495,
+        "spark": [
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.89%",
+        "raw": 4.894,
+        "change": "-0.71%",
+        "dir": "down",
+        "time": 1793649591,
+        "spark": [
+          5.28,
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$97.09",
+        "raw": 97.09,
+        "change": "+0.65%",
+        "dir": "up",
+        "time": 1793710300,
+        "spark": [
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          97.09
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$77,280",
+        "raw": 77279.95,
+        "change": "+0.78%",
+        "dir": "up",
+        "time": 1793710899,
+        "spark": [
+          84763.58,
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77279.95
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$202.06",
+        "raw": 202.06,
+        "change": "-1.26%",
+        "dir": "down",
+        "time": 1793653201,
+        "spark": [
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06
+        ]
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$338.32",
+        "raw": 338.32,
+        "change": "-1.83%",
+        "dir": "down",
+        "time": 1793653201,
+        "spark": [
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$507.12",
+        "raw": 507.12,
+        "change": "-2.83%",
+        "dir": "down",
+        "time": 1793653201,
+        "spark": [
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12
+        ],
+        "note": "Fell with the AI-spending selloff; Bloomberg also reported Microsoft plans a bond sale of at least $25 billion (Bloomberg, CNBC)."
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$278.99",
+        "raw": 278.99,
+        "change": "-0.30%",
+        "dir": "down",
+        "time": 1793653202,
+        "spark": [
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$403.82",
+        "raw": 403.82,
+        "change": "+1.00%",
+        "dir": "up",
+        "time": 1793653201,
+        "spark": [
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$245.63",
+        "raw": 245.63,
+        "change": "+2.20%",
+        "dir": "up",
+        "time": 1793653202,
+        "spark": [
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63
+        ],
+        "note": "Rose while most megacap tech fell; no single catalyst turned up in the sources reviewed."
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "AAPL",
+      "date": "2026-11-02",
+      "when": "after close"
+    },
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 50.3,
+      "feels": 47.4,
+      "hum": 76,
+      "wind": 2.5,
+      "cond": "cloudy"
+    },
+    "days": [
+      {
+        "date": "2026-11-02",
+        "hi": 68,
+        "lo": 47,
+        "cond": "cloudy",
+        "pop": 4
+      },
+      {
+        "date": "2026-11-03",
+        "hi": 65,
+        "lo": 49,
+        "cond": "drizzle",
+        "pop": 43
+      },
+      {
+        "date": "2026-11-04",
+        "hi": 63,
+        "lo": 53,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-11-05",
+        "hi": 74,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-06",
+        "hi": 77,
+        "lo": 56,
+        "cond": "partly",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-07",
+        "hi": 78,
+        "lo": 58,
+        "cond": "partly",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-08",
+        "hi": 73,
+        "lo": 56,
+        "cond": "partly",
+        "pop": 0
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "electionday",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Election Day",
+      "title": "Voters decide control of Congress as polls open, with Democrats favored in the House and the Senate in play",
+      "summary": "Democrats need three House seats and lead CNN's generic-ballot average by 9 points, while Fox rates the Senate a toss-up.",
+      "story": [
+        "Polls opened Tuesday for the midterms, with all 435 House seats and 35 Senate seats on the ballot (CNN, NBC News, Fox News). CNN says Democrats need to pick up three House seats. Republicans hold the Senate 53-47 and need to keep 50 seats, because Vice President JD Vance breaks ties, according to Fox News. CNN's Poll of Polls puts Democrats 9 points ahead on the generic ballot, and an NBC News poll finds registered voters prefer a Democratic Congress by 7 points. The Hill reports Decision Desk HQ gives Democrats about an 80% chance in the House and a Senate chance that ranged from 57% to 65% across its reports.",
+        "Fox News's final Power Rankings call the Senate a toss-up. Alaska, Iowa, Maine, South Carolina and Texas are rated toss-ups, Kansas leans Republican and Ohio leans Democratic. The Hill reports that New York Times/Siena polls show Democrats ahead in seven Senate battlegrounds, and Fox's own headline on that poll says Republicans trail in seven battlegrounds. Nate Silver's model, cited by The Hill, put Democratic Senate chances in the 80% range. Fox says Iowa is virtually tied in the Times poll.",
+        "Turnout is high. Coverage citing the Associated Press says more than 54 million people voted early, about nine million more than at this point in 2022. Fox News reports polling in which 76% of Democrats call voting extremely important versus 63% of Republicans, and the RNC chair says \"If our voters turn out, we win.\" The Hill reports President Trump predicts Republicans will keep both chambers, and Fox says he told a Kansas rally Sunday that \"we're going to win.\" Democrats need to flip nearly every House seat Trump carried by 5 points or less in 2024, NBC says.",
+        "Polls close starting at 6 p.m. Eastern in parts of Indiana and Kentucky, and Alaska closes last (Fox News, The Hill). Reported problems so far include 19 Florida polling places moved because of flooding, and issues in Westchester County, New York, that the state attorney general described (CNN)."
+      ],
+      "flag": "The 54 million early-vote count was relayed secondhand in search coverage and should be checked against the Associated Press. Decision Desk HQ's Senate odds differ between reports.",
+      "facts": [
+        "All 435 House seats and 35 Senate seats are on the ballot.",
+        "Republicans hold the Senate 53-47; they need 50 seats to keep control with Vance as the tiebreaker.",
+        "CNN says Democrats need three House seats; its Poll of Polls shows a 9-point Democratic generic-ballot lead.",
+        "Fox News rates Alaska, Iowa, Maine, South Carolina and Texas as toss-ups.",
+        "Trump predicts Republicans keep both chambers (Fox News, The Hill)."
+      ],
+      "left": "Democrats argue voters want a check on a president whose approval has fallen and whose tariffs and Iran war have pushed up prices. The NBC poll showing voters demand change, and the generic-ballot lead, support that case. A Democratic House would bring oversight of the Justice Department's election moves, the war and spending. Senate pickups in red-leaning states like Texas, Ohio and Alaska would show the shift reaches beyond swing districts.",
+      "right": "Republicans argue Senate races turn on candidates rather than national mood, and that the party has beaten polls before. National Review points to tariffs as a problem in Midwest Senate races, but Republicans say tax cuts, jobs growth and manufacturing are the answer, and that Democrats' 2026 map still needs wins in states Trump carried comfortably. Turnout is the open question, and the RNC chair says \"If our voters turn out, we win.\"",
+      "next": "Polls close tonight, and the Alaska count could take days. Control of the House may be known overnight, while the Senate could hinge on late races in Alaska and Maine.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/03/politics/live-news/midterm-election-congress"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6175621-midterm-elections-polls-close-results/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/2026/10/why-are-republicans-in-danger-in-middle-america/"
+        ]
+      ]
+    },
+    {
+      "id": "dojalaska",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "midterms-2026",
+      "when": "Election fight",
+      "title": "Judge tosses Justice Department Alaska ballot suit as Trump hedges on accepting results and DOJ sends record monitors",
+      "summary": "The department will appeal the Alaska ruling to the 9th Circuit, and about 1,000 monitors are deployed in all 50 states.",
+      "story": [
+        "U.S. District Judge Sharon Gleason dismissed the Justice Department's lawsuit over the Alaska Senate race on Sunday, saying the government had no workable plan to segregate and investigate ballots while keeping votes secret (The Hill, NBC News, Fox News). A department spokesperson said it will appeal to the 9th Circuit. The suit targeted Daniel J. Sullivan Jr., who shares a name with Republican Sen. Dan Sullivan. The New York Times reported that people tied to Democratic nominee Mary Peltola's campaign helped recruit him as a spoiler, which Peltola and Sullivan Jr. deny. The original complaint also sought to block certification if the incumbent lost.",
+        "Trump's own words add to the concern. Asked whether he would respect the results, he said \"I will if they are honest elections,\" according to CNN, whose analysts argue the working assumption should be that he will contest a loss. Attorney General Todd Blanche would not rule out a certification challenge, and Alaska Gov. Mike Dunleavy has suggested he may not certify a Peltola win (CNN, Fox News). Separately, an NBC report says a judge ordered the administration to stop intimidating state election officials, and the department has sued 30 states and Washington, D.C., over voter-registration data.",
+        "The department is also deploying its largest monitoring effort, about 1,000 monitors and observers in all 50 states across 126 counties, up from 289 in 2022 and 714 in 2024 (NBC News, Washington Examiner). A D.C. judge refused to block the monitors but ordered the department to ensure they are not sworn law enforcement officers, are unarmed, out of uniform and cannot make arrests (Fox News). Blanche says monitors go to every state, not only Democratic or Republican ones."
+      ],
+      "flag": "CNN's prediction that Trump will contest results is analysis, not reporting. No court has found any wrongdoing by the Peltola campaign.",
+      "facts": [
+        "Judge Sharon Gleason dismissed the DOJ's Alaska suit on Sunday; DOJ says it will appeal.",
+        "About 1,000 DOJ monitors are in 126 counties across all 50 states.",
+        "The 2022 midterms had 289 monitors and the 2024 election had 714.",
+        "A D.C. judge barred monitors from being armed, in uniform or able to arrest.",
+        "Trump said he will respect results \"if they are honest elections\" (CNN)."
+      ],
+      "left": "Democrats see a pattern: a preemptive suit to stop certification, the largest monitoring force ever, suits against 30 states for voter data and alleged threats to imprison election officials. They say a president who has never accepted the 2020 result is laying the ground to dispute a loss, and that federal presence at polls can chill voters. The judge's ruling that the suit had no workable remedy, they argue, shows the case was about headlines rather than law.",
+      "right": "Conservatives argue the department is policing ballot integrity, not hunting for a pretext. The Alaska case rests on a reported spoiler scheme, and Fox notes the dismissal was procedural and did not dispute the claim that Sullivan Jr. was a decoy. Supporters say monitors in every state, bound by the court's limits, are routine oversight, and that states resisting voter-roll requests should explain what they are protecting.",
+      "next": "The 9th Circuit appeal and any certification fight in Alaska would come after the count, which can take days.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/regulation/court-battles/6186982-judge-dismisses-trump-alaska-lawsuit/"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/federal-judge-dismisses-trump-attempt-ballots-alaska-senate-race-rcna606838"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/10/31/politics/trump-election-denial-midterms"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/doj-set-appeal-ruling-alaska-senate-race-dispute-over-decoy-dan"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4789114/doj-announces-deployment-election-monitors-50-states-first-time/"
+        ]
+      ]
+    },
+    {
+      "id": "stevensrogers",
+      "section": "politics",
+      "motif": "scales",
+      "when": "Michigan Senate",
+      "title": "Rep. Haley Stevens backs Republican Mike Rogers over her party's Senate nominee in Michigan",
+      "summary": "The Sunday endorsement drew Democratic fury, while Abdul El-Sayed's campaign says it raised over $2.4 million in a day.",
+      "story": [
+        "Rep. Haley Stevens, a Michigan Democrat, endorsed Republican Mike Rogers on Sunday, two days before the election, over Democratic Senate nominee Abdul El-Sayed (CNN, The Hill, Fox News). Stevens lost the August primary to El-Sayed by less than a point and first backed him afterward. She turned on him after he declined her demand to apologize for earlier comments about Israel, and she cited his ties to streamer Hasan Piker and two campaign ads. She wrote that \"Once I concluded that Abdul El-Sayed is not fit to serve in the United States Senate, I had to confront who should.\"",
+        "Democratic leaders reacted fast. Senate Minority Leader Chuck Schumer called it a \"despicable betrayal,\" several members of her staff resigned, and Michigan Democratic Party Chair Curtis Hertel wrote that she is not a current member of the state party (The Hill). House Democratic leaders have delayed a decision on punishing her, and she stays in the caucus for the lame-duck session. Her fiancé, Jason Turkish, said he will also vote for Rogers, which stoked more anger (CNN).",
+        "El-Sayed's campaign says the backlash raised more than $2.4 million in one day, while The Hill put the figure at $1.2 million at an earlier point and Fox called it a single-day record. CNN reports a New York Times poll has El-Sayed ahead of Rogers by 11 points, and pollster Richard Czuba says the endorsement is unlikely to hurt Democrats if that polling is accurate. The Free Press argues the left rarely applies the same \"country over party\" standard in the other direction."
+      ],
+      "flag": "The fundraising totals differ by source and come from the campaign.",
+      "facts": [
+        "Stevens lost the August Democratic primary to El-Sayed by less than a point.",
+        "She endorsed Republican Mike Rogers on Sunday, Nov. 1.",
+        "Schumer called the move a \"despicable betrayal\" (The Hill).",
+        "El-Sayed's campaign says it raised over $2.4 million in one day.",
+        "A New York Times poll has El-Sayed up 11 points, per CNN."
+      ],
+      "left": "Democrats say a sitting member crossing party lines two days before a vote that may decide the Senate is a betrayal, and they say the stated reasons, a streamer and two ads, are thin. They note El-Sayed won the nomination fairly and that the backlash has helped him raise money. Many also say the Israel dispute is being used to marginalize a progressive nominee.",
+      "right": "Conservatives say Stevens made a principled call about fitness and that the Democratic reaction, calls to expel her and attacks on her fiancé, shows how little tolerance the party has for dissent. The Free Press argues the episode exposes how much of the left now treats party loyalty as a higher duty than judgment, and Republicans say it shows El-Sayed's weakness with moderates.",
+      "next": "Michigan results tonight will show whether the endorsement moved any votes; House Democratic leaders have yet to decide Stevens's caucus fate.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/02/politics/jason-turkish-haley-stevens-michigan-senate-mike-rogers-abdul-el-sayed"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6187640-democrats-blast-stevens-rogers-endorsement-michigan/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/haley-stevens-endorsement-stunt-backfires-el-sayed-setting-single-day-fundraising-record"
+        ],
+        [
+          "The Free Press",
+          "LR",
+          "https://www.thefp.com/p/haley-stevens-abdul-el-sayed-michigan-senate"
+        ]
+      ]
+    },
+    {
+      "id": "prop40vote",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Ballot day",
+      "title": "California votes on the Prop 40 billionaire tax, which trails in polls and can be erased by Props 41 or 42",
+      "summary": "A late PPIC poll had Prop 40 at 46% yes and 52% no, and either countermeasure could cancel it even if it passes.",
+      "story": [
+        "California voters decide Tuesday on Proposition 40, a one-time tax of up to 5% on assets above $1 billion for covered taxpayers (KQED, CalMatters). A late-October PPIC survey of 1,086 likely voters had support at 46% and opposition at 52%, and the Institute of Governmental Studies' latest poll had 42% yes and 50% no (CalMatters, KQED, SF Chronicle). Gov. Gavin Newsom opposes the tax even though the California Democratic Party endorsed it.",
+        "The ballot has a trapdoor. Prop 41 would require audits of special-tax programs and subject new special taxes to the state spending limit. Prop 42 would ban new taxes on personal property such as businesses, investments, retirement accounts, trusts and art, and Newsom endorsed it (CalMatters). If either beats Prop 40 in total yes votes, the tax is erased even if Prop 40 wins a majority. PPIC had 41 at 51% and 42 at 54% support.",
+        "The fight over money is as heated as the one over votes. Fox Business reports the Legislative Analyst's Office said departures could cut state income tax revenue by less than $1 billion a year, while the tax would raise tens of billions over several years. Hoover Institution economists estimate that announced departures have shrunk the tax base by about 30%, while Berkeley economists Emmanuel Saez and Gabriel Zucman and a co-author estimated about $100 billion over five years (Fox Business). One report says Google co-founder Sergey Brin has spent $328 million to defeat Prop 40."
+      ],
+      "flag": "The $328 million Brin spending figure comes from one report and was not confirmed elsewhere. Hoover and Berkeley revenue estimates conflict.",
+      "facts": [
+        "Prop 40 is a one-time tax of up to 5% on assets above $1 billion.",
+        "PPIC late-October poll: 46% yes, 52% no.",
+        "If Prop 41 or 42 gets more yes votes than Prop 40, the tax does not take effect.",
+        "Newsom opposes Prop 40 and endorsed Prop 42.",
+        "The Legislative Analyst's Office put income-tax losses from departures under $1 billion a year (Fox Business)."
+      ],
+      "left": "Supporters argue the richest Californians have gained enormously from a state that funds health care and schools, and that a one-time levy on billionaires is a modest ask while Medi-Cal faces strain. They say the exodus story is overstated, since the Legislative Analyst's Office put revenue loss from departures under $1 billion a year. They also say the countermeasures were written to cancel the tax, which is why the money has poured in.",
+      "right": "Opponents argue a retroactive wealth tax will drive out the people and companies who fund the state's income tax, and that Hoover economists find the tax base already shrinking about 30%. They point to Art Laffer's warning and to Brin and other billionaires leaving. Newsom, a Democrat, opposes it, and conservatives say that shows even the governor sees the risk of taxing assets rather than income.",
+      "next": "Results begin after polls close tonight, but California counts for weeks. Watch the margin among Props 40, 41 and 42, since that decides whether the tax stands.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12106950/is-californias-proposed-billionaire-tax-in-trouble-new-polls-find-bad-news"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/health/2026/09/california-wealth-tax-prop-40-41-42/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/billionaire-tax-polls-22503108.php"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/billionaire-tax-puts-californias-economic-future-before-midterm-voters"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/business/6184949-california-billionaire-wealth-tax/mlite"
+        ]
+      ]
+    },
+    {
+      "id": "transitmeasure",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Your ballot",
+      "title": "Bay Area voters decide a regional sales tax that BART, AC Transit and Muni say they need to avoid cuts",
+      "summary": "The Regional Transit Measure needs a simple majority, and one poll had support near 48%.",
+      "story": [
+        "The Regional Transit Measure is on Bay Area ballots Tuesday. If it passes, it sets a half-cent sales tax in Alameda, Contra Costa, San Mateo and Santa Clara counties and a one-cent tax in San Francisco, starting in April 2027 (Local News Matters, Mass Transit). BART, AC Transit and Muni all back it. Because it qualified by citizen initiative after organizers gathered 305,895 signatures (186,000 were needed), it needs only a simple majority.",
+        "Agencies warn about the alternative. BART has said it could close up to 15 stations if the measure fails, and the SF Chronicle's list of at-risk stations includes Pittsburg Center, North Concord/Martinez, Orinda, South San Francisco and San Bruno, though the agencies have not confirmed any. KQED reports a study found Bay Bridge delays would double if transit tax measures fail.",
+        "Polling is tight. One poll reported by Mass Transit put support at 48%, below the majority it needs, and the Yes campaign disputed its accuracy. Earlier in the year, tax measures failed at the ballot in parts of the Bay Area in June. The SF Chronicle editorial board endorsed a yes vote."
+      ],
+      "flag": "The most recent poll we found is from before the final week, and its date is not clear in the source.",
+      "blindspot": "Covered mainly by center and left-leaning outlets; no right-leaning coverage found.",
+      "facts": [
+        "The measure sets a half-cent sales tax in four counties and a one-cent tax in San Francisco.",
+        "It needs a simple majority of votes cast.",
+        "BART says failure could close up to 15 stations.",
+        "Organizers submitted 305,895 signatures; 186,000 were required.",
+        "One poll had support at 48%."
+      ],
+      "left": "Supporters say a functioning transit network is a public good that cuts traffic, emissions and cost of living, and that deep service cuts would hit low-income riders hardest. The regional structure spreads the burden across five counties, and the sales tax keeps fares affordable. They argue failure would start a service-and-ridership death spiral.",
+      "right": "Skeptics argue agencies should fix costs and ridership before asking for $14 billion more, and that a sales tax is regressive. Some say the doomsday closure lists are a pressure tactic, since the agencies have not confirmed which stations would close. They also argue voters have turned down several Bay Area tax measures this year and want accountability first.",
+      "next": "Bay Area counties report results tonight. A late count could decide it.",
+      "src": [
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/10-bart-stations-could-close-doomsday-scenario-21335951.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12100738/bay-bridge-traffic-delays-would-double-if-transit-tax-measures-fail-report-finds"
+        ],
+        [
+          "Local News Matters",
+          "C",
+          "https://localnewsmatters.org/2026/10/22/regional-transit-measure-bay-area/"
+        ],
+        [
+          "Mass Transit",
+          "C",
+          "https://www.masstransitmag.com/management/news/55410777/ca-voters-are-split-on-whether-or-not-to-save-bay-area-public-transit"
+        ],
+        [
+          "SF Chronicle editorial",
+          "LL",
+          "https://www.sfchronicle.com/opinion/editorials/article/regional-transit-measure-bay-area-22424231.php"
+        ]
+      ]
+    },
+    {
+      "id": "iranqeshm",
+      "section": "world",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran war",
+      "title": "U.S. strikes Iran's Qeshm Island after Iranian fire at a U.S. aircraft while Trump says there is no rush to resume the war",
+      "summary": "Officials call the strike defensive, and Qatar waits for answers on a three-day confidence-building plan.",
+      "story": [
+        "U.S. forces struck Iran's Qeshm Island late Monday or early Tuesday, after Iran fired at a U.S. aircraft, an American official told Fox News. Officials described it as defensive and said it does not signal a return to full-scale strikes. Iran's IRNA reported several explosions on the island, and NPR could not independently confirm details. The Wall Street Journal, cited by CNBC, reported that the U.S. has carried out \"limited strikes\" in recent weeks, and Iran says it is ready to respond \"forcefully.\"",
+        "Diplomacy is still moving. Qatari mediators drafted a three-day sequence of confidence-building steps meant to restart direct U.S.-Iran talks and are waiting on both sides (CNBC, NPR). The core ask is that Iran stop attacking ships in the Strait of Hormuz. Foreign Minister Abbas Araghchi said that if the U.S. accepts Tehran's conditions for reopening the strait, \"negotiations will resume.\" Trump told Axios on Monday he is in \"no rush\" to decide on bombing Iran again, and Vance said no deadlines have been set.",
+        "Internal views differ, according to reports. Vance and envoy Steve Witkoff push for a deal, which most Gulf states back, while Netanyahu and Defense Secretary Pete Hegseth reportedly favor renewed strikes. Supreme Leader Mojtaba Khamenei vowed Saturday to meet any threat with an \"unrestricted response.\" Oil rose after the strike, with Brent near $106 (CNBC)."
+      ],
+      "flag": "Casualties and damage from the Qeshm strike are unconfirmed. The split inside the U.S. government is based on unnamed sources.",
+      "facts": [
+        "U.S. forces struck Qeshm Island after Iran fired at a U.S. aircraft, per an American official (Fox News).",
+        "Qatar drafted a three-day confidence-building plan and awaits answers (CNBC, NPR).",
+        "Trump told Axios there is \"no rush\" to resume strikes.",
+        "Vance said \"We haven't set deadlines.\"",
+        "Brent crude traded near $106 after the strike (CNBC)."
+      ],
+      "left": "Critics say a war with no clear end is driving up gas prices and inflation, and that striking Iran the day before an election, even defensively, risks escalation. They back Qatar's mediation and say Vance and Witkoff are right that a verifiable nuclear deal is the only durable exit. They also question why a conflict is being managed around the election calendar.",
+      "right": "Conservatives argue Iran fired first, and that a defensive response is the lesson of deterrence, since Tehran respects strength. They say any deal must include a verifiable commitment not to rebuild the nuclear program, as Vance stated, and warn that talks without pressure give Iran time to reopen on its own terms. Hegseth is reportedly among those who want strikes resumed.",
+      "next": "Watch Iran's answer to the Qatari draft and whether Hormuz traffic changes this week.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-us-strikes-qeshm-island-trump-midterms-11-03-26"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/02/nx-s1-6023485/gulf-region-on-edge-over-possibility-of-renewed-u-s-attacks-against-iran"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/01/iranian-negotiators-in-qatar-to-continue-talks-to-end-war-reuters.html"
+        ],
+        [
+          "CNBC (oil)",
+          "C",
+          "https://www.cnbc.com/2026/11/03/apple-margin-oil-iran.html"
+        ]
+      ]
+    },
+    {
+      "id": "ukrainetalks",
+      "section": "world",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Ukraine war",
+      "title": "Russian bombing in Zaporizhzhia kills at least 29 as U.S., Russia and Ukraine plan Abu Dhabi talks",
+      "summary": "Dozens are missing after a double strike on an aid site, and envoys meet Nov. 10-11 in Abu Dhabi.",
+      "story": [
+        "A Russian attack on a building used for humanitarian aid in Komyshuvakha, in Ukraine's Zaporizhzhia region, has killed at least 29 people with 48 missing, according to NPR. CNN counts at least 31 dead and describes the site as a school building. Zaporizhzhia Gov. Mykhailo Semikin said Russia used KAB-500 and FAB-3000 bombs, and police say a second strike hit first responders and people fleeing. Three days of mourning were declared (NPR, CNN).",
+        "The strike came during a wider overnight barrage. Zelensky said Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, and that the timing coincided with the U.S. elections (NPR, CNN). He called the attack \"utterly horrific\" and urged the U.S. to help Ukraine defend its skies.",
+        "On the diplomacy track, Witkoff said the U.S. will mediate talks among U.S., Russian and Ukrainian officials in Abu Dhabi on Nov. 10-11, with Jared Kushner and Witkoff leading the American team (Axios, Fox News, The Hill). Topics include post-war security arrangements, de-escalation and humanitarian efforts. Axios says the talks revive an effort suspended in February because of the Iran war, and lower-level U.S. officials meet European partners and NATO in Brussels this week on security guarantees. Territory and Putin's refusal of a ceasefire remain the main obstacles."
+      ],
+      "flag": "Death tolls differ between outlets and are still changing.",
+      "facts": [
+        "NPR reports at least 29 dead and 48 missing; CNN reports at least 31 dead.",
+        "Russia launched 289 drones, 17 ballistic and 59 cruise missiles overnight, per Zelensky.",
+        "Talks are set for Nov. 10-11 in Abu Dhabi.",
+        "Kushner and Witkoff lead the U.S. delegation.",
+        "The earlier diplomatic effort was suspended in February because of the Iran war (Axios)."
+      ],
+      "left": "Critics say Washington's mediation has not stopped the bombing of civilians and that talks without pressure on Moscow reward delay. They urge more air defense and sanctions, and note that Zelensky is asking for exactly that. The Trump team's attention was pulled to Iran, they argue, while Ukraine absorbed the cost.",
+      "right": "Conservatives argue the war must end through negotiation, and that Witkoff and Kushner's channel to Putin is the only route to a settlement. McConnell has called an earlier Trump push to end the war \"certain to fail\" (The Hill), and others say Europe must carry more of the cost of Ukraine's defense and security guarantees.",
+      "next": "Brussels meetings this week and the Abu Dhabi round on Nov. 10-11.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/us-mediate-upcoming-ukraine-russia-talks-abu-dhabi-witkoff-says"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6190973-witkoff-announces-abu-dhabi-peace-negotiations/"
+        ]
+      ]
+    },
+    {
+      "id": "inflationjobs",
+      "section": "economy",
+      "motif": "chart",
+      "when": "Fed watch",
+      "title": "Strong growth and 3.6% inflation keep a December Fed rate hike likely ahead of Friday's jobs report",
+      "summary": "Third-quarter GDP grew 3.4%, September PCE inflation hit 3.6%, and economists expect only 65,000 October jobs.",
+      "story": [
+        "The U.S. economy grew at a 3.4% annual rate in the third quarter, better than the 3.1% estimate and the 2.2% in the second quarter, the Commerce Department reported Oct. 29 (CNBC, Bloomberg). The same day, the Fed's preferred inflation gauge showed headline PCE up 0.5% in September and 3.6% from a year earlier, with core at 3.1% (CNBC, Fox Business). September consumer prices had already run at 3.7% a year, with gasoline prices up sharply (CNBC).",
+        "The Fed held rates at its late-October meeting, with two officials dissenting in favor of a hike. One market gauge cited by CNBC priced about a 79.6% chance of a quarter-point hike in December, while a Fox Business summary put it near 83%, and one economist said a half-point hike is in play. Bloomberg says forecasters expect October payrolls to rise about 65,000, up from 29,000 in September, with unemployment steady at 4.2%, which would keep the Fed on track to raise rates again.",
+        "The 10-year Treasury yield stood at 4.89% in the latest data, and WTI crude near $97 keeps energy costs in the inflation picture."
+      ],
+      "flag": "Hike odds differ by source and date.",
+      "facts": [
+        "Q3 GDP rose 3.4% annualized versus a 3.1% estimate.",
+        "September PCE inflation was 3.6% year over year; core PCE was 3.1%.",
+        "September CPI ran at 3.7%.",
+        "Bloomberg's forecast for October payrolls is 65,000, with unemployment at 4.2%.",
+        "The October jobs report comes Friday, Nov. 6."
+      ],
+      "left": "Economists and Democrats argue the Fed is tightening into an energy-price shock caused by the Iran war and tariffs, which hurts workers more than it cools prices. Weak job growth of 29,000 in September, they say, shows a rate hike would risk a sharper slowdown. Relief, they say, belongs on supply, not on borrowing costs.",
+      "right": "Conservatives point to 3.4% growth as proof the underlying economy is strong and say inflation near 3.6% justifies a hike. Some blame energy prices from the Iran conflict and argue lower taxes and more drilling would help.",
+      "next": "October jobs report Friday, Nov. 6; the next Fed decision is in December.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/september-2026-pce-inflation"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-29/us-economy-grows-a-faster-than-expected-3-4-most-in-a-year"
+        ],
+        [
+          "Bloomberg (jobs preview)",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again"
+        ]
+      ]
+    },
+    {
+      "id": "nasdaqapple",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Tech selloff",
+      "title": "Nasdaq 100 sits in a correction as Apple slips on a weak margin outlook and Palantir falls despite a beat",
+      "summary": "Apple is down about 4% premarket after guiding gross margin to 45% to 46%, and Palantir is down 6.5%.",
+      "story": [
+        "The Nasdaq 100 fell 1.4% Monday to 27,989.82, more than 10% below its Oct. 6 peak, on doubts about the payoff from AI spending (Bloomberg, CNBC). It is still up 11% for 2026 and in its third correction of the year. Fox Business reports Alphabet lost nearly $500 billion in market value after a third-quarter miss, and Intel fell almost 29% on a weak outlook. Bloomberg adds that Microsoft is looking to raise at least $25 billion in a bond sale.",
+        "Apple reported revenue of $114.48 billion against $113.39 billion expected, and EPS of $2.10 against $1.99, in John Ternus's first report as CEO (CNBC). But it guided December-quarter gross margin to 45% to 46%, below the 46.3% analyst average, citing higher memory costs and Siri AI ramp costs. Ternus said memory pricing will keep rising. The quarter's 47.9% margin included about one point of tariff refunds. Shares were down about 4% premarket. Bernstein stayed Outperform, Barclays stayed underweight.",
+        "Palantir reported revenue of $2.31 billion against $2.18 billion expected, with U.S. commercial revenue up 148% to $984 million, above U.S. government revenue for the first time, and it raised its outlook (CNBC). Shares still fell about 6.5% premarket on softer U.S. commercial contract-value growth and non-U.S. commercial bookings. William Blair kept an Outperform rating."
+      ],
+      "flag": "Premarket moves can change by the open.",
+      "facts": [
+        "Nasdaq 100 closed Monday at 27,989.82, down 1.4%.",
+        "Apple guided December-quarter gross margin to 45%-46% versus a 46.3% estimate (LSEG).",
+        "Apple revenue was $114.48 billion and EPS $2.10.",
+        "Palantir revenue was $2.31 billion; U.S. commercial revenue rose 148%.",
+        "Palantir guided Q4 revenue to about $2.65 billion."
+      ],
+      "why": "AI spending has driven the market, and investors now want proof of returns. Memory costs are squeezing even Apple, and Palantir shows a strong beat is not enough at high valuations. If hyperscalers keep spending without matching revenue, tech multiples can compress further.",
+      "next": "Nvidia reports Nov. 17 after the close, and Friday's jobs report could move rate expectations.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html"
+        ],
+        [
+          "CNBC (Apple)",
+          "C",
+          "https://www.cnbc.com/2026/11/03/apple-earnings-analysts-margin-outlook.html"
+        ],
+        [
+          "CNBC (Palantir)",
+          "C",
+          "https://www.cnbc.com/2026/11/03/palantir-stock-q3-earnings-analyst-ratings.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-02/nasdaq-100-enters-correction-as-megacap-results-amplify-ai-fears"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/google-parent-alphabet-suffers-nearly-500b-wall-street-wipeout-amid-ai-spending-fears"
+        ]
+      ]
+    },
+    {
+      "id": "marvelldeal",
+      "section": "stocks",
+      "motif": "coins",
+      "when": "Mega-deal",
+      "title": "Marvell's $115 billion Lumentum deal drags both stocks lower as analysts split on the timing",
+      "summary": "Marvell fell 13% and Lumentum nearly 19% Monday on the largest merger ever between public tech companies, per Axios.",
+      "story": [
+        "Marvell agreed Monday to buy Lumentum in an all-stock deal valued at $115 billion, which Axios calls the largest merger ever between public tech companies (CNBC, TechCrunch, Axios). Lumentum holders get 4.5 Marvell shares per share and will own about 33% of the combined company. Marvell expects more than $1 billion in annual cost savings, and the deal is expected to close in the first half of 2028, subject to shareholder and regulatory approval. Nvidia is a strategic investor in both companies.",
+        "Markets disliked it. Marvell shares dropped 13% Monday and Lumentum fell nearly 19%, and Lumentum was up about 2% premarket Tuesday (CNBC). Bloomberg's opinion column said it was a \"terrible time\" for a $115 billion tech deal after a month of jitters about AI economics. Raymond James upgraded Lumentum to strong buy with a $1,328 target, calling the selling overdone.",
+        "Marvell's CEO described the deal as a double-down on supporting Nvidia, and Lumentum's CEO called the opportunity \"enormous\" (CNBC). The pitch is that lasers, transceivers and optical switching will move data inside AI data centers faster."
+      ],
+      "flag": "Close date is more than two years out, so terms could change.",
+      "facts": [
+        "The deal is valued at $115 billion, all stock.",
+        "Lumentum holders get 4.5 Marvell shares each and about 33% of the combined company.",
+        "Marvell expects over $1 billion in annual cost synergies.",
+        "Closing is expected in the first half of 2028.",
+        "Nvidia is a strategic investor in both companies."
+      ],
+      "why": "Optical links are a bottleneck in AI data centers, and Marvell is buying its way into lasers and switching. Investors are punishing the buyer's balance of stock and timing, a sign that AI deal enthusiasm is cooling.",
+      "next": "Shareholder votes and regulatory review, with closing not expected until 2028.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/02/marvell-lumentum-merger"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b"
+        ],
+        [
+          "Bloomberg Opinion",
+          "C",
+          "https://www.bloomberg.com/opinion/articles/2026-11-02/marvell-lumentum-this-is-such-a-terrible-time-for-a-115-billion-tech-deal"
+        ]
+      ]
+    },
+    {
+      "id": "dc800",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Data center power",
+      "title": "Data centers move toward 800-volt DC power, with solid-state transformers as the missing piece",
+      "summary": "Converting grid power straight to 800 V DC removes conversion steps and lets the same conductors carry about 85% more power.",
+      "story": [
+        "IEEE Spectrum reports AI racks are heading to 800-volt DC power, and that future Nvidia high-density racks will use it. Traditional racks draw around 10 kW, while AI racks are far denser. Converting 13.8 kV AC grid power directly to 800 V DC at the site perimeter removes most intermediate conversion steps, leaving compact DC-to-DC converters at the rack. A companion Spectrum piece says moving to 800 V allows about 85% more power through the same conductor size as 415 V AC.",
+        "The enabling hardware is the solid-state transformer, which uses power electronics to rectify, isolate and regulate utility AC onto a controllable DC bus. Spectrum says Eaton is developing a medium-voltage version to sit at the center of its 800 V DC distribution. MIT Technology Review (Oct. 27) says a prototype runs at roughly 15,000 volts, low for large data centers or transmission, so scaling up needs more engineering. Heron Power raised $140 million in February to commercialize its device.",
+        "A third Spectrum piece covers load swings, since AI training can change power draw rapidly. A simulation by Electric Power Engineers found that buffering between the grid and the data center was effective for power quality and stability."
+      ],
+      "flag": "Spectrum's article dates range from months ago to recent. Specific copper and cost savings figures seen in summaries were not confirmed.",
+      "facts": [
+        "Spectrum says 800 V DC allows about 85% more power through the same conductor size as 415 V AC.",
+        "Eaton is developing a medium-voltage solid-state transformer (IEEE Spectrum).",
+        "MIT Technology Review says the prototype runs at about 15,000 volts.",
+        "Heron Power raised $140 million in February to commercialize its device.",
+        "Future Nvidia high-density racks will use 800 V DC (IEEE Spectrum)."
+      ],
+      "why": "MIT Technology Review says solid-state transformers could ease power equipment shortages that limit AI buildout. If solid-state transformers scale, they could cut losses and footprint, and make data centers friendlier to the grid and to backup batteries.",
+      "next": "Watch Eaton's medium-voltage unit and Nvidia's next rack designs for field deployments.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/data-center-dc"
+        ],
+        [
+          "IEEE Spectrum (load swings)",
+          "C",
+          "https://spectrum.ieee.org/800-vdc-for-data-centers"
+        ],
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+        ]
+      ]
+    },
+    {
+      "id": "digit5",
+      "section": "engineering",
+      "motif": "automaton",
+      "when": "Humanoid robots",
+      "title": "Agility's Digit 5 is built around safety, with a big battery and a nine-minute charging dock",
+      "summary": "IEEE Spectrum says the redesign gives 90 minutes of runtime and a 240-amp, 48-volt autonomous dock.",
+      "story": [
+        "IEEE Spectrum describes Agility Robotics' Digit 5 as a redesign in which safety around people shaped almost every choice. The leg and body shapes, safety-rated sensors in protective housings and isolated safety computers all follow from that goal. The robot grew heavier after new leadership pushed product-grade changes, according to the article.",
+        "Power is the other big design problem. Spectrum reports the robot needs a large battery and a fast autonomous charging dock. The dock supplies 240 amps at 48 volts, and fans push air through the torso to cool the battery. The battery and cooling system fill about 75% of the torso. Digit 5 can run for 90 minutes and then recharge in nine minutes, which Spectrum says keeps the robot from running out of power mid-task.",
+        "The Bay Area has its own humanoid stake. CNBC and KQED reported in January that Tesla would end Model S and X production in Fremont and convert the lines to Optimus robots, with Musk citing a line for 1 million robots a year. As of April, Optimus had not entered production, CNBC said."
+      ],
+      "flag": "Specific safety certification details for Digit 5 were not in the sources found. Tesla's current Optimus production status was not confirmed.",
+      "facts": [
+        "Digit 5 runs 90 minutes and recharges in 9 minutes (IEEE Spectrum).",
+        "The charging dock supplies 240 amps at 48 volts.",
+        "The battery and cooling system fill about 75% of the torso.",
+        "Tesla said in January it would convert its Fremont Model S and X lines to Optimus.",
+        "Optimus had not entered production as of April (CNBC)."
+      ],
+      "why": "Battery size, charging speed and safety certification decide whether humanoid robots can work beside people in factories. Digit 5 shows the trade-offs: a heavier body and a big pack buy runtime, while a quick dock cuts downtime.",
+      "next": "Watch for Digit 5 customer deployments and any Optimus production news from Tesla's Fremont plant.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/01/28/tesla-ending-model-s-x-production.html"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12071615/fremont-ready-to-wave-goodbye-to-tesla-models-s-and-x-welcome-its-new-robot-overlords"
+        ]
+      ]
+    },
+    {
+      "id": "swiftfall",
+      "section": "science",
+      "motif": "satellite",
+      "when": "Re-entry",
+      "title": "NASA's Swift observatory is due to fall to Earth early Wednesday after a failed rescue",
+      "summary": "The Space Force predicts re-entry near 12:30 a.m. Pacific, give or take 11 hours, with a 1-in-2,100 risk of harm to anyone.",
+      "story": [
+        "The U.S. Space Force's latest prediction, as of Monday, puts Swift's re-entry at about 3:30 a.m. Eastern (12:30 a.m. Pacific) on Nov. 4, with an uncertainty of 11 hours (NASA, Space.com). The roughly 3,200-pound spacecraft will mostly burn up, but some components are expected to survive. Because of its low orbital inclination, surviving fragments could land only between 20.6 degrees south and 20.6 degrees north latitude, so the Bay Area is outside the zone. NASA puts the risk of harm to anyone on Earth at about 1 in 2,100.",
+        "A private rescue effort ended in August. NASA and Katalyst Space said their LINK spacecraft would not capture or boost Swift because of an attitude control problem (CNN, Space.com). After operators resumed science observations, Swift sank faster in the thin upper atmosphere, entered safe mode, and operators sent a command in late October that effectively ended operations to prepare it for re-entry. A NASA spokesperson said there are no plans for another boost mission.",
+        "Space.com reports Swift's instruments were switched back on for observations until the end, which sped its decline."
+      ],
+      "flag": "The re-entry time has an 11-hour uncertainty and will shift as the orbit decays.",
+      "facts": [
+        "Predicted re-entry is about 3:30 a.m. EST Nov. 4, give or take 11 hours (U.S. Space Force).",
+        "The spacecraft weighs about 3,200 pounds.",
+        "Surviving fragments could land only between 20.6° S and 20.6° N.",
+        "NASA puts the risk of harm to anyone at about 1 in 2,100.",
+        "The LINK rescue spacecraft was called off on Aug. 19."
+      ],
+      "why": "It is the end of a long-running astrophysics mission and a live test of how agencies handle a large uncontrolled re-entry. The low risk figure is why NASA expects no harm, and NASA says most of the spacecraft will burn up.",
+      "next": "Space Force updates continue through Wednesday, and NASA will confirm re-entry after it happens.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/missions/after-failure-of-private-rescue-mission-nasas-swift-space-telescope-will-crash-back-to-earth-but-when-and-where"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/09/30/science/nasa-swift-observatory-falling"
+        ]
+      ]
+    },
+    {
+      "id": "atlascomet",
+      "section": "science",
+      "motif": "planet",
+      "when": "Interstellar comet",
+      "title": "Webb data suggest interstellar comet 3I/ATLAS formed from dusty ice in a very cold, distant part of its home system",
+      "summary": "Researchers model sub-micron dirty water ice grains and estimate formation colder than -240°C.",
+      "story": [
+        "New James Webb Space Telescope analyses suggest the interstellar comet 3I/ATLAS was built from tiny grains of ice mixed with dust unlike those of solar system comets (Space.com). Researchers led by Protopapa modeled the comet as sub-micron grains of dirty water ice, with the amount of dust mixed into the ice setting it apart. A preprint on arXiv describes refractory-rich water ice and a continuum of grain properties across protoplanetary disks.",
+        "A second study by Ferellec and colleagues estimates the comet formed somewhere colder than -240°C, in the outer reaches of its home system where little starlight reached (Space.com). Webb also found a coma rich in CO2, which NASA says could mean extra radiation exposure or formation where CO2 ice freezes out of the disk.",
+        "Isotope measurements from Webb's NIRSpec suggest an age of 10 to 12 billion years, and its water carries a deuterium ratio an order of magnitude higher than typical comets in our solar system (Space.com). A newer Webb MIRI study reports amorphous silicates resembling those in the interstellar medium."
+      ],
+      "flag": "Some results are preprints that have not completed peer review, and formation-site estimates differ between studies.",
+      "facts": [
+        "Webb models show sub-micron grains of dirty water ice.",
+        "One study estimates formation colder than -240°C.",
+        "NIRSpec isotope data suggest an age of 10 to 12 billion years.",
+        "The comet's deuterium ratio is about ten times higher than in typical solar system comets.",
+        "Webb's MIRI instrument found amorphous silicates like those in interstellar space."
+      ],
+      "why": "Interstellar comets are the only direct samples of other planetary systems we can study up close. Differences in ice and dust show that planet-forming disks around other stars are not copies of our own.",
+      "next": "More peer-reviewed papers on the comet are expected as Webb's data are published.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/asteroids/james-webb-space-telescope-uncovers-new-clues-about-the-origins-of-interstellar-invader-comet-3i-atlas"
+        ],
+        [
+          "Space.com (formation)",
+          "C",
+          "https://www.space.com/astronomy/comets/interstellar-comet-3i-atlas-likely-formed-where-its-stars-light-couldnt-touch-it"
+        ],
+        [
+          "Space.com (age)",
+          "C",
+          "https://www.space.com/astronomy/comets/interstellar-comet-3i-atlas-may-be-nearly-12-billion-years-old-so-ancient-its-star-system-may-no-longer-exist"
+        ],
+        [
+          "arXiv preprint",
+          "C",
+          "https://arxiv.org/pdf/2609.19286"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "scroll",
+      "thread": "anthropic-ipo",
+      "when": "IPO watch",
+      "title": "Anthropic's IPO could start marketing as soon as the week of Nov. 9 as the AI trade wobbles",
+      "summary": "Bloomberg says the Claude maker plans a Nasdaq listing under ANT, and investors are split on the valuation.",
+      "story": [
+        "Anthropic filed publicly for an IPO on Oct. 26, and Bloomberg reports it could begin formally marketing shares as soon as the week of Nov. 9 (Bloomberg, SEC filing). The company expects to trade on the Nasdaq Global Select Market under the symbol ANT. Prediction-market traders called an IPO this year near-certain after the filing, CNBC reported, and the company had first filed confidentially in June.",
+        "CNBC found investors split on whether the offering is \"speculative fiction\" or a \"generational moment,\" weighing fast growth against large losses and compute commitments. The timing is awkward: the Nasdaq 100 just entered a correction on AI-spending doubts, and Bloomberg's opinion column called Marvell's $115 billion deal badly timed for the same reason.",
+        "Disclosure: this briefing is written by Claude, which Anthropic makes, so read this item with that in mind. Everything here comes from the cited outlets and the filing, not from Anthropic."
+      ],
+      "flag": "The week-of-Nov. 9 timing is a Bloomberg report, not a company announcement.",
+      "facts": [
+        "Anthropic filed its public S-1 on Oct. 26, 2026.",
+        "It expects to list on Nasdaq under the symbol ANT.",
+        "Bloomberg says marketing could begin as soon as the week of Nov. 9.",
+        "The company filed confidentially in June.",
+        "The Nasdaq 100 entered a correction on Monday."
+      ],
+      "why": "This is the first public look at a frontier AI lab's finances, and it lands as investors question AI returns. A successful listing would validate the sector. A weak one could deepen the selloff.",
+      "next": "Watch for an amended S-1 with a price range and a roadshow launch, possibly the week of Nov. 9.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-ipo-explained-s-1-filing-nasdaq-listing-and-key-risks"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html"
+        ],
+        [
+          "CNBC (prediction markets)",
+          "C",
+          "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html"
+        ],
+        [
+          "SEC filing",
+          "C",
+          "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
+        ]
+      ]
+    },
+    {
+      "id": "nvidiachina",
+      "section": "ai",
+      "motif": "chip",
+      "when": "Chip policy",
+      "title": "Nvidia reportedly tells cloud customers to sell at least 51% of services outside China",
+      "summary": "The Financial Times, relayed by Bloomberg, reports the guidance to trim China exposure; Nvidia has not been quoted confirming it.",
+      "story": [
+        "Nvidia has told its cloud computing customers to scale back exposure to Chinese companies, the Financial Times reported, as relayed by Bloomberg on Tuesday. The guidance reportedly says customers should make sure at least 51% of their services are sold to companies outside China. The report relies on unnamed sources.",
+        "Nvidia's latest 10-Q says it could ship uncontrolled products such as gaming and workstation GPUs to China but is effectively shut out of China's data center compute market. It also flags a proposed bill, the Remote Access Security Act, that could bar cloud services to companies whose ultimate parent is headquartered in China (Bloomberg).",
+        "The report follows a week of China headlines for Nvidia. CNBC and TechCrunch reported on Oct. 29 that U.S. authorities investigated a Chinese spy plot aimed at CEO Jensen Huang, and Nvidia said diversion allegations tied to a Singapore cloud customer, Megaspeed, were \"investigated and debunked.\""
+      ],
+      "flag": "Single-source report relayed by Bloomberg; Nvidia's response was not found.",
+      "facts": [
+        "The FT reports Nvidia told cloud customers to sell at least 51% of services outside China.",
+        "Nvidia's 10-Q says it is effectively shut out of China's data center compute market.",
+        "Congress is considering the Remote Access Security Act.",
+        "Nvidia denied diversion allegations involving Megaspeed, calling them debunked.",
+        "Nvidia reports earnings Nov. 17 after the close."
+      ],
+      "why": "Cloud rentals are a route around chip export controls, so Nvidia limiting Chinese customers would close a loophole voluntarily and signal where U.S. policy is heading. It also bears on Nvidia's growth outlook ahead of its Nov. 17 report.",
+      "next": "Nvidia reports Nov. 17; watch for company comment and any movement on the Remote Access Security Act.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-03/nvidia-tells-data-center-clients-to-trim-china-business-ft-says"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Fremont's District 2 council seat is a rematch between incumbent Desrie Campbell and marketing director Keith Parker, and District 4 is an open seat with three candidates, Local News Matters reports.",
+    "The BART board picked Pacific Development and Affirmed Housing to build 643 homes, including 176 affordable units, on about 12 acres of parking at the Fremont station, with approval hoped for in 2027 and construction in 2028, the SF Chronicle reports.",
+    "A Nature Genetics study reports that clonal hematopoiesis often expands after CD19 CAR T-cell therapy and contributes to secondary myeloid cancers, though most patients with expansion never develop one.",
+    "NASA will hold a Moon Base news conference at 5 p.m. Nov. 7 with Administrator Jared Isaacman, NASA says.",
+    "Astronauts Anil Menon and Joshua Kutryk completed the 100th U.S. spacewalk from the ISS without a shuttle docked on Oct. 29, installing the seventh and penultimate iROSA solar array, Space.com reports.",
+    "A five-lab Nature Neuroscience study found psilocybin acutely increased avoidance behavior and reduced fear expression in mice, with lasting effects modest or inconsistent, Nature reports."
+  ]
+}
