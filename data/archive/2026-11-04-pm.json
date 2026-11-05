@@ -1,0 +1,1195 @@
+{
+  "updatedAt": "2026-11-05T00:08:45Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **Vice President Vance says the Iran war cost Republicans the midterms**, and Trump called that \"largely true\" while saying he would \"do it again\" (Axios, NBC, CNN). Democrats are at 54 Senate seats in NBC's count, with **Mississippi decided by dozens of votes** and no recount process (NBC, NPR, Fox News). Massie plans to force a Hegseth impeachment vote next week, and GOP sources expect it to pass (CNN, The Hill). In California, Prop 40 is losing with about 56% no while Prop 42 leads, and Bay Area transit measures are passing (CalMatters, KQED, SF Chronicle). Wall Street surged, with the **Dow up 3.03% for its best day since April 2025**, S&P 500 up 1.58% and Nasdaq up 1.44% (CNBC, Bloomberg, Fox Business). Oil fell about 8% to near $88 as traders bet on an Iran deal (CNBC, Axios). Big Tech jumped while **AI data center stocks slid on Texas's moratorium push**, with Nvidia down 3.17% (CNBC, MIT Technology Review). The October jobs report arrives Friday at 8:30 a.m. Eastern, with forecasters expecting about 59,000 jobs (CNBC). NASA's Swift observatory re-entered over Sumatra at 4:39 a.m. Pacific (NASA, Space.com), and Anthropic's IPO roadshow could begin the week of Nov. 9 (Bloomberg).",
+  "alerts": [
+    {
+      "text": "Friday's October jobs report (8:30 a.m. Eastern) is the next test for the Fed's December hike odds; forecasters expect about 59,000 jobs.",
+      "level": "watch",
+      "story": "jobs"
+    },
+    {
+      "text": "Rep. Massie plans to force a Hegseth impeachment vote when the House returns next week.",
+      "level": "watch",
+      "story": "hegseth"
+    },
+    {
+      "text": "Nvidia fell 3.17% to $200.13 on the AI-trade split; it reports earnings Nov. 17 after the close.",
+      "level": "info",
+      "story": "txdata"
+    },
+    {
+      "text": "Fremont council incumbents lead and the BART-funding sales tax passed; counts are unofficial until certified.",
+      "level": "info",
+      "story": "fremont"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "vancewar",
+      "text": "Vance blames the Iran war for the GOP rout; Trump calls it largely true and says he would do it again."
+    },
+    {
+      "story": "marketsrally",
+      "text": "Dow jumps 3.03% for its best day since April 2025 as oil falls and Big Tech surges."
+    },
+    {
+      "story": "prop40",
+      "text": "California's Prop 40 billionaire tax is losing with about 56% no, and Prop 42 leads."
+    },
+    {
+      "story": "txdata",
+      "text": "Texas's data center moratorium push splits the AI trade between Big Tech winners and neocloud losers."
+    },
+    {
+      "story": "swift",
+      "text": "NASA's Swift observatory re-entered over North Sumatra at 7:39 a.m. EST after the failed rescue."
+    }
+  ],
+  "stat": {
+    "label": "Dow one-day gain",
+    "value": "+3.03%",
+    "note": "Best day since April 2025 (CNBC)"
+  },
+  "markets": {
+    "asOf": "Wed Nov 4, 6:34 PM ET",
+    "wrap": "Stocks jumped after Democrats won Congress, with the Dow up 3.03% to 53,356 and the S&P 500 up 1.58% (CNBC, Bloomberg, Fox Business). **Big Tech surged while AI data center names slid**: Apple, Microsoft and Amazon rose more than 5%, while CoreWeave fell nearly 10% after Texas's governor-elect pledged a data center pause (CNBC). **Oil fell about 8% to near $88** on hopes that a Democratic Congress and Vance's post push Trump toward an Iran deal (CNBC, Axios). Treasury yields eased as traders priced in less deficit spending and fewer rate hikes (CNBC, Bloomberg).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,688.62",
+        "raw": 7688.62,
+        "change": "+1.58%",
+        "dir": "up",
+        "time": 1793829071,
+        "spark": [
+          7773.95,
+          7818.93,
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "53,356.12",
+        "raw": 53356.12,
+        "change": "+3.03%",
+        "dir": "up",
+        "time": 1793829080,
+        "spark": [
+          51267.9,
+          51521.28,
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,736.51",
+        "raw": 25736.514,
+        "change": "+1.44%",
+        "dir": "up",
+        "time": 1793830559,
+        "spark": [
+          27477.31,
+          27599.79,
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.89%",
+        "raw": 4.894,
+        "change": "-1.17%",
+        "dir": "down",
+        "time": 1793822393,
+        "spark": [
+          5.31,
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$88.14",
+        "raw": 88.14,
+        "change": "+0.02%",
+        "dir": "up",
+        "time": 1793835258,
+        "spark": [
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.14
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$80,616",
+        "raw": 80615.78,
+        "change": "+4.24%",
+        "dir": "up",
+        "time": 1793835858,
+        "spark": [
+          86480.3,
+          85786.59,
+          85557.56,
+          83275.93,
+          81676.34,
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80615.78
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$200.13",
+        "raw": 200.13,
+        "change": "-3.17%",
+        "dir": "down",
+        "time": 1793826001,
+        "spark": [
+          238.9,
+          239.24,
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13
+        ],
+        "note": "Chip and data center names lagged as the AI trade split after Texas result (CNBC)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$349.51",
+        "raw": 349.51,
+        "change": "+5.31%",
+        "dir": "up",
+        "time": 1793826001,
+        "spark": [
+          332.89,
+          333.63,
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51
+        ],
+        "note": "Hit a record $354.33 intraday on hopes slower data center builds ease memory costs (CNBC)."
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$555.80",
+        "raw": 555.8,
+        "change": "+6.68%",
+        "dir": "up",
+        "time": 1793826001,
+        "spark": [
+          525.18,
+          529.3,
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8
+        ],
+        "note": "Cloud giants rallied on bets that an AI buildout slowdown helps margins (CNBC)."
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$288.93",
+        "raw": 288.93,
+        "change": "+3.18%",
+        "dir": "up",
+        "time": 1793826001,
+        "spark": [
+          346.47,
+          347.68,
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93
+        ],
+        "note": "Rose with mega-cap tech after the midterm results (CNBC)."
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$385.19",
+        "raw": 385.19,
+        "change": "-3.34%",
+        "dir": "down",
+        "time": 1793826001,
+        "spark": [
+          378.73,
+          380.68,
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19
+        ],
+        "note": "Fell with Musk-linked stocks after Republican losses (CNBC)."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$266.03",
+        "raw": 266.03,
+        "change": "+6.12%",
+        "dir": "up",
+        "time": 1793826001,
+        "spark": [
+          251.4,
+          256.29,
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03
+        ],
+        "note": "Rallied with hyperscalers after the midterms (CNBC)."
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 66.8,
+      "feels": 63.1,
+      "hum": 54,
+      "wind": 8.7,
+      "cond": "partly"
+    },
+    "days": [
+      {
+        "date": "2026-11-03",
+        "hi": 64,
+        "lo": 49,
+        "cond": "drizzle",
+        "pop": 32
+      },
+      {
+        "date": "2026-11-04",
+        "hi": 68,
+        "lo": 52,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-11-05",
+        "hi": 72,
+        "lo": 48,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-06",
+        "hi": 76,
+        "lo": 46,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-07",
+        "hi": 77,
+        "lo": 58,
+        "cond": "partly",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-08",
+        "hi": 75,
+        "lo": 57,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-09",
+        "hi": 70,
+        "lo": 55,
+        "cond": "cloudy",
+        "pop": 0
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "vancewar",
+      "section": "politics",
+      "motif": "scales",
+      "thread": "midterms-2026",
+      "when": "Blame game",
+      "title": "Vance says the Iran war cost Republicans the midterms, and Trump calls that largely true",
+      "summary": "Vice President Vance blamed the Iran war for the GOP rout, and Trump said it was largely true but that he would do it again.",
+      "story": [
+        "On Wednesday Vice President JD Vance wrote on X that the war was the reason Republicans lost the midterms. Axios, NBC News, The Hill and Fox News all reported the post. Asked about it at the White House ballroom site, President Trump said Vance's comment was \"fine\" and that it was \"largely true\" that the war sparked the losses, according to CNN. He also said he would \"have to do it again\" because Iran cannot have a nuclear weapon. Decision Desk HQ projected Republicans lost at least seven Senate seats and about 30 House seats, with more than 20 House races still uncalled.",
+        "The remarks are a rare public split inside the administration. Vance named four things voters wanted: an end to the Iran war, a focus on the cost of living, an America-first approach and a changed relationship with Israel, NBC reported. Donald Trump Jr. agreed with Vance. A Trump administration official told Fox News the post was not a break with the president. Axios says Trump told the Wall Street Journal the war was \"a piece of it,\" and NBC noted he also said the main reason was that he was not on the ballot.",
+        "Other explanations compete. Exit polls cited by Axios put cost of living and government corruption as the top two issues. A Fox News voter poll found about two-thirds of voters said Trump's tariffs hurt the economy and put his approval at 38%. Iran's leaders have claimed the result as an anti-war rebuke, Fox News reported. Fox also reports the post puts a possible 2028 Republican contest in focus.",
+        "For the war itself, the question is whether a Congress run by Democrats can force a deal or a funding fight. Trump says he sees no rush on new strikes, and oil traders reacted to the Vance post as a sign that a settlement is more likely."
+      ],
+      "facts": [
+        "Vance posted on X on Wednesday, Nov. 4, that the war was the reason Republicans lost (Axios, NBC, The Hill).",
+        "Trump called it \"largely true\" and said he would do the war again (CNN).",
+        "Decision Desk HQ projected Republicans lost at least seven Senate seats and 30 House seats so far (The Hill).",
+        "Exit polls cited by AP name cost of living and government corruption as the top issues (Axios).",
+        "A Fox News voter poll puts Trump's approval at 38% (Fox News)."
+      ],
+      "left": "The result confirms that a war launched without Congress, plus rising gas prices and tariffs, is a political and economic failure. Democrats say voters judged the president on prices and on a conflict they never endorsed. They argue Congress should now use its funding and oversight powers to force a negotiated end and to put a check on tariffs.",
+      "right": "Conservatives split on the cause. Vance's camp says the war cost the party, and he wants the party to answer that honestly. Others argue the damage came from tariffs, weak nominees and a president not on the ballot, and that Trump is right that a nuclear Iran is the larger long-term threat. National Review argues Trump's treatment of congressional Republicans hurt the party.",
+      "next": "Watch whether Trump resumes strikes or accepts the Qatari plan before the new Congress is seated in January; Democrats take control then.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/04/jd-vance-iran-war-trump-election"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6197976-vance-midterms-iran-war-trump/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trump-couldnt-transfer-love-supporters-other-republicans-amid-historic-midterm-loss"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/04/politics/live-news/midterm-election-congress"
+        ]
+      ]
+    },
+    {
+      "id": "hegseth",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Impeachment",
+      "title": "Republicans turn on Hegseth as Massie plans an impeachment vote next week",
+      "summary": "Rep. Thomas Massie says he will force a vote to impeach the defense secretary when Congress returns; Trump says he is not firing him.",
+      "story": [
+        "CNN reports that Republicans alarmed by the midterm losses are moving to blame Defense Secretary Pete Hegseth, arguing he pushed Trump into the Iran war. Rep. Thomas Massie told CNN he plans to trigger an impeachment vote when Congress returns next week, and multiple GOP sources told CNN they expect it to pass. Sen. Thom Tillis told The Hill that Hegseth faces \"a reckoning\" in the lame-duck session. Rep. Don Bacon has not decided how he will vote but leans against, CNN says.",
+        "Massie has threatened this for weeks. The Hill reported in the fall that he would move to impeach if Hegseth was still in office after the midterms, and Tillis earlier said Hegseth \"needs to go.\" The House left town early in September, which delayed an earlier push, according to CNN.",
+        "Trump defended the war on Wednesday and denied any plan to fire Hegseth, CNN reports. A House impeachment would still need 67 Senate votes to remove him, a Senate Democratic aide noted, so the practical effect would be pressure rather than removal. The lame-duck House is still Republican-led until January."
+      ],
+      "blindspot": "Covered mainly by CNN and The Hill; no right-leaning outlet coverage of the impeachment push turned up in my searches.",
+      "facts": [
+        "Massie says he will trigger an impeachment vote next week (CNN).",
+        "GOP sources told CNN they expect it to pass the House.",
+        "Removal would need 67 Senate votes (CNN, citing a Senate Democratic aide).",
+        "Trump denied any plan to fire Hegseth (CNN).",
+        "Tillis says Hegseth faces \"a reckoning\" in the lame-duck session (The Hill)."
+      ],
+      "left": "Democrats say the secretary led the country into an unpopular war and ran the Pentagon recklessly, and that Republican willingness to impeach shows the problem is not partisan. They want hearings and subpoenas in the new Congress whatever happens to this vote.",
+      "right": "Conservative skeptics of the war, such as Massie, say Congress never authorized it and the secretary should answer for it. Defenders, including the president, say firing a cabinet officer after an election loss rewards Democrats and that the war's goals remain valid. Some Republicans, like Bacon, doubt impeachment is the right tool.",
+      "next": "The House returns next week; watch whether Massie forces a privileged impeachment vote and how many Republicans join.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6197052-thom-tillis-pete-hegseth-reckoning/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/"
+        ]
+      ]
+    },
+    {
+      "id": "senatecount",
+      "section": "politics",
+      "motif": "ballot",
+      "when": "Count",
+      "title": "Democrats reach 54 Senate seats in NBC's count, with Mississippi decided by dozens of votes",
+      "summary": "Mississippi and Alaska remain uncalled, and Mississippi has no recount procedure.",
+      "story": [
+        "NBC News counts Democrats at 54 Senate seats, with two races still uncalled. In Mississippi, Democrat Scott Colom leads Sen. Cindy Hyde-Smith by 43 votes in Fox News' tally and 65 in an NBC report, and CNN also put the gap near 43. NPR says votes are still being counted. In Alaska, Democrat Mary Peltola leads Sen. Dan Sullivan, 48.2% to 47.9%, with about three-quarters counted, NBC reports, and the state uses ranked-choice voting.",
+        "Mississippi counties have until Nov. 13 to send results to the secretary of state, and absentee ballots postmarked by Election Day can arrive through Nov. 10. Estimates of outstanding ballots run from 15,000 affidavit ballots to about 44,000 total ballots. NBC quotes an attorney saying Mississippi has no mechanism for a recount.",
+        "Both sides are preparing for court. Colom has said he is prepared to litigate, and Fox News reports Newsom is raising money for a legal team tied to Biden's former election lawyer. Decision Desk HQ's tally showed a larger Colom lead than other outlets, so the margin is disputed."
+      ],
+      "flag": "The Mississippi margin differs by outlet (43, 65 or about 2,000 votes in Decision Desk HQ's tally), so treat it as unsettled.",
+      "facts": [
+        "NBC counts Democrats at 54 Senate seats (NBC News).",
+        "Colom leads Hyde-Smith by 43 to 65 votes depending on the outlet (Fox News, NBC, CNN).",
+        "Peltola leads Sullivan 48.2% to 47.9% before ranked-choice tabulation (NBC).",
+        "Mississippi counties report by Nov. 13 (NBC).",
+        "Mississippi has no standard recount process (NBC)."
+      ],
+      "left": "Democrats say every valid ballot must be counted, including affidavit and absentee ballots cured within the legal window, and that the 43-vote margin shows why rules on curing matter. They accuse Republicans of preparing to challenge ballots they would have accepted in a close win.",
+      "right": "Republicans say counting must follow the statute exactly and that late curing or affidavit ballots need strict verification. They point to Mississippi's lack of a recount process as a reason to guard the ballot chain carefully, and note that Democratic fundraising for lawyers shows both sides expect a fight.",
+      "next": "Mississippi results are due by Nov. 13, and Alaska's ranked-choice count follows; watch for lawsuits.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/mississippi-senate-race-heads-extended-vote-count-possible-ballot-batt-rcna607463"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/04/nx-s1-6028618/votes-are-still-being-counted-in-mississippi-u-s-senate-race"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6196987-mississippi-senate-race-too-close-to-call-ddhq/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/newsom-solicits-cash-bidens-former-election-lawyer-mobilizes-legal-team-mississippi-senate-race"
+        ]
+      ]
+    },
+    {
+      "id": "prop40",
+      "section": "local",
+      "motif": "coins",
+      "thread": "california-billionaire-tax",
+      "when": "Prop 40",
+      "title": "Prop 40 billionaire tax appears headed for defeat as Prop 42 leads",
+      "summary": "The AP showed about 56% voting no on Prop 40 with over half counted, and Prop 42 leading at about 55%.",
+      "story": [
+        "CalMatters says California's Prop 40 billionaire tax appears headed for defeat. KQED reports it trailed in early results, and the San Francisco Chronicle reports about 56% voting no with 54% of votes counted, per the AP. Prop 42, which would bar new state taxes on ownership of personal property and cancel Prop 40, led with about 55%, and Prop 41 trailed with 52% voting no. Leaders of SEIU-UHW, which backed Prop 40, signaled they would try again in 2028, the Chronicle reports.",
+        "Under the ballot rules, Prop 40 is void if Prop 41 or Prop 42 gets more yes votes. Opponents, led by billionaire donors, put $316.7 million into the fight against it, while the yes side raised about $33 million, according to the Chronicle.",
+        "California counts slowly, so the final margins may not settle until next week. A third possibility is that all three measures fail, which would leave none of the tax systems in place."
+      ],
+      "blindspot": "Covered by center and left-leaning outlets in my searches; no right-leaning coverage found.",
+      "facts": [
+        "Prop 40 was losing with about 56% no and 54% counted (AP via SF Chronicle).",
+        "Prop 42 led with about 55% yes (SF Chronicle).",
+        "Prop 41 trailed with 52% no (SF Chronicle).",
+        "Opponents put $316.7 million into the campaign; the yes side raised about $33 million (SF Chronicle).",
+        "Final results may take until next week (CalMatters)."
+      ],
+      "left": "Supporters say a one-time 5% levy on the very wealthy was a modest way to pay for health care and that the opposition's $316 million shows how much the donors feared it. They say the defeat does not end the push and point to the 2028 plan.",
+      "right": "Opponents say a wealth tax would drive founders and capital out of California and shrink the state's income tax base, which already leans on a few high earners. They say Prop 42's ban on new wealth taxes protects the tech economy that funds the state budget.",
+      "next": "Watch the county counts over the next week and whether Prop 42 passes; Gov.-elect Becerra takes office in January.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/health/2026/11/california-election-2026-prop-40-41-42/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12107038/california-billionaire-tax-trails-in-early-results"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/live-results-california-prop-40-41-42-22494937.php"
+        ]
+      ]
+    },
+    {
+      "id": "fremont",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Fremont",
+      "title": "Fremont council races and Alameda County measures take shape as the regional transit tax holds at about 61%",
+      "summary": "Early returns show Fremont incumbents leading, BART's Raburn well ahead, and the regional sales tax passing.",
+      "story": [
+        "KQED's Alameda County results and the San Francisco Chronicle show early returns, last updated around 1 a.m. Pacific on Nov. 4. In Fremont, Desrie Campbell led Keith Parker about 70% to 30% in District 2, Kathy Kimberlin led Vipin Sharma about 72% to 28% in District 3, and in District 4 Ying Min Li led with 44.2% over Aziz Akbari at 32.7% and Manisha Pathak at 19.9%. BART director Robert Raburn led Luis Reynoso, 67.7% to 32.2%.",
+        "The regional transit sales tax, Measure RTM, was winning with about 61% across five counties. It is a 14-year sales tax expected to raise about $1 billion a year, and nearly 65% of the Alameda County share goes to BART operations, KQED reports. BART had warned that without it, up to 15 stations could close.",
+        "Other Alameda County measures mostly passed, including Oakland's Measure FF transfer tax at about 79%, while Berkeley's Measure Z public bank was losing, 58% no. These counts are unofficial, and mail ballots will keep arriving."
+      ],
+      "blindspot": "Covered by left-leaning and center outlets only; no right-leaning outlet coverage found.",
+      "facts": [
+        "Measure RTM was passing with about 61% in five counties (KQED, SF Chronicle).",
+        "The tax runs 14 years and raises about $1 billion a year (KQED).",
+        "BART had warned that up to 15 stations could close (KQED).",
+        "Fremont District 2: Campbell about 70%, Parker about 30% (KQED).",
+        "Berkeley Measure Z was failing, 58% no (KQED)."
+      ],
+      "left": "Transit advocates say the tax averts a death spiral for BART and keeps jobs, climate goals and low-income riders' access intact. They note voters across five counties chose to tax themselves.",
+      "right": "Skeptics say a sales tax is regressive and that agencies should show cost discipline and ridership recovery before asking for $1 billion a year. They want audits and spending guardrails so the money does not just prop up the old budget.",
+      "next": "Alameda County will keep updating counts; certified results come later this month.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12107133/death-spiral-averted-bay-area-transit-taxes-rtm-and-prop-h-declare-victory"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/elections/results/alameda"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/live-results-bay-area-regional-transit-measure-22487820.php"
+        ]
+      ]
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "ship",
+      "thread": "iran-war",
+      "when": "Iran",
+      "title": "Trump says he would 'do it again' on Iran as Qatari mediators wait for answers",
+      "summary": "Trump says the war was a factor in the losses but necessary, with no rush to resume strikes.",
+      "story": [
+        "At the White House ballroom site Wednesday, Trump said that if he had it to do again, he \"would have to do it again\" because \"long term, it's the only answer,\" CNN reports. He said the war drove gasoline prices up a little in the short term. In an Axios interview Monday, he said he is \"in no rush\" to decide whether to resume strikes and that \"one way or the other, we will do something.\" Secretary of State Rubio said on Oct. 31 that Trump had not decided on resuming strikes, Fox News reported.",
+        "Qatari mediators have drafted a three-day sequence of confidence-building steps meant to restart direct U.S.-Iran talks and are waiting for feedback, Axios reports. The sticking point is that the U.S. wants Iran's enriched uranium stockpile while Iran wants the naval blockade lifted and frozen funds released first. Iran said it would seek Supreme Leader Mojtaba Khamenei's approval of the ideas. Iran has also offered to reopen the Strait of Hormuz in about two days if its conditions are met, The Hill reports.",
+        "Analysts say the midterms raise the odds of a deal. Oil fell about 8% on Wednesday as traders bet the White House will now favor talks. Fox News reports Iranian leaders claimed the Republican losses as an anti-war rebuke."
+      ],
+      "facts": [
+        "Trump said Wednesday he would \"have to do it again\" (CNN).",
+        "Trump told Axios Monday he is \"in no rush\" to resume strikes.",
+        "Qatar drafted a three-day confidence-building plan and awaits answers (Axios).",
+        "Iran offers to reopen Hormuz within two days if its conditions are met (The Hill).",
+        "The U.S. blockade remains in place (Axios)."
+      ],
+      "left": "Critics say the war was avoidable, cost lives and money, and raised prices at home, and that the election is a mandate to end it. They want Congress to use its war-powers and funding authority to push the blockade toward a negotiated settlement.",
+      "right": "Supporters say Iran must not get a nuclear weapon and that the blockade and strikes forced Tehran to the table. They warn that treating the election as a verdict on the war rewards Iran's claim of victory and weakens the U.S. position in the Doha talks.",
+      "next": "Watch for Iran's answer to the Qatari plan and any sign that Trump sets a strike deadline.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/04/world/iran-israel-ukraine-midterm-impact-intl"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6189852-iran-offers-strait-hormuz-opening/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/iran-victory-lap-stunning-us-election-results-claims-collapse-accelerated"
+        ]
+      ]
+    },
+    {
+      "id": "jobs",
+      "section": "economy",
+      "motif": "chart",
+      "when": "Jobs Friday",
+      "title": "October jobs report lands Friday with forecasters expecting about 59,000 jobs and a hike still in view",
+      "summary": "Economists expect modest payroll growth and 4.2% unemployment, which would keep the Fed on track to raise rates.",
+      "story": [
+        "The Labor Department releases the October jobs report Friday, Nov. 6, at 8:30 a.m. Eastern. CNBC reports the Dow Jones consensus is about 59,000 jobs, after 29,000 in September, with unemployment steady at 4.2%. FactSet's estimate is 55,000 and Bloomberg's forecasters expect 65,000. ADP said private employers added 86,000 jobs in October, above the 75,000 estimate, Fox Business and CNBC report.",
+        "CNBC also reports job openings rose to 7.52 million in September. Bloomberg says a jobs pickup could keep the Fed on track for more hikes. The Fed held rates Oct. 28 with inflation at 3.7%, and traders earlier put about 75% odds on a December hike.",
+        "Wednesday's stock rally came with falling oil, and traders also pared bets on rate hikes, Bloomberg reports. A strong report would revive the hike case, while a weak one would feed the argument that tariffs and the war are hurting hiring."
+      ],
+      "facts": [
+        "The report comes Friday, Nov. 6, at 8:30 a.m. Eastern (CNBC).",
+        "The Dow Jones consensus is about 59,000 jobs and 4.2% unemployment (CNBC).",
+        "ADP counted 86,000 private jobs in October (Fox Business, CNBC).",
+        "September job openings rose to 7.52 million (CNBC).",
+        "The Fed's next meeting is Dec. 8-9, with a hike in play (NPR, Fox Business)."
+      ],
+      "left": "Progressives say hiring is thin because tariffs and a costly war raised business costs, and that a Fed hike into weak job growth would hurt workers. They argue the new Congress should focus on prices and wages rather than on tax cuts.",
+      "right": "Conservatives say job openings and ADP show the labor market is holding up and that the Fed must finish the job on 3.7% inflation. They warn that fiscal fights in a divided Congress could add uncertainty, and blame tariffs and war spending for price pressure only in part.",
+      "next": "Friday's report at 8:30 a.m. Eastern, then the Fed meeting on Dec. 8-9.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/private-sector-added-86000-jobs-october-above-expectations-adp-says"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again"
+        ]
+      ]
+    },
+    {
+      "id": "marketsrally",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Rally",
+      "title": "Dow jumps 3% for its best day since April 2025 as investors read a Democratic sweep as clearing the air",
+      "summary": "The Dow rose 1,569 points to 53,356, the S&P 500 gained 1.58% and the Nasdaq 1.44%.",
+      "story": [
+        "Stocks surged Wednesday after Democrats won Congress. The Dow Jones Industrial Average gained 3.03%, or 1,569.40 points, to close at 53,356.12, its best day since April 2025, CNBC reports. The S&P 500 rose 1.58% to 7,688.62 and the Nasdaq rose 1.44% to 25,736.51. The 10-year Treasury yield slipped to 4.89%. Bloomberg's evening briefing called it a market spike on the Democratic sweep, and Fox Business reported the Dow surging more than 1,500 points.",
+        "The split inside tech drove much of the move. Apple closed at $349.51, up 5.31%, after touching a record $354.33 during the session, and Microsoft rose 6.68% and Amazon 6.12%. Alphabet gained 3.18%. Investors bet that slower data center construction could ease memory chip costs and help hyperscaler margins, CNBC reports. Big Tech added more than $750 billion in market value at one point.",
+        "Not everyone is convinced. Jim Cramer warned that investors may be reading too much into the rally, and UBS said the result does not change the medium-term outlook enough to justify a strategic shift, CNBC reports. Nvidia fell 3.17% to $200.13 and Tesla fell 3.34% to $385.19."
+      ],
+      "flag": "Outlets differ on intraday gains for Amazon and Microsoft; closing figures here come from the live market data.",
+      "facts": [
+        "Dow +3.03% to 53,356.12, the best day since April 2025 (CNBC; live data).",
+        "S&P 500 +1.58% to 7,688.62; Nasdaq +1.44% to 25,736.51 (live data).",
+        "Apple +5.31%, Microsoft +6.68%, Amazon +6.12% (live data).",
+        "Nvidia fell 3.17% and Tesla fell 3.34% (live data).",
+        "UBS said the result does not justify a strategic portfolio shift (CNBC)."
+      ],
+      "why": "The rally shows markets treating divided government as lower risk for tariffs, deficits and the war. It also shows investors splitting the AI trade between cloud giants and chip and data center builders, which matters for retirement accounts holding index funds.",
+      "next": "Friday's jobs report, then Nvidia's earnings on Nov. 17 after the close.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/newsletters/2026-11-04/markets-spike-on-democratic-sweep-evening-briefing-americas"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/us-stock-futures-mixed-democrats-score-key-midterm-election-wins"
+        ]
+      ]
+    },
+    {
+      "id": "oilplunge",
+      "section": "stocks",
+      "motif": "barrel",
+      "when": "Oil",
+      "title": "Oil falls about 8% to near $88 as traders bet a Democratic Congress pushes Trump toward an Iran deal",
+      "summary": "WTI settled near $88 and Brent near $95, down from a peak above $116 on Oct. 28.",
+      "story": [
+        "Crude oil fell sharply Wednesday. CNBC reports prices dropped below $90 a barrel after Vance blamed the Republican defeat on the Iran war, and Axios says oil plunged after the post. West Texas Intermediate settled near $88 and Brent near $95, based on CNBC and Bloomberg figures, and Bloomberg says WTI had its biggest one-day loss since May. Brent peaked above $116 on Oct. 28, per the figures cited.",
+        "Analysts said the election leads the market to think Trump may now favor a deal. One cautioned that for prices to fall durably the market needs a lasting off-ramp, CNBC reports. Bloomberg says oil steadied after the 8% drop.",
+        "The fall helps the Fed and consumers if it holds, since high fuel prices fed the 3.7% inflation rate. It also lowered Treasury yields on Tuesday, as Democratic wins fed hopes of reduced deficit spending, CNBC reports."
+      ],
+      "facts": [
+        "WTI settled near $88 (CNBC, live data: $88.14).",
+        "Brent settled near $95 (CNBC).",
+        "The drop was the largest for WTI since May (Bloomberg).",
+        "Brent peaked above $116 on Oct. 28 (CNBC).",
+        "The 10-year Treasury yield is 4.89% (live data)."
+      ],
+      "why": "Oil is the transmission channel from the war to gas prices and inflation, so a lasting drop would ease pressure on the Fed's hike plans. It is fragile, because it rests on diplomacy rather than on any change in supply.",
+      "next": "Watch Iran's answer to the Qatari plan; any strike order would reverse the move.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/04/oil-prices-plunge-midterms-vance-democrats-iran"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5"
+        ]
+      ]
+    },
+    {
+      "id": "epic",
+      "section": "engineering",
+      "motif": "chip",
+      "when": "Chip R&D",
+      "title": "Applied Materials opens a $5 billion Sunnyvale lab to cut the path from chip research to production",
+      "summary": "The EPIC center lets TSMC, Samsung, Micron and others work inside one shared lab.",
+      "story": [
+        "Applied Materials unveiled its EPIC research center in Sunnyvale on Oct. 12, IEEE Spectrum reports, and Bloomberg says the company put the cost at about $5 billion, up from the $4 billion first announced in 2023. Spectrum calls it the largest commitment to advanced semiconductor equipment R&D in U.S. history. The company says it wants to cut by several years the time from early-stage discovery to commercial chips, a path that typically takes 10 to 15 years.",
+        "Customers including TSMC, Samsung, Micron and Broadcom have agreed to set up inside the lab, and even competing customers get their own spaces behind digital firewalls and physical barriers, Spectrum reports. Bloomberg reported in 2024 that Commerce Department officials rejected the project for CHIPS Act money, so Applied is funding it itself.",
+        "Spectrum also describes AI-enabled materials discovery, generative design of equipment and software development as part of the center's workflow. The company's CEO has said AI doubled its revenue, according to a Bloomberg video."
+      ],
+      "facts": [
+        "EPIC opened Oct. 12 in Sunnyvale (IEEE Spectrum).",
+        "Cost is about $5 billion, up from $4 billion planned in 2023 (Bloomberg).",
+        "TSMC, Samsung, Micron and Broadcom are among the customers (IEEE Spectrum).",
+        "The CHIPS Act grant was denied in 2024; Applied self-funds it (Bloomberg).",
+        "Goal: cut years from the 10 to 15 year lab-to-fab path (IEEE Spectrum)."
+      ],
+      "why": "Chip progress is limited by how fast new materials and processes move from lab to fab. Putting rival customers in one Silicon Valley facility, with security walls, is a bet that shared R&D speeds that up, and it sits in Keanu's backyard.",
+      "next": "Watch which customers announce first results from EPIC and whether other equipment makers follow with shared labs.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/applied-materials-epic-center"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/semiconductor-research"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/videos/2026-10-13/applied-materials-ceo-on-doubling-revenue-thanks-to-ai-video"
+        ]
+      ]
+    },
+    {
+      "id": "memory",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "Memory crunch",
+      "title": "Apple guides margins lower as AI data centers drive memory prices up for phones and Macs",
+      "summary": "Apple says memory prices are unprecedented and still rising; Counterpoint says memory prices have quadrupled in three quarters.",
+      "story": [
+        "Apple guided its December-quarter gross margin to 45% to 46%, below the 46.3% analyst average, and blamed mainly higher memory costs plus some Siri AI rollout costs, CNBC reports. CEO John Ternus called current memory pricing unprecedented and said he expects purchase prices to keep rising after the quarter. Apple also expects supply constraints on iPhones and Macs during the holidays, mainly from memory.",
+        "The cause is AI servers. Memory makers such as Micron are prioritizing high-bandwidth memory for AI chips from Nvidia, which leaves less for devices, and Counterpoint Research says memory and storage prices have quadrupled over three quarters, CNBC reports. In June Apple raised prices on MacBooks and iPads for the same reason, Fox Business reported.",
+        "New memory fabs are coming, but much of the added capacity may still go to the more profitable HBM and will take years to arrive, CNBC says. Jefferies expects iPhone 17 margins to fall 4 to 9 points, while Goldman argues Apple's customers are not very price sensitive."
+      ],
+      "facts": [
+        "Apple guided December-quarter gross margin to 45% to 46% (CNBC).",
+        "Ternus called memory pricing unprecedented (CNBC).",
+        "Counterpoint says memory prices quadrupled in three quarters (CNBC).",
+        "Apple raised MacBook and iPad prices in June (Fox Business).",
+        "Apple shares rose 5.31% Wednesday to $349.51 (live data)."
+      ],
+      "why": "The chip supply chain now prices consumer electronics against AI servers. Anything that slows data center builds, like the Texas moratorium push, could ease memory costs for phones and laptops.",
+      "next": "Watch whether a slowdown in AI data center plans eases memory prices, and Apple's holiday supply.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/06/26/ai-memory-chip-shortage-consumer-electronics-prices.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/apple-raises-ipad-macbook-prices-memory-chip-costs-surge"
+        ]
+      ]
+    },
+    {
+      "id": "swift",
+      "section": "science",
+      "motif": "satellite",
+      "when": "Reentry",
+      "title": "NASA's Swift observatory re-enters over North Sumatra after the failed rescue",
+      "summary": "The Space Force confirmed reentry at 7:39 a.m. EST Wednesday, or 4:39 a.m. Pacific.",
+      "story": [
+        "The U.S. Space Force confirmed that NASA's Swift observatory re-entered the atmosphere at 7:39 a.m. EST Wednesday, Nov. 4, over the North Sumatra region of Indonesia near 3.4 degrees north and 98.6 degrees east, according to NASA and Space.com. NASA updated its blog post to confirm it. CNN said the 3,200-pound observatory met a fiery end. It is not yet clear whether any surviving pieces reached land.",
+        "Atmospheric drag pulled Swift down after a private rescue mission failed. NASA ended the Katalyst LINK boost plan in August, and the spacecraft could no longer offset the increased drag and entered safe mode. Penn State's operations team sent the final shutdown command Oct. 20, and NASA ended science operations Oct. 23.",
+        "Before reentry NASA put the risk of harm to someone on Earth at about 1 in 2,100, per the Aerospace Corporation's comparison, looser than the 1 in 10,000 standard for uncontrolled reentries. No injuries or damage had been reported in my search results."
+      ],
+      "facts": [
+        "Reentry was at 7:39 a.m. EST on Nov. 4 (U.S. Space Force via NASA).",
+        "It came down over North Sumatra, Indonesia (NASA).",
+        "NASA estimated about a 1 in 2,100 chance of harm to anyone (CNN).",
+        "The final shutdown command was sent Oct. 20 (CNN).",
+        "NASA ended the Katalyst rescue plan in August (Space.com)."
+      ],
+      "why": "Swift found gamma-ray bursts and tracked black holes and neutron stars for two decades. Its loss shows how increased atmospheric drag, with no working rescue option, can end a productive science mission.",
+      "next": "NASA and the Space Force may report on any debris; the mission's archive remains available to researchers.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/04/science/nasa-swift-observatory-reentry-deorbit"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/missions/nasa-swift-space-telescope-crashes-to-earth"
+        ]
+      ]
+    },
+    {
+      "id": "mars",
+      "section": "science",
+      "motif": "planet",
+      "when": "Mars",
+      "title": "Hydrogen chloride over Alba Mons revives the question of whether Mars is volcanically alive",
+      "summary": "The ESA orbiter keeps detecting HCl near Alba Mons, though a volcanic origin is still debated.",
+      "story": [
+        "Space.com reports that the ESA Trace Gas Orbiter has detected gas containing hydrogen chloride rising near fissures on the flanks of Alba Mons, a huge Martian volcano, suggesting dormant rather than dead volcanism. A Science Advances paper reports six HCl detections in Mars Year 37, mostly northeast of Alba Mons, and more in Mars Year 38 that stayed confined to the Alba Mons region.",
+        "On Earth, hydrogen chloride typically escapes from magma, which is why the team sees a possible active magma chamber. The paper argues that halogen gas seepage may better identify magma chambers than sulfur gases do, and it notes mud volcanism could also release HCl.",
+        "The case is not settled. A modeling paper on arXiv calls a volcanic origin unlikely because the orbiter did not detect sulfur gases such as SO2, H2S or OCS that usually accompany volcanic activity, though that work predates the Alba Mons detections. Space.com also notes summer ice sublimation is an alternative explanation."
+      ],
+      "flag": "Whether the HCl comes from volcanic activity is unconfirmed; sublimation and mud volcanism are alternatives.",
+      "facts": [
+        "The orbiter detected HCl near Alba Mons fissures (Space.com).",
+        "Six detections in Mars Year 37, with more in Mars Year 38 (Science Advances).",
+        "A competing model finds a volcanic origin unlikely without sulfur gases (arXiv).",
+        "Summer ice sublimation is an alternative explanation (Space.com).",
+        "Mars Year 38 detections, in terrestrial summer 2025, were also confined to the Alba Mons region (Science Advances)."
+      ],
+      "why": "Recent volcanism would mean Mars still has internal heat and could carry water and chemistry near the surface, which matters for habitability and landing site choices.",
+      "next": "Follow-up orbiter observations in the next Martian summer should test whether sulfur gases appear alongside HCl.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/mars/mars-isnt-dead-recent-volcanic-activity-reveals-its-just-sleeping"
+        ],
+        [
+          "Science Advances",
+          "C",
+          "https://www.science.org/doi/10.1126/sciadv.aeb9422"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "rocket",
+      "thread": "anthropic-ipo",
+      "when": "IPO",
+      "title": "Anthropic's IPO roadshow could start the week of Nov. 9, with no price range yet",
+      "summary": "Marketing for the Nasdaq listing under ANT may start next week, but timing is reported rather than confirmed.",
+      "story": [
+        "Anthropic filed publicly for a Nasdaq listing under the ticker ANT, and Bloomberg reports it expects to list in November, with marketing possibly starting the week of Nov. 9. CNBC reports it is considering offering 15% to 20% of shares to retail investors through JPMorgan. No price range has been published: the S-1 amendment says valuation will be set through negotiations with underwriters.",
+        "Valuation talk ranges from $1.4 trillion to over $2 trillion in press reports, and CNBC says a revised starting point of $1.5 trillion was seen as disappointing against earlier hopes of at least $2 trillion. The filing showed $16.3 billion in first-half revenue, an $80.7 billion net loss and large compute commitments.",
+        "The AI trade has been shaky, and Texas's data center politics add to the questions. The founders' voting control and the Long-Term Benefit Trust's ability to elect a board majority remain open governance questions for investors."
+      ],
+      "flag": "Roadshow timing and valuation figures are press reports and could change.",
+      "facts": [
+        "Ticker is ANT on the Nasdaq (Bloomberg, Fox Business).",
+        "Roadshow could begin the week of Nov. 9 (Bloomberg).",
+        "No price range has been published (Fox Business).",
+        "First-half revenue was $16.3 billion, with an $80.7 billion net loss (CNBC).",
+        "Retail allocation of 15% to 20% is under consideration (CNBC)."
+      ],
+      "why": "This is the biggest test of whether public investors will fund frontier-lab losses at a trillion-dollar valuation. A strong debut would help the AI trade; a weak one would reinforce the data center pullback.",
+      "next": "Watch for an S-1 amendment with a price range, expected before the roadshow.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-ipo-explained-s-1-filing-nasdaq-listing-and-key-risks"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/anthropic-files-sec-paperwork-ai-giant-prepares-major-ipo"
+        ]
+      ]
+    },
+    {
+      "id": "txdata",
+      "section": "ai",
+      "motif": "chip",
+      "when": "Data centers",
+      "title": "Texas's election may stall the AI data center boom, and investors sort winners from losers",
+      "summary": "Gov.-elect Hinojosa's moratorium pledge hit neocloud stocks while Big Tech rallied.",
+      "story": [
+        "MIT Technology Review reports that Texas, the fastest-growing data center market in the U.S., may see its buildout stall after Democrat Gina Hinojosa, who proposed a moratorium on new data center construction until stronger safeguards exist, beat Gov. Greg Abbott. Abbott had already directed regulators to halt data center permits on Sept. 21. CNBC says CoreWeave fell almost 10%, Iren about 11% and Nebius about 6.5%, while Marvell fell 8% and Arm 5%.",
+        "The scale is large. MIT Technology Review cites Stargate Frontier in Shackelford County at 1,820 megawatts and Nexus Hubbard, a 6,400-megawatt site mostly intended for Anthropic. ERCOT data from December 2025 showed more than 220 gigawatts of projects seeking grid connection by 2030, and Wells Fargo says 27% of planned data center gigawatts is in Texas.",
+        "Analysts disagree on the damage. Dan Ives estimated 10% of planned U.S. data centers will not go ahead, and Altimeter's Brad Gerstner warned 10 to 15 gigawatts will not come online in 2027, CNBC reports. Morgan Stanley's view is that the capex story is intact and big companies will be fine. Axios notes the Texas legislature is still Republican, and local officials and construction unions may resist a sweeping moratorium."
+      ],
+      "facts": [
+        "Hinojosa proposed a moratorium on new data center construction (CNBC).",
+        "Abbott directed regulators to halt permits on Sept. 21 (MIT Technology Review).",
+        "CoreWeave fell almost 10%, Iren about 11%, Nebius about 6.5% (CNBC).",
+        "Texas holds 27% of planned data center gigawatts (Wells Fargo via CNBC).",
+        "Dan Ives estimates 10% of planned U.S. data centers will not proceed (CNBC)."
+      ],
+      "left": "Democrats argue communities should not bear grid strain, water use and higher power bills for data centers built for a handful of companies. They say a pause for safeguards is reasonable and that the Texas result shows voters agree.",
+      "right": "Conservatives and industry say a moratorium would hand AI leadership to China, cost construction jobs and push investment to other states. They argue the grid problem calls for more generation, not less building, and that Abbott's own permit halt shows even Republicans see a problem to solve.",
+      "why": "Data center buildout drives power demand, memory prices and chip orders. Politics is now a supply constraint on AI, in addition to grid capacity and silicon.",
+      "next": "Watch Hinojosa's January inauguration and whether the Texas legislature and ERCOT follow with limits.",
+      "src": [
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/31/data-centers-elections-wall-street"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Chuck Schumer says he expects to be re-elected Senate leader next month, though incoming senators including Juliana Stratton and Kansas's Adam Hamilton say they will not back him (The Hill).",
+    "U.S., Russia and Ukraine will hold talks in Abu Dhabi on Nov. 10-11, Witkoff said (Axios).",
+    "OpenAI's Sam Altman signed energy and investment deals in the UAE and said AI will transform the economics of energy (Bloomberg).",
+    "Gov.-elect Xavier Becerra faces a budget that depends on AI-driven tax revenue and a March deadline to propose how corporations share Medi-Cal costs (CalMatters).",
+    "Gold hovers near $3,930 as traders watch Iran talks and the election (Bloomberg)."
+  ]
+}
