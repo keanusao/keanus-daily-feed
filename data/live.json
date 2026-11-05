@@ -1,23 +1,16 @@
 {
-  "updatedAt": "2026-11-05T07:20:35Z",
+  "updatedAt": "2026-11-05T09:01:58Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 55.4,
-      "feels": 53.7,
-      "hum": 86,
-      "wind": 5.0,
-      "cond": "clear"
+      "temp": 53.0,
+      "feels": 52.6,
+      "hum": 88,
+      "wind": 0.8,
+      "cond": "cloudy"
     },
     "days": [
-      {
-        "date": "2026-11-03",
-        "hi": 64,
-        "lo": 49,
-        "cond": "drizzle",
-        "pop": 32
-      },
       {
         "date": "2026-11-04",
         "hi": 68,
@@ -27,15 +20,15 @@
       },
       {
         "date": "2026-11-05",
-        "hi": 72,
+        "hi": 71,
         "lo": 49,
-        "cond": "cloudy",
+        "cond": "fog",
         "pop": 0
       },
       {
         "date": "2026-11-06",
-        "hi": 75,
-        "lo": 49,
+        "hi": 73,
+        "lo": 46,
         "cond": "fog",
         "pop": 0
       },
@@ -51,19 +44,26 @@
         "hi": 75,
         "lo": 57,
         "cond": "cloudy",
-        "pop": 0
+        "pop": 1
       },
       {
         "date": "2026-11-09",
         "hi": 72,
         "lo": 56,
         "cond": "cloudy",
-        "pop": 0
+        "pop": 1
+      },
+      {
+        "date": "2026-11-10",
+        "hi": 74,
+        "lo": 56,
+        "cond": "partly",
+        "pop": 1
       }
     ]
   },
   "markets": {
-    "asOf": "Thu Nov 5, 2:10 AM ET",
+    "asOf": "Thu Nov 5, 3:51 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -102,11 +102,11 @@
       {
         "symbol": "^DJI",
         "name": "Dow Jones",
-        "price": "53,356.12",
-        "raw": 53356.12,
+        "price": "53,356.10",
+        "raw": 53356.1,
         "change": "+3.03%",
         "dir": "up",
-        "time": 1793829080,
+        "time": 1793826000,
         "spark": [
           51267.9,
           51521.28,
@@ -204,11 +204,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$87.02",
-        "raw": 87.02,
-        "change": "-1.25%",
+        "price": "$88.06",
+        "raw": 88.06,
+        "change": "-0.07%",
         "dir": "down",
-        "time": 1793862636,
+        "time": 1793868717,
         "spark": [
           89.43,
           89.44,
@@ -233,17 +233,17 @@
           96.46,
           96.09,
           88.12,
-          87.02
+          88.06
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$80,544",
-        "raw": 80544.37,
-        "change": "+0.14%",
-        "dir": "up",
-        "time": 1793863230,
+        "price": "$80,340",
+        "raw": 80339.81,
+        "change": "-0.11%",
+        "dir": "down",
+        "time": 1793869314,
         "spark": [
           85786.59,
           85557.56,
@@ -276,7 +276,7 @@
           76677.3,
           77345.05,
           80405.29,
-          80542.49
+          80339.81
         ]
       }
     ],
