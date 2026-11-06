@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-06T04:58:47Z",
+  "updatedAt": "2026-11-06T05:59:58Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 56.6,
-      "feels": 56.4,
-      "hum": 84,
-      "wind": 2.1,
+      "temp": 55.3,
+      "feels": 54.4,
+      "hum": 85,
+      "wind": 2.7,
       "cond": "clear"
     },
     "days": [
@@ -27,7 +27,7 @@
       },
       {
         "date": "2026-11-06",
-        "hi": 74,
+        "hi": 73,
         "lo": 48,
         "cond": "fog",
         "pop": 0
@@ -48,22 +48,22 @@
       },
       {
         "date": "2026-11-09",
-        "hi": 71,
-        "lo": 55,
+        "hi": 68,
+        "lo": 56,
         "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-11-10",
         "hi": 74,
-        "lo": 55,
+        "lo": 54,
         "cond": "clear",
         "pop": 0
       }
     ]
   },
   "markets": {
-    "asOf": "Thu Nov 5, 11:48 PM ET",
+    "asOf": "Fri Nov 6, 12:49 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -72,7 +72,7 @@
         "raw": 7353.73,
         "change": "-4.36%",
         "dir": "down",
-        "time": 1793912400,
+        "time": 1793914448,
         "spark": [
           7818.93,
           7801.77,
@@ -205,13 +205,12 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$91.78",
-        "raw": 91.78,
-        "change": "+1.39%",
+        "price": "$91.45",
+        "raw": 91.45,
+        "change": "+1.03%",
         "dir": "up",
-        "time": 1793940523,
+        "time": 1793944180,
         "spark": [
-          89.43,
           89.44,
           88.28,
           91.49,
@@ -235,17 +234,17 @@
           96.09,
           88.12,
           90.52,
-          91.78
+          91.45
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$75,676",
-        "raw": 75675.7,
-        "change": "-0.40%",
+        "price": "$75,579",
+        "raw": 75579.47,
+        "change": "-0.53%",
         "dir": "down",
-        "time": 1793941126,
+        "time": 1793944795,
         "spark": [
           85557.56,
           83275.93,
@@ -277,7 +276,7 @@
           76677.3,
           77345.05,
           80405.29,
-          75675.7
+          75579.47
         ]
       }
     ],
