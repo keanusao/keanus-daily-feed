@@ -1,59 +1,59 @@
 {
-  "updatedAt": "2026-11-06T00:30:00Z",
-  "label": "Afternoon edition",
-  "summary": "Keanu, **the Nasdaq fell 5.52% into correction**, its worst day since April 2025, with the S&P 500 down 4.36% and the Dow down 3.44% (CNBC, Fox Business, Axios). Nvidia lost 9.26% and the Magnificent 7 shed more than $1 trillion as investors feared Democrats and Texas's Gina Hinojosa will **slow the AI data center buildout** (CNBC, Axios). Tesla fell 10.77% on probe and regulation fears around Musk (Bloomberg, CNBC). The **October jobs report lands Friday at 8:30 a.m. Eastern**, with forecasts of 59,000 to 65,000 jobs, and odds of a December Fed hike dropped from about 83% to 66% (CNBC). Vance blamed the Iran war for the Republican rout and Trump called that largely true while saying he would do it again (Fox News, The Hill), and Rep. Massie plans a Hegseth impeachment vote when the House returns (CNN, Washington Examiner). Mississippi's Senate race is still too close to call with no recount process (NBC News, NPR, The Hill). In California, Newsom said he will **commute all 548 death sentences** (CalMatters, Fox News, SF Chronicle), and Prop 40 trails while Becerra won the governor's race (CalMatters, KQED). Sanders wants a national data center moratorium, but Schumer and Fetterman disagree (CNBC, The Hill). SLAC measured **X-ray pulses just 100 to 400 attoseconds long** (Stanford News, Newswise).",
+  "updatedAt": "2026-11-06T14:08:13Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **the October jobs report beat forecasts with 165,000 new jobs** against about 59,000 expected, and unemployment fell to 4.1% (CNBC, Fox Business, Bloomberg). The 10-year yield rose to 4.903% and odds of a December Fed hike sit near 64% (CNBC). Thursday's rout left the Nasdaq down 5.52% in a correction, with the S&P 500 down 4.36% and Nvidia down 9.26%, as investors feared **the midterms will slow the AI buildout** (CNBC, Fox Business, Axios). Futures bounced Friday morning (CNBC). Trump blamed Democrats for the drop, while Vance blamed the Iran war for the Republican rout and Trump called that largely true (Fox Business, The Hill, CNN). **Massie plans to force a Hegseth impeachment vote** when the House returns Monday, and GOP sources expect it to pass (CNN, Washington Examiner). Mississippi's Senate race is still too close to call, with Democrat Scott Colom up about 1,800 votes and mail ballots due Tuesday (The Hill, NBC News). In California, **Newsom commuted all 548 death sentences**, with nearly 400 needing California Supreme Court approval, and Bay Area voters approved a regional transit tax (CalMatters, KQED, SF Chronicle). Oil rebounded to $98.29 Brent after a sharp drop (CNBC), and a Russian strike on a Zaporizhzhia aid hub has killed at least 43 (CNN, NPR). NASA's **Swift telescope burned up after a failed rescue** (Space.com).",
   "alerts": [
     {
-      "text": "The October jobs report comes out at 8:30 a.m. Eastern Friday (5:30 a.m. Pacific), and it could move a market that just fell 5%.",
+      "text": "The House returns Monday and Massie says he will force the Hegseth impeachment vote right away.",
       "level": "high",
-      "story": "jobs"
+      "story": "hegseth"
     },
     {
-      "text": "Nvidia fell 9.26% to $181.60 and Tesla fell 10.77%; Nvidia reports earnings Nov. 17 after the close.",
+      "text": "Nvidia reports earnings Nov. 17 after the close, after falling 9.26% Thursday and with the Dec. 9 Fed meeting looming.",
       "level": "watch",
       "story": "selloff"
     },
     {
-      "text": "Massie plans a Hegseth impeachment vote when the House returns, reported as Nov. 9.",
-      "level": "info",
-      "story": "hegseth"
+      "text": "Mississippi mail ballots are due 5 p.m. Tuesday Nov. 10, and Colom leads by only about 1,800 votes.",
+      "level": "watch",
+      "story": "msseat"
     },
     {
-      "text": "Prop 40 trails and Prop 42 leads in California, and Newsom will commute all 548 death sentences.",
+      "text": "Bay Area voters approved the regional transit tax: a half-cent in Alameda County, mostly funding BART.",
       "level": "info",
-      "story": "deathrow"
+      "story": "transit"
     }
   ],
   "highlights": [
     {
-      "story": "selloff",
-      "text": "Nasdaq falls 5.52% into correction as Nvidia drops 9.26% and the Magnificent 7 lose $1 trillion."
+      "story": "jobs",
+      "text": "October payrolls rose 165,000, far above the 59,000 forecast, and unemployment fell to 4.1%."
     },
     {
-      "story": "vancewar",
-      "text": "Vance blames the Iran war for the GOP rout, and Trump calls it largely true."
+      "story": "selloff",
+      "text": "Nasdaq fell 5.52% into a correction on AI buildout fears; futures bounced Friday."
+    },
+    {
+      "story": "hegseth",
+      "text": "Massie will force a Hegseth impeachment vote Monday, and GOP sources expect it to pass."
     },
     {
       "story": "deathrow",
-      "text": "Newsom commutes all 548 California death sentences, with half needing state Supreme Court review."
+      "text": "Newsom commuted all 548 death sentences; nearly 400 need Supreme Court approval."
     },
     {
-      "story": "dcpolitics",
-      "text": "Sanders calls for a national data center moratorium while Democratic leaders split."
-    },
-    {
-      "story": "xray",
-      "text": "SLAC verifies X-ray pulses lasting only 100 to 400 attoseconds."
+      "story": "texasgrid",
+      "text": "Texas has 474 GW of data center requests as its governor-elect promises a moratorium."
     }
   ],
   "stat": {
-    "label": "Nasdaq one-day drop",
-    "value": "-5.52%",
-    "note": "Worst day since April 2025; Nvidia lost over $440 billion"
+    "label": "October payrolls",
+    "value": "165,000",
+    "note": "vs about 59,000 forecast; unemployment 4.1% (CNBC)"
   },
   "markets": {
-    "asOf": "Thu Nov 5, 6:36 PM ET",
-    "wrap": "The Nasdaq fell 5.52% into correction and the S&P 500 dropped 4.36%, the **worst day since April 2025**, as chip and AI shares led the slide (CNBC, Fox Business). Investors tied it to Democratic midterm wins and Texas governor-elect Gina Hinojosa's data center moratorium pledge, and Qualcomm's weak forecast added to it (CNBC, Axios). The Dow lost 1,833 points after Wednesday's 3.03% gain. The 10-year yield fell to 4.84% and WTI crude rose to $91.39 (Yahoo Finance data). Friday's **jobs report** is the next test (CNBC).",
+    "asOf": "Fri Nov 6, 7:55 AM ET",
+    "wrap": "The Nasdaq fell **5.52% into a correction** on Thursday, its worst day since April 2025, and the S&P 500 and Dow fell 4.36% and 3.44% (CNBC, Fox Business). The Magnificent Seven lost more than $1 trillion, and the chip index fell over 12% on fears Democrats and Texas's new governor will slow AI data centers (CNBC, Axios). Friday's jobs report of 165,000 lifted Treasury yields and kept a **December Fed hike** in play at about 64% odds (CNBC). Nasdaq futures made a small comeback before the bell (CNBC).",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -195,13 +195,12 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$91.39",
-        "raw": 91.39,
-        "change": "+0.96%",
-        "dir": "up",
-        "time": 1793921802,
+        "price": "$90.26",
+        "raw": 90.26,
+        "change": "-0.29%",
+        "dir": "down",
+        "time": 1793969715,
         "spark": [
-          89.43,
           89.44,
           88.28,
           91.49,
@@ -224,19 +223,19 @@
           96.46,
           96.09,
           88.12,
-          91.39
+          90.52,
+          90.26
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$75,949",
-        "raw": 75948.74,
-        "change": "-5.57%",
+        "price": "$75,820",
+        "raw": 75820.35,
+        "change": "-0.21%",
         "dir": "down",
-        "time": 1793922408,
+        "time": 1793970311,
         "spark": [
-          85786.59,
           85557.56,
           83275.93,
           81676.34,
@@ -267,7 +266,8 @@
           76677.3,
           77345.05,
           80405.29,
-          75948.74
+          75942.12,
+          75820.35
         ]
       }
     ],
@@ -305,7 +305,7 @@
           200.13,
           181.6
         ],
-        "note": "Chip and AI stocks led the selloff on data center fears (CNBC, Axios)."
+        "note": "Chip index fell more than 12% on fears the midterms slow the AI buildout (CNBC, Fox Business)."
       },
       {
         "symbol": "AAPL",
@@ -374,7 +374,7 @@
           555.8,
           535.93
         ],
-        "note": "Fell with Big Tech in the Nasdaq correction (CNBC)."
+        "note": "Fell with the Magnificent Seven, which lost more than $1 trillion (CNBC)."
       },
       {
         "symbol": "GOOGL",
@@ -409,7 +409,7 @@
           288.93,
           282.57
         ],
-        "note": "Fell with megacap tech in the selloff (CNBC)."
+        "note": "Dropped with megacap tech in Thursday's AI selloff (CNBC)."
       },
       {
         "symbol": "TSLA",
@@ -444,7 +444,7 @@
           385.19,
           343.69
         ],
-        "note": "Midterm probe and regulation fears for Musk's companies (CNBC, Bloomberg)."
+        "note": "Fear of congressional scrutiny of Musk; Tesla and SpaceX lost over $420 billion (CNBC)."
       },
       {
         "symbol": "AMZN",
@@ -479,7 +479,7 @@
           266.03,
           260.21
         ],
-        "note": "Fell with megacap tech in the selloff (CNBC)."
+        "note": "Dropped with megacap tech in Thursday's AI selloff (CNBC)."
       }
     ]
   },
@@ -494,20 +494,13 @@
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 68.4,
-      "feels": 64.6,
-      "hum": 50,
-      "wind": 8.6,
+      "temp": 48.1,
+      "feels": 45.1,
+      "hum": 81,
+      "wind": 2.7,
       "cond": "clear"
     },
     "days": [
-      {
-        "date": "2026-11-04",
-        "hi": 68,
-        "lo": 52,
-        "cond": "cloudy",
-        "pop": 1
-      },
       {
         "date": "2026-11-05",
         "hi": 74,
@@ -517,38 +510,45 @@
       },
       {
         "date": "2026-11-06",
-        "hi": 73,
-        "lo": 48,
-        "cond": "fog",
-        "pop": 1
+        "hi": 72,
+        "lo": 47,
+        "cond": "cloudy",
+        "pop": 0
       },
       {
         "date": "2026-11-07",
-        "hi": 76,
-        "lo": 51,
+        "hi": 70,
+        "lo": 50,
         "cond": "cloudy",
         "pop": 0
       },
       {
         "date": "2026-11-08",
-        "hi": 73,
+        "hi": 74,
+        "lo": 57,
+        "cond": "cloudy",
+        "pop": 1
+      },
+      {
+        "date": "2026-11-09",
+        "hi": 72,
         "lo": 56,
         "cond": "cloudy",
         "pop": 0
       },
       {
-        "date": "2026-11-09",
-        "hi": 71,
-        "lo": 55,
+        "date": "2026-11-10",
+        "hi": 77,
+        "lo": 56,
         "cond": "cloudy",
         "pop": 0
       },
       {
-        "date": "2026-11-10",
-        "hi": 74,
-        "lo": 55,
+        "date": "2026-11-11",
+        "hi": 78,
+        "lo": 58,
         "cond": "clear",
-        "pop": 2
+        "pop": 9
       }
     ]
   },
@@ -556,38 +556,42 @@
     {
       "id": "vancewar",
       "section": "politics",
-      "motif": "scales",
+      "motif": "ballot",
       "thread": "midterms-2026",
       "when": "GOP blame game",
-      "title": "Vance says the Iran war cost Republicans the midterms, and Trump largely agrees",
-      "summary": "Vance blamed the war for the Republican rout, Trump called that 'largely true' but said he would do it again, and conservative writers split on the cause.",
+      "title": "Vance and Trump blame the Iran war for the Republican midterm rout as others point to tariffs",
+      "summary": "Vance says the war cost Republicans Congress, Trump calls that largely true, and conservative writers dispute the cause.",
       "story": [
-        "Vice President JD Vance wrote that \"The reason we lost is the war,\" adding that \"many people who voted for Trump/Vance in 2024 voted for Democrats in 2026.\" Fox News and the Washington Examiner reported his post. His fixes were to end the war, focus on cost of living, put America First and change the relationship with Israel. Asked about it, Trump told reporters the claim was \"largely true because it drove the gasoline up a little bit short term\" (The Hill, NBC News). He still defended the decision: \"If I had it to do again, I'd have to do it again.\"",
-        "On election night Trump had said \"I don't think it's the war, Bret, I think it's the gasoline price\" (Fox News). Democrats now hold the House and, by NBC's projection, the Senate. CNN framed Vance's post as an attempt to protect his 2028 hopes by separating himself from Trump, while Fox reported he is courting disaffected Trump voters. Vance has said he has not decided whether to run.",
-        "Conservative commentators disagree on the cause. Ari Fleischer argued \"The problem was not the Iran War. It was the cease fire\" (Fox News). The Washington Examiner ran pieces blaming affordability, tariffs and weak candidates, and National Review argued Trump's tariffs hurt Republicans before the war began. Sen. Ted Cruz said the party did not focus enough on cost of living.",
-        "The argument matters because it sets the party's direction before 2028 and shapes the pressure on Trump over Iran, where a naval blockade continues."
+        "Democrats won full control of Congress on Tuesday. NBC News projects at least 54 Democratic Senate seats, and CNN projects more than 250 House seats. Vice President Vance wrote on X, \"The reason we lost is the war. The president himself said so last night\" (Washington Examiner). Trump told the Wall Street Journal \"Iran was a piece of it\" but said he would do it again, and CNN reported he called Vance's claim \"largely true\" (The Hill, CNN).",
+        "Trump also blamed Democrats and voters for Thursday's stock plunge. In a Truth Social post he wrote that the market \"suffered one of the Worst Days in History based on the results of the Election\" and that \"Your 401(k)s have, therefore, dropped\" (Fox Business). Fox Business also quoted him predicting the country would soon be \"BIGGER AND STRONGER THAN EVER BEFORE.\"",
+        "Conservative writers disagree on the cause. The Dispatch argues tariffs and the economy did more damage than the war. The Washington Examiner ran opinion pieces saying Trump failed to finish the war and that exit polls showed 74% of voters called the war a major factor. Jeffries said Democrats will not let Vance run from his record on the war, and Sen. Slotkin criticized Vance for covering himself (The Hill).",
+        "The fight is also a 2028 story. CNN reported Vance is putting distance between himself and the president, and some Republicans quietly hope Rubio will challenge him."
       ],
-      "flag": "Whether Vance's post was aimed at Trump or at the war itself is analysis from CNN, not something Vance stated.",
       "facts": [
-        "Vance posted that the war was the reason Republicans lost, reported by Fox News and the Washington Examiner.",
-        "Trump called the claim 'largely true' because the war pushed up gasoline prices, while saying he would do it again.",
-        "Trump said on election night that gasoline prices, not the war, were the issue.",
-        "Ari Fleischer blamed the ceasefire instead of the war, per Fox News.",
-        "Sen. Ted Cruz said Republicans did not focus enough on cost of living, per the Washington Examiner."
+        "Democrats won both chambers; NBC projects at least 54 Senate seats.",
+        "CNN projects Democrats will hold more than 250 House seats.",
+        "Vance blamed the Iran war on X; Trump called that largely true (The Hill, CNN).",
+        "Trump blamed Democrats for the Nov. 5 market drop (Fox Business).",
+        "The Dispatch blames tariffs and the economy instead (The Dispatch)."
       ],
-      "left": "The war was a choice Trump made without Congress, and voters punished it at the pump and at the ballot box. Vance's own admission shows even the administration sees the link. Democrats say Republicans who backed an unauthorized war and tariffs that raised prices should not be surprised by the result. The fix is to end the war, restore congressional authority and lower costs, not to rebrand the same agenda.",
-      "right": "Conservatives are right to argue about the cause instead of papering it over. Some, like Fleischer, say the failure was an unfinished war and a weak ceasefire, not the decision to confront Iran. Others, writing in National Review and the Examiner, say affordability and tariffs sank candidates before the first shot. A party that wants to win in 2028 has to fix the cost of living and explain its foreign policy in plain terms.",
-      "next": "Watch whether Trump changes course on Iran, and how Republicans handle Hegseth when the House returns Nov. 9.",
+      "left": "Voters rejected a war that raised gas and diesel prices and a president who dismissed their costs. Vance backed the war and now wants credit for noticing the damage. Democrats say the answer is oversight, funding limits and an end to the war, and that Republicans own the results of their policies.",
+      "right": "The war was only one factor, and tariffs, inflation and weak candidates mattered too, as The Dispatch argues. Some conservatives say the real failure was not finishing the job against Iran, and that preventing a nuclear Iran was worth the political cost. Others warn that blaming the war lets the party avoid harder questions about its economic message.",
+      "next": "House Democrats take over in January; the lame-duck House returns Monday Nov. 9 with a war funding bill and a Hegseth vote ahead.",
       "src": [
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/trump-couldnt-transfer-love-supporters-other-republicans-amid-historic-midterm-loss"
-        ],
         [
           "Washington Examiner",
           "LR",
           "http://www.washingtonexaminer.com/news/white-house/4792151/vance-blames-iran-war-midterm-blowout/"
+        ],
+        [
+          "The Dispatch",
+          "LR",
+          "https://thedispatch.com/article/tariffs-midterms-j-d-vance-donald-trump-republicans/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6197976-vance-midterms-iran-war-trump/"
         ],
         [
           "CNN",
@@ -595,53 +599,47 @@
           "https://www.cnn.com/2026/11/04/politics/jd-vance-trump-2028-campaign"
         ],
         [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/campaign/6197073-donald-trump-gop-losses-2026-midterms-iran-war/"
-        ],
-        [
-          "National Review",
+          "Fox Business",
           "R",
-          "https://www.nationalreview.com/corner/yes-trump-was-already-running-out-of-gas-before-the-iran-war/"
+          "https://www.foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories"
         ]
       ]
     },
     {
       "id": "msseat",
       "section": "politics",
-      "motif": "ballot",
+      "motif": "scales",
       "thread": "midterms-2026",
       "when": "Mississippi count",
-      "title": "Mississippi Senate race stays too close to call with no recount process",
-      "summary": "Democrat Scott Colom leads Sen. Cindy Hyde-Smith by a margin that reports put between dozens and about 2,000 votes, and both parties prepare for court.",
+      "title": "Mississippi Senate race stays too close to call with mail ballots due Tuesday and no recount process",
+      "summary": "Democrat Scott Colom leads Sen. Hyde-Smith by about 1,800 votes while both parties prepare for a fight over provisional ballots.",
       "story": [
-        "The Mississippi Senate race between Democrat Scott Colom and Republican Sen. Cindy Hyde-Smith was still uncalled Thursday. Reported margins vary by time of report. NPR's early Wednesday count had Colom ahead by 43 votes, NBC cited fewer than 65 votes with more than 95% counted, and The Hill, citing Decision Desk HQ, put his lead at just under 2,000 votes on Thursday. NBC projects Democrats at 54 Senate seats to Republicans' 44, a net gain of seven.",
-        "Mississippi has no automatic recount and no mechanism for a candidate to request one, NPR and The Hill reported. A losing candidate would have to persuade a judge. On Thursday the NRSC and Hyde-Smith's lawyers asked election commissioners in all 82 counties to separate and preserve affidavit ballots (The Hill). Colom's campaign called it a \"desperate stunt.\"",
-        "The Democratic Senatorial Campaign Committee and Elias Law Group have sent staff to the state. The Mississippi GOP chair said the party will accept a Colom win if it happens, while saying he expects Hyde-Smith to be reelected if outstanding ballots are counted under the law. County officials must send results to the secretary of state by Nov. 13.",
-        "Alaska is also unresolved. NBC reported Democrat Mary Peltola ahead of Sen. Dan Sullivan by 637 votes with 70% of ballots counted. The seat count could change."
+        "Democrat Scott Colom led Republican Sen. Cindy Hyde-Smith by just over 1,800 votes in the latest Decision Desk HQ count reported by The Hill. Mississippi's secretary of state said about 3,600 ballots are still outstanding (The Hill). Mail ballots postmarked by Election Day count if they arrive by 5 p.m. Tuesday, Nov. 10, and counties must certify results by Friday, Nov. 13 (NBC News, The Hill). NPR also reported the count is continuing.",
+        "Mississippi has no automatic recount and no way for a candidate to request one in a Senate race (The Hill, NBC News). Attorneys for Hyde-Smith sent letters to all 82 county election commissioners asking them to separate and preserve affidavit ballots, and The Hill reported the NRSC made a similar demand. Colom's campaign called it a \"desperate stunt.\"",
+        "Both sides are working the provisional ballots. Democrats are calling and texting voters to fix problems such as missing ID by Tuesday (The Hill). Fox News reported the Elias Law Group is leading a Democratic legal effort and that Newsom is soliciting donations for it. State GOP chair Mike Hurst said the party will accept a Colom win if the law is followed, but argued that if about 20,000 outstanding ballots are counted, Hyde-Smith would win. That figure is far above the secretary of state's 3,600.",
+        "The seat matters for the margin. A Colom win would add to a Democratic Senate that already stands at 54 seats in NBC's projection."
       ],
-      "flag": "Margins differ across NPR, NBC and The Hill because they were reported at different times. NBC's 54-seat figure may or may not include Mississippi and Alaska.",
-      "blindspot": "No right-leaning outlet coverage found; Republican positions come through The Hill and NBC reporting.",
+      "flag": "Margins and outstanding-ballot counts differ by source (65 votes early, over 1,100, then over 1,800; 3,600 versus the GOP's 20,000).",
       "facts": [
-        "NBC News projects Democrats win the Senate, 54 to 44.",
-        "Mississippi has no recount mechanism, per NPR and The Hill.",
-        "The NRSC asked all 82 counties to preserve affidavit ballots, per The Hill.",
-        "County results are due to the secretary of state by Nov. 13.",
-        "Alaska's Peltola led Sullivan by 637 votes with 70% counted, per NBC."
+        "Colom leads by just over 1,800 votes (Decision Desk HQ via The Hill).",
+        "About 3,600 ballots are outstanding, per the secretary of state.",
+        "Mail ballots postmarked by Election Day must arrive by 5 p.m. Nov. 10.",
+        "Counties certify by Nov. 13; Mississippi has no recount process.",
+        "Hyde-Smith's lawyers and the NRSC want affidavit ballots preserved."
       ],
-      "left": "Every legally cast ballot should be counted, and a race this close should be decided by the count, not by pre-emptive legal moves. Democrats say the preservation letter signals an effort to throw out affidavit ballots after the fact. They argue a state with no recount rule needs courts to protect the vote, and that a Colom win would add to a mandate for oversight.",
-      "right": "Republicans argue that provisional and affidavit ballots carry the highest risk of error and should be set aside and checked before they count. Asking officials to preserve them is a routine step in a razor-thin race, not a stunt. The state GOP's pledge to accept a Colom win if the law is followed shows the aim is a clean count, and the party can point to that as the standard.",
-      "next": "Watch the Nov. 13 certification deadline and any filing over affidavit ballots.",
+      "left": "Every legally cast ballot should count, and the cure period for provisional ballots exists so voters are not disenfranchised over paperwork. Democrats see the preservation letters as groundwork to challenge a result Republicans might lose. With no recount law, they say officials must follow the written deadlines and nothing more.",
+      "right": "Republicans argue that provisional and late ballots need strict scrutiny, and that preserving them is ordinary caution in a race this close. They note the state party pledged to accept a loss if the law is followed. They also question why Democratic national lawyers and fundraising arrived so quickly.",
+      "next": "Ballot deadline is 5 p.m. Tuesday, Nov. 10, and certification is due Friday, Nov. 13.",
       "src": [
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/politics/2026-elections/senate-results"
-        ],
         [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/campaign/6201459-colom-leads-hyde-smith-mississippi/"
+          "https://thehill.com/homenews/campaign/6202795-nrsc-demands-mississippi-ballot-preservation/"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/mississippi-senate-race-heads-extended-vote-count-possible-ballot-batt-rcna607463"
         ],
         [
           "NPR",
@@ -649,14 +647,9 @@
           "https://www.npr.org/2026/11/04/nx-s1-6028618/votes-are-still-being-counted-in-mississippi-u-s-senate-race"
         ],
         [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/campaign/6202795-nrsc-demands-mississippi-ballot-preservation/"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/11/03/politics/midterm-election-night-takeaways"
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/newsom-solicits-cash-bidens-former-election-lawyer-mobilizes-legal-team-mississippi-senate-race"
         ]
       ]
     },
@@ -665,25 +658,25 @@
       "section": "politics",
       "motif": "gavel",
       "thread": "hegseth-impeachment",
-      "when": "Impeachment push",
-      "title": "Massie sets up a Hegseth impeachment vote as Republicans blame him for the rout",
-      "summary": "Rep. Thomas Massie says he will force a vote when the House returns, and Sen. Thom Tillis says Hegseth faces a reckoning.",
+      "when": "Impeachment vote",
+      "title": "Massie plans to force a Hegseth impeachment vote when the House returns Monday",
+      "summary": "Republican sources expect eight articles over the Iran war to pass the House, but the Senate is unlikely to convict.",
       "story": [
-        "Rep. Thomas Massie (R-Ky.) plans to force a House vote to impeach War Secretary Pete Hegseth when Congress returns next week, with the House reported back Nov. 9, CNN and The Hill reported. CNN said several GOP sources expect it to pass. Massie gave Hegseth an ultimatum to resign or face impeachment, the Washington Examiner reported.",
-        "Massie introduced eight articles in September and four of them concern Hegseth's conduct of the Iran war, which Massie says is illegal because Congress never authorized it. Speaker Mike Johnson sent the House home early in September, and Massie and Democrats said that avoided a vote. Johnson called the push \"a publicity stunt by someone who wants attention\" (The Hill).",
-        "After Tuesday's losses, many Republicans are blaming Hegseth, CNN reported. Sen. Thom Tillis said he faces \"a reckoning\" in the lame-duck session (The Hill). Impeachment needs a simple House majority and Rep. Don Bacon is leaning against, per CNN. Trump has defended Hegseth. Removal would still need a Senate trial.",
-        "Democrats take over committees in January, and Armed Services' Adam Smith has said he wants to examine Hegseth's management of the Pentagon (ABC News)."
+        "Rep. Thomas Massie, R-Ky., told CNN he will force a vote on impeaching Defense Secretary Pete Hegseth when the House returns Monday, Nov. 9, and multiple GOP sources told CNN they expect it to pass. His resolution has eight articles accusing Hegseth of abuses of power tied to the Iran war and other operations. It is privileged, so it forces a floor vote over leadership's objections (The Hill, Washington Examiner).",
+        "Speaker Mike Johnson sent the House home early in September rather than face the vote and has called the effort a publicity stunt (The Hill). Massie has given Hegseth an ultimatum to resign or face impeachment (Washington Examiner). Trump said he has \"every intention to keep\" Hegseth, and Hegseth said the effort will not work on him.",
+        "Democratic leaders are cautious. Hakeem Jeffries has not said how he will vote, while Rep. Sara Jacobs has said she supports impeaching Hegseth (The Hill). Sen. Thom Tillis said Hegseth faces \"a reckoning\" in the lame-duck session (The Hill). A conviction would need two-thirds of the Senate, and one Republican told The Hill the Senate will not pass it.",
+        "Republicans in the House now face a recorded vote on a war their own vice president says cost them the midterms."
       ],
       "facts": [
-        "Massie introduced eight impeachment articles in September, four tied to the Iran war.",
-        "The House is reported to return Nov. 9.",
-        "Impeachment requires a simple majority in the House.",
-        "Rep. Don Bacon is leaning against, per CNN.",
-        "Trump has defended Hegseth."
+        "The House returns Monday, Nov. 9.",
+        "Massie's resolution has eight articles of impeachment.",
+        "It is privileged and forces a floor vote.",
+        "GOP sources expect it to pass the House (CNN).",
+        "Trump says he intends to keep Hegseth."
       ],
-      "left": "Hegseth ran a war that Congress never authorized, and voters have now said so. Democrats say impeachment is the constitutional remedy and that Republicans who suddenly care are reacting to polling, not principle. They want hearings on the war, boat strikes and the management of the Pentagon.",
-      "right": "Conservatives who oppose this say a lame-duck impeachment over a policy dispute sets a poor precedent and turns a disagreement about war powers into a partisan weapon. Others on the right, including Massie, say the war needed congressional approval and Hegseth should answer for it. The argument is whether election losses justify removing an official.",
-      "next": "Watch for the House vote after it returns Nov. 9.",
+      "left": "Hegseth started a war without congressional authorization and it cost American lives, money and the midterms. Impeachment is the constitutional check for a Cabinet officer who exceeded his authority. Democrats say Republicans who now agree should have acted earlier, and they want the vote to come with real oversight of the war.",
+      "right": "Impeachment of a Cabinet officer over policy disagreements sets a dangerous precedent, and Johnson called it a stunt. Massie lost his primary and critics question his motives. Others on the right say that if Hegseth failed, the president should fire him instead of Congress turning the war into a partisan trial.",
+      "next": "House vote expected after it returns Nov. 9; watch how many Republicans and Democrats vote yes.",
       "src": [
         [
           "CNN",
@@ -698,145 +691,39 @@
         [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/senate/6197052-thom-tillis-pete-hegseth-reckoning"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/why-house-let-out-early-matter-debate-johnson-says-chamber-has-done-its-work"
-        ]
-      ]
-    },
-    {
-      "id": "demagenda",
-      "section": "politics",
-      "motif": "capitol",
-      "thread": "midterms-2026",
-      "when": "Divided government",
-      "title": "Democrats plan oversight blitz and Trump promises vetoes",
-      "summary": "Incoming committee chairs target Trump family business, immigration enforcement and the Iran war, while Trump says he will become 'Mr. Veto'.",
-      "story": [
-        "Democrats won the House and, by NBC's projection, the Senate, and incoming committee chairs have started naming targets. Rep. Robert Garcia, the likely Oversight chair, listed the Trump family's businesses, immigration enforcement, corporate donations to the White House ballroom and the Epstein files (CNN). Jamie Raskin plans to look at how DOJ and the FBI treated Trump's opponents, and at pardons (ABC News).",
-        "Armed Services' Adam Smith wants to examine the Iran war, boat strikes and Hegseth's management (ABC News). The Hill reported that officials from Cabinet secretaries down to mid-level staff have hired lawyers. Sen. Ron Wyden posted a single word: \"Subpoenas.\"",
-        "On legislation, Hakeem Jeffries named reversing Medicaid cuts, extending ACA credits, restoring congressional authority over tariffs and stopping the Iran war (NBC News). Trump said he would be \"Mr. Veto\" and added that \"at some point we'll probably make deals\" (NPR). Overriding a veto takes two-thirds of both chambers. Democrats do not have that.",
-        "Analysts told NPR the affordability agenda may serve mainly as 2028 messaging unless Republicans cross over."
-      ],
-      "facts": [
-        "Democrats take committee gavels in January, per ABC News.",
-        "Garcia named four Oversight targets, per CNN.",
-        "Jeffries' priorities include Medicaid cuts, ACA credits, tariffs and Iran, per NBC News.",
-        "Trump said he will use his veto power.",
-        "A veto override needs two-thirds of both chambers."
-      ],
-      "left": "Voters gave Democrats the power to check a president who has pushed far past normal limits, and oversight is the job. Democrats say they will also pass popular bills on health costs and tariffs, forcing Trump to veto measures that most Americans support. Investigations of family business dealings and the war are legitimate oversight, not retribution.",
-      "right": "Republicans warn that an oversight blitz will become a show of subpoenas and impeachments that distracts from cost of living, which was the voters' top concern. Trump's veto promise, they say, is a check on bills that fund spending increases or tie the president's hands on foreign policy. The party argues divided government should produce deals, not two years of investigations.",
-      "next": "Watch for committee assignments and the first subpoena threats when the new Congress is seated in January.",
-      "src": [
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/politics/2026-election/democrats-house-control-midterm-election-wins-trump-check-rcna603397"
-        ],
-        [
-          "ABC News",
-          "LL",
-          "https://abcnews.com/Politics/democrats-house-heres-plan-investigate-legislative-agenda/story?id=137832144"
+          "https://thehill.com/homenews/house/6105122-trump-administration-iran-war-controversy/"
         ],
         [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/house/6199505-house-investigations-trump-administration/"
-        ],
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/trump-pledges-veto-insane-dem-bills-pinpoints-issue-partially-blame-republican-losses"
-        ]
-      ]
-    },
-    {
-      "id": "calprops",
-      "section": "local",
-      "motif": "ballot",
-      "thread": "california-billionaire-tax",
-      "when": "California results",
-      "title": "Prop 40 billionaire tax appears headed for defeat while Prop 42 leads, and Becerra wins governor",
-      "summary": "Early returns have Prop 40 near 55% no and Prop 42 ahead, and Xavier Becerra will succeed Newsom.",
-      "story": [
-        "California's Proposition 40 billionaire tax trailed with about 55% voting no and 60% of votes counted, CalMatters and the SF Chronicle reported, and the union behind it, SEIU-UHW, appeared to concede and said it would try again in 2028. Prop 42, which would ban any new wealth tax, led with 54%. If Prop 42 or Prop 41 gets more votes than Prop 40, it cancels the tax (CalMatters).",
-        "CalMatters reported Prop 42's main backer was Sergey Brin's group and that billionaires put in $159 million. Gov. Gavin Newsom opposed the tax and endorsed Prop 42. Prop 41, which targets the spending-limit workaround Prop 40 relies on, was trailing with 52% voting no.",
-        "Democrat Xavier Becerra won the governor's race and takes office in January, CalMatters and KQED reported. Republican Steve Hilton had about 34% in early counts. Becerra must submit a budget within days of taking office and inherits a deficit, CalMatters said. He has said he will keep many of Newsom's housing and mental health programs.",
-        "For the Bay Area, KQED and the SF Chronicle reported the regional transit tax passed, as covered in earlier editions. The SF Chronicle also showed Aisha Wahab leading Melissa Hernandez 56.5% to 43.4% in the District 14 congressional race with about half of ballots counted."
-      ],
-      "flag": "Prop 42's status is a projection. Counts are incomplete and CalMatters described it as both leading and passed.",
-      "blindspot": "No right-leaning outlet coverage found for this story in searches.",
-      "facts": [
-        "Prop 40 trailed about 55% to 44% in early returns.",
-        "Prop 42 led with 54% at roughly 60% counted.",
-        "Brin's group was the main backer of Prop 42, with $159 million from billionaires, per CalMatters.",
-        "Becerra takes office in January after beating Steve Hilton.",
-        "Wahab led Hernandez 56.5% to 43.4% in District 14 early on Nov. 4."
-      ],
-      "left": "Supporters argued that billionaires pay a lower effective tax rate than workers and that California needs revenue to backfill federal health care cuts. They say $159 million of billionaire money shows how much the rich fear the idea, and that the losing margin does not mean voters like the status quo. The union says it will return in 2028.",
-      "right": "Opponents argue a wealth tax drives out the people who pay a large share of California's income tax and would hurt a state already facing a deficit. Prop 42's wide lead, backed by Newsom, suggests voters did not want to risk it. They also say the broader answer is to control spending, not to hunt for another revenue source.",
-      "next": "Watch the final counts as ballots are tallied, and Becerra's first budget in January.",
-      "src": [
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/health/2026/11/california-election-2026-prop-40-41-42/"
-        ],
-        [
-          "KQED",
-          "LL",
-          "https://www.kqed.org/news/12108185/california-proposition-roundup-results-so-far"
-        ],
-        [
-          "SF Chronicle",
-          "LL",
-          "https://www.sfchronicle.com/election/article/live-results-california-prop-40-41-42-22494937.php"
-        ],
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/politics/2026/11/california-election-2026-governor-race/"
-        ],
-        [
-          "KQED",
-          "LL",
-          "https://www.kqed.org/news/12107022/xavier-becerra-wins-california-governors-race"
+          "https://thehill.com/homenews/senate/6197052-thom-tillis-pete-hegseth-reckoning"
         ]
       ]
     },
     {
       "id": "deathrow",
       "section": "local",
-      "motif": "gavel",
+      "motif": "scroll",
       "thread": "ca-death-row",
       "when": "Death row",
-      "title": "Newsom commutes all 548 California death sentences",
-      "summary": "The governor will convert every death sentence to life without parole, and about half of the cases need California Supreme Court review.",
+      "title": "Newsom commutes all 548 California death sentences, with the state Supreme Court reviewing most",
+      "summary": "The governor's order takes effect immediately for about 30% of cases, while roughly 400 need approval from four of seven justices.",
       "story": [
-        "Gov. Gavin Newsom announced Thursday that he will commute all 548 California death sentences to life without parole, CalMatters, the SF Chronicle, KQED and Fox News reported. He wrote that state-sanctioned killing is incompatible with California's values, acknowledged the move does not repeal the death penalty, and said \"These offenders will die in prison but not by our hand.\"",
-        "More than half of the cases, those involving people convicted of more than one felony, require review by the California Supreme Court under the state constitution (CalMatters). Becerra, the governor-elect, has committed to keeping the execution moratorium in place but has not said whether he will go further.",
-        "Prison reform groups celebrated. Michael Romano of Stanford's Three Strikes Project called it \"the loudest and most important declaration that has been made in modern American history.\" Marc Klaas, whose daughter Polly was murdered, said \"He just gave the gift of life to [hundreds of] people who took the gift of life from their victims.\" San Luis Obispo DA Dan Dow called the order an insult to murder victims (Fox News, SF Chronicle).",
-        "The timing comes as Newsom openly explores a presidential run, per coverage from the SF Chronicle and CalMatters."
+        "Gov. Gavin Newsom announced in an open letter Thursday that he is commuting all 548 California death sentences to life without parole (CalMatters, KQED, SF Chronicle, Fox News). The Death Penalty Information Center called it the largest act of mass clemency in U.S. history, per CalMatters. California has not executed anyone since 2006.",
+        "The order is split. It takes effect immediately for about 30% of cases. The rest involve people with more than one felony conviction, and state law requires the California Supreme Court to review them. Nearly 400 prisoners fall in that group, and four of seven justices must sign off (CalMatters). Newsom wrote that he is not repealing the death penalty, so prosecutors can still seek new death sentences and a future governor could revive executions.",
+        "Victims' groups objected strongly. Anne Marie Schubert of the Criminal Justice Legal Foundation pledged to challenge the commutations in the state Supreme Court. Earlier Fox News coverage of the plan quoted Marc Klaas, whose daughter Polly was murdered, calling it unbelievable, and San Luis Obispo DA Dan Dow calling it a slap in the face. Voters rejected repealing the death penalty in 2016.",
+        "Xavier Becerra won the governor's race and will inherit the fight when he takes office (CalMatters, KQED)."
       ],
       "facts": [
-        "The order covers 548 death sentences.",
-        "Newsom said it does not repeal the death penalty.",
-        "More than half the cases need California Supreme Court review.",
-        "The decision comes during the lame-duck stretch before Becerra takes office in January.",
-        "Newsom is exploring a presidential run, per the SF Chronicle."
+        "Newsom commuted 548 death sentences to life without parole.",
+        "About 30% take effect immediately.",
+        "Nearly 400 cases need approval from four of seven California Supreme Court justices.",
+        "The death penalty remains law in California.",
+        "No one has been executed in California since 2006."
       ],
-      "left": "Progressives say the death penalty is unreliable, racially uneven and costly, and a governor with clemency power should use it. They add that the sentence still keeps these prisoners behind bars for life, which Newsom said means they will die in prison.",
-      "right": "Critics say a governor is overriding juries, judges and appeals courts for these cases, and many voters backed the death penalty. They argue victims' families are being told their cases do not count and that the move looks timed to a presidential run. Supporters of capital punishment say that if Californians want change, they should vote on it.",
-      "next": "Watch for California Supreme Court review of the multi-felony cases and any lawsuits from prosecutors.",
+      "left": "Capital punishment is applied unevenly, risks executing innocent people and has not been carried out in two decades. Commuting these sentences ends a system that costs billions without delivering executions. Opponents say the governor used a power the constitution gives him.",
+      "right": "Juries and judges imposed these sentences, and voters twice kept the death penalty on the books. A blanket commutation overrides victims' families and the public in one stroke, days before the governor leaves. Critics say an individual review of each case would be more defensible than a mass order.",
+      "next": "Watch for the Criminal Justice Legal Foundation's challenge and the California Supreme Court's schedule for the review.",
       "src": [
         [
           "CalMatters",
@@ -844,9 +731,9 @@
           "https://calmatters.org/justice/2026/11/gavin-newsom-death-penalty-commutation/"
         ],
         [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/gavin-newsom-wipes-out-californias-death-row-historic-mass-commutation"
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12108596/newsom-moves-to-empty-californias-death-row-by-commuting-548-sentences"
         ],
         [
           "SF Chronicle",
@@ -854,57 +741,153 @@
           "https://www.sfchronicle.com/politics/article/newsom-death-penalty-california-22512509.php"
         ],
         [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/gavin-newsom-wipes-out-californias-death-row-historic-mass-commutation"
+        ]
+      ]
+    },
+    {
+      "id": "transit",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Bay Area transit",
+      "title": "Bay Area voters approve a regional transit tax and San Francisco's Muni tax",
+      "summary": "The five-county sales tax would raise about $1 billion a year, and Alameda County's share is expected to flow mostly to BART.",
+      "story": [
+        "Voters approved the Regional Transit Measure, a sales tax meant to raise about $1 billion a year for Bay Area transit, according to the SF Chronicle and KQED. The tax is a half-cent in Alameda, Contra Costa, San Mateo and Santa Clara counties and one cent in San Francisco, and it runs 14 years. KQED's results page showed about 61.7% yes. San Francisco's Prop H, a property tax for Muni, was also passing.",
+        "Officials had warned that BART could have closed up to 15 stations without the money, and Muni had warned of deep bus cuts. Nearly 65% of Alameda County's share would go to BART operations. BART had also warned of a $350 million to $400 million annual deficit beginning in the 2027 fiscal year.",
+        "The state law behind the measure, SB 63, requires transit agencies to undergo a financial efficiency review. KQED's headline said a \"death spiral\" was averted. Money begins to flow to the agencies next year. For Fremont, the vote follows BART's choice of developers for 643 homes at Fremont Station.",
+        "These are election-night and early returns, and certified totals could differ."
+      ],
+      "blindspot": "Covered mainly by left-leaning Bay Area outlets; no right-leaning coverage found.",
+      "facts": [
+        "The regional measure runs 14 years and raises about $1 billion a year.",
+        "The tax is a half-cent in Alameda County.",
+        "KQED showed about 61.7% yes.",
+        "San Francisco's Prop H would raise about $184 million a year for Muni.",
+        "Agencies must complete efficiency reviews under SB 63."
+      ],
+      "left": "Transit is a public good that cuts emissions, serves workers who cannot drive and keeps the region functioning. A regional tax with a Muni parcel tax averts service collapse. Supporters say the efficiency review answers critics.",
+      "right": "Voters already face high taxes, and a sales tax falls on everyone, including lower-income families. BART's long-standing cost problems should be fixed before more money arrives. Skeptics want strict oversight so that efficiency reviews are real and not a formality.",
+      "next": "Efficiency reviews begin under SB 63, and revenue starts flowing next year.",
+      "src": [
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/live-results-bay-area-regional-transit-measure-22487820.php"
+        ],
+        [
           "KQED",
           "LL",
-          "https://www.kqed.org/news/12108596/newsom-moves-to-empty-californias-death-row-by-commuting-548-sentences"
+          "https://www.kqed.org/news/12107133/death-spiral-averted-bay-area-transit-taxes-rtm-and-prop-h-declare-victory"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/voterguide/california/regional-measure-rtm"
+        ]
+      ]
+    },
+    {
+      "id": "ukraine",
+      "section": "world",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Ukraine war",
+      "title": "Russian strike on a Ukrainian aid hub kills at least 43 as the US pushes new talks in Abu Dhabi",
+      "summary": "Zelensky says the Zaporizhzhia attack was among the war's deadliest, days before the next round of Russia-Ukraine talks.",
+      "story": [
+        "A Russian strike on a school-turned-aid center in Komyshuvakha, in Ukraine's Zaporizhzhia region, was one of the war's deadliest attacks, Zelensky said (CNN). NPR put the toll at 29 dead with 48 missing on Nov. 3. By Thursday Zelensky said 43 were confirmed killed and more than 30 were unaccounted for. The attack was reportedly a double-tap, with a second strike after emergency crews arrived. Zaporizhzhia declared three days of mourning.",
+        "It came before a large barrage on energy infrastructure. Zelensky said Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, despite Trump's calls for an energy ceasefire. Fox News reported Zelensky warned Russia planned a major strike timed to the US midterms.",
+        "Diplomacy continues. NPR reported Melania Trump helped broker a temporary pause around occupied Oleshky that let aid in and hundreds of residents leave, and that she hosted Russian and Ukrainian officials at the White House on Nov. 5. Kremlin spokesman Dmitry Peskov said Moscow expects another trilateral round in Abu Dhabi next week and counts on continued US diplomacy (NPR). Trump told reporters the sides were close to a deal, though analysts are skeptical.",
+        "The UN human rights mission said the strike appeared to violate fundamental principles of humanitarian law."
+      ],
+      "flag": "The casualty count has risen between reports (29 killed on Nov. 3 to 43 confirmed on Thursday) and may rise again.",
+      "facts": [
+        "Zelensky says 43 people were confirmed killed in Komyshuvakha, with more than 30 unaccounted for.",
+        "Russia fired 289 drones, 17 ballistic missiles and 59 cruise missiles at nine regions, per Zelensky.",
+        "Melania Trump helped broker the Oleshky pause (NPR, Fox News).",
+        "New talks are expected in Abu Dhabi next week.",
+        "The UN mission said the strike appears to violate humanitarian law."
+      ],
+      "left": "Russia keeps striking civilians while Washington offers photo-op diplomacy. Democrats say the administration has pressed Kyiv more than Moscow and ignored requests to stop the attacks. They want sustained military aid, sanctions on Russian energy and real accountability for war crimes.",
+      "right": "Conservatives who back the administration say talks are the only route to ending a costly stalemate, and that Trump's team is getting humanitarian pauses no one else could. Hawks argue the strikes show Putin only respects strength and that Congress should send more weapons, including long-range systems. Both wings agree Europe should pay a larger share.",
+      "next": "Trilateral talks in Abu Dhabi are expected next week; watch whether Russia's strikes ease.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/05/nx-s1-6030662/melania-trump-touts-rare-agreement-she-brokered-between-russia-and-ukraine"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/russia-planning-massive-strike-midterms-zelenskyy-warns-urges-us-stop-putin"
         ]
       ]
     },
     {
       "id": "iran",
       "section": "world",
-      "motif": "ship",
+      "motif": "barrel",
       "thread": "iran-war",
-      "when": "Hormuz tensions",
-      "title": "IRGC says tankers burned in Hormuz as Trump weighs deal or force",
-      "summary": "Iran's Revolutionary Guard blamed unauthorized routes for fires on two tankers and a tug, while Trump threatens to 'finish the job' without a nuclear deal.",
+      "when": "Iran war",
+      "title": "Oil rebounds on Hormuz tanker worries as the Iran war becomes Congress's fight",
+      "summary": "Brent rose 3.8% to $98.29 after a big drop, while Democrats and Republicans argue over funding and accountability for the war.",
       "story": [
-        "Iran's Revolutionary Guard said Thursday that two oil tankers and a tugboat caught fire in separate incidents in the Strait of Hormuz after trying unauthorized routes, and that one hit a mine, Fox News reported. The IRGC account is the only one found, and Fox did not independently verify the mine claim. CENTCOM called an Iranian claim about the blockade \"false\" and said the U.S. footprint remains intact.",
-        "Trump said he could \"finish the job very easily\" if Iran does not agree to a binding deal preventing a nuclear weapon (Fox News). Axios reported that CIA Director John Ratcliffe, Treasury Secretary Scott Bessent and other advisers want the naval blockade and economic pressure to play out longer, and that there is no tidy way to finish the job.",
-        "After the midterms, NPR reported Iran is wary of new U.S. attacks, and Fox News reported Iranian leaders have presented the Republican losses as an anti-war rebuke. The IRGC has threatened U.S. bases if commercial ships keep transiting the strait, and Netanyahu has said Israel would join any renewed campaign (Axios).",
-        "WTI crude closed at $91.39, up 0.96%, per Yahoo Finance data. Oil has fallen in recent weeks from above $100."
+        "Oil rose Thursday after tumbling more than 8% on Wednesday to its lowest settlement since Aug. 31. Brent rose 3.8% to settle at $98.29 and WTI rose 2.7% to $90.52 (CNBC). Reports of tankers striking mines or being targeted by drones kept the market on edge, and investors noted Iran's position on negotiations had not changed. WTI traded near $90.26 Friday morning.",
+        "Prices are well off recent highs. On Oct. 28 Brent closed at $115.32 and WTI at $102.78 (CNBC). Eurasia Group warned any escalation could push Brent into a range of $110 to $125.",
+        "Washington is now the main battlefield. The Hill reported Jeffries vowed to hold Vance and the administration accountable for the war, and NPR and The Hill reported Democrats plan to use new House power over Defense funding while Republicans push a large war funding bill in the lame duck. Republicans disagree about the war itself. Washington Examiner opinion pieces argue Trump did not finish the job, and others say preventing a nuclear Iran was worth the political cost.",
+        "This update did not find fresh reporting on talks, and Trump and Tehran have given conflicting accounts of negotiations in recent months."
       ],
-      "flag": "The mine claim comes only from the IRGC. Reports that Tehran sent a formal nuclear proposal through Qatar appeared in a roundup and were not independently confirmed.",
+      "flag": "Current negotiation status is unconfirmed; Trump and Tehran have contradicted each other on whether talks exist.",
       "facts": [
-        "The IRGC said two tankers and a tug burned after using unauthorized routes.",
-        "CENTCOM called an Iranian claim about the blockade false.",
-        "Trump said he could 'finish the job very easily' without a binding deal.",
-        "Axios reported advisers want the blockade to run longer.",
-        "WTI crude closed at $91.39."
+        "Brent settled at $98.29 and WTI at $90.52 on Thursday (CNBC).",
+        "Both fell more than 8% on Wednesday to their lowest settlement since Aug. 31.",
+        "On Oct. 28 Brent was $115.32 and WTI $102.78.",
+        "Eurasia Group sees $110 to $125 Brent if the war escalates.",
+        "Democrats plan to use new leverage over Defense Department funding."
       ],
-      "left": "The war has no authorization from Congress, no end in sight and has cost Republicans an election. Progressives say the Hormuz incidents show the risk of open-ended escalation and that Trump's threats paint him into a corner. They want a diplomatic path, congressional votes and oversight of Hegseth.",
-      "right": "Conservatives who back the war say Iran has fired on shipping, laid mines and stalled on nuclear talks, so pressure is the only language Tehran respects. They argue an early exit would reward the IRGC, and that the blockade is a cheaper tool than a new strike. Some on the right, like Vance, argue the war should end for political and strategic reasons.",
-      "next": "Watch for any Iranian nuclear proposal, Trump's response, and shipping data through the strait.",
+      "left": "The war was launched without authorization, drove up gas prices and cost Republicans Congress. Democrats want Congress to reclaim its war powers, scrutinize Pentagon spending and press for a diplomatic exit that reopens Hormuz. They say Republicans who now criticize the war supported it for months.",
+      "right": "Iran's regime cannot be allowed to hold shipping hostage or build a bomb, and pulling back now would reward it. Conservatives who back the war argue the political cost does not change the strategic stakes, while critics on the right say the administration lacked a clear plan. Either way, they want Congress to fund the troops and not use the budget as leverage.",
+      "next": "Watch the lame-duck war funding bill when the House returns Nov. 9 and any sign of a Hormuz deal.",
       "src": [
         [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/iran-war-news-trump-israel-elections-november-5"
-        ],
-        [
-          "Axios",
+          "CNBC",
           "C",
-          "https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options"
+          "https://www.cnbc.com/2026/11/05/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation.html"
         ],
         [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/11/05/nx-s1-6029100/iran-wary-of-new-u-s-attacks-despite-trump-noting-wars-role-in-election-losses"
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6200847-jeffries-vance-iran-war-democrats-congress-midterms/"
         ],
         [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/live-news/iran-war-news-trump-elections-oil-prices-november-4"
+          "The Hill",
+          "C",
+          "https://thehill.com/newsletters/morning-report/6200194-2026-midterms-results-iran-war-donald-trump-democrats/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/opinion/4794196/iran-war-advocates-own-this-debacle/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
         ]
       ]
     },
@@ -912,47 +895,47 @@
       "id": "jobs",
       "section": "economy",
       "motif": "coins",
-      "when": "Jobs report Friday",
-      "title": "October jobs report lands Friday after a selloff that cooled Fed hike odds",
-      "summary": "Forecasts call for 59,000 to 65,000 jobs, and odds of a December Fed hike fell from about 83% to 66%.",
+      "when": "Jobs report",
+      "title": "October jobs report beats forecasts with 165,000 new jobs and unemployment at 4.1%",
+      "summary": "Payrolls rose 165,000 against a forecast near 59,000, unemployment fell to 4.1%, and Treasury yields jumped on the news.",
       "story": [
-        "The October jobs report comes out Friday at 8:30 a.m. Eastern, CNBC reported. The Dow Jones consensus is a gain of 59,000 jobs, up from 29,000 in September, and FactSet's consensus is 65,000. Unemployment is expected to hold at 4.2% and average hourly earnings to rise 0.3%.",
-        "The Fed raised rates a quarter point in September to 3.75% to 4%, its first hike since 2023, CNBC reported. Markets had priced a December hike, but odds on the CME FedWatch tool fell from about 83% to 66% on Thursday as stocks fell. The next meeting is Dec. 9. A CNBC headline said Fed official Barkin sees hikes ahead at a gradual pace.",
-        "The 10-year Treasury yield fell to 4.84%, per Yahoo Finance data, as traders left tech stocks (CNBC). Bloomberg reported Treasuries rallied earlier this week as oil fell, easing worries about more hikes. Oil rose Thursday.",
-        "Officials raised 2026 inflation forecasts to 3.7% for headline PCE and 3.4% for core in September (CNBC)."
+        "The Bureau of Labor Statistics reported Friday that the economy added 165,000 jobs in October, far above the 59,000 economists polled by Dow Jones expected (CNBC). Fox Business cited an LSEG forecast of 65,000. The unemployment rate fell to 4.1% from an expected 4.2%. Bloomberg said the gain topped all forecasts. A broader measure that counts discouraged and part-time workers rose to 7.9%.",
+        "Revisions helped too. August was revised up to 186,000 and September to 60,000, which added 84,000 jobs to the prior two months (CNBC). Average hourly earnings rose 0.4% on the month and 3.1% over the year. Professional and business services led with 70,000 jobs, and health care added 42,000.",
+        "Markets read the report as a reason for the Fed to keep tightening. CNBC reported the 10-year Treasury yield rose more than 6 basis points to 4.903% and the 2-year to 4.539%. A separate CNBC piece put the odds of a quarter-point hike at the Dec. 9 meeting at about 64%, down from the 70% or so priced Thursday evening.",
+        "The report lands one day after the Nasdaq fell into a correction. A strong labor market eases recession fears, but it also keeps rate hikes on the table for growth stocks."
       ],
-      "blindspot": "No right-leaning outlet coverage found for this story in searches.",
-      "flag": "The Barkin headline was seen in search results only, and his remarks were not read.",
       "facts": [
-        "Dow Jones consensus is 59,000 jobs and FactSet is 65,000.",
-        "September payrolls were 29,000.",
-        "Unemployment is forecast at 4.2%.",
-        "December hike odds fell from about 83% to 66%, per CME FedWatch.",
-        "The 10-year yield closed at 4.84%."
+        "Payrolls rose 165,000 in October (CNBC, Fox Business, Bloomberg).",
+        "Forecasts were about 59,000 (Dow Jones) to 65,000 (LSEG).",
+        "Unemployment fell to 4.1%; the broader rate rose to 7.9%.",
+        "August was revised to 186,000 and September to 60,000.",
+        "Hourly earnings rose 0.4% on the month and 3.1% on the year.",
+        "The 10-year yield rose to 4.903% after the release (CNBC)."
       ],
-      "left": "A job market adding fewer than 100,000 jobs a month with rate hikes on top shows the economy is being squeezed by tariffs, war-driven energy costs and a Fed tightening into weakness. Progressives argue further hikes would hit working families hardest and that Congress should act on prices and health costs instead.",
-      "right": "Conservatives argue the Fed must keep fighting inflation, which remains well above target at 3.4% core PCE, and that war and tariff shocks are a policy issue for the White House. Many also say regulation and the cost of energy hold back hiring, and that growth depends on lower costs, not rate relief.",
-      "next": "Friday 8:30 a.m. ET jobs report, then the Fed meeting Dec. 9.",
+      "flag": "Fed hike odds differ between CNBC reports (about 70% Thursday evening, about 64% Friday), likely from different times.",
+      "left": "The labor market is still adding jobs, but a 7.9% broader unemployment rate and 3.1% wage growth show many workers are not feeling the strength. Tariffs and the Iran war pushed up fuel and living costs, and voters said so on Tuesday. A Fed that keeps raising rates into that risks hurting working families more than the headline numbers suggest.",
+      "right": "A 165,000-job gain and falling unemployment show the economy is stronger than critics claimed. Wage growth of 3.1% is positive, and the revisions show the summer weakness was overstated. Conservatives argue the market drop reflects fear of new Democratic regulation and spending, not weak fundamentals.",
+      "next": "CPI inflation data and the Dec. 9 Fed meeting will decide whether a hike comes; watch yields and Nvidia earnings on Nov. 17.",
       "src": [
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+          "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
         ],
         [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/05/treasury-yields-bonds-interest-rates.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
         ],
         [
           "Bloomberg",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-11-02/treasury-yields-extend-past-month-s-slide-as-oil-prices-tumble"
+          "https://www.bloomberg.com/news/articles/2026-11-06/us-adds-165-000-jobs-above-all-forecasts-as-unemployment-falls"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/treasury-yields-inch-lower-as-investors-look-ahead-to-key-jobs-data-.html"
         ]
       ]
     },
@@ -961,25 +944,25 @@
       "section": "stocks",
       "motif": "chart",
       "thread": "ai-trade-selloff",
-      "when": "Worst day since April 2025",
-      "title": "Nasdaq falls 5.52% into correction as AI and chip stocks collapse",
-      "summary": "Nvidia lost 9.26% and the Magnificent 7 shed more than $1 trillion after midterm results raised fears of a slower data center buildout.",
+      "when": "Nasdaq correction",
+      "title": "Nasdaq falls 5.52% into a correction as chip stocks collapse, then futures bounce Friday",
+      "summary": "The S&P 500 fell 4.36% and the Dow 3.44% on fears the midterms will slow the AI data center buildout.",
       "story": [
-        "The Nasdaq Composite fell 5.52% to 24,315.00 on Thursday, its worst day since April 2025, and entered correction territory. The S&P 500 dropped 4.36% to 7,353.73 and the Dow fell 1,833.06 points, or 3.44%, to 51,523.06 (Fox Business, CNBC, Yahoo Finance data). CNBC said the Magnificent 7 lost more than $1 trillion in market value, with Nvidia down 9.26% and losing more than $440 billion.",
-        "The tech sector had its worst day since March 2020, with the XLK fund down 8.04%, CNBC reported. Axios and CNBC tied the move to fears that Democrats' midterm wins and Texas governor-elect Gina Hinojosa's promised data center moratorium will slow AI buildout. Qualcomm also fell after a weak earnings forecast. A higher oil price added pressure.",
-        "Analysts disagree on how far it will go. Altimeter's Brad Gerstner warned 10 to 15 gigawatts of expected AI capacity may not come online in 2027, while Dan Ives estimated about 10% of planned U.S. data centers could be scrapped (CNBC). Others said the reaction went too far, and one noted the Nasdaq has historically gained an average of 9.41% over three months after a correction low.",
-        "The turn was sharp. On Wednesday the Dow gained 3.03% and Big Tech surged on hopes of gridlock, then reversed Thursday."
+        "The Nasdaq Composite fell 5.52% Thursday and entered correction territory, its worst day since April 2025. The S&P 500 fell 4.36% and the Dow lost about 1,833 points, or 3.44% (CNBC, Fox Business). The Magnificent Seven lost more than $1 trillion in market value, with Nvidia down more than $440 billion (CNBC). Nvidia fell 9.26% and erased its gains for the year.",
+        "Chips took the worst of it. The Philadelphia Semiconductor Index fell more than 12%, and CNBC reported retail traders sold more stocks in a single day than at any time since the Covid selloff. Investors feared Democratic wins in the House, Senate and Texas would slow data center construction and bring AI rules, according to Fox Business and CNBC. Axios described voters revolting against tech at the polls.",
+        "Trump blamed Democrats, writing that the drop was based on the election results (Fox Business). The Washington Examiner reported he blamed voters. Analysts told Fox Business that markets were pricing in the midterm results.",
+        "Friday brought a bounce. CNBC reported Nasdaq futures made a small comeback and chip stocks like Nvidia and Micron rose. CNBC noted that past Nasdaq corrections were usually followed by more selling in the next month, with recoveries within about six months."
       ],
-      "flag": "Nvidia's drop is cited as 8% to 9.26% in different reports. This edition uses the Yahoo Finance close of 9.26%.",
+      "flag": "Outlets cite slightly different Nasdaq closing figures; this edition uses 5.52% (CNBC, Fox Business) and live.json.",
       "facts": [
-        "Nasdaq closed at 24,315.00, down 5.52%.",
-        "S&P 500 closed at 7,353.73, down 4.36%.",
-        "Dow closed at 51,523.06, down 3.44%.",
-        "Nvidia fell 9.26% to $181.60; Microsoft fell 3.58%.",
-        "The Magnificent 7 lost more than $1 trillion, per CNBC."
+        "Nasdaq fell 5.52%, S&P 500 4.36%, Dow 3.44% on Thursday.",
+        "The Magnificent Seven lost more than $1 trillion in value (CNBC).",
+        "The Philadelphia Semiconductor Index fell more than 12%.",
+        "Nvidia fell 9.26%; Tesla fell 10.77%.",
+        "Nasdaq futures rebounded Friday morning (CNBC)."
       ],
-      "why": "The AI trade now carries political risk as well as financing risk. Texas holds a large share of planned data center capacity, so a moratorium would hit chip demand, power equipment and the neocloud lenders.",
-      "next": "Jobs report Friday at 8:30 a.m. ET, then Nvidia earnings Nov. 17 after the close.",
+      "why": "Bulls have bet on years of AI infrastructure spending, and the midterms made that path less certain. A single day cannot show a trend, but the move shows how much of the market depends on the buildout. Rate-hike odds after the jobs report add pressure on high-growth stocks.",
+      "next": "Nvidia reports earnings Nov. 17 after the close, and the Dec. 9 Fed meeting follows.",
       "src": [
         [
           "CNBC",
@@ -987,51 +970,50 @@
           "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
         ],
         [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/11/05/nasdaq-plummets-correction"
-        ],
-        [
           "Fox Business",
           "R",
           "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
         ],
         [
-          "Fox Business",
-          "R",
-          "https://www.foxbusiness.com/politics/business-leaders-investors-weigh-impact-democrats-midterm-sweep-markets-ai-travel"
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/morning-squawk-blue-wave-stocks.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/04/ai-data-center-election-slowdown"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/finance-and-economy/4795045/trump-voters-blame-midterms-stock-market-crash/"
         ]
       ]
     },
     {
       "id": "tesla",
       "section": "stocks",
-      "motif": "chart",
+      "motif": "coins",
       "thread": "ai-trade-selloff",
-      "when": "Musk stocks",
-      "title": "Tesla falls 10.77% and Musk's companies lose over $420 billion after the midterms",
-      "summary": "Investors fear congressional probes and tougher regulation of Musk's businesses, and Tesla is down about 24% this year.",
+      "when": "Tesla and SpaceX",
+      "title": "Tesla falls 10.77% as Musk's companies lose more than $420 billion since the election",
+      "summary": "Investors fear congressional scrutiny of Musk and tighter rules for Tesla and SpaceX under a Democratic Congress.",
       "story": [
-        "Tesla fell 10.77% to $343.69 on Thursday, following a 3.3% drop Wednesday, Bloomberg and Fox Business reported. CNBC said Tesla and SpaceX together lost over $420 billion in market value after the midterms. Bloomberg put Tesla's decline for the year at about 24%.",
-        "CNBC said investors worry that Democratic committee chairs will open probes of Musk's companies, and that regulatory scrutiny could block a Musk push to merge SpaceX and Tesla. Deutsche Bank, cited by CNBC, said SpaceX's Texas compute capacity could face delays after Hinojosa's win.",
-        "The pressure on Musk stocks began Wednesday. Bloomberg reported his stocks erased $130 billion early as Texas turned blue, while Big Tech surged.",
-        "Tesla is on Keanu's watchlist. The broader AI trade fell on the same day, so the Musk-specific part of the move is unclear."
+        "Tesla fell 10.77% Thursday, and CNBC reported Tesla and SpaceX lost more than $420 billion in combined market value since Tuesday's close. Investors weighed possible congressional scrutiny of Musk and tighter rules for his companies, and the declines tracked the broader tech selloff. Regulatory attention could also complicate Musk's idea of merging SpaceX and Tesla, CNBC reported.",
+        "Democrats have listed Musk among possible oversight targets, along with the Iran war and Epstein files (NPR). The coverage describes investor fear of future probes, not new confirmed investigations.",
+        "Longtime backer Scottish Mortgage cut SpaceX to 11.1% of assets from 15% on Sept. 30 and said it had exited Tesla in April (CNBC). Tesla was already under pressure after an underwhelming Cybercab event in early September and an NHTSA audit query on whether the Cybercab was properly self-certified; shares fell about 6% the next day (CNBC).",
+        "Tesla closed near $343.69 in the latest live data."
       ],
-      "flag": "How much of the drop is Musk-specific and how much reflects the market-wide AI selloff is not established.",
+      "flag": "No new probe of Tesla or Musk was confirmed; the selloff reflects investor concern about possible scrutiny.",
       "facts": [
-        "Tesla closed at $343.69, down 10.77%.",
-        "Tesla fell 3.3% on Wednesday, per Bloomberg.",
-        "Tesla and SpaceX lost over $420 billion combined, per CNBC.",
-        "Tesla is down about 24% for the year, per Bloomberg.",
-        "Deutsche Bank flagged SpaceX's Texas compute capacity as at risk."
+        "Tesla fell 10.77% to $343.69.",
+        "Tesla and SpaceX lost more than $420 billion combined since Tuesday's close (CNBC).",
+        "Scottish Mortgage cut SpaceX to 11.1% of assets and exited Tesla in April.",
+        "NHTSA opened an audit query on the Cybercab in September."
       ],
-      "why": "Musk's businesses depend on federal contracts and permissions and on Texas power and land. A Democratic Congress and Texas governor raise regulatory risk for Tesla, SpaceX and xAI at once.",
-      "next": "Watch for House Oversight and Commerce letters to Musk's companies once Democrats take committees in January.",
+      "why": "Tesla trades on Musk's political position and on autonomy promises. A hostile Congress and an open NHTSA question raise the cost of both. A SpaceX merger would also draw more regulatory attention.",
+      "next": "Watch for Democratic oversight requests once the new Congress convenes and for NHTSA's Cybercab review.",
       "src": [
         [
           "CNBC",
@@ -1039,19 +1021,19 @@
           "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
         ],
         [
-          "Bloomberg",
+          "CNBC",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-11-05/tesla-shares-tumble-again-in-deepening-post-election-slump"
+          "https://www.cnbc.com/2026/11/06/scottish-mortgage-tesla-spacex.html"
         ],
         [
-          "Bloomberg",
+          "CNBC",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds"
+          "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html"
         ],
         [
-          "Fox Business",
-          "R",
-          "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
         ]
       ]
     },
@@ -1060,278 +1042,266 @@
       "section": "engineering",
       "motif": "pylon",
       "thread": "ai-datacenter-politics",
-      "when": "Texas grid",
-      "title": "Texas grid faces 474 gigawatts of data center requests as the buildout hits politics",
-      "summary": "ERCOT is auditing hundreds of proposals by Dec. 10, and 800 VDC designs are still under review.",
+      "when": "Texas data centers",
+      "title": "Texas faces a 474-gigawatt data center queue as the new governor-elect promises a moratorium",
+      "summary": "Abbott paused approvals in August, and Gina Hinojosa's win raises the risk of a longer pause on new projects.",
       "story": [
-        "ERCOT is tracking 474 gigawatts of new connection requests, about 90% of them data centers, which is more than five times the grid's total peak demand, according to IEEE Spectrum, Axios and TechCrunch reporting. ERCOT plans to audit hundreds of data center proposals by Dec. 10 as part of Gov. Greg Abbott's pause on new interconnections.",
-        "MIT Technology Review reported that Democrats won the Texas governor's race and the Senate seat and will control the Texas House for the first time in 24 years. The Stargate Frontier site in Shackelford County is projected at 1,820 megawatts and a Dallas-area project at 6,400 megawatts. Whether projects already under construction are exempt from a Hinojosa moratorium has been reported as likely but is not settled.",
-        "On the engineering side, ERCOT's Large Load Working Group is still evaluating 800 VDC facility designs, and one analysis said Texas is far from ready for them (IEEE Spectrum). Nvidia expects 800 VDC facilities to start appearing in 2027. Converting medium-voltage AC straight to about 800 V DC at the site perimeter removes most intermediate conversion stages.",
-        "Batteries are one answer to load swings. IEEE Spectrum reported Dimaag's system aims to buffer fast AI load changes and ride through short voltage dips."
-      ],
-      "flag": "The date of Abbott's halt differs by source: TechCrunch and Axios place it in early August, while MIT Technology Review says September 21. Hinojosa's policy is not law and depends on the 2027 session.",
-      "facts": [
-        "ERCOT's queue holds 474 GW of requests, about 90% data centers.",
-        "ERCOT plans to audit hundreds of proposals by Dec. 10.",
-        "Stargate Frontier is projected at 1,820 MW.",
-        "Nvidia expects 800 VDC data centers in 2027.",
-        "Hinojosa's moratorium is not yet law."
-      ],
-      "why": "Grid interconnection and power delivery, not chips, may set the pace of AI growth. If Texas slows approvals, developers will move capacity to other states or build off-grid with batteries and on-site generation.",
-      "next": "Dec. 10 is the ERCOT audit target, and the Texas legislature meets in 2027.",
-      "src": [
-        [
-          "MIT Technology Review",
-          "C",
-          "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
-        ],
-        [
-          "IEEE Spectrum",
-          "C",
-          "https://spectrum.ieee.org/800-vdc-for-data-centers"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/local/austin/2026/10/28/greg-abbott-gina-hinojosa-texas-data-centers"
-        ],
-        [
-          "TechCrunch",
-          "C",
-          "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
-        ]
-      ]
-    },
-    {
-      "id": "memory",
-      "section": "engineering",
-      "motif": "chip",
-      "when": "Memory squeeze",
-      "title": "Qualcomm's handset chip sales fall 26% as memory costs hit phone demand",
-      "summary": "Higher memory prices push phone makers to raise prices, and Qualcomm guided below expectations and fell more than 9% on Thursday.",
-      "story": [
-        "Qualcomm reported handset chip revenue down 26% to $5.14 billion, slightly below the $5.21 billion estimate, CNBC reported Wednesday. It guided to adjusted EPS of $2.15 to $2.35 on $10.4 billion to $11.2 billion in revenue, below the $2.27 and $10.48 billion analysts expected. The stock fell about 7% and then more than 9% on Thursday.",
-        "The cause is memory. Rising memory costs are pushing handset makers to raise prices, which hurts demand (CNBC), a squeeze earlier editions tied to AI data centers. In July, Qualcomm's CEO said \"Cost went up, prices are going to go up.\"",
-        "Management said handset sales are starting to recover sequentially and that Android shipments in China have bottomed, but expects the overall handset market to be flat in 2027. It expects $5 billion in data center revenue in fiscal 2027 and said in July it targets non-phone sales at 60% of revenue next year.",
-        "The squeeze links the two ends of the AI buildout: chips for data centers raise costs for consumer devices."
+        "Gov. Greg Abbott's office said ERCOT is tracking 474 gigawatts of new grid connection requests, about 90% of them data centers and more than five times the state's record peak demand (TechCrunch, Axios). Abbott halted data center approvals in August pending audits by the state utility regulator and ERCOT. Many of those requests are speculative: a December 2025 CNBC report said only about 7.5 gigawatts had connected or been approved.",
+        "Democrat Gina Hinojosa won the governor's race Nov. 3. She campaigned on a data center moratorium until the legislature passes guardrails on water, electricity, air and property rights, with the session ending in mid-2027 (CNBC, The Hill). Projects already under construction are reportedly exempt.",
+        "Texas matters for the buildout. Wells Fargo says 27% of planned data center gigawatts are in the state, and SemiAnalysis estimates Texas holds 41% of new US capacity in 2028 (CNBC). A hold of more than six months would mean extended delays. Republicans are also wary: Fox News reported a Fox poll found 70% of voters want to hit the brakes on local data centers, and Michigan Senate nominee Mike Rogers backed a one-year pause.",
+        "Engineers are also redesigning for the load. Rapid AI power swings are a grid concern that ERCOT's Large Load Working Group is studying (IEEE Spectrum)."
       ],
       "facts": [
-        "Handset revenue was $5.14 billion, down 26%.",
-        "Guidance was $10.4 billion to $11.2 billion in revenue.",
-        "Qualcomm expects a flat handset market in 2027.",
-        "It targets $5 billion in data center revenue in fiscal 2027.",
-        "The stock fell more than 9% Thursday, per CNBC."
+        "ERCOT tracks 474 GW of new connection requests, about 90% data centers (Abbott's office).",
+        "Abbott paused approvals in August pending audits.",
+        "Hinojosa promises a moratorium until legislature passes guardrails.",
+        "Wells Fargo: 27% of planned data center GW is in Texas.",
+        "A 2025 CNBC report said about 7.5 GW had connected or been approved."
       ],
-      "why": "Memory supply is now a limit on consumer hardware. Phone makers face higher bills of materials, and Qualcomm's shift to data center chips depends on the same AI spending that is under pressure.",
-      "next": "Watch Apple and Android makers' pricing and memory prices.",
+      "flag": "The Hinojosa moratorium's exact scope and the exemption for projects under construction are based on campaign statements and early reporting.",
+      "why": "Power, not chips, is the limit on AI growth. A pause in the largest US market would push projects elsewhere and keep prices of grid equipment high. The queue's size also shows how much of the demand is speculation.",
+      "next": "Watch the ERCOT audit of the queue and the legislative session that ends in mid-2027.",
       "src": [
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        ]
-      ]
-    },
-    {
-      "id": "xray",
-      "section": "science",
-      "motif": "atom",
-      "when": "Attosecond record",
-      "title": "SLAC X-ray laser makes the shortest high-energy pulses yet, at 100 to 400 attoseconds",
-      "summary": "A Nature Photonics paper measured 9 keV pulses lasting a few hundred attoseconds and confirmed the duration with a new diagnostic.",
-      "story": [
-        "Researchers at SLAC's Linac Coherent Light Source measured X-ray pulses of about 9 kiloelectronvolts lasting 100 to 400 attoseconds, the shortest high-energy pulses ever recorded at an X-ray free-electron laser, according to Stanford News and Newswise. The work appeared in Nature Photonics on Oct. 20 (I. Inoue et al.). An attosecond is one quintillionth of a second.",
-        "Earlier claims of hard X-ray attosecond pulses were not directly verified. The team used a method in which intensely focused X-ray pulses excite an element and make it fluoresce in the forward direction, and the fluorescence carries information about the pulse's energy, shape and duration. Lead researcher Agostino Marinelli said making the pulses took several years but \"measuring pulses this short is really, really difficult.\"",
-        "SLAC called it the first diagnostic that proves the pulses are only a few hundred attoseconds long. Earlier SLAC work in 2018 reported hard X-ray pulses of a few hundred attoseconds.",
-        "Pulses this short can capture electron motion inside molecules as chemical bonds form."
-      ],
-      "flag": "One search result gave 170 attoseconds as a duration, but SLAC and Newswise reported 100 to 400, so the range is used here.",
-      "facts": [
-        "Pulses were about 9 keV and lasted 100 to 400 attoseconds.",
-        "The paper is by Inoue et al. in Nature Photonics, Oct. 20.",
-        "The method uses forward X-ray fluorescence from an element.",
-        "Lead researcher is Agostino Marinelli.",
-        "It is the first diagnostic confirming the duration, per SLAC."
-      ],
-      "why": "Measuring electron motion needs a probe shorter than the motion itself. Verified attosecond hard X-rays open direct views of charge flow in materials and molecules.",
-      "next": "Watch for first experiments that use the pulses on real samples.",
-      "src": [
-        [
-          "Stanford News",
-          "C",
-          "https://news.stanford.edu/stories/2026/10/x-ray-laser-record-ultrashort-high-energy-pulses"
-        ],
-        [
-          "Newswise",
-          "C",
-          "https://www.newswise.com/articles/slac-s-x-ray-laser-sets-a-record-for-shortest-high-energy-pulses-ever-generated-by-an-xfel"
-        ],
-        [
-          "Interesting Engineering",
-          "C",
-          "https://interestingengineering.com/innovation/researchers-generate-shortest-x-ray-pulses-lasting-400-attoseconds"
-        ]
-      ]
-    },
-    {
-      "id": "teghaza",
-      "section": "science",
-      "motif": "planet",
-      "when": "Mars meteorite",
-      "title": "NASA-funded study dates Mars meteorite Teghaza 001 to over 4.1 billion years",
-      "summary": "The rock found in the Sahara in 2022 matches southern highlands minerals seen from orbit and is called one of the oldest Mars meteorites.",
-      "story": [
-        "A NASA-funded study details Teghaza 001, a roughly 800-gram rose-colored meteorite found in the Sahara in 2022, NASA and JPL reported. Age dating of its minerals shows it comes from a piece of Mars that formed more than 4.1 billion years ago. The lead author is Yang Liu of NASA's Jet Propulsion Laboratory.",
-        "Its mineralogy lines up with what NASA's Mars Reconnaissance Orbiter has seen in the cratered southern highlands. No one can say exactly where on Mars it came from, though the paper names several candidate locations. One reviewer called it a Rosetta Stone for Mars (NASA).",
-        "The 'oldest' label needs care. Space.com has described ALH84001 as dated to about 4.09 billion years and NWA 7034, 'Black Beauty', to about 4.5 billion years, and these figures come from different eras and methods. NASA's wording is 'one of the oldest'.",
-        "The announcement appeared about a week ago."
-      ],
-      "flag": "Whether Teghaza 001 is older than other Martian meteorites depends on the dating method, so NASA's 'one of the oldest' is used.",
-      "facts": [
-        "Teghaza 001 weighs about 800 grams and was found in the Sahara in 2022.",
-        "Minerals show it formed more than 4.1 billion years ago.",
-        "Lead author is Yang Liu of JPL.",
-        "Its minerals match southern highlands seen by MRO.",
-        "Its exact origin on Mars is unknown."
-      ],
-      "why": "Old samples record the early crust and water history of Mars, a time when few samples exist on Earth. A lab-dated rock tied to orbital maps helps calibrate what rovers and orbiters see.",
-      "next": "Watch for the Mars Sample Return decisions and further analyses of the rock.",
-      "src": [
-        [
-          "NASA",
-          "C",
-          "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
-        ],
-        [
-          "NASA JPL",
-          "C",
-          "https://www.jpl.nasa.gov/news/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
-        ],
-        [
-          "Space.com",
-          "C",
-          "https://www.space.com/13159-mars-meteorite-alh84001-ancient-water.html"
-        ]
-      ]
-    },
-    {
-      "id": "dcpolitics",
-      "section": "ai",
-      "motif": "shield",
-      "thread": "ai-datacenter-politics",
-      "when": "Data center fight",
-      "title": "Sanders and other Democrats call for a national data center moratorium, but leadership splits",
-      "summary": "Sanders posted 'National data center moratorium now' while Schumer favors cost rules and Fetterman calls a pause 'lunacy'.",
-      "story": [
-        "After the midterms Sen. Bernie Sanders posted \"National data center moratorium now,\" CNBC reported. Sanders and Rep. Alexandria Ocasio-Cortez introduced a bill in March to bar new data centers until AI safeguards are enacted. Sen. Elizabeth Warren wants a moratorium until developers show they will cover full costs, and Rep. Frank Pallone supports a pause (The Hill).",
-        "Party leaders are divided. Chuck Schumer favors enforceable cost rules over a pause and called a pause bill a \"toothless messaging bill\" (The Hill). Hakeem Jeffries has said a pause is \"certainly not a position\" he has articulated. Sen. John Fetterman called it \"lunacy.\"",
-        "Voters moved first. CNBC reported voters sided against data centers in 40 of 41 local ballot measures on Tuesday, and Texas elected Gina Hinojosa on a moratorium pledge.",
-        "Republicans are weighing in. The Hill carried an opinion piece arguing Democrats are threatening U.S. AI supremacy and that Republicans should pounce, and Senate Democrats earlier blocked a Republican Ratepayer Protection Act."
-      ],
-      "flag": "Some of The Hill's reporting on Democratic positions is older than this week, so positions may have shifted.",
-      "facts": [
-        "Sanders posted 'National data center moratorium now' after the election.",
-        "Sanders and AOC introduced a moratorium bill in March.",
-        "Voters rejected data centers in 40 of 41 local measures, per CNBC.",
-        "Schumer prefers mandatory cost rules to a pause.",
-        "Fetterman called a pause 'lunacy'."
-      ],
-      "left": "Data centers raise power bills, strain water and grid supply, and arrive with tax breaks that benefit giant firms. Progressives say a pause until ratepayer protections and safeguards exist is a reasonable demand, and 40 of 41 local votes show where the public stands. Moderates counter with mandatory cost rules that keep construction going.",
-      "right": "Conservatives and many in the industry argue a moratorium would hand AI leadership to China, cost construction jobs and raise power-sector investment costs without lowering bills. The Hill's opinion writers say the right should defend building and offer its own ratepayer protections. They point to the market losing more than $1 trillion in megacap value in one day on fears of a slowdown.",
-      "why": "Data center policy is moving from local zoning fights to a national party platform. That affects chip demand, utility planning and who pays for new power plants.",
-      "next": "Watch for the first bills when the new Congress convenes in January and for Hinojosa's 2027 Texas agenda.",
-      "src": [
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/policy/technology/5961592-democrats-data-center-restrictions/"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/opinion/technology/6154943-ai-data-centers-red-states/"
-        ],
         [
           "CNBC",
           "C",
           "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
         ],
         [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
+        ],
+        [
           "Axios",
           "C",
-          "https://www.axios.com/2026/10/31/data-centers-elections-wall-street"
+          "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/state-watch/6203045-texas-hinojosa-data-centers/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/anxiety-grows-over-emerging-election-issue-gop-says-washington-isnt-answer"
+        ]
+      ]
+    },
+    {
+      "id": "dcvolt",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "800-volt power",
+      "title": "Nvidia's 800-volt DC push redesigns how AI data centers get power",
+      "summary": "Replacing AC distribution with an 800-volt DC bus cuts copper and conversion steps, with first facilities expected in 2027.",
+      "story": [
+        "IEEE Spectrum describes a shift to 800-volt direct current in AI data centers. Grid power is converted from medium-voltage AC to roughly 800 V DC once, distributed on a DC bus through the facility and stepped down near the chips by compact DC-to-DC converters. Vertiv's Thompson described the rack-level step-down in the coverage.",
+        "Nvidia is pushing it because very dense racks need large amounts of copper in conventional AC designs. An Nvidia figure cited by IEEE Spectrum puts a 1 MW rack at up to 200 kilograms of copper. Vertiv says its 800 V DC ecosystem for Nvidia's Vera Rubin Ultra Kyber platforms should be commercially available in the second half of 2026, and Eaton is developing a medium-voltage solid-state transformer as the core of its 800 V DC distribution.",
+        "Nvidia reportedly expects 800 VDC facilities to appear in 2027. The grid is the harder part. AI loads swing rapidly, and ERCOT's Large Load Working Group is evaluating how to accommodate several 800 VDC designs. Dimaag has proposed batteries and control software between the grid and the data center to buffer the swings."
+      ],
+      "flag": "The search results did not confirm the publication dates of the IEEE Spectrum articles, so the 2026-2027 timelines are as stated by the companies.",
+      "facts": [
+        "The design converts to about 800 V DC once and distributes it on a DC bus.",
+        "Nvidia cites up to 200 kg of copper for a 1 MW rack in conventional designs.",
+        "Vertiv targets availability in the second half of 2026.",
+        "Eaton is building a medium-voltage solid-state transformer.",
+        "ERCOT is studying how to handle fast AI load swings."
+      ],
+      "why": "Power delivery is a hard limit on AI scale. Fewer conversions mean less waste heat and copper, and that cuts cost per rack. The rapid load swings make grid rules as important as the hardware.",
+      "next": "Watch ERCOT's large-load working group and the first 800 VDC deployments in 2027.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/data-center-dc"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/800-vdc-for-data-centers"
+        ]
+      ]
+    },
+    {
+      "id": "swift",
+      "section": "science",
+      "motif": "satellite",
+      "when": "Swift ends",
+      "title": "NASA's Swift telescope reenters after a failed private rescue",
+      "summary": "A $30 million Katalyst mission lost attitude control, and Swift burned up on Nov. 4 after nearly 22 years.",
+      "story": [
+        "NASA's Swift space telescope reentered Earth's atmosphere on Nov. 4 over the North Sumatra region of Indonesia after nearly 22 years in orbit, and NASA ended the mission (Space.com, NASA). A private rescue spacecraft built by Katalyst Space began to spin out of control, and controllers could not stabilize it to give Swift the planned boost to a higher orbit.",
+        "NASA awarded the $30 million contract in September 2025, and Katalyst's LINK spacecraft launched on July 3 (Space.com). Katalyst's CEO said that even three more months \"would have made a tremendous difference.\" Swift gathered its last science data on Oct. 20.",
+        "NASA said most of the spacecraft would burn up, though some components were expected to survive reentry, and the risk of harm to anyone on Earth was low. Science magazine reported NASA abandoned the orbit-boosting plan.",
+        "The failure bears on Hubble. NASA issued a request for information on Oct. 29 asking industry for ideas to service Hubble (Space.com, NASA)."
+      ],
+      "facts": [
+        "Swift reentered on Nov. 4 after nearly 22 years.",
+        "Katalyst's LINK rescue craft began spinning out of control.",
+        "NASA paid $30 million; LINK launched July 3.",
+        "Swift's last science data was collected Oct. 20.",
+        "NASA issued a Hubble servicing request for information Oct. 29."
+      ],
+      "why": "Swift caught gamma-ray bursts and fast transients, and it was the first test of a commercial in-orbit rescue. The failure shows how hard docking and boosting a non-cooperative satellite is, which matters for any Hubble plan.",
+      "next": "NASA's Hubble servicing responses and any Swift debris findings are the next things to watch.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/missions/nasa-ends-swift-space-telescope-mission-after-failed-rescue-attempt"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/missions/nasa-swift-space-telescope-crashes-to-earth"
+        ],
+        [
+          "Science",
+          "C",
+          "https://www.science.org/content/article/nasa-abandons-orbit-boosting-rescue-mission-space-observatory"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift"
+        ]
+      ]
+    },
+    {
+      "id": "hubble",
+      "section": "science",
+      "motif": "planet",
+      "when": "Missing oxygen",
+      "title": "Hubble finds nearby dwarf galaxies are missing most of their oxygen",
+      "summary": "A study of 37 dwarf galaxies suggests supernova winds expel more oxygen than current simulations predict.",
+      "story": [
+        "NASA reported that Hubble data on 37 nearby dwarf galaxies show the galaxies hold only a small share of the oxygen their stars produced. The study was published Monday in The Astrophysical Journal and also used data from the retired Spitzer Space Telescope, the Very Large Array and the Australian Telescope Compact Array.",
+        "The galaxies were chosen because their masses fall in the range where simulations predict supernova-driven winds should expel increasing amounts of oxygen, and because they are close enough for Hubble to resolve individual stars. The work is part of the Galaxies Losing Oxygen via Winds (GLOW) project.",
+        "NASA says energy from massive stars and supernova winds in low-mass galaxies appears to drive out oxygen more effectively than models predict. It is still unclear whether the missing oxygen sits in the gas around the galaxies or has left their surroundings entirely.",
+        "Hubble itself is in the news. NASA asked industry on Oct. 29 for ideas on in-space servicing of the telescope (Space.com)."
+      ],
+      "flag": "The oxygen result is reported through NASA's own release; independent comment was not found.",
+      "facts": [
+        "Hubble studied 37 nearby dwarf galaxies.",
+        "The paper appeared in The Astrophysical Journal.",
+        "The project is called GLOW.",
+        "Models underpredict how much oxygen supernova winds remove.",
+        "The location of the missing oxygen is unresolved."
+      ],
+      "why": "Galaxy simulations need correct feedback from supernovae. If they undercount oxygen loss, estimates of how galaxies grow and enrich space could shift. It is also a test of Hubble's value as NASA weighs servicing it.",
+      "next": "Follow-up observations of the gas around these galaxies could show where the oxygen went.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope"
         ]
       ]
     },
     {
       "id": "anthropicipo",
       "section": "ai",
-      "motif": "automaton",
+      "motif": "chart",
       "thread": "anthropic-ipo",
-      "when": "IPO filing",
-      "title": "Anthropic's IPO filing leaves valuation open as the AI trade sells off",
-      "summary": "The Oct. 26 S-1 lists the Nasdaq ticker ANT, a $965 billion last private valuation and an $80.75 billion first-half net loss.",
+      "when": "Anthropic IPO",
+      "title": "Anthropic's S-1 shows $16.3 billion in first-half revenue and a huge accounting loss as the AI trade wobbles",
+      "summary": "The public filing leaves the price open, and investors are split on whether a $1.4 to $2 trillion valuation holds after Thursday's selloff.",
       "story": [
-        "Anthropic filed its public S-1 on Oct. 26, planning to list on the Nasdaq under the ticker \"ANT,\" CNBC and Axios reported. Goldman Sachs and Morgan Stanley are lead underwriters, and shares could begin trading before Thanksgiving. The filing sets no price range.",
-        "Its last private round in May raised $65 billion at a $965 billion valuation. Press estimates for the IPO value vary widely, with one report at $1.5 trillion to over $2 trillion and another at $1 trillion to $2 trillion.",
-        "For the first half of 2026 Anthropic reported $16.29 billion in revenue and an $80.75 billion net loss, about $72 billion of which came from accounting charges tied to convertible notes. The Amodei siblings and five other co-founders will hold 50.1% of voting power through Founder LLC.",
-        "Disclosure: this edition is written by Claude, an AI model made by Anthropic. The facts here are as reported by CNBC and Axios."
+        "Anthropic's public S-1, filed in late October, shows revenue of nearly $16.3 billion in the first half of 2026 and a loss of $80.7 billion, about $72 billion of which comes from accounting charges tied to convertible notes (CNBC). The company's last private round raised $65 billion at a $965 billion valuation. The filing says the price will be determined by negotiations among the company, selling stockholders and the underwriters.",
+        "Reported valuation targets vary. One report puts it at $1.5 trillion to $2 trillion, while Bloomberg said investors told bankers a fair range was $1.4 trillion to $1.5 trillion. One IPO expert told CNBC the chance of a 10x return is limited at $1.5 trillion, and New Constructs called it the most ridiculous IPO of 2026.",
+        "Thursday's selloff raises the stakes. Bloomberg's graphics describe how heavily markets depend on tech, and warn that an AI downturn would spread beyond tech. Anthropic's earlier filing sources said AI backlash would be listed as a risk factor (CNBC).",
+        "No roadshow date or listing date was found in these reports. Disclosure: Anthropic makes Claude, the model that helps write this briefing."
       ],
-      "flag": "Earlier editions reported a roadshow possibly starting the week of Nov. 9. That was not reconfirmed in today's searches, and no reporting found yet says whether the selloff changes the timing.",
+      "flag": "Roadshow timing and the effect of the selloff on pricing were not found in reporting.",
       "facts": [
-        "The S-1 was filed Oct. 26 with ticker ANT on the Nasdaq.",
-        "The last private round raised $65 billion at $965 billion in May.",
-        "First-half revenue was $16.29 billion and net loss $80.75 billion.",
-        "About $72 billion of the loss was accounting charges on convertible notes.",
-        "Founders will hold 50.1% of voting power."
+        "First-half 2026 revenue was nearly $16.3 billion (CNBC).",
+        "The loss was $80.7 billion, about $72 billion from convertible-note accounting charges.",
+        "The last private round was $65 billion at $965 billion.",
+        "The offering price has not been set.",
+        "Bloomberg says investors see $1.4 to $1.5 trillion as fair."
       ],
-      "why": "Anthropic is the first big test of AI valuations in public markets. A sell-off of this size in chip and AI stocks may change the appetite for the offering, which some reports speculate could be around $100 billion.",
-      "next": "Watch for a price range filing and a roadshow date.",
+      "why": "This is the first public look at a frontier lab's finances, and it arrives in a market that just lost $1 trillion in megacap value. The accounting loss hides how much real cash the company burns on compute.",
+      "next": "Watch for a roadshow date and whether the valuation range moves after the selloff.",
       "src": [
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/10/26/anthropic-ipo"
-        ],
         [
           "CNBC",
           "C",
           "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html"
         ],
         [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://bloomberg.com/graphics/2026-ai-bubble-financial-markets"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
+        ]
+      ]
+    },
+    {
+      "id": "openaicyber",
+      "section": "ai",
+      "motif": "shield",
+      "when": "OpenAI cyber model",
+      "title": "OpenAI releases a cybersecurity model for its top Daybreak tier, and researchers ask if it is enough",
+      "summary": "The model goes to Daybreak Red, which OpenAI says has only thousands of professionals, amid complaints about guardrails and revoked access.",
+      "story": [
+        "OpenAI announced a cybersecurity-focused model for Daybreak Red, the highest tier of its Daybreak program for offensive security research (TechCrunch). TechCrunch calls it ChatGPT Cyber, while other outlets describe the tier's model as GPT-5.6-Cyber. OpenAI says only \"thousands\" of professionals participate in Daybreak, far fewer than the potential hackers who could misuse such tools.",
+        "Daybreak has two tiers. CNBC reported in August that Daybreak Blue offers GPT-5.6 Sol without its system-level cyber guardrails, while Red offers the specialized cyber model for validating exploits and advanced vulnerability research. OpenAI's Astra model was the first it rated at \"Critical\" cyber capability (CNBC).",
+        "Researchers have criticized the access rules. In August, multiple researchers said their access to the Trusted Access for Cyber program was revoked and that OpenAI asked them to reapply and verify (TechCrunch). A researcher said guardrails make you spend time negotiating with the model, and another argued OpenAI has made Daybreak Blue less useful for finding vulnerabilities.",
+        "Axios reported on the August restrictions designed to keep the tools with defenders. How well verification separates defenders from attackers remains the central question."
+      ],
+      "flag": "Outlets name the model differently (ChatGPT Cyber versus GPT-5.6-Cyber); OpenAI's capability figures are its own.",
+      "facts": [
+        "The model is for Daybreak Red, the top tier.",
+        "OpenAI says only thousands of professionals are in Daybreak.",
+        "Daybreak Blue gives GPT-5.6 Sol without system-level cyber guardrails.",
+        "OpenAI rated Astra \"Critical\" for cyber capability.",
+        "Researchers reported revoked access in August (TechCrunch)."
+      ],
+      "why": "Frontier labs are deciding who gets offensive-capable tools. Gating by verification helps defenders but frustrates legitimate researchers, and attackers can use other models.",
+      "next": "Watch whether OpenAI expands access or publishes independent evaluations.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/08/10/open-ai-daybreak-cybersecurity.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
+        ],
+        [
           "Axios",
           "C",
-          "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises"
+          "https://www.axios.com/2026/08/10/openai-gpt-astra-restrictions-safety-hacking-defenders"
         ]
       ]
     }
   ],
   "briefs": [
-    "France: nearly 575,000 protesters took part in strikes over the cost of living, per the interior ministry, and Prime Minister Lecornu plans a social conference with unions and employers Monday (CNN).",
-    "Santa Clara County is refusing a Justice Department demand to set aside ballots from voters it suspects are noncitizens, and the county counsel called the demand unlawful (SF Chronicle).",
-    "Fremont: BART picked Pacific Development and Affirmed Housing to build 643 homes, 176 of them affordable, at Fremont Station, with construction hoped to start in 2028 (SF Chronicle).",
-    "ACA: benchmark premiums are set to rise 13% on average in 2027 and enrollment fell to 19.2 million, while CMS credits anti-fraud work and KFF says subsidy expiry is the main cause (CNN, NPR).",
-    "Hong Kong activist Joshua Wong was sentenced to 10 years on a second national security conviction (NPR).",
-    "MIT Technology Review reported agents are now using the web at scale and that Amazon blocked Meta's Muse agent from its site (MIT Technology Review)."
+    "California: Prop 40, the billionaire tax, trailed 54.6% to 45.3% with 63.75% counted while Prop 42 led, and opponents spent $316.7 million; Xavier Becerra won the governor's race (SF Chronicle, CalMatters).",
+    "Democrats: Jeffries plans votes to revive ACA premium subsidies and reverse Medicaid cuts, and incoming Oversight chair Robert Garcia told Trump's team to \"LAWYER UP\" (NPR, Fox News).",
+    "Texas: Gina Hinojosa's win on Nov. 3 makes her pledge to pause new data centers a central issue for AI investors (The Hill, CNBC)."
   ]
 }
