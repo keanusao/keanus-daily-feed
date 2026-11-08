@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-08T22:41:08Z",
+  "updatedAt": "2026-11-08T23:39:44Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 69.3,
-      "feels": 69.3,
-      "hum": 61,
-      "wind": 4.1,
+      "temp": 69.2,
+      "feels": 69.6,
+      "hum": 67,
+      "wind": 4.9,
       "cond": "cloudy"
     },
     "days": [
@@ -28,7 +28,7 @@
       {
         "date": "2026-11-09",
         "hi": 67,
-        "lo": 55,
+        "lo": 56,
         "cond": "fog",
         "pop": 0
       },
@@ -43,12 +43,12 @@
         "date": "2026-11-11",
         "hi": 78,
         "lo": 58,
-        "cond": "cloudy",
+        "cond": "partly",
         "pop": 0
       },
       {
         "date": "2026-11-12",
-        "hi": 76,
+        "hi": 78,
         "lo": 59,
         "cond": "cloudy",
         "pop": 6
@@ -63,7 +63,7 @@
     ]
   },
   "markets": {
-    "asOf": "Fri Nov 6, 5:15 PM ET",
+    "asOf": "Sun Nov 8, 6:29 PM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -205,11 +205,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$90.83",
-        "raw": 90.83,
-        "change": "+0.00%",
-        "dir": "flat",
-        "time": 1794002398,
+        "price": "$90.40",
+        "raw": 90.4,
+        "change": "-0.47%",
+        "dir": "down",
+        "time": 1794180585,
         "spark": [
           91.49,
           91.85,
@@ -232,17 +232,18 @@
           96.09,
           88.12,
           90.52,
-          90.83
+          90.83,
+          90.4
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$74,296",
-        "raw": 74295.79,
-        "change": "-1.92%",
+        "price": "$75,098",
+        "raw": 75098.33,
+        "change": "-0.87%",
         "dir": "down",
-        "time": 1794177667,
+        "time": 1794181182,
         "spark": [
           81676.34,
           82546.32,
@@ -275,7 +276,7 @@
           75942.12,
           75746.93,
           75747.58,
-          74295.79
+          75098.33
         ]
       }
     ],
