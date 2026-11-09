@@ -1,0 +1,1221 @@
+{
+  "updatedAt": "2026-11-09T14:07:58Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **the House may vote this week on impeaching Hegseth**, as Rep. Massie re-files and Jeffries calls himself a \"hard yes\" (Axios, ABC News, Fox News). Trump says new Iran strikes are \"highly unlikely\" while talks continue, and Brent fell to near $95 on an unconfirmed report of Iranian concessions (Fox News, Bloomberg). **October CPI arrives Tuesday**, with consensus at 3.9% and traders putting a December hike near 78% after 165,000 new jobs (CNBC, Axios). The Nasdaq fell more than 5% Thursday, its worst day in 19 months, and is up 1.09% early today (CNBC). Congress faces a Dec. 11 funding deadline, and aides expect a stopgap (ABC News, NPR). In California, **prosecutors vow to fight Newsom's death row commutations**, and most cases need state Supreme Court sign-off (CalMatters, KQED, Fox News). **Anthropic's IPO valuation hopes** have slipped to $1 trillion to $1.5 trillion amid data center backlash (CNBC), and Webb data show comet 3I/ATLAS may be 10 to 12 billion years old (Space.com, NASA). Fremont is foggy and mild with a high of 71.",
+  "alerts": [
+    {
+      "text": "Nvidia reports earnings Nov. 17 after the close, and the stock is up 2.78% to $186.64 this morning.",
+      "level": "watch",
+      "story": "techrout"
+    },
+    {
+      "text": "October CPI lands Tuesday morning, and a hot print could lift December Fed hike odds above 78%.",
+      "level": "high",
+      "story": "cpi"
+    },
+    {
+      "text": "The House may vote on impeaching Hegseth as early as this week after Massie re-files.",
+      "level": "watch",
+      "story": "hegseth"
+    },
+    {
+      "text": "California prosecutors plan court challenges to Newsom's death row commutations; nearly 400 cases need Supreme Court approval.",
+      "level": "info",
+      "story": "deathrow"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "hegseth",
+      "text": "House faces a forced impeachment vote on Hegseth, with GOP defections expected."
+    },
+    {
+      "story": "iran",
+      "text": "Trump says new Iran strikes are unlikely while talks proceed; Brent near $95."
+    },
+    {
+      "story": "cpi",
+      "text": "October CPI is due Tuesday with December hike odds at 78%."
+    },
+    {
+      "story": "anthropicipo",
+      "text": "Anthropic's IPO valuation hopes slip to $1 trillion to $1.5 trillion amid backlash."
+    },
+    {
+      "story": "atlas",
+      "text": "Webb finds interstellar comet 3I/ATLAS is ancient and formed in the deep cold."
+    }
+  ],
+  "stat": {
+    "label": "Oct. CPI, due Tue",
+    "value": "3.9% exp.",
+    "note": "Headline consensus vs 3.7% in Sept. (CNBC, Axios); Dec. hike odds ~78%"
+  },
+  "markets": {
+    "asOf": "Mon Nov 9, 8:04 AM ET",
+    "wrap": "Tech led a violent post-election selloff last week, with the Nasdaq down more than 5% Thursday and the Dow off about 1,800 points (CNBC). **Early Monday is calmer**: the S&P 500 is +0.31%, the Nasdaq +1.09% and the Dow -0.46%. Oil is sliding, with WTI down 3.91% to $87.28 after a report that Iran eased Hormuz demands (Bloomberg). The 10-year yield is near 4.86%, and traders await **Tuesday's CPI**, with December hike odds near 78% (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,376.86",
+        "raw": 7376.86,
+        "change": "+0.31%",
+        "dir": "up",
+        "time": 1794001029,
+        "spark": [
+          7801.77,
+          7765.36,
+          7811.54,
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "51,285.73",
+        "raw": 51285.73,
+        "change": "-0.46%",
+        "dir": "down",
+        "time": 1794001032,
+        "spark": [
+          51179.87,
+          51231.64,
+          51654.95,
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "24,579.42",
+        "raw": 24579.424,
+        "change": "+1.09%",
+        "dir": "up",
+        "time": 1794003359,
+        "spark": [
+          27538.69,
+          27193.34,
+          27366.17,
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.86%",
+        "raw": 4.859,
+        "change": "+0.45%",
+        "dir": "up",
+        "time": 1793995196,
+        "spark": [
+          5.27,
+          5.28,
+          5.23,
+          5.24,
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$87.28",
+        "raw": 87.28,
+        "change": "-3.91%",
+        "dir": "down",
+        "time": 1794229472,
+        "spark": [
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          87.28
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$74,656",
+        "raw": 74656.24,
+        "change": "-0.09%",
+        "dir": "down",
+        "time": 1794230061,
+        "spark": [
+          82546.32,
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          74656.24
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$186.64",
+        "raw": 186.64,
+        "change": "+2.78%",
+        "dir": "up",
+        "time": 1793998800,
+        "spark": [
+          237.47,
+          230.48,
+          229.28,
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64
+        ],
+        "note": "Bounces as tech rebounds; reports Nov. 17 after the close (CNBC)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$342.37",
+        "raw": 342.37,
+        "change": "-0.52%",
+        "dir": "down",
+        "time": 1793998801,
+        "spark": [
+          336.67,
+          340.42,
+          336.64,
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$530.61",
+        "raw": 530.61,
+        "change": "-0.99%",
+        "dir": "down",
+        "time": 1793998801,
+        "spark": [
+          529.76,
+          522.61,
+          535.07,
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$284.78",
+        "raw": 284.78,
+        "change": "+0.78%",
+        "dir": "up",
+        "time": 1793998801,
+        "spark": [
+          350.5,
+          348.29,
+          351.66,
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$358.22",
+        "raw": 358.22,
+        "change": "+4.23%",
+        "dir": "up",
+        "time": 1793998801,
+        "spark": [
+          377.81,
+          375.0,
+          382.7,
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22
+        ],
+        "note": "Rebounds after a post-election slump that left it down about 24% for the year (Bloomberg)."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$259.30",
+        "raw": 259.3,
+        "change": "-0.35%",
+        "dir": "down",
+        "time": 1793998801,
+        "spark": [
+          259.92,
+          254.06,
+          262.43,
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 49.4,
+      "feels": 47.0,
+      "hum": 89,
+      "wind": 3.6,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-11-08",
+        "hi": 71,
+        "lo": 54,
+        "cond": "cloudy",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-09",
+        "hi": 71,
+        "lo": 49,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-10",
+        "hi": 75,
+        "lo": 55,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-11",
+        "hi": 78,
+        "lo": 58,
+        "cond": "partly",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-12",
+        "hi": 77,
+        "lo": 59,
+        "cond": "cloudy",
+        "pop": 6
+      },
+      {
+        "date": "2026-11-13",
+        "hi": 74,
+        "lo": 58,
+        "cond": "cloudy",
+        "pop": 22
+      },
+      {
+        "date": "2026-11-14",
+        "hi": 68,
+        "lo": 58,
+        "cond": "cloudy",
+        "pop": 56
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "hegseth",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Vote this week",
+      "title": "House faces a forced vote on impeaching Hegseth as Jeffries says he is a \"hard yes\"",
+      "summary": "Rep. Thomas Massie plans to re-trigger his privileged impeachment resolution as Congress returns, and GOP leaders brace for defections.",
+      "story": [
+        "Rep. Thomas Massie (R-Ky.) is expected to re-trigger his privileged resolution to impeach War Secretary Pete Hegseth as soon as Monday afternoon, Fox News and ABC News report. A privileged resolution forces leaders to schedule a vote within two legislative days. Axios reports House Republican leaders are bracing for enough GOP defections to impeach him.",
+        "The eight articles accuse Hegseth of violating the War Powers Resolution in Iran, among other charges, Fox News reports. Massie first tried to force the vote in September, but Speaker Mike Johnson adjourned the House early and the privilege expired over the recess. Johnson called the effort a \"publicity stunt\" at the time.",
+        "Democratic leader Hakeem Jeffries said on ABC's \"This Week\" that he is a \"hard yes\" after earlier stopping short of endorsing impeachment (ABC News, The Hill). Fox News says Republican attendance gaps after the midterms could leave Johnson short of the votes to block the measure, though most House Republicans still oppose it. Trump told ABC he has \"every intention\" of keeping Hegseth.",
+        "Even if the House impeaches him, removal needs a two-thirds Senate vote. The articles would need to pass before the new Congress starts in January 2027."
+      ],
+      "facts": [
+        "Massie's privileged resolution has eight articles of impeachment.",
+        "Jeffries said he is a \"hard yes\" on ABC's \"This Week\" (ABC News, The Hill).",
+        "Axios reports GOP leaders expect enough defections for it to pass.",
+        "Fox News reports most House Republicans still oppose impeachment.",
+        "Removal would take a two-thirds Senate vote."
+      ],
+      "next": "Watch for the House floor vote within two legislative days of Massie's filing, and whether a motion to table fails.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+        ],
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/Politics/im-hard-hakeem-jeffries-announces-support-hegseth-impeachment/story?id=137952235"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/hegseth-faces-bipartisan-impeachment-threat-after-iran-war-gets-blame-gop-midterm-slaughter"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/policy/defense/4793550/thomas-massie-hegseth-impeachment-iran-war-used-as-blame-for-midterm-results/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6206617-jeffries-supports-hegseth-impeachment/"
+        ]
+      ],
+      "thread": "hegseth-impeachment",
+      "left": "Hegseth took the country into a war without proper congressional authorization, and the War Powers Resolution exists to stop exactly that. Voters just punished the party that backed the war, and Congress has a duty to check a secretary who says the effort is a sham. Impeachment is the constitutional tool for abuse of war powers, and Republicans like Massie joining shows it is not only partisan.",
+      "right": "Impeachment is meant for high crimes, not for policy fights over a war the commander in chief ordered. Johnson and most Republicans see a stunt from a defeated congressman, and Trump has backed his secretary. Critics warn that if a lame-duck House impeaches a Cabinet member over strategy, every future Congress will treat it as a weapon, and the Senate will not convict anyway."
+    },
+    {
+      "id": "lameduck",
+      "section": "politics",
+      "motif": "capitol",
+      "when": "Dec. 11 deadline",
+      "title": "Lame-duck Congress faces a Dec. 11 funding deadline and a stalled GOP agenda",
+      "summary": "Congress has about five weeks to avoid a shutdown, and aides expect a stopgap through March or April.",
+      "story": [
+        "Congress returns this week for a crowded lame-duck session with a Dec. 11 funding deadline, ABC News and NPR report. Senate aides from both parties expect another short-term measure to keep agencies open through late March or mid-April rather than a full-year deal, according to the reporting.",
+        "Democrats won the House and Senate on Nov. 3, and Jeffries is expected to become Speaker in January. The Hill reports Trump's lame-duck agenda has stalled after the GOP's election losses. Democrats say Trump's push for $1.5 trillion in defense spending derailed the appropriations process.",
+        "Other items fight for floor time: the NDAA, a farm bill, a Pentagon reconciliation package and the Hegseth impeachment. Fox News quotes lawmakers on both sides, with Rep. Nancy Mace saying the odds of a shutdown are low. Others point to the 43-day shutdown of 2025 as a warning.",
+        "Democrats may use the Iran war as leverage in the spending talks, which could raise the stakes of a stopgap."
+      ],
+      "facts": [
+        "The current funding deadline is Dec. 11.",
+        "Aides expect a stopgap running to late March or mid-April.",
+        "Democrats won both chambers on Nov. 3.",
+        "The 2025 shutdown lasted 43 days.",
+        "Defense spending and the Iran war are the main sticking points."
+      ],
+      "next": "Watch for the first stopgap text and whether Democrats attach Iran war or health care demands before Dec. 11.",
+      "src": [
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/Politics/congress-returns-crowded-lame-duck-session-hegseth-impeachment/story?id=137918357"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/congress-returns-brutal-lame-duck-stretch-shutdown-deadline-leadership-races-closet-full-s"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6202573-gop-loses-hope-trump-agenda/"
+        ]
+      ],
+      "thread": "midterms-2026",
+      "left": "Voters gave Democrats a mandate over affordability and the war. Using the funding deadline to press for Iran limits and restored health subsidies is ordinary leverage, and Republicans who pushed a $1.5 trillion defense number are the ones blocking a deal. A short stopgap lets the new majority negotiate from strength in January.",
+      "right": "Republicans argue that holding government funding hostage to a war the president is already trying to end through talks would hurt troops and ordinary Americans. A clean stopgap protects military readiness and gives the new Congress time to work. They also note that defense spending reflects real threats and that a repeat of the 2025 shutdown helps nobody."
+    },
+    {
+      "id": "dcpolitics",
+      "section": "politics",
+      "motif": "ballot",
+      "when": "Voter backlash",
+      "title": "Voters rebuffed data centers in 40 of 41 local ballot measures, and Democrats call for a pause",
+      "summary": "Midterm ballot measures went against data centers almost everywhere, and Sen. Bernie Sanders is calling for a national moratorium.",
+      "story": [
+        "Local voters rejected data center measures in 40 of 41 cases on Nov. 3, with Harwood, North Dakota the lone exception, CNBC reports. The measures were spread across 10 states. CNBC adds that Sen. Bernie Sanders called for a \"National data center moratorium now,\" and some House Democrats want a pause on AI buildout.",
+        "Texas matters most because it has about 27% of planned data center gigawatts, according to Wells Fargo via CNBC. Gov. Greg Abbott paused new data center grid connections in August. Democrat Gina Hinojosa won the governor's race and pledged a moratorium on new approvals until the Legislature acts in 2027, with an exemption for projects already under construction.",
+        "Axios reports that the industry's economic-benefits messaging is not breaking through with voters. Analysts quoted by CNBC think near-term effects are limited because 2027 capacity is largely under construction, but projects planned for 2028 face more permitting risk (Nomura).",
+        "The vote helped drive last week's AI stock rout, covered below."
+      ],
+      "facts": [
+        "Voters rejected data centers in 40 of 41 local measures (CNBC).",
+        "The measures covered 10 states.",
+        "Texas holds about 27% of planned data center gigawatts (Wells Fargo via CNBC).",
+        "Hinojosa pledged a moratorium on new approvals until 2027 protections pass.",
+        "No federal moratorium has been enacted."
+      ],
+      "next": "Watch for state moratorium bills in January sessions and any House Democratic push in the lame duck.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/05/data-centers-economic-benefits-messaging"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/08/behind-the-curtain-texas-democrats-2026"
+        ]
+      ],
+      "thread": "ai-datacenter-politics",
+      "blindspot": "Found mostly in CNBC and Axios; no right-leaning outlet coverage turned up in my searches.",
+      "left": "Communities are asking who pays for the power, water and land that AI needs, and the answer so far has been ratepayers. A pause lets regulators set rules on grid costs and environmental review before more capacity locks in. Voters across party lines said no, which is a mandate for oversight.",
+      "right": "A moratorium would hand the AI race to China and cost construction jobs and tax revenue in struggling towns. Conservatives say the answer is faster permitting for power generation so data centers bring their own supply, not a blanket ban. They warn that politicians chasing a popular local backlash could damage a strategic industry."
+    },
+    {
+      "id": "deathrow",
+      "section": "local",
+      "motif": "scales",
+      "when": "Legal fight",
+      "title": "Prosecutors vow court challenges to Newsom's death row commutations; most need Supreme Court sign-off",
+      "summary": "Newsom commuted all 548 death sentences, but nearly 400 cases involving multiple felonies need California Supreme Court approval.",
+      "story": [
+        "Gov. Gavin Newsom announced he will commute all 548 California death sentences to life without parole, which he called the largest act of mass clemency in U.S. history (CalMatters, KQED, SF Chronicle). His office says the prisoners remain in prison and are not eligible for release.",
+        "The change is not final for most cases. CalMatters and KQED report that prisoners convicted of more than one felony, nearly 400 people, need four of the seven California Supreme Court justices to approve. Estimates of how many cases take effect immediately differ across reports, with one putting it near 30%.",
+        "District attorneys are pushing back. Fox News reports the San Diego DA is \"researching any lawful remedies,\" and Kern County's DA said \"This assault on justice will be challenged.\" Los Angeles DA Nathan Hochman said commutations are within the governor's authority but that the power does not extend to eliminating the death penalty. Anne Marie Schubert of the Criminal Justice Legal Foundation pledged a state Supreme Court challenge.",
+        "Supporters, including the sister of Polly Klaas, back the move. CalMatters reports victims' families are angry."
+      ],
+      "facts": [
+        "Newsom commuted 548 death sentences to life without parole.",
+        "Nearly 400 cases need approval from four of seven state Supreme Court justices.",
+        "Newsom's office says no prisoner is eligible for release.",
+        "The Criminal Justice Legal Foundation pledged a state Supreme Court challenge.",
+        "California voters rejected repeal in 2012 and 2016 (cited by prosecutors)."
+      ],
+      "next": "Watch for the first state Supreme Court filing and which justices take up the multiple-felony cases.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/justice/2026/11/gavin-newsom-death-penalty-commutation/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12108596/newsom-moves-to-empty-californias-death-row-by-commuting-548-sentences"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/newsom-death-penalty-california-22512509.php"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/newsoms-death-row-commutations-spark-da-revolt-prosecutors-warn-legal-fight"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://washingtonexaminer.com/opinion/beltway-confidential/4795668/newsom-unilaterally-voids-californias-death-penalty-cases"
+        ]
+      ],
+      "thread": "ca-death-row",
+      "left": "California's system has been slow, costly and prone to error, and the people on death row will still die in prison. The governor has clear constitutional power to commute, and life without parole protects the public. Ending the limbo is also fairer to victims' families, who wait decades for executions that never come.",
+      "right": "Voters kept the death penalty on the books in 2012 and 2016, and a governor erasing it by himself overrides juries and the ballot box. Prosecutors say the power to commute individual sentences is not a power to repeal a law, and victims' families feel ignored. Critics also see a departing governor burnishing a presidential run."
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "swords",
+      "when": "Talks vs. strikes",
+      "title": "Trump says new Iran strikes are unlikely while talks continue as oil slides",
+      "summary": "Trump says attacks are \"highly unlikely\" if talks progress, with Qatar mediating and Brent near $95.",
+      "story": [
+        "President Trump said Sunday that fresh attacks on Iran are \"highly unlikely\" if Tehran strikes a nuclear deal and reopens the Strait of Hormuz, Fox News reports. Qatar is mediating, and Axios reports Vice President JD Vance has been in near-daily contact with Qatar's prime minister and Pakistan's army chief, with the U.S. military ready to resume strikes on short notice.",
+        "Oil kept falling. Bloomberg reports Brent dropped more than 3% to near $95 on Monday after an unconfirmed report that Iran eased its Hormuz demands, extending its biggest weekly drop since April 2020. CNBC reported that crude slid on hopes for a diplomatic resolution. Our market feed shows WTI at $87.28, down 3.91%.",
+        "The pressure campaign continues. Fox News reports the Navy has blockaded Iranian ports for months and that a new \"Task Force Iron Gate\" aims to cut Iran's land supply routes. Secretary of State Marco Rubio called Iran's latest truce terms \"outrageous,\" and Iran's foreign minister warned of a harsh response if talks fail.",
+        "At home, Republicans lost badly in the midterms, and Vance has said the war cost the party, a view Trump disputes, Fox News reports."
+      ],
+      "facts": [
+        "Trump said new strikes are \"highly unlikely\" if Iran agrees a nuclear deal and reopens Hormuz (Fox News).",
+        "Qatar is the main mediator (Axios).",
+        "Brent fell more than 3% to near $95 on an unconfirmed report of Iranian concessions (Bloomberg).",
+        "The U.S. Navy has blockaded Iranian ports for months.",
+        "The U.S. military can resume strikes on short notice (Axios)."
+      ],
+      "next": "Watch for a deal announcement or breakdown after the Qatar-mediated talks; the Hormuz concession report is unconfirmed.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://axios.com/2026/11/06/vance-leads-push-new-iran-deal"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://bloomberg.com/news/articles/2026-11-09/oil-falls-on-unconfirmed-report-that-iran-eased-hormuz-demands"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        ]
+      ],
+      "thread": "iran-war",
+      "flag": "The Iranian concession on Hormuz is an unconfirmed report (Bloomberg).",
+      "left": "After nine months, a blockade and strikes have not forced a deal, and Americans voted against the war. A negotiated settlement that reopens Hormuz and limits Iran's nuclear program is better than endless escalation. Congress should insist on its war powers while diplomacy works.",
+      "right": "Pressure from the blockade and the threat of strikes is what brought Iran to the table, and easing it too early would waste that leverage. Conservatives argue any deal must verifiably end Iran's nuclear program and keep Hormuz open. They see Rubio's \"outrageous\" verdict on Tehran's terms as the right posture."
+    },
+    {
+      "id": "ukraine",
+      "section": "world",
+      "motif": "globe",
+      "when": "Abu Dhabi",
+      "title": "U.S.-brokered Ukraine talks resume in Abu Dhabi with Europe at the table",
+      "summary": "A fourth round of talks starts Nov. 10-11 with Kushner and Witkoff leading and European officials attending over Kremlin objections.",
+      "story": [
+        "The U.S., Russia and Ukraine meet in Abu Dhabi on Nov. 10-11, according to Axios, which cites envoy Steve Witkoff. Witkoff and Jared Kushner lead the U.S. side, and the agenda covers post-war security arrangements, de-escalation and humanitarian steps, Fox News and The Hill report.",
+        "NPR reports that European officials will attend despite Kremlin objections, with France confirming. Russia's delegation is led by Vladimir Medinsky, and for the first time includes Deputy Foreign Ministers Sergei Ryabkov and Mikhail Galuzin.",
+        "Positions remain far apart. Russia demands large territorial concessions and a Ukrainian renunciation of NATO. Zelensky says Ukraine's constitution makes formal territorial concession illegal. Trump recently said Ukraine will end up with a \"little bit different shape.\" A localized ceasefire in Oleshky, brokered with help from Melania Trump, allowed humanitarian evacuations, but Russia struck a school and a humanitarian site (CNN, The Hill).",
+        "Analysts quoted in the coverage expect little progress."
+      ],
+      "facts": [
+        "Talks run Nov. 10-11 in Abu Dhabi.",
+        "It is the fourth round of Trump-administration-brokered talks.",
+        "European officials will attend over Kremlin objections (NPR).",
+        "Medinsky leads Russia's delegation.",
+        "Russia demands territory; Zelensky says the constitution bars it."
+      ],
+      "next": "Watch for readouts from Abu Dhabi on Nov. 11 and whether Europe gets a formal seat.",
+      "src": [
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/us-mediate-upcoming-ukraine-russia-talks-abu-dhabi-witkoff-says"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6190973-witkoff-announces-abu-dhabi-peace-negotiations/"
+        ]
+      ],
+      "thread": "ukraine-us-rift",
+      "left": "Europe belongs at the table because Ukraine's security is Europe's security, and a deal that trades territory for pressure rewards aggression. Washington should back Kyiv with firm security guarantees rather than float redrawn borders. Russian strikes during talks show the Kremlin is not serious.",
+      "right": "Conservatives say the war has to end and Washington cannot fund it forever. A realistic settlement means security guarantees backed by Europe and an honest look at what the battlefield allows. They back Trump's mediators and say Europe should carry more of the cost."
+    },
+    {
+      "id": "cpi",
+      "section": "economy",
+      "motif": "coins",
+      "when": "CPI Tuesday",
+      "title": "October CPI is due Tuesday as hike odds hit 78% after a hot jobs report",
+      "summary": "Consensus expects headline inflation at 3.9%, and traders price a December quarter-point Fed hike at about 78%.",
+      "story": [
+        "The October consumer price report arrives Tuesday morning, with producer prices Friday, CNBC and Axios report. The consensus expects headline CPI up 3.9% from a year earlier, versus 3.7% in September. Core CPI is forecast around 2.7% to 2.8%, depending on the outlet.",
+        "Friday's jobs report added fuel. Employers added 165,000 jobs in October against a 59,000 consensus (CNBC, Dow Jones), and unemployment slipped to 4.1% (CNBC, Fox Business, Axios). Revisions lifted August to 186,000 and September to 60,000. Long-term joblessness rose, with average duration of unemployment up to 27.1 weeks, the highest since September 2021 (CNBC).",
+        "The Fed held at 3.75% to 4.00% in October after its first hike in three years. CNBC says the CME FedWatch tool had a quarter-point December hike at 78% on Sunday. San Francisco Fed President Mary Daly said Americans are on a \"treadmill of high inflation\" and more hikes are likely (CNBC).",
+        "Our feed has the 10-year Treasury at 4.86%."
+      ],
+      "facts": [
+        "October CPI is due Tuesday; PPI is due Friday.",
+        "Consensus headline CPI is 3.9% year over year (CNBC, Axios).",
+        "Payrolls rose 165,000 versus 59,000 expected; unemployment is 4.1%.",
+        "Fed funds stands at 3.75% to 4.00%.",
+        "CME FedWatch put December hike odds at 78% on Sunday (CNBC)."
+      ],
+      "next": "Watch Tuesday's CPI and Friday's PPI; a hot print would likely push hike odds higher before the Dec. 8-9 meeting.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/09/stocks-inflation-fed"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html"
+        ]
+      ],
+      "left": "Rate hikes into a labor market with rising long-term unemployment risk hurting workers who are already squeezed. Inflation is driven partly by tariffs and war-related energy shocks, which the Fed cannot fix with higher rates. Policymakers should watch the jobs data under the headline.",
+      "right": "Inflation near 3.9% means the Fed's work is not done, and a hike now is cheaper than a spiral later. Conservatives blame deficits and the cost of tariffs and war spending, but say the central bank must keep expectations anchored. A strong payroll number gives it room to act."
+    },
+    {
+      "id": "techrout",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Post-election rout",
+      "title": "Tech rout after the midterms leaves the Nasdaq in correction; CPI is the next test",
+      "summary": "The Nasdaq fell more than 5% Thursday, its worst day in 19 months, and analysts warn of more turbulence this week.",
+      "story": [
+        "Tech stocks led a sharp post-election slide last week. CNBC reports the Nasdaq fell more than 5% on Thursday, its steepest drop in 19 months, as fears grew that Democratic control and a voter rebuke of data centers will slow the AI buildout. CNBC also says the Dow plunged about 1,800 points that day, its worst since April 2025.",
+        "The early read this Monday is mixed. Our market feed shows the S&P 500 at 7,376.86 (+0.31%), the Dow at 51,285.73 (-0.46%) and the Nasdaq at 24,579.42 (+1.09%) at 8:04 AM ET. Bitcoin is $74,656, near the bottom of its one-month range.",
+        "CNBC's week-ahead piece warns of \"further turmoil\" for tech, with October CPI Tuesday and PPI Friday as the key data. Some strategists see Nvidia and Micron as bargains after the drop (CNBC). Nvidia, up 2.78% to $186.64, reports Nov. 17 after the close, according to our earnings feed.",
+        "Treasury yields were steady, with the 10-year near 4.85%, as investors waited for data (CNBC)."
+      ],
+      "facts": [
+        "Nasdaq fell more than 5% on Thursday, its worst day in 19 months (CNBC).",
+        "S&P 500 7,376.86 (+0.31%), Dow 51,285.73 (-0.46%), Nasdaq 24,579.42 (+1.09%).",
+        "Nvidia is $186.64 (+2.78%) and reports Nov. 17 after the close.",
+        "October CPI is due Tuesday.",
+        "The 10-year Treasury yield is near 4.86%."
+      ],
+      "next": "Watch Tuesday's CPI reaction and Nvidia's Nov. 17 earnings.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/09/us-treasurys-bonds-yields.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds"
+        ]
+      ],
+      "why": "The selloff ties AI valuations to politics for the first time: data center limits would cap how fast chip and cloud demand can grow. With hike odds near 78%, hot inflation could hit the same stocks from a second direction."
+    },
+    {
+      "id": "tesla",
+      "section": "stocks",
+      "motif": "chart",
+      "when": "Musk stocks",
+      "title": "Tesla rebounds 4.2% after a post-election slump that wiped out hundreds of billions for Musk's companies",
+      "summary": "Tesla fell 11% Thursday on regulatory fears and is up 4.23% to $358.22 in early trading Monday.",
+      "story": [
+        "Tesla is up 4.23% to $358.22 on Monday after a brutal week. Bloomberg reports Tesla shares sank 11% Thursday after a 3.3% drop Wednesday, leaving them down about 24% for the year. CNBC says Tesla and SpaceX lost more than $420 billion in combined market value after Tuesday's close.",
+        "The driver was politics. With Democrats controlling Congress and Texas flipping blue, investors expect more probes and regulatory hurdles for Elon Musk's companies, Bloomberg and CNBC report. CNBC adds that Musk's $474 million election bet failed, and that scrutiny could block his talk of merging Tesla and SpaceX, which would need shareholder approval.",
+        "Forbes puts Musk's wealth below $800 billion, down from above $1 trillion after SpaceX's June IPO, but he remains the world's richest person (CNBC). Scottish Mortgage Investment Trust said it had exited its remaining Tesla stake (CNBC).",
+        "We found no single reported reason for Monday's bounce, so treat it as a rebound from a deep drop."
+      ],
+      "facts": [
+        "Tesla fell 11% Thursday and 3.3% Wednesday (Bloomberg).",
+        "Tesla is down about 24% for the year.",
+        "Tesla and SpaceX lost over $420 billion combined (CNBC).",
+        "Musk's net worth fell below $800 billion (Forbes via CNBC).",
+        "Tesla is $358.22, up 4.23% in early trading Monday."
+      ],
+      "next": "Watch for new congressional probe announcements aimed at Musk's companies.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-05/tesla-shares-tumble-again-in-deepening-post-election-slump"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/scottish-mortgage-tesla-spacex.html"
+        ]
+      ],
+      "why": "Tesla now trades partly on Washington's attitude toward Musk. A Democratic House with subpoena power adds regulatory risk that investors are only beginning to price."
+    },
+    {
+      "id": "indoorpv",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Nature review",
+      "title": "Nature review maps the path for indoor solar cells to reach real products",
+      "summary": "A Nov. 4 Nature review argues wide-bandgap absorbers and standard testing could speed indoor photovoltaics to market.",
+      "story": [
+        "A review in Nature, \"Accelerating commercialization and deployment of indoor photovoltaics\" by Tae Hyuk Kim, Yong Cui and Jae Won Shim, lays out how indoor solar cells could move from labs into products. It appears in Nature volume 659, pages 49-57 (Nature).",
+        "The abstract focuses on wide-bandgap absorbers, reduced non-radiative voltage losses and rethinking module design. Indoor cells harvest LED and fluorescent light, which has a narrower spectrum and far lower power than sunlight, so materials tuned for the sun are not ideal.",
+        "A companion Nature Energy paper tackles inconsistent reporting. It argues for transparent reporting of spectra, illuminance and stabilization, and surveyed commercial offerings including 195 unique LED products drawn from retail and lighting-catalogue listings (Nature Energy).",
+        "The target is low-power devices such as sensors and IoT tags that could run without batteries."
+      ],
+      "facts": [
+        "The review is in Nature volume 659, pages 49-57.",
+        "It stresses wide-bandgap absorbers and lower voltage losses.",
+        "The companion Nature Energy paper calls for standard measurement practice.",
+        "That paper surveyed 195 unique LED products.",
+        "Indoor cells target low-power sensors and IoT devices."
+      ],
+      "next": "Watch for standardized indoor test protocols and first commercial sensor products using the new cells.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-026-11133-y"
+        ],
+        [
+          "Nature Energy",
+          "C",
+          "https://www.nature.com/articles/s41560-026-02101-x"
+        ]
+      ],
+      "why": "Batteryless sensors cut maintenance for buildings, factories and wearables. Consistent testing matters because inflated lab numbers have made it hard to compare cells."
+    },
+    {
+      "id": "dcgrid",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Grid capacity",
+      "title": "Voter backlash and Texas pauses test how fast the grid can grow for AI",
+      "summary": "Texas holds 27% of planned data center capacity, and a grid-connection pause and a new governor's pledge threaten timelines.",
+      "story": [
+        "The midterms put a political cap on AI power demand. CNBC reports Texas has the largest share of planned data center capacity, 27% of planned gigawatts by Wells Fargo's count. Gov. Greg Abbott paused new data center grid connections in August and later extended the pause to environmental permits (CNBC).",
+        "Democrat Gina Hinojosa won the governor's race and pledged a moratorium on new approvals until the Legislature passes protections in 2027, with projects under construction exempt, CNBC reports. Ohio's Amy Acton backs a conditional moratorium, which is a campaign position and not law.",
+        "Analysts expect limited near-term impact. Nomura told CNBC that 2027 capacity is largely under construction, while projects planned for 2028 face more permitting and regulatory risk.",
+        "Axios reports that industry messaging on economic benefits is not breaking through with voters."
+      ],
+      "facts": [
+        "Texas has 27% of planned data center gigawatts (Wells Fargo via CNBC).",
+        "Abbott paused grid connections in August.",
+        "Hinojosa pledged a moratorium on new approvals until 2027.",
+        "2027 capacity is mostly under construction (Nomura).",
+        "No federal moratorium has been enacted."
+      ],
+      "next": "Watch for Texas permitting rules in the 2027 session and utility interconnection queue updates.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/05/data-centers-economic-benefits-messaging"
+        ]
+      ],
+      "why": "Power and permits, not chips, are becoming the binding limit on AI buildout. Projects that need new grid connections after 2027 carry the most policy risk."
+    },
+    {
+      "id": "atlas",
+      "section": "science",
+      "motif": "planet",
+      "when": "Interstellar comet",
+      "title": "Webb finds 3I/ATLAS is ancient and formed somewhere very cold",
+      "summary": "Isotope and dust measurements point to an interstellar comet that may be 10 to 12 billion years old, though age estimates conflict.",
+      "story": [
+        "NASA's James Webb Space Telescope has found clues that interstellar comet 3I/ATLAS has an ancient, distant origin, according to NASA and Space.com. Webb modeling suggests the grains are dusty water ice with sub-micron grains, and carbon and deuterium ratios differ from solar system comets.",
+        "Based on carbon isotope ratios, Martin Cordiner's team estimated the comet is between 10 and 12 billion years old. A separate trajectory-based study put it at up to 7 billion years, so the ages disagree (Space.com). The trajectory suggests origin in the Milky Way's thick disk rather than the thin disk where the Sun lives.",
+        "Webb detected an unusually high carbon dioxide to water ice ratio, which researchers say could reflect harsher radiation around an older star. A separate WEAVE study found high nitrogen, pointing to a birthplace colder than minus 240 degrees Celsius.",
+        "Nobody knows which star it formed around."
+      ],
+      "facts": [
+        "Webb sees dust-rich water ice in sub-micron grains.",
+        "Isotope ratios imply an age of 10 to 12 billion years; trajectory work says up to 7 billion.",
+        "Carbon dioxide is unusually high versus water ice.",
+        "WEAVE found high nitrogen, implying a very cold birthplace.",
+        "The parent star is unidentified."
+      ],
+      "next": "Watch for follow-up papers narrowing the age and the comet's source in the thick disk.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/asteroids/james-webb-space-telescope-uncovers-new-clues-about-the-origins-of-interstellar-invader-comet-3i-atlas"
+        ],
+        [
+          "NASA Science",
+          "C",
+          "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/comets/interstellar-comet-3i-atlas-may-be-nearly-12-billion-years-old-so-ancient-its-star-system-may-no-longer-exist"
+        ]
+      ],
+      "why": "It is a sample of planet-building material from a star far older than the Sun. Comparing it with solar system comets shows how chemistry changed across galactic history."
+    },
+    {
+      "id": "gait",
+      "section": "science",
+      "motif": "dna",
+      "when": "Nature Medicine",
+      "title": "A gait AI model links how people walk to hundreds of health conditions",
+      "summary": "Researchers trained a model on depth-camera skeleton data from 3,328 adults and predicted 1,887 of 3,210 health targets.",
+      "story": [
+        "A Nature Medicine paper describes a gait foundation model for three-dimensional skeletal motion. Researchers recorded 3,328 deeply phenotyped adults with a single depth camera during five motor tasks, and the model's embeddings significantly predicted 1,887 of 3,210 phenotypic targets (Nature Medicine).",
+        "The predictions covered 18 body systems in men and 17 of 18 in women, spanning cardiometabolic, mental health and frailty phenotypes. Gait embeddings improved prediction of clinical diagnoses and medication use beyond age, sex and body measurements.",
+        "The authors frame gait as an independent multisystem biosignal and a possible passive vital sign that could one day come from consumer video. An earlier arXiv preprint reported slightly different figures, 3,414 adults and 1,980 targets, so the numbers shifted before publication.",
+        "The paper does not show clinical use yet; translation to consumer-grade video is stated as a goal."
+      ],
+      "facts": [
+        "The model used depth-camera skeleton data from 3,328 adults.",
+        "Embeddings significantly predicted 1,887 of 3,210 targets.",
+        "It added information beyond demographics and body composition.",
+        "An earlier preprint reported 3,414 adults and 1,980 targets.",
+        "Authors propose gait as a passive vital sign."
+      ],
+      "next": "Watch for validation on smartphone video and in independent cohorts.",
+      "src": [
+        [
+          "Nature Medicine",
+          "C",
+          "https://www.nature.com/articles/s41591-026-04724-9"
+        ],
+        [
+          "arXiv preprint",
+          "C",
+          "https://arxiv.org/pdf/2603.25283"
+        ]
+      ],
+      "flag": "Single study; predictive performance on consumer video has not been shown.",
+      "why": "If gait from ordinary video predicts disease risk, screening could become cheap and passive. Predictive correlation is not diagnosis, so independent validation matters."
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "chip",
+      "when": "IPO window",
+      "title": "Anthropic IPO meets data center backlash as valuation hopes slip to $1 trillion to $1.5 trillion",
+      "summary": "Investors now expect $1 trillion to $1.5 trillion, down from $2 trillion, and Kalshi odds of a pre-December announcement fell to 57%.",
+      "story": [
+        "Anthropic's IPO is landing in a harsh climate, CNBC reports. The company is reportedly targeting a mid-November Nasdaq debut, with investors seeing a valuation of $1 trillion to $1.5 trillion, down from a $2 trillion target floated earlier. Another CNBC piece quotes investors calling $1.5 trillion \"a stretch.\"",
+        "Prediction-market odds for an IPO announcement before December fell to 57% from over 85% on Kalshi after the midterms and AI selloff (CNBC). Anthropic's filing warns that \"moratoriums on new data center construction\" pose a risk and that 16 states had weighed such moratoriums as of last month (CNBC).",
+        "Axios reported the S-1 on Oct. 26. CNBC says first-half 2026 financials show a net loss of $80.75 billion on $16.29 billion in revenue. A Renaissance Capital analyst argued a public company does not deserve more criticism than a private one, while a Georgetown finance professor expects scrutiny to intensify (CNBC).",
+        "Anthropic declined to comment."
+      ],
+      "facts": [
+        "Reported valuation range is $1 trillion to $1.5 trillion, down from $2 trillion (CNBC).",
+        "Kalshi odds of a pre-December announcement fell to 57% from over 85%.",
+        "Mid-November Nasdaq debut is reportedly targeted.",
+        "First-half 2026: $16.29 billion revenue, $80.75 billion net loss (CNBC).",
+        "The filing flags data center moratoriums as a risk."
+      ],
+      "next": "Watch for a pricing date and range in the coming days; the debut is reportedly aimed at mid-November.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/anthropic-ipo"
+        ]
+      ],
+      "thread": "anthropic-ipo",
+      "flag": "The mid-November timing and valuation range are reported by sources, not confirmed by the company.",
+      "why": "It is the first big test of AI valuations since the selloff. A weak debut would signal investors want proof of profit, not just revenue growth."
+    },
+    {
+      "id": "ramp",
+      "section": "ai",
+      "motif": "mouse",
+      "when": "Spending data",
+      "title": "Ramp data shows business AI spending flattening even as usage rises",
+      "summary": "Token spend grew only 1.5% across August and September versus 42% growth in July, as price cuts and cost controls bite.",
+      "story": [
+        "Ramp's latest data shows business token usage still climbing while token spending has flattened, TechCrunch reports. Token spend grew 1.5% across August and September, versus 42% growth in July. Ramp's economist said it is the first time usage rose while spend held flat, and it has now happened two months straight.",
+        "Price cuts drive much of it. TechCrunch says OpenAI cut API prices in half for GPT-6 Sol and GPT-6 Luna in September, and Anthropic cut prices on Fable 5.1 and Opus 5.5. Axios reports Ramp's token price index is down 48% from its late-February peak of $1.22 per million tokens.",
+        "Companies are also adding cost controls, such as budgets, defaults that block costly models on long tasks, and routers that send work to cheaper models. October showed a rebound, with spend up 8.9% from Sept. 23 to Oct. 23 (TechCrunch).",
+        "Ramp's customers skew toward tech-savvy firms, and a Census survey shows 22% of U.S. businesses use AI. Analysts see the data as a risk for coming AI IPOs because token spend tracks model-maker revenue (Axios)."
+      ],
+      "facts": [
+        "Token spend rose 1.5% over August and September, versus 42% in July (Ramp via TechCrunch).",
+        "Ramp's token price index is down 48% from February's peak (Axios).",
+        "October spend rebounded 8.9% (TechCrunch).",
+        "OpenAI cut GPT-6 Sol and Luna prices by half in September.",
+        "22% of U.S. businesses report using AI (Census, via TechCrunch)."
+      ],
+      "next": "Watch Ramp's next monthly data and the AI IPO pricing for signs of demand.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/22/ai-token-prices-demand"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/28/ai-open-ai-token-prices"
+        ]
+      ],
+      "why": "If price cuts outpace volume growth, revenue growth slows even when adoption rises. That is the core worry behind lower AI valuations."
+    }
+  ],
+  "briefs": [
+    "Fremont council races: KQED's results page shows Desrie Campbell leading District 2 and Kathy Kimberlin leading District 3, with results unofficial until certification on Dec. 3 (KQED).",
+    "Chinese AI lab Moonshot reportedly sought Nvidia Blackwell capacity in Europe, including clusters of 8,000 or more GPUs, to get around U.S. curbs; no signed deal was reported (CNBC).",
+    "A Newark councilmember's alleged attacker, Rosario Lopez, is due in court Nov. 19 on battery charges (KQED).",
+    "Bay Area's regional transit tax is reported passing, with nearly 65% of Alameda County's share going to BART operations (SF Chronicle)."
+  ]
+}
