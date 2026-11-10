@@ -1,23 +1,16 @@
 {
-  "updatedAt": "2026-11-10T07:10:10Z",
+  "updatedAt": "2026-11-10T08:57:17Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 57.3,
-      "feels": 56.8,
+      "temp": 54.4,
+      "feels": 54.3,
       "hum": 86,
-      "wind": 3.4,
+      "wind": 0.5,
       "cond": "clear"
     },
     "days": [
-      {
-        "date": "2026-11-08",
-        "hi": 71,
-        "lo": 54,
-        "cond": "cloudy",
-        "pop": 0
-      },
       {
         "date": "2026-11-09",
         "hi": 71,
@@ -27,15 +20,15 @@
       },
       {
         "date": "2026-11-10",
-        "hi": 74,
-        "lo": 55,
+        "hi": 73,
+        "lo": 51,
         "cond": "fog",
         "pop": 0
       },
       {
         "date": "2026-11-11",
-        "hi": 76,
-        "lo": 50,
+        "hi": 75,
+        "lo": 52,
         "cond": "fog",
         "pop": 0
       },
@@ -44,26 +37,33 @@
         "hi": 74,
         "lo": 58,
         "cond": "cloudy",
-        "pop": 5
+        "pop": 7
       },
       {
         "date": "2026-11-13",
         "hi": 65,
         "lo": 57,
         "cond": "rain",
-        "pop": 68
+        "pop": 77
       },
       {
         "date": "2026-11-14",
         "hi": 64,
         "lo": 55,
         "cond": "drizzle",
-        "pop": 67
+        "pop": 69
+      },
+      {
+        "date": "2026-11-15",
+        "hi": 66,
+        "lo": 54,
+        "cond": "rain",
+        "pop": 57
       }
     ]
   },
   "markets": {
-    "asOf": "Tue Nov 10, 2:00 AM ET",
+    "asOf": "Tue Nov 10, 3:47 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -197,11 +197,11 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$85.44",
-        "raw": 85.44,
-        "change": "-1.62%",
+        "price": "$84.77",
+        "raw": 84.77,
+        "change": "-2.39%",
         "dir": "down",
-        "time": 1794294005,
+        "time": 1794300435,
         "spark": [
           93.74,
           94.14,
@@ -224,17 +224,17 @@
           90.52,
           90.83,
           86.85,
-          85.44
+          84.77
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$74,559",
-        "raw": 74558.83,
-        "change": "-0.92%",
+        "price": "$74,585",
+        "raw": 74585.39,
+        "change": "-0.89%",
         "dir": "down",
-        "time": 1794294610,
+        "time": 1794301037,
         "spark": [
           82912.23,
           83679.47,
@@ -266,7 +266,8 @@
           75746.93,
           75747.58,
           74584.65,
-          74558.83
+          75223.15,
+          74585.39
         ]
       }
     ],
