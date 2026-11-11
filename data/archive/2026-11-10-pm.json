@@ -1,0 +1,1267 @@
+{
+  "updatedAt": "2026-11-11T00:08:50Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **the House killed the Hegseth impeachment for now**, voting 211-204 to send Massie's articles to committee (NBC News, CNN, Fox News). Democrats say they will return in January when they take the majority (Fox News, CNN). **Hot October inflation pushed the 10-year yield to 4.98%**, with CPI up 0.4% against 0.3% expected and Fed hike odds rising for Dec. 8-9 (CNBC, Fox Business). The S&P 500 fell 0.38%, and Nvidia dropped 5.5% as its board hired Wachtell Lipton to probe Jensen Huang (CNBC, Bloomberg). Microsoft closed down 2.2% after Anthropic launched Sheets, Whiteboards and Meetings (Bloomberg, TechCrunch). **Anthropic's IPO terms imply up to $1.4 trillion**, with pricing set for Nov. 18 (CNBC, TechCrunch, Axios). Locally, **California voters rejected the billionaire tax** 52.8% to 47.2%, and Prop 42 looks set to block future wealth taxes (CalMatters, KQED). Abroad, Russia and Ukraine held nearly four hours of U.S.-mediated talks in Abu Dhabi, while Rubio says an Iran deal is far off (NPR, Fox News, CNN). In science, **a Webb digital twin pulled a hidden planet from starlight** (Nature, Space.com), and **SpaceX aims for a double Starship catch Friday** (Space.com).",
+  "alerts": [
+    {
+      "text": "Starship Flight 15 launches Friday, Nov. 13 at 5:45 p.m. EST, with the first attempt to catch both stages.",
+      "level": "info",
+      "story": "starship"
+    },
+    {
+      "text": "Anthropic prices its IPO Nov. 18 and begins trading Nov. 19, and the range is $70 to $78.",
+      "level": "watch",
+      "story": "anthropicipo"
+    },
+    {
+      "text": "House GOP chairs want Jensen Huang at a closed briefing Nov. 18, and Nvidia reports earnings Nov. 17.",
+      "level": "watch",
+      "story": "nvidiacongress"
+    },
+    {
+      "text": "The Fed meets Dec. 8-9, and markets now price a December hike after hot CPI.",
+      "level": "info",
+      "story": "cpi"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "hegseth",
+      "text": "House sends Hegseth impeachment to committee 211-204, ending the push until Democrats take over in January."
+    },
+    {
+      "story": "cpi",
+      "text": "October CPI rose 0.4% and the 10-year yield neared 5%, lifting December Fed hike odds."
+    },
+    {
+      "story": "anthropicipo",
+      "text": "Anthropic's IPO terms imply up to $1.4 trillion, with pricing Nov. 18."
+    },
+    {
+      "story": "selloff",
+      "text": "Nvidia fell 5.5% and Microsoft 2.2% as the S&P 500 slipped 0.38%."
+    },
+    {
+      "story": "flip",
+      "text": "A digital twin of Webb recovers 51 Eridani b from starlight, a Nature paper reports."
+    }
+  ],
+  "stat": {
+    "label": "Anthropic IPO, top of range",
+    "value": "$1.404T",
+    "note": "Fully diluted valuation at $78 a share (CNBC, TechCrunch)."
+  },
+  "markets": {
+    "asOf": "Tue Nov 10, 5:15 PM ET",
+    "wrap": "Stocks closed lower as **hot CPI lifted yields toward 5%** and rate-hike bets grew (CNBC). The S&P 500 fell 0.38%, the Dow 0.30% and the Nasdaq 0.74%. **Nvidia dropped 5.47%** as its board hired Wachtell Lipton to investigate CEO Jensen Huang (CNBC, Bloomberg). Microsoft fell 2.20% after Anthropic's new workplace tools, while Amazon gained 1.48% (Bloomberg). Bitcoin slid 1.97% and WTI crude eased to $86.44.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,520.93",
+        "raw": 7520.93,
+        "change": "-0.38%",
+        "dir": "down",
+        "time": 1794348031,
+        "spark": [
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,231.89",
+        "raw": 52231.89,
+        "change": "-0.30%",
+        "dir": "down",
+        "time": 1794348040,
+        "spark": [
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,065.88",
+        "raw": 25065.875,
+        "change": "-0.74%",
+        "dir": "down",
+        "time": 1794348959,
+        "spark": [
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43,
+          25253.14,
+          25065.88
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "4.98%",
+        "raw": 4.983,
+        "change": "+2.45%",
+        "dir": "up",
+        "time": 1794340794,
+        "spark": [
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86,
+          4.98
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$86.44",
+        "raw": 86.44,
+        "change": "-0.47%",
+        "dir": "down",
+        "time": 1794347999,
+        "spark": [
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.44
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$73,771",
+        "raw": 73771.08,
+        "change": "-1.97%",
+        "dir": "down",
+        "time": 1794349201,
+        "spark": [
+          82912.23,
+          83679.47,
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          75223.15,
+          73771.08
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$168.89",
+        "raw": 168.89,
+        "change": "-5.47%",
+        "dir": "down",
+        "time": 1794344401,
+        "spark": [
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89
+        ],
+        "note": "Second straight drop as its board hired Wachtell Lipton to probe CEO Jensen Huang (CNBC, Bloomberg)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$348.51",
+        "raw": 348.51,
+        "change": "-0.62%",
+        "dir": "down",
+        "time": 1794344400,
+        "spark": [
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$533.16",
+        "raw": 533.16,
+        "change": "-2.20%",
+        "dir": "down",
+        "time": 1794344401,
+        "spark": [
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61,
+          545.18,
+          533.16
+        ],
+        "note": "Fell after Anthropic launched Claude Sheets and other Office rivals (CNBC, Bloomberg)."
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$287.38",
+        "raw": 287.38,
+        "change": "-0.27%",
+        "dir": "down",
+        "time": 1794344400,
+        "spark": [
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78,
+          288.15,
+          287.38
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$379.78",
+        "raw": 379.78,
+        "change": "+0.46%",
+        "dir": "up",
+        "time": 1794344401,
+        "spark": [
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$270.87",
+        "raw": 270.87,
+        "change": "+1.48%",
+        "dir": "up",
+        "time": 1794344401,
+        "spark": [
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3,
+          266.93,
+          270.87
+        ]
+      }
+    ]
+  },
+  "earnings": [],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 73.7,
+      "feels": 72.4,
+      "hum": 51,
+      "wind": 6.2,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-11-09",
+        "hi": 71,
+        "lo": 49,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-10",
+        "hi": 74,
+        "lo": 51,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-11",
+        "hi": 72,
+        "lo": 54,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-12",
+        "hi": 72,
+        "lo": 52,
+        "cond": "fog",
+        "pop": 5
+      },
+      {
+        "date": "2026-11-13",
+        "hi": 67,
+        "lo": 56,
+        "cond": "rain",
+        "pop": 81
+      },
+      {
+        "date": "2026-11-14",
+        "hi": 62,
+        "lo": 54,
+        "cond": "rain",
+        "pop": 55
+      },
+      {
+        "date": "2026-11-15",
+        "hi": 66,
+        "lo": 52,
+        "cond": "cloudy",
+        "pop": 54
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "hegseth",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "hegseth-impeachment",
+      "when": "House vote",
+      "title": "House sends Hegseth impeachment to committee, 211-204",
+      "summary": "Republican leaders blocked Massie's eight articles on a referral vote, and Democrats say they will return to the issue in January.",
+      "story": [
+        "The House voted 211-204 on Tuesday to refer Rep. Thomas Massie's resolution to impeach Defense Secretary Pete Hegseth to committee, which effectively ends the effort for now (NBC News, CNN, Fox News). Massie was so far the only Republican CNN reported voting against the leadership move. Minority Leader Hakeem Jeffries had called himself a \"hard yes\" before the vote. The eight articles cover the Iran war, Caribbean boat strikes, strikes in Yemen and the Maduro extradition.",
+        "Impeachment talk grew after Republicans lost the House and Senate last week, and several outlets had reported Republicans privately warned it could pass (Axios, Fox News). Hegseth called the push a stunt, and Vice President Vance called the idea of impeachable crimes absurd, arguing that Congress has other tools for policy disputes (Fox News). Trump attacked Massie on Truth Social, according to CNN's live coverage.",
+        "Republican critics of the war split on the remedy. Rep. Don Bacon said he would vote no on the articles, and Rep. Darrell Issa argued the Senate would reject them and that the charges describe policy disagreement (The Hill, Fox News). Removal would need two-thirds of the Senate. Democrats take the House majority when the new Congress is sworn in on Jan. 3, and Fox News and CNN report they signal more to come then, likely starting with hearings and investigations."
+      ],
+      "flag": "Some reports said absences among Republicans who lost reelection helped the margin. That is not confirmed.",
+      "facts": [
+        "The House voted 211-204 on Nov. 10 to refer the resolution to committee (NBC News, CNN).",
+        "Massie's resolution has eight articles of impeachment.",
+        "Jeffries said he was a \"hard yes\" on the resolution before the vote (NBC News).",
+        "Senate removal requires a two-thirds vote.",
+        "The new Congress is sworn in Jan. 3, when Democrats take the House majority."
+      ],
+      "left": "The Constitution gives Congress the power to declare and oversee war, and the War Powers Resolution sets a 60-day clock that the administration has ignored. Impeachment is the one tool that forces a public accounting when a department head defies that law. A party that ran on accountability should not let a procedural referral bury eight articles about strikes in four theaters. The January majority gives Democrats time to build a record through hearings first.",
+      "right": "Impeachment is for high crimes, and these articles describe a policy fight over a war the president is lawfully directing. Voters can punish the war at the ballot box, as they just did, and Congress can cut funding or pass limits if it has the votes. Using impeachment in wartime sends the wrong signal to Iran and to allies while talks are underway. The Senate will not convict, so the exercise mostly serves politics.",
+      "next": "Watch for Massie's push to split the articles into separate votes and for House Judiciary and Oversight plans once Democrats take over on Jan. 3.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://nbcnews.com/politics/congress/republican-led-house-rejects-hegseth-impeachment-effort-rcna608534"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/house-gop-leaders-block-massie-hegseth-impeachment-push"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/house/4799498/house-republicans-unite-block-massie-hegseth-impeachment-effort/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+        ]
+      ]
+    },
+    {
+      "id": "lameduck",
+      "section": "politics",
+      "motif": "capitol",
+      "thread": "midterms-2026",
+      "when": "Dec. 11 deadline",
+      "title": "Lame-duck Congress faces a Dec. 11 funding deadline and a crowded agenda",
+      "summary": "Republicans return after their midterm losses with a stopgap expiring Dec. 11, a defense bill and judicial nominees to clear before Democrats take over.",
+      "story": [
+        "Congress returned this week for a lame-duck session after Republicans lost control of both chambers (NPR, The Hill, Fox News). The stopgap law that Trump signed funds agencies through Dec. 11, and lawmakers in both parties expect another short-term continuing resolution rather than a full-year package (The Hill, Fox News). One senior GOP aide told The Hill he anticipates a CR running to late March or mid-April, and a House Republican told Fox News the extension could run through February or March.",
+        "The stopgap passed the House 370-48 with more than 175 Democrats in support, which shows how much Speaker Johnson relies on Democratic votes (Fox News). Senate Majority Leader Thune has said both parties need a deal by Dec. 11 to avoid a shutdown, and Fox News reports Thune is running unopposed for minority leader as leadership races open the week.",
+        "Other items compete for floor time. The Hill lists the defense policy bill, an Iran-war reconciliation package and judicial confirmations, with Senate Republicans hoping to confirm 19 district and 4 circuit nominees before Democrats take over. The risk, The Hill reports, is that Democrats dig in on funding knowing their majority begins in January, though Rep. Nancy Mace said she thinks the odds of a shutdown are low."
+      ],
+      "flag": "Reports differ on how long a new CR would run (February to April).",
+      "facts": [
+        "Government funding expires Dec. 11.",
+        "The stopgap passed the House 370-48 with more than 175 Democrats (Fox News).",
+        "Most lawmakers expect another continuing resolution (The Hill).",
+        "Senate Republicans want to confirm 19 district and 4 circuit judges before the majority changes (The Hill).",
+        "Democrats take control of Congress in January."
+      ],
+      "left": "Republicans spent two years passing party-line bills and now want a rushed lame-duck package that locks in their priorities after voters rejected them. Democrats should insist on a short CR that leaves real decisions to the incoming majority. Judges confirmed in a lame-duck sprint would serve for decades against the clear message of last week's election. Funding the government without a fight over health costs and affordability would ignore what voters just said.",
+      "right": "Governing does not stop because the calendar changed, and the defense bill and judicial nominees are routine work that a majority owes the country until its term ends. A clean CR keeps the government open and avoids a shutdown that would hurt service members and federal workers. Republicans should use the remaining weeks to confirm qualified judges and fund defense during an active conflict. Democrats who threaten a showdown before they even hold the gavel would own the consequences.",
+      "next": "Watch for a CR vehicle and the first floor votes before the Dec. 11 deadline.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6202573-gop-loses-hope-trump-agenda/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6169401-midterm-elections-government-funding-fight-shutdown/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/congress-returns-brutal-lame-duck-stretch-shutdown-deadline-leadership-races-closet-full-s"
+        ]
+      ]
+    },
+    {
+      "id": "nvidiacongress",
+      "section": "politics",
+      "motif": "shield",
+      "thread": "nvidia-huang-probe",
+      "when": "China chips",
+      "title": "Congress presses Nvidia on China chip sales as Huang is asked to brief lawmakers Nov. 18",
+      "summary": "Three House Republican chairs want Jensen Huang to explain his ties to a Megaspeed executive, and Democrats promise their own oversight.",
+      "story": [
+        "Three House Republican chairs asked Nvidia CEO Jensen Huang to attend a closed-door briefing on Nov. 18, according to CNBC and The Hill. The letter came from Brian Mast of Foreign Affairs, John Moolenaar of the China Select Committee and Rick Crawford of Intelligence. They want answers on security against foreign espionage and his interactions with Megaspeed executive Alice Huang. CNBC says he had until Nov. 11 to offer alternate dates, and Nvidia did not say whether he would attend.",
+        "Huang disclosed an affair with Alice Huang. The New York Times reports U.S. intelligence officials believe she is a Chinese intelligence asset, and China denies the allegation (CNBC, Axios). Megaspeed is a Singapore-based company that rents computing power from advanced Nvidia chips and bought more than $4.8 billion of them over about two years, per AP as relayed by CNBC. Megaspeed says U.S., Malaysian and Nvidia inspections found no evidence of violations.",
+        "Nvidia's board hired Wachtell, Lipton, Rosen & Katz, led by former acting U.S. attorney Joon H. Kim, to investigate (Bloomberg, CNBC, The Hill). The board said it has no reason to believe national security or Nvidia secrets were compromised. Trump backed Huang and said he had no idea she was a spy, while Sen. Schumer accused him of defending Huang at the expense of national security (The Hill, CNBC). Democrats, who take control in January, have promised oversight."
+      ],
+      "flag": "Reports that a Commerce probe of Megaspeed moved to the Justice Department come from the New York Times as relayed by CNBC and are not independently confirmed.",
+      "facts": [
+        "The House letter asks Huang to brief lawmakers in a closed session on Nov. 18.",
+        "Megaspeed bought more than $4.8 billion of Nvidia chips over about two years (AP via CNBC).",
+        "Nvidia's board hired Wachtell Lipton and says it sees no sign secrets or national security were compromised.",
+        "Trump has said he had no idea Alice Huang was a suspected spy.",
+        "Nvidia reports third-quarter earnings Nov. 17 (CNBC)."
+      ],
+      "left": "Democrats say the story shows an administration that lets a favored chip company shape export policy. Trump was reportedly briefed more than a year ago, and Schumer asks why nothing happened. Strong, independent oversight of export licenses and chip tracking is overdue. Democrats plan hearings from January that follow the chips and the people around them.",
+      "right": "China hawks in the GOP, including three committee chairs, treat this as a national-security problem first and a corporate scandal second. They want to know where the chips went, who accessed them remotely and what was shared. A thoughtful conservative would say the lesson is tighter export controls and location tracking, not another round of partisan theater. Rep. Obernolte warned the scandal could crowd out the substantive export-control debate.",
+      "next": "Watch for Huang's answer to the Nov. 18 briefing request and for Nvidia's earnings call on Nov. 17.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6202702-gop-summons-nvidia-ceo-huang/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/09/alice-huang-nvidia-jensen-megaspeed"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/nvidia-board-members-tap-wachtell-lipton-to-probe-ceo-affair"
+        ]
+      ]
+    },
+    {
+      "id": "calprops",
+      "section": "local",
+      "motif": "ballot",
+      "thread": "california-billionaire-tax",
+      "when": "Prop 40 result",
+      "title": "California voters reject the billionaire tax, and Prop 42 looks set to block future wealth taxes",
+      "summary": "Prop 40 failed 52.8% to 47.2% after opponents spent heavily, and SEIU-UHW says it will try again in 2028.",
+      "story": [
+        "California voters rejected Proposition 40, the one-time 5% tax on billionaires' net worth, by 52.8% to 47.2%, according to the Associated Press as reported by CalMatters. Opponents outspent supporters more than 10 to 1, and CalMatters reports wealthy donors gave $378.4 million against it. The union behind it, SEIU-UHW, says it will try again in 2028 if the Legislature does not deliver another way to fund health care.",
+        "Proposition 42, a countermeasure that bars new wealth taxes and retroactive taxes, was leading 51.6% to 48.4% in early counts, and CalMatters later reported it near 54% with about 60% of expected votes counted. Under the state's conflicting-measures rule, the measure with more yes votes takes effect, so Prop 42 would likely block Prop 40 even if the count tightened. The Legislative Analyst says it could make it harder to raise taxes, and Senate Budget Chair John Laird does not expect an immediate budget effect (CalMatters).",
+        "Gov. Newsom opposed Prop 40 and backed Prop 42, which drew criticism from progressives such as Rep. Ro Khanna (Fox News, Fox Business). Conservative and business voices argued the tax would drive wealthy residents out and cited a Hoover Institution estimate of lost tax base (National Review, Fox Business). Supporters cited economists Zucman and Saez, who estimated it could raise about $100 billion."
+      ],
+      "flag": "Prop 42 results are partial and not certified.",
+      "facts": [
+        "Prop 40 failed 52.8% to 47.2%, per AP via CalMatters.",
+        "Opponents outspent supporters more than 10 to 1.",
+        "Prop 42 bars new wealth taxes and leads in the count.",
+        "SEIU-UHW says it will try again in 2028.",
+        "Prop 41, the other countermeasure, was failing, and union-backed Prop 44 was defeated."
+      ],
+      "left": "The vote shows what money can do in a ballot fight. Opponents spent hundreds of millions to protect a tiny group with huge wealth while health programs face federal cuts. Prop 42 goes further by writing a ban on wealth taxes into the system, which limits what future majorities can try. Progressives should treat 2028 as a chance to design a tax that survives scrutiny and fund health care directly.",
+      "right": "Voters, even in a blue wave, saw a retroactive tax that would have chased capital and entrepreneurs out of the state. Economists on the right warned that a one-time label hides a permanent precedent and that California's revenue already depends on a thin group of top earners. Prop 42 gives certainty to the people who create jobs. Lawmakers should fund health care by controlling costs, not by targeting a small group.",
+      "next": "Watch for certified results from the Secretary of State and for any legal fight over how Props 40 and 42 interact.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/elections/2026/11/prop-40-billionaire-tax-defeated/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/11/billionaire-tax-prop-42-result/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12108185/california-proposition-roundup-results-so-far"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/california-wealth-tax-billionaires-fails-despite-blue-wave-blow-progressives"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/corner/a-one-off-tax/"
+        ]
+      ]
+    },
+    {
+      "id": "ukraine",
+      "section": "world",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Abu Dhabi talks",
+      "title": "Russia and Ukraine hold nearly four hours of U.S.-mediated talks in Abu Dhabi",
+      "summary": "The first round in about nine months focused on prisoner swaps, with territory still the main gap and a second day set for Wednesday.",
+      "story": [
+        "Russian and Ukrainian delegations held nearly four hours of U.S.-mediated talks in Abu Dhabi on Tuesday, the first such round in about nine months (NPR, NBC News, CNN). Jared Kushner and Steve Witkoff met Ukrainian intelligence chief Rustem Umerov and Kremlin aide Vladimir Medinsky. Secretary of State Rubio called the meeting \"very productive,\" and Zelenskyy called it \"constructive and quite substantive\" (NPR).",
+        "Zelenskyy said the talks focused mostly on humanitarian issues, including prisoner exchanges and the return of captive civilians and children, and a senior Ukrainian official described a large swap whose details would follow (NPR). A military working group led by Gen. Alexus Grynkewich covers ceasefire monitoring and security arrangements, and a political group handles territory. Russia demands the entire Donbas, while Ukraine wants a split along current front lines (NPR, Fox News).",
+        "Rubio said a resolution was not close to being solved within 24 hours, and U.S. officials say both sides have shown some private flexibility on territory (NPR, Axios). Atlantic Council analyst John Herbst urged \"very modest\" expectations. Russia has kept up attacks on Ukrainian cities and Putin has refused a ceasefire, which weighs on the outlook."
+      ],
+      "flag": "Outlets differ on the detail of the security guarantee for Ukraine.",
+      "facts": [
+        "Talks ran nearly four hours on Nov. 10, with a second day set for Nov. 11.",
+        "Kushner and Witkoff met Umerov and Medinsky.",
+        "The sides discussed a large prisoner swap (NPR).",
+        "Russia wants all of the Donbas, and Ukraine wants to freeze at the front lines.",
+        "Witkoff and Kushner may travel to Moscow and Kyiv afterward."
+      ],
+      "left": "Talks are worth having, but Europe and Ukraine need a seat at every table. A deal that rewards Russian territorial demands would reward the invasion and invite another one. Security guarantees must be real before Kyiv is asked to give up land. Humanitarian progress on prisoners and children is a good start and should be protected from political bargaining.",
+      "right": "A negotiated end to the war that includes real safeguards against another invasion is the right goal for American policy, and Trump's envoys got Moscow and Kyiv in a room. The United States should not write a blank check, and any guarantee must carry burden-sharing from Europe. Conservatives skeptical of open-ended aid see an off-ramp as a win if Ukraine's sovereignty stays intact. Putin's record means the deal must be verifiable.",
+      "next": "Watch for the second day of talks Wednesday and any Witkoff-Kushner trip to Moscow or Kyiv.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/10/nx-s1-6034616/kushner-and-witkoff-renew-peace-talks-to-end-war-between-russia-and-ukraine"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/09/ukraine-russia-zelensky-putin-peace-abu-dhabi"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/09/europe/russia-ukraine-us-peace-talks-preview-intl"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/kushner-enters-ukraine-peace-talks-trump-eyes-securing-safeguards-against-another-russian-invasion"
+        ]
+      ]
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Stalled talks",
+      "title": "Rubio says Iran talks are far from a deal as Trump meets Qatar's prime minister",
+      "summary": "Tehran demands seven conditions and denies talks are happening, while Trump says new strikes are unlikely as long as diplomacy continues.",
+      "story": [
+        "Secretary of State Marco Rubio said the United States is not close to a deal with Iran and rejected Tehran's terms as unrealistic before leaving for a G7 foreign ministers meeting in Paris (Fox News, CNN). Trump met Qatar's prime minister, a key mediator, at the White House on Monday (Axios, Fox News). Trump said on Sunday that fresh attacks are highly unlikely while talks progress.",
+        "Iran's Supreme National Security Council chief demanded that Washington accept Tehran's seven conditions, including lifting sanctions and releasing billions in frozen assets, and accused the United States of fabricating reports of negotiations (The Hill, Fox News). President Pezeshkian said Tehran is prepared to negotiate an end to the conflict. CNN reports the two sides have been quietly talking through a backchannel on an agreement that could avert a return to all-out war.",
+        "The Strait of Hormuz remains disrupted, and Iran has targeted tankers in the Gulf this month while Houthi allies have hit Saudi Arabia (CNN, Fox News). Fox News also reports the UAE sees a major surge in oil exports despite the conflict. The Trump administration has kept the pressure with a blockade and a new aircraft carrier in the region."
+      ],
+      "flag": "Outlets differ on whether talks are moving or deadlocked, and Iran denies that talks are happening.",
+      "facts": [
+        "Rubio said the United States is not close to a breakthrough.",
+        "Trump met Qatar's prime minister on Monday.",
+        "Iran lists seven conditions, including sanctions relief and frozen assets.",
+        "The Strait of Hormuz remains disrupted.",
+        "WTI crude closed at $86.44, down 0.47% (live.json)."
+      ],
+      "left": "The war has cost American lives and money and helped drive energy prices, and the administration still has no negotiating strategy that Iran will accept. Congress never authorized it, and talks run through intermediaries because trust is gone. Diplomacy should have been the first move, and sanctions relief is a realistic part of any deal. Voters made clear last week that they want an exit.",
+      "right": "Pressure is what brought Tehran to the table, and the blockade and carrier keep it there. Rubio is right to reject unrealistic terms, because a deal that leaves Iran's nuclear program and frozen assets intact would reward the regime. Trump has shown restraint while talks continue and keeps military options open. A strong position now yields a better agreement than a rushed one before the next holiday news cycle.",
+      "next": "Watch for any announcement from Qatar as mediator and Trump's decision on resuming strikes.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/trump-says-he-s-unlikely-to-escalate-iran-conflict-amid-talks-responds-to-vance-assessment"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6210490-iran-us-war-talks-stalled/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/09/trump-qatar-prime-minister-iran-war-mediation"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/world/trump-meets-key-iran-war-mediator-uae-reveals-major-oil-export-surge-despite-conflict"
+        ]
+      ]
+    },
+    {
+      "id": "cpi",
+      "section": "economy",
+      "motif": "chart",
+      "when": "Fed outlook",
+      "title": "Hot October CPI pushes the 10-year yield toward 5% and Fed hike bets higher",
+      "summary": "Consumer prices rose 0.4% in October, and markets now price a December hike with a small chance of a half-point move.",
+      "story": [
+        "Consumer prices rose 0.4% in October, above the 0.3% economists expected and down from 0.6% in September, while core prices rose 0.3% against a 0.2% forecast (CNBC). The Bureau of Labor Statistics gave no annual rate because last year's government shutdown left a gap in the data, and Axios estimated inflation near 4% on an assumption about last October (Axios, CNBC). Fox Business pointed to higher energy prices.",
+        "Fed Governor Christopher Waller said a half-point hike should be considered in December if inflation came in hot (CNBC). Markets now fully price a quarter-point increase when the Fed meets Dec. 8-9, with about a 13.6% chance of a half-point move on CME FedWatch (CNBC). Other trackers put the quarter-point odds near 87% to 88%, so the exact probabilities vary by source.",
+        "The 10-year Treasury yield traded above 5% before paring gains and closed near 4.98% in the live data. CNBC notes 10-year and 30-year yields hit 24-year highs in October. Sources also differ on the current policy rate, with CNBC citing 3.75% to 4% and Fox Business describing a path to 4% to 4.25%."
+      ],
+      "flag": "Annual inflation was not published, and trackers disagree on hike odds and on the current policy range.",
+      "facts": [
+        "Headline CPI rose 0.4% in October versus 0.3% expected (CNBC).",
+        "Core CPI rose 0.3% versus 0.2% expected.",
+        "The Fed meets Dec. 8-9.",
+        "The 10-year yield is 4.98% in live.json.",
+        "BLS published no annual rate because of last year's shutdown."
+      ],
+      "left": "Energy costs tied to the Iran war and tariffs are feeding prices while a rate hike makes mortgages and credit cards more expensive for working families. The Fed should weigh the risk of tipping the economy into a slowdown against inflation driven by supply shocks. Ending the war would do more for prices than a half-point hike. Democrats ran on affordability, and this report gives them a clear case.",
+      "right": "Inflation is running well above target and a Fed that waits risks letting it settle in, so Waller is right to keep a larger hike on the table. Years of deficit spending have added to costs, and a firm central bank protects savers and paychecks. Short-term pain from higher rates is cheaper than a repeat of the 1970s. Conservatives want Congress to match the Fed with spending restraint.",
+      "next": "Watch the Fed meeting Dec. 8-9 and the next CPI report in December.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-october-2026"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/10/cpi-october-inflation-fed"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/live-blog/2026-11-10/us-cpi-report-for-october-live-updates"
+        ]
+      ]
+    },
+    {
+      "id": "selloff",
+      "section": "stocks",
+      "motif": "chart",
+      "thread": "ai-trade-selloff",
+      "when": "Tuesday close",
+      "title": "Nvidia and Microsoft drag stocks lower as yields climb",
+      "summary": "The S&P 500 fell 0.38%, with Nvidia down 5.5% on the Huang probe and Microsoft down 2.2% after Anthropic launched Office rivals.",
+      "story": [
+        "U.S. stocks closed lower Tuesday as hot inflation data lifted yields and Nvidia extended its slide. The S&P 500 fell 0.38% to 7,520.93, the Dow lost 0.30% to 52,231.89 and the Nasdaq dropped 0.74% to 25,065.88, according to live market data and CNBC. The 10-year Treasury yield closed at 4.98%. Dow futures were up about 0.2% Tuesday night (CNBC).",
+        "Nvidia fell 5.47% to $168.89, its second down day, as its board hired Wachtell Lipton to investigate CEO Jensen Huang's ties to an alleged Chinese spy (CNBC, Bloomberg). CNBC reports the market value briefly dipped below $4 trillion before closing above that level. Microsoft closed down 2.20% after falling about 3% intraday when Anthropic announced Claude Sheets, Whiteboards and other workplace tools that could compete with Office (CNBC, Bloomberg).",
+        "Elsewhere, Amazon rose 1.48% and Tesla gained 0.46%, while Bitcoin fell 1.97% to $73,771. CNBC's Jim Cramer argued Wall Street is focusing too much on what could go wrong. The CPI report solidified expectations for a December Fed rate hike, which weighed on equities (CNBC)."
+      ],
+      "facts": [
+        "The S&P 500 closed at 7,520.93, down 0.38% (live.json).",
+        "Nvidia fell 5.47% to $168.89.",
+        "Microsoft closed down 2.20% after dropping about 3% intraday.",
+        "The 10-year yield is 4.98%.",
+        "WTI crude closed at $86.44."
+      ],
+      "why": "Rate-hike fears and AI-specific risks are hitting the market's biggest names at once. Nvidia carries governance and China risk, and Microsoft now faces a direct challenge from a company about to go public. Together they explain why the Nasdaq lagged the Dow.",
+      "next": "Nvidia reports earnings Nov. 17, and the Fed meets Dec. 8-9.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-unveils-office-tools-ahead-of-ipo-taking-on-microsoft"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/cramer-stocks-inflation-nvidia-anthropic.html"
+        ]
+      ]
+    },
+    {
+      "id": "coreweave",
+      "section": "stocks",
+      "motif": "chip",
+      "when": "CoreWeave earnings",
+      "title": "CoreWeave beats on revenue and raises its 2026 outlook",
+      "summary": "Third-quarter revenue rose 168% to $3.66 billion, though investors still weigh a heavy debt load and $37 billion to $39 billion of spending.",
+      "story": [
+        "CoreWeave reported third-quarter revenue of $3.66 billion after the bell Tuesday, up 168% from a year earlier and above the $3.55 billion analysts expected (CNBC, Bloomberg). The company raised its 2026 outlook to $13 billion to $13.3 billion in revenue and $1.275 billion to $1.375 billion in adjusted operating income. August guidance had been $12.4 billion to $13.2 billion in revenue and $960 million to $1.15 billion in adjusted operating income.",
+        "The company is targeting $37 billion to $39 billion of capital spending this year and still expects 1.85 gigawatts of active power by year-end (CNBC). CNBC's preview focused on debt, noting $35.6 billion at the end of the prior quarter. Bloomberg framed the results as easing concerns about a slowdown at the debt-laden AI cloud provider.",
+        "Share reaction was mixed in extended trading. CNBC reported shares initially rose and then dipped, while another CNBC item had them about 1% higher. The report landed on a day when AI-linked stocks such as Nvidia fell sharply."
+      ],
+      "flag": "After-hours direction was unsettled in early reports.",
+      "facts": [
+        "Q3 revenue was $3.66 billion, up 168% (CNBC).",
+        "Analysts expected $3.55 billion.",
+        "2026 revenue guidance is $13 billion to $13.3 billion.",
+        "Capital spending is targeted at $37 billion to $39 billion.",
+        "CoreWeave expects 1.85 gigawatts of active power by the end of 2026."
+      ],
+      "why": "CoreWeave is a read on whether AI infrastructure demand justifies the borrowing behind it. A beat and raised guidance helps, but the capital spending and debt keep the risk visible.",
+      "next": "Watch CoreWeave's Wednesday trading and Nvidia's Nov. 17 results for demand signals.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/coreweave-boosts-annual-forecast-easing-concerns-about-slowdown"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html"
+        ]
+      ]
+    },
+    {
+      "id": "starship",
+      "section": "engineering",
+      "motif": "rocket",
+      "when": "Flight 15",
+      "title": "SpaceX plans the first attempt to catch both Starship stages at the tower",
+      "summary": "Flight 15 targets Nov. 13 and would try to recover the Super Heavy booster and, about 22 hours later, the ship.",
+      "story": [
+        "SpaceX plans to launch Starship Flight 15 on Friday, Nov. 13, in a 75-minute window that opens at 5:45 p.m. EST, and to attempt the first catch of both stages at the launch tower (Space.com). Booster 22 is the first Super Heavy V3 booster planned to return for a catch, and it completed a suspended squeeze test at catch height after moving to the pad.",
+        "The booster is due back at Starbase about 6.5 minutes after liftoff. SpaceX has caught the booster on three earlier flights. The ship would deploy 26 Starlink V3 satellites, complete 14 orbits and return for its catch about 22 hours after launch, and SpaceX will call off the attempt if anything looks wrong (Space.com).",
+        "Elon Musk called the double catch a profound technology milestone and said it is more likely than not to succeed (Space.com). Earlier reporting noted that a ship catch also needs approval from the Federal Aviation Administration."
+      ],
+      "flag": "FAA approval for the ship catch was noted in earlier reporting and was not reconfirmed.",
+      "facts": [
+        "Flight 15 targets Friday, Nov. 13, at 5:45 p.m. EST.",
+        "The booster catch comes about 6.5 minutes after liftoff.",
+        "The ship would deploy 26 Starlink V3 satellites and orbit 14 times.",
+        "The ship catch would come about 22 hours after launch.",
+        "Booster 22 is the first V3 booster planned for a catch."
+      ],
+      "why": "Catching both stages is the step that makes full reuse real, which is what lowers the cost of every Starlink and lunar mission. Success would also set the pace for NASA's moon plans that depend on Starship.",
+      "next": "Watch the Nov. 13 launch window and whether SpaceX proceeds with the ship catch.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says"
+        ]
+      ]
+    },
+    {
+      "id": "moonbase",
+      "section": "engineering",
+      "motif": "satellite",
+      "when": "Moon Base",
+      "title": "NASA opens a $10 billion lunar delivery framework and approves a nuclear-powered moon rover",
+      "summary": "CLPS 2 selects eight companies under a $10 billion ceiling, and the PROMISE rover targets a late 2028 launch.",
+      "story": [
+        "NASA announced Moon Base contracts at Kennedy Space Center on Saturday, including a CLPS 2 framework with a combined ceiling of $10 billion (Space.com, NASA). The 10-year, multiple-award contract covers eight companies, among them Blue Origin, Firefly Aerospace, Intuitive Machines, ispace-U.S. and Lockheed Martin Space. The $10 billion is a cap, not money already committed to missions.",
+        "NASA also raised the ceiling of the existing CLPS 1.0 contract to support early Moon Base goals, with sources giving the increase as from $2.6 billion to $4.2 billion (Space.com). The agency is moving ahead with PROMISE, a nuclear-powered rover that can work through long lunar nights and in permanently shadowed regions thought to hold ice. The target is a late 2028 launch and an 18-month mission.",
+        "NASA says reusing proven Mars rover hardware, software and operating methods cuts cost (Space.com). Earlier coverage from June described PROMISE as a possibility, so the go-ahead is the newer step."
+      ],
+      "facts": [
+        "CLPS 2 has a $10 billion ceiling and eight selected companies.",
+        "The contract runs 10 years.",
+        "The CLPS 1.0 ceiling rises from $2.6 billion to $4.2 billion, per reports.",
+        "PROMISE targets a late 2028 launch and an 18-month mission.",
+        "The rover is built from spare Mars rover hardware."
+      ],
+      "why": "A nuclear-powered rover can keep working through long lunar nights and in shadowed craters, as NASA describes it. The contract structure matters because it sets how fast and how cheaply NASA can put equipment on the moon.",
+      "next": "Watch for the first CLPS 2 task orders and PROMISE design milestones.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/artemis/nasa-unveils-usd10-billion-in-moon-base-contracts-new-lunar-missions-and-the-promise-of-a-nuclear-powered-rover"
+        ],
+        [
+          "NASA",
+          "C",
+          "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/moon/promise-me-the-moon-nasa-wants-to-send-spare-nuclear-powered-mars-rover-to-the-lunar-surface"
+        ]
+      ]
+    },
+    {
+      "id": "flip",
+      "section": "science",
+      "motif": "planet",
+      "when": "Nature paper",
+      "title": "A digital twin of Webb pulls a hidden giant planet out of the starlight",
+      "summary": "A Nature paper reports a method called FLIP that found 51 Eridani b in Webb data where standard processing missed it.",
+      "story": [
+        "Astronomers recovered the giant planet 51 Eridani b from James Webb Space Telescope images where conventional processing had missed it, according to a Nature paper published Nov. 4 titled \"Imaging exoplanets below the telescope stability limit\" (Nature, Space.com, Science). The method is called FLIP, for Physics-based Learning for Imaging Planets. The planet was first found in 2015 with the Gemini Planet Imager and orbits a star about 20 million years old.",
+        "FLIP builds a digital twin of the telescope that simulates how light moves through the optics and onto the detectors. That lets the team account for small instabilities and subtract starlight more accurately, using automatic differentiation to tune millions of model parameters (Nature). The paper reports 2 to 15 times better sensitivity to faint planets than standard techniques. For 51 Eridani, the gain was about five times at 0.5 arcseconds and about 2.5 times at 1 arcsecond.",
+        "Earlier Webb observations at 4.3 micrometers could not separate the planet from the star's glare, and the new subtraction made it clear (Space.com). The approach needed substantial computing power. Because it reprocesses existing data, it could reveal planets in archival observations without new telescope time."
+      ],
+      "facts": [
+        "The Nature paper was published Nov. 4.",
+        "FLIP means Physics-based Learning for Imaging Planets.",
+        "Sensitivity improved 2 to 15 times over standard techniques.",
+        "51 Eridani b was first imaged in 2015.",
+        "The method needs heavy computing."
+      ],
+      "why": "Better software extends what Webb can see without new hardware. Direct images of cool, young giants help test how planets form and cool.",
+      "next": "Watch for FLIP applied to other Webb datasets and archival searches for new candidates.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-026-11213-z"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/exoplanets/giant-exoplanet-emerges-from-the-dark-when-the-james-webb-space-telescope-turns-out-the-starlight"
+        ],
+        [
+          "Science",
+          "C",
+          "https://www.science.org/content/article/astronomers-sharpen-jwst-s-view-distant-worlds"
+        ]
+      ]
+    },
+    {
+      "id": "lisa",
+      "section": "science",
+      "motif": "wave",
+      "when": "NASA Goddard",
+      "title": "NASA studies show how LISA could find planets around binary white dwarfs",
+      "summary": "Two Goddard-led studies model a new exoplanet population that gravitational waves could reveal and Webb could confirm.",
+      "story": [
+        "NASA published two studies on Nov. 10 showing in new detail how the future LISA gravitational-wave observatory could reveal a new population of exoplanets across the galaxy (NASA Science). The idea is that no planets have yet been found around a binary white dwarf, so LISA detections would represent a distinct class. Webb's infrared sensitivity would confirm them.",
+        "NASA says Webb could confirm planets detected by gravitational waves in white dwarf binaries within a few hundred light-years. The studies propose a new confirmation method. Webb could detect a planet about five times Jupiter's mass, while LISA could detect a sub-Jupiter planet under ideal conditions (NASA Science).",
+        "Earlier work by Tamanini and Danielski in Nature Astronomy estimated LISA should find a few hundred new planets, as small as about 50 Earth masses (Nature Astronomy). This is modeling, not a detection. LISA is still in development, with one source placing launch in the mid-2030s, and the predicted detection rate is uncertain."
+      ],
+      "flag": "These are theoretical models, and LISA's detection rate is uncertain.",
+      "facts": [
+        "NASA published the two studies Nov. 10.",
+        "No planets have yet been found around binary white dwarfs.",
+        "Webb could confirm candidates within a few hundred light-years.",
+        "Earlier work estimated a few hundred detectable planets.",
+        "LISA is planned to launch in the mid-2030s."
+      ],
+      "why": "Gravitational waves would open a way to find planets that light-based surveys cannot. It also shows how two very different observatories can be paired.",
+      "next": "Watch for LISA development milestones and white-dwarf-binary surveys that could pre-select targets.",
+      "src": [
+        [
+          "NASA Science",
+          "C",
+          "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/"
+        ],
+        [
+          "Nature Astronomy",
+          "C",
+          "https://www.nature.com/articles/s41550-019-0807-y"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/gravitational-waves-detect-white-dwarf-planets.html"
+        ]
+      ]
+    },
+    {
+      "id": "claudeoffice",
+      "section": "ai",
+      "motif": "mouse",
+      "when": "Claude launches",
+      "title": "Anthropic launches Claude Sheets, Whiteboards, Data and Meetings",
+      "summary": "The workplace push, announced as the IPO nears, helped send Microsoft down 2.2%.",
+      "story": [
+        "Anthropic announced a set of workplace tools on Tuesday: Claude Sheets, Claude Whiteboards, Claude Data and Claude Meetings (Bloomberg, TechCrunch, Axios). Sheets and Whiteboards are in beta on paid plans on web, desktop and mobile. Claude Data, previously called Claude Dashboards, is generally available. Microsoft shares fell about 3% during the day and closed down 2.2%.",
+        "Claude Sheets lets teams describe a spreadsheet and edit it with Claude, with multiple tabs, formulas, formatting and dropdowns, and Claude outlines each cell change it makes. Claude Whiteboards lets groups brainstorm on a shared board and turn it into a doc or slides. Claude Data connects to systems such as a data warehouse or CRM and returns dashboards, written data stories or narrated videos (TechCrunch, Axios).",
+        "Claude Meetings, in beta for Team and Enterprise customers, lets Claude join a video call as a visible participant and post a notice in the chat. It can draft a plan, map a timeline on a whiteboard and answer questions, and it leaves automatically if an outside guest joins unless an admin authorizes it (TechCrunch). An Anthropic product leader called Sheets a \"fairly basic\" experience and said Microsoft and Google tools still fit advanced enterprise uses (Bloomberg)."
+      ],
+      "flag": "Coverage did not detail how meeting recordings or transcripts are stored or used.",
+      "facts": [
+        "Sheets and Whiteboards are in beta on paid plans.",
+        "Claude Data is generally available and replaces Claude Dashboards.",
+        "Meetings is a beta for Team and Enterprise customers.",
+        "Claude leaves a call if an outside guest joins unless an admin allows it.",
+        "Microsoft closed down 2.20% on the news day (live.json)."
+      ],
+      "why": "This moves Anthropic from chatbot toward the daily work surfaces that Microsoft and Google own. It is also a signal to IPO investors about growth beyond model sales.",
+      "next": "Watch software stocks and Microsoft's response through the Nov. 18 IPO pricing.",
+      "src": [
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-unveils-office-tools-ahead-of-ipo-taking-on-microsoft"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/10/anthropic-claude-meetings-knowledge-work"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "coins",
+      "thread": "anthropic-ipo",
+      "when": "IPO terms",
+      "title": "Anthropic IPO terms imply up to $1.4 trillion as retail gets about 20%",
+      "summary": "The amended filing offers 825 million shares at $70 to $78, with pricing Nov. 18 and Nasdaq trading Nov. 19.",
+      "story": [
+        "Anthropic's updated filing sets a price range of $70 to $78 for 825 million Class A shares, with pricing planned for Nov. 18 and trading on Nasdaq on Nov. 19 under the ticker \"ANT\" (CNBC, TechCrunch). At the top of the range the offering raises about $64.35 billion and implies a fully diluted valuation near $1.404 trillion. Underwriters including Goldman Sachs and Morgan Stanley can buy up to 123.75 million more shares.",
+        "Anthropic also agreed to sell $26 billion of Class N stock to chipmakers and tech firms at the IPO price, and it targets about 20% of the offering for retail investors, far above the usual 5% to 10% (CNBC, TechCrunch). TechCrunch reports each of the seven founders will cash out about $250 million. Reporting says the book is already covered at the range, and TechCrunch notes hot deals often price above the initial range. Axios framed the offering as a company worth more than $1 trillion and put the raise at up to $62.5 billion.",
+        "The valuation sits above the $965 billion from the May fundraise and below the roughly $2 trillion once reported (CNBC). Bloomberg Opinion argued a figure nearer $1 trillion would be a better deal. The prospectus shows the five largest customers were about 25% of revenue in the first nine months and about $895.4 billion of committed spending (CNBC)."
+      ],
+      "flag": "Valuation framing differs between $1 trillion-plus and $1.404 trillion fully diluted.",
+      "facts": [
+        "The range is $70 to $78 for 825 million Class A shares.",
+        "Pricing is set for Nov. 18 and trading for Nov. 19.",
+        "Retail allocation is about 20%.",
+        "A $26 billion Class N private placement goes to chipmakers and tech firms.",
+        "Top-of-range valuation is about $1.404 trillion fully diluted."
+      ],
+      "why": "This is one of the largest listings ever, with unusual retail access. It will test whether public markets accept AI valuations after the recent selloff.",
+      "next": "Pricing is planned for Nov. 18, with first trades Nov. 19.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/10/anthropic-ipo-terms"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/opinion/articles/2026-11-10/anthropic-ipo-1-1-trillion-is-a-good-valuation-take-it"
+        ]
+      ]
+    },
+    {
+      "id": "parkinson",
+      "section": "health",
+      "motif": "heart",
+      "when": "Nature feature",
+      "title": "Stem-cell therapies for Parkinson's show safety and early signs of benefit",
+      "summary": "Trials that transplant dopamine neurons show surviving grafts and some motor gains, but no patient has stopped medication.",
+      "story": [
+        "A Nature news feature reviews four phase I/II trials reported since early 2025 that transplant dopamine-producing cells into people with Parkinson's disease (Nature). The therapies appear largely safe, the cells survive and do not form tumors, and some participants showed better motor function and less \"off\" time. The authors say more evidence is needed to prove effectiveness.",
+        "The STEM-PD trial, published in Nature Medicine in 2026, treated eight people and found the surgery generally well tolerated, with early signs of benefit and graft survival on dopamine PET imaging. No patient's dopamine levels returned to normal on PET and none could stop medication (Nature Medicine). A 2025 Nature phase I study of embryonic stem cell-derived neurons met its 12-month safety goals, with improvements in off-drug motor function reported at 18 months (Nature).",
+        "Bemdaneprocel, from BlueRock Therapeutics, is in a registered phase 3 trial with a sham-surgery control, aiming to treat 102 people in the United States, Canada and Australia and to follow motor function for 18 months (Nature, ClinicalTrials.gov). Registry dates and the feature's wording about timing differ, so the exact phase 3 status should be checked."
+      ],
+      "flag": "Sources differ on the phase 3 start timing.",
+      "facts": [
+        "Four phase I/II trials have reported since early 2025.",
+        "STEM-PD treated eight people.",
+        "Grafts survived without forming tumors.",
+        "No patient in STEM-PD stopped medication.",
+        "A phase 3 trial with sham surgery is planned or recruiting."
+      ],
+      "why": "If grafted neurons restore dopamine reliably, this would treat the cause of motor symptoms instead of masking them. The next trials will show whether early benefits hold.",
+      "next": "Watch for phase 3 enrollment updates and longer-term follow-up from STEM-PD.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03166-0"
+        ],
+        [
+          "Nature Medicine",
+          "C",
+          "https://www.nature.com/articles/s41591-026-04525-0"
+        ],
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/s41586-025-08845-y"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "China's goods surplus passed $1 trillion for a second year, reaching $1.04 trillion through October, with October exports up 35.2% and imports up 41.6% (CNBC, Bloomberg).",
+    "Voters rejected data centers in 40 of 41 local ballot measures, by CNBC's count, and Anthropic's prospectus warns that opposition has become more organized (CNBC).",
+    "OpenAI planned a post-midterm policy push built around \"speed limits\" for the most powerful AI systems, Axios reported Nov. 1, and a CFO told CNBC the company will keep building data centers (Axios, CNBC)."
+  ]
+}
