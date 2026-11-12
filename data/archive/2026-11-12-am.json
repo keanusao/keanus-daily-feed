@@ -1,0 +1,1333 @@
+{
+  "updatedAt": "2026-11-12T14:09:33Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Jensen Huang is out as Nvidia's CEO**, with CFO Colette Kress interim, and the stock fell roughly 8% to 10% before the open ahead of Tuesday's earnings (NBC News, Bloomberg, CNBC). Democrat **Scott Colom won Mississippi's Senate seat**, giving Democrats at least 55 seats, while Fox News and National Review report Republicans blaming Trump and the Iran war (NBC News, NPR, Fox News). The White House warned incoming House Democrats that aggressive probes could be criminal, and Rep. Garcia said they won't be deterred (NPR, The Hill, Washington Examiner). Stocks rallied Wednesday as CoreWeave jumped 24.71%, with the S&P 500 up 1.31% to 7,619.38 and Microsoft sliding on Anthropic's new office tools (CNBC, Bloomberg). **Hot October inflation of 0.4%** makes a December Fed hike nearly certain, and the 10-year yield sits near 5%, though gas fell below $4 (CNBC, Bloomberg, Fox Business). **Anthropic's IPO book is covered** at $70 to $78 a share, with pricing Nov. 18 (CNBC, TechCrunch, Bloomberg). Russia and Ukraine agreed to a prisoner swap in Abu Dhabi, and Witkoff and Kushner went to Moscow to meet Putin (NBC News, NPR, CNN). Locally, Bay Area voters passed a regional transit tax that sends most Alameda County money to BART (SF Chronicle, KQED), and the SF Chronicle expects rain and gusty wind Friday. SpaceX targets **Starship's double catch Friday at 2:45 p.m. Pacific** (Space.com), and Webb found the earliest compact pair of quasars (Space.com).",
+  "alerts": [
+    {
+      "text": "Nvidia's CEO is out and the stock is sliding before its Tuesday, Nov. 17 earnings, so expect big swings in your NVDA position.",
+      "level": "high",
+      "story": "huang"
+    },
+    {
+      "text": "Rain and gusty wind are expected Friday in the Bay Area, and the SF Chronicle warns of scattered power outages.",
+      "level": "watch"
+    },
+    {
+      "text": "Anthropic prices its IPO Nov. 18 and starts trading Nov. 19 under ANT.",
+      "level": "watch",
+      "story": "anthropicipo"
+    },
+    {
+      "text": "SpaceX's double-catch Starship launch is set for Friday at 2:45 p.m. Pacific.",
+      "level": "info",
+      "story": "starship"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "huang",
+      "text": "Jensen Huang leaves Nvidia as CEO, and the stock falls before earnings."
+    },
+    {
+      "story": "colom",
+      "text": "Colom wins Mississippi, giving Democrats at least 55 Senate seats."
+    },
+    {
+      "story": "cpi",
+      "text": "Hot inflation makes a December Fed hike near certain."
+    },
+    {
+      "story": "anthropicipo",
+      "text": "Anthropic's IPO book is covered, with pricing set for Nov. 18."
+    },
+    {
+      "story": "starship",
+      "text": "Starship tries to catch booster and ship Friday at 2:45 p.m. Pacific."
+    }
+  ],
+  "stat": {
+    "label": "Anthropic IPO valuation at top of range",
+    "value": "$1.4T",
+    "note": "$70-$78 a share, pricing Nov. 18 (CNBC, TechCrunch)"
+  },
+  "markets": {
+    "asOf": "Thu Nov 12, 4:33 AM ET",
+    "wrap": "Stocks rebounded Wednesday as **CoreWeave's raised forecast revived the AI trade**, with the S&P 500 up 1.31%, the Nasdaq up 1.60% and the Dow up 0.49% (CNBC, Bloomberg). CoreWeave rose 24.71% and memory and photonics names jumped, while Microsoft fell after Anthropic's new office tools (CNBC, Bloomberg). Hot October CPI keeps the 10-year near 5% and a December hike expected (CNBC). Thursday's setup is weaker, with **Nvidia down roughly 8% to 10% premarket** after Huang's exit (Bloomberg, CNBC, Fox Business).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,619.38",
+        "raw": 7619.38,
+        "change": "+1.31%",
+        "dir": "up",
+        "time": 1794433323,
+        "spark": [
+          7807.24,
+          7805.45,
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93,
+          7619.38
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,486.49",
+        "raw": 52486.49,
+        "change": "+0.49%",
+        "dir": "up",
+        "time": 1794433438,
+        "spark": [
+          51850.55,
+          51670.1,
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89,
+          52486.49
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,466.19",
+        "raw": 25466.19,
+        "change": "+1.60%",
+        "dir": "up",
+        "time": 1794435359,
+        "spark": [
+          27245.9,
+          27204.38,
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43,
+          25253.14,
+          25065.87,
+          25466.19
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.00%",
+        "raw": 4.998,
+        "change": "+0.30%",
+        "dir": "up",
+        "time": 1794427194,
+        "spark": [
+          5.24,
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86,
+          4.98,
+          5.0
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$86.08",
+        "raw": 86.08,
+        "change": "-0.52%",
+        "dir": "down",
+        "time": 1794476016,
+        "spark": [
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          86.08
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$73,327",
+        "raw": 73326.98,
+        "change": "-0.81%",
+        "dir": "down",
+        "time": 1794476611,
+        "spark": [
+          81762.56,
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          75223.15,
+          73720.12,
+          73964.47,
+          73326.98
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$173.73",
+        "raw": 173.73,
+        "change": "+2.92%",
+        "dir": "up",
+        "time": 1794430800,
+        "spark": [
+          226.32,
+          228.52,
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89,
+          173.73
+        ],
+        "note": "Wednesday's close. Shares fell roughly 8% to 10% premarket Thursday after Huang's exit as CEO (Bloomberg, CNBC, Fox Business)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$355.63",
+        "raw": 355.63,
+        "change": "+2.04%",
+        "dir": "up",
+        "time": 1794430801,
+        "spark": [
+          340.97,
+          341.27,
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51,
+          355.63
+        ],
+        "note": "Rose with the tech-led rally on bets the AI trade has more room (Bloomberg)."
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$521.12",
+        "raw": 521.125,
+        "change": "-2.26%",
+        "dir": "down",
+        "time": 1794430800,
+        "spark": [
+          541.15,
+          543.45,
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61,
+          545.18,
+          533.16,
+          521.13
+        ],
+        "note": "Fell for a second day after Anthropic launched Claude Sheets and other office tools (Bloomberg, CNBC)."
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$293.45",
+        "raw": 293.45,
+        "change": "+2.11%",
+        "dir": "up",
+        "time": 1794430800,
+        "spark": [
+          352.72,
+          353.78,
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78,
+          288.15,
+          287.38,
+          293.45
+        ],
+        "note": "Rose with the tech-led rally on bets the AI trade has more room (Bloomberg)."
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$390.84",
+        "raw": 390.84,
+        "change": "+2.91%",
+        "dir": "up",
+        "time": 1794430801,
+        "spark": [
+          378.03,
+          375.23,
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78,
+          390.84
+        ],
+        "note": "Rose with the tech rebound; no company-specific catalyst found in our searches (Bloomberg)."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$266.17",
+        "raw": 266.17,
+        "change": "-1.74%",
+        "dir": "down",
+        "time": 1794430801,
+        "spark": [
+          259.53,
+          258.58,
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3,
+          266.93,
+          270.87,
+          266.17
+        ]
+      }
+    ]
+  },
+  "earnings": [],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 54.2,
+      "feels": 52.4,
+      "hum": 70,
+      "wind": 1.0,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-11-11",
+        "hi": 75,
+        "lo": 48,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-12",
+        "hi": 73,
+        "lo": 50,
+        "cond": "cloudy",
+        "pop": 3
+      },
+      {
+        "date": "2026-11-13",
+        "hi": 65,
+        "lo": 53,
+        "cond": "rain",
+        "pop": 95
+      },
+      {
+        "date": "2026-11-14",
+        "hi": 65,
+        "lo": 53,
+        "cond": "drizzle",
+        "pop": 27
+      },
+      {
+        "date": "2026-11-15",
+        "hi": 69,
+        "lo": 55,
+        "cond": "drizzle",
+        "pop": 70
+      },
+      {
+        "date": "2026-11-16",
+        "hi": 60,
+        "lo": 53,
+        "cond": "rain",
+        "pop": 70
+      },
+      {
+        "date": "2026-11-17",
+        "hi": 61,
+        "lo": 53,
+        "cond": "drizzle",
+        "pop": 16
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "colom",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Senate result",
+      "title": "Democrat Scott Colom wins Mississippi Senate seat as Alaska stays uncalled",
+      "summary": "Colom beat Sen. Cindy Hyde-Smith by under 5,000 votes, lifting Democrats to at least 55 seats, while Republicans argue over who lost the midterms.",
+      "story": [
+        "NBC News projected Wednesday that Democrat Scott Colom won the Mississippi Senate race over Republican Sen. Cindy Hyde-Smith, who conceded by phone after a count that took more than a week. NPR reported the margin at under 5,000 votes. NBC says Colom is the first Democrat elected to the Senate from Mississippi since 1982 and that Democrats will hold at least 55 Senate seats next Congress. Fox News also reported the result. Only Alaska remains uncalled, where The Hill reports Democrat Mary Peltola led Sen. Dan Sullivan by roughly 4,000 votes in unofficial counts.",
+        "Hyde-Smith had Trump's backing, and a late seven-figure ad buy from the Senate Leadership Fund did not save her, according to Fox News. The Washington Examiner credited Colom's unconventional ads, including a viral spot about beef prices. Mississippi has no automatic recount, and reporting expects possible Republican legal action. Alaska may take days or weeks because remote mail ballots can arrive late, and if no one clears 50% a ranked-choice tabulation follows on Nov. 18.",
+        "Republicans are now sorting out blame. Fox News reported GOP operatives and donors calling the result a Trump loss, while Vice President Vance said the Iran war was the reason Republicans lost and Trump said he largely agreed. The Washington Examiner argued Trump owns the defeat. National Review said Trump weakened his coalition by treating congressional allies with contempt. Sen. Jim Justice told Fox News Republicans can forget about 2028 Senate control if the party does not change course.",
+        "Democrats have a bigger Senate majority than most forecasts allowed for, which raises the stakes of the December Senate leadership vote and of oversight fights with the White House."
+      ],
+      "facts": [
+        "NBC News projected Colom the winner over Hyde-Smith on Nov. 11.",
+        "NPR reported he won by under 5,000 votes.",
+        "Democrats will hold at least 55 Senate seats next Congress, per NBC News.",
+        "Alaska is the only Senate race left uncalled.",
+        "Peltola led Sullivan by about 4,000 votes in unofficial counts, per The Hill.",
+        "A ranked-choice tabulation would take place Nov. 18 if no one reaches 50%."
+      ],
+      "flag": "Final Alaska results and any Mississippi legal challenge are unconfirmed.",
+      "left": "Voters punished a party that started an unpopular war, pushed up prices and ignored Congress. Democrats flipped a deep-red seat with a Black district attorney who talked about beef prices and health care, which suggests the coalition is wider than pundits assumed. A big Senate majority is a mandate to check a president who governed by executive action and to protect voting rights.",
+      "right": "Midterms punish the party in the White House, and gas prices and the Iran war made this one worse than usual. Conservatives like those at National Review argue the fix is a more disciplined White House that works with Congress on tariffs, immigration and war, not a purge of the base. A narrow Mississippi loss shows candidate quality and turnout still matter, and Republicans can rebuild in 2028 if they stop fighting each other.",
+      "next": "Alaska's count continues, with a possible ranked-choice tabulation Nov. 18, and Senate Democrats choose leaders in December.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/campaign/6215058-colom-makes-mississippi-history/"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/dems-projected-score-historic-upset-deep-red-mississippi-topple-trump-ally-hyde-smith"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4801158/scott-colom-viral-ads-secure-mississippi-senate/"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/2026/11/trump-lost-the-congressional-gop-by-treating-them-with-contempt/"
+        ]
+      ]
+    },
+    {
+      "id": "oversight",
+      "section": "politics",
+      "motif": "scales",
+      "thread": "midterms-2026",
+      "when": "Oversight clash",
+      "title": "White House warns House Democrats that aggressive probes could be criminal",
+      "summary": "White House counsel Will Scharf told the incoming Oversight chair that subpoenas meant to intimidate may cross into criminality, and Democrats say they will not be deterred.",
+      "story": [
+        "White House counsel Will Scharf sent a letter to Rep. Robert Garcia, the expected incoming House Oversight chair, warning that Democratic investigations \"may cross the line into blatant criminality,\" NPR and The Hill reported Thursday. Scharf argued that subpoenas designed merely to abuse or instill fear could be criminal and that Congress needs a legitimate legislative purpose. Garcia answered that Congress has wide latitude to investigate, and said his committee had not yet received the letter. The Washington Examiner reported the letter also warns against harassing White House staff.",
+        "The warning arrives as Democrats prepare to take the House in January. NPR reported that Democrats plan investigations, war powers resolutions and use of the power of the purse. Separately, Fox News reported Trump ordered a Justice Department probe into Democrats over alleged threats against administration officials, and The Hill reported a U.S. attorney sent Sen. Richard Blumenthal a letter dated Nov. 11 about his probe of donors to the White House ballroom project. Blumenthal called the implied threat baseless.",
+        "Legal specialists quoted in coverage note that members of Congress are protected by the Speech or Debate Clause for legislative acts. Garcia said the letter suggests Trump is hiding something. The Washington Examiner framed the letter as a reasonable request for Democrats to respect staff and process.",
+        "Both sides are preparing for a two-year fight over what counts as oversight and what counts as harassment, with courts likely to referee."
+      ],
+      "facts": [
+        "Scharf wrote to Rep. Garcia, the expected incoming Oversight chair.",
+        "The letter says probes may cross into criminality if subpoenas only aim to intimidate.",
+        "Garcia said Democrats will not be deterred and had not received the letter.",
+        "Fox News reported Trump ordered a DOJ probe of Democrats over alleged threats against officials.",
+        "The Hill reported a U.S. attorney letter dated Nov. 11 to Sen. Blumenthal about the ballroom donor probe."
+      ],
+      "left": "Oversight is a core constitutional duty, and a White House that threatens investigators with prosecution is trying to chill it. Democrats argue the letter shows the administration fears scrutiny of its Iran war, its donors and its spending, and that the Speech or Debate Clause exists exactly to stop this kind of intimidation.",
+      "right": "Conservatives argue Congress cannot subpoena for show. Fox News and the Washington Examiner say Democrats promised years of investigations before taking power, and the White House is right to insist on a real legislative purpose and to protect staff from harassment. Republicans also point to the fact that their own committees were criticized for the same tactics, and they want guardrails now.",
+      "next": "Democrats take control of the House in January, and the first subpoena fights will test the letter.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/12/nx-s1-6037548/white-house-warns-democrats-over-future-probes-citing-possible-criminality"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6213006-white-house-targets-democrat-congressional-investigators/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/top-dem-committee-fires-back-white-house-counsel-warns-overreach-amid-investigation-threats"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/white-house/4799884/trump-official-warns-house-democrats-oversight-investigations/"
+        ]
+      ]
+    },
+    {
+      "id": "chipcurbs",
+      "section": "politics",
+      "motif": "shield",
+      "thread": "nvidia-huang-probe",
+      "when": "Chip export push",
+      "title": "Huang scandal revives push to tighten Nvidia chip sales to China",
+      "summary": "Lawmakers in both parties want chip export limits added to the defense bill after reports that an alleged Chinese spy helped move at least $7.5 billion of Nvidia chips.",
+      "story": [
+        "Reports that Nvidia CEO Jensen Huang had a relationship with Alice Huang, a Megaspeed executive U.S. officials concluded was recruited by China, have revived efforts to tighten chip export rules, CNBC and The Hill reported. Sens. Jim Banks, a Republican, and Elizabeth Warren, a Democrat, issued a joint statement urging Congress to include the AI Overwatch Act in the annual defense bill. The Chip Security Act and the MATCH Act are also in play. CNBC cited The Information in reporting that she helped facilitate at least $7.5 billion in Nvidia chip shipments to China.",
+        "Three House chairs, Brian Mast, John Moolenaar and Rick Crawford, asked Huang in a Nov. 4 letter for a closed-door briefing on Nov. 18, Axios reported. It was a voluntary request, not a subpoena. Fox Business and the Washington Examiner covered the board's investigation and Huang's admission of the affair. Nvidia's board said earlier it had no reason to believe national security or company secrets were compromised.",
+        "CNBC reports the push comes ahead of a Trump-Xi summit, and noted Huang had long argued for broader chip sales to China and declined an earlier Senate invitation from Warren. Nvidia has not been charged with anything and the allegations about the intelligence link remain unproven.",
+        "The defense bill is still unpassed, so export limits could ride on it this winter."
+      ],
+      "facts": [
+        "Banks and Warren jointly urged adding the AI Overwatch Act to the defense bill.",
+        "The Chip Security Act and the MATCH Act are also under discussion.",
+        "CNBC, citing The Information, says Alice Huang helped facilitate at least $7.5 billion in chip shipments.",
+        "Mast, Moolenaar and Crawford asked Huang for a Nov. 18 closed-door briefing.",
+        "The request was voluntary, and no charges have been filed."
+      ],
+      "left": "Warren and other Democrats argue that selling advanced chips to China was always a national security risk and that the scandal proves a company cannot police itself. They want binding export controls written into law, not left to a president who has bargained over chips.",
+      "right": "China hawks like Banks and Mast argue the episode shows Beijing targets American tech executives, and Washington Examiner coverage stresses honeypot risk. Many conservatives want tougher limits, while others warn that sweeping rules could push China toward its own chips and hurt a company that leads the AI race.",
+      "next": "Watch the defense bill text and whether Huang's successor attends the Nov. 18 briefing.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/newsletters/technology/6212032-congress-pushes-chip-export-bills-amid-nvidia-investigation/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://axios.com/2026/11/05/jensen-huang-nvidia-congress-china"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/politics/house-republicans-demand-answers-from-nvidia-ceo-over-reported-chinese-spy-ties"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/technology/4798465/what-we-know-jensen-huang-nvidia-spy-plot/"
+        ]
+      ]
+    },
+    {
+      "id": "deathrow",
+      "section": "local",
+      "motif": "gavel",
+      "thread": "ca-death-row",
+      "when": "Death row",
+      "title": "Newsom's death-row commutations draw threatened lawsuits",
+      "summary": "A former prosecutor's group plans to sue over Newsom's commutation of all 548 death sentences, and the state Supreme Court must review some of them.",
+      "story": [
+        "Gov. Gavin Newsom moved on Nov. 5 to commute the sentences of all 548 people on California's death row to life without parole, according to the SF Standard, the Daily Journal and the governor's own fact sheet. The state constitution requires the California Supreme Court to review commutations for the 382 prisoners with more than one felony conviction. Anne Marie Schubert, a former Sacramento district attorney who leads the Criminal Justice Legal Foundation, told The New York Times she plans to sue, according to one report.",
+        "The governor's office says the commutations do not change the underlying convictions or erase restitution orders. Critics say Newsom broke his 2019 promise to victims' families that his moratorium would not change any sentence. No filed lawsuit has been reported yet, only stated intentions. A separate April 2024 suit by the ACLU and the NAACP Legal Defense Fund challenges the death penalty statute as racially discriminatory.",
+        "Hot Air argued the move is a legal and political stunt aimed at Newsom's national ambitions. The ACLU applauded it as a historic step toward ending a system it says is racially biased.",
+        "The case matters beyond California because it tests how far a governor's clemency power can reach."
+      ],
+      "facts": [
+        "Newsom moved to commute 548 death sentences on Nov. 5.",
+        "The state Supreme Court must review commutations for 382 prisoners with multiple felony convictions.",
+        "Anne Marie Schubert's group says it plans to sue.",
+        "The governor's fact sheet says convictions and restitution orders stay in place.",
+        "No lawsuit specifically against the commutations had been reported as filed."
+      ],
+      "flag": "Only announced intentions to sue have been reported, and one claim that victims' families will sue comes from a single report.",
+      "left": "Capital punishment in California has been administered unequally by race and has not executed anyone since 2006. Commuting every sentence ends a costly limbo, saves taxpayer money and fixes a system that risks killing innocent people. Advocates like the ACLU say this is the governor using a power the constitution gives him.",
+      "right": "Conservatives and victims' advocates say voters repeatedly chose to keep the death penalty, and Newsom is overriding them in his last months in office. Critics cite his own 2019 promise to families and argue clemency is meant for individual cases, not for emptying a whole row. They expect the courts to be asked to rein it in.",
+      "next": "Watch for a filed lawsuit and the California Supreme Court's review of the 382 multi-conviction commutations.",
+      "src": [
+        [
+          "SF Standard",
+          "C",
+          "https://sfstandard.com/2026/11/05/newsom-commute-death-sentencescalifornia/"
+        ],
+        [
+          "Daily Journal",
+          "C",
+          "https://www.dailyjournal.com/articles/395907-newsom-moves-to-commute-all-california-death-sentence"
+        ],
+        [
+          "California Governor's Office",
+          "C",
+          "https://www.gov.ca.gov/wp-content/uploads/2026/11/11-5-26-External-Fact-Sheet-Clemency-Action.pdf"
+        ],
+        [
+          "Hot Air",
+          "R",
+          "https://hotair.com/ed-morrissey/2026/11/06/newsoms-death-row-pr-move-legal-or-not-n3820731/print"
+        ],
+        [
+          "ACLU",
+          "L",
+          "https://www.aclu.org/press-releases/aclu-applauds-gov-gavin-newsoms-historic-commutation-of-all-death-sentences-in-california"
+        ]
+      ]
+    },
+    {
+      "id": "transit",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Transit tax",
+      "title": "Bay Area transit tax wins big, and Fremont station housing plan moves ahead",
+      "summary": "Regional Measure RTM passed with about 61% in early returns, and BART picked developers for 643 homes at Fremont Station.",
+      "story": [
+        "Bay Area voters approved Regional Measure RTM, a sales tax for transit, with about 61% support in election-night returns, the SF Chronicle and KQED reported. The tax is 0.5% in Alameda, Contra Costa, San Mateo and Santa Clara counties and 1% in San Francisco, and it raises roughly $1 billion a year. In Alameda County, nearly 65% of the money goes to BART operations. San Francisco's Prop H Muni parcel tax also passed in a landslide. These are unofficial returns, not certified totals.",
+        "Officials had warned of deep cuts without the money. BART had floated closing up to 15 stations and ending service at 9 p.m., and Caltrain had considered closing a third of its stations and ending weekend service. KQED's headline said the transit death spiral was averted. Opponents, including Marc Joffe for the opposition campaign, called the tax regressive and wanted more accountability.",
+        "In Fremont, the SF Chronicle reported the BART board chose Pacific Development and Affirmed Housing to build 643 homes on about 12 acres of parking on the north side of Fremont Station, with 176 of them affordable. The developers hope for city approval in 2027 and construction in 2028.",
+        "For Fremont riders, the measure lowers the odds that Warm Springs or other East Bay stations face closure."
+      ],
+      "facts": [
+        "RTM had about 61% yes in early returns.",
+        "The tax is 0.5% in four counties and 1% in San Francisco, raising about $1 billion a year.",
+        "Nearly 65% of Alameda County's share goes to BART operations.",
+        "Muni's Prop H passed with about 73%.",
+        "BART picked Pacific Development and Affirmed Housing for 643 homes at Fremont Station, 176 affordable."
+      ],
+      "flag": "Vote totals are unofficial and have not been certified.",
+      "blindspot": "Covered mainly by SF Chronicle and KQED, both left-leaning; no right-leaning coverage found.",
+      "next": "County elections offices certify results in the coming weeks, and Fremont would consider the housing plan in 2027.",
+      "src": [
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/live-results-bay-area-regional-transit-measure-22487820.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12107133/death-spiral-averted-bay-area-transit-taxes-rtm-and-prop-h-declare-victory"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/bayarea/article/fremont-downtown-development-bart-22499482.php"
+        ]
+      ],
+      "left": "Transit is climate policy and a lifeline for workers who cannot afford cars. Supporters say a regional sales tax spreads costs widely and avoids service cuts that would push more people onto crowded freeways, and building homes at stations makes that service worth more.",
+      "right": "Opponents say a sales tax hits low-income shoppers hardest and that agencies have not earned more money until they show tighter spending and better ridership. Many conservatives would rather see BART cut costs and let housing near stations pay its own way."
+    },
+    {
+      "id": "ukraine",
+      "section": "world",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Ukraine talks",
+      "title": "Russia and Ukraine agree to a prisoner swap, but envoys find no breakthrough",
+      "summary": "Abu Dhabi talks ended with a large prisoner exchange in principle, as Kushner and Witkoff met Putin and Ukraine reported new Starshield limits.",
+      "story": [
+        "Russia and Ukraine agreed to a large prisoner-of-war exchange as two days of U.S.-mediated talks in Abu Dhabi ended Wednesday without a major breakthrough, NBC News, NPR and The Hill reported. Russia's lead negotiator called the swap agreed in principle, with exact numbers still pending, and a Russian official said it could happen in two or three weeks. CNN reported Thursday that Trump envoys Steve Witkoff and Jared Kushner arrived in Moscow to meet Vladimir Putin. NPR reported U.S. negotiators then meet Volodymyr Zelenskyy on Friday.",
+        "Kushner said the delegations agreed on many principles but remain apart on how to reach peace. Zelenskyy called the swap positive but said Ukraine will not give up occupied territory for peace. Europe's seat at the table is unresolved, and Moscow has resisted including European countries.",
+        "NBC News and CNN reported that Zelenskyy said Starshield, the military version of Starlink, was restricted again on the day of the Moscow meeting, which he said complicates intercepting Russian jet-powered drones. Musk said any limits on speed or usage are decided by the U.S. military and ultimately the president, while Trump has denied involvement, according to CNN and Fox News earlier coverage.",
+        "The talks give the White House something to show, but territory and security guarantees are still the sticking points."
+      ],
+      "facts": [
+        "Russia and Ukraine agreed in principle to a large prisoner swap.",
+        "Russia said it could take place within two or three weeks.",
+        "Witkoff and Kushner arrived in Moscow Thursday to meet Putin, per CNN.",
+        "Zelenskyy says he will not trade occupied territory for peace.",
+        "Ukraine reported new Starshield restrictions Thursday."
+      ],
+      "flag": "Prisoner numbers and the exact Starshield limit were not confirmed.",
+      "blindspot": "Right-leaning coverage found was straight news; no right-leaning commentary on the Abu Dhabi round found.",
+      "next": "U.S. negotiators meet Zelenskyy on Friday, and the swap could come within weeks.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/middle-east/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-rcna608714"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6213290-russia-ukraine-prisoner-swap-abu-dhabi-talks/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/elon-musk-spacex-imposes-stunning-restrictions-ukraine-could-have-deadly-consequences"
+        ]
+      ],
+      "left": "Ukraine needs steady security guarantees, not deals brokered by envoys with business ties to Moscow. Democrats say the Starshield limits show how dependent Kyiv is on one billionaire and that Europe must be at the table. A prisoner swap is humane, but a peace that rewards invasion invites the next one.",
+      "right": "Conservatives who back Trump say direct talks are the only path to ending a costly war and that Europe has not carried its share. Hawks at outlets like National Review want sanctions kept in place and no territorial reward for Russia. Both camps worry about Starshield limits that hurt Ukraine's drone defense."
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran standoff",
+      "title": "Iran talks stall as Trump says new strikes are unlikely and Rubio rejects Tehran's terms",
+      "summary": "Mediators circulate a framework, but Iran's conditions and a U.S. blockade keep the sides apart and Hormuz remains contested.",
+      "story": [
+        "Trump said renewed attacks on Iran are \"highly unlikely\" while talks show progress, but that the U.S. is \"locked and loaded\" if that changes, according to CNN, The Hill and Fox News. NPR reported Trump also said the U.S. won the war, while the naval blockade continues. Secretary of State Marco Rubio called Iran's conditions \"outrageous and ridiculous and really not realistic,\" NBC News reported, and said a breakthrough is not close. The Hill reported Rubio also described slight progress as Pakistan's army chief renewed mediation.",
+        "Iran says talks cannot proceed unless the U.S. ends the blockade and releases frozen funds, among seven demands. NBC News and CNN describe Qatar circulating a framework document that both sides are amending. The U.S. conducted limited strikes on Qeshm Island earlier in the month, per CNN and NBC News, and vessels in the Strait of Hormuz continue to be attacked.",
+        "The Wall Street Journal reported, as relayed in coverage, that Trump's advisers are divided over whether to resume strikes. Fox also reported earlier that strikes were not likely before the midterms, which have now passed.",
+        "The pause is fragile, and the Hormuz closure keeps oil and gas prices exposed."
+      ],
+      "facts": [
+        "Trump says renewed attacks are highly unlikely if talks make progress.",
+        "Rubio rejected Iran's terms as unrealistic.",
+        "Iran's demands include ending the U.S. blockade and releasing frozen funds.",
+        "Qatar is circulating a framework both sides are amending.",
+        "The U.S. struck Qeshm Island in limited strikes earlier this month, per CNN."
+      ],
+      "flag": "The WSJ report on advisers' split reached us second-hand, not from the WSJ itself.",
+      "next": "Watch for Iran's response to the Qatari framework and any resumption of U.S. strikes.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/iran/iran-defends-2-day-proposal-peace-talks-us-rejects-outrageous-conditio-rcna608263"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/11/nx-s1-6035875/trump-says-us-won-iran-war-iran-responds"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/marco-rubio-slight-progress-iran-talks/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+        ]
+      ],
+      "left": "The war was launched without a vote of Congress, has pushed up prices and has not reopened Hormuz. Democrats want war powers votes and a diplomatic deal, and they say a blockade that Iran treats as an act of war makes a deal harder.",
+      "right": "Conservatives argue pressure is working and that Iran must give up its nuclear program and reopen Hormuz before sanctions relief. Supporters say Rubio is right to reject unrealistic demands, though some on the right, including Vance, now say the war cost Republicans votes."
+    },
+    {
+      "id": "cpi",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Inflation and Fed",
+      "title": "Hot October inflation makes a December Fed hike near certain, while gas dips below $4",
+      "summary": "Consumer prices rose 0.4% in October, pushing the 10-year yield to about 5%, even as AAA's gas average fell below $4 for the first time since July.",
+      "story": [
+        "Consumer prices rose 0.4% in October, above the 0.3% economists expected, and core prices rose 0.3% versus 0.2% expected, CNBC reported. Fox Business and NPR also covered the report. Fed Governor Christopher Waller said he leans toward a December hike and would consider a half-point move if core inflation runs around 0.3%, Bloomberg and CNBC reported. Markets now price a December hike as nearly certain, with about a 15% chance of a half-point move. The Fed meets Dec. 8-9.",
+        "Dallas Fed President Lorie Logan expects two more hikes, and Chicago Fed's Austan Goolsbee called the report \"borderline disturbing,\" CNBC reported. San Francisco Fed's Mary Daly said last week that Americans are on a treadmill of high inflation. The 10-year yield rose to roughly 5%, and the 2-year jumped about 18 basis points to 4.736%. Goldman Sachs now expects a hike in March as well.",
+        "There was relief at the pump. AAA's national average for regular fell to $3.9788 on Tuesday, below $4 for the first time since July, CNBC and Fox Business reported. NPR's Scott Horsley estimated it could reach $3.75 by Thanksgiving if no geopolitical shocks hit. Prices are still well above pre-war levels, and the peak was $4.47 on Sept. 21.",
+        "Higher rates hit mortgages, car loans and tech valuations, which explains why stocks wobble on every inflation print."
+      ],
+      "facts": [
+        "October CPI rose 0.4% versus 0.3% expected; core rose 0.3% versus 0.2%.",
+        "Waller leans toward a December hike and is open to 50 basis points.",
+        "The 10-year Treasury yield is about 5.00% per live market data.",
+        "AAA's national gas average was $3.9788 on Tuesday, the first sub-$4 reading since July.",
+        "The Fed meets Dec. 8-9."
+      ],
+      "flag": "One report said the annual CPI rate could not be published because of last year's government shutdown, so an annual figure is not given here.",
+      "left": "Progressives argue the inflation comes from supply shocks, an unauthorized war and tariffs, and that rate hikes will hurt workers and borrowers without fixing the cause. They want the administration to end the war and tariffs rather than rely on the Fed.",
+      "right": "Conservatives say sticky inflation shows the Fed was slow and that deficit spending and the war's energy shock keep prices up. Fox Business stresses food and energy costs for families, and many on the right welcome cooling gas prices as evidence that restoring stability helps the most.",
+      "next": "Weekly jobless claims and Fed speakers this week, then the Dec. 8-9 meeting.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/10/nx-s1-6034517/inflation-report"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-october-2026"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html"
+        ]
+      ]
+    },
+    {
+      "id": "huang",
+      "section": "stocks",
+      "motif": "chip",
+      "thread": "nvidia-huang-probe",
+      "when": "Nvidia CEO exit",
+      "title": "Jensen Huang leaves Nvidia as CEO, and the stock slides before earnings",
+      "summary": "Nvidia named CFO Colette Kress interim CEO after reports of two affairs, and shares fell about 9% before Thursday's open.",
+      "story": [
+        "Nvidia announced that Jensen Huang is out as CEO and that CFO Colette Kress will serve as interim CEO, NBC News and Bloomberg reported Thursday. NBC described a resignation and Bloomberg described a removal by the board. CNBC and Fox Business reported the shares fell about 7.6% to 9% in premarket trading, and Bloomberg put the drop near 10%, after the Wall Street Journal and The New York Times reported the board was preparing to oust him over two relationships. Wednesday's close was $173.73, per market data.",
+        "One relationship was with Alice Huang, a Megaspeed executive U.S. officials concluded was recruited by China. The Times reported the second was with a direct report, Kimberly Powell, Nvidia's healthcare vice president. Forbes reported neither Powell nor Huang has confirmed it. The board had hired the law firm Wachtell Lipton and Joon H. Kim for an independent inquiry. NBC also reported the board named Harvey Jones as chairman.",
+        "Axios called Huang AI's first too-big-to-fail executive, with no backup plan. CNBC's analysis said Nvidia's financing web, including a $500 billion plan with Wall Street firms, ties its fate to AI partners. The stock was already down about 27% from its Oct. 6 peak, CNBC reported. Jim Cramer said he would neither buy more nor sell before Tuesday's earnings.",
+        "Reports also said AMD and Broadcom could gain from the turmoil."
+      ],
+      "facts": [
+        "Nvidia named CFO Colette Kress interim CEO.",
+        "NBC says Huang resigned and Bloomberg says he was removed.",
+        "Nvidia shares fell roughly 7.6% to 10% premarket, depending on the outlet and the time.",
+        "Wednesday's close was $173.73 per live market data.",
+        "Nvidia reports earnings Tuesday, Nov. 17, per CNBC."
+      ],
+      "flag": "Outlets differ on whether Huang resigned or was removed and on the size of the premarket drop. The Powell relationship has not been confirmed by those involved.",
+      "why": "Nvidia is the biggest supplier of AI chips, and its CEO shaped its financing, China policy and partnerships. A leadership vacuum before earnings raises the risk to the whole AI trade.",
+      "next": "Nvidia reports earnings Tuesday, Nov. 17, and the board is searching for a permanent CEO.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-12/jensen-huang-face-of-the-ai-boom-ousted-by-nvidia-board-as-ceo"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/nvidia-shares-plunge-more-7-premarket-trading-ceo-uncertainty-rattles-ai-stocks"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/09/jensen-huang-nvidia-ceo-crisis"
+        ]
+      ]
+    },
+    {
+      "id": "rally",
+      "section": "stocks",
+      "motif": "chart",
+      "thread": "ai-trade-selloff",
+      "when": "Tech rebound",
+      "title": "CoreWeave's raised forecast lifts AI stocks, and Microsoft slides on Anthropic's new tools",
+      "summary": "The S&P 500 rose 1.31% and the Nasdaq 1.60% Wednesday as CoreWeave jumped nearly 25%, while Microsoft fell for a second day.",
+      "story": [
+        "U.S. stocks rallied Wednesday as the AI trade found footing. The S&P 500 closed at 7,619.38, up 1.31%, the Nasdaq at 25,466.19, up 1.60%, and the Dow at 52,486.49, up 0.49%, per market data, with Bloomberg crediting a tech rally. CoreWeave shares jumped 24.71%, its best day since April 2025, after third-quarter revenue of $3.66 billion, up 168%, beat the $3.55 billion estimate and the company lifted its 2026 forecast to $13 billion to $13.3 billion, CNBC reported. It still lost $709 million in the quarter.",
+        "CNBC said Sandisk rose about 16%, Micron 13%, Lumentum 14% and Coherent 12%, and Corning gained more than 10% after Jefferies started coverage with a buy. Microsoft slid about 2% to 3%, falling for a second day after Anthropic unveiled Claude Sheets, Whiteboards and Data, with Meetings coming soon, Bloomberg and CNBC reported. An Anthropic product leader called the spreadsheet product fairly basic, Bloomberg said.",
+        "The prior session was weaker, with the S&P down 0.38% Tuesday to 7,520.93 after hot inflation. The 10-year yield sits near 5%, which keeps pressure on growth stocks. Thursday's futures weakened after Nvidia's CEO news, so the rally faces an immediate test.",
+        "Markets are leaning on AI earnings to justify valuations while rate-hike risk climbs."
+      ],
+      "facts": [
+        "S&P 500 closed at 7,619.38, up 1.31%, per live market data.",
+        "Nasdaq closed at 25,466.19, up 1.60%.",
+        "CoreWeave rose 24.71%, its best day since April 2025.",
+        "CoreWeave's revenue was $3.66 billion, up 168% year over year.",
+        "Microsoft fell for a second day after Anthropic's new office tools."
+      ],
+      "why": "CoreWeave is a bellwether for AI data center demand, and its guidance eased worries about a slowdown. Microsoft's slide shows investors fear AI labs will compete with software incumbents.",
+      "next": "Nvidia reports Tuesday, Nov. 17, and Anthropic's IPO prices Nov. 18.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://bloomberg.com/news/articles/2026-11-11/us-stock-index-futures-rise-as-coreweave-helps-tech-rebound"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/11/stocks-moving-the-most-today-live-updates.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-unveils-office-tools-ahead-of-ipo-taking-on-microsoft"
+        ]
+      ]
+    },
+    {
+      "id": "starship",
+      "section": "engineering",
+      "motif": "rocket",
+      "when": "Starship Flight 15",
+      "title": "SpaceX targets Friday for the first attempt to catch both Starship stages",
+      "summary": "Flight 15 is set for 2:45 p.m. Pacific Friday, with a booster catch minutes later and a ship catch about 22 hours after launch.",
+      "story": [
+        "SpaceX plans to launch Starship Flight 15 no earlier than Friday, Nov. 13, at 2245 GMT, which is 2:45 p.m. Pacific, from Starbase in South Texas, with a 75-minute window, Space.com reported. Booster 22 is to be caught by the launch tower about 6.5 minutes after liftoff. That would be the fourth Super Heavy catch attempt, and SpaceX has caught the booster on three earlier flights. SpaceX said it ran a suspended squeeze test at catch height on the booster Nov. 10.",
+        "The ship is the new part. After deploying 26 Starlink V3 satellites and completing 14 orbits, the ship is to return about 22 hours later for its own catch. If both work, Space.com says it would be the first full recovery of an orbital launch system. Flight 14 launched Sept. 28.",
+        "Reusability is the cost lever for the whole Starship plan, and a ship catch would remove the ocean landing step. Failure would cost a vehicle and could delay Starlink V3 deployment.",
+        "The launch is a hard engineering test of guidance, heat shield and tower catch hardware working together."
+      ],
+      "facts": [
+        "Launch is targeted for Friday, Nov. 13, at 2:45 p.m. Pacific.",
+        "Booster 22 is planned for a tower catch about 6.5 minutes after liftoff.",
+        "SpaceX has caught Super Heavy three times before.",
+        "The ship carries 26 Starlink V3 satellites and flies 14 orbits before its catch.",
+        "A double catch would be the first full recovery of an orbital launch system."
+      ],
+      "flag": "The launch date is a target and could move with weather or technical issues.",
+      "why": "Full reuse is the path to cheaper launch, which affects Starlink, NASA's lunar plans and AI data centers in orbit.",
+      "next": "Friday, Nov. 13 at 2:45 p.m. Pacific, with the ship catch roughly 22 hours later.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-11-2026-starship-first-double-landing-attempt"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time"
+        ]
+      ]
+    },
+    {
+      "id": "gridwait",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Data center power",
+      "title": "Data centers look to batteries and jet engines as grid hookups take years",
+      "summary": "Builders face multi-year grid waits, so some turn to converted jet engines while Google backs CO2 and iron-air storage.",
+      "story": [
+        "TechCrunch reported on Nov. 3 that data center builders are buying old jet engines to make power on site because grid hookups and turbines have long waits. An analyst estimated a jet-powered unit could run a data center in about 24 months, versus roughly seven years for a Northern Virginia grid connection. The trade-off is lower efficiency and more pollution than conventional gas turbines.",
+        "On the storage side, IEEE Spectrum reports Google's partnership with Energy Dome, announced in July, was its first investment in long-duration storage. Energy Dome compresses CO2 into an inflatable dome and releases it through a turbine. Company claims in older TechCrunch coverage put round-trip efficiency at 75% to 80%. MIT Technology Review says the approach is already cheaper than lithium-ion for durations of 10 hours or more.",
+        "Google's Minnesota data center is backed by 1.9 GW of clean power including a 300 MW Form Energy battery that lasts 100 hours, TechCrunch reported in February. Form's iron-air battery is a separate technology from Energy Dome.",
+        "Power, not chips, is becoming the limit on AI buildout, which is why the grid wait matters."
+      ],
+      "facts": [
+        "A jet-engine unit could power a data center in about 24 months, per a TechCrunch-cited analyst.",
+        "A Northern Virginia grid hookup takes about seven years.",
+        "Google's Energy Dome partnership was its first long-duration storage investment, per IEEE Spectrum.",
+        "Energy Dome claims 75-80% round-trip efficiency, an older company claim.",
+        "Google's Minnesota site uses a 300 MW, 100-hour Form Energy battery."
+      ],
+      "flag": "Efficiency figures are company claims, and no Meta storage deal was confirmed in our searches.",
+      "why": "Data center demand is driving electricity prices and political backlash, so faster and cleaner on-site power could decide where AI is built.",
+      "next": "Watch for the first Energy Dome plant to come online next to a Google data center.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/co2-battery-energy-storage"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/02/24/googles-new-1-9gw-clean-energy-deal-includes-massive-100-hour-battery/"
+        ],
+        [
+          "MIT Technology Review",
+          "C",
+          "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/"
+        ]
+      ]
+    },
+    {
+      "id": "quasars",
+      "section": "science",
+      "motif": "atom",
+      "when": "Early quasars",
+      "title": "Webb finds the earliest compact pair of quasars, seen 900 million years after the Big Bang",
+      "summary": "The pair of black holes sit about 18,100 light-years apart and were found in data from Webb's Aether survey.",
+      "story": [
+        "Astronomers using the James Webb Space Telescope found the earliest known pair of quasars, nicknamed N\u0101p\u014dwaw\u0101\u02bbenakaulua, Space.com reported. The system is seen as it was about 900 million years after the Big Bang. The two black holes are about 18,100 light-years apart and have masses of about 1.5 billion and 400 million suns, per the report. The result appeared in The Astrophysical Journal Letters.",
+        "The team spotted the companion, J1602+4228B, while browsing Webb's Aether survey data for the already known quasar J1602+4228A. Aether is taking a census of about 200 quasars in the early universe, according to a related paper on arXiv. An earlier 2024 paper reported merging twin quasars at redshift 6.05, so close pairs in the cosmic dawn are rare but not unprecedented.",
+        "A close pair suggests galaxies were merging early, which is one way supermassive black holes could have grown so fast. Space.com's headline said astronomers were stunned. The masses and distance come from press coverage, not the paper itself.",
+        "More pairs would show how common mergers were when the first galaxies grew."
+      ],
+      "facts": [
+        "Space.com reports the pair is the earliest compact quasar pair found.",
+        "The two black holes are about 18,100 light-years apart.",
+        "Their masses are about 1.5 billion and 400 million suns.",
+        "The system was found in Webb's Aether survey.",
+        "It is seen about 900 million years after the Big Bang."
+      ],
+      "flag": "Figures come from press coverage, and we did not check the original paper.",
+      "why": "Early mergers may explain how giant black holes formed so quickly after the Big Bang, which standard models struggle to explain.",
+      "next": "Follow-up Webb spectra could reveal whether the two galaxies are already merging.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/black-holes/astronomers-stunned-after-james-webb-space-telescope-discovers-the-earliest-pair-of-black-hole-powered-quasars"
+        ],
+        [
+          "arXiv",
+          "C",
+          "https://arxiv.org/pdf/2609.19459"
+        ],
+        [
+          "arXiv",
+          "C",
+          "https://arxiv.org/pdf/2405.02465"
+        ]
+      ]
+    },
+    {
+      "id": "marshcl",
+      "section": "science",
+      "motif": "planet",
+      "when": "Mars gas",
+      "title": "Mars orbiter detects hydrogen chloride rising from fissures, hinting at a sleeping magma chamber",
+      "summary": "ESA's Trace Gas Orbiter saw an unusual summer gas signal over Alba Mons that researchers link to volcanic plumbing.",
+      "story": [
+        "ESA's ExoMars Trace Gas Orbiter detected hydrogen chloride gas rising through fissures on Alba Mons, a volcano in the Tharsis region, Space.com reported Nov. 4. On Earth the gas usually comes from magma. Hydrogen chloride on Mars normally peaks in northern winter and fades in summer, but over the flank fissures it spiked in early summer, which is an exception to the rule.",
+        "Researchers led by M\u00e8ge propose the gas is connected to volcanic plumbing, possibly a dormant magma chamber, according to the report. Space.com says follow-up observations found fresh, narrow fissures hundreds of feet long. Other recent work points the same way. A Nature Astronomy paper reports seismic evidence of magma reservoirs in Mars's upper and middle crust.",
+        "The explanation is still a hypothesis, and the report notes that summer ice sublimating can also release gas. The researchers say the fissures could become a target in the search for life. We could only see a single news summary of the Alba Mons result.",
+        "If confirmed, it adds to evidence Mars is geologically sleeping rather than dead."
+      ],
+      "facts": [
+        "TGO detected hydrogen chloride over Alba Mons fissures.",
+        "The signal peaked in early summer, unlike the usual winter peak.",
+        "Researchers link it to a possible dormant magma chamber.",
+        "A Nature Astronomy paper reports magma reservoirs in the martian crust.",
+        "The magma explanation is not confirmed."
+      ],
+      "flag": "The magma-chamber link rests on a single news summary of the study.",
+      "why": "Active volcanic plumbing would bear on Mars's habitability and on where future missions should look for life.",
+      "next": "More TGO seasons of data could confirm whether the seasonal anomaly repeats.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/mars/mars-isnt-dead-recent-volcanic-activity-reveals-its-just-sleeping"
+        ],
+        [
+          "Nature Astronomy",
+          "C",
+          "https://www.nature.com/articles/s41550-026-02907-5"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "automaton",
+      "thread": "anthropic-ipo",
+      "when": "Anthropic IPO",
+      "title": "Anthropic's IPO book is covered at $70 to $78, with pricing set for Nov. 18",
+      "summary": "At the top of the range Anthropic would raise about $64 billion at a $1.4 trillion valuation, and it targets about 20% retail allocation.",
+      "story": [
+        "Anthropic set a price range of $70 to $78 a share for 825 million Class A shares, CNBC and TechCrunch reported. At the top of the range that raises about $64.35 billion and implies a valuation of about $1.404 trillion. CNBC's sources say the book is covered on an allocable basis and Bloomberg reports multiple times the orders available. Pricing is expected Nov. 18, with trading on Nasdaq under ANT starting Nov. 19. Underwriters including Goldman Sachs and Morgan Stanley can buy up to 123.75 million more shares.",
+        "Anthropic is aiming for about 20% retail allocation, far above the usual share, and opened an Australian retail offering that runs through Nov. 17, CNBC reported. The S-1 filed Oct. 26 showed a first-half net loss of about $80 billion, most of it a non-cash accounting charge on convertible debt, and about $750 billion in compute commitments, according to CNBC and Axios. Its risk factors warn it may not reach profitability.",
+        "Investors are split. Gil Luria of DA Davidson called the net losses very small after stock-based compensation, while Roger McNamee called the IPO a very dangerous thing for investors. Jim Cramer said the market dodged a bullet on the valuation.",
+        "Reports differ on whether the offering fell short of earlier hopes of a $2 trillion valuation."
+      ],
+      "facts": [
+        "The price range is $70 to $78 per share for 825 million Class A shares.",
+        "The top of the range implies about $64.35 billion raised and a $1.404 trillion valuation.",
+        "Pricing is expected Nov. 18 and trading Nov. 19 under ANT.",
+        "Retail allocation is targeted at about 20%.",
+        "The S-1 shows about $750 billion in compute commitments, per CNBC and Axios."
+      ],
+      "flag": "Pricing and valuation could change before Nov. 18, and loss and commitment figures differ slightly across outlets.",
+      "why": "It would be one of the largest IPOs ever, and its reception will signal whether public markets will fund AI labs that spend far more than they earn.",
+      "next": "Pricing Nov. 18 and first trade Nov. 19.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-11/what-s-next-for-anthropic-s-mega-ipo-five-things-to-watch"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity"
+        ]
+      ]
+    },
+    {
+      "id": "raise",
+      "section": "ai",
+      "motif": "scroll",
+      "when": "NY AI law",
+      "title": "New York opens registration under its RAISE Act for frontier AI developers",
+      "summary": "Large AI developers such as Anthropic and OpenAI must register by Jan. 1, 2027, with fines up to $1 million for a first violation.",
+      "story": [
+        "New York opened a registration portal Nov. 10 under its RAISE Act, and large frontier AI developers such as Anthropic and OpenAI must register by Jan. 1, 2027, TechCrunch reported. Penalties reach $1 million for a first violation and $3 million for later ones. The state's Office of Digital Innovation, Governance, Integrity, and Trust will oversee it, and covered companies must report safety incidents within 72 hours.",
+        "Gov. Kathy Hochul signed the law in December 2025, Axios reported. Coverage differs on who is covered. TechCrunch describes developers with more than $500 million in annual revenue, while earlier coverage tied the threshold to $100 million in training compute. Hochul also requested changes, and we could not confirm whether they have been enacted.",
+        "The law arrives amid wider scrutiny. CNBC and Axios reported earlier that the FTC issued demands to both companies over consumer harms and that eight states sued OpenAI over ChatGPT safety. CNBC's Nov. 11 story on Anthropic's Australian offering notes AI scrutiny is intensifying there too, including plans for mandatory incident reporting and a safety regulator.",
+        "Trump's AI framework targets state laws, so a federal clash with New York is possible."
+      ],
+      "facts": [
+        "New York's registration portal opened Nov. 10.",
+        "Frontier developers must register by Jan. 1, 2027.",
+        "Fines go up to $1 million for a first violation and $3 million for later ones.",
+        "Covered firms must report safety incidents within 72 hours.",
+        "Sources differ on the revenue versus compute threshold for coverage."
+      ],
+      "flag": "The coverage threshold is described two ways, and whether Hochul's requested amendments passed is unconfirmed.",
+      "why": "State rules are becoming the main binding U.S. AI safety regime, and companies approaching IPOs must disclose the compliance costs.",
+      "next": "Jan. 1, 2027 registration deadline.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2025/12/19/new-york-ai-safety-bill-hochul"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
+        ]
+      ],
+      "left": "Safety rules for systems that could cause mass harm are overdue, and states must act when Washington will not. Supporters say incident reporting and fines are modest compared with the risks and that labs have lobbied against even basic oversight.",
+      "right": "Critics, including Trump allies and AI industry PACs, argue a patchwork of state laws slows innovation and helps China. They prefer a single federal standard and worry that vague thresholds will burden startups as much as the giants."
+    }
+  ],
+  "briefs": [
+    "The Hill reports the House voted 211-204 Tuesday to refer Rep. Massie's Hegseth impeachment articles to Judiciary after 11 Democrats missed the vote, and Democratic leaders say they have no plan to revisit it.",
+    "The Hill reports Sen. Bernie Sanders and Sen. Elissa Slotkin say they won't back Schumer for leader, and Sen. Chris Van Hollen is sounding out colleagues, with the vote next month.",
+    "The SF Chronicle's forecast makes Friday the main day for rain and wind in the Bay Area, with gusts above 40 mph in gaps and scattered outages possible, a Saturday lull and a weaker second system Sunday.",
+    "CNBC's live coverage reports initial jobless claims were 200,000 for the week ending Nov. 7, above the 195,000 forecast.",
+    "NBC News reports health officials will soon decide whether the U.S. loses its measles-elimination status, and CNN reports the CDC says its response will not change either way.",
+    "KQED's results page shows Fremont council leaders Desrie Campbell in District 2, Kathy Kimberlin in District 3 and Ying Min Li in District 4 in early returns."
+  ]
+}
