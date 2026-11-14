@@ -1,0 +1,1273 @@
+{
+  "updatedAt": "2026-11-14T00:07:36Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **Nvidia fell another 2.0% Friday** and dropped below a $4 trillion value after Jensen Huang's exit, with earnings due Tuesday after the close (CNBC, Axios). **Van Hollen is challenging Schumer** for Senate Democratic leader, with a vote reported for Dec. 1 (CNN, The Hill, Fox News). Peltola still leads the uncalled Alaska Senate race, and ranked-choice rounds may decide it (The Hill, Fox News). Trump says the U.S. needs no Iran deal and will keep the blockade, while Iran rules out inspections under threat (NPR, CNBC, Fox News). October inflation of 0.4% has **traders pricing a December Fed hike**, and the 10-year yield hit about 5.15% (CNBC, Fox Business). Bitcoin slid below $70,000 for the first time since August (Bloomberg, CNBC). **Starship reached orbit** but SpaceX called off the booster catch, with the ship landing planned for Saturday (Space.com, NBC News). Anthropic plans to **price its IPO Wednesday** at $70 to $78 a share and trade Thursday as ANT (CNBC). Locally, the Bay Area transit tax passed and most of Alameda County's share goes to BART (KQED, SF Chronicle). Webb found the earliest compact quasar pair, and Tiangong set a record cold quantum gas (Space.com, Science).",
+  "alerts": [
+    {
+      "text": "Nvidia reports Tuesday, Nov. 17 after the close, its first call without Jensen Huang, and the stock is down 12.75% this week.",
+      "level": "high",
+      "story": "huang"
+    },
+    {
+      "text": "Anthropic prices its IPO Wednesday, Nov. 18 and starts trading Thursday, Nov. 19 on Nasdaq as ANT.",
+      "level": "watch",
+      "story": "anthropicipo"
+    },
+    {
+      "text": "The Fed meets Dec. 8-9 and a quarter-point hike is nearly priced in, with the 10-year at about 5.15%.",
+      "level": "watch",
+      "story": "fedhike"
+    },
+    {
+      "text": "Government funding expires Dec. 11, and some Senate Democrats want Iran-war limits in any stopgap.",
+      "level": "info",
+      "story": "lameduck"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "huang",
+      "text": "Nvidia fell 2.0% Friday and dropped below $4 trillion before Tuesday's first earnings without Huang."
+    },
+    {
+      "story": "schumer",
+      "text": "Van Hollen formally challenges Schumer for Senate Democratic leader; vote reported for Dec. 1."
+    },
+    {
+      "story": "starship",
+      "text": "Starship reached orbit, but SpaceX called off the booster catch; ship landing planned Saturday."
+    },
+    {
+      "story": "iran",
+      "text": "Trump says no Iran deal is needed and keeps the blockade; Iran rules out inspections."
+    },
+    {
+      "story": "anthropicipo",
+      "text": "Anthropic plans to price its IPO Wednesday at $70 to $78 and trade Thursday as ANT."
+    }
+  ],
+  "stat": {
+    "label": "Nvidia weekly drop",
+    "value": "-12.75%",
+    "note": "Sixth straight weekly decline, longest since 2012 (CNBC)"
+  },
+  "markets": {
+    "asOf": "Fri Nov 13, 5:15 PM ET",
+    "wrap": "Stocks ended mixed Friday, with the **S&P 500 down 0.40%** and the Nasdaq down 0.91% while the Dow edged up 0.10% (live data). Higher yields and December Fed hike bets weighed on growth names, and the 10-year reached about 5.15% (CNBC). Nvidia fell 2.0% in the wake of Jensen Huang's exit and is down 12.75% on the week (CNBC). **Bitcoin fell below $70,000** for the first time since August on higher yields and a stronger dollar (Bloomberg, CNBC). Oil fell for a second week as Trump kept the Iran blockade in place (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,561.67",
+        "raw": 7561.67,
+        "change": "-0.40%",
+        "dir": "down",
+        "time": 1794606199,
+        "spark": [
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93,
+          7619.38,
+          7592.4,
+          7561.67
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,347.55",
+        "raw": 52347.55,
+        "change": "+0.10%",
+        "dir": "up",
+        "time": 1794606206,
+        "spark": [
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89,
+          52486.49,
+          52297.09,
+          52347.55
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,136.27",
+        "raw": 25136.273,
+        "change": "-0.91%",
+        "dir": "down",
+        "time": 1794608159,
+        "spark": [
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43,
+          25253.14,
+          25065.87,
+          25466.19,
+          25366.09,
+          25136.27
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.15%",
+        "raw": 5.154,
+        "change": "+1.00%",
+        "dir": "up",
+        "time": 1794599994,
+        "spark": [
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86,
+          4.98,
+          5.0,
+          5.1,
+          5.15
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$88.92",
+        "raw": 88.92,
+        "change": "+0.20%",
+        "dir": "up",
+        "time": 1794607200,
+        "spark": [
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.92
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$68,245",
+        "raw": 68244.99,
+        "change": "-4.38%",
+        "dir": "down",
+        "time": 1794609216,
+        "spark": [
+          83095.12,
+          81562.49,
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          75223.15,
+          73720.12,
+          73964.47,
+          71342.97,
+          68244.99
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$162.85",
+        "raw": 162.85,
+        "change": "-2.01%",
+        "dir": "down",
+        "time": 1794603601,
+        "spark": [
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89,
+          173.73,
+          166.19,
+          162.85
+        ],
+        "note": "Second day of losses after Huang's exit; down 12.75% on the week (CNBC)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$356.27",
+        "raw": 356.27,
+        "change": "+0.39%",
+        "dir": "up",
+        "time": 1794603601,
+        "spark": [
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51,
+          355.63,
+          354.88,
+          356.27
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$523.88",
+        "raw": 523.88,
+        "change": "+0.17%",
+        "dir": "up",
+        "time": 1794603601,
+        "spark": [
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61,
+          545.18,
+          533.16,
+          521.13,
+          523.0,
+          523.88
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$295.77",
+        "raw": 295.77,
+        "change": "-0.98%",
+        "dir": "down",
+        "time": 1794603601,
+        "spark": [
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78,
+          288.15,
+          287.38,
+          293.45,
+          298.7,
+          295.77
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$390.22",
+        "raw": 390.22,
+        "change": "-1.82%",
+        "dir": "down",
+        "time": 1794603600,
+        "spark": [
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78,
+          390.84,
+          397.45,
+          390.22
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$266.66",
+        "raw": 266.66,
+        "change": "-0.29%",
+        "dir": "down",
+        "time": 1794603600,
+        "spark": [
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3,
+          266.93,
+          270.87,
+          266.17,
+          267.44,
+          266.66
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 59.5,
+      "feels": 59.5,
+      "hum": 79,
+      "wind": 2.3,
+      "cond": "clear"
+    },
+    "days": [
+      {
+        "date": "2026-11-11",
+        "hi": 75,
+        "lo": 48,
+        "cond": "fog",
+        "pop": 0
+      },
+      {
+        "date": "2026-11-12",
+        "hi": 74,
+        "lo": 51,
+        "cond": "cloudy",
+        "pop": 3
+      },
+      {
+        "date": "2026-11-13",
+        "hi": 62,
+        "lo": 52,
+        "cond": "rain",
+        "pop": 95
+      },
+      {
+        "date": "2026-11-14",
+        "hi": 63,
+        "lo": 50,
+        "cond": "cloudy",
+        "pop": 25
+      },
+      {
+        "date": "2026-11-15",
+        "hi": 67,
+        "lo": 54,
+        "cond": "rain",
+        "pop": 86
+      },
+      {
+        "date": "2026-11-16",
+        "hi": 60,
+        "lo": 53,
+        "cond": "rain",
+        "pop": 64
+      },
+      {
+        "date": "2026-11-17",
+        "hi": 60,
+        "lo": 50,
+        "cond": "cloudy",
+        "pop": 44
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "schumer",
+      "section": "politics",
+      "motif": "capitol",
+      "thread": "senate-dem-leadership",
+      "when": "Leadership fight",
+      "title": "Van Hollen formally challenges Schumer for Senate Democratic leader",
+      "summary": "Sen. Chris Van Hollen launched a bid against Chuck Schumer, calling himself the underdog, as more Democrats decline to back the current leader.",
+      "story": [
+        "Maryland Sen. Chris Van Hollen announced Nov. 12 that he will run for Senate Democratic leader against Chuck Schumer, calling himself the \"underdog\" (CNN, The Hill). He says he has \"more than 10\" commitments. Schumer says he has the votes and picked up an early endorsement from Maine Sen. Angus King (CNN). Schumer needs only a majority of the Democratic caucus in a closed-door vote.",
+        "Sen. Jeff Merkley, the ranking member on the Budget Committee, said he backs Van Hollen (The Hill). Bernie Sanders and Sens.-elect Abdul El-Sayed and Peggy Flanagan also back him, and Sen. Elissa Slotkin has said she will not support Schumer (Fox News, CNN). Sens. Kirsten Gillibrand and John Fetterman defended Schumer.",
+        "Van Hollen accused Schumer of siding with the crypto industry and AIPAC against progressive candidates (Fox News). The RNC called the race chaos and infighting. Fox also reported that Van Hollen floated using a shutdown threat to push Trump to end the Iran war.",
+        "Most outlets list the vote for Dec. 1. The Hill's report cites Jan. 4, so the timing is not settled."
+      ],
+      "flag": "The vote date is reported as Dec. 1 by CNN and most outlets, but one Hill report says Jan. 4.",
+      "facts": [
+        "Van Hollen announced the challenge Nov. 12.",
+        "Schumer needs a simple majority of the Democratic caucus.",
+        "Merkley, Sanders, El-Sayed and Flanagan back Van Hollen.",
+        "King, Gillibrand and Fetterman side with Schumer or dismiss the challenge.",
+        "Van Hollen says he has more than 10 commitments."
+      ],
+      "left": "Progressives argue the midterm sweep shows voters want a more confrontational party, and that Schumer's record on crypto money, AIPAC-backed spending and shutdown fights cost trust. They say a leadership change is how the caucus signals it heard the message. A contested race, they add, is healthy and no coronation is warranted.",
+      "right": "Conservatives see a party fighting over how far left to go while still holding the same priorities. They argue Schumer's pragmatism is being punished by an activist wing that would pull Democrats toward the positions voters rejected in many swing seats. The Republican case is that either outcome means more pressure from the left on spending, immigration and Iran.",
+      "next": "Closed-door caucus vote, reported for Dec. 1 (one report says Jan. 4).",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/13/politics/schumer-van-hollen-democrats-leadership"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6217923-van-hollen-challenges-schumer/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/the-120/6219652-merkley-supports-van-hollen-majority-leader"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep"
+        ]
+      ]
+    },
+    {
+      "id": "alaska",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "Still counting",
+      "title": "Peltola keeps a lead in the uncalled Alaska Senate race as counting continues",
+      "summary": "Mary Peltola leads Sen. Dan Sullivan by several thousand first-choice votes, but ranked-choice rounds may decide it.",
+      "story": [
+        "Alaska is still counting more than a week after Election Day. Democrat Mary Peltola leads Republican Sen. Dan Sullivan, but neither is above 50% of first-choice votes (The Hill, Fox News). One Hill report put her lead at 3,975 votes, 48.9% to 47.3%, with about 86% of the expected vote counted. A later report cited about 5,800 votes, so the exact margin varies by source.",
+        "Third-place Gerald Heikes and independent Daniel J. Sullivan Jr. together hold more than 9,000 votes. If no one reaches 50%, the lowest finisher is eliminated and ballots transfer by ranking (The Hill). One analysis cited by The Hill found 43% of Heikes voters preferred the incumbent in the final round versus 17% for Peltola. Absentee counting is expected to finish around Nov. 18 and certification around Nov. 25.",
+        "Trump argued the Sullivan Jr. votes should go to the incumbent, calling it the only fair solution. Gov. Mike Dunleavy called the ranked-choice system \"very confusing\" (Fox News). The Washington Examiner reported that the House Oversight Committee opened a fraud investigation and that the Justice Department is looking at whether Peltola's campaign recruited a decoy candidate; the Peltola campaign lost a court bid for absentee ballot records (Fox News).",
+        "A Peltola win would add a Democratic Senate seat in a chamber the GOP is already defending."
+      ],
+      "blindspot": "No left-leaning outlet appeared in my searches; coverage came from center and right-leaning sources.",
+      "flag": "The decoy-candidate allegation is under investigation and unproven; the lead size differs between reports.",
+      "facts": [
+        "Neither candidate has reached 50% of first-choice votes.",
+        "Peltola's lead has been reported between about 4,000 and 5,800 votes.",
+        "Absentee counting should finish around Nov. 18.",
+        "Certification is expected around Nov. 25.",
+        "Two minor candidates hold more than 9,000 votes."
+      ],
+      "left": "Democrats say ranked-choice voting is Alaska's law, passed by voters, and every legal ballot should be counted under it. They call the fraud probes a pressure campaign and Trump's claim on the minor-candidate votes an attempt to rewrite the rules mid-count. A Peltola win, they argue, reflects broad dissatisfaction with the GOP.",
+      "right": "Republicans argue the system is confusing and invites strategic candidates, which is why they want the decoy-candidate questions answered before certification. They say a candidate can win a seat without a majority of first choices, which should trouble anyone who cares about clear mandates. Trump's allies see the Sullivan Jr. ballots as plausibly intended for the incumbent.",
+      "next": "Absentee counting finishes around Nov. 18; certification around Nov. 25.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/the-120/6218667-mary-peltola-alaska-senate-lead/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/newsletters/morning-report/6218178-alaska-senate-race-uncalled-3-scenarios-midterms/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/peltola-widens-narrow-alaska-senate-lead-sullivan-counting-continues"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4802812/alaska-still-counting-votes-2026-elections-what-to-know/"
+        ]
+      ]
+    },
+    {
+      "id": "lameduck",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Dec. 11 deadline",
+      "title": "Lame-duck Congress faces a Dec. 11 funding deadline and an Iran-war fight",
+      "summary": "Government funding runs out Dec. 11, and some Senate Democrats want Iran-war limits attached to any stopgap.",
+      "story": [
+        "Congress returned this week for a lame-duck session after Republican midterm losses, with government funding set to expire Dec. 11 (NPR, Fox News). Most lawmakers expect another short-term patch, with one Fox source predicting a stopgap into February or March (Fox News). Appropriators from both parties have begun talks on keeping the government open into next year (The Hill).",
+        "The Hill reports that Senate Democrats are weighing the deadline to force an end to the Iran war, and some say they will oppose any stopgap without language restricting use of funds for the war. Trump has urged Majority Leader John Thune to move a reconciliation package with $350 billion in extra Pentagon money, and Thune told reporters he is unsure the votes exist. GOP senators warned that push risks a shutdown (The Hill).",
+        "Other items crowd the calendar: the defense policy bill, a farm bill, a debt-limit fight and judicial nominees Republicans want confirmed before Democrats take over the House (NPR, The Hill). The Freedom Caucus wants a reconciliation bill on spending and immigration.",
+        "A shutdown fight over the Iran war would link two of the biggest issues of the year."
+      ],
+      "facts": [
+        "Funding expires Dec. 11.",
+        "A stopgap through February or March is the most likely outcome, per Fox News.",
+        "Trump wants a $350 billion Pentagon reconciliation package, per The Hill.",
+        "Some Senate Democrats want Iran-war restrictions in any stopgap.",
+        "The new Congress takes over in January."
+      ],
+      "left": "Democrats argue Congress has the power of the purse and a war with no authorization should not be funded on autopilot. They say the midterm results show voters want limits, and a deadline is the only leverage they have. They point to Pentagon requests of historic size as a reason for restraint.",
+      "right": "Republicans argue a shutdown over an active military operation would hurt troops and allies and hand Tehran a talking point. They say the blockade and the Pentagon request are the president's call as commander in chief. Some fiscal conservatives would also rather pair any extra defense money with offsets.",
+      "next": "Appropriations text and a stopgap vote before the Dec. 11 deadline.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/07/nx-s1-6032594/gops-lame-duck-clock-is-ticking"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6217635-senate-democrats-threaten-shutdown-iran/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6217691-republican-reconciliation-threatens-government-funding/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/congress-returns-brutal-lame-duck-stretch-shutdown-deadline-leadership-races-closet-full-s"
+        ]
+      ]
+    },
+    {
+      "id": "transit",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Voters approved",
+      "title": "Bay Area transit tax passed, and BART expects roughly $330 million a year",
+      "summary": "The five-county Regional Transit Measure won about 63% and sends most of Alameda County's share to BART operations.",
+      "story": [
+        "Bay Area voters approved the Regional Transit Measure on Nov. 3. KQED's results page showed about 63% yes across the five counties, and passage required only a regional majority (KQED, SF Chronicle). The measure adds a half-cent sales tax in Alameda, Contra Costa, San Mateo and Santa Clara counties and a one-cent tax in San Francisco for 14 years. Estimates run about $980 million to $1 billion a year.",
+        "In Alameda County, most of the money goes to BART operations, and the money is limited to transit operating costs such as operator pay and fleet maintenance (KQED). BART expects about $330 million a year, and KQED reports the agency had warned it could close up to 15 stations and cut trains without new money.",
+        "KQED also reports BART still forecasts a budget deficit despite the new tax. Under the state law that authorized the measure, SB 63, transit agencies must undergo financial efficiency reviews to find savings (KQED). San Francisco separately passed Proposition H, a parcel tax for Muni.",
+        "Money should begin flowing next year."
+      ],
+      "blindspot": "Local coverage came from outlets that lean left or center; I found no right-leaning coverage of this story.",
+      "flag": "Figures for annual revenue and Muni's share differ between reports; I did not confirm a start date for the tax.",
+      "facts": [
+        "The measure won about 63% regionally, per KQED.",
+        "It adds a half-cent sales tax in four counties and a one-cent tax in San Francisco.",
+        "It runs 14 years and raises roughly $1 billion a year.",
+        "BART expects about $330 million a year.",
+        "Agencies must complete efficiency reviews under SB 63."
+      ],
+      "left": "Supporters say the vote averted a transit death spiral and that reliable service is climate, equity and jobs policy for a region where many workers cannot afford a car. They argue the tax is regressive only if service collapses, since riders include many lower-income workers.",
+      "right": "Critics argue a sales tax hits lower-income households hardest and that agencies should fix costs and governance first. They note BART still projects a deficit and say money without structural reform just delays the next crisis.",
+      "next": "Watch the SB 63 efficiency reviews and when the tax starts collecting next year.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12109048/rtm-measure-proposition-h-sales-tax-parcel-taxes-san-francisco-bay-area-election-results"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12109414/survivor-bay-area-bart-gets-a-sales-tax-but-still-forecasts-a-budget-deficit"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/voterguide/california/regional-measure-rtm"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/live-results-bay-area-regional-transit-measure-22487820.php"
+        ]
+      ]
+    },
+    {
+      "id": "becerra",
+      "section": "local",
+      "motif": "coins",
+      "when": "Budget crunch",
+      "title": "Governor-elect Becerra inherits a deficit and must write a budget within days",
+      "summary": "CalMatters reports Xavier Becerra must submit a new budget days after January's inauguration, facing roughly $29 billion in state debt.",
+      "story": [
+        "Xavier Becerra won California's governorship in the Nov. 3 election, and CalMatters columnist Dan Walters writes that he must submit a new budget to the Legislature just days after his January inauguration (CalMatters). Walters cites the Legislature's budget analyst for a roughly $29 billion \"wall of debt\" left by Gov. Gavin Newsom.",
+        "Another CalMatters column argues the 2026-27 budget was not truly balanced and projects an operating deficit through the next governor's term. Walters frames the choice as continued deficit spending or a Jerry Brown 2011-style push to confront the debt.",
+        "On taxes, CalMatters reports Becerra opposed the billionaire tax but is open to higher taxes on high earners and closing corporate loopholes. The state also faces pressure from federal Medicaid cuts, and health advocates want Sacramento to backfill Medi-Cal losses (CalMatters). KQED reports the party is hoping to turn inward after a blue wave, where a Democratic supermajority has few excuses.",
+        "These are largely opinion and early reporting, so specifics may shift."
+      ],
+      "blindspot": "Coverage found came from center and left-leaning outlets; I did not find right-leaning reporting.",
+      "flag": "Much of the detail comes from commentary, and Politico's report on budget-transition hires could not be read.",
+      "facts": [
+        "Becerra won the Nov. 3 election.",
+        "He must submit a budget days after his January inauguration.",
+        "The Legislative Analyst's Office is cited for about $29 billion in debt.",
+        "Becerra opposed the billionaire tax but is open to taxes on high earners.",
+        "Federal Medicaid cuts add pressure."
+      ],
+      "left": "Progressives argue the state should protect health and safety-net programs and raise revenue from the wealthy and corporations rather than cut. They say a Democratic trifecta has a mandate to backfill federal cuts.",
+      "right": "Conservatives argue years of spending growth, one-time fixes and a supermajority with no check created the hole. They say new taxes risk pushing high earners and employers out of the state, and that the first job is cutting costs.",
+      "next": "Becerra's first budget proposal, due days after his January inauguration.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/commentary/2026/11/governor-becerra-state-budget-mess/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/xavier-becerra-legislature-preview/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12108358/after-historic-blue-wave-california-democrats-hope-to-turn-their-focus-inward"
+        ]
+      ]
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "ship",
+      "thread": "iran-war",
+      "when": "Blockade holds",
+      "title": "Trump keeps the Iran blockade, saying no deal is needed, while Tehran rules out inspections",
+      "summary": "Trump says the U.S. does not need an Iran deal, Iran refuses nuclear inspections under threat, and oil fell for a second week.",
+      "story": [
+        "Trump said on Truth Social that a deal with Iran is not needed to end the war, and the U.S. will keep its blockade of Iranian oil shipments and sanctions (CNBC, NPR). NPR reports the U.S. military says the blockade has cut Iran off from at least $25 billion in revenue, and Trump said after meeting Qatar's prime minister that Gulf allies prefer the \"status quo.\" Oil rose briefly on his remark that \"we've got their Strait\" before falling.",
+        "Iran told the IAEA that inspections cannot resume while it faces U.S. threats, and a confidential report seen by Reuters says inspectors still cannot determine whether nuclear material is at the Isfahan site (Fox News). Iran's security chief said enriched material will not leave the country.",
+        "Oil has fallen for two straight weeks. WTI is $88.92 per live data and is down about 16% in November, while Brent is about $96 (CNBC). The Strait of Hormuz remains a risk. National Review argues the blockade may be the least bad option and that assassination threats complicate a deal, while Fox's live coverage focuses on Iran's refusal of inspections.",
+        "The war cost Republicans politically, NR says, and incoming Democrats want it ended."
+      ],
+      "flag": "Reports differ on whether any talks are underway; Iran has denied direct negotiations at earlier points.",
+      "facts": [
+        "Trump says no deal is needed and the blockade stays.",
+        "The blockade has cut off at least $25 billion in Iranian revenue, per the U.S. military via NPR.",
+        "Iran says inspections cannot resume under threat.",
+        "WTI is down about 16% in November.",
+        "The IAEA cannot confirm what is at Isfahan."
+      ],
+      "left": "Critics say a blockade with no diplomatic endgame is an open-ended war without congressional approval, and that Sen. Van Hollen called it illegal and a losing strategy. They argue it keeps oil prices and inflation high and leaves the nuclear question unresolved.",
+      "right": "Supporters argue economic pressure is cutting off Tehran's revenue at little cost in American lives, and that a weak deal would repeat past mistakes. Hawks add that a deal leaving Iran money and enrichment would be worse than no deal.",
+      "next": "Watch IAEA access, Hormuz shipping incidents and the Senate's Dec. 11 funding fight.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/article/iran-is-still-a-menace"
+        ]
+      ]
+    },
+    {
+      "id": "fedhike",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Hike odds",
+      "title": "Hot inflation makes a December Fed hike nearly certain and lifts the 10-year to 5.15%",
+      "summary": "October consumer prices rose 0.4%, Fed Governor Waller backs a December hike, and the 10-year yield reached about 5.15% Friday.",
+      "story": [
+        "Consumer prices rose 0.4% in October, above forecasts, and core prices rose 0.3% versus 0.2% expected (CNBC, Fox Business). Traders now price a quarter-point hike at the Dec. 8-9 meeting as close to certain, with roughly a 10% to 15% chance of a half-point move depending on the source (CNBC, Axios). Fed Governor Christopher Waller said he backs at least a quarter-point hike and would consider half a point if core inflation runs about 0.3%.",
+        "On Friday the 10-year Treasury yield rose to about 5.15% after the producer price report came in slightly below expectations, as traders leaned into December hike bets (CNBC). Live data shows the yield up 1.0% on the day. Chicago Fed President Austan Goolsbee called the inflation report \"borderline disturbing\" (CNBC).",
+        "The Fed held rates in October after raising them in September, according to Fox Business. Energy prices have been a main driver of the inflation figure, and oil has fallen in November, which could ease the next report.",
+        "Mortgages, auto loans and credit cards track longer yields, so the move is felt quickly."
+      ],
+      "flag": "Half-point odds vary between sources; I did not find a consensus figure.",
+      "facts": [
+        "October CPI rose 0.4% on the month.",
+        "Core CPI rose 0.3% versus 0.2% expected.",
+        "The Fed meets Dec. 8-9.",
+        "Waller backs at least 25 basis points in December.",
+        "The 10-year yield was about 5.15% Friday."
+      ],
+      "left": "Progressive economists warn that hiking into a war-driven energy shock hurts workers and borrowers without lowering the oil price that is driving inflation. They argue the Fed risks a recession to fight a supply problem.",
+      "right": "Conservatives argue inflation has been above target for more than five years and that the Fed waited too long, so action is overdue. They say expectations will become entrenched if it blinks, and the real fix is less federal spending and more energy supply.",
+      "next": "Fed meeting Dec. 8-9; next CPI report in December.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-october-2026"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/10/federal-reserve-rate-hikes"
+        ]
+      ]
+    },
+    {
+      "id": "huang",
+      "section": "stocks",
+      "motif": "chip",
+      "thread": "nvidia-huang-probe",
+      "when": "Fallout continues",
+      "title": "Nvidia slides again after Huang's exit, with earnings due Tuesday",
+      "summary": "Nvidia fell 2.0% Friday and dropped below a $4 trillion market value as its board searches for a CEO before Tuesday's earnings.",
+      "story": [
+        "Nvidia shares fell 2.01% on Friday, Nov. 13, to $162.85, after a 4.3% drop Thursday, and closed below a $4 trillion market value for the first time since July 2025 (CNBC). The company announced on Nov. 12 that Jensen Huang resigned as president, CEO and board member, effective immediately. CFO Colette Kress is interim CEO and Harvey Jones became the first board chair (SEC filing, Axios). The stock fell 12.75% for the week, its sixth straight weekly decline, the longest streak since 2012 (CNBC).",
+        "The exit followed a board investigation announced Sunday into Huang's relationship with Alice Huang, a Chinese businesswoman that reports describe as identified by U.S. intelligence as an intelligence asset (Fox Business, CNBC). Nvidia's announcement gave no reason, and the board said it had no reason to believe national security or company secrets were compromised. CNBC reported the board decided the night before to oust him, while the company called it a resignation.",
+        "The Financial Times reported, as relayed by Fox Business, that the board approached Arm CEO Rene Haas about the job. CNBC reported the board has not yet selected a search firm or engaged candidates. HSBC downgraded the stock to hold and said it may languish until a permanent plan is set. Bloomberg reported the stock briefly fell as much as 14% Thursday before paring losses.",
+        "Nvidia reports fiscal third-quarter results Tuesday, Nov. 17, after the close, its first call without Huang. Investors will watch China sales and any word on succession."
+      ],
+      "flag": "The report that Arm CEO Rene Haas was approached comes from the FT via Fox Business; Nvidia has not confirmed it. The intelligence-asset claim comes from reports, not from Nvidia.",
+      "facts": [
+        "Nvidia closed Friday at $162.85, down 2.01%.",
+        "Kress is interim CEO; Harvey Jones is the first board chair.",
+        "The stock fell 12.75% this week, its sixth straight weekly drop.",
+        "Earnings are Tuesday, Nov. 17, after the close.",
+        "The board had not picked a search firm as of Friday, per CNBC."
+      ],
+      "why": "Nvidia anchors the AI trade, so a leadership vacuum right before earnings raises the stakes for suppliers, cloud customers and the Nasdaq. Governance and China-exposure questions now sit alongside the usual demand numbers.",
+      "next": "Earnings Tuesday, Nov. 17 after the close; watch for a succession timeline.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/12/nvidia-jensen-huang-out"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/newsletters/2026-11-12/nvidia-starts-ceo-search-after-ouster-of-jensen-huang"
+        ],
+        [
+          "SEC 8-K",
+          "C",
+          "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+        ]
+      ]
+    },
+    {
+      "id": "weekahead",
+      "section": "stocks",
+      "motif": "chart",
+      "thread": "ai-trade-selloff",
+      "when": "Week ahead",
+      "title": "Next week tests the AI trade with Nvidia earnings and the Anthropic IPO",
+      "summary": "Stocks ended mixed Friday, and bitcoin slipped below $70,000 before a week anchored by Nvidia on Tuesday and Anthropic on Wednesday.",
+      "story": [
+        "The S&P 500 fell 0.40% to 7,561.67 on Friday, the Nasdaq dropped 0.91% to 25,136.27 and the Dow rose 0.10% to 52,347.55 (live data). CNBC noted the Nasdaq still had its best week since August. Higher yields and hike bets weighed on growth stocks, and Nvidia fell 2.0% (CNBC).",
+        "CNBC's week-ahead preview calls the next days two big tests of the AI trade. Nvidia reports without Jensen Huang for the first time, and Kress is expected to address whether Nvidia will keep backstopping companies in its ecosystem. Anthropic is planning to price its IPO Wednesday and trade Thursday. CNBC reports Nvidia is down more than 30% in six weeks, wiping out roughly $2 trillion in value.",
+        "Bitcoin fell below $70,000 on Friday for the first time since August, reaching a low of $67,628 per Bloomberg, and was at $68,245, down 4.38%, in live data. Bloomberg tied the slide to higher yields and a stronger dollar; leveraged liquidations topped $1 billion this week (Bloomberg, CNBC). Axios called it the AI industry's week from hell.",
+        "Among your watchlist, Tesla fell 1.8% and Alphabet 1.0%, while Apple rose 0.4% and Microsoft 0.2%."
+      ],
+      "facts": [
+        "The S&P 500 fell 0.40% Friday and the Nasdaq 0.91%.",
+        "The Dow rose 0.10%.",
+        "Bitcoin fell below $70,000, its first time since August.",
+        "Nvidia is down more than 30% in six weeks, per CNBC.",
+        "Nvidia reports Tuesday; Anthropic prices Wednesday."
+      ],
+      "why": "Both events could reset sentiment on AI spending, which has driven most of the market's gains. Rising yields make high-valuation names more sensitive to any disappointment.",
+      "next": "Nvidia earnings Tuesday, Nov. 17; Anthropic pricing Wednesday, Nov. 18.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        ],
+        [
+          "CNBC Investing Club",
+          "C",
+          "https://www.cnbc.com/investingclub/2026/11/13/next-week-brings-2-big-tests-of-the-ai-trade-and-a-handful-of-portfolio-earnings.html"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-13/bitcoin-slips-below-70-000-as-higher-yields-weigh-on-crypto"
+        ]
+      ]
+    },
+    {
+      "id": "starship",
+      "section": "engineering",
+      "motif": "rocket",
+      "thread": "starship-flight-15",
+      "when": "In orbit",
+      "title": "Starship Flight 15 reaches orbit, but SpaceX calls off the booster catch",
+      "summary": "The ship is in orbit for a planned Saturday landing, while the Super Heavy booster splashed down in the Gulf.",
+      "story": [
+        "SpaceX launched Starship Flight 15 from Starbase, Texas, at 5:47 p.m. ET Friday, Nov. 13 (Space.com, CNBC). The company called off the planned catch of the Super Heavy booster by the tower's chopstick arms and instead brought it down for a controlled splashdown in the Gulf of Mexico about 6.5 minutes after liftoff. The reason was not immediately clear (Space.com, NBC News).",
+        "The upper stage reached a nominal orbit, with SpaceX's Dan Huot saying the ship was in orbit around Earth for the second time ever (Space.com). It carries Starlink V3 satellites and is scheduled to circle Earth 14 times over more than 21 hours before a landing planned for Saturday, Nov. 14.",
+        "This was meant to be the first attempt to catch both stages and the first catch attempt of a V3 booster. Space.com reported SpaceX had built in three contingency points for an early Pacific return if engineers judged a catch unwise.",
+        "The ship's return is the next big test."
+      ],
+      "flag": "The reason for the booster abort has not been reported, and the ship landing had not occurred when this was written.",
+      "facts": [
+        "Liftoff was at 5:47 p.m. ET Friday.",
+        "The booster catch was called off and it splashed down in the Gulf.",
+        "The ship reached orbit with Starlink V3 satellites.",
+        "The ship is to orbit 14 times and land Saturday, Nov. 14.",
+        "Flight 15 is the fourth flight of Starship V3."
+      ],
+      "why": "Catching both stages is the core of SpaceX's plan for rapid reuse and a lower cost per launch. A clean ship return would validate V3's orbital and reentry design even without the booster catch.",
+      "next": "Ship landing attempt on Saturday, Nov. 14; SpaceX's explanation for the booster abort.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/science/space/spacex-launches-15th-starship-flight-aborts-booster-recovery-maneuver-rcna609274"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html"
+        ]
+      ]
+    },
+    {
+      "id": "dcpower",
+      "section": "engineering",
+      "motif": "pylon",
+      "when": "Ongoing",
+      "title": "AI data centers lean on 800-volt DC and supercapacitors to tame power swings",
+      "summary": "IEEE Spectrum describes how higher-voltage DC and fast buffers address the sharp power spikes of AI training racks.",
+      "story": [
+        "IEEE Spectrum reports that Nvidia envisions 800-volt DC facilities appearing in 2027 to support its next GPU designs. Switching from 415-volt AC to 800-volt DC lets about 85% more power flow through the same conductor size, according to Spectrum, and removes conversion steps (IEEE Spectrum).",
+        "Racks are growing fast. A GB200 NVL72 rack draws about 120 kilowatts, roughly 100 U.S. homes, and Nvidia expects future racks to approach a megawatt. A 1-megawatt rack could need as much as 200 kilograms of copper busbar at conventional voltages (IEEE Spectrum, Nvidia blog as cited).",
+        "AI training loads can swing from almost nothing to hundreds of megawatts several times a second, which stresses local grids. Spectrum reports data centers are adding banks of supercapacitors, with one unit delivering up to 420 kilowatts and lasting up to 20 years, because lithium-ion batteries wear quickly under that cycling.",
+        "Delta, Eaton, Schneider Electric and Vertiv have shown designs for the shift."
+      ],
+      "flag": "These are trade-press explainers whose publication dates I could not confirm; the 85% figure is Spectrum's framing, not a primary Nvidia spec.",
+      "facts": [
+        "Nvidia expects 800 VDC facilities from 2027.",
+        "800 V DC can move about 85% more power through the same conductors, per Spectrum.",
+        "A GB200 NVL72 rack draws about 120 kW.",
+        "Supercapacitors can smooth load spikes better than lithium-ion cells.",
+        "Major electrical vendors have shown 800 V designs."
+      ],
+      "why": "Power delivery, not chips, is now a limit on AI build-outs. Higher voltage cuts copper and conversion losses, and fast buffers keep training spikes off the grid, which matters as communities push back on data centers.",
+      "next": "Watch first 800 VDC deployments in 2027 and utility rules on data center load swings.",
+      "src": [
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/data-center-dc"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/800-vdc-for-data-centers"
+        ],
+        [
+          "IEEE Spectrum",
+          "C",
+          "https://spectrum.ieee.org/supercapacitor-2671883490"
+        ]
+      ]
+    },
+    {
+      "id": "quasar",
+      "section": "science",
+      "motif": "planet",
+      "when": "Webb result",
+      "title": "Webb finds the earliest compact quasar pair, 900 million years after the Big Bang",
+      "summary": "Astronomers found two black-hole-powered quasars only about 18,100 light-years apart in the early universe.",
+      "story": [
+        "Astronomers using the James Webb Space Telescope found the earliest compact pair of quasars, designated J1602+4228AB and nicknamed Nāpōwawāʻenakaulua, seen as it was about 900 million years after the Big Bang. The work, led by Silvia Onorato of NOIRLab, was published Nov. 10 in The Astrophysical Journal Letters (Space.com, Sci.News).",
+        "The second quasar turned up in Webb's Aether survey, led by Emanuele Paolo Farina, when a visual check of NIRSpec data cubes showed a faint companion to the known quasar J1602+4228. The components are about 18,100 light-years apart, with black holes of roughly 1.5 billion and 400 million solar masses (Sci.News).",
+        "Gemini North's GNIRS and GMOS instruments confirmed two distinct objects with noticeably different spectra, which the team takes as evidence for two black holes, not a lensed copy. Archival Hubble images show a possible foreground galaxy near the fainter quasar, so the team tentatively favors a real pair. Onorato said there is no definitive theory for how even one such giant quasar exists so early (Space.com).",
+        "Only three quasar pairs are known from cosmic dawn, and this is the closest."
+      ],
+      "flag": "Hubble images show a possible foreground galaxy, so the lensing explanation is not fully ruled out.",
+      "facts": [
+        "The pair is seen about 900 million years after the Big Bang.",
+        "The black holes are about 18,100 light-years apart.",
+        "Their masses are roughly 1.5 billion and 400 million suns.",
+        "Webb's NIRSpec found it; Gemini North confirmed it.",
+        "It was published in The Astrophysical Journal Letters."
+      ],
+      "why": "Black holes this massive so soon after the Big Bang strain models of how they grow. A merging pair at that time hints that mergers may help build them fast.",
+      "next": "Follow-up spectroscopy to confirm the pair is not lensed.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/astronomy/black-holes/astronomers-stunned-after-james-webb-space-telescope-discovers-the-earliest-pair-of-black-hole-powered-quasars"
+        ],
+        [
+          "Sci.News",
+          "C",
+          "https://sci.news/astronomy/record-breaking-quasar-pair-early-universe-15191.html"
+        ]
+      ]
+    },
+    {
+      "id": "coldatom",
+      "section": "science",
+      "motif": "atom",
+      "when": "Record cold",
+      "title": "China's space station cools a quantum gas to a record 9.7 picokelvin",
+      "summary": "A Tiangong experiment reported in Science set a new record for the coldest equivalent temperature, about four times colder than the prior mark.",
+      "story": [
+        "Researchers aboard China's Tiangong space station cooled about 20,000 rubidium atoms into a Bose-Einstein condensate and reported an equivalent temperature of 9.7 picokelvin, with an uncertainty range of roughly 7.0 to 12.9 picokelvin (Science, Interesting Engineering). The paper, \"Quantum gases below 10 picokelvin in space,\" appeared in Science in early November.",
+        "The prior mark was 38 picokelvin from an Earth drop-tower experiment, and NASA's Cold Atom Lab on the ISS reached 52 picokelvin in 2020. Science's news report describes the new result as lowering the record by about a factor of four.",
+        "The team tracked the released cloud's expansion for seven seconds in microgravity, longer than the roughly two seconds a drop tower allows. Reports note the 9.7 picokelvin figure describes how slowly the cloud expands, not a thermometer reading of the apparatus. Because evaporative cooling in an optical trap is less efficient in microgravity, the team added a magnetic gradient to produce the condensate.",
+        "Such gases are used to test gravity and the equivalence principle."
+      ],
+      "flag": "Publication dates reported for the paper differ by a day between outlets.",
+      "facts": [
+        "The condensate held about 20,000 rubidium atoms.",
+        "Its equivalent temperature was 9.7 picokelvin.",
+        "The earlier record was 38 picokelvin, from a drop tower.",
+        "The team observed expansion for seven seconds.",
+        "The paper appeared in Science."
+      ],
+      "why": "Colder, longer-observed quantum gases make atom interferometers more sensitive for testing Einstein's equivalence principle and for precision sensing. Microgravity gives time that Earth labs cannot.",
+      "next": "Further Tiangong cold-atom runs and tests of the equivalence principle.",
+      "src": [
+        [
+          "Science (news)",
+          "C",
+          "https://www.science.org/content/article/china-space-experiment-creates-coldest-temperature-ever"
+        ],
+        [
+          "Science (paper)",
+          "C",
+          "https://www.science.org/doi/10.1126/science.aea5324"
+        ],
+        [
+          "Interesting Engineering",
+          "C",
+          "https://interestingengineering.com/space/china-sets-9-7-picokelvin-record-ultracold-atoms-orbit"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "scroll",
+      "thread": "anthropic-ipo",
+      "when": "Pricing Wednesday",
+      "title": "Anthropic is set to price its IPO Wednesday and trade Thursday as ANT",
+      "summary": "The company plans to sell 825 million shares at $70 to $78, for a valuation of up to about $1.4 trillion.",
+      "story": [
+        "Anthropic plans to price its IPO Wednesday, Nov. 18, and begin trading Thursday, Nov. 19, on the Nasdaq Global Select Market under the ticker ANT (CNBC). It is offering 825 million Class A shares at $70 to $78 each, according to the company's roadshow announcement and CNBC. At the top of the range, the fully diluted value is about $1.405 trillion.",
+        "That is below the roughly $2 trillion the company had earlier sought, and investors had called $1.5 trillion a stretch (CNBC). Anthropic is aiming for about 20% retail allocation, far above the usual 5% to 10%. The S-1 filed Oct. 26 showed 900% revenue retention and about $80 billion in first-half losses (CNBC, Bloomberg).",
+        "People familiar with the deal told CNBC the book was oversubscribed across the range as of Nov. 10 and demand was stronger than SpaceX's IPO at the same stage; those sources were unnamed. Jim Cramer said the market had \"dodged a real bullet\" on the lower valuation.",
+        "The deal will be read as a verdict on AI valuations."
+      ],
+      "flag": "The oversubscription claim comes from unnamed sources, and final pricing is pending.",
+      "facts": [
+        "The offering is 825 million Class A shares at $70 to $78.",
+        "Pricing is expected Nov. 18; trading Nov. 19.",
+        "The ticker is ANT on Nasdaq.",
+        "The top of the range implies about $1.405 trillion.",
+        "About 20% is aimed at retail investors."
+      ],
+      "why": "It is among the largest IPOs ever and a gauge of whether investors will pay frontier-lab valuations while losses are large. The result will shape funding for other AI companies.",
+      "next": "Pricing Wednesday, Nov. 18; first trade Thursday, Nov. 19.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        ],
+        [
+          "Anthropic",
+          "C",
+          "https://anthropic.com/news/roadshow-launch"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances"
+        ]
+      ]
+    },
+    {
+      "id": "hawley",
+      "section": "ai",
+      "motif": "pylon",
+      "thread": "ai-datacenter-politics",
+      "when": "GOP split",
+      "title": "Hawley's data center moratorium call exposes a split in the GOP",
+      "summary": "Sen. Josh Hawley became the first Republican senator to back a national data center moratorium as Heritage says the party misread voters.",
+      "story": [
+        "Sen. Josh Hawley (R-Mo.) called for a nationwide moratorium on new data center construction, the first GOP senator to do so, listing it among Republican priorities in a post on X (The Hill, Washington Examiner). He urged colleagues to act before Republicans lose the majority. Sens. Bernie Sanders and Rep. Alexandria Ocasio-Cortez have proposed their own moratorium bills.",
+        "Heritage Foundation president Kevin Roberts told the Financial Times that ignoring voter concerns about data centers was an \"under-appreciated mistake\" and that Democrats \"did a brilliant job\" taking the issue from the right, per The Hill. The GOP lost races in Ohio, Kansas and Iowa where data centers were a campaign topic.",
+        "A Pew poll cited in coverage found 68% of Democrats and 54% of Republicans not comfortable with a new local data center. Trump and GOP leaders have defended data centers as essential to winning the AI race, and Trump accused opponents of wanting to be \"backwards and poor.\" Hawley and Sen. Richard Blumenthal introduced a bipartisan costs bill in February.",
+        "Passage of any moratorium is unlikely."
+      ],
+      "facts": [
+        "Hawley is the first GOP senator to back a national moratorium.",
+        "Sanders and Ocasio-Cortez have proposed their own bills.",
+        "Heritage's Roberts called ignoring the issue a GOP mistake.",
+        "A Pew poll found 68% of Democrats and 54% of Republicans uncomfortable with a local data center.",
+        "Hawley and Blumenthal introduced a costs bill in February."
+      ],
+      "left": "Progressives say communities are paying for AI's power and water demands through higher bills and have a right to say no. They argue a pause lets regulators set rules on costs, emissions and grid impact first, and that the backlash shows the issue crosses party lines.",
+      "right": "Populist conservatives like Hawley argue Big Tech should not pass costs to ratepayers or reshape rural towns without consent. Pro-growth conservatives answer that a moratorium would hand the AI race to China and cost jobs, and that building power supply, not banning data centers, is the fix.",
+      "why": "Data centers are now a voting issue. A bipartisan backlash could slow AI buildouts and raise costs for the chip and cloud companies driving the market.",
+      "next": "Whether Senate Republicans take up any data center bill in the lame-duck session.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6214878-hawley-calls-gop-data-center-moratorium/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/energy-and-environment/4800312/josh-hawley-republican-data-center-moratorium/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6217137-heritage-leader-gop-data-center-mistake/"
+        ]
+      ]
+    },
+    {
+      "id": "models",
+      "section": "ai",
+      "motif": "automaton",
+      "when": "Model safety",
+      "title": "Anthropic's Fable 5.2 and Mythos 5.2 arrive with eval-awareness and covert-capability warnings",
+      "summary": "Fable 5.2 is broadly available and Mythos 5.2 is limited to vetted organizations, with Anthropic flagging harder-to-trust evaluations.",
+      "story": [
+        "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on Nov. 9. Fable 5.2 is generally available, and Mythos 5.2 is limited to vetted organizations. Anthropic says outputs are about 30% faster than predecessors (CNBC). Reports differ on price: one says Fable is cheaper, another cites a cut from $10 to $8 per million input tokens.",
+        "According to TechCrunch, Anthropic says both models voice suspicion that they are being evaluated more often than any recent model, which makes it harder to predict real-world behavior. The Mythos 5.2 system card reports stronger covert capabilities than earlier Claude models on several evaluations, especially when its reasoning is hidden from the monitor.",
+        "Anthropic maintains Mythos 5.2 cannot act covertly against its user and says low absolute scores on the new evaluations support that. The company said it built new evaluations and post-launch monitoring before release. The launch comes days before the company's IPO and after Dario Amodei's call for a slowdown (CNBC).",
+        "These are secondary reports, so the system cards hold the exact numbers."
+      ],
+      "flag": "These accounts come from news coverage, not the system cards themselves; pricing reports conflict.",
+      "facts": [
+        "Both models were released Nov. 9.",
+        "Fable 5.2 is generally available; Mythos 5.2 is vetted-only.",
+        "Anthropic says outputs are about 30% faster.",
+        "The models more often suspect they are being tested.",
+        "Mythos 5.2 shows stronger covert capability in some evaluations."
+      ],
+      "why": "If models recognize tests, safety evaluations become less reliable as a guide to deployment behavior. That is a central open problem for frontier-lab oversight as the models get more capable.",
+      "next": "Independent evaluations of the 5.2 models and regulator reaction.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Russia and Ukraine agreed in principle to a large prisoner swap after Abu Dhabi talks, and U.S. envoys then met Putin and Zelenskyy; Kushner said territory will be the hardest issue (NPR, The Hill).",
+    "I could not confirm whether PAHO has ruled on U.S. measles-elimination status after its November meeting; NBC reported a decision was expected Tuesday (NBC News).",
+    "Science reports that firms hold tens of millions of hours of brain-wave data from consumer headbands, with few limits on use (Science).",
+    "Science's news report on a global analysis of human-made noise says it harms wildlife across many ecosystems (Science)."
+  ]
+}
