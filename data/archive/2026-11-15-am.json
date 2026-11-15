@@ -1,0 +1,1128 @@
+{
+  "updatedAt": "2026-11-15T14:07:22Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **SpaceX caught a Starship upper stage after orbit** on Saturday, a first for any rocket, though the booster catch was aborted (CNBC, CNN, Space.com). **Van Hollen is challenging Schumer** for Senate Democratic leader, with a secret-ballot vote set for Dec. 1 (NPR, Axios, Fox News). Trump says the U.S. needs no Iran deal and is keeping the blockade, while Iran still refuses inspections (NPR, CNBC, Fox News). Ukraine talks restarted in Abu Dhabi with a swap of more than 1,000 prisoners, and Zelensky says Washington floated Donbas for NATO membership (CNN, NBC News). **Nvidia reports Tuesday without Jensen Huang** after a sixth straight weekly loss, and Anthropic is expected to price its IPO Wednesday at $70 to $78 and trade Thursday as ANT (CNBC, TechCrunch). With **a December Fed hike near certain**, the 10-year yield sits at 5.15% (CNBC, Fox Business). Locally, **rain arrives today and a bigger storm Tuesday night** (SF Chronicle, KQED).",
+  "alerts": [
+    {
+      "text": "Nvidia reports Tuesday, Nov. 17 after the close, its first call without Jensen Huang, after a sixth straight weekly loss.",
+      "level": "high",
+      "story": "nvidia"
+    },
+    {
+      "text": "Rain arrives in Fremont today and Monday, with a bigger storm of 1 to 3 inches forecast from Tuesday night through Thursday.",
+      "level": "watch",
+      "story": "storm"
+    },
+    {
+      "text": "Anthropic is expected to price its IPO Wednesday, Nov. 18 and begin trading as ANT on Thursday, Nov. 19.",
+      "level": "watch",
+      "story": "anthropicipo"
+    },
+    {
+      "text": "Alaska's ranked-choice count is Nov. 18, the Senate Democratic leader vote is Dec. 1 and the Fed meets Dec. 8-9.",
+      "level": "info",
+      "story": "schumer"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "starship",
+      "text": "SpaceX catches a Starship upper stage after orbit for the first time; the booster catch was aborted."
+    },
+    {
+      "story": "nvidia",
+      "text": "Nvidia reports Tuesday after a sixth weekly loss, without Jensen Huang."
+    },
+    {
+      "story": "schumer",
+      "text": "Van Hollen challenges Schumer for Senate Democratic leader; secret ballot Dec. 1."
+    },
+    {
+      "story": "iran",
+      "text": "Trump says no Iran deal is needed and keeps the blockade; Iran refuses inspections."
+    },
+    {
+      "story": "anthropicipo",
+      "text": "Anthropic is set to price its IPO Wednesday at $70 to $78 and trade Thursday."
+    }
+  ],
+  "stat": {
+    "label": "Dec. 9 Fed hike odds",
+    "value": "89%",
+    "note": "Quarter-point hike per CME FedWatch (CNBC)"
+  },
+  "markets": {
+    "asOf": "Fri Nov 13, 5:15 PM ET",
+    "wrap": "Stocks slipped Friday, with the S&P 500 down 0.40% and the Nasdaq down 0.91%, while the Dow edged up 0.10%. **Nvidia fell 2.01% and ended a sixth straight weekly decline** after Huang's exit (CNBC). The 10-year yield at 5.15% reflects **a December Fed hike priced near certain** after 0.4% October inflation (CNBC, Fox Business). WTI held near $88.56 even as Trump said no Iran deal is needed, and oil was set for a second weekly decline (CNBC). Next week's tests are Nvidia's Tuesday earnings and Anthropic's IPO (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,561.67",
+        "raw": 7561.67,
+        "change": "-0.40%",
+        "dir": "down",
+        "time": 1794606199,
+        "spark": [
+          7718.94,
+          7744.06,
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93,
+          7619.38,
+          7592.4,
+          7561.67
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "52,347.55",
+        "raw": 52347.55,
+        "change": "+0.10%",
+        "dir": "up",
+        "time": 1794606206,
+        "spark": [
+          51621.48,
+          52177.69,
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89,
+          52486.49,
+          52297.09,
+          52347.55
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "25,136.27",
+        "raw": 25136.273,
+        "change": "-0.91%",
+        "dir": "down",
+        "time": 1794608159,
+        "spark": [
+          26692.87,
+          26713.03,
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43,
+          25253.14,
+          25065.87,
+          25466.19,
+          25366.09,
+          25136.27
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.15%",
+        "raw": 5.154,
+        "change": "+1.00%",
+        "dir": "up",
+        "time": 1794599994,
+        "spark": [
+          5.22,
+          5.19,
+          5.09,
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86,
+          4.98,
+          5.0,
+          5.1,
+          5.15
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$88.56",
+        "raw": 88.56,
+        "change": "-0.20%",
+        "dir": "down",
+        "time": 1794607200,
+        "spark": [
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$65,474",
+        "raw": 65474.12,
+        "change": "+2.11%",
+        "dir": "up",
+        "time": 1794739429,
+        "spark": [
+          82141.46,
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          75223.15,
+          73720.12,
+          73964.47,
+          71342.97,
+          68249.27,
+          64128.05,
+          65474.18
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$162.85",
+        "raw": 162.85,
+        "change": "-2.01%",
+        "dir": "down",
+        "time": 1794603601,
+        "spark": [
+          221.3,
+          217.23,
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89,
+          173.73,
+          166.19,
+          162.85
+        ],
+        "note": "Sixth straight weekly decline after Huang's exit; earnings Tuesday (CNBC)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$356.27",
+        "raw": 356.27,
+        "change": "+0.39%",
+        "dir": "up",
+        "time": 1794603601,
+        "spark": [
+          342.96,
+          342.0,
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51,
+          355.63,
+          354.88,
+          356.27
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$523.88",
+        "raw": 523.88,
+        "change": "+0.17%",
+        "dir": "up",
+        "time": 1794603601,
+        "spark": [
+          533.69,
+          539.44,
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61,
+          545.18,
+          533.16,
+          521.13,
+          523.0,
+          523.88
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$295.77",
+        "raw": 295.77,
+        "change": "-0.98%",
+        "dir": "down",
+        "time": 1794603601,
+        "spark": [
+          347.64,
+          349.22,
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78,
+          288.15,
+          287.38,
+          293.45,
+          298.7,
+          295.77
+        ]
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$390.22",
+        "raw": 390.22,
+        "change": "-1.82%",
+        "dir": "down",
+        "time": 1794603600,
+        "spark": [
+          367.16,
+          362.44,
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78,
+          390.84,
+          397.45,
+          390.22
+        ]
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$266.66",
+        "raw": 266.66,
+        "change": "-0.29%",
+        "dir": "down",
+        "time": 1794603600,
+        "spark": [
+          254.08,
+          254.76,
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3,
+          266.93,
+          270.87,
+          266.17,
+          267.44,
+          266.66
+        ]
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 53.8,
+      "feels": 52.0,
+      "hum": 79,
+      "wind": 2.5,
+      "cond": "cloudy"
+    },
+    "days": [
+      {
+        "date": "2026-11-14",
+        "hi": 65,
+        "lo": 51,
+        "cond": "cloudy",
+        "pop": 12
+      },
+      {
+        "date": "2026-11-15",
+        "hi": 64,
+        "lo": 52,
+        "cond": "rain",
+        "pop": 87
+      },
+      {
+        "date": "2026-11-16",
+        "hi": 56,
+        "lo": 49,
+        "cond": "rain",
+        "pop": 89
+      },
+      {
+        "date": "2026-11-17",
+        "hi": 61,
+        "lo": 49,
+        "cond": "drizzle",
+        "pop": 43
+      },
+      {
+        "date": "2026-11-18",
+        "hi": 56,
+        "lo": 53,
+        "cond": "rain",
+        "pop": 96
+      },
+      {
+        "date": "2026-11-19",
+        "hi": 57,
+        "lo": 55,
+        "cond": "rain",
+        "pop": 91
+      },
+      {
+        "date": "2026-11-20",
+        "hi": 62,
+        "lo": 53,
+        "cond": "rain",
+        "pop": 26
+      }
+    ]
+  },
+  "recap": {
+    "week": "Nov 9-15",
+    "summary": "The week began with a rebound in stocks and ended with a sell-off in Nvidia, as **Jensen Huang resigned as CEO** on Thursday (CNBC, Fox Business, NBC News). October inflation of 0.4% put **a December Fed hike near certain** and pushed the 10-year yield to about 5.15% (CNBC). In Washington, the House referred the Hegseth impeachment to committee 211-204 (NBC News, CNN), Democrat Scott Colom won Mississippi's Senate seat (NPR, NBC News), and Van Hollen announced a challenge to Schumer (NPR, Axios). Trump said the U.S. needs no Iran deal, while Ukraine talks restarted in Abu Dhabi (NPR, CNN). Saturday ended with **SpaceX catching a Starship upper stage** (CNBC, CNN).",
+    "top": [
+      {
+        "text": "Jensen Huang resigned as Nvidia CEO, and the stock fell for a sixth straight week.",
+        "story": "nvidia"
+      },
+      {
+        "text": "SpaceX caught the Starship upper stage after orbit, a first for any rocket.",
+        "story": "starship"
+      },
+      {
+        "text": "Van Hollen launched the first contested Senate Democratic leader race since 1994.",
+        "story": "schumer"
+      },
+      {
+        "text": "Hot October inflation put a December Fed hike near certain.",
+        "story": "fedhike"
+      },
+      {
+        "text": "Trump said the U.S. needs no Iran deal and kept the blockade.",
+        "story": "iran"
+      }
+    ],
+    "ahead": [
+      {
+        "date": "Tue Nov 17",
+        "text": "Nvidia reports earnings after the close, its first without Jensen Huang."
+      },
+      {
+        "date": "Tue Nov 17",
+        "text": "A stronger Bay Area storm arrives Tuesday night and runs through Thursday, with 1 to 3 inches forecast."
+      },
+      {
+        "date": "Wed Nov 18",
+        "text": "Anthropic is expected to price its IPO, and Alaska holds its ranked-choice Senate count."
+      },
+      {
+        "date": "Wed Nov 18",
+        "text": "House committee chairs have requested a closed-door briefing from Nvidia on Huang's exit."
+      },
+      {
+        "date": "Thu Nov 19",
+        "text": "Anthropic is expected to begin trading on Nasdaq as ANT."
+      },
+      {
+        "date": "Tue Dec 1",
+        "text": "Senate Democrats vote by secret ballot on Schumer versus Van Hollen."
+      },
+      {
+        "date": "Wed Dec 9",
+        "text": "The Fed's Dec. 8-9 meeting ends, with a hike priced near certain."
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "schumer",
+      "section": "politics",
+      "motif": "capitol",
+      "thread": "senate-dem-leadership",
+      "when": "Dec. 1 vote",
+      "title": "Van Hollen challenges Schumer for Senate Democratic leader",
+      "summary": "The first contested Senate Democratic leadership race since 1994 will be settled by secret ballot on Dec. 1.",
+      "story": [
+        "Maryland Sen. Chris Van Hollen announced Nov. 12 that he will challenge Chuck Schumer for Senate Democratic leader, with a secret-ballot vote set for Dec. 1 (NPR, Axios, Fox News). Fox News describes it as the first contested Senate Democratic leadership race since 1994. Van Hollen calls himself the underdog but says he has support from \"more than 10\" members, a figure that is his own claim. Schumer says he has the votes to stay on, and his allies predict he will win more than 40 (The Hill, Fox News).",
+        "Schumer's public backers so far include Fetterman, Gallego, Gillibrand, Kelly, Rosen, Schatz and Whitehouse. Opposition is strongest among incoming members: at least six senators-elect, including Abdul El-Sayed of Michigan and Peggy Flanagan of Minnesota, say they will not support him, and The Hill reports Sen. Elissa Slotkin will not either. Bernie Sanders has pledged to back Van Hollen (The Hill, Axios).",
+        "Coverage differs on what the fight is about. NPR frames it as a debate over what mandate Democrats earned in this month's election. Schumer allies told The Hill the challenge is really about ending the filibuster, while Fox News reports Van Hollen personally favors ending it and backing Medicare for All, though he says the caucus would decide. The Washington Examiner's Joe Concha calls the push the first stage of a DSA takeover of the party.",
+        "For the caucus, the question is whether a party that just won a large Senate majority wants new leadership going into the majority in January."
+      ],
+      "facts": [
+        "Van Hollen announced the challenge on Nov. 12.",
+        "The secret-ballot election is set for Dec. 1.",
+        "Fox News calls it the first contested Senate Democratic leader race since 1994.",
+        "Van Hollen claims more than 10 supporters; Schumer allies predict more than 40 votes.",
+        "At least six senators-elect say they will not back Schumer."
+      ],
+      "left": "Progressives argue the voters who delivered a sweep want a break from the old playbook, and that a leader who will not promise to fight harder should not be crowned. They point to Sanders, Slotkin and a bloc of new senators as proof the demand is broad. A contested vote, they say, is healthy and gives activists a real voice.",
+      "right": "Conservative writers say the fight shows a party pulled left by its activists, and that a leader who beat Republicans in two cycles is being targeted for not being left enough. The Washington Examiner ties the feud to the fate of Medicare for All and the filibuster. They add that a vote to scrap the 60-vote threshold would also free a future Republican majority.",
+      "next": "Watch for senators declaring support before the Dec. 1 secret ballot.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/entertainment/4803973/stage-one-dsa-ousting-chuck-schumer-joe-concha/"
+        ]
+      ]
+    },
+    {
+      "id": "alaska",
+      "section": "politics",
+      "motif": "ballot",
+      "thread": "midterms-2026",
+      "when": "RCV count",
+      "title": "Peltola keeps her lead in Alaska's uncalled Senate race as the ranked-choice count nears",
+      "summary": "Alaska's official ranked-choice tabulation is set for Nov. 18, and analysts disagree on how transfers will break.",
+      "story": [
+        "Democrat Mary Peltola leads Republican Sen. Dan Sullivan in Alaska's uncalled Senate race, and new ballot counts have extended her lead (The Hill, Fox News). If no candidate clears 50% of first-choice votes, Alaska runs a ranked-choice tabulation, which is set for Nov. 18 (NBC News, Washington Examiner). Outlets cite different margins after each ballot drop, so the official count from the state is the number to trust.",
+        "NBC News's Decision Desk analysis says Peltola is on track to win even if ranked-choice ballots come into play, noting that more than 45% of voters who ranked the minor candidates did not rank either top candidate later, so those ballots would be exhausted. It estimates she needs about 53.8% of the remaining ballots to clear 50% outright. A separate Alaska News simulation had her ahead in the final round by roughly 3,000 votes, while FairVote's analysis found Sullivan could gain more from third-place Republican Gerald Heikes's voters than Peltola gains from the other Dan Sullivan's voters.",
+        "The second candidate named Dan Sullivan, an independent, drew a Trump administration lawsuit that a federal judge dismissed. Gov. Mike Dunleavy has called ranked-choice voting \"very confusing\" (Fox News). Peltola's campaign says she will win once every vote is counted, and Sullivan and Trump have suggested a Republican would absorb the other Sullivan's voters (Washington Examiner).",
+        "A Peltola win would add to the Democratic Senate gains already counted this month."
+      ],
+      "flag": "Margin figures differ across outlets after each ballot drop; the final-round transfer estimates (NBC News, Alaska News, FairVote) disagree.",
+      "facts": [
+        "The official ranked-choice tabulation is set for Nov. 18.",
+        "Peltola leads Sen. Dan Sullivan and has extended the lead in recent counts.",
+        "NBC News says she needs about 53.8% of remaining ballots to clear 50% outright.",
+        "NBC News estimates over 45% of minor-candidate voters did not rank either top candidate later.",
+        "A federal judge dismissed a Trump administration lawsuit over the second Dan Sullivan's ballot spot."
+      ],
+      "left": "Democrats say ranked-choice voting is Alaska's lawful, voter-approved system and that the count should simply finish. They note that Peltola has led the whole way and that the lawsuit against the independent candidate failed in court. Their message is that the margin, not the method, is what Republicans dislike.",
+      "right": "Republicans and conservative outlets say the system is confusing and that a candidate who trails or sits near 50% should not win on transfers from an independent with the same name. They argue ballot-name overlap and exhausted ballots can distort the result. Sullivan's side expects the other Sullivan's voters to lean Republican.",
+      "next": "Alaska's official ranked-choice count is set for Wed., Nov. 18.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/2026-election/mary-peltola-track-win-alaska-even-ranked-choice-ballots-come-play-rcna609299"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/the-120/6218667-mary-peltola-alaska-senate-lead/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/peltola-widens-narrow-alaska-senate-lead-sullivan-counting-continues"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/news/campaigns/congressional/4802812/alaska-still-counting-votes-2026-elections-what-to-know/"
+        ]
+      ]
+    },
+    {
+      "id": "storm",
+      "section": "local",
+      "motif": "storm",
+      "when": "Rain returns",
+      "title": "A rain system arrives today, with a bigger Bay Area storm forecast for Tuesday night through Thursday",
+      "summary": "After the highest waves in over a decade on Saturday, Fremont faces rain today and Monday, then a stronger storm midweek.",
+      "story": [
+        "The Bay Area gets a soaking after a weekend of dangerous surf. The SF Chronicle reports Saturday brought the region's highest waves in more than a decade, and KQED says the National Weather Service's high surf warning runs through Monday morning. A system moving in from the Gulf of Alaska brings steady rain Sunday afternoon, with up to 1.5 inches possible around the Bay and southerly gusts of 20 to 30 mph ahead of it (SF Chronicle, KQED).",
+        "The Fremont forecast on this site shows a high of 64 and an 87% chance of rain today, 89% on Monday, then a drizzly Tuesday and heavy rain chances Wednesday and Thursday. The SF Chronicle says a moisture plume should bring 1 to 3 inches of rain to the Bay Area between Tuesday night and Thursday, with some models showing more because of the system's slow movement.",
+        "The midweek storm is the least settled part of the forecast. The Chronicle reports model totals ranging widely for Wednesday through Friday, with gusts of 35 to 50 mph possible, and feet of Sierra snow. KQED's earlier preview warned of flooding risk in low coastal areas when rain coincides with high tides.",
+        "For commuters, expect slow Monday and Wednesday through Friday drives, and watch for flooding in creeks and underpasses."
+      ],
+      "blindspot": "Weather coverage here comes from regional center and left-leaning outlets; no right-leaning coverage found.",
+      "facts": [
+        "Saturday's waves were the Bay Area's highest in more than a decade, per the SF Chronicle.",
+        "A high surf warning runs through Monday morning, per KQED.",
+        "Up to 1.5 inches of rain is possible Sunday into Monday.",
+        "The Chronicle forecasts 1 to 3 inches Tuesday night through Thursday.",
+        "Fremont's forecast shows an 87% chance of rain today and 89% Monday."
+      ],
+      "why": "Back-to-back soakings matter for flooding, commutes and the early water year, and the midweek totals are still uncertain.",
+      "next": "Watch the National Weather Service forecast for the Tuesday night to Thursday storm's totals and wind.",
+      "src": [
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/weather-forecast/article/rain-storm-weather-san-francisco-california-22529476.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12109352/enormous-waves-and-triple-storms-target-greater-bay-area-starting-friday"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12109722/bay-area-weather-big-waves-mavericks-surf-san-francisco-coastal-advisory-flooding"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/weather/article/waves-tide-california-bay-area-coast-22531154.php"
+        ]
+      ]
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "ship",
+      "thread": "iran-war",
+      "when": "No deal needed",
+      "title": "Trump says the U.S. needs no Iran deal and keeps the blockade, while Iran refuses inspections",
+      "summary": "Mediators' proposals sit unaccepted, the blockade stays, and the IAEA still cannot inspect Iran's Isfahan site.",
+      "story": [
+        "President Trump wrote on Truth Social on Nov. 12 that \"We don't need a deal with Iran. Those days have long since passed,\" pointing to billions of Iranian dollars frozen overseas (NPR, Fox News). He is keeping the U.S. naval blockade, and NPR reports his strategy now appears to be keeping things as they are. Oil jumped on the post and the weekend close left WTI near $88.56 (CNBC).",
+        "Iran says it will not allow UN inspectors into its nuclear sites under threat, and the IAEA says it still cannot determine whether nuclear material remains at an underground Isfahan site (Fox News). Qatar-led mediators have floated a two-day plan in which the U.S. would lift the blockade and release some frozen funds while Iran moves toward inspections and reopening Hormuz, but Washington has not accepted it, and Iran says it will not negotiate until its seven demands are met.",
+        "In the Gulf, the IRGC claimed an attack on a U.S. early-warning system in Bahrain, while CENTCOM said it shot down two Iranian one-way drones headed toward Bahrain and denied the claim (Fox News). Trump also redirected Vice President Vance, who was named lead negotiator in April, toward fraud in Democrat-run states, and National Review argued that made sense because Vance has publicly scorned the policy (Axios, NPR, National Review).",
+        "Commentators on the right split on whether the stalemate is working, and Democrats say it leaves the war without an exit."
+      ],
+      "flag": "Fox News reports the IRGC's claimed Bahrain attack; CENTCOM denied it and says it shot down two drones.",
+      "facts": [
+        "Trump posted on Nov. 12 that the U.S. does not need a deal with Iran.",
+        "The U.S. naval blockade continues, and Iran refuses UN inspections under threat.",
+        "The IAEA cannot determine whether nuclear material remains at Isfahan.",
+        "Qatar-led mediators' two-day plan has not been accepted by Washington.",
+        "CENTCOM says it shot down two Iranian drones headed toward Bahrain."
+      ],
+      "left": "Democrats argue an open-ended blockade with no diplomacy keeps U.S. forces exposed, keeps oil and gasoline prices elevated and gives Iran an excuse to avoid inspections. They note Trump was recently touting talks and has now pulled his negotiator. A deal that restores inspections, they say, is better than a war with no end point.",
+      "right": "Supportive conservatives say the blockade chokes Tehran's oil revenue and that time favors Washington, so walking away from a weak deal is the strongest play. Skeptics on the right, including some Washington Examiner writers, warn the administration keeps spending leverage without converting it into enforceable terms. National Review calls blockade-plus-escorts the least bad option.",
+      "next": "Watch for any Qatar-brokered movement and for new Gulf incidents this week.",
+      "src": [
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/12/trump-vance-focus-democrat-cities-iran"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/corner/of-course-vance-can-t-execute-an-iran-policy-he-publicly-scorns"
+        ]
+      ]
+    },
+    {
+      "id": "ukraine",
+      "section": "world",
+      "motif": "swords",
+      "thread": "ukraine-us-rift",
+      "when": "Talks restart",
+      "title": "Ukraine talks restart in Abu Dhabi, and Zelensky says the U.S. floated Donbas for NATO",
+      "summary": "The first U.S.-mediated trilateral talks in nine months produced a prisoner swap but no breakthrough.",
+      "story": [
+        "Russia and Ukraine held their first U.S.-mediated talks in nine months in Abu Dhabi, about four hours long, and agreed to a prisoner exchange of more than 1,000 people but no broader breakthrough (NBC News, NPR). The talks were run by Trump envoys Jared Kushner and Steve Witkoff. The envoys then met Putin in Moscow and Zelensky in Dublin (NPR).",
+        "On Nov. 14 Zelensky said U.S. negotiators asked whether Ukraine would leave the Donbas in exchange for NATO membership, which he called a first in the talks (CNN, NBC News). He said Ukraine would not give up territory, but that with a full security package from NATO and the EU he would put the question to Ukrainians, adding \"we need specifics, and we don't have them yet.\" Kushner's public comments did not mention the idea and said \"several new ideas emerged.\"",
+        "Russia demands control of the whole Donbas, while Ukraine wants territory divided along current front lines. A Putin aide called the Kremlin meeting \"substantive, constructive, frank and useful,\" while Putin called European troops sent to Ukraine after a ceasefire \"absolutely unacceptable\" (NPR, Fox News). Witkoff said a new trilateral meeting is set and that Europe will take part, though the Kremlin has not clearly accepted that (CNN).",
+        "Axios reported the White House as cautiously upbeat; Zelensky said \"We don't trust, but we hope.\""
+      ],
+      "facts": [
+        "The Abu Dhabi talks were the first trilateral talks in nine months.",
+        "A prisoner exchange of more than 1,000 people was agreed.",
+        "Zelensky says the U.S. floated Donbas for NATO membership.",
+        "Russia demands the whole Donbas; Ukraine wants a line at the current front.",
+        "Witkoff says a new meeting is set and Europe will take part."
+      ],
+      "left": "Progressives and many Democrats welcome the restart but warn that any deal rewarding Russian land gains, even for NATO membership, would reward aggression and invite future attacks. They want European allies at the table and firm security guarantees before Ukraine gives anything up.",
+      "right": "Conservatives backing the administration say a negotiated end, with NATO-like safeguards against another invasion, is the realistic outcome and that Kushner and Witkoff are doing what the previous administration would not. Skeptics on the right say Putin has shown no sign of conceding and that trading territory rewards the invasion.",
+      "next": "A new trilateral meeting is set, with Europe expected to join; no date was reported.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/world/ukraine/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskyy-rcna609297"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/09/ukraine-russia-zelensky-putin-peace-abu-dhabi"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/kushner-enters-ukraine-peace-talks-trump-eyes-securing-safeguards-against-another-russian-invasion"
+        ]
+      ]
+    },
+    {
+      "id": "fedhike",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed hike",
+      "title": "Hot October inflation puts a December Fed hike near certain and the 10-year near 5.15%",
+      "summary": "Consumer prices rose 0.4% in October, and traders price a hike at the Dec. 8-9 meeting.",
+      "story": [
+        "Consumer prices rose 0.4% in October, above the 0.3% forecast, and core CPI rose 0.3% against an expected 0.2% (CNBC, Fox Business). By Nov. 13 CNBC reported traders pricing a hike at the Fed's Dec. 8-9 meeting at essentially 100%, with about 89% odds on a quarter-point move per CME FedWatch. The 10-year Treasury yield stood at 5.15% in this site's Friday data.",
+        "The Fed held rates at 3.75% to 4% at its October meeting in a 10-2 vote, with Beth Hammack and Lisa Cook dissenting in favor of a hike (Fox Business). Fed Governor Christopher Waller said a hot report could push him toward a half-point increase, and CNBC reported the market was spooked that a supersized December hike may be needed.",
+        "The inflation push comes with energy costs elevated by the Iran war, though oil has slipped two weeks running, and higher rates make it harder for AI-heavy companies that borrow to fund buildouts (CNBC).",
+        "Next week's CNBC outlook frames Nvidia earnings and the Anthropic IPO as the big tests for stocks."
+      ],
+      "facts": [
+        "October CPI rose 0.4% versus 0.3% expected; core rose 0.3%.",
+        "The Fed meets Dec. 8-9.",
+        "CME FedWatch shows about 89% odds of a quarter-point hike, per CNBC.",
+        "The Fed held at 3.75% to 4% in October by a 10-2 vote.",
+        "The 10-year yield was 5.15% in Friday data."
+      ],
+      "left": "Progressives warn that raising rates against energy-driven inflation risks job losses and pain for households and small businesses that already face high borrowing costs. They argue much of the price pressure comes from the war and supply shocks that rate hikes cannot fix.",
+      "right": "Conservatives say sticky inflation proves the Fed must act and that dissenters wanting a hike were right. They link price pressure to deficit spending and energy costs from the war, and argue delay would make the eventual fix harsher.",
+      "next": "The Fed decides on Dec. 9 at the end of its Dec. 8-9 meeting.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-october-2026"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html"
+        ]
+      ]
+    },
+    {
+      "id": "nvidia",
+      "section": "stocks",
+      "motif": "chip",
+      "thread": "nvidia-huang-probe",
+      "when": "Earnings Tuesday",
+      "title": "Nvidia reports Tuesday after a sixth straight weekly loss and without Jensen Huang",
+      "summary": "Interim CEO Colette Kress faces her first call, with analysts expecting about $108.9 billion in revenue.",
+      "story": [
+        "Nvidia reports Tuesday, Nov. 17, after the close, its first results since Jensen Huang resigned as CEO and board member on Nov. 12 (CNBC, Fox Business). Nvidia fell 2.01% Friday to $162.85, wrapping a sixth straight weekly decline that CNBC calls the longest losing streak since 2012, and CNBC says the slide erased about $1.7 trillion in market value.",
+        "Analysts expect revenue of $108.9 billion, up 91% from a year earlier, per LSEG (CNBC). CFO Colette Kress is interim CEO while keeping her CFO role, and former Synopsys CEO Harvey Jones was named the first board chair (Nvidia's 8-K, Fox Business). The board said it is selecting a search firm for a permanent CEO (CNBC).",
+        "Reports tied Huang's exit to scrutiny of his conduct, including an alleged relationship with a Chinese spy and reports of two extramarital affairs (Fox Business, CNBC); these reasons are reported, not confirmed by the company. Three House committee chairs have asked for a closed-door briefing Nov. 18. Analysts say AMD is the clearest potential beneficiary if Nvidia stumbles, and CNBC notes tougher China export limits could hit demand.",
+        "Investors will listen for succession clarity, data-center guidance and any update on the probe."
+      ],
+      "flag": "The reasons for Huang's resignation come from news reports and an internal probe; Nvidia has not confirmed them.",
+      "facts": [
+        "Nvidia reports Tuesday, Nov. 17, after the close.",
+        "NVDA fell 2.01% Friday to $162.85, a sixth weekly decline.",
+        "LSEG consensus is $108.9 billion in revenue, up 91%.",
+        "Colette Kress is interim CEO; Harvey Jones is board chair.",
+        "House chairs have requested a Nov. 18 briefing."
+      ],
+      "why": "Nvidia is the AI trade's bellwether, and its guidance plus any word on leadership will move AI chip, cloud and power stocks that fill many portfolios.",
+      "next": "Nvidia reports Tuesday, Nov. 17, after the close; the House briefing is requested for Nov. 18.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/colette-kress-named-nvidia-interim-ceo-jensen-huangs-abrupt-resignation-raises-investor-concerns"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html"
+        ]
+      ]
+    },
+    {
+      "id": "starship",
+      "section": "engineering",
+      "motif": "rocket",
+      "thread": "starship-flight-15",
+      "when": "First ship catch",
+      "title": "SpaceX catches a Starship upper stage after orbit for the first time",
+      "summary": "The ship returned about 22.5 hours after liftoff and landed in the tower's arms, but the booster catch was aborted.",
+      "story": [
+        "SpaceX caught the Starship upper stage at its Starbase tower on Nov. 14, about 22.5 hours after Flight 15 lifted off, at about 4:20 p.m. EST (CNBC, CNN, Space.com, NBC News). CNN called it the first time in rocketry history an upper stage has returned from orbit to a safe, upright landing. The NASA administrator called it \"almost magic,\" according to Space.com.",
+        "The booster did not get the same treatment. SpaceX called off the catch and brought Booster 22 down for a splashdown in the Gulf of Mexico about 6.5 minutes after launch. Space.com quotes SpaceX saying the booster ended its boostback burn early because of a low fuel mass alarm, and Elon Musk blamed slight engine underperformance; NBC News described the booster differently as exploding, and the root cause is still being investigated. Boosters had been caught on three earlier flights.",
+        "SpaceX has not yet reflown a ship, and the next goal is to reuse both stages after assessing the heat shield. Orbital refueling is also still ahead. Musk has said he expects Starship to fly weekly at some point in the first half of 2027 (Space.com).",
+        "For engineers the catch is the proof point for rapid reuse, since a ship that returns intact and is caught skips the ocean landing."
+      ],
+      "flag": "Outlets differ on what happened to the booster (controlled splashdown versus explosion); SpaceX is still investigating the cause.",
+      "facts": [
+        "The ship was caught on Nov. 14, about 22.5 hours after liftoff.",
+        "The booster catch was aborted, with a splashdown in the Gulf of Mexico.",
+        "SpaceX cited a low fuel mass alarm and slight engine underperformance.",
+        "SpaceX has not yet reflown a ship.",
+        "Musk expects weekly Starship flights in the first half of 2027."
+      ],
+      "why": "Catching the ship is the step that makes full, fast reuse and orbital refueling plausible, which Starship's cost and NASA moon plans depend on.",
+      "next": "SpaceX still needs to reflight a ship and demonstrate orbital refueling; no date for Flight 16 was reported.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/science/space/spacex-launches-15th-starship-flight-aborts-booster-recovery-maneuver-rcna609274"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch"
+        ]
+      ]
+    },
+    {
+      "id": "alzheimers",
+      "section": "science",
+      "motif": "flask",
+      "when": "Cell study",
+      "title": "Study finds the blood-brain barrier stops importing protective proteins early in Alzheimer's",
+      "summary": "Gladstone researchers say the barrier fails at importing APOA1 before it leaks, but the work is in mice.",
+      "story": [
+        "A Gladstone Institutes team led by Andrew Yang reports that the blood-brain barrier may contribute to early Alzheimer's by failing to import protective proteins, rather than only leaking harmful ones later (Nature news, EurekAlert). The paper, in the journal Cell on Nov. 11, built an atlas of blood proteins transported into the brain: of 861 mapped, 92 crossed the barrier.",
+        "In a mouse model of Alzheimer's, the barrier stopped importing proteins such as APOA1 before it began to break down. Brain APOA1 fell while uptake of alpha-1 antitrypsin rose. Mice given a liver-targeted gene therapy to raise APOA1 had higher brain levels and showed fewer signs of Alzheimer's disease.",
+        "Yang said the field had assumed the barrier is simply impermeable and becomes leaky with disease; the new data suggest it actively imports proteins the brain needs. Earlier work has linked barrier dysfunction to early Alzheimer's, including APOE4 carriers.",
+        "It is an early finding, and mouse results do not always carry over to people."
+      ],
+      "flag": "The result is from mouse experiments and has not been shown in humans.",
+      "facts": [
+        "The study was published in Cell on Nov. 11, 2026.",
+        "The team mapped 861 proteins; 92 crossed the barrier.",
+        "In Alzheimer's model mice, APOA1 import dropped before the barrier leaked.",
+        "Raising APOA1 with liver gene therapy reduced Alzheimer's markers in mice.",
+        "The finding has not yet been tested in people."
+      ],
+      "why": "It points to restoring what the brain imports as a possible treatment angle, complementing therapies that clear amyloid plaques.",
+      "next": "Watch for human tissue and biomarker studies testing whether the barrier import failure appears before symptoms.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03655-2"
+        ],
+        [
+          "EurekAlert (Gladstone release)",
+          "C",
+          "https://www.eurekalert.org/news-releases/1150721"
+        ]
+      ]
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "chart",
+      "thread": "anthropic-ipo",
+      "when": "IPO Wednesday",
+      "title": "Anthropic is set to price its IPO Wednesday and trade Thursday as ANT",
+      "summary": "The 825 million-share offering at $70 to $78 implies a valuation up to $1.404 trillion.",
+      "story": [
+        "Anthropic plans to offer 825 million shares at $70 to $78 each on Nasdaq under ANT, with pricing reportedly set for Wednesday, Nov. 18 and trading Thursday, Nov. 19 (CNBC, TechCrunch, Bloomberg). The timing is from people familiar with the deal, not a company announcement. The offering could raise up to $64.4 billion, plus a separate $26 billion private placement, and implies up to $1.404 trillion fully diluted at the top of the range (CNBC, TechCrunch).",
+        "That is above the $965 billion valuation from its May fundraise but below the roughly $2 trillion reportedly targeted earlier; Fox Business reported a lower figure of up to about $1.02 trillion, which conflicts with other outlets. The company is targeting about 20% of shares for retail investors, far above the typical 5% to 10%, with JPMorgan leading the U.S. retail offering and brokers such as Schwab, Fidelity, Robinhood and SoFi participating (Bloomberg, CNBC).",
+        "Reporting says the book is already covered at the range. Anthropic reported $33.2 billion in revenue in the first nine months of 2026, up 1,206%, with a large net loss driven mainly by noncash charges, as reported from its filing. An IPO expert quoted by CNBC says the upside is limited at this valuation. CNBC frames the debut as one of two big tests of the AI trade, along with Nvidia's earnings.",
+        "Anthropic released its Fable 5.2 and Mythos 5.2 models Nov. 9, days before the roadshow."
+      ],
+      "flag": "Pricing and trading dates come from sources, not the company, and the Fox Business valuation figure conflicts with other outlets.",
+      "facts": [
+        "Anthropic offers 825 million shares at $70 to $78, ticker ANT on Nasdaq.",
+        "Pricing is reported for Nov. 18, trading for Nov. 19.",
+        "The top of the range implies about $1.404 trillion fully diluted.",
+        "About 20% of shares are targeted for retail investors.",
+        "A separate $26 billion private placement was reported."
+      ],
+      "why": "The largest AI-lab listing will show how much public investors will pay for AI after a rough month, and it affects Nvidia, Microsoft and cloud names.",
+      "next": "Pricing is expected Wed., Nov. 18, with ANT trading Thu., Nov. 19.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-targets-64-4-billion-ipo-nearing-spacex-s-record?srnd=homepage-americas"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/anthropic-targets-valuation-around-1t-blockbuster-ai-ipo-below-initial-expectation"
+        ]
+      ]
+    },
+    {
+      "id": "alphagenome",
+      "section": "ai",
+      "motif": "dna",
+      "when": "AlphaGenome 2",
+      "title": "DeepMind's AlphaGenome 2 predicts which cell types a DNA variant acts in",
+      "summary": "The update was trained on single-cell data from more than 100 million cells across 68 tissues.",
+      "story": [
+        "DeepMind announced AlphaGenome 2, an update to its model for non-coding DNA, and Nature's Nov. 11 news report says its main new ability is predicting the cell types in which a DNA variant is likely to act (Nature). Where the first model trained on bulk samples of mixed cells, the update was trained on single-cell gene activity and other measurements from more than 100 million cells across 68 tissues, according to the report.",
+        "The original AlphaGenome is a unified DNA sequence model that takes 1 megabase of sequence and predicts thousands of functional genomic tracks at single-base resolution. Its Nature paper reports state-of-the-art performance on 22 of 24 genome-track tasks and 25 of 26 variant-effect tasks. DeepMind earlier released predictions for all nine billion possible single-letter changes in the human genome.",
+        "Nature says the model is wowing scientists, but I found no independent benchmark for AlphaGenome 2 itself, so its performance claims rest on DeepMind's announcement and news coverage rather than a published paper.",
+        "Cell-type resolution matters because most disease variants sit outside genes and act only in specific cells."
+      ],
+      "flag": "No independent benchmark or peer-reviewed paper for AlphaGenome 2 was found; performance claims come from DeepMind and Nature's news report.",
+      "facts": [
+        "AlphaGenome 2 was reported by Nature on Nov. 11, 2026.",
+        "It predicts the cell types in which a DNA variant acts.",
+        "It was trained on single-cell data from over 100 million cells in 68 tissues.",
+        "The original model's Nature paper reports top results on 22 of 24 track tasks.",
+        "No independent benchmark of version 2 was found."
+      ],
+      "why": "Knowing which cells a variant affects could speed the search for the biology behind genetic disease and help prioritize variants for lab tests.",
+      "next": "Watch for a peer-reviewed paper or outside benchmarks for AlphaGenome 2.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03673-0"
+        ],
+        [
+          "Nature (AlphaGenome paper)",
+          "C",
+          "https://www.nature.com/articles/s41586-025-10014-0"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Sen. Josh Hawley is the first Republican senator to call for a nationwide data center moratorium, and Heritage Foundation president Kevin Roberts told the Financial Times the GOP made an \"under-appreciated mistake\" on the issue, as reported by The Hill.",
+    "Governor-elect Xavier Becerra must submit a budget days after his January inauguration and inherits what the Legislative Analyst's Office calls a $29 billion \"wall of debt,\" according to a CalMatters commentary.",
+    "Trump told Vance to focus on corruption and crime in Democrat-run states, naming Minnesota, California and Illinois, and Axios notes his claims about blue areas are not always backed by the statistics (Axios).",
+    "Meta disclosed plans to lay off nearly 200 workers in Burlingame and Sunnyvale, according to the SF Chronicle."
+  ]
+}
