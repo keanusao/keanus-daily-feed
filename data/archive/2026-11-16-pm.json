@@ -1,0 +1,1334 @@
+{
+  "updatedAt": "2026-11-17T00:06:47Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **stocks fell for a third straight day** as the Nasdaq dropped 2.57% and chipmakers sank more than 5% (Bloomberg, CNBC). Nvidia fell 4.4% to $155.72 and **reports Tuesday after the close** without Jensen Huang, with Bessent and Lutnick still feuding over China chip curbs (CNBC, CNN, Fox News). Commerce also issued a rule closing a remote-access loophole for Chinese firms, announced ahead of Trump's China trip (The Hill, CNN). Anthropic prices its IPO Wednesday at $70 to $78, with the book reportedly six times oversubscribed, and Fed Chair Warsh warned AI could 'disappoint' (CNBC, Bloomberg). Iran kept up drone attacks on Bahrain, and CNN reported **intelligence on a possible dirty-bomb plot**, which the White House says is not a credible homeland threat (CNN, Fox News). An Army major's whistleblower complaint over the Kuwait strike that killed six drew a Trump attack on 60 Minutes (CNN, Fox News, The Hill). Senate Democrats are weighing Iran war limits on the Dec. 11 funding deadline, and Van Hollen's challenge to Schumer heads to a December secret ballot (The Hill, Axios, National Review). SpaceX is investigating a low-fuel alarm that cost it the Starship booster, a day after it caught the ship (Space.com). Locally, **the Bay Area storm forecast grew to 3 to 5 inches**, with an intense Wednesday-morning commute (SF Chronicle). WTI crude fell 3.4% to $85.55 on supply-surplus hopes (CNBC).",
+  "alerts": [
+    {
+      "text": "Nvidia reports after the close Tuesday, Nov. 17, its first earnings without Jensen Huang, and it is down 4.4% to $155.72 going in.",
+      "level": "high",
+      "story": "nvidia"
+    },
+    {
+      "text": "Bay Area forecast grew to 3 to 5 inches: an intense atmospheric river hits Wednesday morning's commute, with a second round Thursday, so plan ahead.",
+      "level": "high",
+      "story": "storm"
+    },
+    {
+      "text": "Anthropic prices its IPO Wednesday, Nov. 18 and trades Thursday as ANT, in the middle of a tech selloff.",
+      "level": "watch",
+      "story": "anthropicipo"
+    },
+    {
+      "text": "Every stock on your watchlist fell Monday, led by Nvidia (-4.4%), Alphabet (-4.3%) and Amazon (-3.5%).",
+      "level": "info",
+      "story": "selloff"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "selloff",
+      "text": "Nasdaq falls 2.6% and chips sink over 5% in a third straight losing session."
+    },
+    {
+      "story": "nvidia",
+      "text": "Nvidia reports Tuesday without Huang after dropping 4.4%, amid the Bessent-Lutnick China chips fight."
+    },
+    {
+      "story": "iran",
+      "text": "Iran keeps hitting Bahrain; CNN reports dirty-bomb plans, which the White House calls not credible."
+    },
+    {
+      "story": "storm",
+      "text": "Bay Area storm forecast grows to 3 to 5 inches, with a flood-prone Wednesday commute."
+    },
+    {
+      "story": "starship",
+      "text": "SpaceX caught the Starship upper stage but is probing the low-fuel alarm that lost the booster."
+    }
+  ],
+  "stat": {
+    "label": "Nasdaq, Monday",
+    "value": "-2.57%",
+    "note": "Third straight loss; chip gauge fell 5.3% (Bloomberg)"
+  },
+  "markets": {
+    "asOf": "Mon Nov 16, 3:57 PM ET",
+    "wrap": "The **Nasdaq fell 2.57% to 24,491.30** and the S&P 500 lost 1.97% to 7,413.00, a third straight decline and its biggest three-day drop since June (Bloomberg, CNBC). Chipmakers led, with a sector gauge down 5.3% and Micron and Intel each off more than 7% (Bloomberg, CNBC). Nvidia dropped 4.4% before its Tuesday report, and Fed Chair Warsh said AI could 'disappoint' (CNBC). The 10-year yield eased to about 5.13%, and WTI fell 3.4% to $85.55 on expectations of a supply surplus (CNBC). **Consumer staples was the only rising S&P sector** (Bloomberg).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,413.00",
+        "raw": 7413.0,
+        "change": "-1.97%",
+        "dir": "down",
+        "time": 1794862656,
+        "spark": [
+          7659.44,
+          7690.73,
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93,
+          7619.38,
+          7592.4,
+          7561.67,
+          7413.0
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "51,586.80",
+        "raw": 51586.8,
+        "change": "-1.45%",
+        "dir": "down",
+        "time": 1794862656,
+        "spark": [
+          52002.41,
+          51966.03,
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89,
+          52486.49,
+          52297.09,
+          52347.55,
+          51586.68
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "24,491.30",
+        "raw": 24491.299,
+        "change": "-2.57%",
+        "dir": "down",
+        "time": 1794862656,
+        "spark": [
+          26140.03,
+          26430.89,
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43,
+          25253.14,
+          25065.87,
+          25466.19,
+          25366.09,
+          25136.27,
+          24491.3
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.12%",
+        "raw": 5.121,
+        "change": "-0.64%",
+        "dir": "down",
+        "time": 1794859193,
+        "spark": [
+          5.1,
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86,
+          4.98,
+          5.0,
+          5.1,
+          5.15,
+          5.12
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$85.55",
+        "raw": 85.55,
+        "change": "-3.40%",
+        "dir": "down",
+        "time": 1794862055,
+        "spark": [
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56,
+          85.55
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$64,887",
+        "raw": 64886.91,
+        "change": "-0.65%",
+        "dir": "down",
+        "time": 1794862654,
+        "spark": [
+          81500.8,
+          81382.15,
+          82017.6,
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          75223.15,
+          73720.12,
+          73964.47,
+          71342.97,
+          68249.27,
+          64128.05,
+          65305.06,
+          64886.91
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$155.72",
+        "raw": 155.72,
+        "change": "-4.38%",
+        "dir": "down",
+        "time": 1794862657,
+        "spark": [
+          214.13,
+          217.09,
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89,
+          173.73,
+          166.19,
+          162.85,
+          155.72
+        ],
+        "note": "Fell 4.4% as Huang's exit and the chip-export fight weigh before earnings Tuesday (CNBC, Bloomberg)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$352.54",
+        "raw": 352.54,
+        "change": "-1.05%",
+        "dir": "down",
+        "time": 1794862658,
+        "spark": [
+          343.46,
+          342.94,
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51,
+          355.63,
+          354.88,
+          356.27,
+          352.5
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$517.72",
+        "raw": 517.72,
+        "change": "-1.18%",
+        "dir": "down",
+        "time": 1794862653,
+        "spark": [
+          529.05,
+          533.52,
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61,
+          545.18,
+          533.16,
+          521.13,
+          523.0,
+          523.88,
+          517.56
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$283.10",
+        "raw": 283.1,
+        "change": "-4.28%",
+        "dir": "down",
+        "time": 1794862659,
+        "spark": [
+          340.59,
+          344.18,
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78,
+          288.15,
+          287.38,
+          293.45,
+          298.7,
+          295.77,
+          283.1
+        ],
+        "note": "Fell 4.3% with the tech selloff; no company-specific reason found in coverage (Bloomberg, CNBC)."
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$379.39",
+        "raw": 379.39,
+        "change": "-2.78%",
+        "dir": "down",
+        "time": 1794862659,
+        "spark": [
+          354.72,
+          368.06,
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78,
+          390.84,
+          397.45,
+          390.22,
+          379.39
+        ],
+        "note": "Fell 2.8% in the broad tech selloff (Bloomberg)."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$257.43",
+        "raw": 257.425,
+        "change": "-3.46%",
+        "dir": "down",
+        "time": 1794862659,
+        "spark": [
+          250.0,
+          262.45,
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3,
+          266.93,
+          270.87,
+          266.17,
+          267.44,
+          266.66,
+          257.42
+        ],
+        "note": "Fell 3.5% as big tech led the market lower (Bloomberg)."
+      }
+    ]
+  },
+  "earnings": [
+    {
+      "symbol": "NVDA",
+      "date": "2026-11-17",
+      "when": "after close"
+    }
+  ],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 57.5,
+      "feels": 54.9,
+      "hum": 81,
+      "wind": 7.3,
+      "cond": "drizzle"
+    },
+    "days": [
+      {
+        "date": "2026-11-15",
+        "hi": 63,
+        "lo": 52,
+        "cond": "rain",
+        "pop": 91
+      },
+      {
+        "date": "2026-11-16",
+        "hi": 58,
+        "lo": 47,
+        "cond": "drizzle",
+        "pop": 85
+      },
+      {
+        "date": "2026-11-17",
+        "hi": 57,
+        "lo": 44,
+        "cond": "cloudy",
+        "pop": 7
+      },
+      {
+        "date": "2026-11-18",
+        "hi": 54,
+        "lo": 47,
+        "cond": "rain",
+        "pop": 99
+      },
+      {
+        "date": "2026-11-19",
+        "hi": 58,
+        "lo": 53,
+        "cond": "storm",
+        "pop": 94
+      },
+      {
+        "date": "2026-11-20",
+        "hi": 61,
+        "lo": 51,
+        "cond": "drizzle",
+        "pop": 15
+      },
+      {
+        "date": "2026-11-21",
+        "hi": 57,
+        "lo": 49,
+        "cond": "rain",
+        "pop": 48
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "schumer",
+      "section": "politics",
+      "motif": "capitol",
+      "thread": "senate-dem-leadership",
+      "when": "Leadership fight",
+      "title": "Van Hollen challenges Schumer for Senate Democratic leader as vote counts conflict",
+      "summary": "Schumer says he has the votes, Van Hollen calls himself an underdog, and public tallies disagree before the early December secret ballot.",
+      "story": [
+        "Sen. Chris Van Hollen of Maryland announced Thursday, Nov. 12, that he will challenge Chuck Schumer for Senate Democratic leader, the first contested race for the post since 1994, according to Fox News. CNN and NPR reported the same launch. The vote is a secret ballot in early December, and CNN says a candidate needs 28 or 29 votes, depending on how Alaska's uncalled Senate race ends. Van Hollen calls himself an underdog. Schumer says he has the votes to keep the job.",
+        "Democrats just won both chambers in the midterms, and several incoming senators have said they will not back Schumer. Sanders and Merkley support Van Hollen, and Minnesota's Peggy Flanagan has endorsed him. Gillibrand, Fetterman and King back Schumer. Sen. Elissa Slotkin wants new leadership but has not named a candidate. Fox News reports Van Hollen would pursue ending the filibuster and has accused Schumer of favoring the crypto industry and AIPAC over progressive candidates.",
+        "The public counts do not agree. Axios counts 14 senators publicly behind Schumer, himself included, against five for Van Hollen. Van Hollen says more than 10 members are committed to him. National Review, citing a Decision Desk count, says Schumer can count on the affirmative support of only three members. Because the ballot is secret, public endorsements may not match the final tally. The Hill reports Van Hollen calling it a 'bunch of nonsense' that he cannot win.",
+        "Win or lose, the race ties into the Dec. 11 funding fight over the Iran war, since both men are among the Democrats weighing how hard to push on it."
+      ],
+      "facts": [
+        "Van Hollen announced his challenge on Thursday, Nov. 12 (CNN, NPR).",
+        "It is the first contested Senate Democratic leadership race since 1994 (Fox News).",
+        "The vote is a secret ballot in early December and needs 28 or 29 votes (CNN).",
+        "Axios counts 14 public backers for Schumer and five for Van Hollen; Van Hollen claims more than 10.",
+        "Sanders, Merkley and senator-elect Peggy Flanagan back Van Hollen; Gillibrand, Fetterman and King back Schumer."
+      ],
+      "left": "Van Hollen's supporters argue Democrats won a sweeping midterm and should not hand the same leadership a coronation. They say the party needs a leader who will fight harder on the Iran war, drop the filibuster and stop leaning on donor interests like crypto and AIPAC. Sanders and several incoming senators say new faces fit the mandate voters just gave. Schumer's allies answer that experience and caucus unity matter most when Democrats are about to hold the House and fight a funding deadline.",
+      "right": "Conservative writers see a party pulled between a left that wants impeachments and moderates who want to constrain the president on Iran. National Review's reading is that Schumer has little firm support and that Democrats are in a 'cold peace' with their own base. Fox News stresses Van Hollen's plan to end the filibuster as proof that a new leader would push the Senate toward more radical rules changes. They argue a fractured caucus will struggle to turn its election win into a coherent agenda.",
+      "next": "Watch for more senators to declare before the early December caucus vote, and for the Alaska result around Nov. 18.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/13/democrats-schumer-van-hollen-senate-leader"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/the-120/6221313-senate-majority-leader-race-van-hollen/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep"
+        ],
+        [
+          "National Review",
+          "R",
+          "https://www.nationalreview.com/the-morning-jolt/democrats-cold-peace"
+        ]
+      ],
+      "flag": "Public vote counts conflict (Axios 14 vs 5; National Review says three firm Schumer backers) and the ballot is secret."
+    },
+    {
+      "id": "faafunding",
+      "section": "politics",
+      "motif": "scales",
+      "thread": "faa-ground-stop",
+      "when": "FAA fallout",
+      "title": "Duffy asks Congress for $50 billion after the FAA ground stop, and Democrats say the money already exists",
+      "summary": "The transportation secretary wants a replacement telecom network funded, while Democrats say only about a third of last year's $12.5 billion has been spent.",
+      "story": [
+        "Transportation Secretary Sean Duffy told Congress the FAA now needs about $50 billion after a router failure grounded flights nationwide for more than four hours on Friday, Nov. 13, NBC News, CNN and Fox News reported. The FAA lifted the ground stop at 8:15 p.m. ET Friday, and cancellations ran into the weekend, with at least 1,572 flights cancelled according to FlightAware. Duffy said Sunday that travel should improve through the day but might not fully normalize until Monday, and he saw no sign of a foreign cyberattack.",
+        "Congress approved $12.5 billion last year for air traffic control upgrades, and Duffy had asked for another $30 billion before raising the figure Friday night. He says the earlier money covered radar, radios and electronic flight strips, not a new telecom network. Democrats counter that Congress met the administration's request and that only about a third of the $12.5 billion has been spent. CNN reports it is unclear how leaders would pass new money, with a Dec. 11 funding deadline already looming.",
+        "Duffy has also pointed at contractor L3Harris and at prior administrations and aging systems. Sen. Chris Van Hollen said he supports more money but criticized Duffy for blaming Congress. The Hill reports Duffy cannot simply cancel the L3Harris contract. Top Democrats on two House panels were set to be briefed on the funding request.",
+        "The dispute puts a technical failure into the year-end budget fight, where lawmakers already have the Iran war and the Pentagon on the table."
+      ],
+      "facts": [
+        "The ground stop lasted more than four hours and was lifted at 8:15 p.m. ET Friday, Nov. 13 (Fox News, CNN).",
+        "FlightAware counted at least 1,572 cancellations over the weekend.",
+        "Duffy now wants $50 billion, up from a $30 billion request made before the outage.",
+        "Congress approved $12.5 billion last year; Democrats say about a third is spent.",
+        "Investigators found no sign of a cyberattack, per Duffy and FAA Administrator Bryan Bedford."
+      ],
+      "left": "Democrats say the administration is using an outage to ask for a blank check while it has spent only about a third of money Congress already provided. They argue oversight of the L3Harris contract and of how the first $12.5 billion was used must come before any new appropriation. They also note that Duffy blamed prior administrations while running the agency now. Many still back investing in air traffic control, but with accountability attached.",
+      "right": "Conservatives and the administration argue the system rests on decades-old equipment that earlier administrations left underfunded, and a nationwide shutdown of flights proves it. They say replacing the telecom network is a safety and economic necessity that dwarfs the cost, and that Congress approved only part of the job. On this view Democrats who stall funding are gambling with air travel for political points.",
+      "next": "Watch for House briefings this week and whether any FAA money rides on the Dec. 11 funding bill.",
+      "src": [
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/politics/trump-administration/transportation-secretary-apologize-nationwide-ground-stop-airports-rcna609397"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/15/politics/congress-additional-funding-request-faa-duffy"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/transportation/6221409-duffy-cannot-cancel-l3harris/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/us/duffy-investigators-examining-2-routers-nationwide-faa-ground-stop-no-signs-foreign-cyberattack"
+        ]
+      ]
+    },
+    {
+      "id": "iranfunding",
+      "section": "politics",
+      "motif": "gavel",
+      "when": "Dec. 11 deadline",
+      "title": "Senate Democrats weigh using the Dec. 11 funding deadline to restrict Iran war spending",
+      "summary": "Kaine, Sanders, Van Hollen, Bennet and Duckworth want war limits in any stopgap, but a Senate bill needs about seven Democratic votes.",
+      "story": [
+        "Several Senate Democrats say they will not back a short-term spending bill unless it limits how the administration can use funds for the Iran war, The Hill reported. Sens. Bennet, Sanders, Van Hollen and Duckworth said they would oppose a stopgap without such language, and Tim Kaine is drafting a provision but says he is 'not there yet' on wording. The current stopgap, passed in early September, runs out Dec. 11. The House vote on it was 370-48, according to NPR.",
+        "A Senate bill needs about seven Democratic votes, so the question is how many Democrats share the demand. Hirono and Blumenthal were noncommittal, according to The Hill. Lawmakers in both parties say shutdown odds are low, but The Hill also reports that a bruising midterm for Republicans complicates the fight. Trump is demanding hundreds of billions of dollars more for the war, and Republican senators including Rounds and Tillis warned that a lame-duck reconciliation push would raise shutdown risk.",
+        "Republicans lost both chambers, and Democrats take the House in January. Washington Examiner opinion writers argue the war was central to the loss, citing exit polls in which 74% of voters called it a crucial or major factor. NPR reports the National Defense Authorization Act is also stuck over the war.",
+        "The result will show whether Democrats treat their new majority as a reason to wait until January or to force the issue now."
+      ],
+      "facts": [
+        "The current stopgap expires Dec. 11 (NPR, The Hill).",
+        "Bennet, Sanders, Van Hollen and Duckworth say they will oppose a stopgap without Iran war spending limits.",
+        "A Senate funding bill needs about seven Democratic votes (The Hill).",
+        "Trump is seeking hundreds of billions more for the war (The Hill).",
+        "The NDAA is also stalled over the war (NPR)."
+      ],
+      "left": "Democrats pushing the limit argue that Congress holds the power of the purse and that voters, in a midterm where the war loomed large, told it to use that power. They say a nine-month conflict with no clear objective should not receive more open-ended money. Supporters of a more cautious approach worry that a shutdown would hurt federal workers and hand Republicans a talking point, but even they want some check on the war.",
+      "right": "Republicans argue that withholding war funds while American troops are under fire in the Gulf endangers service members and signals weakness to Tehran. They say the way to end the war is to keep the blockade and pressure in place, not to cut off the military. Some conservative writers, though, blame the administration for the political damage, arguing the war lacked a clear aim and cost the party its majorities.",
+      "next": "Watch for Kaine's draft language and for appropriators' text before Dec. 11.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6217635-senate-democrats-threaten-shutdown-iran/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6219857-democrats-clash-funding-iran/"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6217691-republican-reconciliation-threatens-government-funding/"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/opinion/beltway-confidential/4792361/why-republicans-lost-midterm-elections-trump-iran/"
+        ]
+      ]
+    },
+    {
+      "id": "kuwait",
+      "section": "politics",
+      "motif": "shield",
+      "when": "Force protection",
+      "title": "Army major files whistleblower complaint over the Kuwait drone strike that killed six, and Trump attacks 60 Minutes",
+      "summary": "Maj. Stephen Ramsbottom says warnings went unheeded before the March 1 strike, while Trump says only two of 8,000 to 9,000 drones caused U.S. deaths.",
+      "story": [
+        "Army Maj. Stephen Ramsbottom filed a whistleblower complaint with the House and Senate Armed Services committees over the March 1 Iranian drone strike at Port Shuaiba, Kuwait, CNN and The Hill reported. The strike killed six Army Reserve members and injured about 30. Ramsbottom, a deputy chief of operations with the 103rd Sustainment Command, told CBS's 60 Minutes he twice raised the lack of aerial protection and was told a counter-drone system would arrive. He called it a 'tactical failure' and said it never came.",
+        "On Monday, Trump attacked 60 Minutes on Truth Social. Fox News reported he said Iran has fired roughly 8,000 to 9,000 one-way drones and only two got through to cause U.S. deaths. I found no independent check of those figures. Fox News noted the criticism is notable because many liberals say new CBS editor Bari Weiss is too Trump-friendly. The Pentagon has previously defended precautions at the base, and Sen. Richard Blumenthal asked Hegseth for a classified briefing and all force-protection assessments, according to the reporting.",
+        "Washington Examiner reported the Army is seeking hardened bunkers for Middle East bases quickly. Earlier Washington Examiner coverage recorded Hegseth calling the Kuwait strike a drone that 'makes its way through' and calling the base fortified, which survivors disputed. Democratic senators including Gillibrand, Warren, Blumenthal and Kelly wrote to Hegseth that the department failed to take basic precautions, the Examiner reported."
+      ],
+      "facts": [
+        "The strike hit Port Shuaiba, Kuwait, on March 1, 2026.",
+        "Six Army Reserve members were killed and about 30 were injured.",
+        "Maj. Ramsbottom's complaint went to both Armed Services committees.",
+        "Trump says 99.99% of Iranian drones and missiles were stopped or did not cause U.S. deaths; no independent check was found.",
+        "Sen. Blumenthal asked Hegseth for a classified briefing."
+      ],
+      "left": "Troops were sent into an Iranian drone war without the counter-drone systems commanders had promised, and an officer who warned about it says he was brushed off. Congress should demand the force-protection assessments, and the president's attack on the press shows he would rather debate statistics than answer for six deaths.",
+      "right": "The administration's record is strong. Thousands of Iranian drones have been stopped, and one tragic breach does not show a systemic failure. Conservatives also note the Army is already moving to build hardened bunkers, and say a war's first days always expose gaps. They want oversight to focus on fixing protection, not scoring political points.",
+      "next": "Watch for the Armed Services committees' response to the complaint and whether Hegseth gives Blumenthal the classified briefing.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/15/politics/army-soldier-whistleblower-complaint"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/defense/6222215-port-shuaiba-military-protection-failure/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/media/trump-criticizes-60-minutes-bosses-even-worse-he-challenges-iran-war-report"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/defense/4805486/army-hardened-bunkers-middle-east-bases-iran-war/"
+        ]
+      ],
+      "flag": "Trump's drone figures and his description of the 60 Minutes report are his own claims; no independent verification was found.",
+      "thread": "port-shuaiba"
+    },
+    {
+      "id": "storm",
+      "section": "local",
+      "motif": "storm",
+      "when": "Storm Wednesday",
+      "title": "Bay Area storm forecast grows: heavy rain Wednesday morning and again Thursday, with up to 5 inches possible",
+      "summary": "The SF Chronicle now forecasts 3 to 5 inches over two rounds, with a flood-prone Wednesday commute.",
+      "story": [
+        "The San Francisco Chronicle reported Monday, Nov. 16, that a stronger midweek storm could drop 3 to 5 inches of rain on the Bay Area, up from an earlier forecast of 1 to 3 inches through Thursday. The first round arrives Wednesday morning as a brief but intense atmospheric river lasting six to 10 hours, focused on the Bay Area, with a burst of 1 to 1.5 inches in about six hours. The Chronicle warned such rates are likely to cause widespread flooding on roads and exit ramps during the commute.",
+        "A second round follows Wednesday night into Thursday as a slow-moving low-pressure system. Most forecast models show more than an inch in San Francisco on both days, and the Chronicle noted thunderstorms or funnel clouds are possible. San Francisco's morning high tide is predicted to peak at 5.3 feet around 7:15 a.m. Thursday, just as the second round of heavy rain arrives.",
+        "For Fremont, the forecast on this site shows a dry, cloudy Tuesday (7% chance of rain), then rain Wednesday (99%) and storms Thursday (94%). I found no Fremont-specific totals or flood advisories in current reporting."
+      ],
+      "facts": [
+        "The Chronicle forecasts 3 to 5 inches over Wednesday and Thursday.",
+        "An atmospheric river hits Wednesday morning for six to 10 hours.",
+        "A burst of 1 to 1.5 inches could fall in about six hours.",
+        "A second round arrives Wednesday night into Thursday, with thunderstorms possible.",
+        "SF's high tide near 5.3 feet peaks around 7:15 a.m. Thursday."
+      ],
+      "why": "Short, intense bursts on a Wednesday commute flood roads and ramps faster than total rainfall suggests, and a high tide on Thursday morning adds coastal flood risk.",
+      "next": "Watch for National Weather Service watches and warnings Tuesday and Wednesday, and plan the Wednesday and Thursday commutes around them.",
+      "src": [
+        [
+          "San Francisco Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/weather-forecast/article/bay-area-midweek-storm-rain-22532365.php"
+        ],
+        [
+          "San Francisco Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/weather-forecast/article/rain-storm-weather-san-francisco-california-22529476.php"
+        ],
+        [
+          "San Francisco Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/weather-forecast/article/live-storm-rain-snow-22527659.php"
+        ]
+      ],
+      "flag": "Totals changed between Chronicle forecasts (1 to 3 inches earlier, 3 to 5 inches now). No Fremont-specific advisory found.",
+      "blindspot": "Only the San Francisco Chronicle's forecasts were found for this storm."
+    },
+    {
+      "id": "becerra",
+      "section": "local",
+      "motif": "capitol",
+      "when": "Sacramento",
+      "title": "Governor-elect Becerra promises a friendlier relationship with the Democratic Legislature",
+      "summary": "Becerra takes over from Newsom with an intact Democratic supermajority and a to-do list led by Medi-Cal cuts, wildfire liability and AI.",
+      "story": [
+        "Governor-elect Xavier Becerra says he will work cooperatively with California's Democratic Legislature, CalMatters reported. Assembly Speaker Robert Rivas said the relationship will differ from the past eight years under Gavin Newsom. Becerra has not committed to specific policy details. The Legislature is out of session until January, and Democrats kept their supermajority, though results were still uncertain in a few races, including Assembly District 7.",
+        "The to-do list is long. CalMatters lists how the state will absorb federal cuts to Medi-Cal, who pays for wildfire damage caused by utilities, how to rein in artificial intelligence and how to lower the cost of living. Newsom failed in September to secure a final deal limiting utilities' liability for wildfire costs, and CalMatters reported that Newsom had 1,160 bills to act on in his final session.",
+        "CalMatters also reviewed how Republicans and tech-backed Democrats fared in statehouse races, an angle that matters for the AI and data center bills Becerra will inherit. Local readers will feel several of these fights through utility bills, Medi-Cal coverage and Bay Area tech regulation.",
+        "The first test is the budget Becerra proposes in January."
+      ],
+      "facts": [
+        "Xavier Becerra is California's governor-elect and succeeds Gavin Newsom (CalMatters).",
+        "Democrats kept their supermajority in the Legislature.",
+        "The Legislature is out of session until January.",
+        "Newsom failed to land a final wildfire liability deal in September.",
+        "Open issues include Medi-Cal cuts, utility wildfire costs, AI regulation and cost of living."
+      ],
+      "left": "Progressives see a chance to protect Medi-Cal and the safety net against federal cuts and to write strong guardrails for AI and big tech while the supermajority is intact. They want Becerra to use the political room to hold utilities accountable and to expand housing and health coverage. Some worry a 'play nicely' posture could leave labor and consumer priorities negotiated away.",
+      "right": "Conservatives and business groups argue one-party control has produced high costs and fragile finances, and that Becerra's collaboration pledge means the Legislature faces little check. They want utility liability and wildfire costs addressed without raising rates, tech regulation that does not drive employers out of state, and a focus on affordability. They note Republicans are fighting to hold the seats they flipped in 2024.",
+      "next": "Watch for Becerra's first budget proposal and the Legislature's return in January.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/11/becerra-legislature-relationship/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/11/california-election-2026-legislature/"
+        ],
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/newsletter/xavier-becerra-legislature-preview/"
+        ]
+      ],
+      "blindspot": "Covered mainly by CalMatters in what I found; no right-leaning outlet coverage found."
+    },
+    {
+      "id": "iran",
+      "section": "world",
+      "motif": "swords",
+      "thread": "iran-war",
+      "when": "Iran, Bahrain",
+      "title": "Iran keeps up drone attacks on Bahrain, a CNN report cites a possible dirty-bomb plot, and Trump says no deal is needed",
+      "summary": "The U.S. says it stopped the drones, the White House sees no credible homeland threat, and Trump keeps the blockade.",
+      "story": [
+        "Iran's Revolutionary Guard said Sunday, Nov. 15, it fired six drones at a radar system at the Al-Rifaa helicopter base in Bahrain, CNN and Fox News reported. Bahrain said it intercepted several drones, after a similar interception Friday. For an earlier attack, CENTCOM said it shot down two drones with no damage, which contradicts Iran's claim of destroying a warning radar, per Fox News. Brent traded near $95 and WTI near $88 Monday as the Guard said two tankers struck mines in the Strait of Hormuz, CNBC reported.",
+        "CNN reported exclusively Monday, citing seven U.S. officials, that U.S. intelligence indicates Iran is developing plans to potentially detonate a dirty bomb or chemical weapon in Washington, aimed at senior administration officials. Sources described it as an effort to keep options open rather than an imminent attack, and officials are divided over its credibility. White House spokesperson Lauren Bis said the U.S. is monitoring threats but 'at this time there are no credible threats to the homeland.' Iran's UN mission denied the chemical-weapons claim.",
+        "NPR reported Trump called off Vice President Vance's effort to revive talks, saying 'We don't need a deal,' and is relying on the blockade and Iran's frozen money for leverage, with Rubio arguing sanctions are doing the work. Tehran wants the blockade lifted and frozen assets released before talks resume, CNN reported. The Hill reported a third aircraft carrier has arrived in the region as Trump weighs options."
+      ],
+      "facts": [
+        "Iran says it fired six drones at a U.S. base in Bahrain on Nov. 15; the U.S. says it stopped them.",
+        "CNN, citing seven U.S. officials, reported intelligence on a possible dirty-bomb plot in Washington; officials disagree on its credibility.",
+        "The White House says there are no credible threats to the homeland now.",
+        "Trump told Vance to drop the talks effort: 'We don't need a deal.'",
+        "A third U.S. aircraft carrier has reached the region (The Hill)."
+      ],
+      "left": "Letting a stalemate drift while Iran probes U.S. bases is dangerous, and the reported plot shows the risk is not confined to the Gulf. Diplomacy should be revived rather than ended by a president who declares no deal is needed, and Congress should decide whether this open-ended war continues.",
+      "right": "Pressure is working without a new ground campaign. The blockade and sanctions squeeze Tehran, Gulf allies prefer the status quo, and most Iranian attacks are being stopped. A thoughtful hawk would add that talks on Iran's terms, with no inspections and money up front, would reward the attacks.",
+      "next": "Watch for any U.S. response to the Bahrain attacks, more Hormuz mine incidents, and further reporting on the dirty-bomb intelligence.",
+      "src": [
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/15/middleeast/iran-bahrain-attacks-trump-intl"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/newsletters/defense-national-security/6223863-3rd-aircraft-carrier-arrives-in-middle-east-as-trump-weighs-iran-options/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+        ]
+      ],
+      "flag": "The dirty-bomb report rests on anonymous officials who disagree about its credibility; the White House says there is no credible homeland threat."
+    },
+    {
+      "id": "fedhike",
+      "section": "economy",
+      "motif": "coins",
+      "when": "Fed, AI and prices",
+      "title": "Fed Chair Warsh says AI could disappoint as hot wholesale prices keep a December hike in view",
+      "summary": "Warsh laid out three AI scenarios in San Francisco while the 10-year yield held near 5.13%.",
+      "story": [
+        "Fed Chair Kevin Warsh told a task force he assembled in San Francisco on Monday, Nov. 16, that AI is important to the economy but could 'disappoint', CNBC reported. He described an upside of productivity gains, a scenario of job displacement that lifts unemployment, and a third in which heavy investment and stock gains are followed by falling returns and valuations, slowing the economy without delivering the productivity payoff. The remarks came on a day Nasdaq lost 2.6%.",
+        "Treasuries caught a small bid. The 10-year yield fell about 2 basis points to 5.131% and the 2-year fell 4 basis points to 4.834%, CNBC reported, after last week's sell-off over inflation. October producer prices rose at a 6.5% annual rate, the highest in almost four years, CNBC and Bloomberg reported, though the monthly rise of 0.3% came in below forecasts. Traders still favor a quarter-point hike in December, per CNBC and Fox Business.",
+        "Higher rates would add to pressure on stretched tech valuations, a link CNBC drew between the Fed, bonds and the AI trade. Oil, a major driver of the inflation worry, fell Monday on supply-surplus expectations."
+      ],
+      "facts": [
+        "Warsh said AI could 'disappoint' (CNBC).",
+        "The 10-year yield was 5.131% and the 2-year 4.834% (CNBC).",
+        "October wholesale prices were up 6.5% from a year earlier.",
+        "The monthly producer-price rise was 0.3%, below forecasts.",
+        "Traders favor a quarter-point December hike."
+      ],
+      "left": "A hike into an AI-driven stock drop and a war-driven oil shock risks pushing workers out of jobs to fight price spikes the Fed cannot control. Warsh himself flags job displacement, and the Fed should weigh that before tightening again.",
+      "right": "Wholesale inflation at 6.5% is a credibility test for the Fed. Waiting would let price pressures settle into wages and expectations, and Warsh's caution about AI valuations is a reason for discipline, not for easing. Conservatives also argue that war spending and deficits feed the inflation the Fed is left to fight.",
+      "next": "Watch the December Fed meeting and the next inflation reports for any change in hike odds.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-13/us-wholesale-inflation-remained-elevated-in-october"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/economy/cpi-inflation-october-2026"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/10/cpi-october-inflation-fed"
+        ]
+      ],
+      "blindspot": "Left-leaning outlets were not found covering Warsh's remarks in the searches I ran."
+    },
+    {
+      "id": "selloff",
+      "section": "stocks",
+      "motif": "chart",
+      "thread": "ai-trade-selloff",
+      "when": "Third straight drop",
+      "title": "Tech selloff deepens as the Nasdaq falls 2.6% and chip stocks lose more than 5% ahead of Nvidia earnings",
+      "summary": "The S&P 500 fell about 2% for its third straight loss, led by chipmakers, as investors waited on Nvidia and the Anthropic IPO.",
+      "story": [
+        "U.S. stocks fell for a third straight session on Monday, Nov. 16, led by technology. By the 3:57 p.m. ET data snapshot, the S&P 500 was down 1.97% at 7,413.00, the Dow down 1.45% at 51,586.80 and the Nasdaq down 2.57% at 24,491.30. Bloomberg said the S&P 500 had its biggest three-session drop since June and that a chip-sector gauge sank 5.3%. CNBC reported that Micron and Intel each lost more than 7% and AMD fell about 5%. Consumer staples was the only S&P 500 sector that rose, per Bloomberg.",
+        "Bloomberg tied the slide to nerves around Nvidia's earnings on Tuesday and Anthropic's expected IPO this week. Nvidia fell about 4% after CEO Jensen Huang's resignation last week and closed at its lowest level since July 2025, according to CNBC and Bloomberg. The VIX jumped as much as 25% to a session high near 24, Bloomberg reported.",
+        "Bonds offered little cover. The 10-year Treasury yield eased about 2 basis points to roughly 5.13% and the 2-year slipped to about 4.83%, CNBC reported, after a sell-off last week tied to hot inflation. Oil also fell, with WTI down 3.4% to $85.55 as CNBC reported expectations of a coming supply surplus. Fed Chair Kevin Warsh said in San Francisco that AI could 'disappoint', a remark CNBC placed alongside the weak tape.",
+        "Analysts quoted by CNBC described Nvidia's 'AI premium' as still unwinding. Whether Tuesday's report stabilizes the group or adds to the pressure is the open question for the rest of the week."
+      ],
+      "facts": [
+        "S&P 500 closed near 7,413, down 1.97% (live data).",
+        "Nasdaq fell 2.57% to 24,491.30 (live data).",
+        "Bloomberg reported a chip-sector gauge down 5.3%.",
+        "CNBC reported Micron and Intel each fell more than 7%.",
+        "Every watchlist stock finished lower, led by Nvidia at -4.38% and Alphabet at -4.28%.",
+        "WTI crude fell 3.4% to $85.55."
+      ],
+      "why": "Chips are the market's biggest concentrated bet on AI. When the group falls this fast, it hits index funds and retirement accounts directly, not just tech shareholders.",
+      "next": "Nvidia reports after the close Tuesday, Nov. 17, and Anthropic prices its IPO Wednesday, Nov. 18.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://bloomberg.com/news/articles/2026-11-16/nasdaq-100-plunges-as-nvidia-earnings-anthropic-ipo-on-horizon"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/oil-prices-fall-on-expectations-of-coming-supply-surplus.html"
+        ]
+      ],
+      "flag": "Index levels are from the 3:57 p.m. ET data snapshot; CNBC's final closes differ by a few points. Reports did not give a company-specific reason for Alphabet's 4% drop."
+    },
+    {
+      "id": "nvidia",
+      "section": "stocks",
+      "motif": "chip",
+      "thread": "nvidia-huang-probe",
+      "when": "Earnings Tuesday",
+      "title": "Nvidia reports Tuesday without Jensen Huang after another 4% drop, as Washington fights over China chips",
+      "summary": "Interim CEO Colette Kress faces questions on China and Southeast Asia sales while Bessent and Lutnick dispute who delayed action on Megaspeed.",
+      "story": [
+        "Nvidia reports quarterly results after the close Tuesday, Nov. 17, its first since Jensen Huang resigned as CEO last week, CNBC reported. Analysts expect revenue of about $109.1 billion, up 91%, and earnings of $2.47 a share, according to LSEG. CFO Colette Kress is interim CEO. The stock fell 4.38% Monday to $155.72, extending a 13% weekly drop that CNBC and Bloomberg called the worst since April 2025, and a source told CNN the board is not considering bringing Huang back.",
+        "CNN reported that Huang left after revelations of extramarital affairs, including one with a Chinese woman who worked at Megaspeed, a Singapore-based data center company. The Justice and Commerce departments began investigating a network of foreign shell companies suspected of diverting restricted Nvidia chips to China in 2024, a person briefed told CNN. The New York Times, as relayed by CNN and The Hill, reported Commerce paused its Megaspeed probe. Neither agency confirmed that.",
+        "Treasury Secretary Scott Bessent challenged Commerce Secretary Howard Lutnick in a Situation Room meeting over Commerce's reluctance to blacklist Megaspeed, CNN and Fox News reported, and Bessent said he had pushed for the listing 'for months'. Lutnick says he will not be replaced. Senate Banking Chair Tim Scott asked Huang and Lutnick to testify Dec. 3, and Lutnick has agreed to appear, The Hill and CNN reported. Wyden and Neal launched a separate probe of the administration's approvals of chip exports to China.",
+        "Monday's Commerce rule on remote chip access, covered in a separate story, is the policy response so far."
+      ],
+      "facts": [
+        "Nvidia reports after the close Tuesday, Nov. 17 (earnings calendar).",
+        "Analysts expect about $109.1 billion revenue and $2.47 EPS (LSEG via CNBC).",
+        "The stock fell 4.38% Monday to $155.72.",
+        "Kress is interim CEO; the board is not considering Huang's return, per a source quoted by CNN.",
+        "Senate Banking Chair Tim Scott asked Huang and Lutnick to testify Dec. 3."
+      ],
+      "why": "Nvidia is the largest weight in the AI trade. Its guidance sets the tone for chip suppliers, cloud spending and the market's AI bet, and the export-control fight adds a policy risk that numbers alone do not capture.",
+      "next": "Earnings after the close Tuesday, Nov. 17, then the Dec. 3 Senate Banking hearing.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6219334-commerce-secretary-scrutiny-megaspeed-nvidia-scandal/"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/two-top-trump-cabinet-officials-go-war-over-china-spy-scandal-amid-explosive-accusations-report"
+        ]
+      ],
+      "flag": "Reports on the Commerce probe rely on anonymous sources and neither agency has confirmed the pause."
+    },
+    {
+      "id": "starship",
+      "section": "engineering",
+      "motif": "rocket",
+      "thread": "starship-flight-15",
+      "when": "First ship catch",
+      "title": "SpaceX catches a Starship upper stage after 14 orbits, but the booster catch fails over a low-fuel alarm",
+      "summary": "Ship 42 returned to the tower after about 22.5 hours; SpaceX is still digging into why the booster aborted.",
+      "story": [
+        "SpaceX caught Starship's upper stage with the launch tower's chopstick arms on Saturday, Nov. 14, the first time a ship has been caught after orbit, CNBC, CNN and Space.com reported. Ship 42 launched Friday, circled Earth 14 times and returned about 22.5 hours later after deploying 26 Starlink V3 satellites. The upper stage is a tougher target than the booster because it flies higher, farther and faster. SpaceX says returning both stages to the mount would sharply cut inspection and refurbishment time before reflight.",
+        "The booster did not make it. SpaceX aborted the tower catch and sent it to splash down offshore, where it exploded before reaching the water. SpaceX's explanation shifted: a spokesperson first pointed to guidance and navigation, then said the guidance system worked as designed, detecting the booster was out of position. SpaceX's Kate Tice said 'early indications are that the booster ended its boostback burn early due to a low fuel mass alarm,' and the root cause is still under investigation, Space.com reported.",
+        "One engine dropped out during boostback, so 32 of the booster's 33 engines lit, per Space.com. TechCrunch noted the FAA's May findings on a V3 booster failure named 'erroneous engine alarm system settings' and heat effects on propulsion components as probable causes, and SpaceX said it changed Starship's alarm and abort systems afterward. Analysts at Wells Fargo and Citi praised the ship catch, per CNBC."
+      ],
+      "facts": [
+        "Ship 42 flew 14 orbits in about 22.5 hours and was caught Nov. 14.",
+        "It carried 26 Starlink V3 satellites.",
+        "The booster ended boostback early on a low fuel mass alarm and was lost offshore.",
+        "One of 33 engines dropped out during boostback.",
+        "SpaceX has not published a root cause."
+      ],
+      "why": "Catching both stages is the core of Starship's reusability plan. A caught ship is a big step, but a lost booster shows the abort logic and alarm settings still need work before routine reflight.",
+      "next": "Watch for SpaceX's root-cause update on the booster alarm and the plan for Flight 16.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+        ],
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/05/27/faa-orders-spacex-to-investigate-starship-v3-booster-failure/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch"
+        ]
+      ],
+      "flag": "SpaceX has not confirmed the root cause; the link to the May alarm-setting finding is context, not a confirmed cause."
+    },
+    {
+      "id": "faarouter",
+      "section": "engineering",
+      "motif": "gear",
+      "when": "Router cascade",
+      "title": "One new router set off a cascade that halted U.S. air traffic, and the exact cause is still open",
+      "summary": "A copper-to-fiber upgrade by a contractor preceded a router flooding FAA networks; officials rule out a cyberattack and an AI tool.",
+      "story": [
+        "The FAA's nationwide ground stop on Nov. 13 began with network upgrade work, Fox News, CNN and The Hill reported. Transportation Secretary Sean Duffy said contractor L3Harris was switching telecommunication lines from old copper to fiber. The FAA said that after a new router was installed in El Dorado, Arkansas, a device began pinging FAA networks at a rapid rate Friday afternoon. Preliminary findings point to a router in El Dorado and a radar site in Amarillo, Texas. Earlier reports described one router broadcasting and overloading routers at other control centers.",
+        "Duffy said it is unclear whether the cause was contractor error or faulty equipment, and the FAA and L3Harris are testing whether the router was defective or misconfigured. Officials say they do not believe it was a cyberattack. The AI vendor behind the FAA's SMART tool denied any link to the outage, and Duffy said that system is not even plugged in, The Hill reported.",
+        "CNN noted a 2009 FAA telecommunications outage hit more than 100 facilities and an inspector general later found a technician had 'incorrectly configured' a router, and a CNN investigation described years of warnings before this outage. The design question for engineers is why one device on a network upgrade could cascade nationwide."
+      ],
+      "facts": [
+        "The upgrade was a copper-to-fiber switch by contractor L3Harris.",
+        "A new router in El Dorado, Arkansas, began pinging FAA networks rapidly.",
+        "Preliminary findings also point to a radar site in Amarillo, Texas.",
+        "Officials do not believe it was a cyberattack and say the SMART AI tool was not involved.",
+        "Defective equipment versus a configuration error is unresolved."
+      ],
+      "why": "A single misbehaving device took down a safety-critical national network. The lesson is about isolation: networks that cannot contain a faulty node turn small mistakes into outages.",
+      "next": "Watch for results from the router testing and the FAA and FBI findings.",
+      "src": [
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/faa-ground-stop-timeline-weekend-chaos-grounds-planes-postpones-games"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/14/politics/faa-ground-stop-what-we-know"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/transportation/6220416-faa-smart-ai-ground-stop-denial/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/16/us/faa-ground-stop-warnings-invs"
+        ],
+        [
+          "NBC News",
+          "LL",
+          "https://www.nbcnews.com/news/us-news/flights-air-traffic-delays-groundstop-faa-duffy-rcna609545"
+        ]
+      ],
+      "flag": "Reports differ on which router (Arkansas or Texas) first misbehaved; officials have not named a final root cause."
+    },
+    {
+      "id": "carbon",
+      "section": "science",
+      "motif": "wave",
+      "when": "Carbon sinks",
+      "title": "Atmospheric oxygen data show the ocean carbon sink growing while the land sink stalls",
+      "summary": "A Science paper finds the ocean absorbed about 35% of fossil emissions from 1990 to 2020, challenging many models.",
+      "story": [
+        "A new Science paper by Morgan and colleagues uses atmospheric oxygen and CO2 measurements to estimate where carbon goes. It finds the ocean sink grew by about 0.63 petagrams of carbon per year per decade and took up roughly 35% of fossil emissions between 1990 and 2020. The net land sink stayed roughly flat, absorbing a little over 10% of emissions. The paper appears in Science volume 394, pages 799-803.",
+        "The method works because burning fossil fuels consumes oxygen, while land plants release it and the ocean does not, so the oxygen record separates the land and ocean carbon sources and sinks. A companion Perspective by S\u00e9f\u00e9rian and Bopp in the Nov. 12 issue covers the work, and describes trends for 1990 to 2019.",
+        "The authors say the results challenge many process-based model simulations of both sinks. A 2024 Science Advances analysis, 'The weak land carbon sink hypothesis,' argued the net land sink is close to neutral, which fits the new finding.",
+        "The full texts are paywalled, so details here come from abstracts and summaries."
+      ],
+      "facts": [
+        "The ocean sink grew about 0.63 Pg C per year per decade (Science).",
+        "The ocean absorbed about 35% of fossil emissions in 1990 to 2020.",
+        "The net land sink was flat at a little over 10% of emissions.",
+        "The study challenges many model simulations.",
+        "A Perspective by S\u00e9f\u00e9rian and Bopp ran Nov. 12."
+      ],
+      "why": "If the land sink is not growing, future warming projections that count on forests and soils to absorb more carbon are too optimistic, and the ocean's role matters more.",
+      "next": "Watch for climate modelers to respond to the oxygen-based estimates.",
+      "src": [
+        [
+          "Science",
+          "C",
+          "https://www.science.org/doi/10.1126/science.aed9544"
+        ],
+        [
+          "Science",
+          "C",
+          "https://www.science.org/doi/10.1126/science.aem7174"
+        ]
+      ],
+      "flag": "Reports differ on the study window (1990-2020 in the paper's summary, 1990-2019 in the Perspective)."
+    },
+    {
+      "id": "granzyme",
+      "section": "science",
+      "motif": "dna",
+      "when": "Ageing protein",
+      "title": "Mice lacking granzyme K age better in heart, liver and kidney",
+      "summary": "A Nature report says removing one protein improved organ function in aged mice without a clear immune penalty.",
+      "story": [
+        "Nature reports that aged mice engineered to lack granzyme K had better heart and liver function and less kidney damage. The news article, titled 'Found: a protein that drives ageing without unleashing inflammation,' says drugs that lower the protein might one day counter ageing effects without impairing the body's immune defenses. I could not retrieve the underlying paper, so methods and sample sizes are not confirmed.",
+        "Granzyme K is made by a subset of aged CD8+ T cells. A Nature Aging study found that granzyme K+ effector memory cells accumulate and expand clonally in atherosclerotic plaques of aged mice, and an Immunity study described senescent lung fibroblasts promoting a pro-inflammatory ageing T cell state defined by granzyme K, according to a Nature Reviews Immunology commentary.",
+        "These threads suggest granzyme K sits between ageing tissue and chronic damage. Mouse results often fail in people, and the effect of long-term blockade on infection and cancer defenses is unknown.",
+        "The researchers frame it as a target, not a treatment."
+      ],
+      "facts": [
+        "Mice lacking granzyme K showed better heart and liver function and less kidney damage (Nature).",
+        "The protein is linked to a subset of aged CD8+ T cells.",
+        "Related studies tie granzyme K+ T cells to plaques and lung inflammaging.",
+        "The article says it drives ageing without unleashing inflammation.",
+        "No human data were reported in the coverage found."
+      ],
+      "why": "It points to a possible ageing drug target that avoids broad immunosuppression, a common problem with anti-inflammatory approaches.",
+      "next": "Watch for the full paper's methods and any primate or human tissue follow-up.",
+      "src": [
+        [
+          "Nature",
+          "C",
+          "https://www.nature.com/articles/d41586-026-03638-3"
+        ],
+        [
+          "Nature Aging",
+          "C",
+          "https://www.nature.com/articles/s43587-023-00515-w"
+        ],
+        [
+          "Nature Reviews Immunology",
+          "C",
+          "https://www.nature.com/articles/s41577-026-01302-5"
+        ]
+      ],
+      "flag": "I could not read the underlying paper; findings come from Nature's news summary."
+    },
+    {
+      "id": "anthropicipo",
+      "section": "ai",
+      "motif": "chart",
+      "thread": "anthropic-ipo",
+      "when": "IPO this week",
+      "title": "Anthropic prices its IPO Wednesday as the AI selloff and valuation doubts shadow a heavily oversubscribed book",
+      "summary": "The range is $70 to $78 a share, trading is expected Thursday as ANT, and the valuation is reported at roughly $1 trillion to $1.4 trillion.",
+      "story": [
+        "Anthropic plans to price its IPO Wednesday, Nov. 18 and begin trading Thursday, Nov. 19 on the Nasdaq as ANT, CNBC and Axios reported. The range is $70 to $78 for 825 million shares, which would raise about $57.75 billion to $64.35 billion and imply a valuation near $1.4 trillion at the top, per TechCrunch. Fox Business put the target around $1 trillion, below earlier talk of $1.5 trillion. Bloomberg reports the book is about six times oversubscribed.",
+        "The offering lands in a falling market. Nasdaq lost 2.6% Monday, and Fed Chair Warsh warned AI could 'disappoint'. CNBC reported the IPO has also met backlash after midterm results showed a sharp public rebuke of data centers, and the company's filing flags organized opposition to data center development as a risk.",
+        "Reuters, as relayed by CNBC, found the prospectus devotes about 80 pages to AI risks against 48 on the business plan. Bloomberg's critique was that the risk list is long but says little on how risks would be managed or by whom. Defenders such as Renaissance Capital's Matt Kennedy argue public markets bring more transparency."
+      ],
+      "facts": [
+        "Pricing is expected Wednesday, Nov. 18, with trading Thursday as ANT.",
+        "The range is $70 to $78 for 825 million shares.",
+        "Bloomberg reports the book is about six times oversubscribed.",
+        "The valuation is reported at near $1 trillion (Fox Business) to about $1.4 trillion at the top of the range (TechCrunch).",
+        "The prospectus spends about 80 pages on AI risks (Reuters via CNBC)."
+      ],
+      "why": "This is the largest AI IPO test. How it prices and trades will signal whether public investors still pay up for AI labs after a week of selling in chips.",
+      "next": "Watch for the final price Wednesday evening and the first trade Thursday, Nov. 19.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/10/anthropic-ipo-terms"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/anthropic-targets-valuation-around-1t-blockbuster-ai-ipo-below-initial-expectation"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html"
+        ]
+      ],
+      "flag": "Valuation reports differ (about $1 trillion versus about $1.4 trillion), likely because of different share-count bases."
+    },
+    {
+      "id": "aichips",
+      "section": "ai",
+      "motif": "shield",
+      "when": "Export rule",
+      "title": "Commerce closes a remote-access loophole on AI chips for Chinese firms ahead of Trump's China trip",
+      "summary": "A new interim rule requires licenses for chips going to overseas data centers that serve companies in restricted countries.",
+      "story": [
+        "The Commerce Department's Bureau of Industry and Security issued an interim final rule Monday, Nov. 16, that requires a license for chips headed to overseas data centers providing 'significant' computing power to companies headquartered in restricted countries such as China, The Hill and CNN reported. It takes effect in 90 days. It also requires licenses for advanced chip exports to Indonesia, Malaysia, Singapore, Thailand and Brazil, which the rule describes as higher diversion risks, according to the reporting.",
+        "The rule followed the Nvidia and Megaspeed scandal. The Hill reported Commerce said the rule was written by and at the direction of the Treasury Department and the National Security Council, a detail that fits the open split between Bessent and Lutnick. It was announced before President Trump's planned trip to China to meet President Xi Jinping.",
+        "Congress is moving on a parallel track. The House passed the Remote Access Security Act in January, and if similar legislation passes next year, an analyst quoted in coverage said it would raise compliance exposure for cloud operators outside China, including in Southeast Asia, that serve Chinese customers. Fox News separately reported that Nvidia is set to receive a Trump 'AI national champion' designation, per its headline."
+      ],
+      "facts": [
+        "The rule was issued Monday, Nov. 16, and takes effect in 90 days.",
+        "It targets remote access by companies in restricted countries, such as China.",
+        "It adds license requirements for five countries seen as diversion risks.",
+        "Commerce said Treasury and the National Security Council directed the rule.",
+        "It comes before Trump's planned China trip."
+      ],
+      "why": "Banning chip sales is not enough if Chinese firms can rent the same chips in another country's data centers. This rule goes after that route, and it will change where cloud providers build and who they serve.",
+      "next": "Watch for the Federal Register text, industry comments, and what Trump says about chips at his meeting with Xi.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/technology/6222897-bis-limits-remote-computing-exports/"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/16/politics/ai-chips-restrictions-china"
+        ],
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/ai-news-nvidia-spy-scandal-jensen-huang-11-16-26"
+        ]
+      ],
+      "flag": "I did not retrieve the rule text itself; scope and thresholds come from news reports."
+    }
+  ],
+  "briefs": [
+    "Ukraine and Russia agreed in principle in Abu Dhabi to a prisoner swap of more than 1,000 people, and Zelensky said U.S. negotiators floated Donbas withdrawal for NATO membership; no breakthrough on the war (NPR).",
+    "Mary Peltola still leads Dan Sullivan in Alaska's uncalled Senate race, with the ranked-choice tabulation expected around Nov. 18 and certification around Nov. 25 (The Hill).",
+    "A Nature news piece reports the most detailed basal ganglia atlas yet, with 25.5 million cells from humans, macaques and marmosets and 61 shared cell types (Nature).",
+    "Battery startup Our Next Energy is going public through a SPAC merger, with a prototype that reportedly drove over 600 miles on one charge (TechCrunch).",
+    "A third U.S. aircraft carrier has arrived in the Middle East as Trump weighs Iran options (The Hill).",
+    "Fox News reports Nvidia is set to receive a Trump 'AI national champion' designation, according to its headline (Fox News)."
+  ]
+}
