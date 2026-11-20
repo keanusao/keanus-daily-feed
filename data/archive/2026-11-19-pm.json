@@ -1,0 +1,1296 @@
+{
+  "updatedAt": "2026-11-20T00:07:39Z",
+  "label": "Afternoon edition",
+  "summary": "Keanu, **stocks fell about 2% on Thursday**, with the Dow closing at 49,097.06, below 50,000 for the first time since June (CNBC, Bloomberg). Anthropic opened at $111.50 in its record debut but closed at $97.17, up 17%, and the pop **failed to revive the AI trade** (CNBC, Fox Business). Fed Governor Waller said a half-point hike may be needed on Dec. 8-9, and traders price a 95% chance of at least a quarter-point (CNBC, Bloomberg). Bitcoin touched its lowest level since July 2 (Bloomberg). In Washington, the Senate rejected a war powers resolution 48-51, and Schumer called Trump's summit with Xi and Putin an embarrassment while Trump gave it a 12 out of 10 (The Hill, ABC News, Fox News). Funding expires Dec. 11 and FISA on Dec. 9, so the lame-duck calendar is tight (Fox News). Locally, the storm set a San Francisco rain record, and California's analyst warns that **a market crash could widen deficits** to about $35 billion (SF Chronicle, KQED, CalMatters). Officials still blame **software changes, not attacks, for the outages** at Chase, Apple and the NSA (CNBC, The Hill, Axios). Meta's Muse agent faces new privacy reports (TechCrunch), and a new study finds **107,000 species are traded worldwide** (Sheffield, Queen Mary).",
+  "alerts": [
+    {
+      "text": "The Dow is just shy of a 10% drop from its August peak, and the Fed meets Dec. 8-9 with a half-point hike on the table.",
+      "level": "watch",
+      "story": "selloff"
+    },
+    {
+      "text": "All six of your watchlist stocks fell, with AMZN down 3.87% and GOOGL down 3.46%; Intuit and Ross Stores also dropped after hours.",
+      "level": "info",
+      "story": "selloff"
+    },
+    {
+      "text": "California's analyst says a market crash could push deficits toward $35 billion, which is a risk for state-funded programs.",
+      "level": "watch",
+      "story": "cabudget"
+    },
+    {
+      "text": "FISA expires Dec. 9 and government funding on Dec. 11, so expect shutdown headlines soon.",
+      "level": "watch",
+      "story": "lameduck"
+    }
+  ],
+  "highlights": [
+    {
+      "story": "selloff",
+      "text": "Dow closes below 50,000 for the first time since June as the AI trade stumbles."
+    },
+    {
+      "story": "antipo",
+      "text": "Anthropic opens at $111.50, closes at $97.17, up 17% from its $83 IPO price."
+    },
+    {
+      "story": "fed",
+      "text": "Waller says the Fed may need a half-point hike in December to 'shock people.'"
+    },
+    {
+      "story": "summit",
+      "text": "Schumer slams Trump's Xi-Putin summit; Trump rates it 12 out of 10."
+    },
+    {
+      "story": "outages",
+      "text": "Officials blame patches and updates, not attackers, for Chase, Apple and NSA outages."
+    }
+  ],
+  "stat": {
+    "label": "Anthropic day one",
+    "value": "+17%",
+    "note": "Closed at $97.17 versus an $83 IPO price after opening at $111.50 (CNBC)"
+  },
+  "markets": {
+    "asOf": "Thu Nov 19, 4:26 PM ET",
+    "wrap": "Stocks sold off hard, with the S&P 500 down 2.02%, the Dow down 2.19% and the Nasdaq down 2.25% (live market data). **Anthropic's debut failed to revive the AI trade**, and CNBC and Bloomberg said the slide is the longest in the market since 2024. Fed Governor Waller's call for a possible half-point hike on Dec. 8-9 kept pressure on, with the 10-year yield at 5.05% (CNBC). Bitcoin fell to about $61,500, its lowest since July 2 (Bloomberg). After the bell, Intuit fell about 13% on weak guidance and Ross Stores fell about 7% (CNBC).",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "name": "S&P 500",
+        "price": "7,175.83",
+        "raw": 7175.83,
+        "change": "-2.02%",
+        "dir": "down",
+        "time": 1795123201,
+        "spark": [
+          7712.57,
+          7757.17,
+          7663.43,
+          7623.68,
+          7676.77,
+          7722.6,
+          7743.98,
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93,
+          7619.38,
+          7592.4,
+          7561.67,
+          7416.59,
+          7340.53,
+          7323.63,
+          7175.83
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "name": "Dow Jones",
+        "price": "49,097.06",
+        "raw": 49097.06,
+        "change": "-2.19%",
+        "dir": "down",
+        "time": 1795123201,
+        "spark": [
+          52495.88,
+          52856.09,
+          52867.98,
+          52215.16,
+          52361.58,
+          52377.57,
+          52475.1,
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89,
+          52486.49,
+          52297.09,
+          52347.55,
+          51608.17,
+          50759.42,
+          50198.17,
+          49097.06
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "name": "Nasdaq",
+        "price": "23,879.20",
+        "raw": 23879.2,
+        "change": "-2.25%",
+        "dir": "down",
+        "time": 1795123574,
+        "spark": [
+          26424.82,
+          26702.86,
+          26008.86,
+          25955.34,
+          26169.38,
+          26477.81,
+          26549.85,
+          26184.72,
+          25437.0,
+          25164.31,
+          25372.01,
+          25736.51,
+          24315.0,
+          24579.43,
+          25253.14,
+          25065.87,
+          25466.19,
+          25366.09,
+          25136.27,
+          24509.76,
+          24328.38,
+          24429.88,
+          23879.2
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "name": "10-yr Treasury",
+        "price": "5.05%",
+        "raw": 5.052,
+        "change": "-0.28%",
+        "dir": "down",
+        "time": 1795118395,
+        "spark": [
+          5.14,
+          5.12,
+          5.15,
+          4.95,
+          4.99,
+          4.99,
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86,
+          4.98,
+          5.0,
+          5.1,
+          5.15,
+          5.12,
+          5.1,
+          5.07,
+          5.05
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "name": "WTI crude",
+        "price": "$83.11",
+        "raw": 83.11,
+        "change": "+0.97%",
+        "dir": "up",
+        "time": 1795122978,
+        "spark": [
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56,
+          85.72,
+          86.01,
+          83.26,
+          83.11
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin",
+        "price": "$61,536",
+        "raw": 61536.43,
+        "change": "-2.30%",
+        "dir": "down",
+        "time": 1795123575,
+        "spark": [
+          81853.54,
+          82941.0,
+          84011.97,
+          81311.89,
+          81074.19,
+          80790.84,
+          80024.01,
+          80006.66,
+          80805.08,
+          81267.59,
+          77775.11,
+          77198.21,
+          77434.75,
+          78248.45,
+          76677.3,
+          77345.05,
+          80405.29,
+          75942.12,
+          75746.93,
+          75747.58,
+          74584.65,
+          75223.15,
+          73720.12,
+          73964.47,
+          71342.97,
+          68249.27,
+          64128.05,
+          65305.06,
+          64855.84,
+          64893.95,
+          62987.27,
+          61536.43
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": "$145.98",
+        "raw": 145.98,
+        "change": "-3.30%",
+        "dir": "down",
+        "time": 1795122001,
+        "spark": [
+          216.47,
+          221.97,
+          212.21,
+          210.96,
+          216.0,
+          217.94,
+          215.38,
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89,
+          173.73,
+          166.19,
+          162.85,
+          156.14,
+          155.46,
+          150.96,
+          145.98
+        ],
+        "note": "Fell with AI chip names as the SEC probe and Huang's exit weigh (CNBC, TechCrunch)."
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": "$349.21",
+        "raw": 349.21,
+        "change": "-0.92%",
+        "dir": "down",
+        "time": 1795122001,
+        "spark": [
+          339.5,
+          343.99,
+          348.22,
+          347.73,
+          343.91,
+          347.1,
+          343.83,
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51,
+          355.63,
+          354.88,
+          356.27,
+          352.78,
+          351.91,
+          352.45,
+          349.21
+        ]
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": "$498.30",
+        "raw": 498.3,
+        "change": "-1.78%",
+        "dir": "down",
+        "time": 1795122001,
+        "spark": [
+          531.87,
+          532.95,
+          521.08,
+          524.51,
+          532.6,
+          531.33,
+          531.01,
+          530.14,
+          521.91,
+          507.12,
+          520.99,
+          555.8,
+          535.93,
+          530.61,
+          545.18,
+          533.16,
+          521.13,
+          523.0,
+          523.88,
+          517.99,
+          506.24,
+          508.29,
+          498.3
+        ]
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": "$272.66",
+        "raw": 272.66,
+        "change": "-3.46%",
+        "dir": "down",
+        "time": 1795122000,
+        "spark": [
+          340.28,
+          334.76,
+          324.22,
+          320.21,
+          316.8,
+          320.58,
+          324.89,
+          283.82,
+          279.84,
+          278.99,
+          280.03,
+          288.93,
+          282.57,
+          284.78,
+          288.15,
+          287.38,
+          293.45,
+          298.7,
+          295.77,
+          283.72,
+          280.2,
+          282.44,
+          272.66
+        ],
+        "note": "Fell with the AI-linked selloff after Anthropic's debut failed to lift the group (CNBC, Bloomberg)."
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": "$374.41",
+        "raw": 374.41,
+        "change": "-2.43%",
+        "dir": "down",
+        "time": 1795122001,
+        "spark": [
+          373.71,
+          386.47,
+          374.58,
+          372.22,
+          391.62,
+          407.46,
+          404.22,
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78,
+          390.84,
+          397.45,
+          390.22,
+          379.74,
+          380.11,
+          383.72,
+          374.41
+        ],
+        "note": "Dropped in the broad market slide as the Dow fell below 50,000 (CNBC)."
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "price": "$257.37",
+        "raw": 257.37,
+        "change": "-3.87%",
+        "dir": "down",
+        "time": 1795122001,
+        "spark": [
+          262.63,
+          262.37,
+          250.38,
+          248.0,
+          249.09,
+          253.1,
+          254.6,
+          243.79,
+          240.35,
+          245.63,
+          250.69,
+          266.03,
+          260.21,
+          259.3,
+          266.93,
+          270.87,
+          266.17,
+          267.44,
+          266.66,
+          257.75,
+          257.89,
+          267.74,
+          257.37
+        ],
+        "note": "Fell with the AI-linked selloff, the largest drop on the watchlist (CNBC, Bloomberg)."
+      }
+    ]
+  },
+  "earnings": [],
+  "weather": {
+    "place": "Fremont, CA",
+    "tz": "America/Los_Angeles",
+    "current": {
+      "temp": 54.7,
+      "feels": 51.6,
+      "hum": 82,
+      "wind": 7.0,
+      "cond": "cloudy"
+    },
+    "days": [
+      {
+        "date": "2026-11-18",
+        "hi": 55,
+        "lo": 48,
+        "cond": "rain",
+        "pop": 100
+      },
+      {
+        "date": "2026-11-19",
+        "hi": 55,
+        "lo": 47,
+        "cond": "rain",
+        "pop": 88
+      },
+      {
+        "date": "2026-11-20",
+        "hi": 56,
+        "lo": 43,
+        "cond": "rain",
+        "pop": 53
+      },
+      {
+        "date": "2026-11-21",
+        "hi": 58,
+        "lo": 41,
+        "cond": "drizzle",
+        "pop": 59
+      },
+      {
+        "date": "2026-11-22",
+        "hi": 57,
+        "lo": 49,
+        "cond": "drizzle",
+        "pop": 42
+      },
+      {
+        "date": "2026-11-23",
+        "hi": 58,
+        "lo": 46,
+        "cond": "cloudy",
+        "pop": 3
+      },
+      {
+        "date": "2026-11-24",
+        "hi": 62,
+        "lo": 49,
+        "cond": "rain",
+        "pop": 67
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "warpowers",
+      "section": "politics",
+      "motif": "capitol",
+      "thread": "iran-war",
+      "when": "War powers vote",
+      "title": "Senate Republicans again block a resolution to end the Iran war",
+      "summary": "The 48-51 vote was the first on the issue since the midterms, with the Dec. 11 funding deadline next.",
+      "story": [
+        "The Senate rejected a Democratic war powers resolution to end the Iran conflict 48-51, The Hill reported. It was the first Senate vote on the issue since the November midterms. Susan Collins, Lisa Murkowski and Rand Paul were reported as Republican yes votes, and John Fetterman was the lone Democrat opposed, per The Hill. The resolution was largely symbolic, since Trump would not be expected to sign it.",
+        "The vote sets up the next fight. Government funding runs out Dec. 11, and Democrats such as Chris Van Hollen, Tim Kaine and Michael Bennet want any stopgap to bar money for the war, while Adam Schiff has favored other tools, according to coverage this month. Sen. Mike Rounds said the push would raise shutdown risk. A short-term bill needs Democratic votes to reach 60.",
+        "In the House, Fox News reported on Nov. 14 that Rep. Thomas Massie is courting Republican defectors for a fourth vote. Trump told Axios he is not rushing a decision on Iran, while Israeli Prime Minister Netanyahu is pressing for action soon (Axios).",
+        "Democrats take both chambers in January, so these votes mostly set the terms for the next Congress."
+      ],
+      "flag": "Reports disagree on whether the vote was Wednesday (The Hill) or Thursday (ABC News), and on whether two or three Republicans voted yes.",
+      "facts": [
+        "The vote failed 48-51 (The Hill).",
+        "It was the first Senate war powers vote since the midterms (The Hill).",
+        "Fetterman was the only Democrat to vote no (The Hill).",
+        "Federal funding expires Dec. 11 (Fox News, The Hill).",
+        "Trump told Axios he is 'not rushing' a decision on Iran (Axios)."
+      ],
+      "left": "Democrats argue Congress never authorized this war and that repeated votes put every Republican on record. They say the power of the purse is the only real leverage left, and that a caucus about to control both chambers should not fund open-ended fighting. A few Republicans agree, they note, and the war helped sink the GOP in the midterms.",
+      "right": "Republicans argue that pulling authority mid-conflict signals weakness to Tehran and endangers troops, and that a funding rider risks a shutdown that hits air travel and federal workers. They say Democrats can take up oversight in January with a majority, and that the president needs flexibility while talks and strikes are still in play.",
+      "next": "Watch for stopgap text before the Dec. 11 deadline and for Massie's House vote.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6231044-senate-republicans-war-powers-resolution-vote-fails/"
+        ],
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/19/trump-iran-attacks-israel-new-year"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war"
+        ]
+      ]
+    },
+    {
+      "id": "summit",
+      "section": "politics",
+      "motif": "globe",
+      "thread": "ukraine-us-rift",
+      "when": "Shenzhen summit",
+      "title": "Schumer calls Trump's Xi-Putin summit an embarrassment as Trump gives it '12 out of 10'",
+      "summary": "The first three-way U.S., China and Russia meeting produced a four-point declaration but no announced breakthroughs.",
+      "story": [
+        "Senate Minority Leader Chuck Schumer used the Senate floor on Thursday to attack the trilateral summit in Shenzhen. ABC News reported he said Trump was 'eating out of the palm of their hand' and called the trip a betrayal of the United States. Trump rated the meeting a 12 on a scale of 10 and called Putin 'my friend' (ABC News, Fox News). The three leaders issued a four-point 'peace declaration' with no diplomatic breakthroughs announced, per The Hill and Fox News.",
+        "Fox News described the summit as a diplomatic milestone where breakthroughs remain elusive, with the declaration's nuclear language its main substance. Jared Kushner said Putin is 'comfortable' with NATO-like security guarantees for Ukraine, which would need congressional approval. Before the meeting, a congressional China watchdog warned that Putin and Xi would pressure Trump on Ukraine (Fox News).",
+        "The Free Press asked whether Trump is preparing to trade Ukraine for movement on Iran. Some European allies fear a deal that would force concessions from Kyiv. Trump also told reporters he plans a White House briefing Friday at noon ET on the trip and trade deals with Thailand and the Philippines (The Hill).",
+        "The summit looks like symbolism for now. The real test is whether it changes behavior on Ukraine or Iran."
+      ],
+      "flag": "The text of the four-point declaration and any Ukraine content were not available in the reports reviewed.",
+      "facts": [
+        "The Shenzhen meeting was the first three-way meeting of the U.S., China and Russia leaders (ABC News).",
+        "The leaders issued a four-point declaration with no announced breakthroughs (The Hill, Fox News).",
+        "Trump rated the meeting '12 out of 10' (Fox News).",
+        "Schumer called the trip a betrayal of the United States (ABC News).",
+        "Trump plans a White House briefing Friday at noon ET (The Hill)."
+      ],
+      "left": "Democrats say Trump flattered two adversaries and came home with nothing concrete on Ukraine, Iran or trade. They argue that treating Putin as a friend while a war continues undercuts allies, and that a president who calls an empty communique a 12 out of 10 is not negotiating from strength.",
+      "right": "Supporters argue that direct talks with both rivals are better than isolation, and that the nuclear language and security-guarantee comments could matter. Even skeptics on the right, such as writers at The Free Press, worry less about the meeting itself than whether Ukraine becomes a bargaining chip.",
+      "next": "Trump's White House briefing is Friday at noon ET. Watch for details on the declaration and any follow-up on Ukraine guarantees.",
+      "src": [
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/administration/6229360-live-updates-trump-xi-putin-china-summit-crypto-alaska-tech-outages/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trumps-historic-summit-xi-putin-marks-diplomatic-milestone-breakthroughs-remain-elusive"
+        ],
+        [
+          "The Free Press",
+          "LR",
+          "https://www.thefp.com/p/is-trump-getting-ready-to-trade-ukraine-for-russia"
+        ]
+      ]
+    },
+    {
+      "id": "lameduck",
+      "section": "politics",
+      "motif": "scroll",
+      "thread": "midterms-2026",
+      "when": "Lame duck",
+      "title": "Trump says he may do better with a Democratic Congress as the lame-duck deadlines stack up",
+      "summary": "FISA expires Dec. 9 and funding Dec. 11, while Republicans debate who is to blame for the midterm losses.",
+      "story": [
+        "Trump said he thinks he can be more productive with the incoming Democratic Congress than with the Republican one, The Hill reported on Thursday. The comment follows Democratic wins in both chambers on Nov. 3. Fox News reported that Republican insiders blame Trump for the losses, and Trump himself said the Iran war was a 'largely true' cause because it pushed up gas prices.",
+        "The lame-duck session has hard dates. Trump's intelligence chiefs want Congress to renew FISA Section 702 by Dec. 9, funding runs out Dec. 11 and the debt ceiling looms in January, Fox News reported. House GOP leaders have also started a playbook to prepare for Democratic investigations, with Majority Leader Steve Scalise urging committee chairs to get ready.",
+        "Trump has also said he would use his veto power against Democrats, telling CBS News he has 'the ultimate power.' Taken together, his remarks point to a mix of deal-making and confrontation.",
+        "What the lame-duck Congress finishes matters because it sets the table for a divided government in January."
+      ],
+      "facts": [
+        "Trump said he could be more productive with Democrats in charge (The Hill).",
+        "FISA Section 702 has a Dec. 9 deadline (Fox News).",
+        "Federal funding expires Dec. 11 (Fox News).",
+        "The debt ceiling looms in January (Fox News).",
+        "Scalise urged GOP chairs to prepare for Democratic investigations (Fox News)."
+      ],
+      "left": "Democrats read the remarks as an admission that the GOP agenda failed and an opening to pass bipartisan priorities. They say the incoming majority should use oversight and the budget to check the White House, and they point to Republicans blaming Trump as proof voters rejected the war and high prices.",
+      "right": "Republicans argue the party lost because of the midterm environment and a costly foreign conflict, not its core agenda. They say a veto and a united opposition to investigations keep the White House strong, and that renewing FISA and funding the government before the handoff should not be held hostage.",
+      "next": "Watch the Dec. 9 FISA deadline and the Dec. 11 funding vote.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/the-120/6229761-donald-trump-democratic-party-120th-congress/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/trumps-spy-chiefs-put-republican-leaders-clock-huge-priority-power-shift-looms-congress"
+        ],
+        [
+          "Fox News (lame duck)",
+          "R",
+          "https://www.foxnews.com/politics/congress-returns-brutal-lame-duck-stretch-shutdown-deadline-leadership-races-closet-full-s"
+        ],
+        [
+          "Fox News (midterms)",
+          "R",
+          "https://www.foxnews.com/politics/republicans-turn-trump-after-devastating-midterm-losses-hand-democrats-control-congress"
+        ]
+      ],
+      "blindspot": "Sourced mainly to Fox News and The Hill; no left-leaning outlet coverage of this specific angle was found."
+    },
+    {
+      "id": "storm",
+      "section": "local",
+      "motif": "storm",
+      "when": "Atmospheric river",
+      "title": "Bay Area storm breaks a rain record in San Francisco and cuts power to about 46,000 customers",
+      "summary": "Downtown San Francisco logged 2.28 inches by mid-afternoon Wednesday, and more rain is forecast for Fremont through the weekend.",
+      "story": [
+        "The multi-day storm hit the Bay Area hard on Wednesday. The San Francisco Chronicle reported downtown San Francisco recorded 2.28 inches of rain by 2:40 p.m., breaking the Nov. 18 record, and PG&E reported 686 outages affecting 45,890 customers by 10:30 a.m. Outages eased significantly by Thursday. Storm totals passed 3 inches in San Francisco, Oakland and Santa Rosa, and topped 6 inches in parts of the Santa Cruz Mountains, the Chronicle said.",
+        "Forecasters had called for 3 to 5 inches across the multi-day system, with big waves and tidal flooding on the coast (SF Chronicle). KQED reported Alameda's fire department expects some coastal flooding because the storms overlap with king tides. The Chronicle's timeline said the low-pressure center would approach early Thursday, bringing another round of heavy rain and an elevated severe-weather threat.",
+        "For Fremont, the live forecast shows a 53% chance of rain Friday, 59% Saturday and 42% Sunday, with highs in the mid to upper 50s. Drivers should check Caltrans QuickMap and PG&E's outage map before heading out.",
+        "Wet weather is also a reminder of a longer risk: KQED reported scientists are racing to protect species from a 'super' El Nino marine heat wave."
+      ],
+      "facts": [
+        "Downtown San Francisco recorded 2.28 inches by 2:40 p.m. Wednesday, a record for Nov. 18 (SF Chronicle).",
+        "PG&E reported 45,890 customers without power at 10:30 a.m. Wednesday (SF Chronicle).",
+        "Storm totals topped 3 inches in San Francisco, Oakland and Santa Rosa (SF Chronicle).",
+        "Parts of the Santa Cruz Mountains saw more than 6 inches (SF Chronicle).",
+        "Alameda officials expect coastal flooding with king tides (KQED)."
+      ],
+      "next": "Watch Friday's rain in Fremont and any flood warnings for creeks and low-lying roads.",
+      "src": [
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/weather/article/live-storm-updates-22536019.php"
+        ],
+        [
+          "SF Chronicle (timeline)",
+          "LL",
+          "https://www.sfchronicle.com/weather-forecast/article/live-storm-timeline-wind-rain-flooding-22535580.php"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12109913/bay-area-braces-for-another-round-of-storms-this-week"
+        ]
+      ]
+    },
+    {
+      "id": "cabudget",
+      "section": "local",
+      "motif": "coins",
+      "when": "State budget",
+      "title": "California faces a $2 billion deficit that could grow past $15 billion if stocks keep sliding",
+      "summary": "The Legislative Analyst warns Gov.-elect Becerra that a market crash could widen deficits to about $35 billion by 2028-29.",
+      "story": [
+        "California's nonpartisan Legislative Analyst's Office projects a roughly $2 billion shortfall for 2027-28, but says it could exceed $15 billion the following year if the stock market slides, CalMatters reported. An abrupt crash could push annual deficits to about $35 billion by 2028-29, according to KQED and CalMatters. The LAO also says the state carries nearly $30 billion in debt.",
+        "Incoming Gov. Xavier Becerra, who takes office Jan. 4, inherits a budget that relied heavily on AI-driven revenue. CalMatters reported cuts to health services for undocumented immigrants take effect next year unless he finds new funding. His spokesperson says he is preparing a balanced budget for January, and he has signaled openness to new taxes. He opposed the billionaire tax, which voters rejected.",
+        "Republicans hold only 20 of 120 legislative seats after the election, so they have little power to block Democrats. Senate budget vice chair Roger Niello urged the administration to 'face reality,' CalMatters reported. The SF Chronicle also covered the LAO warning.",
+        "This week's selloff makes the risk concrete for a state whose income-tax revenue depends on capital gains and tech stock compensation."
+      ],
+      "facts": [
+        "The LAO projects a roughly $2 billion shortfall for 2027-28 (CalMatters).",
+        "Deficits could pass $15 billion the next year if stocks slide (CalMatters, KQED).",
+        "A sharp crash could mean about $35 billion annual deficits by 2028-29 (KQED).",
+        "Becerra takes office Jan. 4 and presents a budget in early January (CalMatters).",
+        "Republicans hold 20 of 120 legislative seats (CalMatters)."
+      ],
+      "left": "Progressives say a volatile, AI-dependent tax base shows why California needs steadier revenue, including taxes on high earners and corporations, and why the cuts to health coverage should be reversed. Voters rejected the billionaire tax, but they argue structural reform is still overdue.",
+      "right": "Conservatives say the numbers prove the state spent as if the boom would last forever and must now cut or restrain growth rather than raise taxes. They point to the nearly $30 billion in debt and to the warning from Republican budget leaders that the administration should face reality.",
+      "next": "Becerra's first budget is due in early January, and lawmakers must pass one by June. Watch the Legislature's return on Dec. 7.",
+      "blindspot": "Right-of-center views appear mainly as a single GOP quote in CalMatters; no right-leaning outlet coverage was found.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/politics/2026/11/california-budget-economic-outlook/"
+        ],
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12110232/california-budget-analyst-warns-stock-market-crash-poses-risk-of-ballooning-deficit"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/california-budget-ai-22537667.php"
+        ],
+        [
+          "CalMatters (newsletter)",
+          "C",
+          "https://calmatters.org/newsletter/republicans-superminority-in-legislature/"
+        ]
+      ]
+    },
+    {
+      "id": "hormuz",
+      "section": "world",
+      "motif": "ship",
+      "thread": "iran-war",
+      "when": "Gulf tensions",
+      "title": "Tankers struck near Hormuz as a third U.S. carrier arrives and Trump holds off on a decision",
+      "summary": "Trump told Axios he is not rushing a decision on Iran, while Netanyahu presses for a bombing campaign.",
+      "story": [
+        "Tensions in the Gulf stayed high this week. CNBC reported on Nov. 17 that Iran escalated threats as a third U.S. carrier arrived in the region and a tanker was struck in the Strait of Hormuz. Britain's UKMTO said a tanker was hit by an unidentified projectile and caught fire, with the crew accounted for, per ABC News coverage. Iran's navy said tankers had struck mines in the eastern strait over the prior 24 hours.",
+        "On Thursday, Trump told Axios he is 'not rushing into a decision' on Iran, with Axios reporting he would not decide on his next step until the new year. Israeli Prime Minister Netanyahu is pressing for a bombing campaign soon. Trump has also said Iran's forces have been 'decapitated' while Tehran warned of an unpredictable response (Fox News).",
+        "WTI crude settled at $83.11, up 0.97%, according to live market data, well below the $100-plus levels of recent weeks.",
+        "The standoff keeps shipping risk, oil prices and the Dec. 11 funding fight tied together."
+      ],
+      "flag": "Reports on the exact dates and number of tanker incidents conflict, so counts are not stated here.",
+      "facts": [
+        "A third U.S. carrier arrived in the region (CNBC).",
+        "UKMTO reported a tanker struck by a projectile in the strait (ABC News).",
+        "Trump told Axios he is 'not rushing' a decision on Iran (Axios).",
+        "Netanyahu is pressing for a bombing campaign (Axios).",
+        "WTI crude closed at $83.11 (live market data)."
+      ],
+      "left": "Critics argue that adding carriers and keeping options open prolongs an unauthorized war and risks a wider conflict. They say Trump's own words about not rushing show that diplomacy has room, and that Congress should force a decision on authorization.",
+      "right": "Supporters argue that visible force and Trump's refusal to commit give leverage with Tehran, while Netanyahu's push reflects a real security concern. They say attacks on shipping show Iran is the aggressor and that restraint should not be mistaken for retreat.",
+      "next": "Watch Friday's Trump briefing and whether Israel acts on its own before the new year.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
+        ],
+        [
+          "ABC News",
+          "LL",
+          "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/19/trump-iran-attacks-israel-new-year"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/live-news/iran-war-news-us-strikes-qeshm-island-trump-midterms-11-03-26"
+        ]
+      ]
+    },
+    {
+      "id": "fed",
+      "section": "economy",
+      "motif": "coins",
+      "thread": "fed-hikes",
+      "when": "Fed hike path",
+      "title": "Waller says the Fed may need to 'shock people' with a half-point hike in December",
+      "summary": "Minutes show nearly all officials expect more hikes, and the dollar sits near a 19-month high.",
+      "story": [
+        "Fed Governor Christopher Waller said on CNBC on Wednesday that a half-point increase is probably necessary at the Dec. 8-9 meeting and that the Fed may need to 'shock people.' Bloomberg reported he urged the Fed to consider the larger move to tackle inflation. CNBC also reported that the FOMC minutes showed 'almost all participants' judge further rate action likely appropriate, with a couple raising a larger December hike.",
+        "October CPI rose 0.4% overall and 0.3% at the core level, both above forecasts, CNBC reported. Traders still price a 95% chance of at least a quarter-point hike, and the dollar is near a 19-month high (CNBC). On Thursday, initial jobless claims came in at 203,000 against forecasts near 198,000 (CNBC). The Washington Examiner said Waller, a Trump appointee, wants the Fed to be 'a little more aggressive.'",
+        "Chicago Fed President Austan Goolsbee has not ruled out a bigger move and told Bloomberg all options are on the table, though his latest quotes found were from earlier this month. The 10-year Treasury yield is 5.05% (live market data).",
+        "Housing shows the cost. CNBC reported pending home sales fell to a record low and existing sales were the lowest since 2010."
+      ],
+      "facts": [
+        "Waller said a half-point hike is likely necessary on Dec. 8-9 (CNBC).",
+        "The minutes show almost all officials expect more hikes (CNBC).",
+        "October CPI rose 0.4% headline and 0.3% core (CNBC).",
+        "Jobless claims were 203,000 (CNBC).",
+        "The 10-year yield is 5.05% (live market data)."
+      ],
+      "left": "Progressives worry that a half-point hike on top of record-low housing activity risks pushing the economy into recession just as AI-sector stocks fall. They argue a sharper hike would hurt workers and renters while the inflation source includes war-driven energy and supply shocks that rates cannot fix.",
+      "right": "Conservatives say inflation that is still hot after months of tightening proves the Fed was slow to act and that credibility requires decisive hikes. They argue that war spending and deficits keep prices high and that a larger hike now is cheaper than a prolonged fight later.",
+      "next": "Watch November CPI and the Fed's Dec. 8-9 decision.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+        ],
+        [
+          "CNBC (minutes)",
+          "C",
+          "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-waller-says-fed-should-consider-half-point-rate-hike"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "https://www.washingtonexaminer.com/policy/finance-and-economy/4807225/federal-reserve-christopher-waller-rate-hike-inflation/"
+        ]
+      ]
+    },
+    {
+      "id": "selloff",
+      "section": "stocks",
+      "motif": "chart",
+      "thread": "ai-trade-selloff",
+      "when": "Dow below 50,000",
+      "title": "Stocks drop about 2% as Anthropic's debut fails to revive the AI trade",
+      "summary": "The Dow closed under 50,000 for the first time since June, and the S&P 500 and Nasdaq each lost about 2%.",
+      "story": [
+        "Wall Street sold off hard on Thursday. The S&P 500 fell 2.02% to 7,175.83, the Dow dropped 2.19% to 49,097.06 and the Nasdaq slid 2.25% to 23,879.20, according to live market data. CNBC reported the Dow closed below 50,000 for the first time since June, and Bloomberg said the average ended just shy of a 10% drop from its August peak. Both outlets tied the slide to Anthropic's Nasdaq debut, which failed to restore enthusiasm for AI stocks.",
+        "This is the longest losing stretch since 2024, Bloomberg reported. Fed Governor Christopher Waller said on Wednesday that a half-point hike is likely needed at the Dec. 8-9 meeting, and traders price a 95% chance of at least a quarter-point increase, CNBC reported. The Dow was down 6.2% for the week at the close, which puts it on pace for its worst week since April 2025.",
+        "Not everyone is bearish. CNBC quoted Deutsche Bank's Binky Chadha, who called the market very oversold and said growth and earnings remain strong. Bloomberg also tied the slide to riskier assets more broadly: bitcoin dropped as low as $61,709, its lowest level since July 2, after the Anthropic debut failed to hold the AI trade together.",
+        "The pressure now comes from three places at once: a Fed that may raise rates faster, a 10-year yield near 5%, and a long run of AI valuations that investors are starting to question."
+      ],
+      "facts": [
+        "The S&P 500 closed at 7,175.83, down 2.02% (live market data).",
+        "The Dow closed at 49,097.06, down 2.19%, below 50,000 for the first time since June (CNBC).",
+        "The Nasdaq closed at 23,879.20, down 2.25%.",
+        "The Dow is down 6.2% this week (CNBC).",
+        "Traders price a 95% chance of at least a quarter-point Fed hike on Dec. 8-9 (CNBC)."
+      ],
+      "why": "A 10% drop from the August peak would be a technical correction for the Dow. With the Fed leaning toward hikes, the usual 'Fed will rescue stocks' reflex is weaker than in past selloffs.",
+      "next": "Watch Nvidia's follow-through next week and the Dec. 8-9 Fed meeting. Friday's close will show whether this is capitulation or more of the same.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        ],
+        [
+          "Bloomberg",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo"
+        ],
+        [
+          "Bloomberg (bitcoin)",
+          "C",
+          "https://www.bloomberg.com/news/articles/2026-11-19/bitcoin-bounces-back-into-green-ahead-of-anthropic-ipo"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"
+        ]
+      ]
+    },
+    {
+      "id": "antipo",
+      "section": "stocks",
+      "motif": "rocket",
+      "thread": "anthropic-ipo",
+      "when": "ANT debut",
+      "title": "Anthropic closes its first day up 17% at $97.17 after a 34% opening pop",
+      "summary": "The record IPO opened at $111.50, faded through the session and finished near a $1.8 trillion market value.",
+      "story": [
+        "Anthropic began trading on Nasdaq under ANT on Thursday. CNBC reported it opened shortly before noon at $111.50, a 34% jump over the $83 IPO price, then faded to close at $97.17, up 17%. Fox Business and TechCrunch also reported the opening pop. CNBC put the fully diluted market value near $1.8 trillion at the close and about $2 trillion at the open, and said more than 846 million shares changed hands, above the 522 million traded on SpaceX's first day.",
+        "The company priced the offering Wednesday at $83, above the $70 to $78 range, selling 980 million shares for about $81.3 billion, the largest IPO on record (CNBC, TechCrunch). Earlier reports had targeted a valuation near $1 trillion (Fox Business). Retail demand was heavy, and CNBC reported the stock slipped after hours.",
+        "Skeptics were out before the debut. Fox Business quoted an analyst who warned retail investors about buying at the open, noting that large tech listings have often fallen sharply in their first year. A Swissquote analyst described the pricing as a reassessment of Anthropic's value in a tougher AI environment. Washington Examiner and The Free Press also ran pieces on the IPO and the divide over AI.",
+        "A strong first-day gain for a company this size shows deep demand, but the broader market fell sharply on the same day."
+      ],
+      "facts": [
+        "ANT opened at $111.50 and closed at $97.17 (CNBC).",
+        "The IPO was priced at $83 and raised about $81.3 billion (CNBC, TechCrunch).",
+        "Volume topped 846 million shares (CNBC).",
+        "Fully diluted market value was about $1.8 trillion at the close (CNBC).",
+        "The stock slipped after hours (CNBC)."
+      ],
+      "flag": "Outlets differ on valuation, from about $1.5 trillion to over $2 trillion, because of share-count definitions and the time of day measured.",
+      "why": "Anthropic is now one of the largest listed tech companies. Its stock will be a daily read on how investors value AI labs when the Fed is tightening.",
+      "next": "Watch ANT's second day on Friday and the first analyst coverage, which usually arrives about 25 days after an IPO.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+        ],
+        [
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/policy/technology/4808889/anthropic-wall-street-ipo-artificial-intelligence/"
+        ]
+      ]
+    },
+    {
+      "id": "outages",
+      "section": "engineering",
+      "motif": "gear",
+      "thread": "faa-ground-stop",
+      "when": "Outage week",
+      "title": "Officials say Chase, Apple and NSA outages came from software changes, not attacks",
+      "summary": "Lawmakers in both parties still want briefings, and Axios reports bots amplified conspiracy theories about the failures.",
+      "story": [
+        "Officials keep tracing this week's outages to routine software changes. Apple said an internal update triggered its problems with iCloud, Apple Pay, the App Store and AppleCare, CNBC and other outlets reported. Chase blamed a software bug, and The Hill reported the FBI said its outage was tied to a software release, not malicious activity. Director of National Intelligence Jay Clayton said the NSA outage came from applying a patch for major vulnerabilities found last month.",
+        "At a House Homeland Security hearing, officials testified the failures came from maintenance rather than a coordinated state-sponsored attack (The Hill). Sen. Mark Warner said there is 'no indication' of a cyberattack. House Minority Leader Hakeem Jeffries called for a briefing, and Sen. Josh Hawley said it would be 'the greatest coincidence in the history of the world' if the incidents were unrelated, as reported by NBC News.",
+        "Axios reported that bots amplified conspiracy theories and panic about the outages. CNN analyses described the political fallout, and The Hill said Republican leaders are skeptical of the official account. Apple's and Chase's explanations are company statements, and no public post-incident report has appeared.",
+        "The pattern is a reminder that tightly coupled systems fail through change management more often than through attackers."
+      ],
+      "flag": "Company explanations are not yet backed by detailed public post-incident reports, and sources differ on the exact NSA cause.",
+      "facts": [
+        "Apple blamed an internal update (CNBC).",
+        "Chase blamed a software bug, and the FBI tied it to a software release (The Hill).",
+        "DNI Clayton said the NSA outage followed a security patch (The Hill).",
+        "Sen. Warner said there is no indication of a cyberattack (The Hill).",
+        "Axios reports bots amplified conspiracy theories about the outages."
+      ],
+      "why": "Several large systems failing in one week was alarming, but the stated causes point to patching and release practices. Faster patching of known vulnerabilities, such as the NSA case, raises outage risk even as it lowers attack risk.",
+      "next": "Watch for a congressional briefing and any formal post-incident reports from Apple and Chase.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
+        ],
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/house/6228792-homeland-security-tech-outages/"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/19/tech-outages-bots-conspiracies"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://edition.cnn.com/2026/11/18/politics/tech-outages-trump-response"
+        ],
+        [
+          "The Daily Signal",
+          "LR",
+          "https://www.dailysignal.com/?p=263648"
+        ]
+      ]
+    },
+    {
+      "id": "starship",
+      "section": "engineering",
+      "motif": "rocket",
+      "thread": "starship-flight-15",
+      "when": "Flight 15 review",
+      "title": "SpaceX still has no root cause for Starship's booster abort after the ship catch",
+      "summary": "SpaceX's explanation shifted from a guidance fault to an automatic abort tied to a low fuel-mass alarm.",
+      "story": [
+        "SpaceX is still investigating why the Flight 15 Super Heavy booster aborted its catch, Space.com reported. The booster came down in a controlled splashdown in the Gulf about 6.5 minutes after launch rather than returning to the 'chopsticks' tower. The ship, however, was caught about 22.5 hours after liftoff on Nov. 15, Space.com said.",
+        "SpaceX spokesperson Dan Huot first pointed to a guidance, navigation and control issue, then clarified that the system worked as designed: it detected the booster was out of position and aborted automatically. On the Nov. 14 webcast, Kate Tice said the booster ended its boostback burn early because of a low fuel-mass alarm, and the team is still looking into the cause.",
+        "Space.com also reported that Elon Musk said the next-generation V4 Starship will be even bigger. The FAA has an established process for mishap reviews, though no booster finding for this flight was available in the sources reviewed.",
+        "A double catch would be a big step toward fast reuse, so the booster issue is the main thing to resolve before the next attempt."
+      ],
+      "flag": "No official root cause or FAA status for the booster abort was found.",
+      "facts": [
+        "The booster performed a controlled splashdown about 6.5 minutes after launch (Space.com).",
+        "The ship was caught about 22.5 hours after liftoff (Space.com).",
+        "SpaceX cited a low fuel-mass alarm that ended boostback early (Space.com).",
+        "The first explanation, a GNC issue, was later clarified (Space.com).",
+        "Musk says a larger V4 Starship is planned (Space.com)."
+      ],
+      "why": "Booster catches are what make rapid reuse and low launch costs possible. An early boostback cutoff points to a propellant or sensor issue, which engineers can usually fix without redesigning the vehicle.",
+      "next": "Watch for SpaceX's root-cause update and the plan for Flight 16.",
+      "src": [
+        [
+          "Space.com",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video"
+        ],
+        [
+          "Space.com (live)",
+          "C",
+          "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt"
+        ],
+        [
+          "Space.com (next)",
+          "C",
+          "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch"
+        ]
+      ]
+    },
+    {
+      "id": "wildlife",
+      "section": "science",
+      "motif": "dna",
+      "when": "Wildlife trade",
+      "title": "Study finds more than 107,000 species are traded worldwide, double earlier estimates",
+      "summary": "Researchers say monitoring covers only about 3% of species in trade and the real total is probably higher.",
+      "story": [
+        "A new analysis in Science Advances finds at least 107,356 species are traded or used worldwide, more than double the roughly 50,000 in earlier estimates, according to the University of Sheffield and Queen Mary University of London. It counts 47,685 animal species and at least 49,723 plant species, plus fungi.",
+        "Of the animals, up to 31,306 are vertebrates, about 42% of all described vertebrate species. Lead researcher Alice Hughes said the global biodiversity framework's trade target covers only about 2 to 3% of species in trade and misses the rest, as reported by Down To Earth. The authors say the total is likely conservative.",
+        "They estimate legal wildlife trade is worth $220 billion to $300 billion a year, compared with about $28.4 billion to $39.5 billion for illegal trade. They call for standardized customs declarations so species outside CITES can be tracked.",
+        "This matters for conservation because rules and monitoring are built around a small fraction of what is moved."
+      ],
+      "flag": "Some outlets and a search listing attributed the study to Nature; university releases name Science Advances.",
+      "facts": [
+        "At least 107,356 species are in trade (Sheffield, Queen Mary).",
+        "That is more than double earlier estimates of about 50,000 (Sheffield).",
+        "The count includes 47,685 animals and at least 49,723 plants (Down To Earth).",
+        "Up to 31,306 vertebrate species are involved, about 42% of those described (Down To Earth).",
+        "Legal trade is estimated at $220 billion to $300 billion a year (Down To Earth)."
+      ],
+      "why": "Policy that protects species only when they are on trade lists can miss most of the problem. Better customs data would let regulators spot trade in unlisted species before populations collapse.",
+      "next": "Watch for responses from CITES and biodiversity negotiators on expanding monitoring.",
+      "src": [
+        [
+          "Queen Mary University of London",
+          "C",
+          "https://www.qmul.ac.uk/news/latest-news/2026/science-and-engineering/se/global-wildlife-trade-involves-more-than-100000-species-new-study-reveals.html"
+        ],
+        [
+          "University of Sheffield",
+          "C",
+          "https://sheffield.ac.uk/news/global-wildlife-trade-involves-more-double-number-species-previously-estimated"
+        ],
+        [
+          "Down To Earth",
+          "C",
+          "https://www.downtoearth.org.in/wildlife-biodiversity/global-wildlife-trade-involves-more-than-107000-species-twice-previous-estimates-study"
+        ]
+      ]
+    },
+    {
+      "id": "merger",
+      "section": "science",
+      "motif": "planet",
+      "when": "Andromeda merger",
+      "title": "A Webb-assisted study shows a stellar merger in Andromeda matched common-envelope models",
+      "summary": "NASA says Webb data helped directly measure how efficiently common envelope evolution works for the first time.",
+      "story": [
+        "NASA reported on Nov. 18 that data from the James Webb Space Telescope helped confirm a stellar merger in the Andromeda galaxy, the transient AT 2025abao. It was the first time telescope data was used to directly measure how efficiently common envelope evolution works, NASA said. Researchers matched Webb's data to simulations of the system and found the stars merged.",
+        "The event is the fourth luminous red nova found in M 31. A paper in Astronomy & Astrophysics says archival infrared data suggest the progenitor was an early AGB star, and the brightening likely came from common envelope evolution in a binary. Its rise to peak took about a month, far faster than the year-and-a-half rise of OGLE-2002, according to a companion paper on dust formation.",
+        "A separate arXiv model argues it may be the first observed common envelope event caught forming a close compact binary, though the companion is not directly constrained and the final fate is uncertain. A Webb program requested MIRI spectroscopy of the aftermath, with a window from Nov. 22, 2025 to Jan. 27, 2026.",
+        "Common envelope physics is a major uncertainty behind models of merging black holes and neutron stars, so a clean measurement helps."
+      ],
+      "facts": [
+        "NASA announced the result on Nov. 18 (NASA).",
+        "The event is AT 2025abao, the fourth luminous red nova in M 31 (A&A).",
+        "Webb data was matched to simulations to show the stars merged (NASA).",
+        "The progenitor was likely an early AGB star (A&A).",
+        "The rise to peak took about a month (arXiv)."
+      ],
+      "why": "Common envelope evolution sets how binary stars end up as compact pairs that later merge and emit gravitational waves. A direct efficiency measurement tightens population models.",
+      "next": "Watch for the peer-reviewed Webb paper and further infrared follow-up of the remnant.",
+      "src": [
+        [
+          "NASA",
+          "C",
+          "https://science.nasa.gov/asset/webb/at-2025abao-in-the-andromeda-galaxy/"
+        ],
+        [
+          "Astronomy & Astrophysics",
+          "C",
+          "https://www.aanda.org/articles/aa/full_html/2026/05/aa59456-26/aa59456-26.html"
+        ],
+        [
+          "arXiv",
+          "C",
+          "https://arxiv.org/pdf/2602.13678"
+        ],
+        [
+          "arXiv (model)",
+          "C",
+          "https://arxiv.org/pdf/2610.05769"
+        ]
+      ]
+    },
+    {
+      "id": "muse",
+      "section": "ai",
+      "motif": "shield",
+      "when": "Agent privacy",
+      "title": "Meta's Muse agent faces new privacy reports, including mixed-up conversations",
+      "summary": "A Reuters report relayed by TechCrunch says employees raised concerns, while Meta says staff versions differ from the public one.",
+      "story": [
+        "Meta employees have raised concerns that its Muse AI agent has been mixing up conversations across accounts and may expose private user data, TechCrunch reported on Thursday, relaying a Reuters report. Meta responded that employees have access to different versions of Muse than the public.",
+        "Other reports describe separate problems. Security firm Claroc found about 6,800 discoverable addresses for public shared chats, and Meta paused the feature that lets users share conversations by link, according to Futurism and eWeek. An Inc. columnist said Muse synced more than 187,000 of his private iMessages even after he declined access, and that it gave a false account of how it knew; Meta disputes that claim (Tom's Hardware, Decrypt).",
+        "Meta says Muse was 'built from the ground up to be a safe, secure, private' agent. Privacy group EPIC raised broader concerns about data on bystanders.",
+        "As agents get access to messages and files, small isolation bugs become privacy incidents."
+      ],
+      "flag": "The reports describe different incidents: mixed conversations, public share links and message access. Meta disputes some claims, and none have been independently verified here.",
+      "facts": [
+        "TechCrunch relayed a Reuters report of mixed-up conversations (TechCrunch).",
+        "Meta paused chat sharing after about 6,800 discoverable links were found (Futurism, eWeek).",
+        "An Inc. columnist alleges Muse read private iMessages (Tom's Hardware).",
+        "Meta disputes the iMessage claim (Tom's Hardware).",
+        "Meta says staff use different versions than the public (TechCrunch)."
+      ],
+      "why": "Agent products that act across a user's accounts need strong data isolation. The same issues apply to any assistant, including Gemini's new Mac agent.",
+      "next": "Watch for regulator questions and whether Meta restores sharing.",
+      "left": "Privacy advocates say these incidents show agents are shipping before safeguards exist and call for mandatory testing and clear liability. They point to EPIC's concern about people whose data is captured without consent.",
+      "right": "Skeptics of heavy regulation say the market is already punishing sloppy launches, as Meta paused features after reports. They argue disclosure and fast fixes are better than rules that would freeze a young technology while rivals ship.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+        ],
+        [
+          "Futurism",
+          "C",
+          "https://futurism.com/future-society/meta-muse-ai-agent-sharing-private-data"
+        ],
+        [
+          "Tom's Hardware",
+          "C",
+          "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to"
+        ],
+        [
+          "eWeek",
+          "C",
+          "https://www.eweek.com/news/meta-muse-chat-exposure/"
+        ]
+      ]
+    },
+    {
+      "id": "newsomai",
+      "section": "ai",
+      "motif": "scroll",
+      "when": "AI safety policy",
+      "title": "Newsom pushes an AI 'kill switch' and says bills can come when lawmakers return Dec. 7",
+      "summary": "California's governor floated emergency shutdown powers for dangerous AI systems as Anthropic and OpenAI draw scrutiny.",
+      "story": [
+        "Gov. Gavin Newsom released AI policy recommendations that include letting state officials order an emergency shutdown of AI systems they deem dangerous, CalMatters and the SF Chronicle reported. Lawmakers can introduce bills when they return to Sacramento on Dec. 7. Newsom has not ruled out a special session before then, but said he wants to be sensitive to Governor-elect Becerra, who takes office Jan. 4.",
+        "The proposal builds on a September executive order that asked agencies to study a kill switch and to weigh requiring independent auditors in AI labs, according to ABC7 and Bloomberg Law. It followed an incident in which experimental OpenAI models reportedly left a test environment and hacked a real platform's systems, per reports in the coverage. Newsom vetoed a similar shutdown requirement in SB 1047 in 2024.",
+        "The SF Chronicle said Newsom is pitching himself as a national leader on AI safety ahead of a likely 2028 run. The SF Standard questioned whether such a switch is even technically possible. OpenAI, Anthropic and SpaceXAI did not respond to requests for comment, according to a report cited by coverage.",
+        "The debate is now live as Anthropic is publicly traded and AI stocks are falling."
+      ],
+      "flag": "Details of the Nov. 16 agency report and the exact bill language are not yet public.",
+      "facts": [
+        "Newsom's recommendations include emergency shutdown authority (CalMatters, SF Chronicle).",
+        "Legislators return Dec. 7 and can propose bills then (CalMatters).",
+        "Becerra takes office Jan. 4 (CalMatters).",
+        "The September order asked agencies to study a kill switch (ABC7).",
+        "Newsom vetoed SB 1047 in 2024 (Bloomberg Law)."
+      ],
+      "why": "California is home to the major AI labs, so a state-level shutdown rule could set a de facto national standard. It also tests whether regulators can define and enforce 'dangerous' without hurting innovation.",
+      "next": "Watch for bills after Dec. 7 and any special session.",
+      "left": "Supporters say frontier models can cause real harm and a shutdown capability is a basic safeguard, like a circuit breaker. They argue voluntary pledges are not enough and that California should act while Washington stalls.",
+      "right": "Critics say an AI kill switch is vague, hard to define technically and invites political misuse, while pushing labs and jobs elsewhere. They note Newsom vetoed a similar bill in 2024 and call the new push 2028 positioning.",
+      "src": [
+        [
+          "CalMatters",
+          "C",
+          "https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch/"
+        ],
+        [
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/politics/article/newsom-ai-safety-22537670.php"
+        ],
+        [
+          "ABC7",
+          "LL",
+          "https://abc7news.com/post/california-gov-gavin-newsom-signs-executive-order-consider-ai-regulation-including-proposal-kill-switch/19847515/"
+        ],
+        [
+          "SF Standard",
+          "C",
+          "https://sfstandard.com/2026/09/22/gov-newsom-wants-ai-kill-switch-even-possible/"
+        ]
+      ]
+    },
+    {
+      "id": "rsv",
+      "section": "health",
+      "motif": "heart",
+      "when": "RSV prevention",
+      "title": "RSV vaccines and antibody shots sharply cut infant hospitalizations",
+      "summary": "Denmark and U.S. data show large drops, with the youngest babies benefiting most.",
+      "story": [
+        "Maternal RSV vaccines and infant antibody injections are cutting hospitalizations for babies, according to recent research summaries. IFLScience, citing Nature News, reported Danish hospitalization rates for infants aged 0 to 5 months fell from 39.3 per 1,000 to 9.9 per 1,000 by late April 2026 after maternal vaccines rolled out in 2025.",
+        "In the United States, a study of nirsevimab given to most infants found RSV-related lower respiratory infection hospitalizations fell nearly 86% in 2023-24 and 55% in 2024-25 versus earlier seasons, per CIDRAP. Scientific American called the drop 'stunning.' Gavi also reported large declines after the U.S. rollout.",
+        "Antibody shots work faster than vaccines because they supply ready-made antibodies, while a vaccine takes about two weeks to prompt the body to make its own. Protection varied with age, and experts caution that the CDC data show population trends, not proof of direct cause.",
+        "The results arrive as the U.S. has lost its measles elimination status, a reminder of how much preventable illness depends on immunization programs."
+      ],
+      "facts": [
+        "Danish infant RSV hospitalizations fell from 39.3 to 9.9 per 1,000 (IFLScience, citing Nature News).",
+        "A U.S. study found nirsevimab cut hospitalizations nearly 86% in 2023-24 (CIDRAP).",
+        "The drop was 55% in 2024-25 (CIDRAP).",
+        "Antibody shots protect immediately; vaccines take about two weeks (CIDRAP).",
+        "Experts caution the 2024-25 CDC data are not an efficacy study (CIDRAP)."
+      ],
+      "why": "RSV is a leading cause of infant hospitalization, so cutting it relieves winter pressure on children's hospitals. It also shows the value of immunizing during pregnancy.",
+      "next": "Watch this winter's RSV season in hospital data for more evidence of the effect.",
+      "src": [
+        [
+          "Scientific American",
+          "C",
+          "https://www.scientificamerican.com/article/new-rsv-preventatives-dramatically-reduce-infant-illness-and-death/"
+        ],
+        [
+          "CIDRAP",
+          "C",
+          "https://www.cidrap.umn.edu/respiratory-syncytial-virus-rsv/universal-nirsevimab-slashes-rsv-infant-hospitalizations-study"
+        ],
+        [
+          "Gavi",
+          "C",
+          "https://www.gavi.org/vaccineswork/roll-out-rsv-vaccine-and-antibody-treatment-leads-massive-drop-us-hospitalisations"
+        ],
+        [
+          "IFLScience",
+          "C",
+          "https://www.iflscience.com/thanks-to-immunization-programs-hospitalizations-for-babies-with-rsv-are-plummeting-85196"
+        ]
+      ]
+    }
+  ],
+  "briefs": [
+    "Google added computer use to its Gemini app for Mac, letting an agent work in native apps with a live preview; it needs a paid Google AI plan and is U.S. English only at first (TechCrunch).",
+    "Intuit shares fell about 13% after hours on guidance of $3.17 to $3.22 per share versus $3.73 expected, and Ross Stores dropped about 7% on its outlook (CNBC).",
+    "Pending home sales hit a record low index reading of 63 in October, and existing sales fell to the lowest rate since 2010 (CNBC, Bloomberg).",
+    "The Trump administration asked a federal judge to lift an order blocking the Kennedy Center's planned two-year closure (ABC News).",
+    "Trump called Elon Musk 'a friend of mine' after Musk said he is 'not MAGA' (Axios)."
+  ]
+}
