@@ -1,69 +1,69 @@
 {
-  "updatedAt": "2026-11-23T02:39:47Z",
+  "updatedAt": "2026-11-23T12:20:31Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 48.8,
-      "feels": 43.8,
-      "hum": 83,
-      "wind": 8.1,
-      "cond": "cloudy"
+      "temp": 42.1,
+      "feels": 37.2,
+      "hum": 84,
+      "wind": 4.7,
+      "cond": "clear"
     },
     "days": [
       {
-        "date": "2026-11-21",
-        "hi": 56,
-        "lo": 41,
-        "cond": "drizzle",
-        "pop": 29
-      },
-      {
         "date": "2026-11-22",
         "hi": 55,
-        "lo": 45,
+        "lo": 44,
         "cond": "drizzle",
         "pop": 14
       },
       {
         "date": "2026-11-23",
         "hi": 57,
-        "lo": 42,
+        "lo": 41,
         "cond": "cloudy",
         "pop": 1
       },
       {
         "date": "2026-11-24",
-        "hi": 60,
-        "lo": 46,
-        "cond": "drizzle",
-        "pop": 83
+        "hi": 59,
+        "lo": 45,
+        "cond": "rain",
+        "pop": 74
       },
       {
         "date": "2026-11-25",
-        "hi": 61,
-        "lo": 53,
+        "hi": 66,
+        "lo": 54,
         "cond": "drizzle",
-        "pop": 83
+        "pop": 74
       },
       {
         "date": "2026-11-26",
-        "hi": 65,
-        "lo": 52,
+        "hi": 66,
+        "lo": 53,
         "cond": "cloudy",
-        "pop": 1
+        "pop": 0
       },
       {
         "date": "2026-11-27",
-        "hi": 67,
-        "lo": 52,
+        "hi": 68,
+        "lo": 53,
         "cond": "cloudy",
-        "pop": 10
+        "pop": 6
+      },
+      {
+        "date": "2026-11-28",
+        "hi": 67,
+        "lo": 55,
+        "cond": "drizzle",
+        "pop": 52
       }
     ]
   },
   "markets": {
-    "asOf": "Sun Nov 22, 9:29 PM ET",
+    "asOf": "Mon Nov 23, 7:10 AM ET",
     "indices": [
       {
         "symbol": "^GSPC",
@@ -205,13 +205,12 @@
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$82.98",
-        "raw": 82.98,
-        "change": "-0.52%",
+        "price": "$82.36",
+        "raw": 82.36,
+        "change": "-1.26%",
         "dir": "down",
-        "time": 1795400977,
+        "time": 1795435829,
         "spark": [
-          99.47,
           103.27,
           101.76,
           99.9,
@@ -233,17 +232,17 @@
           83.26,
           83.21,
           83.98,
-          82.98
+          82.36
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$60,592",
-        "raw": 60591.67,
-        "change": "-0.93%",
-        "dir": "down",
-        "time": 1795401583,
+        "price": "$61,223",
+        "raw": 61223.09,
+        "change": "+0.10%",
+        "dir": "up",
+        "time": 1795436429,
         "spark": [
           81074.19,
           80790.84,
@@ -275,7 +274,8 @@
           61901.82,
           58798.98,
           60094.09,
-          60591.67
+          61161.91,
+          61223.09
         ]
       }
     ],
@@ -487,7 +487,7 @@
     ]
   },
   "earnings": {
-    "checkedAt": "2026-11-22T15:14:12Z",
+    "checkedAt": "2026-11-23T12:20:31Z",
     "symbols": [
       "NVDA",
       "AAPL",
