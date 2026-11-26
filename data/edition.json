@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-11-26T00:08:43Z",
-  "label": "Afternoon edition",
-  "summary": "Keanu, **stocks whipsawed Wednesday** as the Nasdaq fell nearly 4% at 10:31 a.m. ET, then closed down 0.6% after the Dow erased a 1,100-point loss (CNBC, Bloomberg, Fox Business). Nvidia led the slide, down 7.71% in the morning data, as the Huang comeback rally faded and the Fed's **December hike looked near certain** (CNBC, Fox Business). Republicans are still pressing Trump over reinstating Huang, with a closed-door House interview Dec. 1 and a Senate Banking hearing reported for Dec. 3 (CNBC, The Hill, Washington Examiner). Funding runs out Dec. 11 or 12, and **several Democrats want Iran war limits** in any stopgap while Thune warns of a shutdown (The Hill, CNN, Washington Examiner). Trump's order on contractors and Congress drew a \"blatantly unlawful\" charge from Raskin, and I found no Republican lawmakers defending it on the record (CNN, NPR, Fox News). Locally, **San Francisco set a record November tide** Tuesday, the Pacifica Pier's end collapsed, and Caltrans said the Posey Tube did not flood and will reopen early (SF Chronicle). Fremont gets more rain today, then a dry Thursday and Friday. In Iran, the Guard says three tankers hit mines, which CNBC could not confirm, and Treasury sanctioned more than two dozen shadow-banking targets (CNBC). On tariffs, the U.S. proposed Section 301 duties on 14 partners with **China at 20%** (CNBC, Axios, Fox Business). In AI, **Signal joins United and banks** in restricting AI agents (CNBC, TechCrunch). The FAA reportedly reproduced the ground-stop failure in a lab (CNN).",
+  "updatedAt": "2026-11-26T14:10:00Z",
+  "label": "Morning edition",
+  "summary": "Keanu, **Congress returns Nov. 30 to a Dec. 11 funding cliff** as several Senate Democrats demand Iran war limits and Thune calls that unrealistic (The Hill, NPR, Washington Examiner). Republicans are still pressing Trump over **Jensen Huang's return to Nvidia**, with his closed-door House interview set for Dec. 1 (CNBC, The Hill, National Review). October PCE ran 3.8% and core 3.3%, so traders see a **quarter-point Fed hike on Dec. 8-9** as nearly certain, about 97% by CME FedWatch (CNBC, Fox Business). On Wednesday the Nasdaq fell 0.6% and the Dow gained 0.3% after erasing a 1,100-point drop, and Nvidia, Amazon and Alphabet all fell more than 2% (CNBC, Fox Business). Markets are closed today. The U.S. proposed Section 301 tariffs on 14 partners, with **China at 20%**, though USTR says nothing takes effect for months (CNBC, Fox Business). In the Gulf, Iran's Guard says three tankers hit mines, which is unconfirmed, while Fox News reports Washington is weighing strikes on Iran's leaders (CNBC, The Hill, Fox News). Locally, prosecutors have sued over **Newsom's death row commutations**, with his response due Dec. 4 (CalMatters, Fox News), and the Bay Area's transit tax passed with revenue due in mid-2027 (KQED). In AI, Signal joined United and big banks in limiting agents, and Anthropic's stock remains under its $83 IPO price (CNBC, TechCrunch, Axios). Happy Thanksgiving.",
   "alerts": [
     {
-      "text": "Rain is likely in Fremont today (64 high, 51 low), then dry Thursday and Friday; the Posey Tube is reopening early after record tides.",
-      "level": "watch",
-      "story": "storm"
-    },
-    {
-      "text": "Your whole watchlist fell more than 2% in the morning data, led by Nvidia at -7.71%, before the Nasdaq recovered to a 0.6% loss by the close.",
+      "text": "Nvidia fell 3.9%, Amazon 3.1% and Alphabet 2.1% in Wednesday's session; markets are closed today and close early Friday.",
       "level": "watch",
       "story": "rally"
     },
     {
-      "text": "Dec. 1 is a big day: Huang's closed-door House interview and the Senate Democratic leadership vote; Senate Banking's Huang hearing is reported for Dec. 3.",
+      "text": "Huang's closed-door House interview is Dec. 1, the first big Nvidia date for your watchlist.",
       "level": "info",
       "story": "huang"
     },
     {
-      "text": "Funding expires Dec. 11 or 12 and the Fed meets Dec. 8-9, with a quarter-point hike widely expected.",
-      "level": "info",
+      "text": "Congress returns Nov. 30 and funding runs out Dec. 11; watch whether Senate Democrats unite on Iran war limits.",
+      "level": "watch",
       "story": "shutdown"
+    },
+    {
+      "text": "Newsom's response to the DA-backed lawsuit over death row commutations is due Dec. 4.",
+      "level": "info",
+      "story": "newsomdp"
     }
   ],
   "highlights": [
     {
-      "story": "rally",
-      "text": "Nasdaq fell nearly 4% in the morning, then closed down 0.6% as the Dow erased a 1,100-point loss."
+      "story": "shutdown",
+      "text": "Congress returns Nov. 30 with Iran war limits dividing Democrats ahead of the Dec. 11 funding deadline."
+    },
+    {
+      "story": "fed",
+      "text": "Core PCE hit 3.3% and markets price a Dec. 8-9 Fed hike at roughly 97%."
     },
     {
       "story": "huang",
-      "text": "Republicans keep pressing Trump over Huang's return; House interview Dec. 1, Senate hearing reported Dec. 3."
+      "text": "GOP senators keep pressing Trump and Nvidia over Huang's return before his Dec. 1 House interview."
     },
     {
-      "story": "storm",
-      "text": "San Francisco set a record November tide; the Posey Tube did not flood and reopens early."
+      "story": "hormuz",
+      "text": "Iran claims three tankers hit mines while Washington reportedly weighs strikes on Iran's leaders."
     },
     {
-      "story": "shutdown",
-      "text": "Iran war limits and a Dec. 1 leadership vote hold up the funding deal due Dec. 11-12."
-    },
-    {
-      "story": "faa",
-      "text": "CNN reports FAA investigators recreated the Nov. 13 ground-stop failure in a lab."
+      "story": "agents",
+      "text": "Signal, United and big banks are restricting AI agents over security and liability."
     }
   ],
   "stat": {
-    "label": "Nasdaq, Wednesday close",
-    "value": "-0.6%",
-    "note": "CNBC and Bloomberg; the index was down 3.94% at 10:31 a.m. ET before a rebound."
+    "label": "Fed hike odds, Dec. 8-9",
+    "value": "~97%",
+    "note": "CME FedWatch via Fox Business; core PCE was 3.3% in October."
   },
   "markets": {
-    "asOf": "Wed Nov 25, 10:31 AM ET",
-    "wrap": "Stocks swung wildly Wednesday. At the **10:31 a.m. ET snapshot** the S&P 500 was down 2.66% and the Nasdaq down 3.94%, with the Dow down 1.54% (market data). Later the Dow turned positive after a drop of more than 1,100 points, and the Nasdaq closed down 0.6% (Fox Business, CNBC, Bloomberg). Nvidia led the selloff as the Huang rebound faded and the **hot October PCE** at 3.8% kept a December hike in view (CNBC, Fox Business). New tariff proposals on 14 partners added pressure (Fox Business). The table shows the morning snapshot, not the close.",
+    "asOf": "Thu Nov 26, 4:17 AM ET",
+    "wrap": "U.S. stocks closed mixed Wednesday: the S&P 500 fell 0.25%, the Nasdaq fell 0.62% and the Dow gained 0.33% after erasing a loss of more than 1,100 points (CNBC, Fox Business). **Nvidia led AI names lower** as Monday's 30% comeback surge faded, and Amazon and Alphabet also slid on profit doubts (CNBC, Bloomberg). A hot October PCE kept a **December Fed hike near certain**, though the 10-year yield dipped to 4.85% (CNBC). Anthropic closed Tuesday at $81.91, under its $83 IPO price (CNBC, Axios). U.S. markets are closed today for Thanksgiving.",
     "indices": [
       {
         "symbol": "^GSPC",
         "name": "S&P 500",
-        "price": "7,009.43",
-        "raw": 7009.43,
-        "change": "-2.66%",
+        "price": "7,182.78",
+        "raw": 7182.78,
+        "change": "-0.25%",
         "dir": "down",
-        "time": 1795620668,
+        "time": 1795642326,
         "spark": [
           7676.77,
           7722.6,
@@ -86,17 +86,17 @@
           6910.39,
           7237.17,
           7201.09,
-          7009.43
+          7182.78
         ]
       },
       {
         "symbol": "^DJI",
         "name": "Dow Jones",
-        "price": "49,246.93",
-        "raw": 49246.93,
-        "change": "-1.54%",
-        "dir": "down",
-        "time": 1795620669,
+        "price": "50,182.95",
+        "raw": 50182.95,
+        "change": "+0.33%",
+        "dir": "up",
+        "time": 1795642337,
         "spark": [
           52361.58,
           52377.57,
@@ -120,17 +120,17 @@
           48147.33,
           49595.31,
           50018.7,
-          49246.93
+          50182.95
         ]
       },
       {
         "symbol": "^IXIC",
         "name": "Nasdaq",
-        "price": "22,797.51",
-        "raw": 22797.506,
-        "change": "-3.94%",
+        "price": "23,585.80",
+        "raw": 23585.803,
+        "change": "-0.62%",
         "dir": "down",
-        "time": 1795620669,
+        "time": 1795644959,
         "spark": [
           26169.38,
           26477.81,
@@ -154,17 +154,17 @@
           22617.73,
           24089.56,
           23733.54,
-          22797.51
+          23585.8
         ]
       },
       {
         "symbol": "^TNX",
         "name": "10-yr Treasury",
-        "price": "4.82%",
-        "raw": 4.824,
-        "change": "-1.63%",
+        "price": "4.85%",
+        "raw": 4.848,
+        "change": "-1.14%",
         "dir": "down",
-        "time": 1795619763,
+        "time": 1795636793,
         "spark": [
           4.99,
           4.99,
@@ -188,17 +188,17 @@
           4.91,
           4.92,
           4.9,
-          4.82
+          4.85
         ]
       },
       {
         "symbol": "CL=F",
         "name": "WTI crude",
-        "price": "$83.15",
-        "raw": 83.15,
-        "change": "+1.34%",
-        "dir": "up",
-        "time": 1795620068,
+        "price": "$83.31",
+        "raw": 83.31,
+        "change": "-0.44%",
+        "dir": "down",
+        "time": 1795684651,
         "spark": [
           101.76,
           99.9,
@@ -222,19 +222,19 @@
           83.98,
           80.17,
           82.05,
-          83.15
+          83.68,
+          83.31
         ]
       },
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$57,974",
-        "raw": 57974.0,
-        "change": "-2.97%",
-        "dir": "down",
-        "time": 1795620666,
+        "price": "$60,710",
+        "raw": 60710.08,
+        "change": "+0.55%",
+        "dir": "up",
+        "time": 1795685248,
         "spark": [
-          80024.01,
           80006.66,
           80805.08,
           81267.59,
@@ -265,7 +265,8 @@
           61161.91,
           61210.98,
           59747.77,
-          57974.0
+          60378.2,
+          60707.28
         ]
       }
     ],
@@ -273,11 +274,11 @@
       {
         "symbol": "NVDA",
         "name": "NVIDIA Corporation",
-        "price": "$143.40",
-        "raw": 143.4,
-        "change": "-7.71%",
+        "price": "$149.30",
+        "raw": 149.3,
+        "change": "-3.91%",
         "dir": "down",
-        "time": 1795620669,
+        "time": 1795640401,
         "spark": [
           216.0,
           217.94,
@@ -301,18 +302,18 @@
           125.53,
           165.05,
           155.38,
-          143.4
+          149.3
         ],
-        "note": "Led the AI selloff as the Huang comeback rally faded (CNBC, Fox Business)."
+        "note": "Led AI names lower after Monday's 30% surge faded (CNBC)."
       },
       {
         "symbol": "AAPL",
         "name": "Apple Inc.",
-        "price": "$346.48",
-        "raw": 346.48,
-        "change": "-2.14%",
-        "dir": "down",
-        "time": 1795620668,
+        "price": "$355.58",
+        "raw": 355.58,
+        "change": "+0.43%",
+        "dir": "up",
+        "time": 1795640402,
         "spark": [
           343.91,
           347.1,
@@ -336,18 +337,17 @@
           342.56,
           349.08,
           354.07,
-          346.48
-        ],
-        "note": "Dragged down with big tech as AI doubts and new tariff proposals weighed (Fox Business)."
+          355.58
+        ]
       },
       {
         "symbol": "MSFT",
         "name": "Microsoft Corporation",
-        "price": "$479.50",
-        "raw": 479.5,
-        "change": "-3.35%",
+        "price": "$489.93",
+        "raw": 489.93,
+        "change": "-1.25%",
         "dir": "down",
-        "time": 1795620668,
+        "time": 1795640402,
         "spark": [
           532.6,
           531.33,
@@ -371,18 +371,17 @@
           484.52,
           492.5,
           496.13,
-          479.5
-        ],
-        "note": "Fell with AI and hyperscaler names in the morning selloff (Fox Business, CNBC)."
+          489.93
+        ]
       },
       {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
-        "price": "$265.87",
-        "raw": 265.865,
-        "change": "-4.72%",
+        "price": "$273.10",
+        "raw": 273.1,
+        "change": "-2.13%",
         "dir": "down",
-        "time": 1795620665,
+        "time": 1795640402,
         "spark": [
           316.8,
           320.58,
@@ -406,18 +405,18 @@
           265.29,
           282.1,
           279.05,
-          266.11
+          273.1
         ],
-        "note": "Hit hard as hyperscaler stocks led the AI selloff (Fox Business)."
+        "note": "Fell with AI-heavy tech as profit doubts resurfaced (CNBC)."
       },
       {
         "symbol": "TSLA",
         "name": "Tesla, Inc.",
-        "price": "$363.26",
-        "raw": 363.26,
-        "change": "-5.57%",
+        "price": "$380.14",
+        "raw": 380.14,
+        "change": "-1.18%",
         "dir": "down",
-        "time": 1795620660,
+        "time": 1795640402,
         "spark": [
           391.62,
           407.46,
@@ -441,18 +440,17 @@
           345.82,
           385.46,
           384.68,
-          363.08
-        ],
-        "note": "Fell with the broad tech slide; no company-specific news found (CNBC, Fox Business)."
+          380.14
+        ]
       },
       {
         "symbol": "AMZN",
         "name": "Amazon.com, Inc.",
-        "price": "$238.17",
-        "raw": 238.17,
-        "change": "-5.60%",
+        "price": "$244.43",
+        "raw": 244.43,
+        "change": "-3.12%",
         "dir": "down",
-        "time": 1795620670,
+        "time": 1795640402,
         "spark": [
           249.09,
           253.1,
@@ -476,9 +474,9 @@
           246.82,
           255.39,
           252.29,
-          238.17
+          244.43
         ],
-        "note": "Dropped with hyperscaler names as AI doubts returned (Fox Business, CNBC)."
+        "note": "Slid with big tech on AI spending doubts (CNBC)."
       }
     ]
   },
@@ -487,90 +485,138 @@
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 56.1,
-      "feels": 54.5,
-      "hum": 81,
-      "wind": 4.0,
+      "temp": 51.1,
+      "feels": 48.7,
+      "hum": 77,
+      "wind": 2.0,
       "cond": "cloudy"
     },
     "days": [
       {
-        "date": "2026-11-23",
-        "hi": 58,
-        "lo": 41,
+        "date": "2026-11-25",
+        "hi": 65,
+        "lo": 51,
+        "cond": "drizzle",
+        "pop": 54
+      },
+      {
+        "date": "2026-11-26",
+        "hi": 62,
+        "lo": 49,
         "cond": "fog",
         "pop": 0
       },
       {
-        "date": "2026-11-24",
+        "date": "2026-11-27",
         "hi": 62,
-        "lo": 44,
-        "cond": "cloudy",
-        "pop": 30
-      },
-      {
-        "date": "2026-11-25",
-        "hi": 64,
-        "lo": 51,
-        "cond": "rain",
-        "pop": 41
-      },
-      {
-        "date": "2026-11-26",
-        "hi": 64,
-        "lo": 48,
-        "cond": "cloudy",
+        "lo": 49,
+        "cond": "fog",
         "pop": 0
       },
       {
-        "date": "2026-11-27",
-        "hi": 68,
-        "lo": 54,
-        "cond": "cloudy",
-        "pop": 2
-      },
-      {
         "date": "2026-11-28",
-        "hi": 73,
-        "lo": 58,
+        "hi": 71,
+        "lo": 59,
         "cond": "cloudy",
-        "pop": 12
+        "pop": 3
       },
       {
         "date": "2026-11-29",
-        "hi": 62,
-        "lo": 52,
+        "hi": 68,
+        "lo": 57,
+        "cond": "drizzle",
+        "pop": 88
+      },
+      {
+        "date": "2026-11-30",
+        "hi": 60,
+        "lo": 53,
+        "cond": "drizzle",
+        "pop": 65
+      },
+      {
+        "date": "2026-12-01",
+        "hi": 56,
+        "lo": 49,
         "cond": "rain",
-        "pop": 74
+        "pop": 71
       }
     ]
   },
   "stories": [
     {
-      "id": "huang",
+      "id": "shutdown",
       "section": "politics",
       "motif": "capitol",
-      "thread": "nvidia-huang-probe",
-      "when": "Huang under fire",
-      "title": "Republicans criticize Trump's push to reinstate Huang as Congress prepares to question him",
-      "summary": "Nvidia brought Jensen Huang back as CEO after Trump lobbied its board, and GOP lawmakers say the national security questions remain.",
+      "thread": "funding-deadline",
+      "when": "Dec. 11 deadline",
+      "title": "Democrats split over tying Iran war limits to the December funding bill",
+      "summary": "Stopgap funding expires Dec. 11 as some Senate Democrats demand Iran war limits and Thune calls the ask unrealistic.",
       "story": [
-        "Nvidia reinstated Jensen Huang as CEO on Monday, Nov. 23, about 11 days after he resigned, and President Trump told CNBC he personally pressed the board to do it (CNBC, Fox Business). Several Republicans objected. Rep. Don Bacon called the move \"inexplicable\" and a \"failure of character,\" Sen. Tom Cotton said the issue is \"just the tip of the iceberg,\" and Sen. Kevin Cramer warned of risk if a Chinese spy knows a key supply-chain figure (CNBC, The Hill, Washington Examiner).",
-        "The controversy centers on reported allegations that Huang was compromised by a Chinese businesswoman suspected of being a spy. Those claims have not been proven. Vice President Vance defended the reinstatement, saying the espionage allegations rest on anonymous sources rather than real evidence (Washington Examiner). Nvidia's board said it received input from senior levels of the U.S. government and is confident his return poses no national security risk (Fox Business).",
-        "Congress is moving ahead. Three House committees plan a closed-door transcribed interview with Huang on Dec. 1, with Nvidia General Counsel Tim Teter on Dec. 2 (NBC News, CNBC). Senate Banking Chairman Tim Scott asked Huang to appear at a public hearing Dec. 3. One report says Huang accepted, while another had not confirmed that date. Sens. Pete Ricketts and Rick Scott said reinstatement does not excuse him from answering questions.",
-        "Democrats have joined the criticism. Sen. Chris Van Hollen called it \"Exhibit A\" of political corruption in the administration's tech policy (CNBC). Chris Christie said it shows Trump allies can \"get away with anything\" (The Hill). Elon Musk wrote that \"the mistake has been corrected.\""
+        "The stopgap expires Dec. 11, and Congress returns Nov. 30. The Hill, NPR and the Washington Examiner all report that shutdown odds rise as the date nears, with Iran war spending the central dispute (The Hill, NPR, Washington Examiner).",
+        "Sens. Bennet, Sanders, Van Hollen and Duckworth said they will oppose any short-term patch without language that bars the administration from using appropriated funds to continue the war. Kaine is drafting a provision, and Duckworth and Gillibrand have pushed an amendment cutting offensive funding (The Hill).",
+        "Majority Leader Thune called the demand short-sighted and not realistic. The Hill reports he is not trying to peel off eight to 10 Democrats the way he ended last year's 43-day shutdown, and that Republicans could fall back on a budget reconciliation package for Pentagon money, which would take weeks. House Democratic leader Jeffries has not ruled out a shutdown, and Fox News framed his answer as evasive. DeLauro said shutting the government down does not stop the war."
       ],
       "facts": [
-        "Nvidia reinstated Huang on Monday, Nov. 23, after he resigned Nov. 12.",
-        "Trump told CNBC he persuaded the board; Nvidia says it got input from senior U.S. officials.",
-        "Three House committees have a closed-door interview with Huang set for Dec. 1.",
-        "Senate Banking is seeking a public hearing Dec. 3; one report says Huang accepted, another did not confirm.",
-        "The spy allegations are reported claims, not proven; Vance says they rely on anonymous sources."
+        "The current stopgap runs through Dec. 11.",
+        "Congress returns Nov. 30.",
+        "Sens. Bennet, Sanders, Van Hollen and Duckworth oppose a patch that lacks war-spending limits.",
+        "Thune says he is not recruiting 8-10 Democrats this time.",
+        "Republicans could use reconciliation for Pentagon funding, which would take weeks.",
+        "Rep. DeLauro said a shutdown would not stop the war."
       ],
-      "flag": "The Dec. 3 Senate Banking date is reported, but not every outlet confirmed that Huang has agreed to appear.",
-      "left": "Democrats say a president lobbying a private board to rehire a CEO under a counterintelligence cloud is exactly the corruption they ran against. They want the FBI briefing, the board's investigation and the White House contacts disclosed, and they note that Republicans are now saying the same thing. Oversight of Nvidia's China chip sales, they argue, should be a first-order job for the new Congress.",
-      "right": "Conservative critics, including Cotton and Bacon, argue national security cannot bend to a favored executive, however important Nvidia is to the AI race. Defenders such as Vance say the allegations rest on anonymous sourcing and that Nvidia is too strategically important to leave leaderless on an unproven claim. Both camps agree Congress should get answers under oath.",
-      "next": "Huang's closed-door House interview on Tuesday, Dec. 1, then the Senate Banking hearing on Dec. 3.",
+      "left": "Appropriations are Congress's clearest lever over a war it never authorized, and Democrats say funding it without limits makes them complicit. Supporters of the rider argue that voters just handed Democrats the House, and that the party's base expects the Iran war to be challenged now, not in January. They note that a short extension into 2027 would hand the fight to the new majority. Cautious Democrats add that a shutdown would hurt federal workers without ending the war.",
+      "right": "Republicans argue that cutting war funds in the middle of a blockade endangers troops and weakens the president's hand in talks with Tehran. They say Democrats are risking a Christmas shutdown for a symbolic fight they cannot win with 47 Senate votes. Thune's camp points out that Pentagon funding is not a bargaining chip while carriers sit in the Gulf. Conservative critics also say Jeffries is playing political games by refusing to say whether Democrats would force a shutdown.",
+      "next": "Watch whether Senate Democrats settle on a united position when they return Nov. 30, ahead of the Dec. 11 deadline.",
+      "src": [
+        [
+          "The Hill",
+          "C",
+          "https://thehill.com/homenews/senate/6238725-senate-negotiators-avoid-shutdown/"
+        ],
+        [
+          "NPR",
+          "LL",
+          "https://www.npr.org/2026/11/20/nx-s1-6043190/fight-over-funding-for-iran-war-could-put-the-government-at-risk-of-a-shutdown"
+        ],
+        [
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/news/house/4809015/democrats-government-shutdown-possibility-december/"
+        ],
+        [
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/jeffries-faces-online-fury-cryptic-answer-dems-risk-govt-shutdown-political-games"
+        ]
+      ]
+    },
+    {
+      "id": "huang",
+      "section": "politics",
+      "motif": "gavel",
+      "thread": "nvidia-huang-probe",
+      "when": "Dec. 1 interview",
+      "title": "Republicans keep pressing Trump and Nvidia's board over Huang's return",
+      "summary": "Trump says he convinced Nvidia's board to reinstate Huang, and GOP senators and House chairs want answers before a Dec. 1 closed-door interview.",
+      "story": [
+        "Nvidia's Nov. 23 SEC filing said Jensen Huang was reinstated as president, CEO and board member after he resigned Nov. 12 amid an internal investigation into his relationship with an alleged Chinese spy. Trump told CNBC \"I convinced them\" and \"I made the deal.\" Republicans including Sens. Ricketts, Cramer, Cornyn and Curtis questioned the move, and Newt Gingrich said Congress should investigate (CNBC, The Hill, Fox Business).",
+        "Huang and Nvidia general counsel Tim Teter agreed to transcribed, closed-door interviews with the House Foreign Affairs, China Select and Intelligence committees. Huang's is set for Dec. 1. Fox News reports the board said the independent investigation will proceed to its conclusion. A public Senate Banking hearing has been requested, but I found no confirmed date.",
+        "The Washington Examiner and National Review framed the episode as a test of the president's willingness to lean on a private company. The chairs of the House committees said the board's brief review does not erase national security questions. CNBC reported that Democrats also want investigations."
+      ],
+      "flag": "Reports differ on whether a Senate Banking hearing is formally scheduled; an earlier report put it at Dec. 3, and I found no confirmation.",
+      "blindspot": "No left-leaning outlet coverage found in my searches; Democratic reaction here comes via CNBC and The Hill.",
+      "facts": [
+        "Huang resigned Nov. 12 and was reinstated Nov. 23.",
+        "Trump told CNBC he made the deal with the board.",
+        "Republican Sens. Ricketts, Cramer, Cornyn and Curtis raised concerns.",
+        "Huang's House interview is Dec. 1.",
+        "Nvidia's board says the independent investigation will continue.",
+        "A Senate Banking hearing was requested but not yet scheduled."
+      ],
+      "left": "Democrats say the story shows a president steering a company that sells advanced chips to decide who runs it, with national security as the casualty. They want public testimony, not a closed-door interview, and note that the House chairs said the board's brief review answers little. Some also argue that the same administration that debates export controls should not be brokering the CEO's job. Their core demand is transparency about what the White House said to the board.",
+      "right": "Conservative critics, including China hawks in the Senate, say a CEO under investigation for ties to a suspected Chinese spy should not return while the review is open. National Review treats it as a dubious deal even if Trump wanted a win for a major American firm. Defenders of the president argue that Nvidia is vital to winning the AI race and that a leaderless company helps Beijing. Hawks answer that national security vetting comes before market share.",
+      "next": "Huang's closed-door House interview on Dec. 1; watch for whether Senate Banking sets a hearing date.",
       "src": [
         [
           "CNBC",
@@ -585,235 +631,58 @@
         [
           "Washington Examiner",
           "LR",
-          "https://www.washingtonexaminer.com/news/white-house/4815433/vance-jensen-huang-nvidia-national-security/"
+          "http://www.washingtonexaminer.com/policy/national-security/4812530/republicans-question-jensen-huang-reinstatement-nvidia-ceo/"
         ],
         [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/senate/4813759/tom-cotton-jensen-huang-reinstatement-investigation/"
-        ],
-        [
-          "Fox News",
+          "National Review",
           "R",
-          "https://www.foxnews.com/live-news/ai-news-tech-markets-nvidia-11-23-26"
+          "https://www.nationalreview.com/carnival-of-fools/nvidia-remarries-jensen-huang-for-now"
         ],
         [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-white-house-congress-2026-live-updates-rcna611009"
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
         ]
       ]
     },
     {
-      "id": "shutdown",
+      "id": "hegseth",
       "section": "politics",
-      "motif": "gavel",
-      "thread": "funding-deadline",
-      "when": "Funding deadline",
-      "title": "Iran war limits and a leadership vote hold up the December funding deal",
-      "summary": "Funding runs out Dec. 11 or 12, and several Senate Democrats say they will not back a stopgap without limits on the Iran war.",
+      "motif": "scroll",
+      "thread": "hegseth-impeachment",
+      "when": "House 2027",
+      "title": "Democrats weigh when to revive Hegseth impeachment after a missed vote",
+      "summary": "After the House shelved articles 211-204 on Nov. 10, Democratic leaders and progressives disagree on timing in the new Congress.",
       "story": [
-        "Federal funding expires in mid-December, and talks are stuck. CNN reports the fight is effectively frozen until Senate Democrats hold their leadership election on Dec. 1, and that both parties and the administration reportedly want another stopgap. Earlier coverage from The Hill cites a Dec. 11 deadline, while CNN's Nov. 21 report says Dec. 12 (CNN, The Hill).",
-        "The sticking point is the Iran war. Sens. Tammy Duckworth and Kirsten Gillibrand want any stopgap to cut off money for offensive operations while allowing defensive, intelligence and evacuation activity. Sens. Michael Bennet, Bernie Sanders, Chris Van Hollen and Duckworth said they will oppose a short-term patch without war-funding language (The Hill). Fox News reports Republicans largely will not support the amendment.",
-        "Majority Leader John Thune said he is increasingly concerned Democrats may force a shutdown, which he called a terrible outcome for Americans. House Appropriations Chair Tom Cole said he does not want one and wants to pass as many full-year bills as possible (Washington Examiner, The Hill). Some Democratic leaders are cautious about a hard-line stance. Duckworth says Republicans would be to blame for a shutdown.",
-        "The White House also sent Congress a list of requested add-ons, including more air traffic controller money and billions in military funding, and Democrats signaled it is unlikely to pass in a stopgap. The administration separately wants up to $350 billion for defense, which has run into Republican resistance (The Hill)."
+        "On Nov. 10 the House voted 211-204 to refer Rep. Thomas Massie's articles of impeachment against Defense Secretary Pete Hegseth to committee, which effectively ends the effort until the next Congress. Eleven Democrats missed the vote, and Fox News noted that flipping four votes would have produced an impeachment, 208-207 (The Hill, CNN, Fox News).",
+        "Rep. Pete Aguilar told reporters that Democratic leaders have no plans to revisit impeachment next year and that oversight comes first, in comments reported by The Hill. Reps. Ro Khanna and Rashida Tlaib want to move early in 2027. Jeffries said \"this is not the end.\"",
+        "CNN reports that Hegseth's team expects an impeachment push once Democrats hold the House, but anticipates hearings and investigations first. Massie predicts new articles could build on Ukraine aid questions, per Fox News."
       ],
       "facts": [
-        "Funding expires Dec. 11 or Dec. 12, depending on the outlet.",
-        "Duckworth and Gillibrand want to bar funds for offensive Iran operations in any stopgap.",
-        "Bennet, Sanders, Van Hollen and Duckworth say they will oppose a patch without war language.",
-        "CNN reports talks are frozen until the Dec. 1 Senate Democratic leadership vote.",
-        "Thune warns of a Democratic-forced shutdown; Cole says he wants to avoid one."
+        "The House voted 211-204 on Nov. 10 to refer the articles to committee.",
+        "Eleven Democrats missed the vote.",
+        "Aguilar says oversight comes before any new impeachment push.",
+        "Khanna and Tlaib want to move early next year.",
+        "Massie says new articles could cite Ukraine aid."
       ],
-      "flag": "Outlets differ on the deadline (Dec. 11 vs. Dec. 12).",
-      "left": "Democrats pushing the amendment argue Congress, not the president, holds the power of the purse, and that an unpopular war with no end in sight should not be funded on autopilot. They say a narrow carve-out for defense and evacuations is a reasonable check. Party leaders worry that a shutdown would hand Republicans a talking point, so the caucus is divided on how far to push.",
-      "right": "Republicans argue that cutting off funds in the middle of a blockade endangers troops and hands Tehran leverage. They say Democrats are risking a holiday shutdown, with its effects on TSA and the FAA, to score a political point against a war they cannot end by amendment. Many want a clean stopgap and a separate bipartisan defense bill.",
-      "next": "The Senate Democratic leadership vote Dec. 1, then the Dec. 11-12 funding deadline.",
+      "left": "Progressive Democrats say the Iran war and the Pentagon's conduct warrant immediate consequences, and that waiting for hearings gives Hegseth months of cover. They argue the missed vote showed a lack of urgency the base will not forgive. Leadership counters that a documented oversight record makes any impeachment stronger and harder to dismiss as theater. Both camps agree the issue is not going away.",
+      "right": "Republicans point to the missed votes as proof Democrats are not serious and call impeachment a partisan stunt aimed at a defense secretary prosecuting a war. They argue that removing him mid-conflict would hurt troops. Some conservatives, like Massie, split from the party on the war itself and say the aid and war questions deserve a hearing. Others note that a Democratic majority cannot remove him in a Republican Senate anyway.",
+      "next": "Whether House Democratic leaders schedule Hegseth hearings in the first weeks after Jan. 3.",
       "src": [
         [
           "The Hill",
           "C",
-          "https://thehill.com/homenews/senate/6241266-congress-december-funding-deadline/"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/senate/6229008-congress-faces-government-shutdown-deadline/"
+          "https://thehill.com/homenews/house/6214625-house-democrats-fail-hegseth-measure/"
         ],
         [
           "CNN",
           "LL",
-          "https://www.cnn.com/2026/11/21/business/holiday-travel-tsa-faa-shutdown"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "http://www.washingtonexaminer.com/news/house/4809015/democrats-government-shutdown-possibility-december/"
+          "https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress"
         ],
         [
           "Fox News",
           "R",
-          "https://www.foxnews.com/politics/democrats-enter-congressional-majority-government-shutdown"
-        ]
-      ]
-    },
-    {
-      "id": "oversight",
-      "section": "politics",
-      "motif": "scales",
-      "thread": "midterms-2026",
-      "when": "Oversight fight",
-      "title": "Trump's contractor order sets up an early oversight clash with the incoming Democratic House",
-      "summary": "The Nov. 21 order tells federal contractors to coordinate congressional requests with the White House; Raskin calls it unlawful.",
-      "story": [
-        "President Trump signed an executive order on Friday, Nov. 21, telling federal contractors and subcontractors to alert the White House to congressional information requests and to coordinate their responses. CNN and NPR report that companies that do not comply risk losing contracts or being suspended from future work. The order says congressional probes need a valid legislative purpose, and the White House framed it as protecting executive privilege from congressional overreach (CNN, NPR, Fox News).",
-        "The order follows a memo from White House Counsel Will Scharf telling agencies they must get White House approval before personnel agree to testify before Congress (The Hill, CNN). It lands weeks before Democrats take control of the House in January, after winning both chambers in the midterms.",
-        "Rep. Jamie Raskin, expected to chair House Judiciary, called the order \"unprecedented and blatantly unlawful.\" Rep. Robert Garcia, the incoming Oversight chair, called it an attack on Congress's constitutional oversight power and has told Trump family members and senior officials to preserve records (CNN, Washington Examiner). Garcia says Congress's authority comes from Article I, not White House permission.",
-        "Democrats say they will go to court if subpoenas are ignored. Their reported targets include Trump family business dealings, DHS and Epstein-related matters (Fox News, Washington Examiner). Raskin has also said he wants to examine intermediaries who broker pardons."
-      ],
-      "facts": [
-        "Trump signed the order Nov. 21; it covers all federal contractors and subcontractors.",
-        "Noncompliant firms could lose contracts or be suspended.",
-        "Raskin called it \"unprecedented and blatantly unlawful.\"",
-        "Garcia, the incoming Oversight chair, has told Trump family members to preserve records.",
-        "Democrats take control of the House in January and plan to use the courts if subpoenas are ignored."
-      ],
-      "blindspot": "Right-leaning outlets report the order and the White House defense, but I found no on-the-record Republican lawmakers defending it.",
-      "left": "Democrats say the order is an attempt to wall off the executive branch before accountability arrives. Contractors, they argue, are not the president's personal property, and Congress has a constitutional right to information about how taxpayer money is spent. They see the order as an invitation to a court fight that the administration has reason to fear losing.",
-      "right": "The White House and its allies say executive privilege is real, long used by presidents of both parties, and that Democrats have promised sweeping investigations of the Trump family and cabinet. They argue the order simply makes sure sensitive deliberations are reviewed before disclosure, and that probes need a valid legislative purpose, as the order itself says.",
-      "next": "The first oversight letters and subpoenas when Democrats take control in January, and any contractor lawsuit.",
-      "src": [
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/11/21/politics/trump-executive-order-federal-contractors-congressional-requests"
-        ],
-        [
-          "NPR",
-          "LL",
-          "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress"
-        ],
-        [
-          "Fox News",
-          "R",
-          "https://www.foxnews.com/politics/trump-orders-federal-contractors-alert-white-house-congressional-record-requests"
-        ],
-        [
-          "Washington Examiner",
-          "LR",
-          "https://www.washingtonexaminer.com/news/white-house/4811048/trump-order-white-house-control-information-congress/"
-        ],
-        [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/administration/6235181-trump-executive-privilege-congress-investigations-order/"
-        ]
-      ]
-    },
-    {
-      "id": "storm",
-      "section": "local",
-      "motif": "storm",
-      "when": "King tides, storm",
-      "title": "San Francisco sets a record November tide as waves batter the coast; Posey Tube reopens early",
-      "summary": "Tuesday's tide was a November record, the Pacifica Pier's end collapsed, and Caltrans said the Posey Tube did not flood.",
-      "story": [
-        "San Francisco's Crissy Field gauge peaked at 2.39 feet above average at 10:06 a.m. Tuesday, Nov. 24, a new November record, the San Francisco Chronicle reports. Mayor Daniel Lurie watched water push over flood barricades onto the Embarcadero, and the Port put up a mile of flood barriers for the first time. Alameda's gauge reached 2.4 feet, topping its 1982 November record of 2.2 feet (SF Chronicle).",
-        "Wednesday's tide was forecast to reach 2.7 feet, which would be the highest since January 1983. The Chronicle reported tides were roughly that high, but waves larger than predicted crashed into homes and streets along the coast. Its live coverage reports the end of the Pacifica Pier collapsed, and waves submerged much of Ocean Beach.",
-        "Caltrans closed the Posey Tube between Alameda and Oakland from Sunday night, with a plan to hold it through Friday. After the weather broke and tides receded Wednesday, it moved to reopen early. Spokesperson Bart Ney said, \"The tube didn't flood.\" He had no firm reopening time yet (SF Chronicle). The Webster Tube stayed open throughout.",
-        "For Fremont, the site's forecast shows rain likely today, with a high of 64 and a low of 51, then a dry Thursday and Friday and more rain Sunday. KQED and the Chronicle say tides stay near record levels through Thanksgiving, and the Chronicle's coverage notes drainage will be slow after the week's rain."
-      ],
-      "facts": [
-        "Tuesday's Crissy Field peak was 2.39 feet above average, a November record.",
-        "Alameda's gauge hit 2.4 feet, above its 2.2-foot 1982 record.",
-        "The Port erected a mile of flood barriers for the first time.",
-        "The end of the Pacifica Pier collapsed, per the Chronicle's live coverage.",
-        "Fremont: rain likely today, dry Thursday and Friday, rain again Sunday."
-      ],
-      "flag": "The exact Posey Tube reopening time was not confirmed in the coverage I found; check Caltrans.",
-      "blindspot": "Covered by center and left-leaning outlets; no right-leaning coverage found.",
-      "left": "Climate-adaptation advocates say this week previews a costly future for low-lying Bay shoreline. They want sea-wall, wetland and drainage money steered first to the communities flooded earliest, and they note Lurie has warned worse tides are likely at Christmas and in January.",
-      "right": "Conservatives generally stress practical preparedness over climate framing, and point out that the damage came from a stack of causes: a king tide, a storm and an El Niño year. They say the test is whether flood barriers, crews and infrastructure upgrades hold, and favor targeted flood-control spending over broad mandates.",
-      "next": "Thanksgiving Day tides, then the larger king tides expected at Christmas and in January.",
-      "src": [
-        [
-          "SF Chronicle",
-          "LL",
-          "https://www.sfchronicle.com/weather/article/live-updates-record-high-tides-bay-area-flooding-22546836.php"
-        ],
-        [
-          "SF Chronicle",
-          "LL",
-          "https://www.sfchronicle.com/bayarea/article/alameda-traffic-posey-tube-closure-22549203.php"
-        ],
-        [
-          "SF Chronicle",
-          "LL",
-          "https://www.sfchronicle.com/weather/article/live-updates-king-tides-sf-bay-area-flooding-waves-22548290.php"
-        ],
-        [
-          "KQED",
-          "LL",
-          "https://www.kqed.org/news/12110854/another-storm-is-hitting-the-bay-area-heres-how-it-could-affect-thanksgiving-travel"
-        ],
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/news/us-news/california-prepares-flooding-rain-wind-thanksgiving-approaches-rcna610537"
-        ]
-      ]
-    },
-    {
-      "id": "newsomdp",
-      "section": "local",
-      "motif": "gavel",
-      "thread": "ca-death-row",
-      "when": "Death row",
-      "title": "Newsom's plan to commute every death sentence now depends on the California Supreme Court",
-      "summary": "Newsom moved to commute 548 death sentences, but most need four of seven justices to approve before he leaves office in January.",
-      "story": [
-        "Gov. Gavin Newsom announced in early November that he will commute all 548 California death sentences to life without parole (ABC7, CalMatters). Commutations for people with more than one felony conviction need the California Supreme Court's sign-off. Reports put that group at roughly 382 to nearly 400 prisoners, and four of the seven justices must approve (Daily Journal, Law360).",
-        "District attorneys from about 30 counties have asked the state Supreme Court to halt the commutations. They argue Newsom failed to give victims an opportunity to be heard, and that none of the commutations came from an application by a prisoner, skipping the usual individual process (CalMatters, LAist). Reports differ on whether the number of counties is 29 or 30.",
-        "The clock matters. If the court has not approved the commutations by the time Newsom leaves office in January, they would expire and the death sentences would stay in place (Law360). The death penalty remains on the books, and several prosecutors say they will keep seeking death sentences in new cases.",
-        "Legal scholars are split. One notes the constitution sets only two express limits on clemency. A prosecutor-side critic says the court has historically reviewed clemency case by case, not in categorical grants (Law360)."
-      ],
-      "facts": [
-        "Newsom announced he will commute all 548 death sentences in early November.",
-        "Roughly 382 to nearly 400 commutations need Supreme Court approval, with four of seven justices required.",
-        "DAs from about 30 counties sued to halt them, citing missing victim notice.",
-        "Commutations that lack court approval by January would expire.",
-        "The death penalty remains law, and some prosecutors will keep seeking it."
-      ],
-      "flag": "Outlets differ on the number of counties in the prosecutors' filing (29 or 30) and on the exact number of commutations needing court approval.",
-      "blindspot": "Covered mainly by center and left-leaning outlets; no right-leaning coverage found.",
-      "left": "Supporters say the death penalty in California is arbitrary, costly and has not produced an execution in years, and that clemency is the governor's constitutional power. They argue victims' families are better served by certainty than by decades of appeals, and that the court should not add procedural hurdles the constitution does not contain.",
-      "right": "Opponents, including prosecutors, say a blanket commutation ignores the individual victims and juries behind each sentence. They argue the governor skipped the notice and review process meant to give victims a voice, and that clemency by category is the executive overriding voters and courts on something that should be tested in court.",
-      "next": "The California Supreme Court's response to the prosecutors' petition, and whether it acts before Newsom leaves office in January.",
-      "src": [
-        [
-          "CalMatters",
-          "C",
-          "https://calmatters.org/justice/2026/11/gavin-newsom-death-penalty-commutation/"
-        ],
-        [
-          "CalMatters via Palo Alto Online",
-          "C",
-          "https://paloaltoonline.com/calmatters/2026/11/16/prosecutors-ask-california-supreme-court-to-halt-newsoms-death-penalty-commutations"
-        ],
-        [
-          "LAist",
-          "LL",
-          "https://laist.com/news/politics/prosecutors-ask-california-supreme-court-to-halt-newsoms-death-penalty-commutation"
-        ],
-        [
-          "Daily Journal",
-          "C",
-          "https://www.dailyjournal.com/articles/395907-newsoms-death-row-commutations-face-threatened-legal-challenge"
-        ],
-        [
-          "ABC7",
-          "LL",
-          "https://abc7news.com/post/california-gov-gavin-newsom-says-he-will-commute-death-sentences-state-life-parole/20018235/"
+          "https://www.foxnews.com/politics/pete-hegseth-impeachment-effort-dies-house-absent-democrats-couldnt-beat-traffic"
         ]
       ]
     },
@@ -822,26 +691,25 @@
       "section": "world",
       "motif": "ship",
       "thread": "iran-war",
-      "when": "Gulf escalation",
-      "title": "Iran says three tankers hit mines despite U.S. escort as attacks on Gulf shipping rise",
-      "summary": "The Revolutionary Guard claims mine strikes with no independent confirmation, while Treasury targets Iran's shadow banking network.",
+      "when": "Gulf",
+      "title": "Iran says three tankers hit mines as Treasury widens sanctions and Washington weighs leadership strikes",
+      "summary": "The Guard says three tankers hit mines despite U.S. escort, Treasury hit more shadow banking targets, and Fox News reports talks of striking Iran's leaders.",
       "story": [
-        "Iran's Revolutionary Guard said Tuesday that three oil tankers suffered a severe explosion and fire after hitting naval mines in the Strait of Hormuz, one near the southern coast and two in the eastern strait. The Guard said all three had U.S. air cover and escort. CNBC reports it found no independent confirmation of the mine claim, and Iran has made near-daily claims, few of them substantiated.",
-        "CNN reported Nov. 22 that attacks on Hormuz shipping are at their highest level since the war began, and CNBC cited maritime risk firm Marisks saying projectiles hit three tankers leaving the strait Friday and Saturday. The U.S. now has three aircraft carriers in the region and is enforcing a naval blockade of Iranian ports (CNBC).",
-        "On Tuesday Treasury sanctioned more than two dozen Iranian exchange houses, front companies and individuals in what it called a sweeping effort to disrupt Iran's shadow banking networks. Secretary Scott Bessent called the system \"the last financial lifeline of a bankrupt regime\" (CNBC). Oil moved only modestly, with WTI near $80 and Brent near $89 Tuesday, down from an October high near $105.",
-        "Republicans are debating strategy. Sen. Tom Cotton argues \"we need a victory strategy, not an exit strategy\" and wants sanctions on anyone paying Iran for passage, while Washington Examiner commentary questions whether a unilateral military option to seize Hormuz exists (Washington Examiner, Fox News)."
+        "Iran's Revolutionary Guard said three tankers were damaged by naval mines in the Strait of Hormuz even though they were under U.S. escort and air cover, according to CNBC and The Hill. The claim came from the Guard and was not independently confirmed. Oil eased, with Brent dipping to about $89 on Tuesday per CNBC, and WTI sits near $83 in today's market data.",
+        "The Treasury sanctioned more than two dozen Iranian exchange houses, front companies and key personnel in the shadow banking network on Nov. 23. Secretary Bessent called it the regime's last financial lifeline (CNBC). Axios reported in October that Iran had loaded no oil onto tankers since Aug. 25 under the blockade and sanctions. A third U.S. carrier joined the Gulf last week.",
+        "Separately, Fox News, citing reports, said the administration is weighing strikes on Iran's top leaders, including Mojtaba Khamenei. Opponents inside the government warn that this could expose American officials to retaliation. Iran's supreme leader has ordered a maximum response to any U.S. attack, per Axios."
       ],
+      "flag": "The mine claims come from Iran's Guard; the U.S. has disputed earlier Guard claims. The strike-planning report is based on unnamed sources.",
       "facts": [
-        "Iran's Guard claims three tankers hit mines Tuesday; no independent confirmation found.",
-        "Attacks on Gulf shipping are at their highest level since the war began, per CNN.",
-        "Treasury sanctioned more than two dozen exchange houses, front companies and people on Nov. 24.",
-        "The U.S. has three carriers in the region enforcing a blockade of Iranian ports.",
-        "WTI was near $80 and Brent near $89 on Tuesday."
+        "The Guard says three tankers hit mines under U.S. escort; this is unconfirmed.",
+        "Treasury sanctioned more than two dozen shadow banking targets Nov. 23.",
+        "Brent dipped to about $89 Tuesday; WTI is near $83.",
+        "A third U.S. carrier is in the Gulf.",
+        "Fox News reports the administration is weighing strikes on Iran's top leaders."
       ],
-      "flag": "The mine claims come from Iran's Revolutionary Guard; U.S. officials have disputed similar earlier claims.",
-      "left": "Democrats and war critics say the escalation shows the blockade has not reopened Hormuz and that the war lacks a defined end. They argue Congress should use the funding deadline to force limits, and that more carriers and sanctions raise the odds of a miscalculation that costs American lives and keeps oil prices high.",
-      "right": "Hawks argue the pressure is working, pointing to an Iranian economy Bessent calls underwater and to a nuclear program they say is in ruins. They say retreating now would reward Tehran and that the right response to attacks on shipping is more pressure, including sanctions on anyone who pays tolls or buys Iranian oil.",
-      "next": "Whether the funding fight forces limits on the war, and any new shipping incident confirmed by independent maritime agencies.",
+      "left": "Critics say the war has no clear endgame, and that threatening the supreme leader risks escalation that endangers U.S. forces and officials with no path to a settlement. Jeffries called the war a disaster that has left Americans less safe. They argue sanctions and a blockade strain ordinary Iranians more than the Guard. Many want Congress to vote on the war before any new escalation.",
+      "right": "Supporters argue the blockade and sanctions are working, pointing to Treasury's report that Iran's economy is crippled and to the absence of Iranian oil loadings. They say pressure is the only way to force a deal, and that striking leaders who direct attacks on shipping is legitimate. Hawks say mine claims show why the U.S. must keep escorts and carriers in the Gulf. Some note that the president has also kept the door open to talks.",
+      "next": "Whether Washington acts on leadership strike options, and whether more Gulf shipping incidents are confirmed.",
       "src": [
         [
           "CNBC",
@@ -849,19 +717,24 @@
           "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
         ],
         [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl"
+          "The Hill",
+          "C",
+          "https://thehill.com/policy/international/6240781-irgc-oil-tankers-underwater-mines/"
         ],
         [
           "Fox News",
           "R",
-          "https://www.foxnews.com/politics/trumps-first-iran-war-escalation-post-midterm-losses-seeks-choke-off-tehrans-trade"
+          "https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report"
         ],
         [
-          "Washington Examiner",
-          "LR",
-          "http://www.washingtonexaminer.com/in_focus/4810844/trump-needs-victory-strategy-iran/"
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/10/30/iran-war-bessent-treasury-report-sanctions"
+        ],
+        [
+          "CNN",
+          "LL",
+          "https://www.cnn.com/2026/11/13/middleeast/iran-targets-us-military-site-in-gulf-first-time-in-two-months-intl"
         ]
       ]
     },
@@ -870,26 +743,25 @@
       "section": "economy",
       "motif": "coins",
       "thread": "trump-tariffs",
-      "when": "New tariff plan",
+      "when": "Section 301",
       "title": "U.S. proposes Section 301 tariffs on 14 trading partners, with China at 20%",
-      "summary": "USTR's proposal cites industrial overcapacity; rates run from 15% to 20%, with a comment period before any January start.",
+      "summary": "The proposed duties range from about 15% to 35% and need a public comment period; USTR says none take effect for a couple of months.",
       "story": [
-        "The Trump administration proposed new Section 301 tariffs on 14 trading partners, including China, the EU, Japan and India, over what it calls excess manufacturing capacity (CNBC, Axios, Fox Business). A senior U.S. official described them as targeted rather than blanket, with many not exceeding rates in earlier trade deals. China faces the steepest rate at 20%. The EU, Japan, South Korea, Taiwan and Switzerland would face 15%, and Vietnam and India 20% and 17% if deals are finalized (Fox Business).",
-        "The proposal is subject to public comment and hearings, and the levies could take effect as early as January (CNBC). Earlier Section 301 tariffs on 60 partners are already being challenged by importers in the Court of International Trade, according to law-firm analyses.",
-        "China's Foreign Ministry spokesperson Guo Jiakun said the overcapacity problem does not really exist and should not be used as a pretext for political manipulation. Beijing has not announced immediate retaliation (CNBC). Fox Business also cited the new duties as one of the pressures on stocks Wednesday.",
-        "I did not find reactions from U.S. business groups or economists to this specific proposal."
+        "The Trump administration proposed Section 301 tariffs on 14 trading partners on Nov. 25, targeting what it calls excess manufacturing capacity. The list covers China, the EU, Japan, South Korea, Taiwan, Malaysia, India, Vietnam, Thailand, Singapore, Indonesia, Cambodia, Bangladesh and Switzerland, with Mexico and Norway excluded for now (CNBC, Fox Business).",
+        "Rates start at 15% for the EU, South Korea, Switzerland and Taiwan. CNBC reports 18% for Bangladesh, Cambodia and Thailand, and 20% for China and Vietnam subject to their deals, with USTR's Jamieson Greer saying the rates largely do not stack on existing duties. Fox Business describes China's rate as up to 20%. CNBC says China's 20% would sit on top of about 25% first-term tariffs.",
+        "The proposal rebuilds tariffs the Supreme Court struck down in February under the emergency-powers law. Both proposals must go through notice and comment, and Greer said none would take effect for a couple of months. China's foreign ministry said the overcapacity does not exist, per CNBC."
       ],
+      "blindspot": "Covered mainly by center and business outlets in my searches; no left-leaning coverage found.",
       "facts": [
-        "The proposal covers 14 partners, including China, the EU, Japan and India.",
-        "China faces 20%; the EU, Japan, South Korea, Taiwan and Switzerland 15%.",
-        "Vietnam would face 20% and India 17% if deals are finalized.",
-        "Public comment and hearings come first; tariffs could start as early as January.",
-        "China says the overcapacity claim does not really exist."
+        "The proposal covers 14 trading partners; Mexico and Norway are excluded for now.",
+        "Rates mostly run 15% to 20%, with a reported 35% ceiling for Vietnam.",
+        "China's rate is 20% per CNBC and up to 20% per Fox Business.",
+        "The Supreme Court struck down the earlier emergency-powers tariffs in February.",
+        "Greer says none take effect for a couple of months."
       ],
-      "flag": "Business-group and economist reactions to this specific proposal were not found.",
-      "left": "Critics say tariffs are a tax on American consumers and importers, and that the administration keeps rebuilding tariffs on new legal footing instead of making a case for them. They worry about inflation at a time when PCE is already 3.8% and the Fed is expected to hike.",
-      "right": "Supporters argue overcapacity in China and elsewhere is real, that targeted rates tied to deals are more disciplined than blanket tariffs, and that Section 301 has a clear statutory process, with notice and comment. They say leverage over trading partners helps protect domestic manufacturing and fund the administration's agenda.",
-      "next": "The public comment period and hearings, then a possible January effective date.",
+      "left": "Progressives and many economists argue tariffs are a regressive tax that raises prices for working families, and the 3.8% inflation reading makes the timing worse. They say rebuilding duties after the Supreme Court ruled against them shows the administration will find another legal route regardless of the courts. Trade-union Democrats are more sympathetic to targeting subsidized overcapacity from China. Many want the cost to consumers disclosed.",
+      "right": "Supporters say overcapacity subsidized by Beijing has hollowed out American manufacturing, and that Section 301, with notice and comment, is the more legally durable tool. They argue that the proposed rates are lower than the emergency-powers tariffs and that deals can reduce them. Some free-market conservatives dissent and warn of higher costs. Greer's framing is targeted tariffs in response to specific excess capacity.",
+      "next": "Comment period and hearings in the coming weeks; trade deals could change individual rates before any take effect.",
       "src": [
         [
           "CNBC",
@@ -897,14 +769,55 @@
           "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
         ],
         [
-          "Axios",
+          "Fox Business",
+          "R",
+          "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
+        ],
+        [
+          "CNBC",
           "C",
-          "https://www.axios.com/2026/11/25/trump-tariffs-china"
+          "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+        ]
+      ]
+    },
+    {
+      "id": "fed",
+      "section": "economy",
+      "motif": "chart",
+      "thread": "fed-hikes",
+      "when": "Dec. 8-9 Fed",
+      "title": "October PCE runs 3.8% as markets treat a December Fed hike as nearly certain",
+      "summary": "Core PCE hit 3.3%, third-quarter GDP was revised to 4.3%, and CME FedWatch shows roughly 97% odds of a quarter-point hike.",
+      "story": [
+        "The Commerce Department said the PCE price index rose 0.3% in October and 3.8% from a year earlier, matching forecasts. Core PCE rose 3.3%, 0.1 point above the forecast and the highest in three years, according to CNBC. Fox Business and Axios also covered the release, which came the day before Thanksgiving.",
+        "CME FedWatch showed roughly 97% odds of a quarter-point hike at the Dec. 8-9 meeting, and about 63% for another in January, per Fox Business. After the report, odds for a third hike in 2027 fell to about one in three (CNBC). Initial jobless claims slipped to 189,000, and third-quarter GDP was revised up to 4.3% annualized.",
+        "Fed minutes showed almost all participants judged more hikes would likely be appropriate, and Gov. Waller has pushed for a half-point move. Bill Ackman warned a December hike could trigger a recession (Fox Business). Bond yields fell on the day despite the hot print, with the 10-year at 4.85% in today's data."
+      ],
+      "facts": [
+        "October PCE rose 0.3% on the month and 3.8% on the year.",
+        "Core PCE rose 3.3% on the year.",
+        "Third-quarter GDP was revised to 4.3% annualized.",
+        "Initial jobless claims were 189,000.",
+        "CME FedWatch shows roughly 97% odds of a December quarter-point hike."
+      ],
+      "left": "Progressive economists warn that raising rates into an energy shock and AI-driven layoffs risks costing jobs without fixing the supply problems behind prices. Heather Long of Navy Federal said America's inflation problem is bigger than an energy shock, which complicates the dovish case. Many on the left point to tariffs as an avoidable driver. They argue the Fed should not be left carrying a cost problem created by trade and war policy.",
+      "right": "Conservatives and many inflation hawks say the data justify the Fed's hikes, and that tariffs and war spending add to demand the central bank has to offset. Strong growth and a 189,000 claims reading, they argue, show the economy can absorb higher rates. Some on the right, like Ackman, warn the Fed is overdoing it. Still, most argue that prices at 3.8% leave little room for patience.",
+      "next": "The Fed's Dec. 8-9 meeting; the November jobs and inflation reports before that.",
+      "src": [
+        [
+          "CNBC",
+          "C",
+          "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         ],
         [
           "Fox Business",
           "R",
-          "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
+          "https://www.foxbusiness.com/economy/october-2026-pce-inflation"
+        ],
+        [
+          "Axios",
+          "C",
+          "https://www.axios.com/2026/11/25/incomes-layoffs-rates-pce-ai"
         ]
       ]
     },
@@ -913,30 +826,28 @@
       "section": "stocks",
       "motif": "chart",
       "thread": "ai-trade-selloff",
-      "when": "Wild Wednesday",
-      "title": "Tech stocks plunge in the morning, then recover much of the loss as AI doubts return",
-      "summary": "The Dow fell more than 1,100 points at the low before turning positive, and the Nasdaq closed down 0.6%, per CNBC and Bloomberg.",
+      "when": "Wed. close",
+      "title": "Nasdaq slips 0.6% as Nvidia leads AI names lower, while the Dow closes higher",
+      "summary": "The Dow erased an intraday loss of about 1,100 points, but the AI trade stayed shaky.",
       "story": [
-        "Stocks swung hard Wednesday. At 10:31 a.m. ET the S&P 500 was down 2.66%, the Dow down 1.54% and the Nasdaq down 3.94% (market data). Later the Dow turned positive after falling more than 1,100 points at its session low, Fox Business reported. CNBC and Bloomberg said the Nasdaq closed down 0.6%, well off the lows.",
-        "Nvidia led the slide, down 7.71% at the morning snapshot, as the rally that followed Jensen Huang's return faded and AI concerns came back (CNBC). Fox Business reported Alphabet and Amazon fell about 5% at points in the day. Anthropic traded below its $83 IPO price again (CNBC). Asian chip names also fell, including SoftBank, SK Hynix and Samsung (CNBC).",
-        "Drivers included the hot October PCE inflation reading and worries that higher rates hurt growth stocks, plus the new tariff proposals on 14 partners (CNBC, Fox Business). The 10-year Treasury yield was 4.82% in the morning data, down from 5% plus earlier this month. This comes after Friday's rout, when the S&P 500 fell 3.7% and the Nasdaq 5.28% (Fox Business).",
-        "Fox Business gave several different Nasdaq figures for the day, from 1.7% midday to 3.75% in one passage, so closing numbers beyond CNBC and Bloomberg's 0.6% are unconfirmed."
+        "U.S. stocks ended Wednesday mixed before the Thanksgiving closure: the S&P 500 slipped 0.25%, the Nasdaq fell 0.62% to 23,585.80 and the Dow gained 0.33% to 50,182.95. CNBC and Fox Business reported that the Dow recovered from an intraday loss of more than 1,100 points. Nvidia fell 3.91%, Amazon 3.12% and Alphabet 2.13% in the session.",
+        "The week has been violent. Nvidia jumped more than 30% on Monday after Huang's return, the Nasdaq rose 6.51% and the Dow added 1,447.98 points to 49,595.31, per CNBC and Fox Business. Nvidia then fell 5.7% on Tuesday. Last week the Nasdaq slid 10%, its worst week since March 2020 (CNBC).",
+        "Analysts said the rebound did not settle doubts about how much profit AI can deliver amid rising costs and slowing data center construction, per CNBC. Bloomberg wrote that Nvidia's comeback exposed a trap for investors chasing the rally. Markets are closed today for Thanksgiving and close early Friday."
       ],
       "facts": [
-        "At 10:31 a.m. ET: S&P 500 -2.66%, Dow -1.54%, Nasdaq -3.94% (market data).",
-        "The Dow was down more than 1,100 points at its low, then turned positive (Fox Business).",
-        "CNBC and Bloomberg report the Nasdaq closed down 0.6%.",
-        "Nvidia was down 7.71% in the morning data.",
-        "Friday's rout was S&P 500 -3.7%, Nasdaq -5.28% (Fox Business)."
+        "The S&P 500 fell 0.25% Wednesday.",
+        "The Nasdaq fell 0.62% to 23,585.80.",
+        "The Dow rose 0.33% to 50,182.95.",
+        "Nvidia fell 3.91%, Amazon 3.12%, Alphabet 2.13%.",
+        "Markets are closed today for Thanksgiving."
       ],
-      "flag": "Index figures in the table are the 10:31 a.m. ET snapshot. Fox Business gave inconsistent Nasdaq numbers; only CNBC and Bloomberg's -0.6% close is confirmed.",
-      "why": "Morning moves of 4% in the Nasdaq and 8% in Nvidia, then a partial rebound, show a market trading on AI-funding fears, inflation and tariffs rather than earnings. Your watchlist is all large AI-linked names, so expect large daily swings until the Dec. 9 Fed decision.",
-      "next": "The Fed's Dec. 8-9 meeting, Huang's Dec. 1 House interview and the Anthropic stock's next test of its $83 IPO price.",
+      "why": "The swings show how much index performance now rides on a few AI names. A 6.5% Nasdaq jump followed by declines suggests positioning, not new information, is driving prices. Your watchlist is heavily exposed to that.",
+      "next": "Friday's half-day session and the Dec. 8-9 Fed meeting.",
       "src": [
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+          "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
         ],
         [
           "Fox Business",
@@ -946,44 +857,38 @@
         [
           "Bloomberg",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-11-25/stomach-churning-swings-rock-wall-street-as-ai-doubts-creep-in"
-        ],
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/business/markets/market-sell-underway-gains-huangs-nvidia-move-stall-rcna611268"
+          "https://www.bloomberg.com/news/articles/2026-11-23/nvidia-s-comeback-exposes-the-trap-gripping-stock-investors"
         ],
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
+          "https://www.cnbc.com/2026/11/24/ai-trade-nvidia-rally-defensive-stocks.html"
         ]
       ]
     },
     {
       "id": "antipo",
       "section": "stocks",
-      "motif": "rocket",
+      "motif": "chart",
       "thread": "anthropic-ipo",
-      "when": "ANT below IPO",
-      "title": "Anthropic trades under its $83 IPO price again as analysts stay mostly positive",
-      "summary": "ANT closed Tuesday at $81.91, and Wednesday reports on its move conflict, while Wall Street targets run $120 to $150.",
+      "when": "ANT",
+      "title": "Anthropic stock stays under its $83 IPO price as analysts remain mostly positive",
+      "summary": "ANT closed Tuesday at $81.91 and traded near $79 Wednesday, with new coverage mostly rating it a buy.",
       "story": [
-        "Anthropic priced its IPO at $83 on Nov. 18, above the original $70 to $78 range, raising about $81.3 billion, the largest IPO on record, and opened at $111.50 when it began trading Nov. 19 under the ticker ANT. It fell 6.5% Tuesday to close at $81.91, below the IPO price (CNBC, Axios, Bloomberg).",
-        "Wednesday's reports conflict. CNBC's market close story said Anthropic struggled to rebound above its IPO price and reported Anthropic up more than 4%, while CNBC's investing club put it down about 3% near $79, and Fox Business reported an 8.2% slide. The differences likely reflect different times of day.",
-        "Analysts remain mostly bullish. Canaccord and Oppenheimer initiated with buy-equivalent ratings and targets of $135 and $150, and Wedbush set $120 (CNBC). Options traders were betting heavily on further declines, CNBC reported.",
-        "The stock's slide is feeding questions about the AI trade. Prediction market Kalshi now puts the odds that OpenAI announces an IPO by June 2027 near 28%, down from above 50% earlier this month (CNBC)."
+        "Anthropic (ANT) closed at $81.91 on Tuesday, below its $83 IPO price, after falling 6.5% on the day, according to CNBC and Axios. Mid-session reports on Wednesday put it down about 3% near $79; a confirmed close was not in the results. The stock opened at $111.50 in its Nov. 19 debut, then fell below the IPO price on its fourth trading day.",
+        "Analysts stayed largely positive. Canaccord Genuity started coverage at buy with a $135 target, and four firms that initiated on day one had targets of $125 to $155, per earlier reports. CNBC reported a large options bet, about 11,000 75-strike puts expiring mid-December, costing roughly $7.5 million.",
+        "CNBC's Investing Club argued the stock's weakness matters for the AI trade, and CNBC reported prediction markets pushing OpenAI IPO expectations later into 2027. The prospectus lets some employees and executives sell up to 10% of locked-up shares from day one, per a Saxo summary of the filing."
       ],
+      "flag": "Wednesday's closing price was not confirmed in the results.",
       "facts": [
-        "IPO price was $83; the stock opened at $111.50 on Nov. 19.",
-        "It closed Tuesday at $81.91, down 6.5%.",
-        "Wednesday moves were reported differently by CNBC and Fox Business.",
-        "Canaccord's target is $135, Oppenheimer's $150 and Wedbush's $120.",
-        "Kalshi odds of an OpenAI IPO announcement by June 2027 are near 28%."
+        "IPO price was $83 on Nov. 19.",
+        "The first-day open was $111.50.",
+        "ANT closed Tuesday at $81.91.",
+        "Canaccord started at buy with a $135 target.",
+        "A $7.5 million bet on 75-strike puts was reported."
       ],
-      "flag": "Wednesday price moves for ANT conflict across reports, so I have not stated a close.",
-      "why": "Anthropic's post-IPO slide has become a read on investor appetite for AI valuations. Trading under the offering price a week after listing is a rough signal for the IPO window that OpenAI and others are watching.",
-      "next": "Whether ANT can hold above $83, and any follow-on analyst initiations.",
+      "why": "A frontier lab trading below its offer price within days is a read on how much risk the market assigns to AI valuations. Weakness here also colors the OpenAI IPO outlook.",
+      "next": "Whether ANT reclaims $83 and how options and employee share sales affect trading into mid-December.",
       "src": [
         [
           "CNBC",
@@ -996,71 +901,102 @@
           "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks"
         ],
         [
-          "Bloomberg",
+          "CNBC",
           "C",
-          "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading"
-        ],
-        [
-          "CNBC Investing Club",
-          "C",
-          "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html"
+          "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html"
         ],
         [
           "CNBC",
           "C",
-          "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html"
+          "https://cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html"
         ]
       ]
     },
     {
-      "id": "faa",
-      "section": "engineering",
-      "motif": "gear",
-      "thread": "faa-ground-stop",
-      "when": "Root cause near",
-      "title": "FAA investigators reportedly reproduce the ground-stop failure in a lab",
-      "summary": "CNN reports investigators recreated the Nov. 13 failure; the FAA says it has not yet established a definitive root cause.",
+      "id": "newsomdp",
+      "section": "local",
+      "motif": "gavel",
+      "thread": "ca-death-row",
+      "when": "Prop. 40 and death row",
+      "title": "Prosecutors challenge Newsom's plan to commute all 548 California death sentences",
+      "summary": "A lawsuit for 28 district attorneys says the governor cannot bypass individual commutation procedures; Newsom's response is due Dec. 4.",
       "story": [
-        "CNN reported Tuesday that FAA investigators have recreated the failure that triggered the Nov. 13 nationwide ground stop in a lab and believe they found the culprit, with a report in preparation. The FAA's own position is that it has not established a definitive root cause (CNN).",
-        "The problem began during routine work to replace copper lines with fiber. After a router was installed in El Dorado, Arkansas, the system was overwhelmed by roughly 1,000 connection attempts every four to five seconds. A second router in Texas had similar issues (CNN, CNBC). DOT Secretary Sean Duffy tied the outage to that router.",
-        "The FAA disabled the same functionality on more than 60 other Juniper routers and paused installing them (Axios, CNBC). Equipment maker HPE said the device functioned as programmed by the installer and was not faulty. Markwayne Mullin attributed the failure to new technology added to an older framework (CNN).",
-        "Holiday travel is the pressure point. TSA expects nearly 18 million travelers this week, and an FAA ground stop hit Chicago O'Hare on Tuesday over a radar and tracking outage, lifted the same day (The Hill)."
+        "Gov. Gavin Newsom said Nov. 5 he is moving to commute all 548 California death sentences to life without parole. He told the California Supreme Court, which must recommend clemency for people with more than one felony conviction, covering 382 of the prisoners, per CalMatters and other outlets. No one would be released.",
+        "Fox News reports that the Criminal Justice Legal Foundation sued on behalf of 28 district attorneys, 31 relatives of murder victims and law enforcement and victims groups. Briefs were due Nov. 24, with Newsom's response due Dec. 4. LA DA Nathan Hochman said the governor's power to commute does not extend to eliminating the death penalty. Newsom has said case-by-case reviews would create two classes of victims.",
+        "The Washington Examiner reports that President Trump condemned the plan and announced a federal death penalty directive, which would not affect state commutations. Some victims' families support Newsom. His term ends in January, so timing is the central question."
       ],
+      "flag": "Counts differ: most outlets say 548 sentences, while one Fox report cites 563.",
       "facts": [
-        "Trigger: a router install during a copper-to-fiber upgrade in El Dorado, Arkansas.",
-        "The router faced about 1,000 connection attempts every four to five seconds.",
-        "CNN reports investigators reproduced the failure in a lab; the FAA has not confirmed a root cause.",
-        "The FAA paused installs and disabled the feature on 60+ Juniper routers.",
-        "TSA expects nearly 18 million travelers Thanksgiving week."
+        "Newsom announced the plan Nov. 5.",
+        "The plan covers 548 prisoners; 382 need Supreme Court approval.",
+        "A DA-backed lawsuit was filed; Newsom's response is due Dec. 4.",
+        "No prisoners would be released.",
+        "Newsom's term ends in January."
       ],
-      "flag": "The lab reproduction is a single CNN source; the FAA has not announced a root cause.",
-      "why": "A routine upgrade that cascades into a national shutdown is a classic failure-mode lesson: new equipment can flood legacy systems in ways no spec predicted. The fix matters for any critical network migrating from copper to fiber.",
-      "next": "The FAA's written findings, and whether router installs resume.",
+      "left": "Opponents of capital punishment say California has not executed anyone in years, the system is slow and error-prone, and the death penalty falls disproportionately on the poor and people of color. They argue that blanket clemency ends a failed system with clear moral reasoning. The ACLU backed commutation while the Supreme Court reviews a constitutional challenge. Supporters stress that nobody walks free.",
+      "right": "Prosecutors and victims' advocates say juries and voters, who repeatedly kept the death penalty on the books, decided these sentences. They argue a governor can commute individual cases, but cannot erase a punishment the voters chose. Several DAs say families were not notified. Conservatives also frame the plan as a final political act by a governor with national ambitions.",
+      "next": "Newsom's Dec. 4 response in the DA-backed lawsuit and any Supreme Court action before he leaves office.",
       "src": [
         [
-          "CNN",
+          "CalMatters",
+          "C",
+          "https://calmatters.org/justice/2026/11/gavin-newsom-death-penalty-commutation/"
+        ],
+        [
+          "ABC7",
           "LL",
-          "https://www.cnn.com/2026/11/24/politics/faa-identifies-cause-nationwide-ground-stop"
+          "https://abc7news.com/post/california-gov-gavin-newsom-says-he-will-commute-death-sentences-state-life-parole/20018235/"
         ],
         [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/11/17/faa-air-traffic-control-router-upgrade-ground-stop"
+          "Fox News",
+          "R",
+          "https://www.foxnews.com/politics/california-prosecutors-victim-advocates-challenge-newsoms-mass-death-sentence-commutation"
         ],
         [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+          "Washington Examiner",
+          "LR",
+          "http://www.washingtonexaminer.com/news/justice/4810735/trump-blanche-patel-take-on-newsom-commutations-california-death-sentences/"
+        ]
+      ]
+    },
+    {
+      "id": "transit",
+      "section": "local",
+      "motif": "bridge",
+      "thread": "bay-transit-measure",
+      "when": "Measure RTM",
+      "title": "Bay Area voters approved the regional transit tax that kept BART and Caltrain off the cutting block",
+      "summary": "Measure RTM, a 14-year sales tax of about $1 billion a year, passed Nov. 3; revenue begins flowing in mid-2027.",
+      "story": [
+        "Bay Area voters approved the Regional Transit Measure on Nov. 3, along with San Francisco's Muni tax, KQED and the SF Chronicle reported. Early returns showed about 61.5% yes. The measure sets a 0.5% sales tax in Alameda, Contra Costa, San Mateo and Santa Clara counties and 1% in San Francisco, for 14 years.",
+        "KQED cites about $1 billion a year, while the Chronicle's endorsement had estimated about $980 million. Money is restricted to operations, such as salaries and fleet maintenance. In Alameda County, nearly 65% of sales tax funds would go to BART operations. Without the measure, BART would have closed up to 15 stations and ended service at 9 p.m., and Caltrain would have closed a third of its stations and cut weekend service.",
+        "The tax begins to flow in mid-2027, so agencies still face a bridge period. KQED's headline said a death spiral was averted. Advocates see the vote as a shift in regional transit politics, while some riders still want service and safety improvements to match the money."
+      ],
+      "facts": [
+        "Measure RTM passed Nov. 3 with about 61.5% yes in early returns.",
+        "The tax is 0.5% in four counties and 1% in San Francisco.",
+        "It runs 14 years and raises about $1 billion a year, per KQED.",
+        "Revenue starts in mid-2027.",
+        "Alameda County sends nearly 65% of its share to BART operations."
+      ],
+      "left": "Supporters say reliable transit is regional infrastructure, and a sales tax spread across five counties spares the system from a service death spiral. They argue that cuts would have pushed riders into cars and worsened Bay Bridge traffic, which a report said would double without the measure. Transit-justice advocates note a sales tax is regressive but say service cuts hit low-income riders hardest.",
+      "right": "Fiscal conservatives say a regressive sales tax locks in 14 years of spending for agencies that have not shown they can control costs or ridership losses. They argue that money restricted to operations rewards the agencies that created the shortfall. Some suggest the state should have prioritized transit in the budget instead of asking voters. Supporters answer that the alternative was closures.",
+      "next": "Mid-2027 start of tax revenue; BART's and Caltrain's service plans before then.",
+      "src": [
+        [
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12107133/death-spiral-averted-bay-area-transit-taxes-rtm-and-prop-h-declare-victory"
         ],
         [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+          "SF Chronicle",
+          "LL",
+          "https://www.sfchronicle.com/election/article/live-results-bay-area-regional-transit-measure-22487820.php"
         ],
         [
-          "The Hill",
-          "C",
-          "https://thehill.com/homenews/administration/6241322-faa-ohare-ground-stop/"
+          "KQED",
+          "LL",
+          "https://www.kqed.org/news/12109048/rtm-measure-proposition-h-sales-tax-parcel-taxes-san-francisco-bay-area-election-results"
         ]
       ]
     },
@@ -1069,45 +1005,89 @@
       "section": "engineering",
       "motif": "pylon",
       "thread": "ai-datacenter-politics",
-      "when": "Gas for AI",
-      "title": "Data centers' own gas plants could add 152 million tons of emissions by 2035",
-      "summary": "MIT Technology Review reports developers are building off-grid gas capacity to skip interconnection queues, raising emissions estimates.",
+      "when": "Grid rules",
+      "title": "Regulators move to make data centers disclose erratic power swings",
+      "summary": "FERC ordered new reliability standards in July, and NERC is developing criteria to register data centers as grid loads.",
       "story": [
-        "MIT Technology Review reports developers are building their own natural gas plants for data centers to avoid long grid-connection delays. Cleanview data counts more than 100 such behind-the-meter projects in the U.S., with about 115 gigawatts of planned capacity (MIT Technology Review, Nov. 24).",
-        "BloombergNEF estimates that if all planned plants are built they could emit 345 million metric tons of CO2-equivalent a year by 2035, about 152 million tons more than if the same data centers used the grid (MIT Technology Review). Companies' emissions are already rising: Meta's grew 45% over last year, and Google, Amazon and Microsoft reported increases of 18%, 16% and 25% (Nov. 25 article).",
-        "On the grid, nearly half of the 200+ gigawatts queued in PJM are gas plants. A Purdue analysis says the fossil share there would rise from 61% to 67% if all were built. IEEE Spectrum has described aeroderivative turbines, which are derived from jet engines, as a bridge that runs behind the meter until the utility can deliver power.",
-        "A Duke study cited in June suggests the grid could absorb about 76 gigawatts of added data center demand if facilities cut use for only a small share of hours, an alternative to new fossil capacity."
+        "FERC issued an order on July 30 directing new reliability standards for data centers and other large computational loads, and told NERC to develop registration criteria this year, according to a law firm summary and E&E News. IEEE Spectrum's Nov. 24 headline said data centers must disclose erratic power use, regulators say.",
+        "Data centers currently do not follow the same rules as power plants for telling grid monitors when they come online and offline, and operators typically do not share data about sharp power swings. NERC's alert lists electrical size, power factor, dynamic characteristics, ramp rates, protective-device settings, on-site generation and IT versus non-IT load. Some large loads can rapidly drop or disconnect after voltage disturbances, which can affect frequency and voltage.",
+        "On the emissions side, estimates vary by baseline: TechCrunch and others report data centers could use more natural gas than Germany and Japan combined by 2035, and one analysis said 74 proposed gas plants for data centers could emit as much as Australia. Energy Secretary Chris Wright asked FERC separately for a proposal on connecting large data centers."
       ],
+      "flag": "I could not link IEEE Spectrum's Nov. 24 piece; its headline came from a search listing. A previously reported 152-million-ton emissions figure did not match any source I could find this time.",
       "facts": [
-        "Cleanview counts 100+ behind-the-meter U.S. gas projects, about 115 GW planned.",
-        "BloombergNEF: up to 345 million tons CO2e a year by 2035, 152 million more than grid supply.",
-        "Meta's emissions rose 45% in a year; Google 18%, Amazon 16%, Microsoft 25%.",
-        "About half of PJM's 200+ GW queue is gas.",
-        "A Duke study says flexible load could free about 76 GW of grid capacity."
+        "FERC's order is dated July 30, 2026.",
+        "NERC is to develop criteria to register data centers this year.",
+        "Large loads can drop off suddenly after voltage disturbances.",
+        "NERC's alert covers ramp rates, protection settings and on-site generation.",
+        "Emissions estimates differ by source and baseline."
       ],
-      "flag": "The emissions figures are projections, not measured totals.",
-      "why": "Interconnection delays, not chips, are becoming the binding constraint on AI buildout. Off-grid gas solves speed but locks in emissions and ties into the political fight over data center approvals.",
-      "next": "State utility decisions on data center interconnection and any federal permitting changes.",
+      "why": "A training cluster that swings hundreds of megawatts in seconds can stress the grid like a power plant tripping offline. Visibility rules decide how fast the AI buildout can connect without hurting reliability and costs for everyone else.",
+      "next": "NERC's registration criteria later this year and FERC's large-load interconnection proposal.",
       "src": [
         [
-          "MIT Technology Review",
+          "E&E News",
           "C",
-          "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+          "https://www.eenews.net/articles/ai-boom-sparks-rare-warning-of-significant-risks-to-grid/"
         ],
         [
-          "MIT Technology Review",
+          "Willkie Farr",
           "C",
-          "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"
+          "https://www.willkie.com/publications/2026/07/ferc-orders-new-reliability-standards-for-data-centers-and-other-computational-loads"
         ],
         [
-          "MIT Technology Review",
+          "Inside Climate News",
           "C",
-          "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/"
+          "https://insideclimatenews.org/news/18062026/federal-energy-regulatory-commission-data-center-orders/"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/"
+        ]
+      ]
+    },
+    {
+      "id": "agility",
+      "section": "engineering",
+      "motif": "automaton",
+      "when": "Humanoids",
+      "title": "Agility Robotics' Digit 5 and its stock-market debut test whether humanoids can work near people",
+      "summary": "Agility's filings show about 65,000 hours of Digit v4 operation and more than $300 million in Digit 5 orders, but small revenue so far.",
+      "story": [
+        "Agility Robotics opened a 60,000-square-foot facility to train its humanoids in Fremont in July, close to Tesla's factory, according to TechCrunch. TechCrunch described Agility as the first pure humanoid robot company on the stock market, with a SPAC merger planned under the ticker AGLT and more than $620 million sought.",
+        "Its S-1 says Digit v4 is deployed or committed across nine customer facilities, with more than 65,000 hours of real-world operation. Named customers include Schaeffler, GXO, Toyota Motor Manufacturing Canada and Mercado Libre. Digit 5, unveiled Sept. 15, is designed to work in close proximity to people, and IEEE Spectrum reports it is not yet deployed in factories.",
+        "The business is early: TechCrunch reports revenue of $174,000 in the first half of 2026, mostly from related parties. The filing cites more than $300 million in multi-year Digit 5 orders and a pipeline of more than 30 potential customers. Digit 5 would be offered as a service at around $8,500 per month, and the company says its plant could build 10,000 a year."
+      ],
+      "flag": "Reports differ on whether the $300 million in orders reflects committed contracts or a pipeline; I attribute it to the filing as reported.",
+      "facts": [
+        "Digit v4 has logged more than 65,000 hours in customer sites.",
+        "Digit 5 was unveiled Sept. 15.",
+        "First-half 2026 revenue was reported at $174,000.",
+        "The filing cites more than $300 million in Digit 5 orders.",
+        "Planned pricing is about $8,500 per month."
+      ],
+      "why": "Safe operation next to people is the main barrier to humanoids leaving cages and fenced-off cells. The gap between large reported orders and small revenue is the number to watch.",
+      "next": "Safety certification and first Digit 5 deployments, plus how AGLT trades.",
+      "src": [
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
         ],
         [
           "IEEE Spectrum",
           "C",
-          "https://spectrum.ieee.org/ai-data-centers"
+          "https://spectrum.ieee.org/humanoid-robot-safety"
+        ],
+        [
+          "SEC filing",
+          "C",
+          "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026120832/ea0312345-s1a1_agility.htm"
+        ],
+        [
+          "TechCrunch",
+          "C",
+          "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/"
         ]
       ]
     },
@@ -1115,39 +1095,44 @@
       "id": "roman",
       "section": "science",
       "motif": "satellite",
-      "when": "First images Dec. 7",
-      "title": "NASA will unveil the Roman Space Telescope's first images Dec. 7",
-      "summary": "The release is a livestream from the AGU meeting in San Francisco at 12:30 p.m. Pacific, focused on dark energy, dark matter and exoplanets.",
+      "when": "Dec. 7 reveal",
+      "title": "NASA will show Roman Space Telescope images Dec. 7, while full science starts later",
+      "summary": "A live stream at the AGU meeting in San Francisco is set for 12:30 p.m. PST; science operations are slated for January 2027.",
       "story": [
-        "NASA will release the first images from the Nancy Grace Roman Space Telescope on Monday, Dec. 7, in a livestream from the American Geophysical Union annual meeting in San Francisco, the agency says. The broadcast starts at 3:30 p.m. Eastern, 12:30 p.m. Pacific, and the images will post to NASA's website at the same time (NASA).",
-        "NASA says the images will showcase Roman's science capabilities, with a focus on dark energy, dark matter and worlds outside the solar system. Media will get an embargoed preview at AGU at noon Eastern, and reporters must register by 8 p.m. Sunday, Dec. 6.",
-        "A September NASA Science blog said the mission remains on track to release its first science images by early 2027, so the December event is a first-look reveal rather than the start of full science data. NASA is also running an Adopt a Pixel campaign tied to the first images.",
-        "Space.com has also covered the telescope's launch milestones, including its separation from its rocket in August."
+        "NASA said it will release the first images from the Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) on Monday, Dec. 7. Scientific American also reported the images are expected around the holiday season.",
+        "In September, NASA released test images in which stars appeared as green rings because the Wide Field Instrument was not yet focused. After more tuning, Roman is expected to produce Hubble-sharp images covering an area about 100 times larger, per Live Science. PetaPixel described the 300-megapixel camera as having passed its first tests a million miles away.",
+        "Timelines differ slightly: NASA's blog says the mission is on track to release first science images by early 2027, while Scientific American says science operations begin in January 2027. The December event may be a selected early look instead of the full science release."
       ],
+      "flag": "NASA's blog and the AGU announcement differ on whether Dec. 7 shows science images or early images.",
       "facts": [
-        "Release: Monday, Dec. 7, livestream at 3:30 p.m. ET (12:30 p.m. PT).",
-        "Venue: AGU annual meeting in San Francisco.",
-        "Focus: dark energy, dark matter and exoplanets.",
-        "Media embargo preview at noon ET; registration due Dec. 6.",
-        "Full science images are expected by early 2027."
+        "The reveal is Dec. 7 at 12:30 p.m. PST.",
+        "It is a live stream from AGU in San Francisco.",
+        "September test images showed unfocused stars as green rings.",
+        "The camera has 300 megapixels.",
+        "Science operations are slated for January 2027."
       ],
-      "why": "The first images set expectations for Roman's dark-energy, dark-matter and exoplanet science. The event is in San Francisco, close to home.",
-      "next": "The Dec. 7 livestream.",
+      "why": "Roman's wide field lets it survey the sky at Hubble-like sharpness, which matters for dark energy and exoplanet statistics. The December images show whether focusing is on schedule.",
+      "next": "The Dec. 7 stream; January 2027 start of science operations.",
       "src": [
+        [
+          "Scientific American",
+          "C",
+          "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-glimpses-its-first-cosmic-light/"
+        ],
+        [
+          "Live Science",
+          "C",
+          "https://livescience.com/space/astronomy/we-are-on-our-way-to-groundbreaking-science-stars-turn-neon-green-in-first-test-image-from-nasas-roman-telescope-space-photo-of-the-week"
+        ],
+        [
+          "PetaPixel",
+          "C",
+          "https://petapixel.com/2026/09/17/nasas-new-4-3-billion-300mp-space-telescope-passed-its-first-tests-one-million-miles-away/"
+        ],
         [
           "NASA",
           "C",
-          "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/"
-        ],
-        [
-          "NASA Science",
-          "C",
-          "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/romans-first-images-to-be-revealed/"
-        ],
-        [
-          "Space.com",
-          "C",
-          "https://www.space.com/space-exploration/launches-spacecraft/roman-telescope-leaves-its-rocket-behind-space-photo-of-the-day-for-aug-31-2026"
+          "https://science.nasa.gov/blogs/roman/2026/09/15/nasa-activates-romans-primary-instrument-checks-out-coronagraph/"
         ]
       ]
     },
@@ -1155,25 +1140,23 @@
       "id": "gutmicro",
       "section": "science",
       "motif": "dna",
-      "when": "Gut microbes",
-      "title": "Nature study finds gut bacteria acquire mutations as people age, with few tied to disease",
-      "summary": "A study of about 10,000 people links specific gut-bacteria mutations to ageing, including one that may help resist oxidative stress.",
+      "when": "Nature",
+      "title": "Gut bacteria pick up mutations as people age, and few are linked to disease, Nature study finds",
+      "summary": "Researchers scanned the gut bacteria of about 10,000 people and tested links to almost 250 traits.",
       "story": [
-        "A study in Nature scanned the gut bacteria of about 10,000 people for genetic variation and searched for associations with almost 250 characteristics, including age, height and cardiovascular fitness, according to a Nature News & Views commentary published Nov. 25. The authors report specific bacterial mutations that arise during human ageing, but few mutations associated with disease (Nature).",
-        "The commentary highlights one adaptation that appears to help one of the most abundant gut species resist oxidative stress, a form of cell damage that rises with age. That suggests gut bacteria evolve inside each person in response to the aging body.",
-        "The finding adds to work on how the microbiome changes through life. The commentary frames it as bacteria adapting to the host, rather than as a driver of disease.",
-        "I could read only the News & Views commentary, not the original paper, so study details such as effect sizes are not confirmed here."
+        "A Nature paper by Wang and colleagues examined genetic variation in the gut bacteria of about 10,000 people, testing associations with almost 250 characteristics, including age, height and cardiovascular fitness. Nature's news coverage said specific mutations arise in gut bacteria during human aging, and few are tied to disease.",
+        "One example is in Faecalibacterium prausnitzii, where a change alters a protein pocket that binds glutathione. The authors suggest it may affect glutathione uptake. Another adaptation appeared to help a common gut species resist oxidative stress, which rises with age.",
+        "Other work points the same way. A Nature Communications study of Asian octogenarians found a loss of gut species and greater diversity differences in extreme old age, and a separate study built a microbiota age clock from 8,115 metagenomes. I only saw summaries of these papers."
       ],
       "facts": [
-        "The study covers gut bacteria from about 10,000 people.",
-        "It tested associations with almost 250 traits, including age and fitness.",
-        "It found mutations tied to ageing but few tied to disease.",
-        "One highlighted mutation may help a common species resist oxidative stress.",
-        "Nature published the commentary Nov. 25."
+        "The paper covered about 10,000 people.",
+        "It tested links to almost 250 traits.",
+        "One variant touches a glutathione-binding pocket in F. prausnitzii.",
+        "Few mutations were tied to disease.",
+        "I reviewed summaries, not the full text."
       ],
-      "flag": "Only the Nature commentary was available; the original paper and effect sizes were not reviewed.",
-      "why": "If gut bacteria adapt measurably to an aging host, the microbiome becomes a record of host physiology and a possible target, though few disease links were found. It is early, observational work.",
-      "next": "Follow-up work testing whether the mutations affect host health.",
+      "why": "It suggests gut microbes adapt to an aging body rather than just decline, which complicates simple probiotic stories. The genetic signal could eventually predict host age.",
+      "next": "Follow-up work testing whether these mutations affect the host.",
       "src": [
         [
           "Nature",
@@ -1183,32 +1166,31 @@
         [
           "Nature",
           "C",
-          "https://www.nature.com/nature/volumes/659/issues/8142"
+          "https://www.nature.com/articles/s41586-026-11220-0"
         ]
       ]
     },
     {
       "id": "agents",
       "section": "ai",
-      "motif": "shield",
-      "when": "AI agent limits",
-      "title": "Signal joins United and banks in restricting AI agents over security and privacy",
-      "summary": "Signal limited screenshots on mobile, citing OS-level agents, as United and JPMorgan block outside agents and Walmart opens a gateway.",
+      "motif": "automaton",
+      "when": "Agents",
+      "title": "Signal joins United and big banks in limiting AI agents",
+      "summary": "Signal blocks screenshots on iOS and turns on screen security on Android when an AI assistant tries to read the screen.",
       "story": [
-        "Signal said it is limiting screenshots in its Android and iOS apps, which president Meredith Whittaker called a response to an \"existential threat\" from operating systems with built-in agentic AI (TechCrunch, Nov. 21). CNBC reports Signal joins United Airlines and major banks in limiting AI agents over customer risks (CNBC, Nov. 24).",
-        "Whittaker argued OS-level agents \"are undermining Signal's ability to independently guarantee privacy.\" Signal calls the screenshot limit incomplete because it does not stop other ways agents could access app data (TechCrunch). United said it will restrict access directly and through travel agencies and aggregators, and JPMorgan's CEO said the bank blocks external agents from acting for retail customers (CNBC).",
-        "Retail is split. Amazon has blocked Meta's Muse shopping agent, saying it violates its terms and alleging Muse stores credentials and scrapes account data. Walmart is opening its site to outside agents through a Walmart Agent Gateway that lets customers set spending limits and require approval (Axios).",
-        "TechCrunch separately reported Nov. 24 that even the best AI agents struggle with everyday tasks."
+        "Signal said it will block screenshots in its iOS app and enable screen security on Android when it detects an AI assistant trying to read the screen, TechCrunch reported Nov. 21. CNBC, on Nov. 24, put Signal alongside United Airlines, JPMorgan Chase and Charles Schwab in limiting AI agents over customer risk.",
+        "Signal president Meredith Whittaker said turning the setting off would break the app's privacy guarantees, and asked Apple, Google and Microsoft for tools to keep agents away from sensitive app data. She acknowledged the fix is incomplete and does not stop agents reading content already on a device.",
+        "On banking, eSecurityPlanet and others report that JPMorgan, Schwab, Citi, Wells Fargo and Morgan Stanley are restricting outside AI agents, with limited read-only access through approved providers. Accounts conflict on whether banks have seen rogue agents: JPMorgan's CEO said it had not observed any. American Banker asked whether the blocks are sustainable."
       ],
       "facts": [
-        "Signal limited screenshots on Android and iOS, citing built-in OS agents.",
-        "United and JPMorgan restrict outside AI agents.",
-        "Amazon blocked Meta's Muse; Walmart opened an agent gateway with customer controls.",
-        "Walmart's gateway includes spending limits and purchase approvals.",
-        "TechCrunch reports top agents still struggle with everyday tasks."
+        "Signal blocks iOS screenshots and uses Android screen security when it detects AI assistants.",
+        "United, JPMorgan and Schwab have also limited agents.",
+        "Banks allow limited read-only access through approved providers.",
+        "JPMorgan's CEO said it had not seen rogue agents.",
+        "Whittaker wants OS-level tools for developers to block agents."
       ],
-      "why": "Agents act with a user's permissions, so every site and app has to decide whether to trust them. The outcome, open standards or walled gardens, will shape how much of the web agents can use.",
-      "next": "The open standard Meta, Walmart and others are developing for agent-to-business communication.",
+      "why": "Agents that act for users collide with security and liability rules built for humans. Blocking them is a stopgap; the real fix is identity and permission standards.",
+      "next": "Whether Apple, Google and Microsoft add developer controls, and whether banks agree on identity and liability standards for agents.",
       "src": [
         [
           "CNBC",
@@ -1221,121 +1203,71 @@
           "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
         ],
         [
-          "CNBC",
+          "eSecurityPlanet",
           "C",
-          "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html"
+          "https://www.esecurityplanet.com/artificial-intelligence/news-us-banks-restrict-ai-agents-customer-accounts/"
         ],
         [
-          "Axios",
+          "American Banker",
           "C",
-          "https://www.axios.com/2026/10/21/walmart-amazon-agents-muse"
+          "https://www.americanbanker.com/news/banks-are-blocking-external-ai-agents-is-this-sustainable"
         ]
       ]
     },
     {
-      "id": "unsafe",
+      "id": "aiwar",
       "section": "ai",
-      "motif": "automaton",
-      "when": "Too unsafe to ship?",
-      "title": "Axios: staff at Anthropic and OpenAI fear unreleased models are too unsafe to release",
-      "summary": "An Axios scoop based on more than two dozen sources says internal models are powerful enough that many employees doubt they can be released safely.",
+      "motif": "shield",
+      "when": "Military AI",
+      "title": "Iran tells the UN the U.S. weaponized AI tools in strikes; U.S. filings confirm Maven use",
+      "summary": "Fox News reports Iran's UN claim; the Pentagon's AI chief has said Maven helped hit 2,000 targets in 96 hours.",
       "story": [
-        "Axios reported Nov. 24 that internal, unreleased models at Anthropic and OpenAI are becoming so powerful that many employees no longer believe they can be released safely, based on more than two dozen sources. The report is anonymously sourced, and I did not find company responses (Axios).",
-        "It follows OpenAI's Nov. 17 disclosure that GPT-6.2 Astra is its first publicly released model to reach the \"High\" threshold for AI self-improvement (Axios). Axios also ran a Nov. 19 analysis titled \"AI's great divergence: Machines accelerate as makers unravel,\" tied to Anthropic's IPO and AI research forecasts.",
-        "The market context is tense. Anthropic's stock has fallen below its IPO price, and Kalshi odds of an OpenAI IPO announcement by June 2027 dropped to about 28% (CNBC).",
-        "Microsoft has pitched the opposite story, saying its MAI Code 2 delivers 98% of GPT-6.1 Sol's performance at 40% of the price, using its own selected benchmarks (Axios)."
+        "According to a Fox News live blog dated Nov. 25, an Iranian diplomat told the UN Security Council that U.S. and Israeli forces used AI tools, including Palantir's Maven, Anthropic's Claude and Grok, in strikes. Iran's ambassador made a similar argument in a July letter to the UN.",
+        "In U.S. court filings, Pentagon AI chief Cameron Stanley said Maven Smart Systems enabled forces to deploy more than 2,000 munitions against 2,000 distinct targets within 96 hours in Operation Epic Fury, and that Grok is in use within Maven, per Khaleej Times. The Decoder reports Claude powered the Maven integration originally and was still used for the Iran war as of March.",
+        "Separately, Anthropic reported that an Iran-linked actor used Claude to produce targeting recommendations against U.S. naval forces, per Interesting Engineering. The operational details have not been independently verified."
       ],
+      "flag": "The UN statement is reported by a Fox live blog; I found no UN transcript.",
       "facts": [
-        "Axios's Nov. 24 scoop cites more than two dozen sources.",
-        "OpenAI says GPT-6.2 Astra reached its \"High\" self-improvement threshold.",
-        "Microsoft says MAI Code 2 reaches 98% of GPT-6.1 Sol at 40% of the price.",
-        "Anthropic is trading below its $83 IPO price.",
-        "Kalshi odds of an OpenAI IPO by June 2027 are near 28%."
+        "Iran's UN claim was reported Nov. 25 by Fox News.",
+        "The Pentagon's AI chief cited 2,000 munitions on 2,000 targets in 96 hours.",
+        "Grok is used inside Maven, per the filing.",
+        "Claude was reported as used in Maven's targeting workflow.",
+        "Operational details are unverified."
       ],
-      "flag": "The scoop is anonymously sourced; I did not find on-record responses from either company.",
-      "why": "If the people closest to frontier models doubt their release readiness, labs face pressure from safety concerns and from investors at the same time. Watch for whether companies delay launches.",
-      "next": "Any company response, and the next OpenAI or Anthropic model release.",
+      "left": "Critics say using unregulated commercial models to select targets at that speed raises serious accountability questions. They want transparency on human review and error rates. Some argue Iran's claims should be tested independently while U.S. admissions are taken seriously.",
+      "right": "Supporters argue AI-enabled targeting makes strikes more precise and protects U.S. forces, and that Iran's UN claim is propaganda from a regime that attacks shipping. They say the U.S. should keep an AI edge over adversaries. Some also say Congress, not the UN, is the place for oversight.",
+      "why": "It shows commercial models inside lethal targeting loops and puts accountability questions in front of the UN and U.S. courts. Anthropic is both a supplier and a target of misuse, which affects how investors and regulators view it.",
+      "next": "Any Security Council response and further court filings on military AI use.",
       "src": [
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/11/19/anthropic-ipo-ai-research-rsi-forecast"
-        ],
-        [
-          "Axios",
-          "C",
-          "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
-        ],
-        [
-          "CNBC",
-          "C",
-          "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html"
-        ]
-      ]
-    },
-    {
-      "id": "measles",
-      "section": "health",
-      "motif": "heart",
-      "when": "Measles surge",
-      "title": "Measles cases pass 5,800 as Wisconsin reports a third death",
-      "summary": "The CDC counts 5,838 cases, likely an undercount, and the U.S. has lost its measles elimination status.",
-      "story": [
-        "The CDC has confirmed 5,838 measles cases in 2026, though experts say that is a vast undercount, NBC News reports. An earlier CDC figure was 5,412 through Nov. 12, more than double the 2,289 cases in all of 2025. Wisconsin health officials reported a third death on Tuesday, with 920 cases in that state's outbreak since late summer (NBC News).",
-        "Counts of deaths differ. NBC cites state data showing twelve deaths this year, while the CDC recognizes fewer. CNN reported Nov. 17 that U.S. measles elimination status is officially gone, while Fox News said the U.S. had reportedly lost it, after 26 years.",
-        "CDC Director Erica Schwartz said MMR vaccination is the best way to prevent measles and that the agency would not change its response if elimination status were lost (CNN). NBC also reported more than 100 pregnant women confirmed with measles, and that infants too young to be vaccinated face growing risk.",
-        "Experts say about 95% of a population must be vaccinated for herd immunity."
-      ],
-      "facts": [
-        "The CDC has confirmed 5,838 cases this year.",
-        "Wisconsin reported its third measles death; its outbreak is at 920 cases.",
-        "Death counts differ between state data and the CDC.",
-        "More than 100 pregnant women have been confirmed with measles.",
-        "About 95% vaccination is needed for community immunity."
-      ],
-      "flag": "Death and case counts vary by source and date; the CDC figure is likely an undercount.",
-      "why": "Measles is among the most contagious viruses known, and a lapsed elimination status means sustained transmission. Infants and pregnant women are the most exposed.",
-      "next": "The CDC's next weekly case update and the Wisconsin outbreak count.",
-      "src": [
-        [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/health/health-news/measles-death-wisconsin-outbreak-vaccines-cdc-us-rcna611176"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/11/17/health/measles-vaccine-booster"
-        ],
-        [
-          "CNN",
-          "LL",
-          "https://www.cnn.com/2026/11/10/health/cdc-measles-elimination-response"
-        ],
         [
           "Fox News",
           "R",
-          "https://www.foxnews.com/health/us-loses-longstanding-measles-elimination-status-cases-surge-nationwide"
+          "https://foxnews.com/live-news/ai-news-iran-war-economy-china-11-25-26"
         ],
         [
-          "NBC News",
-          "LL",
-          "https://www.nbcnews.com/health/health-news/100-pregnant-women-confirmed-measles-new-report-finds-rcna609710"
+          "Khaleej Times",
+          "C",
+          "https://www.khaleejtimes.com/world/americas/elon-musk-ai-tool-grok-iran-strikes-us-government-lawsuit"
+        ],
+        [
+          "The Decoder",
+          "C",
+          "https://the-decoder.com/us-military-uses-anthropics-claude-for-ai-driven-strike-planning-in-iran-war/"
+        ],
+        [
+          "Interesting Engineering",
+          "C",
+          "https://interestingengineering.com/military/anthropic-claude-iran-us-navy-military-targeting"
         ]
       ]
     }
   ],
   "briefs": [
-    "The Fed's preferred gauge, October PCE, rose 3.8% (3.3% core), and traders priced about a 98% chance of a quarter-point hike on Dec. 9 as of Monday; Gov. Christopher Waller has floated 50 basis points (CNBC). Jobless claims fell to 189,000 and Q3 GDP was revised to 4.3% (Axios).",
-    "Senate Democrats vote by secret ballot Dec. 1 on a leader. Schumer says he has the votes, and the Boston Globe reports four senators have said they will back Chris Van Hollen (Boston Globe).",
-    "Alameda County's immigration legal partnership has documented more than 30 immigration arrests this month, seven of them Fremont residents, and ICE vehicles have appeared in Santa Clara County jail lots (KQED).",
-    "ESA's Euclid telescope found its first comet, C/2026 S1, between Jupiter and Saturn, using images from Sept. 16 to 24 (Space.com).",
-    "Trump told European leaders on a Berlin call that Putin wants a deal; the group is coordinating ahead of another round of talks with Russia (Axios, Nov. 20).",
-    "OpenAI is merging Chat and Work for some Pro users with a shared usage meter, and plans to bring shared limits more broadly in December (TechCrunch)."
+    "Measles: CDC counted 5,838 U.S. cases in 2026 through Nov. 19, versus 2,289 in all of 2025, and the U.S. lost its elimination status, Axios and CNN report; deaths range from 10 (ABC) to 12 (NBC, citing state health departments).",
+    "California voters rejected Prop. 40, the billionaire tax, 52.8% to 47.2% and passed Prop. 42, which bans new wealth taxes, CalMatters reported; opponents spent $378 million.",
+    "Pacifica Pier's closed end collapsed in huge waves and San Francisco recorded its highest November tide on record, the SF Chronicle reported; the Posey Tube reopened early Wednesday.",
+    "The FAA is testing routers from Texas and Arkansas at an L3Harris lab in Florida after the nationwide ground stop, and has found no evidence of a cyberattack, AIN reported.",
+    "Ukraine talks: after Nov. 10-11 U.S.-mediated talks in Abu Dhabi, Zelensky said negotiators floated a Donbas-for-NATO swap, CNN reported; I found nothing newer.",
+    "Fremont's Nov. 3 results favored incumbents Campbell and Kimberlin, with Li leading the open seat, per Local News Matters."
   ]
 }
