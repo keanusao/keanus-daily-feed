@@ -1,23 +1,16 @@
 {
-  "updatedAt": "2026-11-28T03:51:19Z",
+  "updatedAt": "2026-11-28T12:54:08Z",
   "weather": {
     "place": "Fremont, CA",
     "tz": "America/Los_Angeles",
     "current": {
-      "temp": 55.1,
-      "feels": 51.0,
-      "hum": 64,
-      "wind": 5.6,
+      "temp": 52.8,
+      "feels": 50.4,
+      "hum": 80,
+      "wind": 3.5,
       "cond": "cloudy"
     },
     "days": [
-      {
-        "date": "2026-11-26",
-        "hi": 64,
-        "lo": 46,
-        "cond": "cloudy",
-        "pop": 0
-      },
       {
         "date": "2026-11-27",
         "hi": 65,
@@ -28,37 +21,44 @@
       {
         "date": "2026-11-28",
         "hi": 68,
-        "lo": 49,
+        "lo": 50,
         "cond": "cloudy",
         "pop": 1
       },
       {
         "date": "2026-11-29",
-        "hi": 64,
+        "hi": 62,
         "lo": 51,
         "cond": "rain",
-        "pop": 87
+        "pop": 97
       },
       {
         "date": "2026-11-30",
-        "hi": 63,
+        "hi": 65,
         "lo": 56,
         "cond": "drizzle",
-        "pop": 55
+        "pop": 41
       },
       {
         "date": "2026-12-01",
-        "hi": 62,
-        "lo": 54,
-        "cond": "cloudy",
-        "pop": 49
+        "hi": 64,
+        "lo": 55,
+        "cond": "drizzle",
+        "pop": 32
       },
       {
         "date": "2026-12-02",
-        "hi": 63,
-        "lo": 50,
-        "cond": "partly",
+        "hi": 65,
+        "lo": 51,
+        "cond": "cloudy",
         "pop": 1
+      },
+      {
+        "date": "2026-12-03",
+        "hi": 62,
+        "lo": 51,
+        "cond": "cloudy",
+        "pop": 16
       }
     ]
   },
@@ -234,11 +234,11 @@
       {
         "symbol": "BTC-USD",
         "name": "Bitcoin",
-        "price": "$59,865",
-        "raw": 59864.56,
-        "change": "-0.00%",
-        "dir": "flat",
-        "time": 1795837873,
+        "price": "$59,182",
+        "raw": 59181.97,
+        "change": "-1.14%",
+        "dir": "down",
+        "time": 1795870445,
         "spark": [
           81267.59,
           77775.11,
@@ -270,7 +270,8 @@
           59747.77,
           60378.2,
           60494.71,
-          59864.56
+          59866.37,
+          59181.97
         ]
       }
     ],
